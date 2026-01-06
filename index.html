@@ -1,32 +1,10 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" class="scroll-smooth">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elton Brahja | Web & Graphic Design</title>
-    <style>
-    /* Nasconde i controlli video su tutti i browser */
-    video::-webkit-media-controls {
-        display: none !important;
-    }
-    video::-webkit-media-controls-start-playback-button {
-        display: none !important;
-        -webkit-appearance: none;
-    }
-    video::-webkit-media-controls-play-button {
-        display: none !important;
-    }
-    video::-webkit-media-controls-panel {
-        display: none !important;
-    }
-            <style>
-        .scrollbar-hide::-webkit-scrollbar { display: none; }
-        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
-    </style>
-        
-    
-	</style>
-    <!-- Tailwind CSS -->
+    <meta name="description" content="Elton Brahja | Sviluppatore Web & UI Designer. Siti web performanti, logica scientifica e design moderno.">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -36,24 +14,17 @@
               primary: '#0f172a', // Slate 900
               secondary: '#1e293b', // Slate 800
               accent: '#38bdf8', // Sky 400
-              text: '#f8fafc', // Slate 50
-              muted: '#94a3b8', // Slate 400
             },
             fontFamily: {
               sans: ['Inter', 'sans-serif'],
             },
             animation: {
               'fade-in': 'fadeIn 0.5s ease-out forwards',
-              'slide-up': 'slideUp 0.5s ease-out forwards',
             },
             keyframes: {
               fadeIn: {
                 '0%': { opacity: '0' },
                 '100%': { opacity: '1' },
-              },
-              slideUp: {
-                '0%': { opacity: '0', transform: 'translateY(20px)' },
-                '100%': { opacity: '1', transform: 'translateY(0)' },
               },
             },
           },
@@ -61,752 +32,538 @@
       };
     </script>
     
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    
-    <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
 
     <style>
-      body {
-        font-family: 'Inter', sans-serif;
-        background-color: #0f172a;
-        color: #f8fafc;
-        scroll-behavior: smooth;
-      }
-      /* Custom scrollbar */
-      ::-webkit-scrollbar {
-        width: 8px;
-      }
-      ::-webkit-scrollbar-track {
-        background: #0f172a;
-      }
-      ::-webkit-scrollbar-thumb {
-        background: #334155;
-        border-radius: 4px;
-      }
-      ::-webkit-scrollbar-thumb:hover {
-        background: #475569;
-      }
-    </style>
-<script type="importmap">
-{
-  "imports": {
-    "react": "https://esm.sh/react@^19.2.3",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-    "react/": "https://esm.sh/react@^19.2.3/",
-    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
-    "@google/genai": "https://esm.sh/@google/genai@^1.34.0"
-  }
-}
-</script>
-</head>
-<body class="bg-primary text-text min-h-screen">
+        /* Base Styles */
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        
+        /* Video Controls Hide */
+        video::-webkit-media-controls { display: none !important; }
+        video::-webkit-media-controls-start-playback-button { display: none !important; -webkit-appearance: none; }
+        
+        /* Custom Scrollbar (Globale) */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0f172a; }
+        ::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #475569; }
 
-    <!-- HEADER -->
+        /* Utility: Nascondi scrollbar orizzontale nelle card */
+        .scrollbar-hide::-webkit-scrollbar { display: none; }
+        .scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+
+<body class="bg-primary text-slate-50 min-h-screen selection:bg-blue-500 selection:text-white">
+
     <header id="main-header" class="fixed w-full top-0 z-50 transition-all duration-300 py-6">
         <div class="container mx-auto px-6 flex justify-between items-center">
-            <!-- Logo -->
-            <div class="text-2xl font-bold tracking-tighter text-white cursor-pointer" onclick="scrollToSection('home')">
-                ELTON<span class="text-accent">.</span>
+            <div class="text-2xl font-bold tracking-tighter text-white cursor-pointer select-none" onclick="scrollToSection('home')">
+                ELTON<span class="text-accent ml-2">BRAHJA</span>
             </div>
 
-            <!-- Desktop Nav -->
             <nav class="hidden md:flex gap-8">
                 <button onclick="scrollToSection('home')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Home</button>
-                <button onclick="scrollToSection('about')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Chi Sono</button>
-                <button onclick="scrollToSection('services')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Servizi</button>
+                <button onclick="scrollToSection('chi-sono')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Chi Sono</button>
+                <button onclick="scrollToSection('servizi')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Servizi</button>
                 <button onclick="scrollToSection('portfolio')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Portfolio</button>
-                <button onclick="scrollToSection('contact')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Contatti</button>
+                <button onclick="scrollToSection('contatti')" class="text-sm font-medium text-slate-300 hover:text-accent transition-colors uppercase tracking-wider">Contatti</button>
             </nav>
 
-            <!-- Mobile Menu Button -->
-            <button class="md:hidden text-white" onclick="toggleMobileMenu()">
+            <button class="md:hidden text-white hover:text-accent transition-colors" onclick="toggleMobileMenu()">
                 <i data-lucide="menu" id="menu-icon"></i>
             </button>
         </div>
 
-        <!-- Mobile Nav Overlay -->
         <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-slate-900 border-b border-slate-800 p-6 flex flex-col gap-4 shadow-2xl animate-fade-in md:hidden">
             <button onclick="scrollToSection('home')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Home</button>
-            <button onclick="scrollToSection('about')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Chi Sono</button>
-            <button onclick="scrollToSection('services')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Servizi</button>
+            <button onclick="scrollToSection('chi-sono')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Chi Sono</button>
+            <button onclick="scrollToSection('servizi')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Servizi</button>
             <button onclick="scrollToSection('portfolio')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800">Portfolio</button>
-            <button onclick="scrollToSection('contact')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800 border-0">Contatti</button>
+            <button onclick="scrollToSection('contatti')" class="text-left text-lg font-medium text-slate-300 hover:text-accent py-2 border-b border-slate-800 border-0">Contatti</button>
         </div>
     </header>
 
-    <!-- MAIN CONTENT -->
     <main>
-        <!-- HERO SECTION -->
-                <section id="home" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
-
+        
+        <section id="home" class="relative w-full h-screen flex items-center justify-center overflow-hidden">
             <video autoplay muted loop playsinline poster="poster.jpg" class="absolute top-0 left-0 w-full h-full object-cover z-0">
                 <source src="video-hero.mp4" type="video/mp4">
             </video>
-
             <div class="absolute top-0 left-0 w-full h-full bg-slate-900/80 z-10"></div>
 
             <div class="relative z-20 text-center px-4 max-w-5xl mx-auto">
-
                 <span class="text-blue-400 font-bold tracking-widest uppercase mb-4 block text-sm md:text-base">
                     Sviluppo Web & Digital Solutions
                 </span>
-
                 <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
                     Trasformo la tua visione in <br class="hidden md:block" />
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">risultati digitali concreti</span>.
                 </h1>
-
                 <p class="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed font-light">
                     Sono <strong>Elton</strong>. Unisco il rigore del metodo scientifico alle tecnologie web più recenti. 
                     Non creo semplici siti vetrina, ma piattaforme veloci e moderne progettate per far crescere la tua attività.
                 </p>
-
                 <div class="flex flex-col sm:flex-row gap-5 justify-center items-center">
-
                     <a href="#contatti" class="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-full font-bold transition-all shadow-lg shadow-blue-600/30 transform hover:-translate-y-1">
                         Parliamo del tuo Progetto
                     </a>
-
                     <a href="#portfolio" class="px-8 py-4 border border-white/30 hover:border-white hover:bg-white/10 text-white rounded-full font-semibold transition-all backdrop-blur-sm">
-                        Guarda come lavoro
+                        Guarda i miei lavori
                     </a>
                 </div>
             </div>
         </section>
 
-        <!-- ABOUT SECTION -->
-                           <section id="chi-sono" class="pt-24 pb-40 bg-slate-900 relative overflow-hidden">
-    <div class="container mx-auto px-4">
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            
-            <div class="flex flex-col gap-10 max-w-md mx-auto lg:mx-0">
-                
-                <div class="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 group">
-                    <img 
-						    src="foto-profilo.webp" 
-						    alt="Elton Brahja" 
-						    loading="lazy"
-						    width="600" height="800"
-						    class="w-full h-full object-cover hover:scale-105 transition duration-700"
-						>
+        <section id="chi-sono" class="pt-24 pb-40 bg-slate-900 relative overflow-hidden">
+            <div class="container mx-auto px-4">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
                     
-                    <div class="absolute bottom-4 right-4 backdrop-blur-md bg-black/60 border border-white/10 py-2 px-4 rounded-full flex items-center gap-3 shadow-lg transition-transform hover:scale-105">
-                        <span class="relative flex h-3 w-3">
-                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                          <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
-                        </span>
-                        <span class="text-white text-xs font-bold uppercase tracking-wider">Disponibile per nuovi progetti</span>
-                    </div>
-                </div>
+                    <div class="flex flex-col gap-10 max-w-md mx-auto lg:mx-0">
+                        <div class="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border border-slate-700 group">
+                            <img 
+                                    src="foto-profilo.webp" 
+                                    alt="Elton Brahja" 
+                                    loading="lazy"
+                                    width="600" height="800"
+                                    class="w-full h-full object-cover hover:scale-105 transition duration-700"
+                                >
+                            <div class="absolute bottom-4 right-4 backdrop-blur-md bg-black/60 border border-white/10 py-2 px-4 rounded-full flex items-center gap-3 shadow-lg transition-transform hover:scale-105">
+                                <span class="relative flex h-3 w-3">
+                                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                  <span class="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
+                                </span>
+                                <span class="text-white text-xs font-bold uppercase tracking-wider">Disponibile per nuovi progetti</span>
+                            </div>
+                        </div>
 
-                <div class="group cursor-default perspective-1000">
-                    <div class="relative p-6 rounded-xl border border-transparent hover:border-blue-500/30 hover:bg-slate-800/30 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_10px_30px_-10px_rgba(59,130,246,0.3)]">
-                        <div class="absolute left-0 top-6 bottom-6 w-1 bg-slate-700 group-hover:bg-blue-500 transition-colors duration-500 rounded-full"></div>
+                        <div class="group cursor-default perspective-1000">
+                            <div class="relative p-6 rounded-xl border border-transparent hover:border-blue-500/30 hover:bg-slate-800/30 transition-all duration-500 ease-out hover:-translate-y-2 hover:shadow-[0_10px_30px_-10px_rgba(59,130,246,0.3)]">
+                                <div class="absolute left-0 top-6 bottom-6 w-1 bg-slate-700 group-hover:bg-blue-500 transition-colors duration-500 rounded-full"></div>
+                                <div class="pl-6">
+                                    <p class="text-slate-300 text-lg font-light italic leading-relaxed group-hover:text-white transition-colors duration-300">
+                                        "Il tuo sito non deve solo esistere, deve performare."
+                                    </p>
+                                    <p class="text-blue-500 text-sm font-bold mt-3 tracking-widest uppercase opacity-80 group-hover:opacity-100 transition-opacity">
+                                        — Elton Brahja
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col justify-center pt-4">
+                        <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Chi Sono</span>
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-8 leading-tight">
+                            Un approccio <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">scientifico</span> <br> 
+                            al tuo successo digitale.
+                        </h2>
                         
-                        <div class="pl-6">
-                            <p class="text-slate-300 text-lg font-light italic leading-relaxed group-hover:text-white transition-colors duration-300">
-                                "Il tuo sito non deve solo esistere, deve performare."
+                        <div class="space-y-6 text-lg text-slate-300 font-light leading-relaxed mb-12">
+                            <p>
+                                La passione per l'informatica è il mio motore, la competenza tecnica è il mio carburante. 
+                                Diplomato in <strong class="text-white font-semibold">Scienze Applicate</strong> e studente di <strong class="text-white font-semibold">Informatica all'Università di Bari</strong>, non mi limito a "fare siti".
                             </p>
-                            <p class="text-blue-500 text-sm font-bold mt-3 tracking-widest uppercase opacity-80 group-hover:opacity-100 transition-opacity">
-                                — Elton Brahja
+                            <p>
+                                Porto nel tuo progetto il <strong>rigore analitico</strong> necessario per costruire piattaforme solide. 
+                                Mentre il web si evolve, il mio percorso di studi mi permette di distinguere le mode passeggere dalle tecnologie che portano valore reale al tuo business.
                             </p>
+                        </div>
+
+                        <div class="grid gap-6">
+                            <div class="p-5 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-blue-500/50 hover:bg-slate-800 transition-all duration-300 flex items-start gap-4 group">
+                                <div class="p-3 bg-blue-500/10 rounded-lg text-blue-400 group-hover:text-blue-300 group-hover:scale-110 transition-all">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-lg">Metodo Analitico</h4>
+                                    <p class="text-slate-400 text-sm mt-1 leading-relaxed">Analisi logica del problema prima di scrivere una singola riga di codice.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="p-5 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-purple-500/50 hover:bg-slate-800 transition-all duration-300 flex items-start gap-4 group">
+                                <div class="p-3 bg-purple-500/10 rounded-lg text-purple-400 group-hover:text-purple-300 group-hover:scale-110 transition-all">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold text-lg">Tecnologia Aggiornata</h4>
+                                    <p class="text-slate-400 text-sm mt-1 leading-relaxed">Sviluppo con gli stack moderni (React, Tailwind) studiati in ambito universitario.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
+        </section>
+        
+        <section id="servizi" class="py-24 bg-slate-950 relative overflow-hidden">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl bg-blue-500/5 blur-[120px] rounded-full pointer-events-none"></div>
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 32px 32px;"></div>
 
-            <div class="flex flex-col justify-center pt-4">
+            <div class="container mx-auto px-4 relative z-10">
                 
-                <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Chi Sono</span>
-                
-                <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-8 leading-tight">
-                    Un approccio <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">scientifico</span> <br> 
-                    al tuo successo digitale.
-                </h2>
-                
-                <div class="space-y-6 text-lg text-slate-300 font-light leading-relaxed mb-12">
-                    <p>
-                        La passione per l'informatica è il mio motore, la competenza tecnica è il mio carburante. 
-                        Diplomato in <strong class="text-white font-semibold">Scienze Applicate</strong> e studente di <strong class="text-white font-semibold">Informatica all'Università di Bari</strong>, non mi limito a "fare siti".
-                    </p>
-
-                    <p>
-                        Porto nel tuo progetto il <strong>rigore analitico</strong> necessario per costruire piattaforme solide. 
-                        Mentre il web si evolve, il mio percorso di studi mi permette di distinguere le mode passeggere dalle tecnologie che portano valore reale al tuo business.
+                <div class="text-center max-w-3xl mx-auto mb-20">
+                    <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Competenze Tecniche</span>
+                    <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">
+                        Logica e <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Creatività</span>.
+                    </h2>
+                    <p class="text-slate-400 text-lg leading-relaxed">
+                        Unisco il rigore dello sviluppo software alla sensibilità estetica. 
+                        Perché un sito veloce deve essere anche bello da vedere.
                     </p>
                 </div>
 
-                <div class="grid gap-6">
-                    <div class="p-5 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-blue-500/50 hover:bg-slate-800 transition-all duration-300 flex items-start gap-4 group">
-                        <div class="p-3 bg-blue-500/10 rounded-lg text-blue-400 group-hover:text-blue-300 group-hover:scale-110 transition-all">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10">
+                        <div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform duration-500">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path class="animate-draw-1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16"></path>
+                                <path class="animate-draw-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 8l4 4-4 4"></path>
+                                <path class="animate-draw-3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 16l-4-4 4-4"></path>
+                            </svg>
                         </div>
-                        <div>
-                            <h4 class="text-white font-bold text-lg">Metodo Analitico</h4>
-                            <p class="text-slate-400 text-sm mt-1 leading-relaxed">Analisi logica del problema prima di scrivere una singola riga di codice.</p>
+                        <h3 class="text-2xl font-bold text-white mb-4">Sviluppo Full-Code</h3>
+                        <p class="text-slate-400 leading-relaxed mb-6 text-sm">Niente costruttori automatici pesanti. Scrivo codice HTML5 e CSS semantico per garantire un sito leggero e personalizzabile.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Architettura pulita</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Zero dipendenze inutili</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Manutenzione Codice</li>
+                        </ul>
+                    </div>
+
+                    <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/10">
+                        <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 mb-6 group-hover:scale-110 transition-all duration-500">
+                            <svg class="w-8 h-8 transition-all duration-500 group-hover:fill-purple-500 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485"></path>
+                            </svg>
                         </div>
+                        <h3 class="text-2xl font-bold text-white mb-4">UI/UX & Identity</h3>
+                        <p class="text-slate-400 leading-relaxed mb-6 text-sm">L'occhio vuole la sua parte. Studio l'identità visiva del tuo brand per trasmettere professionalità al primo sguardo.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Analisi Palette & Tipografia</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Elaborazione Asset Digitali</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Design System coerente</li>
+                        </ul>
+                    </div>
+
+                    <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-green-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-green-500/20">
+                        <div class="w-14 h-14 bg-green-500/10 rounded-xl flex items-center justify-center text-green-400 mb-6 group-hover:scale-110 group-hover:text-green-500 group-hover:bg-green-500/20 transition-all duration-500">
+                            <svg class="w-8 h-8 transition-all duration-500 group-hover:fill-current" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-white mb-4">Audit & Performance</h3>
+                        <p class="text-slate-400 leading-relaxed mb-6 text-sm">Ottimizzazione matematica delle risorse. Analizzo e correggo i colli di bottiglia per garantire punteggi elevati su Google Lighthouse.</p>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Caricamento istantaneo</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Ottimizzazione Mobile</li>
+                            <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> SEO Impeccabile</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="mt-16 text-center">
+                    <p class="text-slate-400 mb-6">Hai un progetto in mente?</p>
+                    <a href="#contatti" class="inline-flex items-center gap-2 text-white font-bold border-b-2 border-blue-500 hover:text-blue-400 transition-colors pb-1">
+                        Parliamone insieme
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="bg-slate-900 py-32 border-t border-slate-800">
+            <div class="container mx-auto px-6">
+                
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+                    <div class="max-w-2xl">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
+                            Progetti <span class="text-indigo-500">Effettuati</span>
+                        </h2>
+                        <p class="text-slate-400 text-lg leading-relaxed">
+                            Dalla gestione complessa tramite CMS alla purezza del codice custom.
+                        </p>
                     </div>
                     
-                    <div class="p-5 rounded-xl bg-slate-800/40 border border-slate-700 hover:border-purple-500/50 hover:bg-slate-800 transition-all duration-300 flex items-start gap-4 group">
-                        <div class="p-3 bg-purple-500/10 rounded-lg text-purple-400 group-hover:text-purple-300 group-hover:scale-110 transition-all">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
-                        </div>
-                        <div>
-                            <h4 class="text-white font-bold text-lg">Tecnologia Aggiornata</h4>
-                            <p class="text-slate-400 text-sm mt-1 leading-relaxed">Sviluppo con gli stack moderni (React, Tailwind) studiati in ambito universitario.</p>
-                        </div>
+                    <div class="hidden md:flex items-center gap-2 text-slate-500 text-sm font-mono">
+                        <span>Scorri i progetti</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 animate-pulse">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+                        </svg>
                     </div>
                 </div>
 
-            </div>
-
-        </div>
-    </div>
-</section>
-        
-        
-        <!-- SERVICES SECTION -->
-        <section id="servizi" class="py-24 bg-slate-950 relative overflow-hidden">
-    
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full max-w-4xl bg-blue-500/5 blur-[120px] rounded-full pointer-events-none"></div>
-    <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 32px 32px;"></div>
-
-    <div class="container mx-auto px-4 relative z-10">
-        
-        <div class="text-center max-w-3xl mx-auto mb-20">
-            <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Competenze Tecniche</span>
-            <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">
-                Ingegneria e <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Creatività</span>.
-            </h2>
-            <p class="text-slate-400 text-lg leading-relaxed">
-                Unisco il rigore dello sviluppo software alla sensibilità estetica. 
-                Perché un sito veloce deve essere anche bello da vedere.
-            </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            
-            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-blue-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-blue-500/10">
-                <div class="w-14 h-14 bg-blue-500/10 rounded-xl flex items-center justify-center text-blue-400 mb-6 group-hover:scale-110 transition-transform duration-500">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path class="animate-draw-1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16"></path>
-                        <path class="animate-draw-2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M18 8l4 4-4 4"></path>
-                        <path class="animate-draw-3" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 16l-4-4 4-4"></path>
-                    </svg>
-                </div>
-                
-                <h3 class="text-2xl font-bold text-white mb-4">Sviluppo Full-Code</h3>
-                <p class="text-slate-400 leading-relaxed mb-6 text-sm">
-                    Niente costruttori automatici pesanti. Scrivo codice HTML5 e CSS semantico per garantire un sito leggero, sicuro e completamente personalizzabile.
-                </p>
-                
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Architettura pulita</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Zero dipendenze inutili</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span> Manutenzione Codice</li>
-                </ul>
-            </div>
-
-            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-purple-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-purple-500/10">
-                <div class="w-14 h-14 bg-purple-500/10 rounded-xl flex items-center justify-center text-purple-400 mb-6 group-hover:scale-110 transition-all duration-500">
-                    <svg class="w-8 h-8 transition-all duration-500 group-hover:fill-purple-500 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485"></path>
-                    </svg>
-                </div>
-                
-                <h3 class="text-2xl font-bold text-white mb-4">UI/UX & Identity</h3>
-                <p class="text-slate-400 leading-relaxed mb-6 text-sm">
-                    L'occhio vuole la sua parte, ma il cervello vuole chiarezza. Studio l'identità visiva del tuo brand per trasmettere professionalità al primo sguardo.
-                </p>
-                
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Analisi Palette & Tipografia</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Elaborazione Asset Digitali</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-purple-500 rounded-full"></span> Design System coerente</li>
-                </ul>
-            </div>
-
-            <div class="group p-8 rounded-2xl bg-slate-900 border border-slate-800 hover:border-green-500/50 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-green-500/20">
-                <div class="w-14 h-14 bg-green-500/10 rounded-xl flex items-center justify-center text-green-400 mb-6 group-hover:scale-110 group-hover:text-green-500 group-hover:bg-green-500/20 transition-all duration-500">
-                    <svg class="w-8 h-8 transition-all duration-500 group-hover:fill-current" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
-                </div>
-                
-                <h3 class="text-2xl font-bold text-white mb-4">Audit & Performance</h3>
-                <p class="text-slate-400 leading-relaxed mb-6 text-sm">
-                    Ottimizzazione matematica delle risorse. Analizzo e correggo i colli di bottiglia per garantire punteggi elevati su Google Lighthouse e SEO tecnica.
-                </p>
-                
-                <ul class="space-y-3">
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Caricamento istantaneo</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> Ottimizzazione Mobile</li>
-                    <li class="flex items-center gap-3 text-slate-300 text-sm"><span class="w-1.5 h-1.5 bg-green-500 rounded-full"></span> SEO Impeccabile</li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="mt-16 text-center">
-            <p class="text-slate-400 mb-6">Hai un progetto in mente?</p>
-            <a href="#contatti" class="inline-flex items-center gap-2 text-white font-bold border-b-2 border-blue-500 hover:text-blue-400 transition-colors pb-1">
-                Parliamone insieme
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-            </a>
-        </div>
-
-    </div>
-</section>
-
-        <!-- PORTFOLIO SECTION -->
-        <section id="portfolio" class="bg-slate-900 py-32 border-t border-slate-800">
-    <div class="container mx-auto px-6">
-        
-        <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-            <div class="max-w-2xl">
-                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
-                    Case Studies <span class="text-indigo-500">Selezionati</span>
-                </h2>
-                <p class="text-slate-400 text-lg leading-relaxed">
-                    Dalla gestione complessa tramite CMS alla purezza del codice custom.
-                </p>
-            </div>
-            
-            <div class="hidden md:flex items-center gap-2 text-slate-500 text-sm font-mono">
-                <span>Scorri i progetti</span>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 animate-pulse">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                </svg>
-            </div>
-        </div>
-
-        <div class="flex overflow-x-auto snap-x snap-mandatory gap-8 pb-12 -mx-6 px-6 scrollbar-hide">
+                <div class="flex overflow-x-auto snap-x snap-mandatory gap-8 pb-12 -mx-6 px-6 scrollbar-hide">
 
                     <article class="min-w-[300px] md:min-w-[450px] snap-center bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 group cursor-pointer hover:border-indigo-500/50 transition-all duration-300">
-    <div class="h-64 overflow-hidden relative">
-        <img src="portfolio-psicologa.jpg" alt="Sito web WordPress per Dr.ssa Alessandra Marascio" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
-    </div>
-    <div class="p-6 md:p-8">
-        <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 text-xs font-bold tracking-wide text-blue-300 bg-blue-500/10 rounded-full border border-blue-500/20">WORDPRESS</span>
-            <span class="px-3 py-1 text-xs font-bold tracking-wide text-indigo-300 bg-indigo-500/10 rounded-full border border-indigo-500/20">LATEPOINT BOOKING</span>
-        </div>
-        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">Studio Dr.ssa Marascio</h3>
-        <p class="text-slate-400 leading-relaxed mb-6">
-            Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti e layout responsive.
-        </p>
-        <a href="https://www.alessandra-marascio-psicologa.it/" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
-            Visita Sito Live <span aria-hidden="true">&rarr;</span>
-        </a>
-    </div>
-</article>
+                        <div class="h-64 overflow-hidden relative">
+                            <img 
+                                    src="portfolio-psicologa.webp" 
+                                    alt="Sito web WordPress per Dr.ssa Alessandra Marascio" 
+                                    loading="lazy"
+                                    class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110"
+                                >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                        </div>
+                        <div class="p-6 md:p-8">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 text-xs font-bold tracking-wide text-blue-300 bg-blue-500/10 rounded-full border border-blue-500/20">WORDPRESS</span>
+                                <span class="px-3 py-1 text-xs font-bold tracking-wide text-indigo-300 bg-indigo-500/10 rounded-full border border-indigo-500/20">LATEPOINT BOOKING</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">Studio Dr.ssa Marascio</h3>
+                            <p class="text-slate-400 leading-relaxed mb-6">Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.</p>
+                            <a href="https://www.alessandra-marascio-psicologa.it/" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
+                                Visita Sito Live <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
 
-<article class="min-w-[300px] md:min-w-[450px] snap-center bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 group cursor-pointer hover:border-indigo-500/50 transition-all duration-300">
-    <div class="h-64 overflow-hidden relative">
-        <img src="portfolio-eltonsito.jpg" alt="Interfaccia utente del portfolio personale" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
-    </div>
-    <div class="p-6 md:p-8">
-        <div class="flex flex-wrap gap-2 mb-4">
-            <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">HTML5 PURO</span>
-            <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">TAILWIND CSS</span>
-        </div>
-        <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">Portfolio "No-Bloat"</h3>
-        <p class="text-slate-400 leading-relaxed mb-6">
-            Sviluppato con architettura "Zero-Framework". Codice scritto a mano per garantire il controllo totale sul rendering, accessibilità nativa e zero dipendenze superflue.
-        </p>
-        <a href="#" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2 cursor-default">
-            Stai navigando questo progetto
-        </a>
-    </div>
-</article>
+                    <article class="min-w-[300px] md:min-w-[450px] snap-center bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 group cursor-pointer hover:border-indigo-500/50 transition-all duration-300">
+                        <div class="h-64 overflow-hidden relative">
+                            <img 
+                                    src="portfolio-eltonsito.webp" 
+                                    alt="Interfaccia utente del portfolio personale" 
+                                    loading="lazy"
+                                    class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110"
+                                >
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                        </div>
+                        <div class="p-6 md:p-8">
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">HTML5 PURO</span>
+                                <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">TAILWIND CSS</span>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-3 group-hover:text-indigo-400 transition-colors">Portfolio "No-Bloat"</h3>
+                            <p class="text-slate-400 leading-relaxed mb-6">Sviluppato con architettura "Zero-Framework". Codice scritto a mano per garantire il controllo totale sul rendering e zero dipendenze.</p>
+                            <a href="#" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2 cursor-default">
+                                Stai navigando questo progetto
+                            </a>
+                        </div>
+                    </article>
 
-<article class="min-w-[300px] md:min-w-[450px] snap-center bg-slate-900/50 rounded-2xl border-2 border-dashed border-slate-800 flex flex-col items-center justify-center text-center p-6 md:p-8 opacity-75 hover:opacity-100 hover:border-slate-700 transition-all">
-    <div class="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center mb-6 text-slate-500">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
-        </svg>
-    </div>
-    <h3 class="text-xl font-bold text-white mb-2">Prossimo Progetto</h3>
-    <p class="text-slate-400 max-w-xs mx-auto text-sm">
-        Sperimentazione con API e automazione dei dati.
-    </p>
-    <span class="mt-6 text-xs font-mono text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded">Work in Progress</span>
-</article>
+                    <article class="min-w-[300px] md:min-w-[450px] snap-center bg-slate-900/50 rounded-2xl border-2 border-dashed border-slate-800 flex flex-col items-center justify-center text-center p-6 md:p-8 opacity-75 hover:opacity-100 hover:border-slate-700 transition-all">
+                        <div class="w-16 h-16 bg-slate-800 rounded-full flex items-center justify-center mb-6 text-slate-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Prossimo Progetto</h3>
+                        <p class="text-slate-400 max-w-xs mx-auto text-sm">Sperimentazione con API e automazione dei dati.</p>
+                        <span class="mt-6 text-xs font-mono text-indigo-400 bg-indigo-500/10 px-3 py-1 rounded">Work in Progress</span>
+                    </article>
 
-        </div>
-    </div>
-</section>
+                </div>
+            </div>
+        </section>
 
-        <!-- CONTACT SECTION -->
         <footer id="contatti" class="bg-slate-950 pt-24 pb-12 relative overflow-hidden border-t border-slate-900">
-    
-    <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 32px 32px;"></div>
+            <div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(#4f46e5 1px, transparent 1px); background-size: 32px 32px;"></div>
 
-    <div class="container mx-auto px-6 relative z-10">
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
-            
-            <div>
-                <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Canali di Comunicazione</span>
-                <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-8">
-                    Iniziamo una <br>
-                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">collaborazione</span>.
-                </h2>
-                <p class="text-slate-400 text-lg leading-relaxed mb-12">
-                    Hai un progetto complesso o un'idea che richiede precisione tecnica? 
-                    Compila il terminale a destra o usa i canali diretti. Rispondo solitamente entro 24 ore.
-                </p>
-
-                <div class="space-y-6">
-                    <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-blue-500 shrink-0">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                        </div>
-                        <div>
-                            <h4 class="text-white font-bold">Email</h4>
-                            <a href="mailto:elton.brahja.s@gmail.com" class="text-slate-400 hover:text-blue-400 transition-colors">elton.brahja.s@gmail.com</a>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-green-500 shrink-0">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                        </div>
-                        <div>
-                            <h4 class="text-white font-bold">Telefono</h4>
-                            <a href="tel:+393519989647" class="text-slate-400 hover:text-green-400 transition-colors">+39 351 998 9647</a>
-                        </div>
-                    </div>
-
-                    <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-purple-500 shrink-0">
-                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
-                        </div>
-                        <div>
-                            <h4 class="text-white font-bold">Sede Operativa</h4>
-                            <p class="text-slate-400">Santeramo in colle (BA), Italia</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="mt-12 flex gap-4">
-                    <a href="https://github.com/eltonbrahja" target="_blank" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-white hover:text-black transition-all duration-300">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-                    </a>
-                    <a href="https://www.linkedin.com/in/elton-brahja-7b90963a1/" target="_blank" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-[#0077b5] hover:text-white transition-all duration-300">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
-                    </a>
-                    <a href="https://instagram.com/elton.brahja" target="_blank" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 transition-all duration-300">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 relative">
-                <form action="https://formspree.io/f/xpqwdgoa" method="POST" class="space-y-5">
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
                     
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-                        <div class="space-y-2">
-                            <label for="name" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Nome</label>
-                            <input type="text" name="name" id="name" required placeholder="Il tuo nome" 
-                                class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors">
+                    <div>
+                        <span class="text-blue-500 font-bold tracking-widest uppercase text-sm mb-4 block">Canali di Comunicazione</span>
+                        <h2 class="text-4xl md:text-5xl font-extrabold text-white mb-8">
+                            Iniziamo una <br>
+                            <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">collaborazione</span>.
+                        </h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-12">
+                            Hai un progetto complesso o un'idea che richiede precisione tecnica? 
+                            Compila il terminale a destra o usa i canali diretti. Risposta entro 48 ore.
+                        </p>
+
+                        <div class="space-y-6">
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-blue-500 shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold">Email</h4>
+                                    <a href="mailto:elton.brahja.s@gmail.com" class="text-slate-400 hover:text-blue-400 transition-colors">elton.brahja.s@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-green-500 shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold">Telefono</h4>
+                                    <a href="tel:+393519989647" class="text-slate-400 hover:text-green-400 transition-colors">+39 351 998 9647</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="w-12 h-12 bg-slate-900 rounded-lg border border-slate-800 flex items-center justify-center text-purple-500 shrink-0">
+                                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-white font-bold">Sede Operativa</h4>
+                                    <p class="text-slate-400">Santeramo in colle (BA), Italia</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="space-y-2">
-                            <label for="email" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Email</label>
-                            <input type="email" name="email" id="email" required placeholder="latua@email.com" 
-                                class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors">
+
+                       <div class="mt-12 flex gap-4">
+                            <a href="https://github.com/eltonbrahja" target="_blank" aria-label="Visita il mio profilo GitHub" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-white hover:text-black transition-all duration-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/elton-brahja-7b90963a1/" target="_blank" aria-label="Visita il mio profilo LinkedIn" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-[#0077b5] hover:text-white transition-all duration-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </a>
+                            <a href="https://instagram.com/elton.brahja" target="_blank" aria-label="Visita il mio profilo Instagram" class="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-white hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 transition-all duration-300">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                            </a>
                         </div>
                     </div>
 
-                    <div class="space-y-2">
-                        <label for="subject" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oggetto</label>
-                        <select name="subject" id="subject" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors">
-                            <option value="Sviluppo Web">Sviluppo Nuovo Sito</option>
-                            <option value="Restyling">Restyling / Ottimizzazione</option>
-                            <option value="Consulenza">Consulenza Tecnica</option>
-                            <option value="Altro">Altro</option>
-                        </select>
-                    </div>
-
-                    <div class="space-y-2">
-                        <label for="message" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Dettagli Progetto</label>
-                        <textarea name="message" id="message" rows="4" required placeholder="Descrivi brevemente di cosa hai bisogno..." 
-                            class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors resize-none"></textarea>
-                    </div>
-
-                    <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2">
-                        Invia Richiesta
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
-                    </button>
-
-                </form>
-            </div>
-
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-8 relative">
+                        <form action="https://formspree.io/f/xpqwdgoa" method="POST" class="space-y-5">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                                <div class="space-y-2">
+                                    <label for="name" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Nome</label>
+                                    <input type="text" name="name" id="name" required placeholder="Il tuo nome" 
+                                        class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors">
+                                </div>
+                                <div class="space-y-2">
+                                    <label for="email" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Email</label>
+                                    <input type="email" name="email" id="email" required placeholder="latua@email.com" 
+                                        class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors">
+                                </div>
+                            </div>
+                           <div class="space-y-2">
+    <label for="subject" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Oggetto</label>
+    
+    <div class="relative">
+        <select name="subject" id="subject" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 transition-colors appearance-none cursor-pointer">
+            <option value="Sviluppo Web" class="bg-slate-900">Sviluppo Nuovo Sito</option>
+            <option value="Restyling" class="bg-slate-900">Restyling / Ottimizzazione</option>
+            <option value="Consulenza" class="bg-slate-900">Consulenza Tecnica</option>
+            <option value="Altro" class="bg-slate-900">Altro</option>
+        </select>
+        
+        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-slate-500">
+            <svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
         </div>
-
-        <div class="border-t border-slate-900 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
-            <p>&copy; 2026 Elton Brahja. Code is Art.</p>
-            <div class="flex gap-6 mt-4 md:mt-0">
-                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-                <a href="#" class="hover:text-white transition-colors">Termini di Servizio</a>
-            </div>
-        </div>
-
     </div>
-</footer>
+</div>
+                            <div class="space-y-2">
+                                <label for="message" class="text-xs font-bold text-slate-500 uppercase tracking-wider">Dettagli Progetto</label>
+                                <textarea name="message" id="message" rows="4" required placeholder="Descrivi brevemente di cosa hai bisogno..." 
+                                    class="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white placeholder-slate-600 focus:outline-none focus:border-blue-500 transition-colors resize-none"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 rounded-lg transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2">
+                                Invia Richiesta
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="border-t border-slate-900 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
+                    <p>&copy; 2026 Elton Brahja. Code is Art.</p>
+                    <div class="flex gap-6 mt-4 md:mt-0">
+    <a href="privacy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+    
+    <a href="privacy.html" class="hover:text-white transition-colors">Note Legali</a>
+</div>
+                </div>
+            </div>
+        </footer>
+
     </main>
 
-    
-
-    <!-- JAVASCRIPT LOGIC -->
     <script>
-        // --- DATA ---
-        const SERVICES = [
-            { id: 1, title: 'Web Design & Development', description: 'Siti web moderni, responsive e performanti costruiti con tecnologie all\'avanguardia (React, Tailwind, Next.js).', icon: 'layout' },
-            { id: 2, title: 'Graphic Design', description: 'Materiale visivo d\'impatto per social media, stampa e pubblicità digitale.', icon: 'palette' },
-            { id: 3, title: 'Brand Identity', description: 'Creazione di loghi e identità visive complete per rendere il tuo brand unico e riconoscibile.', icon: 'pen-tool' },
-        ];
+        // 1. Inizializza Icone Lucide
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+        });
 
-        const PROJECTS = [
-            {
-                id: 1,
-                title: 'E-Commerce Moda',
-                category: 'Web Design',
-                image: 'https://picsum.photos/800/600?random=1',
-                description: 'Piattaforma e-commerce minimale per un brand di moda emergente.',
-                tags: ['React', 'Shopify', 'UX/UI'],
-                link: 'https://example.com/fashion-store'
-            },
-            {
-                id: 2,
-                title: 'Rebranding Aziendale',
-                category: 'Branding',
-                image: 'https://picsum.photos/800/600?random=2',
-                description: 'Riprogettazione completa dell\'identità visiva per una startup tech.',
-                tags: ['Logo', 'Brand Book', 'Stationery'],
-                link: 'https://example.com/rebrand'
-            },
-            {
-                id: 3,
-                title: 'App Finanziaria',
-                category: 'Web Design',
-                image: 'https://picsum.photos/800/600?random=3',
-                description: 'Dashboard intuitiva per la gestione delle finanze personali.',
-                tags: ['Dashboard', 'React', 'Data Viz'],
-                link: 'https://example.com/finance-app'
-            },
-            {
-                id: 4,
-                title: 'Poster Evento Musicale',
-                category: 'Graphic Design',
-                image: 'https://picsum.photos/800/600?random=4',
-                description: 'Serie di poster promozionali per un festival jazz estivo.',
-                tags: ['Print', 'Typography', 'Art Direction'],
-                link: 'https://example.com/jazz-festival'
-            },
-            {
-                id: 5,
-                title: 'Sito Ristorante Luxury',
-                category: 'Web Design',
-                image: 'https://picsum.photos/800/600?random=5',
-                description: 'Sito vetrina con sistema di prenotazione per un ristorante stellato.',
-                tags: ['Animation', 'Photography', 'Booking'],
-                link: 'https://example.com/restaurant'
-            },
-            {
-                id: 6,
-                title: 'Social Media Kit',
-                category: 'Graphic Design',
-                image: 'https://picsum.photos/800/600?random=6',
-                description: 'Template editabili per post Instagram e LinkedIn.',
-                tags: ['Social Media', 'Canva', 'Content'],
-                link: 'https://example.com/social-kit'
+        // 2. Scroll fluido per i link interni
+        function scrollToSection(id) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+                // Chiude menu mobile se aperto
+                const mobileMenu = document.getElementById('mobile-menu');
+                if (!mobileMenu.classList.contains('hidden')) {
+                    toggleMobileMenu();
+                }
             }
-        ];
+        }
 
-        const SKILLS = ["Sviluppo Web Full Stack", "UI/UX Design Intuitivo", "Brand Identity Forte", "Ottimizzazione SEO", "Responsive Design", "Supporto Continuo"];
-
-        // --- GLOBAL FUNCTIONS FOR HTML ACCESS ---
-        window.scrollToSection = (id) => {
-            document.getElementById('mobile-menu').classList.add('hidden');
-            document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-        };
-
-        window.toggleMobileMenu = () => {
+        // 3. Gestione Menu Mobile
+        function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
-            menu.classList.toggle('hidden');
             const icon = document.getElementById('menu-icon');
-            if(menu.classList.contains('hidden')) {
+            
+            menu.classList.toggle('hidden');
+            
+            // Cambia icona (Menu <-> X)
+            if (menu.classList.contains('hidden')) {
                 icon.setAttribute('data-lucide', 'menu');
             } else {
                 icon.setAttribute('data-lucide', 'x');
             }
-            lucide.createIcons();
-        };
+            lucide.createIcons(); // Ricarica icone nuove
+        }
 
-        // --- INITIALIZATION ---
-        document.addEventListener('DOMContentLoaded', () => {
-            lucide.createIcons();
-            renderSkills();
-            renderServices();
-            renderPortfolio('All');
-            initHeaderScroll();
-            initContactForm();
+        // 4. Header Trasparente -> Opaco allo scroll
+        const header = document.getElementById('main-header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.remove('py-6', 'bg-transparent');
+                header.classList.add('bg-slate-900/90', 'backdrop-blur-md', 'shadow-lg', 'border-b', 'border-white/10', 'py-4');
+            } else {
+                header.classList.add('py-6', 'bg-transparent');
+                header.classList.remove('bg-slate-900/90', 'backdrop-blur-md', 'shadow-lg', 'border-b', 'border-white/10', 'py-4');
+            }
         });
 
-        // --- RENDERING ---
-        function renderSkills() {
-            const container = document.getElementById('skills-list');
-            container.innerHTML = SKILLS.map(skill => `
-                <div class="flex items-center gap-3">
-                   <i data-lucide="check-circle-2" class="text-accent shrink-0" width="20"></i>
-                   <span class="text-slate-300">${skill}</span>
-                 </div>
-            `).join('');
-        }
-
-        function renderServices() {
-            const container = document.getElementById('services-grid');
-            container.innerHTML = SERVICES.map(service => `
-                <div class="group p-8 bg-slate-900 rounded-2xl border border-slate-700 hover:border-accent transition-colors duration-300 relative overflow-hidden">
-                    <div class="absolute top-0 right-0 w-24 h-24 bg-accent/5 rounded-bl-[100px] -mr-4 -mt-4 transition-transform group-hover:scale-150 duration-500"></div>
-                    <div class="w-14 h-14 bg-slate-800 rounded-xl flex items-center justify-center text-accent mb-6 group-hover:bg-accent group-hover:text-slate-900 transition-colors duration-300">
-                        <i data-lucide="${service.icon}" width="32"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-white mb-3">${service.title}</h3>
-                    <p class="text-muted leading-relaxed group-hover:text-slate-300 transition-colors">${service.description}</p>
-                </div>
-            `).join('');
-        }
-
-        window.filterPortfolio = (category) => {
-            renderPortfolio(category);
-        };
-
-        function renderPortfolio(filter) {
-            // Filters
-            const categories = ['All', 'Web Design', 'Graphic Design', 'Branding'];
-            const filterContainer = document.getElementById('portfolio-filters');
-            filterContainer.innerHTML = categories.map(cat => `
-                <button onclick="filterPortfolio('${cat}')" class="px-4 py-2 rounded-full text-sm font-medium transition-all ${filter === cat ? 'bg-white text-slate-900 shadow-lg' : 'bg-slate-800 text-muted hover:text-white hover:bg-slate-700 border border-slate-700'}">
-                    ${cat}
-                </button>
-            `).join('');
-
-            // Grid
-            const grid = document.getElementById('portfolio-grid');
-            const filtered = filter === 'All' ? PROJECTS : PROJECTS.filter(p => p.category === filter);
-            
-            grid.innerHTML = filtered.map(project => `
-                <div class="group rounded-xl overflow-hidden bg-secondary border border-slate-700 hover:shadow-2xl hover:shadow-accent/10 transition-all duration-300 hover:-translate-y-2">
-                    <div class="relative overflow-hidden aspect-[4/3]">
-                        <img src="${project.image}" alt="${project.title}" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
-                        <div class="absolute inset-0 bg-slate-900/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                            <a href="${project.link}" target="_blank" class="px-6 py-3 bg-accent text-slate-900 font-bold rounded-full transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex items-center gap-2 hover:bg-white">
-                                Vedi Progetto <i data-lucide="external-link" width="16"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex justify-between items-start mb-2">
-                            <h3 class="text-xl font-bold text-white group-hover:text-accent transition-colors">${project.title}</h3>
-                            <span class="text-xs font-semibold px-2 py-1 bg-slate-800 rounded border border-slate-700 text-muted">${project.category}</span>
-                        </div>
-                        <p class="text-muted text-sm mb-4 line-clamp-2">${project.description}</p>
-                        <div class="flex flex-wrap gap-2">
-                            ${project.tags.map(tag => `<span class="text-xs text-slate-400">#${tag}</span>`).join('')}
-                        </div>
-                    </div>
-                </div>
-            `).join('');
-            
-            lucide.createIcons();
-        }
-
-        function initHeaderScroll() {
-            window.addEventListener('scroll', () => {
-                const header = document.getElementById('main-header');
-                if (window.scrollY > 50) {
-                    header.classList.add('bg-slate-900/90', 'backdrop-blur-md', 'border-b', 'border-slate-800', 'shadow-lg', 'py-4');
-                    header.classList.remove('py-6');
-                } else {
-                    header.classList.remove('bg-slate-900/90', 'backdrop-blur-md', 'border-b', 'border-slate-800', 'shadow-lg', 'py-4');
-                    header.classList.add('py-6');
-                }
-            });
-        }
-
-        function initContactForm() {
-            const form = document.getElementById('contact-form');
-            const btn = document.getElementById('submit-btn');
-            
-            form.addEventListener('submit', (e) => {
-                e.preventDefault();
-                const originalContent = btn.innerHTML;
-                
-                // Loading state
-                btn.disabled = true;
-                btn.innerHTML = 'Invio in corso...';
-                
-                // Simulate sending
-                setTimeout(() => {
-                    btn.innerHTML = 'Messaggio Inviato!';
-                    btn.classList.remove('bg-accent', 'text-slate-900', 'hover:bg-sky-300');
-                    btn.classList.add('bg-green-500', 'text-white');
-                    form.reset();
-                    
-                    setTimeout(() => {
-                        btn.innerHTML = originalContent;
-                        btn.classList.add('bg-accent', 'text-slate-900', 'hover:bg-sky-300');
-                        btn.classList.remove('bg-green-500', 'text-white');
-                        btn.disabled = false;
-                        lucide.createIcons();
-                    }, 3000);
-                }, 1500);
-            });
-        }
+        // 5. Autoplay Video (Fallback iOS/PowerSaving)
+        const heroVideo = document.querySelector('video');
+        document.addEventListener('visibilitychange', function() {
+            if (!document.hidden && heroVideo && heroVideo.paused) {
+                heroVideo.play().catch(e => console.log("Autoplay preventivo bloccato"));
+            }
+        });
+        document.addEventListener('touchstart', function() {
+            if (heroVideo && heroVideo.paused) heroVideo.play();
+        }, { once: true });
     </script>
-    <script>
-    const header = document.getElementById('main-header');
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-slate-900/95 border-t border-slate-800 p-6 z-50 backdrop-blur-sm transform translate-y-full transition-transform duration-500 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-4">
+    <div class="text-sm text-slate-300 text-center md:text-left max-w-3xl">
+        <p>
+            <strong>Questo sito usa cookie tecnici.</strong> Niente tracciamento invasivo, solo il necessario per funzionare e garantirti un'esperienza fluida. 
+            Leggi la <a href="privacy.html" class="text-blue-400 underline hover:text-white">Privacy Policy</a> per i dettagli tecnici.
+        </p>
+    </div>
+    <div class="flex gap-4">
+        <button onclick="acceptCookies()" class="px-6 py-2 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-full transition-all text-sm shadow-lg shadow-blue-500/20">
+            Accetto e Continuo
+        </button>
+    </div>
+</div>
 
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 50) {
-            // QUANDO SCORRI: Diventa scuro, sfocato e un po' più basso (py-4)
-            header.classList.remove('py-6', 'bg-transparent');
-            header.classList.add('bg-slate-900/90', 'backdrop-blur-md', 'shadow-lg', 'border-b', 'border-white/10', 'py-4');
-        } else {
-            // QUANDO SEI IN CIMA: Torna trasparente e alto (py-6)
-            header.classList.add('py-6', 'bg-transparent');
-            header.classList.remove('bg-slate-900/90', 'backdrop-blur-md', 'shadow-lg', 'border-b', 'border-white/10', 'py-4');
-        }
-    });
-</script>
-    <script>
-    // Seleziona il video
-    const heroVideo = document.querySelector('video');
-
-    // Quando la pagina torna visibile (utente torna sul sito)
-    document.addEventListener('visibilitychange', function() {
-        if (!document.hidden && heroVideo) {
-            // Prova a farlo ripartire
-            heroVideo.play().catch(function(e) {
-                console.log("Autoplay bloccato dal browser (risparmio energetico)");
-            });
+<script>
+    // Logica Cookie Banner
+    document.addEventListener('DOMContentLoaded', () => {
+        // Se non ha già accettato, mostra il banner dopo 1 secondo
+        if (!localStorage.getItem('cookieConsent')) {
+            setTimeout(() => {
+                document.getElementById('cookie-banner').classList.remove('translate-y-full');
+            }, 1000);
         }
     });
 
-    // Sicurezza extra per iPhone: prova a farlo partire anche se tocchi lo schermo
-    document.addEventListener('touchstart', function() {
-        if (heroVideo.paused) {
-            heroVideo.play();
-        }
-    }, { once: true }); // Lo fa solo al primo tocco
+    function acceptCookies() {
+        // Salva la scelta nel browser
+        localStorage.setItem('cookieConsent', 'true');
+        // Nascondi il banner
+        document.getElementById('cookie-banner').classList.add('translate-y-full');
+    }
 </script>
 </body>
 </html>
