@@ -58,4 +58,18 @@ Options -Indexes
   # Favicon
   ExpiresByType image/x-icon "access plus 1 year"
 </IfModule>
+
+
+# ----------------------------------------------------------------------
+# 5. SICUREZZA: Protezione Hotlink (Anti-Furto Immagini)
+# ----------------------------------------------------------------------
+# Blocca i siti esterni che cercano di caricare le tue immagini
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?elton-brahja.great-site.net [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?bing.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?yahoo.com [NC]
+RewriteRule \.(jpg|jpeg|png|gif|webp|svg)$ - [NC,F,L]
+
 # END WordPress
