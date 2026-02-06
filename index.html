@@ -286,131 +286,154 @@
         </div>
 
         <!-- Portfolio Carousel -->
-        <div class="relative max-w-4xl mx-auto">
+        <section id="portfolio" class="bg-slate-900 py-32 border-t border-slate-800 relative overflow-hidden">
+    <div class="container mx-auto px-6">
+        
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
+                Progetti <span class="text-indigo-500">Effettuati</span>
+            </h2>
+            <p class="text-slate-400 text-lg leading-relaxed max-w-2xl mx-auto">
+                Dalla gestione complessa tramite CMS alla purezza del codice custom.
+            </p>
+        </div>
+
+        <!-- Portfolio Carousel Wrapper -->
+        <div class="relative">
             
-            <!-- Container Progetti -->
-            <div id="portfolio-carousel" class="overflow-hidden rounded-2xl">
-                <div id="portfolio-track" class="flex transition-transform duration-500 ease-out">
-                    
-                    <!-- Progetto 1: Psicologa -->
-                    <article class="min-w-full flex-shrink-0">
-                        <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
-                            <div class="h-80 overflow-hidden relative">
-                                <img 
-                                    src="portfolio-psicologa.webp" 
-                                    alt="Sito web WordPress per Dr.ssa Alessandra Marascio" 
-                                    loading="lazy"
-                                    class="w-full h-full object-cover"
-                                >
-                                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
-                            </div>
-                            <div class="p-8">
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-blue-300 bg-blue-500/10 rounded-full border border-blue-500/20">WORDPRESS</span>
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-indigo-300 bg-indigo-500/10 rounded-full border border-indigo-500/20">LATEPOINT BOOKING</span>
+            <!-- Container Progetti - SENZA PADDING -->
+            <div class="max-w-5xl mx-auto overflow-hidden">
+                <div id="portfolio-carousel" class="relative">
+                    <div id="portfolio-track" class="flex transition-transform duration-500 ease-out">
+                        
+                        <!-- Progetto 1: Psicologa -->
+                        <div class="w-full flex-shrink-0 flex justify-center px-4">
+                            <article class="w-full max-w-4xl">
+                                <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
+                                    <div class="h-80 overflow-hidden relative">
+                                        <img 
+                                            src="portfolio-psicologa.webp" 
+                                            alt="Sito web WordPress per Dr.ssa Alessandra Marascio" 
+                                            loading="lazy"
+                                            class="w-full h-full object-cover"
+                                        >
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                                    </div>
+                                    <div class="p-8">
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-blue-300 bg-blue-500/10 rounded-full border border-blue-500/20">WORDPRESS</span>
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-indigo-300 bg-indigo-500/10 rounded-full border border-indigo-500/20">LATEPOINT BOOKING</span>
+                                        </div>
+                                        <h3 class="text-2xl font-bold text-white mb-3">Studio Dr.ssa Marascio</h3>
+                                        <p class="text-slate-400 leading-relaxed mb-6">Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.</p>
+                                        <a href="https://www.alessandra-marascio-psicologa.it/" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
+                                            Visita Sito Live <span aria-hidden="true">&rarr;</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <h3 class="text-2xl font-bold text-white mb-3">Studio Dr.ssa Marascio</h3>
-                                <p class="text-slate-400 leading-relaxed mb-6">Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.</p>
-                                <a href="https://www.alessandra-marascio-psicologa.it/" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
-                                    Visita Sito Live <span aria-hidden="true">&rarr;</span>
-                                </a>
-                            </div>
+                            </article>
                         </div>
-                    </article>
 
-                    <!-- Progetto 2: Portfolio Personale -->
-                    <article class="min-w-full flex-shrink-0">
-                        <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
-                            <div class="h-80 overflow-hidden relative">
-                                <img 
-                                    src="portfolio-eltonsito.webp" 
-                                    alt="Interfaccia utente del portfolio personale" 
-                                    loading="lazy"
-                                    class="w-full h-full object-cover"
-                                >
-                                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
-                            </div>
-                            <div class="p-8">
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">HTML5 PURO</span>
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">TAILWIND CSS</span>
+                        <!-- Progetto 2: Portfolio Personale -->
+                        <div class="w-full flex-shrink-0 flex justify-center px-4">
+                            <article class="w-full max-w-4xl">
+                                <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
+                                    <div class="h-80 overflow-hidden relative">
+                                        <img 
+                                            src="portfolio-eltonsito.webp" 
+                                            alt="Interfaccia utente del portfolio personale" 
+                                            loading="lazy"
+                                            class="w-full h-full object-cover"
+                                        >
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                                    </div>
+                                    <div class="p-8">
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">HTML5 PURO</span>
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">TAILWIND CSS</span>
+                                        </div>
+                                        <h3 class="text-2xl font-bold text-white mb-3">Portfolio "No-Bloat"</h3>
+                                        <p class="text-slate-400 leading-relaxed mb-6">Sviluppato con architettura "Zero-Framework". Codice scritto a mano per garantire il controllo totale sul rendering e zero dipendenze.</p>
+                                        <span class="text-indigo-400 font-semibold text-sm flex items-center gap-2">
+                                            Stai navigando questo progetto
+                                        </span>
+                                    </div>
                                 </div>
-                                <h3 class="text-2xl font-bold text-white mb-3">Portfolio "No-Bloat"</h3>
-                                <p class="text-slate-400 leading-relaxed mb-6">Sviluppato con architettura "Zero-Framework". Codice scritto a mano per garantire il controllo totale sul rendering e zero dipendenze.</p>
-                                <span class="text-indigo-400 font-semibold text-sm flex items-center gap-2">
-                                    Stai navigando questo progetto
-                                </span>
-                            </div>
+                            </article>
                         </div>
-                    </article>
 
-                    <!-- Progetto 3: Nova Finance -->
-                    <article class="min-w-full flex-shrink-0">
-                        <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
-                            <div class="h-80 overflow-hidden relative">
-                                <img 
-                                    src="portfolio-novafinance.webp" 
-                                    alt="Nova Finance Dashboard - React PWA" 
-                                    loading="lazy"
-                                    class="w-full h-full object-cover"
-                                >
-                                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
-                            </div>
-                            <div class="p-8">
-                                <div class="flex flex-wrap gap-2 mb-4">
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">REACT 19</span>
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-violet-300 bg-violet-500/10 rounded-full border border-violet-500/20">PWA</span>
-                                    <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">LOCALSTORAGE</span>
+                        <!-- Progetto 3: Nova Finance -->
+                        <div class="w-full flex-shrink-0 flex justify-center px-4">
+                            <article class="w-full max-w-4xl">
+                                <div class="bg-slate-950 rounded-2xl overflow-hidden border border-slate-800 hover:border-indigo-500/50 transition-all duration-300">
+                                    <div class="h-80 overflow-hidden relative">
+                                        <img 
+                                            src="portfolio-novafinance.webp" 
+                                            alt="Nova Finance Dashboard - React PWA" 
+                                            loading="lazy"
+                                            class="w-full h-full object-cover"
+                                        >
+                                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                                    </div>
+                                    <div class="p-8">
+                                        <div class="flex flex-wrap gap-2 mb-4">
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-cyan-300 bg-cyan-500/10 rounded-full border border-cyan-500/20">REACT 19</span>
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-violet-300 bg-violet-500/10 rounded-full border border-violet-500/20">PWA</span>
+                                            <span class="px-3 py-1 text-xs font-bold tracking-wide text-emerald-300 bg-emerald-500/10 rounded-full border border-emerald-500/20">LOCALSTORAGE</span>
+                                        </div>
+                                        <h3 class="text-2xl font-bold text-white mb-3">Nova Finance</h3>
+                                        <p class="text-slate-400 leading-relaxed mb-6">Dashboard "Personal Wealth" completa. Monitoraggio asset, grafici interattivi e timeline. Installabile come App e privacy-first (nessun dato in cloud).</p>
+                                        <div class="flex gap-4">
+                                            <a href="https://novafinance.42web.io/?i=1" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
+                                                Demo Live <span aria-hidden="true">&rarr;</span>
+                                            </a>
+                                            <a href="https://github.com/eltonbrahja/NovaFinances" target="_blank" class="text-slate-500 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
+                                                Codice GitHub <span aria-hidden="true">&rarr;</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h3 class="text-2xl font-bold text-white mb-3">Nova Finance</h3>
-                                <p class="text-slate-400 leading-relaxed mb-6">Dashboard "Personal Wealth" completa. Monitoraggio asset, grafici interattivi e timeline. Installabile come App e privacy-first (nessun dato in cloud).</p>
-                                <div class="flex gap-4">
-                                    <a href="https://novafinance.42web.io/?i=1" target="_blank" class="text-indigo-400 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
-                                        Demo Live <span aria-hidden="true">&rarr;</span>
-                                    </a>
-                                    <a href="https://github.com/eltonbrahja/NovaFinances" target="_blank" class="text-slate-500 font-semibold text-sm hover:text-white transition-colors flex items-center gap-2">
-                                        Codice GitHub <span aria-hidden="true">&rarr;</span>
-                                    </a>
+                            </article>
+                        </div>
+
+                        <!-- Progetto 4: Coming Soon -->
+                        <div class="w-full flex-shrink-0 flex justify-center px-4">
+                            <article class="w-full max-w-4xl">
+                                <div class="bg-slate-900/50 rounded-2xl border-2 border-dashed border-slate-800 flex flex-col items-center justify-center text-center p-16 min-h-[600px]">
+                                    <div class="w-20 h-20 bg-slate-800 rounded-full flex items-center justify-center mb-8 text-slate-500">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                                            <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+                                        </svg>
+                                    </div>
+                                    <h3 class="text-2xl font-bold text-white mb-4">Prossimo Progetto</h3>
+                                    <p class="text-slate-400 max-w-md mx-auto text-base mb-8">Sperimentazione con API e automazione dei dati.</p>
+                                    <span class="text-xs font-mono text-indigo-400 bg-indigo-500/10 px-4 py-2 rounded">Work in Progress</span>
                                 </div>
-                            </div>
+                            </article>
                         </div>
-                    </article>
 
-                    <!-- Progetto 4: Coming Soon -->
-                    <article class="min-w-full flex-shrink-0">
-                        <div class="bg-slate-900/50 rounded-2xl border-2 border-dashed border-slate-800 flex flex-col items-center justify-center text-center p-16 min-h-[600px]">
-                            <div class="w-20 h-20 bg-slate-800 rounded-full flex items-center justify-center mb-8 text-slate-500">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75 16.5 12l-2.25 2.25m-4.5 0L7.5 12l2.25-2.25M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
-                                </svg>
-                            </div>
-                            <h3 class="text-2xl font-bold text-white mb-4">Prossimo Progetto</h3>
-                            <p class="text-slate-400 max-w-md mx-auto text-base mb-8">Sperimentazione con API e automazione dei dati.</p>
-                            <span class="text-xs font-mono text-indigo-400 bg-indigo-500/10 px-4 py-2 rounded">Work in Progress</span>
-                        </div>
-                    </article>
-
+                    </div>
                 </div>
             </div>
 
             <!-- Frecce Navigazione -->
-            <button id="prev-btn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-16 z-10 w-14 h-14 bg-slate-800 hover:bg-indigo-600 text-white rounded-full flex items-center justify-center transition-all shadow-xl opacity-80 hover:opacity-100 disabled:opacity-20 disabled:cursor-not-allowed">
+            <button id="prev-btn" class="absolute left-0 top-1/2 -translate-y-1/2 md:-translate-x-6 z-20 w-14 h-14 bg-slate-800/80 backdrop-blur-sm hover:bg-indigo-600 text-white rounded-full flex items-center justify-center transition-all shadow-2xl opacity-80 hover:opacity-100 disabled:opacity-20 disabled:cursor-not-allowed">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7"/>
                 </svg>
             </button>
 
-            <button id="next-btn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-16 z-10 w-14 h-14 bg-slate-800 hover:bg-indigo-600 text-white rounded-full flex items-center justify-center transition-all shadow-xl opacity-80 hover:opacity-100 disabled:opacity-20 disabled:cursor-not-allowed">
+            <button id="next-btn" class="absolute right-0 top-1/2 -translate-y-1/2 md:translate-x-6 z-20 w-14 h-14 bg-slate-800/80 backdrop-blur-sm hover:bg-indigo-600 text-white rounded-full flex items-center justify-center transition-all shadow-2xl opacity-80 hover:opacity-100 disabled:opacity-20 disabled:cursor-not-allowed">
                 <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
                 </svg>
             </button>
 
-            <!-- Indicatori Pallini -->
-            <div id="portfolio-dots" class="flex justify-center gap-2 mt-10">
-                <!-- Generati dinamicamente da JavaScript -->
-            </div>
+        </div>
 
+        <!-- Indicatori Pallini -->
+        <div id="portfolio-dots" class="flex justify-center gap-2 mt-12">
+            <!-- Generati dinamicamente da JavaScript -->
         </div>
 
     </div>
