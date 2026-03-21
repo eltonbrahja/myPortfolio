@@ -96,22 +96,25 @@
 
 .scroll-indicator {
   position: absolute;
-  bottom: 40px;
+  bottom: 15vh; /* Alza sensibilmente per evitare il taglio del viewport */
   left: 50%;
   transform: translateX(-50%);
-  z-index: 20;
+  z-index: 50; /* Sopra la nebbia e il bg */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
-  color: rgba(255, 255, 255, 0.5);
+  gap: 12px;
+  color: #ffffff;
+  opacity: 0.85; /* Molto più luminoso */
+  text-shadow: 0 2px 8px rgba(0,0,0,0.9);
   animation: bounce 2s infinite;
+  pointer-events: none;
 }
 
 .scroll-text {
-  font-size: 11px;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.15em;
   font-weight: 600;
 }
 
