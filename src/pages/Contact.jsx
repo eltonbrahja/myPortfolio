@@ -1,10 +1,32 @@
-import React from 'react';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { Mail, Phone, MapPin, Send, ChevronDown } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import './Contact.css';
 
 const Contact = () => {
+  const [subjectOpen, setSubjectOpen] = useState(false);
+  const [selectedSubject, setSelectedSubject] = useState("Sviluppo Nuovo Sito");
+  const selectRef = useRef(null);
+
+  const subjectOptions = [
+    "Sviluppo Nuovo Sito",
+    "Restyling / Ottimizzazione",
+    "Consulenza Tecnica",
+    "Altro"
+  ];
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (selectRef.current && !selectRef.current.contains(e.target)) {
+        setSubjectOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
   return (
     <PageTransition>
       <div className="contact-container">
@@ -17,8 +39,8 @@ const Contact = () => {
               <span className="text-gradient">collaborazione</span>.
             </h2>
             <p className="contact-desc">
-              Hai un progetto complesso o un'idea che richiede precisione tecnica? 
-              Compila il form o usa i canali diretti. Risposta entro 48 ore.
+              Hai un progetto o un'idea che richiede precisione tecnica? 
+              Compila il form o usa i canali diretti. Risposta rapida entro 24-48 ore.
             </p>
 
             <div className="contact-methods">
@@ -59,15 +81,41 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="form-group">
-                <label htmlFor="subject">Oggetto</label>
-                <div className="select-wrapper">
-                  <select id="subject" name="subject">
-                    <option value="Sviluppo Web">Sviluppo Nuovo Sito</option>
-                    <option value="Restyling">Restyling / Ottimizzazione</option>
-                    <option value="Consulenza">Consulenza Tecnica</option>
-                    <option value="Altro">Altro</option>
-                  </select>
+              <div className="form-group" ref={selectRef}>
+                <label>Oggetto</label>
+                <div className="custom-select-container">
+                  <div 
+                    className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
+                    onClick={() => setSubjectOpen(!subjectOpen)}
+                  >
+                    {selectedSubject}
+                    <ChevronDown size={16} className={`select-icon ${subjectOpen ? 'open' : ''}`} />
+                  </div>
+                  
+                  <AnimatePresence>
+                    {subjectOpen && (
+                      <motion.ul 
+                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                        animate={{ opacity: 1, y: 0, scale: 1 }}
+                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                        transition={{ duration: 0.2 }}
+                        className="custom-select-options glass-panel"
+                      >
+                        {subjectOptions.map((opt, i) => (
+                          <li 
+                            key={i} 
+                            onClick={() => { setSelectedSubject(opt); setSubjectOpen(false); }}
+                            className={`custom-select-option ${selectedSubject === opt ? 'selected' : ''}`}
+                          >
+                            {opt}
+                          </li>
+                        ))}
+                      </motion.ul>
+                    )}
+                  </AnimatePresence>
+                  
+                  {/* Hidden input to ensure Formspree gets the value */}
+                  <input type="hidden" name="subject" value={selectedSubject} />
                 </div>
               </div>
 
@@ -76,7 +124,7 @@ const Contact = () => {
                 <textarea id="message" name="message" rows="5" required placeholder="Descrivi brevemente di cosa hai bisogno..."></textarea>
               </div>
 
-              <button type="submit" className="submit-btn">
+              <button type="submit" className="submit-btn" style={{marginTop: '16px'}}>
                 Invia Richiesta <Send size={18} strokeWidth={1.5} />
               </button>
             </form>

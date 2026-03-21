@@ -45,9 +45,9 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
               className="hero-description"
             >
-              Unisco il rigore del metodo scientifico alle tecnologie web più recenti. 
-              Non creo semplici siti vetrina, ma piattaforme veloci e moderne 
-              progettate per far crescere la tua attività.
+              Oggi le aziende che non hanno un sito moderno perdono clienti e visibilità. 
+              Sviluppo soluzioni web performanti e su misura per catturare la 
+              tua audience, comunicare valore e far crescere concretamente il tuo business.
             </motion.p>
 
             <motion.div 
