@@ -57,7 +57,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Elton Brahja. Code is Art.</p>
           <div className="footer-bottom-links">
-            <a href="/privacy.html">Privacy Policy</a>
+            <Link to="/privacy">Privacy Policy</Link>
           </div>
         </div>
       </div>
