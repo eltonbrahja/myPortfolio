@@ -18,13 +18,13 @@ const Footer = () => {
             </p>
             <div className="footer-socials">
               <a href="https://github.com/eltonbrahja" target="_blank" rel="noreferrer" className="social-icon">
-                <Github size={18} />
+                <Github size={20} strokeWidth={1.5} />
               </a>
               <a href="https://www.linkedin.com/in/elton-brahja-7b90963a1/" target="_blank" rel="noreferrer" className="social-icon">
-                <Linkedin size={18} />
+                <Linkedin size={20} strokeWidth={1.5} />
               </a>
               <a href="https://instagram.com/elton.brahja" target="_blank" rel="noreferrer" className="social-icon instagram">
-                <Instagram size={18} />
+                <Instagram size={20} strokeWidth={1.5} />
               </a>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Footer = () => {
             <ul>
               <li>
                 <a href="mailto:elton.brahja.s@gmail.com" className="email-link">
-                  <Mail size={16} /> elton.brahja.s@gmail.com
+                  <Mail size={18} strokeWidth={1.5} /> elton.brahja.s@gmail.com
                 </a>
               </li>
               <li>Santeramo in colle (BA), Italia</li>

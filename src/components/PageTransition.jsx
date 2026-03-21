@@ -21,7 +21,7 @@ const PageTransition = ({ children, className = '' }) => {
       exit="out"
       variants={pageVariants}
       transition={pageTransition}
-      className={`w-full max-w-7xl mx-auto px-6 py-12 ${className}`}
+      className={`page-transition-wrapper ${className}`}
     >
       {children}
     </motion.div>

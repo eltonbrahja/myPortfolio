@@ -23,21 +23,21 @@ const Contact = () => {
 
             <div className="contact-methods">
               <div className="contact-method">
-                <div className="method-icon text-blue"><Mail size={24} /></div>
+                <div className="method-icon text-blue"><Mail size={24} strokeWidth={1.5} /></div>
                 <div>
                   <h4>Email</h4>
                   <a href="mailto:elton.brahja.s@gmail.com">elton.brahja.s@gmail.com</a>
                 </div>
               </div>
               <div className="contact-method">
-                <div className="method-icon text-green"><Phone size={24} /></div>
+                <div className="method-icon text-green"><Phone size={24} strokeWidth={1.5} /></div>
                 <div>
                   <h4>Telefono</h4>
                   <a href="tel:+393519989647">+39 351 998 9647</a>
                 </div>
               </div>
               <div className="contact-method">
-                <div className="method-icon text-purple"><MapPin size={24} /></div>
+                <div className="method-icon text-purple"><MapPin size={24} strokeWidth={1.5} /></div>
                 <div>
                   <h4>Sede Operativa</h4>
                   <p>Santeramo in colle (BA), Italia</p>
@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
 
               <button type="submit" className="submit-btn">
-                Invia Richiesta <Send size={18} />
+                Invia Richiesta <Send size={18} strokeWidth={1.5} />
               </button>
             </form>
           </GlassCard>

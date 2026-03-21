@@ -1,5 +1,7 @@
 .contact-container {
-  padding: 60px 0;
+  padding: 80px 20px;
+  max-width: 980px;
+  margin: 0 auto;
 }
 
 .contact-grid {
@@ -149,13 +151,14 @@
 }
 
 .submit-btn {
-  background-color: var(--accent-color);
-  color: #fff;
+  background-color: var(--text-primary);
+  color: var(--bg-color);
   border: none;
-  border-radius: 8px;
-  padding: 16px;
-  font-weight: 700;
-  font-size: 1rem;
+  border-radius: 980px;
+  padding: 16px 32px;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: -0.022em;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -166,7 +169,7 @@
 }
 
 .submit-btn:hover {
-  background-color: var(--accent-hover);
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px -10px rgba(41, 151, 255, 0.5);
+  background-color: #ffffff;
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px -10px rgba(255, 255, 255, 0.3);
 }

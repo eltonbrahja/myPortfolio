@@ -21,19 +21,19 @@ const Services = () => {
 
   const servicesList = [
     {
-      icon: <Code2 size={32} className="service-icon text-blue" />,
+      icon: <Code2 size={32} strokeWidth={1.2} className="service-icon text-blue" />,
       title: "Sviluppo Full-Code",
       description: "Niente costruttori automatici pesanti. Scrivo codice HTML5 e CSS semantico per garantire un sito leggero e personalizzabile.",
       features: ["Architettura pulita", "Zero dipendenze inutili", "Manutenzione Codice"]
     },
     {
-      icon: <MonitorPlay size={32} className="service-icon text-purple" />,
+      icon: <MonitorPlay size={32} strokeWidth={1.2} className="service-icon text-purple" />,
       title: "UI/UX & Identity",
       description: "L'occhio vuole la sua parte. Studio l'identità visiva del tuo brand per trasmettere professionalità al primo sguardo.",
       features: ["Analisi Palette & Tipografia", "Elaborazione Asset Digitali", "Design System coerente"]
     },
     {
-      icon: <Zap size={32} className="service-icon text-green" />,
+      icon: <Zap size={32} strokeWidth={1.2} className="service-icon text-green" />,
       title: "Audit & Performance",
       description: "Ottimizzazione matematica delle risorse. Analizzo e correggo i colli di bottiglia per garantire punteggi elevati su Google Lighthouse.",
       features: ["Caricamento istantaneo", "Ottimizzazione Mobile", "SEO Impeccabile"]

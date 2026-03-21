@@ -55,13 +55,13 @@ const Blog = () => {
               </div>
               <div className="blog-content">
                 <div className="blog-meta">
-                  <span className="meta-item"><Calendar size={14} /> {post.date}</span>
-                  <span className="meta-item"><Clock size={14} /> {post.readTime}</span>
+                  <span className="meta-item"><Calendar size={14} strokeWidth={1.5} /> {post.date}</span>
+                  <span className="meta-item"><Clock size={14} strokeWidth={1.5} /> {post.readTime}</span>
                 </div>
                 <h3 className="blog-title">{post.title}</h3>
                 <p className="blog-excerpt">{post.excerpt}</p>
                 <button className="read-more-btn">
-                  Leggi l'articolo <ArrowRight size={16} />
+                  Leggi l'articolo <ArrowRight size={16} strokeWidth={1.5} />
                 </button>
               </div>
             </GlassCard>

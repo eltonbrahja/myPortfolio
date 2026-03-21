@@ -68,12 +68,12 @@ const Portfolio = () => {
                 <div className="portfolio-actions">
                   {project.link !== "#" && (
                     <a href={project.link} target="_blank" rel="noreferrer" className="portfolio-link">
-                      Visita Live <ExternalLink size={16} />
+                      Visita Live <ExternalLink size={16} strokeWidth={1.5} />
                     </a>
                   )}
                   {project.github && (
                     <a href={project.github} target="_blank" rel="noreferrer" className="portfolio-github">
-                      Codice <Github size={16} />
+                      Codice <Github size={16} strokeWidth={1.5} />
                     </a>
                   )}
                 </div>
@@ -83,7 +83,7 @@ const Portfolio = () => {
           
           <GlassCard className="portfolio-card coming-soon-card" delay={0.4}>
             <div className="icon-box">
-              <Code2 size={40} />
+              <Code2 size={48} strokeWidth={1} />
             </div>
             <h3 className="portfolio-title">Prossimo Progetto</h3>
             <p className="portfolio-desc">Sperimentazione con API e automazione dei dati.</p>
