@@ -223,6 +223,16 @@
   color: var(--text-secondary);
 }
 
+.value-closing-text {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  font-weight: 500;
+  max-width: 800px;
+  margin: 0 auto 48px auto;
+}
+
 /* Buttons */
 .value-cta-wrapper {
   display: flex;

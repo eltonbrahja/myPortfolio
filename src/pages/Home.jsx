@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
-import { ArrowRight, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
+import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
               className="hero-title"
             >
               Trasformo la tua visione in <br />
-              <span className="text-gradient shimmer">risultati digitali concreti.</span>
+              <span className="text-gradient shimmer">risultati digitali misurabili.</span>
             </motion.h1>
           </div>
 
@@ -53,11 +53,9 @@ const Home = () => {
               transition={{ duration: 0.8 }}
               className="value-prop-header"
             >
-              <h2 className="value-title">Il tuo business merita molto più di una semplice vetrina.</h2>
+              <h2 className="value-title">Il tuo business merita una presenza online capace di generare fiducia, contatti e vendite, non una semplice vetrina.</h2>
               <p className="value-subtitle">
-                Oggi l'attenzione degli utenti dura pochissimi secondi. Un sito lento o dal design improvvisato 
-                ti fa perdere clienti prima ancora che conoscano i tuoi servizi. Costruisco per te 
-                una presenza digitale premium che valorizza il tuo brand.
+                Oggi l’attenzione online dura pochi secondi. Un sito lento, confuso o poco curato fa scappare i potenziali clienti prima ancora che conoscano i tuoi servizi. Per questo sviluppo esperienze web veloci, eleganti e strategiche, progettate per valorizzare il tuo brand e trasformare i visitatori in clienti reali.
               </p>
             </motion.div>
             
@@ -65,20 +63,20 @@ const Home = () => {
               {[
                 {
                   icon: <TrendingUp size={32} strokeWidth={1.2} />,
-                  title: "Più Contatti, Più Vendite",
-                  desc: "Un sito web moderno non è una spesa, ma il tuo miglior commerciale attivo 24/7. Progetto percorsi utente (UX) studiati per guidare il visitatore verso l'azione, convertendo così il traffico in risultati economici misurabili.",
+                  title: "Più contatti, più risultati",
+                  desc: "Un sito web moderno non è una spesa: è il tuo miglior commerciale, operativo 24 ore su 24. Attraverso percorsi utente (UX) progettati con criterio e strumenti analitici mirati, guido ogni visita verso l’azione concreta — che si tratti di una richiesta, un acquisto o una prenotazione.",
                   color: "blue"
                 },
                 {
                   icon: <Target size={32} strokeWidth={1.2} />,
-                  title: "Posizionamento Strategico",
-                  desc: "Ti aiuto ad emergere sulla concorrenza con un'identità digitale autorevole. Un design curato al millimetro aumenta istantaneamente la percezione e il valore dei servizi offerti dal tuo brand.",
+                  title: "Posizionamento strategico e brand identity",
+                  desc: "Ti aiuto a emergere nella tua nicchia con un’identità digitale riconoscibile e autorevole. Un design curato nei dettagli comunica valore, credibilità e professionalità fin dal primo sguardo — la base per distinguerti dalla concorrenza.",
                   color: "purple"
                 },
                 {
                   icon: <Code2 size={32} strokeWidth={1.2} />,
-                  title: "Tecnologia su Misura",
-                  desc: "Dimentica le piattaforme lente e vulnerabili (come i vecchi temi WordPress non ottimizzati). Sviluppo architetture web robuste, amate dai motori di ricerca (SEO) e capaci di caricare in una frazione di secondo.",
+                  title: "Tecnologia su misura per performance reali",
+                  desc: "Addio a piattaforme lente o piene di limiti. Sviluppo soluzioni personalizzate, sicure e ottimizzate SEO, pensate per caricare in una frazione di secondo e scalare nel tempo insieme al tuo business.",
                   color: "green"
                 }
               ].map((val, idx) => (
@@ -99,6 +97,16 @@ const Home = () => {
               ))}
             </div>
 
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.8, delay: 0.4 }}
+              className="value-closing-text"
+            >
+              <p>Che si tratti di un brand in crescita, uno studio professionale o un’attività locale, realizzo siti web che portano risultati concreti, non solo visite.</p>
+            </motion.div>
+
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -107,10 +115,10 @@ const Home = () => {
               className="value-cta-wrapper"
             >
               <Link to="/contact" className="btn btn-primary hero-btn">
-                Inizia il tuo Progetto <ArrowRight size={18} strokeWidth={1.5} />
+                <Rocket size={18} strokeWidth={1.5} /> Inizia il tuo progetto
               </Link>
               <Link to="/portfolio" className="btn btn-outline hero-btn-outline">
-                Guarda i miei lavori
+                <FolderOpen size={18} strokeWidth={1.5} /> Guarda i miei lavori
               </Link>
             </motion.div>
           </div>
