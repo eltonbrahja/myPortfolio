@@ -10,7 +10,7 @@ const GlassCard = ({ children, className = '', delay = 0, hoverable = false }) =
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.6, delay: delay }}
-      className={`glass-panel p-8 ${className}`}
+      className={`glass-panel ${className}`}
       {...hoverStyle}
     >
       {children}

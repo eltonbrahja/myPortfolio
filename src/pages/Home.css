@@ -13,8 +13,8 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-top: -80px; /* Offset since navbar is absolute/fixed with 80px space */
-  padding-top: 80px; /* Counter-act content overlap if needed */
+  margin-top: calc(-1 * var(--nav-height));
+  padding-top: var(--nav-height);
 }
 
 .hero-video {
