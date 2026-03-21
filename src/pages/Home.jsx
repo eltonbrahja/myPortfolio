@@ -2,69 +2,70 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
+import { ArrowRight } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
   return (
-    <PageTransition className="home-wrapper">
-      <section className="hero-section">
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline 
-          poster="/poster.jpg" 
-          className="hero-video"
-        >
-          <source src="/video-hero.mp4" type="video/mp4" />
-        </video>
-        <div className="hero-overlay"></div>
+    <PageTransition>
+      <div className="home-wrapper">
+        <section className="hero-section">
+          {/* Ambient Glowing Orb for Text Readability */}
+          <div className="hero-glow"></div>
+          
+          <video autoPlay loop muted playsInline className="hero-video">
+            <source src="/video-hero.mp4" type="video/mp4" />
+          </video>
+          <div className="hero-overlay"></div>
 
-        <div className="hero-content">
-          <motion.span 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="hero-subtitle"
-          >
-            Sviluppo Web & Digital Solutions
-          </motion.span>
-          
-          <motion.h1 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="hero-title"
-          >
-            Trasformo la tua visione in <br className="hidden md:block" />
-            <span className="text-gradient">risultati digitali concreti</span>.
-          </motion.h1>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-            className="hero-description"
-          >
-            Sono <strong>Elton</strong>. Unisco il rigore del metodo scientifico alle tecnologie web più recenti. 
-            Non creo semplici siti vetrina, ma piattaforme veloci e moderne progettate per far crescere la tua attività.
-          </motion.p>
-          
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.8 }}
-            className="hero-actions"
-          >
-            <Link to="/contact" className="btn btn-primary">
-              Parliamo del tuo Progetto
-            </Link>
-            <Link to="/portfolio" className="btn btn-outline glass-button">
-              Guarda i miei lavori
-            </Link>
-          </motion.div>
-        </div>
-      </section>
+          <div className="hero-content">
+            <motion.div 
+              initial={{ opacity: 0, y: -20, scale: 0.95 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="availability-badge"
+            >
+              <div className="pulse-dot"></div>
+              Disponibile per nuovi progetti
+            </motion.div>
+
+            <motion.h1 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.4, ease: [0.16, 1, 0.3, 1] }}
+              className="hero-title"
+            >
+              Trasformo la tua visione in <br />
+              <span className="text-gradient shimmer">risultati digitali concreti.</span>
+            </motion.h1>
+
+            <motion.p 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+              className="hero-description"
+            >
+              Unisco il rigore del metodo scientifico alle tecnologie web più recenti. 
+              Non creo semplici siti vetrina, ma piattaforme veloci e moderne 
+              progettate per far crescere la tua attività.
+            </motion.p>
+
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="hero-actions"
+            >
+              <Link to="/contact" className="btn btn-primary hero-btn">
+                Parliamo del tuo Progetto <ArrowRight size={18} strokeWidth={2} />
+              </Link>
+              <Link to="/portfolio" className="btn btn-outline hero-btn-outline">
+                Guarda i miei lavori
+              </Link>
+            </motion.div>
+          </div>
+        </section>
+      </div>
     </PageTransition>
   );
 };
