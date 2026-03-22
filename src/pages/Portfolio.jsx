@@ -8,32 +8,24 @@ const Portfolio = () => {
   const projects = [
     {
       title: "Studio Dott.ssa Danubia Macario",
-      image: "/portfolio-danubia.webp",
+      image: "/sitoDanubia.webp",
       tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
       description: "Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.",
       link: "https://www.danubiamacario.com"
     },
     {
       title: "Studio Dr.ssa Marascio",
-      image: "/portfolio-psicologa.webp",
+      image: "/sitoAlessandra.webp",
       tags: ["WORDPRESS", "LATEPOINT BOOKING"],
       description: "Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.",
       link: "https://www.alessandra-marascio-psicologa.it/"
     },
     {
       title: "Portfolio 'No-Bloat'",
-      image: "/portfolio-eltonsito.webp",
+      image: "/mioSito.webp",
       tags: ["REACT VITE", "FRAMER MOTION", "VANILLA CSS"],
       description: "Sviluppato in React con architettura moderna Vite. Animazioni fluide, glassmorphism e zero framework CSS per massimizzare le performance.",
       link: "#"
-    },
-    {
-      title: "Nova Finance",
-      image: "/portfolio-novafinance.webp",
-      tags: ["REACT 19", "PWA", "LOCALSTORAGE"],
-      description: "Dashboard 'Personal Wealth' completa. Monitoraggio asset, grafici interattivi e timeline. Installabile come App e privacy-first (nessun dato in cloud).",
-      link: "https://novafinance.42web.io/?i=1",
-      github: "https://github.com/eltonbrahja/NovaFinances"
     }
   ];
 
