@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
@@ -8,6 +8,24 @@ import './Home.css';
 
 const Home = () => {
   const { t } = useLanguage();
+  
+  // Apple style scroll effect refs and transforms
+  const scrollRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: scrollRef,
+    offset: ["start start", "end end"]
+  });
+
+  // Animazione Titolo
+  const titleOpacity = useTransform(scrollYProgress, [0, 0.2, 0.4, 0.5], [0, 1, 1, 0]);
+  const titleY = useTransform(scrollYProgress, [0, 0.2, 0.4, 0.5], [50, 0, 0, -50]);
+  const titlePointer = useTransform(scrollYProgress, [0, 0.49, 0.5], ["auto", "auto", "none"]);
+
+  // Animazione Sottotitolo
+  const subtitleOpacity = useTransform(scrollYProgress, [0.45, 0.55, 0.8, 1], [0, 1, 1, 0]);
+  const subtitleY = useTransform(scrollYProgress, [0.45, 0.55, 0.8, 1], [50, 0, 0, -50]);
+  const subtitlePointer = useTransform(scrollYProgress, [0, 0.45], ["none", "auto"]);
+
   return (
     <PageTransition>
       <div className="home-wrapper">
@@ -47,20 +65,28 @@ const Home = () => {
 
         {/* VALUE PROPOSITION SECTION */}
         <section className="value-prop-section">
+          
+          <div ref={scrollRef} className="apple-scroll-container">
+            <div className="apple-scroll-sticky">
+              <motion.div 
+                className="apple-scroll-content"
+                style={{ opacity: titleOpacity, y: titleY, pointerEvents: titlePointer }}
+              >
+                <h2 className="value-title">{t('home.valueTitle')}</h2>
+              </motion.div>
+
+              <motion.div 
+                className="apple-scroll-content"
+                style={{ opacity: subtitleOpacity, y: subtitleY, pointerEvents: subtitlePointer }}
+              >
+                <p className="value-subtitle">
+                  {t('home.valueSubtitle')}
+                </p>
+              </motion.div>
+            </div>
+          </div>
+
           <div className="value-prop-container">
-            <motion.div 
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.8 }}
-              className="value-prop-header"
-            >
-              <h2 className="value-title">{t('home.valueTitle')}</h2>
-              <p className="value-subtitle">
-                {t('home.valueSubtitle')}
-              </p>
-            </motion.div>
-            
             <div className="value-grid">
               {[
                 {

@@ -126,23 +126,41 @@
 
 /* ==================== VALUE PROP SECTION ==================== */
 .value-prop-section {
-  padding: 120px 20px;
+  padding: 0 0 120px 0;
   background-color: var(--bg-color);
   position: relative;
   z-index: 10;
 }
 
+.apple-scroll-container {
+  height: 250vh;
+  position: relative;
+  width: 100%;
+}
+
+.apple-scroll-sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.apple-scroll-content {
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 24px;
+  text-align: center;
+  will-change: transform, opacity;
+}
+
 .value-prop-container {
   max-width: 980px;
   margin: 0 auto;
-}
-
-.value-prop-header {
-  text-align: center;
-  margin-bottom: 80px;
-  max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 20px;
 }
 
 .value-title {
