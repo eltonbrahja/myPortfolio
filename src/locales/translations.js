@@ -136,7 +136,9 @@ const translations = {
       title1: "Il mio ",
       title2: "Blog",
       intro: "Condivido scoperte, guide tecniche e riflessioni sul mondo dello sviluppo web, UI/UX design e performance.",
-      readMore: "Leggi l'articolo"
+      readMore: "Leggi l'articolo",
+      backToBlog: "Torna agli articoli",
+      notFound: "Articolo non trovato"
     },
     privacy: {
       label: "Legal",
@@ -304,7 +306,9 @@ const translations = {
       title1: "My ",
       title2: "Blog",
       intro: "I share discoveries, technical guides, and thoughts on web development, UI/UX design, and performance.",
-      readMore: "Read article"
+      readMore: "Read article",
+      backToBlog: "Back to articles",
+      notFound: "Article not found"
     },
     privacy: {
       label: "Legal",

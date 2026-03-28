@@ -5,12 +5,16 @@ import { motion } from 'framer-motion';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { blogPosts } from '../data/posts';
+import { useLanguage } from '../context/LanguageContext';
 import './Blog.css';
 
 const BlogPost = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const post = blogPosts.find(p => p.id === id);
+  const { language, t } = useLanguage();
+  
+  const postGroup = blogPosts.find(p => p.id === id);
+  const post = postGroup ? postGroup[language] : null;
 
   useEffect(() => {
     if (post) {
@@ -29,9 +33,9 @@ const BlogPost = () => {
     return (
       <PageTransition>
         <div className="blog-container" style={{ textAlign: 'center', paddingTop: '100px' }}>
-          <h2>Articolo non trovato</h2>
+          <h2>{t('blog.notFound')}</h2>
           <Link to="/blog" className="read-more-btn" style={{ justifyContent: 'center', marginTop: '24px' }}>
-            <ArrowLeft size={16} /> Torna al blog
+            <ArrowLeft size={16} /> {t('blog.backToBlog')}
           </Link>
         </div>
       </PageTransition>
@@ -49,7 +53,7 @@ const BlogPost = () => {
           className="single-article-view"
         >
           <button className="back-btn" onClick={() => navigate('/blog')}>
-            <ArrowLeft size={18} strokeWidth={1.5} /> Torna agli articoli
+            <ArrowLeft size={18} strokeWidth={1.5} /> {t('blog.backToBlog')}
           </button>
           
           <div className="article-header">

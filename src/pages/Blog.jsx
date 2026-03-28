@@ -9,8 +9,8 @@ import { useLanguage } from '../context/LanguageContext';
 import './Blog.css';
 
 const Blog = () => {
-  const { t } = useLanguage();
-  const posts = blogPosts;
+  const { t, language } = useLanguage();
+  const posts = blogPosts.map(group => group[language]).filter(Boolean);
 
   return (
     <PageTransition>
