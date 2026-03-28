@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import './Footer.css';
 
 const Footer = () => {
+  const { t, language } = useLanguage();
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -14,7 +16,7 @@ const Footer = () => {
               ELTON<span>BRAHJA</span>
             </div>
             <p className="footer-description">
-              Sviluppatore Web & UI Designer. Unisco il rigore analitico alle tecnologie web più recenti per creare piattaforme veloci e moderne.
+              {t('footer.tagline')}
             </p>
             <div className="footer-socials">
               <a href="https://github.com/eltonbrahja" target="_blank" rel="noreferrer" className="social-icon">
@@ -30,34 +32,34 @@ const Footer = () => {
           </div>
           
           <div className="footer-links-col">
-            <h4>Navigazione</h4>
+            <h4>{t('footer.quickLinks')}</h4>
             <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">Chi Sono</Link></li>
-              <li><Link to="/services">Servizi</Link></li>
-              <li><Link to="/portfolio">Portfolio</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/">{t('footer.home')}</Link></li>
+              <li><Link to="/about">{t('navbar.about') || "Chi Sono"}</Link></li>
+              <li><Link to="/services">{t('footer.services')}</Link></li>
+              <li><Link to="/portfolio">{t('footer.portfolio')}</Link></li>
+              <li><Link to="/blog">{t('navbar.blog') || "Blog"}</Link></li>
             </ul>
           </div>
 
           <div className="footer-links-col">
-            <h4>Contatti</h4>
+            <h4>{t('footer.contacts')}</h4>
             <ul>
               <li>
                 <a href="mailto:elton.brahja.s@gmail.com" className="email-link">
                   <Mail size={18} strokeWidth={1.5} /> elton.brahja.s@gmail.com
                 </a>
               </li>
-              <li>Santeramo in colle (BA), Italia</li>
+              <li>{language === 'it' ? 'Santeramo in colle (BA), Italia' : 'Santeramo in colle (BA), Italy'}</li>
             </ul>
           </div>
           
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Elton Brahja. Code is Art.</p>
+          <p>&copy; {new Date().getFullYear()} Elton Brahja. Code is Art. {t('footer.rights')}</p>
           <div className="footer-bottom-links">
-            <Link to="/privacy">Privacy Policy</Link>
+            <Link to="/privacy">{t('footer.privacy')}</Link>
           </div>
         </div>
       </div>

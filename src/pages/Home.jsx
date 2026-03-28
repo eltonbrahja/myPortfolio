@@ -3,9 +3,11 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import './Home.css';
 
 const Home = () => {
+  const { t } = useLanguage();
   return (
     <PageTransition>
       <div className="home-wrapper">
@@ -27,8 +29,8 @@ const Home = () => {
               transition={{ duration: 1, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
               className="hero-title"
             >
-              Trasformo la tua visione in <br />
-              <span className="text-gradient shimmer">risultati digitali misurabili.</span>
+              {t('home.heroTitle1')} <br />
+              <span className="text-gradient shimmer">{t('home.heroTitle2')}</span>
             </motion.h1>
           </div>
 
@@ -38,7 +40,7 @@ const Home = () => {
             transition={{ duration: 1, delay: 1.2 }}
             className="scroll-indicator"
           >
-            <span className="scroll-text">Scorri per scoprire</span>
+            <span className="scroll-text">{t('home.scrollDown')}</span>
             <ChevronDown size={20} strokeWidth={1.5} className="scroll-icon" />
           </motion.div>
         </section>
@@ -53,9 +55,9 @@ const Home = () => {
               transition={{ duration: 0.8 }}
               className="value-prop-header"
             >
-              <h2 className="value-title">Il tuo business merita una presenza online capace di generare fiducia, contatti e vendite, non una semplice vetrina.</h2>
+              <h2 className="value-title">{t('home.valueTitle')}</h2>
               <p className="value-subtitle">
-                Oggi l’attenzione online dura pochi secondi. Un sito lento, confuso o poco curato fa scappare i potenziali clienti prima ancora che conoscano i tuoi servizi. Per questo sviluppo esperienze web veloci, eleganti e strategiche, progettate per valorizzare il tuo brand e trasformare i visitatori in clienti reali.
+                {t('home.valueSubtitle')}
               </p>
             </motion.div>
             
@@ -63,20 +65,20 @@ const Home = () => {
               {[
                 {
                   icon: <TrendingUp size={32} strokeWidth={1.2} />,
-                  title: "Più contatti, più risultati",
-                  desc: "Un sito web moderno non è una spesa: è il tuo miglior commerciale, operativo 24 ore su 24. Attraverso percorsi utente (UX) progettati con criterio e strumenti analitici mirati, guido ogni visita verso l’azione concreta — che si tratti di una richiesta, un acquisto o una prenotazione.",
+                  title: t('home.features')[0].title,
+                  desc: t('home.features')[0].desc,
                   color: "blue"
                 },
                 {
                   icon: <Target size={32} strokeWidth={1.2} />,
-                  title: "Posizionamento strategico e brand identity",
-                  desc: "Ti aiuto a emergere nella tua nicchia con un’identità digitale riconoscibile e autorevole. Un design curato nei dettagli comunica valore, credibilità e professionalità fin dal primo sguardo — la base per distinguerti dalla concorrenza.",
+                  title: t('home.features')[1].title,
+                  desc: t('home.features')[1].desc,
                   color: "purple"
                 },
                 {
                   icon: <Code2 size={32} strokeWidth={1.2} />,
-                  title: "Tecnologia su misura per performance reali",
-                  desc: "Addio a piattaforme lente o piene di limiti. Sviluppo soluzioni personalizzate, sicure e ottimizzate SEO, pensate per caricare in una frazione di secondo e scalare nel tempo insieme al tuo business.",
+                  title: t('home.features')[2].title,
+                  desc: t('home.features')[2].desc,
                   color: "green"
                 }
               ].map((val, idx) => (
@@ -104,7 +106,7 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="value-closing-text"
             >
-              <p>Che si tratti di un brand in crescita, uno studio professionale o un’attività locale, realizzo siti web che portano risultati concreti, non solo visite.</p>
+              <p>{t('home.closingText')}</p>
             </motion.div>
 
             <motion.div 
@@ -115,10 +117,10 @@ const Home = () => {
               className="value-cta-wrapper"
             >
               <Link to="/contact" className="btn btn-primary hero-btn">
-                <Rocket size={18} strokeWidth={1.5} /> Inizia il tuo progetto
+                <Rocket size={18} strokeWidth={1.5} /> {t('home.btnStart')}
               </Link>
               <Link to="/portfolio" className="btn btn-outline hero-btn-outline">
-                <FolderOpen size={18} strokeWidth={1.5} /> Guarda i miei lavori
+                <FolderOpen size={18} strokeWidth={1.5} /> {t('home.btnPortfolio')}
               </Link>
             </motion.div>
           </div>

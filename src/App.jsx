@@ -47,18 +47,22 @@ const AnimatedRoutes = () => {
   );
 };
 
+import { LanguageProvider } from './context/LanguageContext';
+
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="app-container">
-        <Navbar />
-        <main className="main-content">
-          <AnimatedRoutes />
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <LanguageProvider>
+      <Router>
+        <ScrollToTop />
+        <div className="app-container">
+          <Navbar />
+          <main className="main-content">
+            <AnimatedRoutes />
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </LanguageProvider>
   );
 }
 

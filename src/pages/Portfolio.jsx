@@ -2,30 +2,35 @@ import React from 'react';
 import { ExternalLink, Github, Code2 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
+import { useLanguage } from '../context/LanguageContext';
 import './Portfolio.css';
 
 const Portfolio = () => {
+  const { t } = useLanguage();
   const projects = [
     {
-      title: "Studio Dott.ssa Danubia Macario",
+      title: t('portfolio.projects')[0].title,
       image: "/sitoDanubia.webp",
       tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
-      description: "Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.",
-      link: "https://www.danubiamacario.com"
+      description: t('portfolio.projects')[0].description,
+      link: "https://www.danubiamacario.com",
+      linkText: t('portfolio.projects')[0].linkText
     },
     {
-      title: "Studio Dr.ssa Marascio",
+      title: t('portfolio.projects')[1].title,
       image: "/sitoAlessandra.webp",
       tags: ["WORDPRESS", "LATEPOINT BOOKING"],
-      description: "Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.",
-      link: "https://www.alessandra-marascio-psicologa.it/"
+      description: t('portfolio.projects')[1].description,
+      link: "https://www.alessandra-marascio-psicologa.it/",
+      linkText: t('portfolio.projects')[1].linkText
     },
     {
-      title: "Portfolio 'No-Bloat'",
+      title: t('portfolio.projects')[2].title,
       image: "/mioSito.webp",
       tags: ["REACT VITE", "FRAMER MOTION", "VANILLA CSS"],
-      description: "Sviluppato in React con architettura moderna Vite. Animazioni fluide, glassmorphism e zero framework CSS per massimizzare le performance.",
-      link: "#"
+      description: t('portfolio.projects')[2].description,
+      link: "#",
+      linkText: t('portfolio.projects')[2].linkText
     }
   ];
 
@@ -33,12 +38,12 @@ const Portfolio = () => {
     <PageTransition>
       <div className="portfolio-container">
         <div className="portfolio-header">
-          <span className="section-label">Lavori Precedenti</span>
+          <span className="section-label">{t('portfolio.label')}</span>
           <h2 className="section-title">
-            Progetti <span className="text-gradient">Realizzati</span>
+            {t('portfolio.title1')} <span className="text-gradient">{t('portfolio.title2')}</span>
           </h2>
           <p className="portfolio-intro">
-            Dalla gestione complessa tramite CMS alle dashboard PWA in React.
+            {t('portfolio.intro')}
           </p>
         </div>
 
@@ -60,7 +65,7 @@ const Portfolio = () => {
                 <div className="portfolio-actions">
                   {project.link !== "#" && (
                     <a href={project.link} target="_blank" rel="noreferrer" className="portfolio-link">
-                      Visita Live <ExternalLink size={16} strokeWidth={1.5} />
+                      {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
                     </a>
                   )}
                   {project.github && (
@@ -77,9 +82,9 @@ const Portfolio = () => {
             <div className="icon-box">
               <Code2 size={48} strokeWidth={1} />
             </div>
-            <h3 className="portfolio-title">Prossimo Progetto</h3>
-            <p className="portfolio-desc">Sperimentazione con API e automazione dei dati.</p>
-            <span className="wip-badge">Work in Progress</span>
+            <h3 className="portfolio-title">{t('portfolio.nextProject.title')}</h3>
+            <p className="portfolio-desc">{t('portfolio.nextProject.desc')}</p>
+            <span className="wip-badge">{t('portfolio.nextProject.badge')}</span>
           </GlassCard>
         </div>
       </div>

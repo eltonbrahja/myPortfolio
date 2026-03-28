@@ -3,9 +3,11 @@ import { motion } from 'framer-motion';
 import { Code2, MonitorPlay, Zap } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
+import { useLanguage } from '../context/LanguageContext';
 import './Services.css';
 
 const Services = () => {
+  const { t } = useLanguage();
   const containerVariants = {
     hidden: { opacity: 0 },
     show: {
@@ -22,21 +24,21 @@ const Services = () => {
   const servicesList = [
     {
       icon: <Code2 size={32} strokeWidth={1.2} className="service-icon text-blue" />,
-      title: "Sviluppo Full-Code",
-      description: "Niente costruttori automatici pesanti. Scrivo codice HTML5 e CSS semantico per garantire un sito leggero e personalizzabile.",
-      features: ["Architettura pulita", "Zero dipendenze inutili", "Manutenzione Codice"]
+      title: t('services.list')[0].title,
+      description: t('services.list')[0].description,
+      features: t('services.list')[0].features
     },
     {
       icon: <MonitorPlay size={32} strokeWidth={1.2} className="service-icon text-purple" />,
-      title: "UI/UX & Identity",
-      description: "L'occhio vuole la sua parte. Studio l'identità visiva del tuo brand per trasmettere professionalità al primo sguardo.",
-      features: ["Analisi Palette & Tipografia", "Elaborazione Asset Digitali", "Design System coerente"]
+      title: t('services.list')[1].title,
+      description: t('services.list')[1].description,
+      features: t('services.list')[1].features
     },
     {
       icon: <Zap size={32} strokeWidth={1.2} className="service-icon text-green" />,
-      title: "Audit & Performance",
-      description: "Ottimizzazione matematica delle risorse. Analizzo e correggo i colli di bottiglia per garantire punteggi elevati su Google Lighthouse.",
-      features: ["Caricamento istantaneo", "Ottimizzazione Mobile", "SEO Impeccabile"]
+      title: t('services.list')[2].title,
+      description: t('services.list')[2].description,
+      features: t('services.list')[2].features
     }
   ];
 
@@ -45,13 +47,12 @@ const Services = () => {
       <div className="services-container">
         
         <div className="services-header">
-          <span className="section-label">Competenze Tecniche</span>
+          <span className="section-label">{t('services.label')}</span>
           <h2 className="section-title">
-            Logica e <span className="text-gradient">Creatività</span>.
+            {t('services.title1')} <span className="text-gradient">{t('services.title2')}</span>.
           </h2>
           <p className="services-intro">
-            Unisco il rigore dello sviluppo software alla sensibilità estetica. 
-            Perché un sito veloce deve essere anche bello da vedere.
+            {t('services.intro')}
           </p>
         </div>
 

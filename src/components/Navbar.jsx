@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 import './Navbar.css';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { language, changeLanguage, t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,15 +32,26 @@ const Navbar = () => {
           </Link>
 
           <div className="navbar-desktop-links">
-            <NavLink to="/" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>HOME</NavLink>
-            <NavLink to="/about" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>CHI SONO</NavLink>
-            <NavLink to="/services" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>SERVIZI</NavLink>
-            <NavLink to="/portfolio" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>PORTFOLIO</NavLink>
-            <NavLink to="/blog" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>BLOG</NavLink>
+            <NavLink to="/" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.home').toUpperCase()}</NavLink>
+            <NavLink to="/about" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.about') || "CHI SONO"}</NavLink>
+            <NavLink to="/services" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.services').toUpperCase()}</NavLink>
+            <NavLink to="/portfolio" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.portfolio').toUpperCase()}</NavLink>
+            <NavLink to="/blog" className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.blog').toUpperCase()}</NavLink>
           </div>
 
           <div className="navbar-actions">
-            <Link to="/contact" className="nav-cta-btn">CONTATTI</Link>
+            <div className="lang-switcher">
+              <button 
+                className={`lang-btn ${language === 'it' ? 'active' : ''}`}
+                onClick={() => changeLanguage('it')}
+              >IT</button>
+              <span className="lang-divider">|</span>
+              <button 
+                className={`lang-btn ${language === 'en' ? 'active' : ''}`}
+                onClick={() => changeLanguage('en')}
+              >EN</button>
+            </div>
+            <Link to="/contact" className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
             
             <button 
               className="navbar-mobile-toggle"
@@ -54,12 +67,12 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="navbar-mobile-menu">
           <div className="mobile-nav-links">
-            <NavLink to="/" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">Home</NavLink>
-            <NavLink to="/about" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">Chi Sono</NavLink>
-            <NavLink to="/services" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">Servizi</NavLink>
-            <NavLink to="/portfolio" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">Portfolio</NavLink>
-            <NavLink to="/blog" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">Blog</NavLink>
-            <NavLink to="/contact" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link text-accent">Contatti</NavLink>
+            <NavLink to="/" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.home')}</NavLink>
+            <NavLink to="/about" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.about') || "Chi Sono"}</NavLink>
+            <NavLink to="/services" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.services')}</NavLink>
+            <NavLink to="/portfolio" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.portfolio')}</NavLink>
+            <NavLink to="/blog" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.blog')}</NavLink>
+            <NavLink to="/contact" onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link text-accent">{t('navbar.contact')}</NavLink>
           </div>
         </div>
       )}

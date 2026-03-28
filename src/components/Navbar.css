@@ -178,3 +178,31 @@
   color: var(--text-primary) !important;
   font-weight: 600;
 }
+
+/* Language Switcher */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+.lang-btn {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 4px;
+  transition: color 0.3s;
+}
+.lang-btn:hover, .lang-btn.active {
+  color: var(--text-primary);
+}
+.lang-divider {
+  color: var(--text-secondary);
+  font-size: 10px;
+  opacity: 0.3;
+}
