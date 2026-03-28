@@ -49,7 +49,7 @@ const Home = () => {
         <section className="value-prop-section">
           <div className="value-prop-container">
             
-            {/* INTESTAZIONE */}
+            {/* PARTE 1: TITOLO */}
             <motion.div 
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -58,6 +58,16 @@ const Home = () => {
               className="value-prop-header"
             >
               <h2 className="value-title">{t('home.valueTitle')}</h2>
+            </motion.div>
+
+            {/* PARTE 2: SOTTOTITOLO (DISTACCATO) */}
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8 }}
+              className="value-prop-subtitle-wrapper"
+            >
               <p className="value-subtitle" dangerouslySetInnerHTML={{ __html: t('home.valueSubtitle') }} />
             </motion.div>
 

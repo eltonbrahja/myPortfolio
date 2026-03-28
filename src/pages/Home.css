@@ -141,7 +141,13 @@
 .value-prop-header {
   text-align: center;
   max-width: 900px;
-  margin: 0 auto 80px auto;
+  margin: 0 auto 30vh auto; /* Grande stacco per separarli visivamente nello scroll */
+}
+
+.value-prop-subtitle-wrapper {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 20vh auto; /* Stacco prima di arrivare alla griglia */
 }
 
 /* Titoli */
