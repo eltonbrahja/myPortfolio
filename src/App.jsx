@@ -57,13 +57,12 @@ const AnimatedRoutes = () => {
   );
 };
 
-import { LanguageProvider } from './context/LanguageContext';
-
 function App() {
   return (
     <LanguageProvider>
       <Router>
         <ScrollToTop />
+        <LanguageSynchronizer />
         <div className="app-container">
           <Navbar />
           <main className="main-content">
