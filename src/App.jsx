@@ -15,6 +15,7 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Privacy from './pages/Privacy';
+import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 // Wrapper component to scroll to top on route change
 const ScrollToTop = () => {
@@ -24,6 +25,15 @@ const ScrollToTop = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  return null;
+};
+
+// Utility component to handle language synchronization
+const LanguageSynchronizer = () => {
+  const { language } = useLanguage();
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
   return null;
 };
 

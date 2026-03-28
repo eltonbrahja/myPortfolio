@@ -19,13 +19,13 @@ const Footer = () => {
               {t('footer.tagline')}
             </p>
             <div className="footer-socials">
-              <a href="https://github.com/eltonbrahja" target="_blank" rel="noreferrer" className="social-icon">
+              <a href="https://github.com/eltonbrahja" target="_blank" rel="noreferrer" className="social-icon" aria-label="Profilo GitHub">
                 <Github size={20} strokeWidth={1.5} />
               </a>
-              <a href="https://www.linkedin.com/in/elton-brahja-7b90963a1/" target="_blank" rel="noreferrer" className="social-icon">
+              <a href="https://www.linkedin.com/in/elton-brahja-7b90963a1/" target="_blank" rel="noreferrer" className="social-icon" aria-label="Profilo LinkedIn">
                 <Linkedin size={20} strokeWidth={1.5} />
               </a>
-              <a href="https://instagram.com/elton.brahja" target="_blank" rel="noreferrer" className="social-icon instagram">
+              <a href="https://instagram.com/elton.brahja" target="_blank" rel="noreferrer" className="social-icon instagram" aria-label="Profilo Instagram">
                 <Instagram size={20} strokeWidth={1.5} />
               </a>
             </div>

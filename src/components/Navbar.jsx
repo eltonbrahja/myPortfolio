@@ -40,15 +40,17 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-actions">
-            <div className="lang-switcher">
+            <div className="lang-switcher" aria-label="Cambio Lingua / Language Switch">
               <button 
                 className={`lang-btn ${language === 'it' ? 'active' : ''}`}
                 onClick={() => changeLanguage('it')}
+                aria-label="Imposta lingua Italiana"
               >IT</button>
-              <span className="lang-divider">|</span>
+              <span className="lang-divider" aria-hidden="true">|</span>
               <button 
                 className={`lang-btn ${language === 'en' ? 'active' : ''}`}
                 onClick={() => changeLanguage('en')}
+                aria-label="Set English language"
               >EN</button>
             </div>
             <Link to="/contact" className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
@@ -56,6 +58,8 @@ const Navbar = () => {
             <button 
               className="navbar-mobile-toggle"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              aria-label={mobileMenuOpen ? "Chiudi menu" : "Apri menu"}
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? <X size={20} strokeWidth={2} /> : <Menu size={20} strokeWidth={2} />}
             </button>
