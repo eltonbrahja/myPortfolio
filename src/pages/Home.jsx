@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
@@ -8,28 +8,6 @@ import './Home.css';
 
 const Home = () => {
   const { t } = useLanguage();
-  
-  // Apple style scroll effect refs and transforms
-  const scrollRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: scrollRef,
-    offset: ["start start", "end end"]
-  });
-
-  // 1. Animazione Titolo
-  const titleOpacity = useTransform(scrollYProgress, [0, 0.1, 0.2, 0.3], [0, 1, 1, 0]);
-  const titleY = useTransform(scrollYProgress, [0, 0.1, 0.2, 0.3], [50, 0, 0, -50]);
-  const titlePointer = useTransform(scrollYProgress, [0, 0.29, 0.3], ["auto", "auto", "none"]);
-
-  // 2. Animazione Sottotitolo (più grande)
-  const subtitleOpacity = useTransform(scrollYProgress, [0.25, 0.35, 0.5, 0.6], [0, 1, 1, 0]);
-  const subtitleY = useTransform(scrollYProgress, [0.25, 0.35, 0.5, 0.6], [50, 0, 0, -50]);
-  const subtitlePointer = useTransform(scrollYProgress, [0, 0.25, 0.59, 0.6], ["none", "auto", "auto", "none"]);
-
-  // 3. Animazione Features Grid
-  const gridOpacity = useTransform(scrollYProgress, [0.55, 0.65, 1, 1], [0, 1, 1, 1]);
-  const gridY = useTransform(scrollYProgress, [0.55, 0.65], [100, 0]);
-  const gridPointer = useTransform(scrollYProgress, [0, 0.64, 0.65], ["none", "none", "auto"]);
 
   return (
     <PageTransition>
@@ -67,77 +45,67 @@ const Home = () => {
           </motion.div>
         </section>
 
-        {/* VALUE PROPOSITION SECTION (APPLE SCROLL) */}
+        {/* VALUE PROPOSITION SECTION */}
         <section className="value-prop-section">
-          
-          <div ref={scrollRef} className="apple-scroll-container">
-            <div className="apple-scroll-sticky">
-              
-              {/* Titolo Principale */}
-              <motion.div 
-                className="apple-scroll-content"
-                style={{ opacity: titleOpacity, y: titleY, pointerEvents: titlePointer }}
-              >
-                <h2 className="value-title">{t('home.valueTitle')}</h2>
-              </motion.div>
-
-              {/* Sottotitolo */}
-              <motion.div 
-                className="apple-scroll-content subtitle-content"
-                style={{ opacity: subtitleOpacity, y: subtitleY, pointerEvents: subtitlePointer }}
-              >
-                <p className="value-subtitle">
-                  {t('home.valueSubtitle')}
-                </p>
-              </motion.div>
-
-              {/* Grid Servizi/Features */}
-              <motion.div 
-                className="apple-scroll-content grid-content"
-                style={{ opacity: gridOpacity, y: gridY, pointerEvents: gridPointer }}
-              >
-                <div className="value-grid">
-                  {[
-                    {
-                      icon: <TrendingUp size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[0].title,
-                      desc: t('home.features')[0].desc,
-                      color: "blue"
-                    },
-                    {
-                      icon: <Target size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[1].title,
-                      desc: t('home.features')[1].desc,
-                      color: "purple"
-                    },
-                    {
-                      icon: <Code2 size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[2].title,
-                      desc: t('home.features')[2].desc,
-                      color: "green"
-                    }
-                  ].map((val, idx) => (
-                    <div key={idx} className="value-card">
-                      <div className={`value-icon-wrapper text-${val.color}`}>
-                        {val.icon}
-                      </div>
-                      <h3>{val.title}</h3>
-                      <p>{val.desc}</p>
-                    </div>
-                  ))}
-                </div>
-              </motion.div>
-
-            </div>
-          </div>
-
-          {/* CTA FINALE (Fuori dallo sticky, scrolla normalmente alla fine) */}
           <div className="value-prop-container">
+            
+            {/* INTESTAZIONE */}
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-100px" }}
+              transition={{ duration: 0.8 }}
+              className="value-prop-header"
+            >
+              <h2 className="value-title">{t('home.valueTitle')}</h2>
+              <p className="value-subtitle" dangerouslySetInnerHTML={{ __html: t('home.valueSubtitle') }} />
+            </motion.div>
+
+            {/* GRID SERVIZI/FEATURES */}
+            <div className="value-grid">
+              {[
+                {
+                  icon: <TrendingUp size={32} strokeWidth={1.2} />,
+                  title: t('home.features')[0].title,
+                  desc: t('home.features')[0].desc,
+                  color: "blue"
+                },
+                {
+                  icon: <Target size={32} strokeWidth={1.2} />,
+                  title: t('home.features')[1].title,
+                  desc: t('home.features')[1].desc,
+                  color: "purple"
+                },
+                {
+                  icon: <Code2 size={32} strokeWidth={1.2} />,
+                  title: t('home.features')[2].title,
+                  desc: t('home.features')[2].desc,
+                  color: "green"
+                }
+              ].map((val, idx) => (
+                <motion.div 
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-50px" }}
+                  transition={{ duration: 0.6, delay: 0.1 * idx }}
+                  key={idx} 
+                  className="value-card"
+                >
+                  <div className={`value-icon-wrapper text-${val.color}`}>
+                    {val.icon}
+                  </div>
+                  <h3>{val.title}</h3>
+                  <p>{val.desc}</p>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* CTA FINALE */}
             <motion.div 
               initial={{ opacity: 0, scale: 0.95, y: 50 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}
-              viewport={{ once: true, margin: "-10%" }}
-              transition={{ duration: 0.8 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.8, delay: 0.2 }}
               className="cta-glass-card"
             >
               <h2 className="cta-title">{t('home.closingText')}</h2>
@@ -150,8 +118,8 @@ const Home = () => {
                 </Link>
               </div>
             </motion.div>
+            
           </div>
-          
         </section>
 
       </div>

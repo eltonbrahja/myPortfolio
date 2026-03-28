@@ -25,7 +25,7 @@ const translations = {
       heroTitle2: "risultati digitali misurabili.",
       scrollDown: "Scorri per scoprire",
       valueTitle: "Il tuo business merita una presenza online capace di generare fiducia, contatti e vendite, non una semplice vetrina.",
-      valueSubtitle: "Oggi l’attenzione online dura pochi secondi. Un sito lento, confuso o poco curato fa scappare i potenziali clienti prima ancora che conoscano i tuoi servizi. Per questo sviluppo esperienze web veloci, eleganti e strategiche, progettate per valorizzare il tuo brand e trasformare i visitatori in clienti reali.",
+      valueSubtitle: "L'attenzione online è questione di attimi. Realizzo <strong>siti web veloci, eleganti e ottimizzati SEO</strong>, progettati per posizionare il tuo brand e <strong>convertire i visitatori in clienti reali</strong>.",
       features: [
         {
           title: "Più contatti, più risultati",
@@ -195,7 +195,7 @@ const translations = {
       heroTitle2: "measurable digital results.",
       scrollDown: "Scroll to discover",
       valueTitle: "Your business deserves an online presence capable of generating trust, leads, and sales, not just a simple showcase.",
-      valueSubtitle: "Today's online attention span lasts a few seconds. A slow, confusing, or poorly designed website drives potential customers away before they even know your services. That's why I develop fast, elegant, and strategic web experiences designed to elevate your brand and turn visitors into real clients.",
+      valueSubtitle: "Online attention is fleeting. I build <strong>fast, elegant, and SEO-optimized websites</strong>, intuitively designed to elevate your brand and <strong>convert visitors into real clients</strong>.",
       features: [
         {
           title: "More leads, more results",

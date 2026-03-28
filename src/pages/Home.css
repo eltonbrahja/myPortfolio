@@ -126,69 +126,48 @@
 
 /* ==================== VALUE PROP SECTION ==================== */
 .value-prop-section {
-  padding: 0 0 120px 0;
+  padding: 120px 0;
   background-color: var(--bg-color);
   position: relative;
   z-index: 10;
 }
 
-/* Apple Style Scroll Effect */
-.apple-scroll-container {
-  height: 400vh; /* Tempo di scorrimento delle 3 scene */
-  position: relative;
-  width: 100%;
-}
-
-.apple-scroll-sticky {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.apple-scroll-content {
-  position: absolute;
-  width: 100%;
-  max-width: 900px;
+.value-prop-container {
+  max-width: 1100px;
+  margin: 0 auto;
   padding: 0 24px;
+}
+
+.value-prop-header {
   text-align: center;
-  will-change: transform, opacity;
-}
-.apple-scroll-content.subtitle-content {
-  max-width: 1000px;
-}
-.apple-scroll-content.grid-content {
-  max-width: 1200px;
+  max-width: 900px;
+  margin: 0 auto 80px auto;
 }
 
 /* Titoli */
 .value-title {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #fff;
-  margin: 0;
-  line-height: 1.2;
+  margin: 0 0 24px 0;
+  line-height: 1.25;
 }
 @media (min-width: 768px) {
-  .value-title { font-size: 48px; }
+  .value-title { font-size: 44px; margin: 0 0 32px 0; }
 }
 
 .value-subtitle {
-  font-size: 24px;
-  line-height: 1.4;
-  color: #fff;
-  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
   letter-spacing: -0.01em;
-  text-shadow: 0 4px 20px rgba(0,0,0,0.8);
 }
 @media (min-width: 768px) {
   .value-subtitle {
-    font-size: 32px;
-    line-height: 1.35;
+    font-size: 26px;
+    line-height: 1.45;
   }
 }
 
