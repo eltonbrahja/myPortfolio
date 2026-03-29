@@ -124,71 +124,51 @@
   60% { transform: translateY(-5px) translateX(-50%); }
 }
 
-/* ==================== VALUE PROP SECTION (CROSS-FADE) ==================== */
+/* ==================== VALUE PROP SECTION (NATIVE SCROLL FADE) ==================== */
 .value-prop-section {
   background-color: var(--bg-color);
   position: relative;
   z-index: 10;
+  padding: 20vh 0 15vh 0;
 }
 
-.crossfade-scroll-container {
-  height: 500vh; /* Tempo di scorrimento globale per le 4 fasi */
-  position: relative;
-  width: 100%;
-}
-
-.crossfade-sticky {
-  position: sticky;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.crossfade-content {
-  position: absolute;
-  width: 100%;
-  max-width: 900px;
+.value-prop-container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 24px;
-  text-align: center;
-  will-change: opacity; /* Hardware acceleration */
 }
 
-.crossfade-content.subtitle-content {
+/* Blocks Spacing */
+.vp-spacing-block {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto 50vh auto; /* Il segreto per isolarli: distanza enorme tra loro */
+}
+
+.vp-spacing-block.subtitle-block {
   max-width: 1000px;
 }
 
-.crossfade-content.content-wide {
+.vp-spacing-block.grid-block {
   max-width: 1200px;
 }
 
-/* Titoli */
+.vp-spacing-block.cta-block {
+  margin-bottom: 0;
+}
+
+/* Titoli Generici */
 .value-title {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #fff;
-  margin: 0 0 24px 0;
+  margin: 0;
   line-height: 1.25;
 }
-@media (min-width: 768px) {
-  .value-title { font-size: 44px; margin: 0 0 32px 0; }
-}
 
-.value-subtitle {
-  font-size: 20px;
-  line-height: 1.5;
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: 400;
-  letter-spacing: -0.01em;
-}
 @media (min-width: 768px) {
-  .value-subtitle {
-    font-size: 26px;
-    line-height: 1.45;
-  }
+  .value-title { font-size: 44px; }
 }
 
 /* Grid Features */
@@ -250,14 +230,8 @@
 }
 
 /* ==================== CTA SECTION ==================== */
-.value-prop-container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
 .cta-glass-card {
-  margin: 80px auto 0 auto;
+  margin: 0 auto;
   max-width: 900px;
   padding: 60px 40px;
   border-radius: 32px;

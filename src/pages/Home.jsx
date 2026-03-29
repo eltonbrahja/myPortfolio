@@ -1,5 +1,5 @@
-import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import React from 'react';
+import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
@@ -8,28 +8,6 @@ import './Home.css';
 
 const Home = () => {
   const { t } = useLanguage();
-  
-  const scrollRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: scrollRef,
-    offset: ["start start", "end end"]
-  });
-
-  // Fase 1: TITOLO
-  const titleOpacity = useTransform(scrollYProgress, [0, 0.05, 0.2, 0.25], [0, 1, 1, 0]);
-  const titlePointer = useTransform(scrollYProgress, [0, 0.24, 0.25], ["auto", "auto", "none"]);
-
-  // Fase 2: SOTTOTITOLO
-  const subtitleOpacity = useTransform(scrollYProgress, [0.25, 0.3, 0.45, 0.5], [0, 1, 1, 0]);
-  const subtitlePointer = useTransform(scrollYProgress, [0, 0.26, 0.49, 0.5], ["none", "auto", "auto", "none"]);
-
-  // Fase 3: CARDS
-  const cardsOpacity = useTransform(scrollYProgress, [0.5, 0.55, 0.7, 0.75], [0, 1, 1, 0]);
-  const cardsPointer = useTransform(scrollYProgress, [0, 0.51, 0.74, 0.75], ["none", "auto", "auto", "none"]);
-
-  // Fase 4: CTA
-  const ctaOpacity = useTransform(scrollYProgress, [0.75, 0.8, 1, 1], [0, 1, 1, 1]);
-  const ctaPointer = useTransform(scrollYProgress, [0, 0.76, 0.8], ["none", "none", "auto"]);
 
   return (
     <PageTransition>
@@ -67,86 +45,94 @@ const Home = () => {
           </motion.div>
         </section>
 
-        {/* VALUE PROPOSITION SECTION (CROSS-FADE SEQUENCE) */}
+        {/* VALUE PROPOSITION SECTION (NATIVE SCROLL FADE) */}
         <section className="value-prop-section">
-          
-          <div ref={scrollRef} className="crossfade-scroll-container">
-            <div className="crossfade-sticky">
+          <div className="value-prop-container">
 
-              {/* FASE 1: TITOLO */}
-              <motion.div 
-                className="crossfade-content"
-                style={{ opacity: titleOpacity, pointerEvents: titlePointer }}
-              >
-                <h2 className="value-title">{t('home.valueTitle')}</h2>
-              </motion.div>
+            {/* FASE 1: TITOLO */}
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-20%" }}
+              transition={{ duration: 0.8 }}
+              className="vp-spacing-block"
+            >
+              <h2 className="value-title">{t('home.valueTitle')}</h2>
+            </motion.div>
 
-              {/* FASE 2: SOTTOTITOLO (stessa dimensione del titolo) */}
-              <motion.div 
-                className="crossfade-content subtitle-content"
-                style={{ opacity: subtitleOpacity, pointerEvents: subtitlePointer }}
-              >
-                <p className="value-title" dangerouslySetInnerHTML={{ __html: t('home.valueSubtitle') }} />
-              </motion.div>
+            {/* FASE 2: SOTTOTITOLO (stessa dimensione del titolo) */}
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-20%" }}
+              transition={{ duration: 0.8 }}
+              className="vp-spacing-block subtitle-block"
+            >
+              <p className="value-title" dangerouslySetInnerHTML={{ __html: t('home.valueSubtitle') }} />
+            </motion.div>
 
-              {/* FASE 3: GRID SERVIZI/FEATURES */}
-              <motion.div 
-                className="crossfade-content content-wide"
-                style={{ opacity: cardsOpacity, pointerEvents: cardsPointer }}
-              >
-                <div className="value-grid">
-                  {[
-                    {
-                      icon: <TrendingUp size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[0].title,
-                      desc: t('home.features')[0].desc,
-                      color: "blue"
-                    },
-                    {
-                      icon: <Target size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[1].title,
-                      desc: t('home.features')[1].desc,
-                      color: "purple"
-                    },
-                    {
-                      icon: <Code2 size={32} strokeWidth={1.2} />,
-                      title: t('home.features')[2].title,
-                      desc: t('home.features')[2].desc,
-                      color: "green"
-                    }
-                  ].map((val, idx) => (
-                    <div key={idx} className="value-card">
-                      <div className={`value-icon-wrapper text-${val.color}`}>
-                        {val.icon}
-                      </div>
-                      <h3>{val.title}</h3>
-                      <p>{val.desc}</p>
+            {/* FASE 3: GRID SERVIZI/FEATURES */}
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-20%" }}
+              transition={{ duration: 0.8 }}
+              className="vp-spacing-block grid-block"
+            >
+              <div className="value-grid">
+                {[
+                  {
+                    icon: <TrendingUp size={32} strokeWidth={1.2} />,
+                    title: t('home.features')[0].title,
+                    desc: t('home.features')[0].desc,
+                    color: "blue"
+                  },
+                  {
+                    icon: <Target size={32} strokeWidth={1.2} />,
+                    title: t('home.features')[1].title,
+                    desc: t('home.features')[1].desc,
+                    color: "purple"
+                  },
+                  {
+                    icon: <Code2 size={32} strokeWidth={1.2} />,
+                    title: t('home.features')[2].title,
+                    desc: t('home.features')[2].desc,
+                    color: "green"
+                  }
+                ].map((val, idx) => (
+                  <div key={idx} className="value-card">
+                    <div className={`value-icon-wrapper text-${val.color}`}>
+                      {val.icon}
                     </div>
-                  ))}
-                </div>
-              </motion.div>
-
-              {/* FASE 4: CTA FINALE */}
-              <motion.div 
-                className="crossfade-content"
-                style={{ opacity: ctaOpacity, pointerEvents: ctaPointer }}
-              >
-                <div className="cta-glass-card">
-                  <h2 className="cta-title">{t('home.closingText')}</h2>
-                  <div className="value-cta-wrapper">
-                    <Link to="/contact" className="btn-apple-primary">
-                      <Rocket size={18} strokeWidth={2} /> {t('home.btnStart')}
-                    </Link>
-                    <Link to="/portfolio" className="btn-apple-secondary">
-                      <FolderOpen size={18} strokeWidth={2} /> {t('home.btnPortfolio')}
-                    </Link>
+                    <h3>{val.title}</h3>
+                    <p>{val.desc}</p>
                   </div>
-                </div>
-              </motion.div>
+                ))}
+              </div>
+            </motion.div>
 
-            </div>
+            {/* FASE 4: CTA FINALE */}
+            <motion.div 
+              initial={{ opacity: 0, scale: 0.95, y: 40 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              viewport={{ once: true, margin: "-20%" }}
+              transition={{ duration: 0.8 }}
+              className="vp-spacing-block cta-block"
+            >
+              <div className="cta-glass-card">
+                <h2 className="cta-title">{t('home.closingText')}</h2>
+                <div className="value-cta-wrapper">
+                  <Link to="/contact" className="btn-apple-primary">
+                    <Rocket size={18} strokeWidth={2} /> {t('home.btnStart')}
+                  </Link>
+                  <Link to="/portfolio" className="btn-apple-secondary">
+                    <FolderOpen size={18} strokeWidth={2} /> {t('home.btnPortfolio')}
+                  </Link>
+                </div>
+              </div>
+            </motion.div>
+
           </div>
-          
         </section>
 
       </div>
