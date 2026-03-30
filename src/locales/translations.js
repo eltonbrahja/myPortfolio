@@ -84,6 +84,11 @@ const translations = {
       intro: "Dalla gestione complessa tramite CMS alle dashboard PWA in React.",
       projects: [
         {
+          title: "B&B Palazzo Dana",
+          description: "Sito web premium per una struttura ricettiva di lusso. Design immersivo con animazioni su misura, sistema di prenotazione integrato e supporto multilingua globale.",
+          linkText: "Visita Live"
+        },
+        {
           title: "Studio Dott.ssa Danubia Macario",
           description: "Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.",
           linkText: "Visita Live"
@@ -253,6 +258,11 @@ const translations = {
       title2: "Projects",
       intro: "From complex CMS management to PWA dashboards in React.",
       projects: [
+        {
+          title: "B&B Palazzo Dana",
+          description: "Premium website for a luxury accommodation. Immersive design with custom animations, fully integrated booking system, and comprehensive multilingual support.",
+          linkText: "Live Demo"
+        },
         {
           title: "Dr. Danubia Macario Studio",
           description: "Full bilingual website (IT/PT-BR) for psychological consulting. Professional interface with online booking system, multilingual content management.",

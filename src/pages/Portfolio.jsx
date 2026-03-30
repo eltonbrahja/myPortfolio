@@ -1,5 +1,5 @@
-import React from 'react';
-import { ExternalLink, Github, Code2 } from 'lucide-react';
+import React, { useState } from 'react';
+import { ExternalLink, Github, Code2, X } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -7,30 +7,40 @@ import './Portfolio.css';
 
 const Portfolio = () => {
   const { t } = useLanguage();
+  const [selectedImage, setSelectedImage] = useState(null);
+
   const projects = [
     {
       title: t('portfolio.projects')[0].title,
-      image: "/sitoDanubia.webp",
-      tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
+      images: ["/palazzodana-1.webp", "/palazzodana-2.webp"],
+      tags: ["REACT VITE", "GSAP ANIMATIONS", "CUSTOM BOOKING"],
       description: t('portfolio.projects')[0].description,
-      link: "https://www.danubiamacario.com",
+      link: "https://palazzodana.com",
       linkText: t('portfolio.projects')[0].linkText
     },
     {
       title: t('portfolio.projects')[1].title,
-      image: "/sitoAlessandra.webp",
-      tags: ["WORDPRESS", "LATEPOINT BOOKING"],
+      image: "/sitoDanubia.webp",
+      tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
       description: t('portfolio.projects')[1].description,
-      link: "https://www.alessandra-marascio-psicologa.it/",
+      link: "https://www.danubiamacario.com",
       linkText: t('portfolio.projects')[1].linkText
     },
     {
       title: t('portfolio.projects')[2].title,
+      image: "/sitoAlessandra.webp",
+      tags: ["WORDPRESS", "LATEPOINT BOOKING"],
+      description: t('portfolio.projects')[2].description,
+      link: "https://www.alessandra-marascio-psicologa.it/",
+      linkText: t('portfolio.projects')[2].linkText
+    },
+    {
+      title: t('portfolio.projects')[3].title,
       image: "/mioSito.webp",
       tags: ["REACT VITE", "FRAMER MOTION", "VANILLA CSS"],
-      description: t('portfolio.projects')[2].description,
+      description: t('portfolio.projects')[3].description,
       link: "#",
-      linkText: t('portfolio.projects')[2].linkText
+      linkText: t('portfolio.projects')[3].linkText
     }
   ];
 
@@ -50,10 +60,25 @@ const Portfolio = () => {
         <div className="portfolio-grid">
           {projects.map((project, idx) => (
             <GlassCard key={idx} className="portfolio-card" delay={idx * 0.1}>
-              <div className="portfolio-image-container">
-                <img src={project.image} alt={project.title} className="portfolio-image" loading="lazy" />
-                <div className="portfolio-image-overlay"></div>
-              </div>
+              {project.images ? (
+                <div className="portfolio-dual-image-container">
+                  {project.images.map((imgSrc, imgIdx) => (
+                    <div 
+                      key={imgIdx} 
+                      className="portfolio-half-image-wrapper"
+                      onClick={() => setSelectedImage(imgSrc)}
+                    >
+                      <img src={imgSrc} alt={`${project.title} - screen ${imgIdx + 1}`} className="portfolio-image clickable" loading="lazy" />
+                    </div>
+                  ))}
+                  <div className="portfolio-image-overlay"></div>
+                </div>
+              ) : (
+                <div className="portfolio-image-container">
+                  <img src={project.image} alt={project.title} className="portfolio-image" loading="lazy" />
+                  <div className="portfolio-image-overlay"></div>
+                </div>
+              )}
               <div className="portfolio-content">
                 <div className="portfolio-tags">
                   {project.tags.map((tag, tIdx) => (
@@ -88,6 +113,18 @@ const Portfolio = () => {
           </GlassCard>
         </div>
       </div>
+
+      {/* Lightbox Modal */}
+      {selectedImage && (
+        <div className="portfolio-lightbox" onClick={() => setSelectedImage(null)}>
+          <button className="lightbox-close" onClick={(e) => { e.stopPropagation(); setSelectedImage(null); }}>
+            <X size={32} />
+          </button>
+          <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
+            <img src={selectedImage} alt="Enlarged view" className="lightbox-image" />
+          </div>
+        </div>
+      )}
     </PageTransition>
   );
 };
