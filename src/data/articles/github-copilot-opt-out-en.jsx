@@ -31,42 +31,11 @@ export const githubCopilotOptOutPostEn = {
       <p>One nuance worth understanding: GitHub draws a distinction between code "at rest" in private repositories (which is <strong>not used</strong> for training) and data generated during an active Copilot session (which <strong>may be used</strong> unless you opt out). If you're using Copilot on a private project, your session interactions fall under this new policy.</p>
 
       <h2>Who Is Affected (and Who Isn't)</h2>
-      <div className="table-responsive">
-        <table className="article-table">
-          <thead>
-            <tr>
-              <th>Plan</th>
-              <th>Affected by the New Policy</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Copilot Free</td>
-              <td>✅ Yes</td>
-            </tr>
-            <tr>
-              <td>Copilot Pro</td>
-              <td>✅ Yes</td>
-            </tr>
-            <tr>
-              <td>Copilot Pro+</td>
-              <td>✅ Yes</td>
-            </tr>
-            <tr>
-              <td>Copilot Business</td>
-              <td>❌ No (excluded by contract)</td>
-            </tr>
-            <tr>
-              <td>Copilot Enterprise</td>
-              <td>❌ No (excluded by contract)</td>
-            </tr>
-            <tr>
-              <td>Students and teachers</td>
-              <td>❌ No (excluded)</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <p>This policy change doesn't impact everyone equally. Here is the current breakdown:</p>
+      <ul>
+        <li><strong>Who is affected:</strong> All users on individual plans, specifically <em>Copilot Free</em>, <em>Copilot Pro</em>, and <em>Copilot Pro+</em>. For these accounts, the new policy is active by default and requires explicit action to disable.</li>
+        <li><strong>Who is excluded:</strong> Users on corporate plans (<em>Copilot Business</em> and <em>Copilot Enterprise</em>) are unaffected, as they are covered by strict contractual agreements preventing data usage. Educational accounts (students and teachers) are also excluded from this data collection.</li>
+      </ul>
       <p>If you previously opted out of data collection for product improvement purposes, your preference has been preserved — you don't need to do anything. Business and Enterprise users are covered by their contractual terms and are not impacted.</p>
 
       <h2>How to Opt Out of GitHub Copilot Data Training: Step-by-Step</h2>

@@ -31,42 +31,11 @@ export const githubCopilotOptOutPost = {
       <p>Un aspetto importante da capire: GitHub distingue tra codice "a riposo" nei repository privati (che <strong>non viene usato</strong> per il training) e i dati generati durante una sessione attiva con Copilot (che <strong>possono essere usati</strong> se non hai fatto opt-out). Se stai usando Copilot su un progetto privato, le interazioni di quella sessione rientrano nella nuova policy.</p>
 
       <h2>Chi è coinvolto (e chi è escluso)</h2>
-      <div className="table-responsive">
-        <table className="article-table">
-          <thead>
-            <tr>
-              <th>Piano</th>
-              <th>Coinvolto dalla nuova policy</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Copilot Free</td>
-              <td>✅ Sì</td>
-            </tr>
-            <tr>
-              <td>Copilot Pro</td>
-              <td>✅ Sì</td>
-            </tr>
-            <tr>
-              <td>Copilot Pro+</td>
-              <td>✅ Sì</td>
-            </tr>
-            <tr>
-              <td>Copilot Business</td>
-              <td>❌ No (escluso contrattualmente)</td>
-            </tr>
-            <tr>
-              <td>Copilot Enterprise</td>
-              <td>❌ No (escluso contrattualmente)</td>
-            </tr>
-            <tr>
-              <td>Studenti e docenti</td>
-              <td>❌ No (esclusi)</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+      <p>Questa modifica non impatta tutti allo stesso modo. Ecco la situazione attuale:</p>
+      <ul>
+        <li><strong>Chi è coinvolto:</strong> Tutti gli utenti con piani individuali, ovvero <em>Copilot Free</em>, <em>Copilot Pro</em> e <em>Copilot Pro+</em>. Per questi account, la nuova policy è attiva e richiede un'azione esplicita per essere disabilitata.</li>
+        <li><strong>Chi è escluso:</strong> Gli utenti con piani aziendali (<em>Copilot Business</em> e <em>Copilot Enterprise</em>) non sono toccati da questa novità, in quanto protetti da specifici accordi contrattuali. Anche l'utenza educational (studenti e docenti) rimane esclusa dalla raccolta dati.</li>
+      </ul>
       <p>Se hai già effettuato l'opt-out in passato per altre impostazioni di raccolta dati, la tua preferenza è stata mantenuta e non devi fare nulla. Gli utenti Business ed Enterprise sono coperti dai termini contrattuali e non sono coinvolti.</p>
 
       <h2>Come fare opt-out da GitHub Copilot: guida passo passo</h2>
