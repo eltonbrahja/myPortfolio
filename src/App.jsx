@@ -51,10 +51,14 @@ const LanguageSynchronizer = () => {
 // Utility component to handle page transitions
 const AnimatedRoutes = () => {
   const location = useLocation();
+  // Normalize path so language switch (/about ↔ /en/about) doesn't trigger exit/enter animations
+  const normalizedPath = location.pathname.startsWith('/en')
+    ? location.pathname.substring(3) || '/'
+    : location.pathname;
   
   return (
     <AnimatePresence mode="popLayout">
-      <Routes location={location} key={location.pathname}>
+      <Routes location={location} key={normalizedPath}>
         <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
