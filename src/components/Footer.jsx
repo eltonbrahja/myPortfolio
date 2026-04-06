@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Footer.css';
 
 const Footer = () => {
-  const { t, language } = useLanguage();
+  const { language, t, localizePath } = useLanguage();
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -34,11 +34,11 @@ const Footer = () => {
           <div className="footer-links-col">
             <h4>{t('footer.quickLinks')}</h4>
             <ul>
-              <li><Link to="/">{t('footer.home')}</Link></li>
-              <li><Link to="/about">{t('navbar.about') || "Chi Sono"}</Link></li>
-              <li><Link to="/services">{t('footer.services')}</Link></li>
-              <li><Link to="/portfolio">{t('footer.portfolio')}</Link></li>
-              <li><Link to="/blog">{t('navbar.blog') || "Blog"}</Link></li>
+              <li><Link to={localizePath('/')}>{t('footer.home')}</Link></li>
+              <li><Link to={localizePath('/about')}>{t('navbar.about') || "Chi Sono"}</Link></li>
+              <li><Link to={localizePath('/services')}>{t('footer.services')}</Link></li>
+              <li><Link to={localizePath('/portfolio')}>{t('footer.portfolio')}</Link></li>
+              <li><Link to={localizePath('/blog')}>{t('navbar.blog') || "Blog"}</Link></li>
             </ul>
           </div>
 
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Elton Brahja. Code is Art. {t('footer.rights')}</p>
           <div className="footer-bottom-links">
-            <Link to="/privacy">{t('footer.privacy')}</Link>
+            <Link to={localizePath('/privacy')}>{t('footer.privacy')}</Link>
           </div>
         </div>
       </div>

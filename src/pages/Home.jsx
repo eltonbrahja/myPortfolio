@@ -7,7 +7,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Home.css';
 
 const Home = () => {
-  const { t } = useLanguage();
+  const { t, localizePath } = useLanguage();
 
   return (
     <PageTransition>
@@ -122,10 +122,10 @@ const Home = () => {
               <div className="cta-glass-card">
                 <h2 className="cta-title">{t('home.closingText')}</h2>
                 <div className="value-cta-wrapper">
-                  <Link to="/contact" className="btn-apple-primary">
+                  <Link to={localizePath('/contact')} className="btn-apple-primary">
                     <Rocket size={18} strokeWidth={2} /> {t('home.btnStart')}
                   </Link>
-                  <Link to="/portfolio" className="btn-apple-secondary">
+                  <Link to={localizePath('/portfolio')} className="btn-apple-secondary">
                     <FolderOpen size={18} strokeWidth={2} /> {t('home.btnPortfolio')}
                   </Link>
                 </div>

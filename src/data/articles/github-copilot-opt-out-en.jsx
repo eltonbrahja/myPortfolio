@@ -72,7 +72,7 @@ export const githubCopilotOptOutPostEn = {
       <p>If this post helped you, share it with other developers — a lot of people may not be aware of this change yet.</p>
 
       <hr />
-      <p><em>Elton Brahja — Freelance web developer. Questions or collaborations? <a href="/contact">Get in touch</a>.</em></p>
+      <p><em>Elton Brahja — Freelance web developer. Questions or collaborations? <a href="/en/contact">Get in touch</a>.</em></p>
     </div>
   )
 };

@@ -49,7 +49,7 @@ export const smettilaIncolpareAiPost = {
       <p>Eri tu.</p>
 
       <hr />
-      <p><em>Elton Brahja — Sviluppatore web freelance. Se vuoi un sito costruito con un processo serio, <a href="/contatti">parliamone</a>.</em></p>
+      <p><em>Elton Brahja — Sviluppatore web freelance. Se vuoi un sito costruito con un processo serio, <a href="/contact">parliamone</a>.</em></p>
     </div>
   )
 };

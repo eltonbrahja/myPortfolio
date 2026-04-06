@@ -11,7 +11,7 @@ import './Blog.css';
 const BlogPost = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { language, t } = useLanguage();
+  const { language, t, localizePath } = useLanguage();
   
   const postGroup = blogPosts.find(p => p.id === id);
   const post = postGroup ? postGroup[language] : null;
@@ -34,7 +34,7 @@ const BlogPost = () => {
       <PageTransition>
         <div className="blog-container" style={{ textAlign: 'center', paddingTop: '100px' }}>
           <h2>{t('blog.notFound')}</h2>
-          <Link to="/blog" className="read-more-btn" style={{ justifyContent: 'center', marginTop: '24px' }}>
+          <Link to={localizePath('/blog')} className="read-more-btn" style={{ justifyContent: 'center', marginTop: '24px' }}>
             <ArrowLeft size={16} /> {t('blog.backToBlog')}
           </Link>
         </div>
@@ -52,7 +52,7 @@ const BlogPost = () => {
           transition={{ duration: 0.5 }}
           className="single-article-view"
         >
-          <button className="back-btn" onClick={() => navigate('/blog')}>
+          <button className="back-btn" onClick={() => navigate(localizePath('/blog'))}>
             <ArrowLeft size={18} strokeWidth={1.5} /> {t('blog.backToBlog')}
           </button>
           

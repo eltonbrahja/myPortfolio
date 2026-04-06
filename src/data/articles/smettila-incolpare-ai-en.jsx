@@ -49,7 +49,7 @@ export const smettilaIncolpareAiPostEn = {
       <p>It was you.</p>
 
       <hr />
-      <p><em>Elton Brahja — Freelance web developer. If you want a website built with a serious process behind it, <a href="/contact">let's talk</a>.</em></p>
+      <p><em>Elton Brahja — Freelance web developer. If you want a website built with a serious process behind it, <a href="/en/contact">let's talk</a>.</em></p>
     </div>
   )
 };

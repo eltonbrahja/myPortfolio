@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Outlet } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
 // Components
@@ -16,6 +16,17 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Privacy from './pages/Privacy';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
+
+// Utility component to set language by route
+const LanguageRouterSync = ({ routeLang }) => {
+  const { language, changeLanguage } = useLanguage();
+  useEffect(() => {
+    if (language !== routeLang) {
+      changeLanguage(routeLang);
+    }
+  }, [routeLang, language, changeLanguage]);
+  return <Outlet />;
+};
 
 // Wrapper component to scroll to top on route change
 const ScrollToTop = () => {
@@ -44,14 +55,26 @@ const AnimatedRoutes = () => {
   return (
     <AnimatePresence mode="popLayout">
       <Routes location={location} key={location.pathname}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:id" element={<BlogPost />} />
-        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/:id" element={<BlogPost />} />
+          <Route path="privacy" element={<Privacy />} />
+        </Route>
+        <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="portfolio" element={<Portfolio />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="blog/:id" element={<BlogPost />} />
+          <Route path="privacy" element={<Privacy />} />
+        </Route>
       </Routes>
     </AnimatePresence>
   );

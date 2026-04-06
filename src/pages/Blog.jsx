@@ -9,7 +9,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Blog.css';
 
 const Blog = () => {
-  const { t, language } = useLanguage();
+  const { t, language, localizePath } = useLanguage();
   const posts = blogPosts.map(group => group[language]).filter(Boolean);
 
   return (
@@ -33,7 +33,7 @@ const Blog = () => {
           <div className="blog-grid">
             {posts.map((post) => (
               <GlassCard key={post.id} className="blog-card" hoverable>
-                <Link to={`/blog/${post.id}`} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <Link to={localizePath(`/blog/${post.id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
                   <div className="blog-image-wrapper">
                     <img src={post.image} alt={post.title} className="blog-image" loading="lazy" />
                     <span className="blog-category">{post.category}</span>
