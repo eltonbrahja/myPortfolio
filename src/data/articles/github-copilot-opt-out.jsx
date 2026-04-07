@@ -14,7 +14,19 @@ export const githubCopilotOptOutPost = {
       <p>Dal <strong>24 aprile 2026</strong>, GitHub ha aggiornato la sua policy sulla privacy: le tue interazioni con Copilot — prompt, suggerimenti accettati, snippet di codice e contesto — possono essere utilizzate per addestrare i modelli AI di GitHub, a meno che tu non faccia esplicitamente opt-out.</p>
       <p>In questo articolo ti spiego esattamente cosa è cambiato, chi è coinvolto e come disattivare questa impostazione in due minuti.</p>
 
-      <h2>Cosa è cambiato con la nuova policy di GitHub Copilot</h2>
+      <nav className="article-toc">
+        <h3 className="toc-title">Indice</h3>
+        <ol className="toc-list">
+          <li><a href="#cosa-cambiato">Cosa è cambiato con la nuova policy di GitHub Copilot</a></li>
+          <li><a href="#chi-coinvolto">Chi è coinvolto (e chi è escluso)</a></li>
+          <li><a href="#come-opt-out">Come fare opt-out da GitHub Copilot: guida passo passo</a></li>
+          <li><a href="#dati-terze-parti">I dati vengono condivisi con terze parti?</a></li>
+          <li><a href="#progetti-privati">Cosa significa per i tuoi progetti privati?</a></li>
+          <li><a href="#conclusione">Conclusione: fai opt-out adesso, poi decidi</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="cosa-cambiato">Cosa è cambiato con la nuova policy di GitHub Copilot</h2>
       <p>GitHub ha annunciato l'aggiornamento il 25 marzo 2026, dando agli utenti 30 giorni di preavviso. A partire dal 24 aprile, i dati di interazione degli utenti Copilot Free, Pro e Pro+, vengono usati per migliorare i modelli AI interni di GitHub, salvo opt-out esplicito.</p>
       <p>Fino ad ora, i modelli di Copilot erano addestrati su dati pubblici e campioni di codice selezionati manualmente. La nuova policy introduce l'utilizzo dei dati di interazione reali degli sviluppatori — con il meccanismo opt-out (devi disattivarla tu) al posto dell'opt-in (dovrebbero chiederti il consenso).</p>
 
@@ -30,7 +42,7 @@ export const githubCopilotOptOutPost = {
       </ul>
       <p>Un aspetto importante da capire: GitHub distingue tra codice "a riposo" nei repository privati (che <strong>non viene usato</strong> per il training) e i dati generati durante una sessione attiva con Copilot (che <strong>possono essere usati</strong> se non hai fatto opt-out). Se stai usando Copilot su un progetto privato, le interazioni di quella sessione rientrano nella nuova policy.</p>
 
-      <h2>Chi è coinvolto (e chi è escluso)</h2>
+      <h2 id="chi-coinvolto">Chi è coinvolto (e chi è escluso)</h2>
       <p>Questa modifica non impatta tutti allo stesso modo. Ecco la situazione attuale:</p>
       <ul>
         <li><strong>Chi è coinvolto:</strong> Tutti gli utenti con piani individuali, ovvero <em>Copilot Free</em>, <em>Copilot Pro</em> e <em>Copilot Pro+</em>. Per questi account, la nuova policy è attiva e richiede un'azione esplicita per essere disabilitata.</li>
@@ -38,7 +50,7 @@ export const githubCopilotOptOutPost = {
       </ul>
       <p>Se hai già effettuato l'opt-out in passato per altre impostazioni di raccolta dati, la tua preferenza è stata mantenuta e non devi fare nulla. Gli utenti Business ed Enterprise sono coperti dai termini contrattuali e non sono coinvolti.</p>
 
-      <h2>Come fare opt-out da GitHub Copilot: guida passo passo</h2>
+      <h2 id="come-opt-out">Come fare opt-out da GitHub Copilot: guida passo passo</h2>
       <p>La procedura è rapida. Ecco come disattivare l'uso dei tuoi dati per il training dei modelli AI:</p>
       <ol>
         <li>Accedi al tuo account su <a href="https://github.com" target="_blank" rel="noopener noreferrer">github.com</a></li>
@@ -54,11 +66,11 @@ export const githubCopilotOptOutPost = {
         <p><strong>Attenzione:</strong> Se non vedi questa opzione nelle impostazioni, probabilmente sei collegato con un account Business o Enterprise — che non è coinvolto da questa policy.</p>
       </blockquote>
 
-      <h2>I dati vengono condivisi con terze parti?</h2>
+      <h2 id="dati-terze-parti">I dati vengono condivisi con terze parti?</h2>
       <p>Secondo GitHub, i dati usati per il training possono essere condivisi con le <strong>società affiliate</strong>, tra cui Microsoft — che fa parte dello stesso gruppo aziendale. GitHub afferma esplicitamente che questi dati <strong>non vengono condivisi</strong> con provider AI di terze parti indipendenti (come OpenAI o altri).</p>
       <p>Vale la pena sottolineare che questa policy è simile a quella adottata da altri strumenti AI di sviluppo, tra cui prodotti di Anthropic, JetBrains e Microsoft stesso. GitHub lo evidenzia nelle proprie FAQ come pratica comune nel settore.</p>
 
-      <h2>Cosa significa per i tuoi progetti privati?</h2>
+      <h2 id="progetti-privati">Cosa significa per i tuoi progetti privati?</h2>
       <p>Se lavori su codice proprietario o progetti client con un piano individuale, questa distinzione è importante:</p>
       <ul>
         <li>Il <strong>codice sorgente</strong> salvato nel tuo repository privato <strong>non viene usato</strong> per il training.</li>
@@ -66,7 +78,7 @@ export const githubCopilotOptOutPost = {
       </ul>
       <p>Per i team che gestiscono codice sensibile su piani individuali, questa è un'ottima occasione per valutare il passaggio ai piani Business o Enterprise, che offrono garanzie contrattuali complete sull'esclusione dal training.</p>
 
-      <h2>Conclusione: fai opt-out adesso, poi decidi</h2>
+      <h2 id="conclusione">Conclusione: fai opt-out adesso, poi decidi</h2>
       <p>La nuova policy di GitHub Copilot non è necessariamente sbagliata — dati reali migliorano i modelli AI e potrebbero portare a suggerimenti più accurati. Ma il meccanismo opt-out invece dell'opt-in sposta su di te la responsabilità di proteggere la tua privacy.</p>
       <p>Il consiglio pratico: <strong>fai opt-out subito</strong>, poi valuta con calma se ti va di contribuire con i tuoi dati. Puoi sempre riattivare l'impostazione in qualsiasi momento.</p>
       <p>Se hai trovato utile questa guida, condividila con altri sviluppatori — molti potrebbero non essere ancora a conoscenza di questa modifica.</p>
