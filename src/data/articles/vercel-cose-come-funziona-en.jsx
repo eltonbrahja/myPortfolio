@@ -6,7 +6,7 @@ export const vercelCoseComeFunzionaPostEn = {
   excerpt: "Vercel is the go-to hosting and deployment platform for frontend developers. Learn what it is, how it works, what plans are available, and how to get started for free.",
   date: "April 2026",
   readTime: "4 min",
-  image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1000",
+  image: "/vercel0.webp",
   category: "Technical Guides",
   content: (
     <div className="article-body">
