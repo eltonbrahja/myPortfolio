@@ -9,17 +9,20 @@ const CookieBanner = () => {
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
       setIsVisible(true);
+      document.body.classList.add('cookie-banner-active');
     }
   }, []);
 
   const handleAccept = () => {
     localStorage.setItem('cookieConsent', 'accepted');
     setIsVisible(false);
+    document.body.classList.remove('cookie-banner-active');
   };
 
   const handleDecline = () => {
     localStorage.setItem('cookieConsent', 'declined');
     setIsVisible(false);
+    document.body.classList.remove('cookie-banner-active');
   };
 
   if (!isVisible) return null;

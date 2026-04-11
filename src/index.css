@@ -117,8 +117,9 @@ a {
 .cookie-banner {
   position: fixed;
   bottom: 2rem;
-  left: 2rem;
-  max-width: 400px;
+  right: 6.5rem;
+  left: auto;
+  max-width: 380px;
   padding: 1.5rem;
   z-index: 1000;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -141,6 +142,7 @@ a {
   display: flex;
   gap: 0.5rem;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .cookie-btn {
@@ -193,10 +195,10 @@ a {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
   }
   
-  .whatsapp-button {
-    bottom: 5rem; /* move whatsapp up slightly if we wanted, but not modifying the whatsapp logic directly */
+  body.cookie-banner-active .whatsapp-button {
+    bottom: 15rem; /* Pushato sopra il cookie banner */
   }
 }
