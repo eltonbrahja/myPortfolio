@@ -5,6 +5,7 @@ import { AnimatePresence } from 'framer-motion';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 // Pages
 import Home from './pages/Home';
@@ -96,6 +97,7 @@ function App() {
             <AnimatedRoutes />
           </main>
           <Footer />
+          <WhatsAppButton />
         </div>
       </Router>
     </LanguageProvider>
