@@ -6,8 +6,15 @@ import { githubCopilotOptOutPost } from './articles/github-copilot-opt-out';
 import { githubCopilotOptOutPostEn } from './articles/github-copilot-opt-out-en';
 import { vercelCoseComeFunzionaPost } from './articles/vercel-cose-come-funziona';
 import { vercelCoseComeFunzionaPostEn } from './articles/vercel-cose-come-funziona-en';
+import { vantaggiUxDesignPost } from './articles/vantaggi-ux-design';
+import { vantaggiUxDesignPostEn } from './articles/vantaggi-ux-design-en';
 
 export const blogPosts = [
+  {
+    id: "vantaggi-ux-design",
+    it: vantaggiUxDesignPost,
+    en: vantaggiUxDesignPostEn
+  },
   {
     id: "vercel-cose-come-funziona",
     it: vercelCoseComeFunzionaPost,

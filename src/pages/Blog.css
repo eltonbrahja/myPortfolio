@@ -362,3 +362,54 @@
     padding: 8px 8px;
   }
 }
+
+/* ========================================= */
+/* Article Table Styles                      */
+/* ========================================= */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  margin: 32px 0;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--glass-bg, rgba(255, 255, 255, 0.02));
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.article-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 16px;
+  min-width: 600px;
+}
+
+.article-table th {
+  padding: 16px 24px;
+  font-weight: 600;
+  color: var(--text-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.article-table td {
+  padding: 16px 24px;
+  color: rgba(255, 255, 255, 0.85);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.article-table tr:last-child td {
+  border-bottom: none;
+}
+
+.article-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+@media (max-width: 600px) {
+  .article-table th, .article-table td {
+    padding: 12px 16px;
+    font-size: 14px;
+  }
+}
