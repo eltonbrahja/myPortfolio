@@ -6,6 +6,7 @@ import { AnimatePresence } from 'framer-motion';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import CookieBanner from './components/CookieBanner';
 
 // Pages
 import Home from './pages/Home';
@@ -98,6 +99,7 @@ function App() {
           </main>
           <Footer />
           <WhatsAppButton />
+          <CookieBanner />
         </div>
       </Router>
     </LanguageProvider>
