@@ -43,16 +43,18 @@ const CookieBanner = () => {
   const currentContent = content[language] || content.it;
 
   return (
-    <div className="cookie-banner glass-panel">
-      <div className="cookie-content">
-        <p>{currentContent.text}</p>
-        <div className="cookie-buttons">
-          <button className="cookie-btn decline" onClick={handleDecline}>
-            {currentContent.decline}
-          </button>
-          <button className="cookie-btn accept" onClick={handleAccept}>
-            {currentContent.accept}
-          </button>
+    <div className="cookie-backdrop">
+      <div className="cookie-banner glass-panel">
+        <div className="cookie-content">
+          <p>{currentContent.text}</p>
+          <div className="cookie-buttons">
+            <button className="cookie-btn decline" onClick={handleDecline}>
+              {currentContent.decline}
+            </button>
+            <button className="cookie-btn accept" onClick={handleAccept}>
+              {currentContent.accept}
+            </button>
+          </div>
         </div>
       </div>
     </div>
