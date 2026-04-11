@@ -6,7 +6,7 @@ export const vantaggiUxDesignPost = {
   excerpt: "Scopri cosa significa investire nella UX per una piccola o media impresa e quali vantaggi concreti puoi aspettarti per aumentare le conversioni.",
   date: "Aprile 2026",
   readTime: "5 min",
-  image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+  image: "/foto-articolo-ux-design.webp",
   category: "Design",
   content: (
     <div className="article-body">
