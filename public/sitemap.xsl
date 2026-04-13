@@ -71,7 +71,7 @@
       <body>
         <div class="container">
           <h1>Sitemap XML</h1>
-          <p>Questa è una sitemap generata per i motori di ricerca (Google, Bing). È un file tecnico, ma l'ho stilizzato per renderlo leggibile anche da te.</p>
+          <p>Questa è una sitemap generata per i motori di ricerca (Google, Bing).</p>
           <table>
             <tr>
               <th>URL</th>
