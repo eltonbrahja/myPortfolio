@@ -1,5 +1,5 @@
 .portfolio-container {
-  padding: 60px 0;
+  padding: 60px 5%;
 }
 
 .portfolio-header {
@@ -180,50 +180,93 @@
   margin-top: 24px;
 }
 
-/* --- Dual Image Container Variants --- */
+/* --- Automatic Sliding Gallery Styles --- */
 
-.portfolio-dual-image-container {
+.portfolio-gallery-container {
   width: 100%;
   height: 250px;
   position: relative;
   overflow: hidden;
-  display: flex;
+  background: #000;
 }
 
 @media (min-width: 768px) {
-  .portfolio-dual-image-container {
+  .portfolio-gallery-container {
     width: 45%;
     height: auto;
-    min-height: 320px;
+    min-height: 380px;
   }
 }
 
-.portfolio-half-image-wrapper {
+.portfolio-gallery-container.layout-dual {
+  min-height: 450px; /* Slightly taller for dual view to appreciate vertical shots */
+}
+
+.portfolio-gallery-slide {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dual-images-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.dual-image-half {
   flex: 1;
   height: 100%;
   overflow: hidden;
   position: relative;
-  cursor: pointer;
 }
 
-.portfolio-half-image-wrapper:first-child {
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+.dual-image-half:first-child {
+  border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.portfolio-half-image-wrapper .portfolio-image {
+.portfolio-gallery-slide .portfolio-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.7s ease, opacity 0.3s ease;
+  transition: transform 0.5s ease;
 }
 
-.portfolio-card:hover .portfolio-half-image-wrapper .portfolio-image {
+.dual-image-half:hover .portfolio-image {
   transform: scale(1.05);
 }
 
-.portfolio-half-image-wrapper:hover .portfolio-image {
-  transform: scale(1.1); /* greater scale on the specifically hovered one */
-  opacity: 0.9;
+/* Indicators (Dots) */
+.gallery-dots {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+}
+
+.gallery-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.gallery-dot.active {
+  background: var(--accent-color);
+  transform: scale(1.3);
+  box-shadow: 0 0 10px var(--accent-color);
+}
+
+.gallery-dot:hover {
+  background: rgba(255, 255, 255, 0.6);
 }
 
 .clickable {

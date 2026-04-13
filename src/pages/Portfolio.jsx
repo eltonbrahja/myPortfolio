@@ -1,9 +1,83 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github, Code2, X } from 'lucide-react';
+import { AnimatePresence, motion } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
 import './Portfolio.css';
+
+const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  
+  const slides = layout === 'dual' 
+    ? Array.from({ length: Math.ceil(images.length / 2) }, (_, i) => images.slice(i * 2, i * 2 + 2))
+    : images;
+
+  useEffect(() => {
+    if (!slides || slides.length <= 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % slides.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [slides]);
+
+  return (
+    <div className={`portfolio-gallery-container layout-${layout}`}>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={currentIndex}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.95 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+          className="portfolio-gallery-slide"
+        >
+          {layout === 'dual' ? (
+            <div className="dual-images-wrapper">
+              {slides[currentIndex].map((imgSrc, imgIdx) => (
+                <div 
+                  key={imgIdx} 
+                  className="dual-image-half"
+                  onClick={() => setSelectedImage(imgSrc)}
+                >
+                  <img 
+                    src={imgSrc} 
+                    alt={`${title} - slide ${currentIndex + 1} pair ${imgIdx + 1}`} 
+                    className="portfolio-image clickable" 
+                    loading="lazy" 
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <img 
+              src={slides[currentIndex]} 
+              alt={`${title} - slide ${currentIndex + 1}`} 
+              className="portfolio-image clickable" 
+              onClick={() => setSelectedImage(slides[currentIndex])}
+              loading="lazy" 
+            />
+          )}
+        </motion.div>
+      </AnimatePresence>
+      
+      {/* Visual indicators (dots) */}
+      <div className="gallery-dots">
+        {slides.map((_, idx) => (
+          <div 
+            key={idx} 
+            className={`gallery-dot ${idx === currentIndex ? 'active' : ''}`}
+            onClick={(e) => { e.stopPropagation(); setCurrentIndex(idx); }}
+          ></div>
+        ))}
+      </div>
+      
+      <div className="portfolio-image-overlay"></div>
+    </div>
+  );
+};
 
 const Portfolio = () => {
   const { t } = useLanguage();
@@ -12,7 +86,7 @@ const Portfolio = () => {
   const projects = [
     {
       title: t('portfolio.projects')[0].title,
-      images: ["/palazzodana-1.webp", "/palazzodana-2.webp"],
+      images: ["/palazzodana-1.webp", "/palazzodana-2.webp", "/palazzodana-3.webp", "/palazzodana-4.webp"],
       tags: ["REACT VITE", "GSAP ANIMATIONS", "CUSTOM BOOKING"],
       description: t('portfolio.projects')[0].description,
       link: "https://palazzodana.com",
@@ -20,7 +94,7 @@ const Portfolio = () => {
     },
     {
       title: t('portfolio.projects')[1].title,
-      image: "/sitoDanubia.webp",
+      images: ["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"],
       tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
       description: t('portfolio.projects')[1].description,
       link: "https://www.danubiamacario.com",
@@ -28,7 +102,7 @@ const Portfolio = () => {
     },
     {
       title: t('portfolio.projects')[2].title,
-      image: "/sitoAlessandra.webp",
+      images: ["/alessandra-1.webp", "/alessandra-2.webp"],
       tags: ["WORDPRESS", "LATEPOINT BOOKING"],
       description: t('portfolio.projects')[2].description,
       link: "https://www.alessandra-marascio-psicologa.it/",
@@ -61,18 +135,12 @@ const Portfolio = () => {
           {projects.map((project, idx) => (
             <GlassCard key={idx} className="portfolio-card" delay={idx * 0.1}>
               {project.images ? (
-                <div className="portfolio-dual-image-container">
-                  {project.images.map((imgSrc, imgIdx) => (
-                    <div 
-                      key={imgIdx} 
-                      className="portfolio-half-image-wrapper"
-                      onClick={() => setSelectedImage(imgSrc)}
-                    >
-                      <img src={imgSrc} alt={`${project.title} - screen ${imgIdx + 1}`} className="portfolio-image clickable" loading="lazy" />
-                    </div>
-                  ))}
-                  <div className="portfolio-image-overlay"></div>
-                </div>
+                <ProjectGallery 
+                  images={project.images} 
+                  title={project.title} 
+                  setSelectedImage={setSelectedImage} 
+                  layout={idx === 0 ? "dual" : "single"}
+                />
               ) : (
                 <div className="portfolio-image-container">
                   <img src={project.image} alt={project.title} className="portfolio-image" loading="lazy" />
