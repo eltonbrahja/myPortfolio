@@ -1,3 +1,5 @@
+import { progettareUserJourneyPost } from './articles/progettare-user-journey-conversione';
+import { progettareUserJourneyPostEn } from './articles/progettare-user-journey-conversione-en';
 import { smettilaIncolpareAiPost } from './articles/smettila-incolpare-ai';
 import { smettilaIncolpareAiPostEn } from './articles/smettila-incolpare-ai-en';
 import { hostingGratuitoPost } from './articles/hosting-gratuito';
@@ -10,6 +12,11 @@ import { vantaggiUxDesignPost } from './articles/vantaggi-ux-design';
 import { vantaggiUxDesignPostEn } from './articles/vantaggi-ux-design-en';
 
 export const blogPosts = [
+  {
+    id: "progettare-user-journey-conversione",
+    it: progettareUserJourneyPost,
+    en: progettareUserJourneyPostEn
+  },
   {
     id: "vantaggi-ux-design",
     it: vantaggiUxDesignPost,
