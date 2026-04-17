@@ -10,12 +10,26 @@ import { vercelCoseComeFunzionaPost } from './articles/vercel-cose-come-funziona
 import { vercelCoseComeFunzionaPostEn } from './articles/vercel-cose-come-funziona-en';
 import { vantaggiUxDesignPost } from './articles/vantaggi-ux-design';
 import { vantaggiUxDesignPostEn } from './articles/vantaggi-ux-design-en';
+import { ilSegretoUiDesignPost } from './articles/il-segreto-ui-design';
+import { ilSegretoUiDesignPostEn } from './articles/il-segreto-ui-design-en';
+import { mobileOptimizationPost } from './articles/mobile-optimization';
+import { mobileOptimizationPostEn } from './articles/mobile-optimization-en';
 
 export const blogPosts = [
   {
     id: "progettare-user-journey-conversione",
     it: progettareUserJourneyPost,
     en: progettareUserJourneyPostEn
+  },
+  {
+    id: "mobile-optimization",
+    it: mobileOptimizationPost,
+    en: mobileOptimizationPostEn
+  },
+  {
+    id: "il-segreto-ui-design",
+    it: ilSegretoUiDesignPost,
+    en: ilSegretoUiDesignPostEn
   },
   {
     id: "vantaggi-ux-design",
