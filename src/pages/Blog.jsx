@@ -56,21 +56,22 @@ const Blog = () => {
             </div>
           </div>
 
-          <motion.div layout className="blog-grid">
+          <div className="blog-grid">
             <AnimatePresence mode="popLayout">
-              {filteredPosts.map((post) => (
+              {filteredPosts.map((post, index) => (
                 <motion.div
                   key={post.id}
-                  layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.3 }}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.4, delay: index * 0.05 }}
+                  className="blog-card-wrapper"
+                  style={{ willChange: "transform, opacity" }}
                 >
-                  <GlassCard className="blog-card" hoverable>
+                  <GlassCard className="blog-card" hoverable disableScrollAnimation>
                 <Link to={localizePath(`/blog/${post.id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
                   <div className="blog-image-wrapper">
-                    <img src={post.image} alt={post.title} className="blog-image" loading="lazy" />
+                    <img src={post.image} alt={post.title} className="blog-image" loading={index < 4 ? "eager" : "lazy"} />
                     <span className="blog-category">{post.category}</span>
                   </div>
                   <div className="blog-content">
@@ -89,7 +90,7 @@ const Blog = () => {
                 </motion.div>
               ))}
             </AnimatePresence>
-          </motion.div>
+          </div>
         </motion.div>
       </div>
     </PageTransition>
