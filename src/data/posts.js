@@ -1,3 +1,9 @@
+import { responsiveDesignPost } from './articles/responsive-design';
+import { responsiveDesignPostEn } from './articles/responsive-design-en';
+import { uxKpiPost } from './articles/ux-kpi';
+import { uxKpiPostEn } from './articles/ux-kpi-en';
+import { customerJourneyPost } from './articles/customer-journey';
+import { customerJourneyPostEn } from './articles/customer-journey-en';
 import { progettareUserJourneyPost } from './articles/progettare-user-journey-conversione';
 import { progettareUserJourneyPostEn } from './articles/progettare-user-journey-conversione-en';
 import { smettilaIncolpareAiPost } from './articles/smettila-incolpare-ai';
@@ -16,6 +22,21 @@ import { mobileOptimizationPost } from './articles/mobile-optimization';
 import { mobileOptimizationPostEn } from './articles/mobile-optimization-en';
 
 export const blogPosts = [
+  {
+    id: "responsive-design",
+    it: responsiveDesignPost,
+    en: responsiveDesignPostEn
+  },
+  {
+    id: "ux-kpi",
+    it: uxKpiPost,
+    en: uxKpiPostEn
+  },
+  {
+    id: "customer-journey",
+    it: customerJourneyPost,
+    en: customerJourneyPostEn
+  },
   {
     id: "progettare-user-journey-conversione",
     it: progettareUserJourneyPost,
