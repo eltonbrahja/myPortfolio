@@ -29,7 +29,8 @@ export const responsiveDesignPost = {
       </nav>
 
       <h2 id="punti-chiave">Punti Chiave</h2>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Punto</th>
@@ -54,7 +55,8 @@ export const responsiveDesignPost = {
             <td>Se l'utente non deve lottare con lo schermo per leggere i tuoi servizi, il tasso di rimbalzo crolla drasticamente.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="cose-il-responsive-design">Cos'è il Responsive Design (e perché non è un optional)</h2>
       <p>Il Responsive Web Design (RWD) è una tecnica di sviluppo web che garantisce che le pagine di un sito si adattino automaticamente (e in modo fluido) in base alle dimensioni dello schermo del visitatore, offrendo un'esperienza intuitiva, veloce e coinvolgente.</p>
@@ -75,7 +77,8 @@ export const responsiveDesignPost = {
 
       <h2 id="sito-fisso-vs-responsive">Sito Fisso vs Sito Responsive: il confronto definitivo</h2>
       <p>Per capire l'entità del problema, basta confrontare l'esperienza offerta da un sito tradizionale obsoleto rispetto a un portale moderno e responsivo:</p>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Caratteristica</th>
@@ -105,7 +108,8 @@ export const responsiveDesignPost = {
             <td>Ottimizzato tramite test su diversi dispositivi e browser.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="verita-scomoda-test">Oltre la teoria: la verità scomoda sui test multi-dispositivo</h2>
       <p>C'è una trappola mortale in cui vedo cadere moltissimi imprenditori e sviluppatori alle prime armi: credere che un sito sia "responsive" solo perché, restringendo la finestra del browser sul proprio computer fisso, gli elementi si spostano.</p>

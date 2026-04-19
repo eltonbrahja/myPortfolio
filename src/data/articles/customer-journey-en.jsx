@@ -30,7 +30,8 @@ export const customerJourneyPostEn = {
       </nav>
 
       <h2 id="key-points">Key Points</h2>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Point</th>
@@ -55,13 +56,15 @@ export const customerJourneyPostEn = {
             <td>Designing based solely on your own intuition without involving real users leads to costly market failures.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="ux-personas">UX Personas: Why Your Target Is Not "Everyone"</h2>
       <p>To map a journey, you must first know who is traveling. Many SMEs define their audience too generically. UX Personas are semi-fictional representations of ideal users, built from real qualitative and quantitative data (like interviews and direct observations).</p>
       <p>Unlike Marketing Personas, which focus on purchasing behaviors and demographics, UX Personas focus on practical interaction with the product and the user experience.</p>
       <p>Here are the practical differences for your company:</p>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Feature</th>
@@ -86,7 +89,8 @@ export const customerJourneyPostEn = {
             <td>Design fluid interfaces, menus, and navigation paths.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
       <blockquote>
         <p>"It's not just about listing features or touchpoints, but about building genuine use narratives."</p>
       </blockquote>

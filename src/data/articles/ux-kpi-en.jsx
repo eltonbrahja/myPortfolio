@@ -30,7 +30,8 @@ export const uxKpiPostEn = {
       </nav>
 
       <h2 id="key-points">Key Points</h2>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Point</th>
@@ -55,7 +56,8 @@ export const uxKpiPostEn = {
             <td>A performance indicator can tell you exactly what a visitor is doing, but it will never tell you <em>why</em> they are doing it.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="what-are-kpis">What are UX KPIs and why generic data is not enough</h2>
       <p>Being able to measure User Experience (UX) is the fundamental step in creating a successful product. If you don't measure how users interact with your site, you are literally flying blind, wasting money and resources to modify sections that might already be working perfectly. <strong>UX KPIs</strong> are metrics strictly focused on measuring the user experience linked to the practical use of the product.</p>

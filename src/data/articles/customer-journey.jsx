@@ -30,7 +30,8 @@ export const customerJourneyPost = {
       </nav>
 
       <h2 id="punti-chiave">Punti Chiave</h2>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Punto</th>
@@ -55,13 +56,15 @@ export const customerJourneyPost = {
             <td>Progettare basandosi solo sulle proprie intuizioni senza coinvolgere gli utenti reali porta a costosi fallimenti di mercato.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="ux-personas">Le UX Personas: perché il tuo target non è "tutti"</h2>
       <p>Per mappare un percorso, devi prima sapere chi sta viaggiando. Molte PMI definiscono il proprio pubblico in modo troppo generico. Le UX Personas sono rappresentazioni semi-fittizie degli utenti ideali, costruite a partire da dati qualitativi e quantitativi reali (come interviste e osservazioni dirette).</p>
       <p>A differenza delle Marketing Personas, che si concentrano sui comportamenti di acquisto e sui dati demografici, le UX Personas si focalizzano sull'interazione pratica con il prodotto e sull'esperienza d'uso.</p>
       <p>Ecco le differenze pratiche per la tua azienda:</p>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Caratteristica</th>
@@ -86,7 +89,8 @@ export const customerJourneyPost = {
             <td>Progettare interfacce, menu e percorsi di navigazione fluidi.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
       <blockquote>
         <p>"Non si tratta solo di elencare funzionalità o touchpoint, ma di costruire vere e proprie narrazioni d'uso."</p>
       </blockquote>

@@ -29,7 +29,8 @@ export const responsiveDesignPostEn = {
       </nav>
 
       <h2 id="key-points">Key Points</h2>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Point</th>
@@ -54,7 +55,8 @@ export const responsiveDesignPostEn = {
             <td>If the user doesn't have to fight the screen to read about your services, the bounce rate drops drastically.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="what-is-responsive-design">What is Responsive Design (and why it's not optional)</h2>
       <p>Responsive Web Design (RWD) is a web development technique that ensures a site's pages adapt automatically (and fluidly) according to the visitor's screen size, offering an intuitive, fast, and engaging experience.</p>
@@ -75,7 +77,8 @@ export const responsiveDesignPostEn = {
 
       <h2 id="fixed-vs-responsive">Fixed Site vs Responsive Site: the ultimate comparison</h2>
       <p>To understand the extent of the problem, you just need to compare the experience offered by a traditional obsolete site compared to a modern, responsive portal:</p>
-      <table>
+      <div className="table-responsive">
+        <table className="article-table">
         <thead>
           <tr>
             <th>Feature</th>
@@ -105,7 +108,8 @@ export const responsiveDesignPostEn = {
             <td>Optimized through testing on various real devices and browsers.</td>
           </tr>
         </tbody>
-      </table>
+        </table>
+      </div>
 
       <h2 id="uncomfortable-truth-testing">Beyond theory: the uncomfortable truth about multi-device testing</h2>
       <p>There is a death trap in which I see many entrepreneurs and novice developers fall: believing that a site is "responsive" just because, by shrinking the browser window on their desktop computer, the elements move around.</p>
