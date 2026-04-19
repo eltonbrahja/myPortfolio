@@ -17,7 +17,7 @@ const Home = () => {
         <section className="hero-section">
           <div className="hero-glow"></div>
           
-          <video autoPlay loop muted playsInline className="hero-video">
+          <video autoPlay loop muted playsInline preload="auto" poster="/poster.webp" className="hero-video">
             <source src="/video-hero.mp4" type="video/mp4" />
           </video>
           <div className="hero-overlay"></div>

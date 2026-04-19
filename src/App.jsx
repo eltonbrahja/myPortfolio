@@ -59,7 +59,7 @@ const AnimatedRoutes = () => {
     : location.pathname;
   
   return (
-    <AnimatePresence mode="popLayout">
+    <AnimatePresence mode="wait">
       <Routes location={location} key={normalizedPath}>
         <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
           <Route index element={<Home />} />

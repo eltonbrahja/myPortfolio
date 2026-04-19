@@ -7,7 +7,7 @@ export const uxKpiPost = {
   excerpt: "Molti imprenditori credono che una volta pubblicato il sito, il lavoro sia finito. Scopri quali sono le metriche UX fondamentali da tracciare e come trasformare i freddi numeri in clienti.",
   date: "Aprile 2026",
   readTime: "5 min",
-  image: "/ux_kpi_cover.png",
+  image: "/ux_kpi_cover.webp",
   category: "UX Design",
   content: (
     <div className="article-body">

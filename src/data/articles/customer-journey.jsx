@@ -7,7 +7,7 @@ export const customerJourneyPost = {
   excerpt: "Molti credono che basti conoscere l'età del target per vendere. È un falso mito: scopri come mappare il percorso utente, creare UX Personas e ridurre gli abbandoni.",
   date: "Aprile 2026",
   readTime: "5 min",
-  image: "/customer_journey_cover.png",
+  image: "/customer_journey_cover.webp",
   category: "UX Design",
   content: (
     <div className="article-body">

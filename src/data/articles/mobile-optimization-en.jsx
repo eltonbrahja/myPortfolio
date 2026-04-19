@@ -7,7 +7,7 @@ export const mobileOptimizationPostEn = {
   excerpt: "Discover the true role of mobile optimization, the critical mistakes to avoid, and how to structure an experience that drastically increases conversions.",
   date: "April 2026",
   readTime: "5 min",
-  image: "/mobile-optimization-cover.jpg",
+  image: "/mobile-optimization-cover.webp",
   category: "Design",
   content: (
     <div className="article-body">

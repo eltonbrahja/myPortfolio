@@ -10,7 +10,7 @@
   /* Glassmorphism Variables */
   --glass-bg: rgba(255, 255, 255, 0.02);
   --glass-border: rgba(255, 255, 255, 0.08);
-  --glass-blur: saturate(180%) blur(40px);
+  --glass-blur: saturate(180%) blur(20px);
   
   --font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
@@ -28,14 +28,23 @@ html {
 body {
   font-family: var(--font-family);
   background-color: var(--bg-color);
-  background-image: 
-    radial-gradient(circle at 15% 50%, rgba(41, 151, 255, 0.08), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08), transparent 25%);
-  background-attachment: fixed;
   color: var(--text-primary);
   line-height: 1.47059;
   letter-spacing: -0.022em;
   overflow-x: hidden;
+}
+
+/* Fixed background glow on its own composited layer (zero scroll cost) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 15% 50%, rgba(41, 151, 255, 0.08), transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08), transparent 25%);
+  pointer-events: none;
+  will-change: transform;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -32,4 +32,4 @@ const WhatsAppButton = () => {
   );
 };
 
-export default WhatsAppButton;
+export default React.memo(WhatsAppButton);

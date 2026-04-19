@@ -7,7 +7,7 @@ export const mobileOptimizationPost = {
   excerpt: "Scopri il vero ruolo dell'ottimizzazione mobile, gli errori critici da evitare e come strutturare un'esperienza che aumenti drasticamente le tue conversioni.",
   date: "Aprile 2026",
   readTime: "5 min",
-  image: "/mobile-optimization-cover.jpg",
+  image: "/mobile-optimization-cover.webp",
   category: "Design",
   content: (
     <div className="article-body">

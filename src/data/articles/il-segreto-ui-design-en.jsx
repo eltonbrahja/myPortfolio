@@ -6,7 +6,7 @@ export const ilSegretoUiDesignPostEn = {
   excerpt: "Discover exactly what the UI design process is, how to use colors and typography strategically to build user trust.",
   date: "April 2026",
   readTime: "5 min",
-  image: "/foto-articolo-ui-design.png",
+  image: "/foto-articolo-ui-design.webp",
   category: "Design",
   content: (
     <div className="article-body">

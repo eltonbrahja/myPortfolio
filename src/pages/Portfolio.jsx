@@ -157,12 +157,12 @@ const Portfolio = () => {
                 <p className="portfolio-desc">{project.description}</p>
                 <div className="portfolio-actions">
                   {project.link !== "#" && (
-                    <a href={project.link} target="_blank" rel="noreferrer" className="portfolio-link">
+                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
                       {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
                     </a>
                   )}
                   {project.github && (
-                    <a href={project.github} target="_blank" rel="noreferrer" className="portfolio-github">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="portfolio-github">
                       Codice <Github size={16} strokeWidth={1.5} />
                     </a>
                   )}
