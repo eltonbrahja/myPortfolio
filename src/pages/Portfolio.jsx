@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import { ExternalLink, Github, Code2, X } from 'lucide-react';
+import { ExternalLink, Github, Code2, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
 import './Portfolio.css';
 
-const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) => {
+const ProjectGallery = ({ images, title, openLightbox, layout = "single" }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   
   const slides = layout === 'dual' 
@@ -18,7 +18,7 @@ const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) 
 
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % slides.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [slides]);
@@ -40,7 +40,7 @@ const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) 
                 <div 
                   key={imgIdx} 
                   className="dual-image-half"
-                  onClick={() => setSelectedImage(imgSrc)}
+                  onClick={() => openLightbox(images, images.indexOf(imgSrc))}
                 >
                   <img 
                     src={imgSrc} 
@@ -56,7 +56,7 @@ const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) 
               src={slides[currentIndex]} 
               alt={`${title} - slide ${currentIndex + 1}`} 
               className="portfolio-image clickable" 
-              onClick={() => setSelectedImage(slides[currentIndex])}
+              onClick={() => openLightbox(images, images.indexOf(slides[currentIndex]))}
               loading="lazy" 
             />
           )}
@@ -81,7 +81,27 @@ const ProjectGallery = ({ images, title, setSelectedImage, layout = "single" }) 
 
 const Portfolio = () => {
   const { t } = useLanguage();
-  const [selectedImage, setSelectedImage] = useState(null);
+  const [lightbox, setLightbox] = useState(null);
+
+  const openLightbox = (images, index) => {
+    setLightbox({ images, index });
+  };
+
+  const lightboxPrev = (e) => {
+    e.stopPropagation();
+    setLightbox(prev => ({
+      ...prev,
+      index: (prev.index - 1 + prev.images.length) % prev.images.length
+    }));
+  };
+
+  const lightboxNext = (e) => {
+    e.stopPropagation();
+    setLightbox(prev => ({
+      ...prev,
+      index: (prev.index + 1) % prev.images.length
+    }));
+  };
 
   const projects = [
     {
@@ -138,7 +158,7 @@ const Portfolio = () => {
                 <ProjectGallery 
                   images={project.images} 
                   title={project.title} 
-                  setSelectedImage={setSelectedImage} 
+                  openLightbox={openLightbox} 
                   layout={idx === 0 ? "dual" : "single"}
                 />
               ) : (
@@ -183,14 +203,33 @@ const Portfolio = () => {
       </div>
 
       {/* Lightbox Modal */}
-      {selectedImage && (
-        <div className="portfolio-lightbox" onClick={() => setSelectedImage(null)}>
-          <button className="lightbox-close" onClick={(e) => { e.stopPropagation(); setSelectedImage(null); }}>
+      {lightbox && (
+        <div className="portfolio-lightbox" onClick={() => setLightbox(null)}>
+          <button className="lightbox-close" onClick={(e) => { e.stopPropagation(); setLightbox(null); }}>
             <X size={32} />
           </button>
+          
+          {lightbox.images.length > 1 && (
+            <button className="lightbox-arrow lightbox-arrow-left" onClick={lightboxPrev}>
+              <ChevronLeft size={36} strokeWidth={1.5} />
+            </button>
+          )}
+
           <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
-            <img src={selectedImage} alt="Enlarged view" className="lightbox-image" />
+            <img src={lightbox.images[lightbox.index]} alt="Enlarged view" className="lightbox-image" />
           </div>
+
+          {lightbox.images.length > 1 && (
+            <button className="lightbox-arrow lightbox-arrow-right" onClick={lightboxNext}>
+              <ChevronRight size={36} strokeWidth={1.5} />
+            </button>
+          )}
+
+          {lightbox.images.length > 1 && (
+            <div className="lightbox-counter">
+              {lightbox.index + 1} / {lightbox.images.length}
+            </div>
+          )}
         </div>
       )}
     </PageTransition>
