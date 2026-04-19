@@ -7,7 +7,7 @@ export const uxKpiPostEn = {
   excerpt: "Many entrepreneurs believe that once a website is published, the job is done. Discover the fundamental UX metrics to track, and how to turn cold numbers into customers.",
   date: "April 2026",
   readTime: "5 min",
-  image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
+  image: "/ux_kpi_cover.png",
   category: "UX Design",
   content: (
     <div className="article-body">

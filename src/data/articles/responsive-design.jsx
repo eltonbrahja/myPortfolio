@@ -7,7 +7,7 @@ export const responsiveDesignPost = {
   excerpt: "Molti credono che il responsive design sia stringere le pagine in miniatura. È un falso mito: scopri i veri vantaggi del web responsivo e come moltiplica le vendite.",
   date: "Aprile 2026",
   readTime: "5 min",
-  image: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?auto=format&fit=crop&q=80&w=1000",
+  image: "/responsive_design_cover.png",
   category: "Web Design",
   content: (
     <div className="article-body">

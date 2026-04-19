@@ -7,7 +7,7 @@ export const customerJourneyPostEn = {
   excerpt: "Many believe knowing the audience's age is enough to sell. It's a myth: learn how to map the user journey, create UX Personas, and reduce abandonments.",
   date: "April 2026",
   readTime: "5 min",
-  image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&q=80&w=1000",
+  image: "/customer_journey_cover.png",
   category: "UX Design",
   content: (
     <div className="article-body">

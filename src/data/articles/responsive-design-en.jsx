@@ -7,7 +7,7 @@ export const responsiveDesignPostEn = {
   excerpt: "Many believe responsive design is just shrinking web pages to fit phone screens. It's a myth: discover the real benefits of responsive web design for your business.",
   date: "April 2026",
   readTime: "5 min",
-  image: "https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?auto=format&fit=crop&q=80&w=1000",
+  image: "/responsive_design_cover.png",
   category: "Web Design",
   content: (
     <div className="article-body">
