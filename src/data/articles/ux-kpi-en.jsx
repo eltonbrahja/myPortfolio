@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const uxKpiPostEn = {
   id: "ux-kpi",
-  title: "UX KPIs: How to Measure Your Website's Success and Maximize Conversions",
-  excerpt: "Many entrepreneurs believe that once a website is published, the job is done. Discover the fundamental UX metrics to track, and how to turn cold numbers into customers.",
+  title: "Slow Website And Customers Leaving? The Exact Data (KPIs) to Check Now",
+  excerpt: "Don't rely on gut feelings. If users abandon carts, the numbers hold the answer. Learn the 3 fundamental UX KPIs you need to track today to fix your sales funnel.",
   date: "April 2026",
   readTime: "5 min",
   image: "/ux_kpi_cover.webp",

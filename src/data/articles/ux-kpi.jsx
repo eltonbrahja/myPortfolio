@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const uxKpiPost = {
   id: "ux-kpi",
-  title: "UX KPI: Come misurare il successo del tuo sito web e massimizzare le conversioni",
-  excerpt: "Molti imprenditori credono che una volta pubblicato il sito, il lavoro sia finito. Scopri quali sono le metriche UX fondamentali da tracciare e come trasformare i freddi numeri in clienti.",
+  title: "Sito Lento e Clienti Che Scappano? I Dati (KPI) da Misurare Subito",
+  excerpt: "Non basarti sulle sensazioni. Se i clienti abbandonano il carrello, i numeri hanno la risposta. Scopri le 3 metriche (UX KPI) da controllare oggi stesso sul tuo sito web.",
   date: "Aprile 2026",
   readTime: "5 min",
   image: "/ux_kpi_cover.webp",

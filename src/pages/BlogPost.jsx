@@ -26,7 +26,47 @@ const BlogPost = () => {
         document.head.appendChild(metaDesc);
       }
       metaDesc.content = post.excerpt;
+
+      // Add JSON-LD for rich snippets
+      const imageUrl = post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`;
+      const structuredData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "description": post.excerpt,
+        "image": imageUrl,
+        "author": {
+          "@type": "Person",
+          "name": "Elton Brahja",
+          "url": "https://www.eltonbrahja.eu"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Elton Brahja",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.eltonbrahja.eu/favicon.svg"
+          }
+        }
+      };
+
+      let script = document.querySelector('#article-structured-data');
+      if (!script) {
+        script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.id = 'article-structured-data';
+        document.head.appendChild(script);
+      }
+      script.text = JSON.stringify(structuredData);
     }
+
+    return () => {
+      // Cleanup injected script on unmount
+      const script = document.querySelector('#article-structured-data');
+      if (script) {
+        document.head.removeChild(script);
+      }
+    };
   }, [post]);
 
   if (!post) {

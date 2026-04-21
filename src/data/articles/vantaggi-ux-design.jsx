@@ -2,8 +2,8 @@ import React from 'react';
 
 export const vantaggiUxDesignPost = {
   id: "vantaggi-ux-design",
-  title: "Vantaggi della UX design per far crescere la tua azienda",
-  excerpt: "Scopri cosa significa investire nella UX per una piccola o media impresa e quali vantaggi concreti puoi aspettarti per aumentare le conversioni.",
+  title: "Perché il Tuo Sito Riceve Visite ma Zero Contatti (E Come la UX Può Salvarlo)",
+  excerpt: "Hai traffico ma non vendi? Scopri come individuare i problemi nascosti nel tuo sito web e perché capire la UX design è l'unica vera soluzione per raddoppiare i contatti.",
   date: "Aprile 2026",
   readTime: "5 min",
   image: "/foto-articolo-ux-design.webp",

@@ -2,8 +2,8 @@ import React from 'react';
 
 export const hostingGratuitoPost = {
   id: "hosting-gratuito-github-vercel",
-  title: "Hosting gratuito del tuo sito web: come usare GitHub e Vercel",
-  excerpt: "Pagare un hosting tradizionale non è più l'unica strada per avere un sito online. Scopri come usare GitHub e Vercel per ospitare il tuo sito gratuitamente.",
+  title: "Come Ospitare un Sito Statico HTML Gratis su Vercel da GitHub",
+  excerpt: "La guida passo-passo per fare il deploy gratuito di un sito statico HTML dal tuo repository GitHub usando Vercel. Il tuo sito online in meno di 5 minuti.",
   date: "Oggi",
   readTime: "4 min",
   image: "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?auto=format&fit=crop&q=80&w=1000",

@@ -2,8 +2,8 @@ import React from 'react';
 
 export const vantaggiUxDesignPostEn = {
   id: "ux-design-benefits-sme",
-  title: "The Benefits of UX Design for Growing Your Business",
-  excerpt: "Discover what it really means to invest in UX for a small or medium enterprise and what concrete benefits you can expect to increase conversions.",
+  title: "Why Your Website Gets Traffic but Zero Leads (And How UX Can Save It)",
+  excerpt: "Getting visits but no sales? Discover how to identify hidden friction points on your website and why fixing your UX design is the only real way to double your leads.",
   date: "April 2026",
   readTime: "5 min",
   image: "/foto-articolo-ux-design.webp",

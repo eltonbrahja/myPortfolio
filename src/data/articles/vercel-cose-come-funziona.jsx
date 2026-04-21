@@ -2,8 +2,8 @@ import React from 'react';
 
 export const vercelCoseComeFunzionaPost = {
   id: "vercel-cose-come-funziona",
-  title: "Vercel: cos'è, come funziona e perché dovresti usarlo per i tuoi progetti web",
-  excerpt: "Vercel è la piattaforma di hosting e deploy preferita dai developer frontend. Scopri cos'è, come funziona, i piani disponibili e come iniziare gratis in pochi minuti.",
+  title: "Cos'è Vercel? Guida per Principianti e Come Ospitare il tuo Sito Gratis",
+  excerpt: "Ti stai chiedendo cos'è Vercel e come funziona? Scopri in questa guida semplice come usare Vercel per pubblicare il tuo progetto web in pochi clic, gratis.",
   date: "Aprile 2026",
   readTime: "4 min",
   image: "/vercel0.webp",

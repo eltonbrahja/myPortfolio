@@ -2,8 +2,8 @@ import React from 'react';
 
 export const githubCopilotOptOutPost = {
   id: "github-copilot-opt-out",
-  title: "GitHub Copilot usa il tuo codice per addestrare i modelli AI: come fare opt-out subito",
-  excerpt: "Dal 24 aprile 2026 GitHub Copilot usa le tue interazioni per addestrare i modelli AI. Scopri cosa cambia, chi è coinvolto e come fare opt-out in 2 minuti.",
+  title: "Come disattivare GitHub Copilot e impedire che usi il tuo codice",
+  excerpt: "Guida rapida per fare opt-out dall'addestramento AI di GitHub Copilot. Scopri come disattivare la condivisione e proteggere il tuo codice privato in 2 semplici passaggi.",
   date: "Marzo 2026",
   readTime: "3 min",
   image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1000",

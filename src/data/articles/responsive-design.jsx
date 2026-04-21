@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const responsiveDesignPost = {
   id: "responsive-design",
-  title: "I benefici del Responsive Design: come adattare il tuo sito per moltiplicare i clienti",
-  excerpt: "Molti credono che il responsive design sia stringere le pagine in miniatura. È un falso mito: scopri i veri vantaggi del web responsivo e come moltiplica le vendite.",
+  title: "Il Tuo Sito Perde Clienti da Mobile? La Guida Definitiva al Responsive Design",
+  excerpt: "Non stringere le pagine in miniatura: scopri i veri vantaggi del web responsivo e perché avere un sito ottimizzato per smartphone moltiplica istantaneamente le vendite.",
   date: "Aprile 2026",
   readTime: "5 min",
   image: "/responsive_design_cover.webp",

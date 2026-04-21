@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 
 export const responsiveDesignPostEn = {
   id: "responsive-design",
-  title: "The Benefits of Responsive Design: How to Adapt Your Site to Multiply Customers",
-  excerpt: "Many believe responsive design is just shrinking web pages to fit phone screens. It's a myth: discover the real benefits of responsive web design for your business.",
+  title: "Losing Customers on Mobile? The Ultimate Guide to Responsive Web Design",
+  excerpt: "Stop shrinking desktop pages into miniature screens. Discover why having a truly responsive, mobile-first website instantly multiplies your sales and saves your business.",
   date: "April 2026",
   readTime: "5 min",
   image: "/responsive_design_cover.webp",
