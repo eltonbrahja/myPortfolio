@@ -4,43 +4,43 @@
   <!-- Main Pages - IT -->
   <url>
     <loc>https://www.eltonbrahja.eu/</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/about</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/services</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/portfolio</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/contact</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/blog</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/privacy</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -48,48 +48,84 @@
   <!-- Main Pages - EN -->
   <url>
     <loc>https://www.eltonbrahja.eu/en</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/about</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/services</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/portfolio</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/contact</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/blog</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/privacy</loc>
-    <lastmod>2026-04-13T14:50:00+02:00</lastmod>
+    <lastmod>2026-04-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
 
   <!-- Blog Articles - IT -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/responsive-design</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/ux-kpi</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/customer-journey</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/progettare-user-journey-conversione</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/mobile-optimization</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/il-segreto-ui-design</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.eltonbrahja.eu/blog/vantaggi-ux-design</loc>
     <lastmod>2026-04-11</lastmod>
@@ -122,6 +158,42 @@
   </url>
 
   <!-- Blog Articles - EN -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/responsive-design</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/ux-kpi</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/customer-journey</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/progettare-user-journey-conversione</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/mobile-optimization</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/il-segreto-ui-design</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/blog/vantaggi-ux-design</loc>
     <lastmod>2026-04-11</lastmod>
