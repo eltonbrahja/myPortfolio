@@ -20,6 +20,8 @@ import { ilSegretoUiDesignPost } from './articles/il-segreto-ui-design';
 import { ilSegretoUiDesignPostEn } from './articles/il-segreto-ui-design-en';
 import { mobileOptimizationPost } from './articles/mobile-optimization';
 import { mobileOptimizationPostEn } from './articles/mobile-optimization-en';
+import { sitoWebGratuitoNextjsVercelPost } from './articles/sito-web-gratuito-nextjs-vercel';
+import { sitoWebGratuitoNextjsVercelPostEn } from './articles/sito-web-gratuito-nextjs-vercel-en';
 
 export const blogPosts = [
   {
@@ -76,5 +78,10 @@ export const blogPosts = [
     id: "hosting-gratuito-github-vercel",
     it: hostingGratuitoPost,
     en: hostingGratuitoPostEn
+  },
+  {
+    id: "sito-web-gratuito-nextjs-vercel",
+    it: sitoWebGratuitoNextjsVercelPost,
+    en: sitoWebGratuitoNextjsVercelPostEn
   }
 ];
