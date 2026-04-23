@@ -27,8 +27,8 @@ export const sitoWebGratuitoNextjsVercelPostEn = {
       </nav>
 
       <h2 id="key-takeaways">Key Takeaways</h2>
-      <div className="comparison-table-wrapper">
-        <table className="comparison-table">
+      <div className="table-responsive">
+        <table className="article-table">
           <thead>
             <tr>
               <th>Point</th>
@@ -65,8 +65,8 @@ export const sitoWebGratuitoNextjsVercelPostEn = {
       <p><strong>Vercel</strong> is a cloud platform specifically designed to let frontend developers deploy and scale web applications with disarming efficiency. <strong>Next.js</strong> is a React-based web framework developed and maintained by Vercel itself. Because Vercel built Next.js, the platform is natively optimized to run this code at maximum performance, without requiring complex initial configurations.</p>
       <p>Here's a practical comparison between an outdated approach and this modern stack:</p>
 
-      <div className="comparison-table-wrapper">
-        <table className="comparison-table">
+      <div className="table-responsive">
+        <table className="article-table">
           <thead>
             <tr>
               <th>Feature</th>

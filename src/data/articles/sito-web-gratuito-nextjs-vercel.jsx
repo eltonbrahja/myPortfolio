@@ -27,8 +27,8 @@ export const sitoWebGratuitoNextjsVercelPost = {
       </nav>
 
       <h2 id="punti-chiave">Punti Chiave</h2>
-      <div className="comparison-table-wrapper">
-        <table className="comparison-table">
+      <div className="table-responsive">
+        <table className="article-table">
           <thead>
             <tr>
               <th>Punto</th>
@@ -65,8 +65,8 @@ export const sitoWebGratuitoNextjsVercelPost = {
       <p><strong>Vercel</strong> è una piattaforma cloud studiata appositamente per permettere agli sviluppatori frontend di distribuire e scalare applicazioni web con un'efficienza disarmante. <strong>Next.js</strong>, invece, è un framework per la creazione di siti web basato su React, sviluppato e mantenuto proprio dalla stessa Vercel. Poiché Vercel ha costruito Next.js, la piattaforma è nativamente ottimizzata per far girare questo codice al massimo delle prestazioni, senza richiedere complesse configurazioni iniziali.</p>
       <p>Ecco un confronto pratico tra un approccio obsoleto e questo nuovo stack:</p>
 
-      <div className="comparison-table-wrapper">
-        <table className="comparison-table">
+      <div className="table-responsive">
+        <table className="article-table">
           <thead>
             <tr>
               <th>Caratteristica</th>
