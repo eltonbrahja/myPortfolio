@@ -25,6 +25,11 @@ import { sitoWebGratuitoNextjsVercelPostEn } from './articles/sito-web-gratuito-
 
 export const blogPosts = [
   {
+    id: "sito-web-gratuito-nextjs-vercel",
+    it: sitoWebGratuitoNextjsVercelPost,
+    en: sitoWebGratuitoNextjsVercelPostEn
+  },
+  {
     id: "responsive-design",
     it: responsiveDesignPost,
     en: responsiveDesignPostEn
@@ -78,10 +83,5 @@ export const blogPosts = [
     id: "hosting-gratuito-github-vercel",
     it: hostingGratuitoPost,
     en: hostingGratuitoPostEn
-  },
-  {
-    id: "sito-web-gratuito-nextjs-vercel",
-    it: sitoWebGratuitoNextjsVercelPost,
-    en: sitoWebGratuitoNextjsVercelPostEn
   }
 ];
