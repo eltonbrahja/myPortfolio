@@ -22,8 +22,15 @@ import { mobileOptimizationPost } from './articles/mobile-optimization';
 import { mobileOptimizationPostEn } from './articles/mobile-optimization-en';
 import { sitoWebGratuitoNextjsVercelPost } from './articles/sito-web-gratuito-nextjs-vercel';
 import { sitoWebGratuitoNextjsVercelPostEn } from './articles/sito-web-gratuito-nextjs-vercel-en';
+import { wordpressStaticoElementorPost } from './articles/wordpress-statico-elementor';
+import { wordpressStaticoElementorPostEn } from './articles/wordpress-statico-elementor-en';
 
 export const blogPosts = [
+  {
+    id: "wordpress-statico-elementor",
+    it: wordpressStaticoElementorPost,
+    en: wordpressStaticoElementorPostEn
+  },
   {
     id: "sito-web-gratuito-nextjs-vercel",
     it: sitoWebGratuitoNextjsVercelPost,
