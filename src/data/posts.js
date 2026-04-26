@@ -1,3 +1,5 @@
+import { performanceWebPost } from './articles/performance-web';
+import { performanceWebPostEn } from './articles/performance-web-en';
 import { responsiveDesignPost } from './articles/responsive-design';
 import { responsiveDesignPostEn } from './articles/responsive-design-en';
 import { uxKpiPost } from './articles/ux-kpi';
@@ -26,6 +28,11 @@ import { wordpressStaticoElementorPost } from './articles/wordpress-statico-elem
 import { wordpressStaticoElementorPostEn } from './articles/wordpress-statico-elementor-en';
 
 export const blogPosts = [
+  {
+    id: "performance-web",
+    it: performanceWebPost,
+    en: performanceWebPostEn
+  },
   {
     id: "wordpress-statico-elementor",
     it: wordpressStaticoElementorPost,
