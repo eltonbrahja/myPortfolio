@@ -91,6 +91,12 @@
 
   <!-- Blog Articles - IT -->
   <url>
+    <loc>https://www.eltonbrahja.eu/blog/prezzi-ram-futuro</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.eltonbrahja.eu/blog/responsive-design</loc>
     <lastmod>2026-04-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -158,6 +164,12 @@
   </url>
 
   <!-- Blog Articles - EN -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/prezzi-ram-futuro</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/blog/responsive-design</loc>
     <lastmod>2026-04-21</lastmod>

@@ -26,8 +26,15 @@ import { sitoWebGratuitoNextjsVercelPost } from './articles/sito-web-gratuito-ne
 import { sitoWebGratuitoNextjsVercelPostEn } from './articles/sito-web-gratuito-nextjs-vercel-en';
 import { wordpressStaticoElementorPost } from './articles/wordpress-statico-elementor';
 import { wordpressStaticoElementorPostEn } from './articles/wordpress-statico-elementor-en';
+import { prezziRamFuturoPost } from './articles/prezzi-ram-futuro';
+import { prezziRamFuturoPostEn } from './articles/prezzi-ram-futuro-en';
 
 export const blogPosts = [
+  {
+    id: "prezzi-ram-futuro",
+    it: prezziRamFuturoPost,
+    en: prezziRamFuturoPostEn
+  },
   {
     id: "performance-web",
     it: performanceWebPost,
