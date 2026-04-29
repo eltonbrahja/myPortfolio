@@ -187,6 +187,12 @@ const translations = {
           content: "In base al GDPR, hai il diritto di chiedere in qualsiasi momento l'accesso, la rettifica o la cancellazione dei tuoi dati personali inviando una semplice email a <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>."
         }
       ]
+    },
+    notFound: {
+      title1: "Pagina Non ",
+      title2: "Trovata",
+      desc: "L'URL cercato non esiste o è stato rimosso. Torna alla home per esplorare i miei servizi e progetti.",
+      backBtn: "Torna alla Home"
     }
   },
   en: {
@@ -377,6 +383,12 @@ const translations = {
           content: "Under the GDPR, you have the right to request access, rectification, or deletion of your personal data at any time by sending a simple email to <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>."
         }
       ]
+    },
+    notFound: {
+      title1: "Page Not ",
+      title2: "Found",
+      desc: "The requested URL does not exist or has been moved. Return home to explore my services and projects.",
+      backBtn: "Back to Home"
     }
   }
 };
