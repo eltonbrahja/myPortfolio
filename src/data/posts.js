@@ -28,8 +28,15 @@ import { wordpressStaticoElementorPost } from './articles/wordpress-statico-elem
 import { wordpressStaticoElementorPostEn } from './articles/wordpress-statico-elementor-en';
 import { prezziRamFuturoPost } from './articles/prezzi-ram-futuro';
 import { prezziRamFuturoPostEn } from './articles/prezzi-ram-futuro-en';
+import { aiWebsiteBuilderPost } from './articles/ai-website-builder-trappola';
+import { aiWebsiteBuilderPostEn } from './articles/ai-website-builder-trappola-en';
 
 export const blogPosts = [
+  {
+    id: "ai-website-builder-trappola",
+    it: aiWebsiteBuilderPost,
+    en: aiWebsiteBuilderPostEn
+  },
   {
     id: "prezzi-ram-futuro",
     it: prezziRamFuturoPost,
