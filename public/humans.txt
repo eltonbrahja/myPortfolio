@@ -1,0 +1,11 @@
+/* TEAM */
+Author: Elton Brahja
+Role: Web & UI Designer
+Site: https://eltonbrahja.eu
+Location: Italy
+
+/* SITE */
+Last update: 2026/04/29
+Language: Italian, English
+Technologies: React, Vite, Framer Motion
+Components: Lucide React

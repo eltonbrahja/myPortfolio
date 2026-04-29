@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
-import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2 } from 'lucide-react';
+import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2, Zap, BarChart3, Search } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import './Home.css';
 
@@ -111,7 +111,33 @@ const Home = () => {
               </div>
             </motion.div>
 
-            {/* FASE 4: CTA FINALE */}
+            {/* FASE 4: WHY SECTION (Contenuto extra per SEO) */}
+            <motion.div 
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-20%" }}
+              transition={{ duration: 0.8 }}
+              className="vp-spacing-block why-block"
+            >
+              <h2 className="why-section-title">{t('home.whyTitle')}</h2>
+              <div className="why-grid">
+                {[
+                  { icon: <BarChart3 size={28} strokeWidth={1.2} />, ...t('home.whyItems')[0], color: "blue" },
+                  { icon: <Zap size={28} strokeWidth={1.2} />, ...t('home.whyItems')[1], color: "purple" },
+                  { icon: <Search size={28} strokeWidth={1.2} />, ...t('home.whyItems')[2], color: "green" }
+                ].map((item, idx) => (
+                  <div key={idx} className="why-card">
+                    <div className={`why-icon-wrapper text-${item.color}`}>
+                      {item.icon}
+                    </div>
+                    <h3>{item.title}</h3>
+                    <p>{item.desc}</p>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
+            {/* FASE 5: CTA FINALE */}
             <motion.div 
               initial={{ opacity: 0, scale: 0.95, y: 40 }}
               whileInView={{ opacity: 1, scale: 1, y: 0 }}

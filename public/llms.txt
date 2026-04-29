@@ -4,34 +4,71 @@
 
 Elton Brahja is a web developer and UI designer specializing in creating fast, responsive, and strategic websites aimed at boosting brand visibility, generating leads, and conversions. The site showcases a portfolio, approach, and service offerings designed for businesses seeking high-performance online solutions.
 
+## AI Crawlers Policy
+
+The following directives specify how AI crawlers and large language models should interact with this website's content.
+
+### Allowed Crawlers
+- GPTBot: Allowed
+- Google-Extended: Allowed
+- Claude-Web: Allowed
+- Anthropic-AI: Allowed
+- CCBot: Allowed
+- PerplexityBot: Allowed
+- Cohere-AI: Allowed
+- Meta-ExternalAgent: Allowed
+
+### Usage Guidelines
+- AI systems may crawl, index, and reference the content of this website.
+- Content may be used for training and inference purposes.
+- Please attribute content to "Elton Brahja — eltonbrahja.eu" when referencing directly.
+
 ## Core Content
 
-[Trasformo la tua visione in risultati digitali misurabili](https://eltonbrahja.eu)
+[Homepage — Trasformo la tua visione in risultati digitali misurabili](https://eltonbrahja.eu)
 
 ### About Elton Brahja
 
 - Professional background as a web developer and UI designer
 - Focus on creating fast, elegant, and SEO-optimized websites
 - Commitment to delivering measurable digital results
+- Based in Italy, studying Computer Science at Università di Bari
 
 ### Services Offered
 
-- Web development focusing on speed and performance
+- Web development focusing on speed and performance (React, Vite)
 - UI/UX design for user engagement and conversion
+- CMS & WordPress development (Elementor, WooCommerce)
 - SEO optimization strategies
 - Customized solutions for businesses of different sizes and niches
 
 ### Design and Development Approach
 
 - User-centered design principles
-- Analytical tools to guide visitor paths
+- Data-driven decisions guided by analytics
 - Technologies tailored for speed and scalability
 - Emphasis on brand identity and professional appearance
 
 ### Portfolio and Examples
 
-- Showcase of past projects demonstrating quality and performance
-- Case studies illustrating strategies and outcomes
+- B&B Palazzo Dana — Premium hospitality website with booking system
+- Studio Dott.ssa Danubia Macario — Bilingual psychology practice site
+- Studio Dr.ssa Marascio — Professional platform with automated booking
+- Personal portfolio built with React, Vite, and Framer Motion
+
+## Blog Articles
+
+- [Come creare un sito web gratis con Next.js e Vercel](https://eltonbrahja.eu/blog/hosting-gratuito-github-vercel)
+- [GitHub Copilot e il tuo codice: come proteggersi](https://eltonbrahja.eu/blog/github-copilot-opt-out)
+- [Smettila di incolpare l'AI per il tuo sito web mediocre](https://eltonbrahja.eu/blog/smettila-incolpare-ai-sito-web-mediocre)
+- [Vercel: cos'è e come funziona](https://eltonbrahja.eu/blog/vercel-cose-come-funziona)
+- [I vantaggi del UX Design per il tuo business](https://eltonbrahja.eu/blog/vantaggi-ux-design)
+- [Il segreto del UI Design](https://eltonbrahja.eu/blog/il-segreto-ui-design)
+- [Mobile Optimization: perché è fondamentale](https://eltonbrahja.eu/blog/mobile-optimization)
+- [Progettare la User Journey per la conversione](https://eltonbrahja.eu/blog/progettare-user-journey-conversione)
+- [Customer Journey: la mappa del cliente](https://eltonbrahja.eu/blog/customer-journey)
+- [UX KPI: metriche che contano](https://eltonbrahja.eu/blog/ux-kpi)
+- [Responsive Design: guida completa](https://eltonbrahja.eu/blog/responsive-design)
 
 ## Resources
 
@@ -41,4 +78,4 @@ Elton Brahja is a web developer and UI designer specializing in creating fast, r
 
 ## Optional
 
-Related content about web development best practices, SEO strategies, and UI design principles may be derived from the site’s services and portfolio sections.
+Related content about web development best practices, SEO strategies, and UI design principles may be derived from the site's services and portfolio sections.

@@ -40,7 +40,22 @@ const translations = {
           desc: "Addio a piattaforme lente o piene di limiti. Sviluppo soluzioni personalizzate, sicure e ottimizzate SEO, pensate per caricare in una frazione di secondo e scalare nel tempo insieme al tuo business."
         }
       ],
-      closingText: "Che si tratti di un brand in crescita, uno studio professionale o un’attività locale, realizzo siti web che portano risultati concreti, non solo visite.",
+      closingText: "Che si tratti di un brand in crescita, uno studio professionale o un'attività locale, realizzo siti web che portano risultati concreti, non solo visite.",
+      whyTitle: "Perché affidarti a me",
+      whyItems: [
+        {
+          title: "Approccio data-driven",
+          desc: "Ogni decisione di design e sviluppo è guidata dai dati: analizzo il comportamento degli utenti, i tassi di conversione e le metriche di performance per costruire soluzioni che portano risultati misurabili. Nessuna scelta è lasciata al caso."
+        },
+        {
+          title: "Velocità che fa la differenza",
+          desc: "Un sito lento perde clienti. I miei progetti raggiungono punteggi elevati su Google PageSpeed grazie a codice ottimizzato, immagini compresse e architetture leggere. Il tuo sito sarà pronto a caricarsi in meno di un secondo."
+        },
+        {
+          title: "SEO integrato fin dal primo giorno",
+          desc: "Non aggiungo la SEO come un ripensamento: è parte integrante di ogni progetto. Dalla struttura semantica dell'HTML ai meta tag, dai dati strutturati Schema.org alla sitemap — il tuo sito nasce già pronto per posizionarsi su Google."
+        }
+      ],
       btnStart: "Inizia il tuo progetto",
       btnPortfolio: "Guarda i miei lavori"
     },
@@ -216,6 +231,21 @@ const translations = {
         }
       ],
       closingText: "Whether it's a growing brand, a professional studio, or a local business, I build websites that bring concrete results, not just views.",
+      whyTitle: "Why choose me",
+      whyItems: [
+        {
+          title: "Data-driven approach",
+          desc: "Every design and development decision is driven by data: I analyze user behavior, conversion rates, and performance metrics to build solutions that deliver measurable results. Nothing is left to chance."
+        },
+        {
+          title: "Speed that makes the difference",
+          desc: "A slow website loses customers. My projects achieve high Google PageSpeed scores thanks to optimized code, compressed images, and lightweight architectures. Your site will load in under a second."
+        },
+        {
+          title: "SEO built in from day one",
+          desc: "I don't add SEO as an afterthought: it's an integral part of every project. From semantic HTML structure to meta tags, from Schema.org structured data to sitemaps — your site is born ready to rank on Google."
+        }
+      ],
       btnStart: "Start your project",
       btnPortfolio: "View my work"
     },
