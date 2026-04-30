@@ -30,8 +30,15 @@ import { prezziRamFuturoPost } from './articles/prezzi-ram-futuro';
 import { prezziRamFuturoPostEn } from './articles/prezzi-ram-futuro-en';
 import { aiWebsiteBuilderPost } from './articles/ai-website-builder-trappola';
 import { aiWebsiteBuilderPostEn } from './articles/ai-website-builder-trappola-en';
+import { portfolioCloniNetflixPost } from './articles/portfolio-cloni-netflix';
+import { portfolioCloniNetflixPostEn } from './articles/portfolio-cloni-netflix-en';
 
 export const blogPosts = [
+  {
+    id: "portfolio-cloni-netflix-sabotaggio",
+    it: portfolioCloniNetflixPost,
+    en: portfolioCloniNetflixPostEn
+  },
   {
     id: "ai-website-builder-trappola",
     it: aiWebsiteBuilderPost,
