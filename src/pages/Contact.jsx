@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, Send, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -8,9 +9,11 @@ import './Contact.css';
 
 const Contact = () => {
   const { t, language } = useLanguage();
+  const navigate = useNavigate();
   const options = t('contact.form.options');
   const [subjectOpen, setSubjectOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState(options[0]);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const selectRef = useRef(null);
   
   // Aggiorna l'opzione selezionata quando cambia lingua se è l'effettivo default
@@ -27,6 +30,34 @@ const Contact = () => {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    
+    const form = e.target;
+    const data = new FormData(form);
+    
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+      
+      if (response.ok) {
+        navigate(language === 'en' ? '/en/success' : '/success');
+      } else {
+        alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
+      }
+    } catch (error) {
+      alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
 
   return (
     <PageTransition>
@@ -69,7 +100,7 @@ const Contact = () => {
           </div>
 
           <GlassCard className="contact-form-card">
-            <form action="https://formspree.io/f/xpqwdgoa" method="POST" className="contact-form">
+            <form action="https://formspree.io/f/xpqwdgoa" method="POST" className="contact-form" onSubmit={handleSubmit}>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="name">{t('contact.form.name')}</label>
@@ -116,8 +147,6 @@ const Contact = () => {
                   
                   {/* Hidden input to ensure Formspree gets the value */}
                   <input type="hidden" name="subject" value={selectedSubject} />
-                  {/* Hidden input for custom success page redirect */}
-                  <input type="hidden" name="_next" value={typeof window !== 'undefined' ? `${window.location.origin}${language === 'en' ? '/en/success' : '/success'}` : ''} />
                 </div>
               </div>
 
@@ -126,8 +155,8 @@ const Contact = () => {
                 <textarea id="message" name="message" rows="5" required placeholder={t('contact.form.messagePlace')}></textarea>
               </div>
 
-              <button type="submit" className="submit-btn" style={{marginTop: '16px'}}>
-                {t('contact.form.submit')} <Send size={18} strokeWidth={1.5} />
+              <button type="submit" className="submit-btn" style={{marginTop: '16px'}} disabled={isSubmitting}>
+                {isSubmitting ? (language === 'en' ? 'Sending...' : 'Invio in corso...') : t('contact.form.submit')} <Send size={18} strokeWidth={1.5} />
               </button>
             </form>
           </GlassCard>
