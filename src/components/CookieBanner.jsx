@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
+import { initGoogleAnalytics } from '../utils/analytics';
 
 const CookieBanner = () => {
   const { language } = useLanguage();
@@ -10,6 +11,8 @@ const CookieBanner = () => {
     if (!consent) {
       setIsVisible(true);
       document.body.classList.add('cookie-banner-active');
+    } else if (consent === 'accepted') {
+      initGoogleAnalytics();
     }
   }, []);
 
@@ -17,6 +20,7 @@ const CookieBanner = () => {
     localStorage.setItem('cookieConsent', 'accepted');
     setIsVisible(false);
     document.body.classList.remove('cookie-banner-active');
+    initGoogleAnalytics();
   };
 
   const handleDecline = () => {

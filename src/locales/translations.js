@@ -183,11 +183,11 @@ const translations = {
         },
         {
           title: "3. Servizi Terzi",
-          content: "Per il funzionamento tecnico del sito, utilizziamo i seguenti servizi esterni:<ul><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Formspree:</strong> Gestisce l'invio tecnico del modulo contatti. I dati inseriti nel form transitano sui loro server sicuri.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Fonts:</strong> Per caricare i caratteri, il sito effettua chiamate ai server di Google, che potrebbero rilevare il tuo indirizzo IP.</li></ul>"
+          content: "Per il funzionamento tecnico e analitico del sito, utilizziamo i seguenti servizi esterni:<ul><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Formspree:</strong> Gestisce l'invio tecnico del modulo contatti. I dati inseriti nel form transitano sui loro server sicuri.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Fonts:</strong> Per caricare i caratteri, il sito effettua chiamate ai server di Google, che potrebbero rilevare il tuo indirizzo IP.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Analytics 4:</strong> Utilizzato per analizzare il traffico del sito in modo aggregato (con anonimizzazione degli IP attivata). Viene caricato solo previa accettazione del Cookie Banner.</li></ul>"
         },
         {
           title: "4. Cookie Policy",
-          content: "Questo sito è \"tecnicamente leggero\". <strong>Non utilizziamo cookie di profilazione</strong> o pubblicitari proprietari.<br/><br/>Tuttavia, potrebbero essere presenti cookie tecnici necessari al funzionamento (es. preferenze di navigazione) o cookie di terze parti legati ai servizi sopra citati. Continuando la navigazione, accetti l'uso di questi strumenti tecnici essenziali."
+          content: "Utilizziamo cookie tecnici essenziali per il funzionamento del sito (es. preferenze lingua o salvataggio del consenso). <strong>Solo previo tuo esplicito consenso tramite l'apposito banner</strong>, attiviamo i cookie analitici di Google Analytics per comprendere l'uso del sito e migliorarne le performance.<br/><br/>Puoi revocare il consenso in qualsiasi momento eliminando i dati di navigazione dal tuo browser."
         },
         {
           title: "5. I tuoi diritti",
@@ -386,11 +386,11 @@ const translations = {
         },
         {
           title: "3. Third-Party Services",
-          content: "For the technical operation of the site, we use the following external services:<ul><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Formspree:</strong> Handles the technical sending of the contact form. The data entered in the form passes through their secure servers.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Fonts:</strong> To load fonts, the site makes calls to Google servers, which may detect your IP address.</li></ul>"
+          content: "For the technical and analytical operation of the site, we use the following external services:<ul><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Formspree:</strong> Handles the technical sending of the contact form. The data entered in the form passes through their secure servers.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Fonts:</strong> To load fonts, the site makes calls to Google servers, which may detect your IP address.</li><li style=\"margin-top: 8px; margin-bottom: 8px;\"><strong>Google Analytics 4:</strong> Used to analyze site traffic in an aggregated manner (with IP anonymization enabled). It is loaded only after accepting the Cookie Banner.</li></ul>"
         },
         {
           title: "4. Cookie Policy",
-          content: "This site is \"technically lightweight\". <strong>We do not use profiling cookies</strong> or proprietary advertising cookies.<br/><br/>However, there may be technical cookies necessary for operation (e.g., navigation preferences) or third-party cookies related to the external services mentioned above. By continuing to navigate, you accept the use of these essential technical tools."
+          content: "We use essential technical cookies for the operation of the site (e.g., language preferences or saving consent). <strong>Only with your explicit consent via the banner</strong>, we activate Google Analytics analytical cookies to understand site usage and improve performance.<br/><br/>You can revoke consent at any time by clearing your browser's browsing data."
         },
         {
           title: "5. Your Rights",
