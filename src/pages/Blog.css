@@ -450,3 +450,51 @@
     font-size: 14px;
   }
 }
+
+/* ========================================= */
+/* FAQ List Styles                           */
+/* ========================================= */
+.faq-list {
+  margin: 40px 0;
+}
+
+.faq-list dt {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 24px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.faq-list dt::before {
+  content: '?';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background: rgba(168, 85, 247, 0.2); /* using a purple-ish accent with opacity */
+  color: #a855f7;
+  border: 1px solid rgba(168, 85, 247, 0.4);
+  border-radius: 50%;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+  margin-top: 2px;
+  box-shadow: 0 0 10px rgba(168, 85, 247, 0.2);
+}
+
+.faq-list dd {
+  margin: 0 0 0 36px;
+  padding-bottom: 24px;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.faq-list dd:last-child {
+  border-bottom: none;
+}
