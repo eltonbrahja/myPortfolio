@@ -18,6 +18,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import Privacy from './pages/Privacy';
 import NotFound from './pages/NotFound';
+import Success from './pages/Success';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 // Utility component to set language by route
@@ -71,6 +72,7 @@ const AnimatedRoutes = () => {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
+          <Route path="success" element={<Success />} />
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
@@ -82,6 +84,7 @@ const AnimatedRoutes = () => {
           <Route path="blog" element={<Blog />} />
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
+          <Route path="success" element={<Success />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

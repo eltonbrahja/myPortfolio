@@ -151,6 +151,13 @@ const translations = {
         submit: "Invia Richiesta"
       }
     },
+    success: {
+      title1: "Richiesta ",
+      title2: "Inviata",
+      desc: "Grazie per avermi contattato. Ho ricevuto il tuo messaggio e ti risponderò il prima possibile (solitamente entro 24-48 ore).",
+      btnHome: "Torna alla Home",
+      btnBlog: "Leggi il Blog"
+    },
     blog: {
       label: "Thoughts & Articles",
       title1: "Il mio ",
@@ -346,6 +353,13 @@ const translations = {
         messagePlace: "Briefly describe what you need...",
         submit: "Send Request"
       }
+    },
+    success: {
+      title1: "Request ",
+      title2: "Sent",
+      desc: "Thank you for getting in touch. I have received your message and will reply as soon as possible (usually within 24-48 hours).",
+      btnHome: "Back to Home",
+      btnBlog: "Read the Blog"
     },
     blog: {
       label: "Thoughts & Articles",

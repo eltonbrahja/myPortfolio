@@ -7,7 +7,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Contact.css';
 
 const Contact = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const options = t('contact.form.options');
   const [subjectOpen, setSubjectOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState(options[0]);
@@ -116,6 +116,8 @@ const Contact = () => {
                   
                   {/* Hidden input to ensure Formspree gets the value */}
                   <input type="hidden" name="subject" value={selectedSubject} />
+                  {/* Hidden input for custom success page redirect */}
+                  <input type="hidden" name="_next" value={typeof window !== 'undefined' ? `${window.location.origin}${language === 'en' ? '/en/success' : '/success'}` : ''} />
                 </div>
               </div>
 
