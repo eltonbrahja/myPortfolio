@@ -32,8 +32,15 @@ import { aiWebsiteBuilderPost } from './articles/ai-website-builder-trappola';
 import { aiWebsiteBuilderPostEn } from './articles/ai-website-builder-trappola-en';
 import { noCodeIllusionePost } from './articles/no-code-illusione';
 import { noCodeIllusionePostEn } from './articles/no-code-illusione-en';
+import { appleSiriClassActionPost } from './articles/apple-siri-class-action';
+import { appleSiriClassActionPostEn } from './articles/apple-siri-class-action-en';
 
 export const blogPosts = [
+  {
+    id: "apple-siri-class-action",
+    it: appleSiriClassActionPost,
+    en: appleSiriClassActionPostEn
+  },
   {
     id: "no-code-illusione",
     it: noCodeIllusionePost,
