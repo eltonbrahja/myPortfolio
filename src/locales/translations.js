@@ -77,20 +77,59 @@ const translations = {
       list: [
         {
           title: "Sviluppo Web & React",
-          description: "Costruisco interfacce dinamiche e performanti. Ho una solida conoscenza di HTML, CSS e tecnologie moderne come React per creare applicazioni scalabili e interattive.",
-          features: ["HTML5 & CSS3 Semantico", "React & JavaScript", "Sviluppo Web Custom"]
+          description: "Costruisco interfacce dinamiche e performanti con le tecnologie più moderne del panorama web. Dalla landing page al portale complesso, ogni riga di codice è scritta per durare, scalare e performare.",
+          details: "Ogni progetto parte da un'architettura pulita e manutenibile. Utilizzo React con Vite per garantire tempi di build minimi e un'esperienza utente fluida, con componenti riutilizzabili e stato gestito in modo efficiente. Niente template preconfezionati: ogni soluzione è costruita su misura, ottimizzata per le esigenze specifiche del tuo business.",
+          extraDetails: "Il codice che scrivo è leggibile, testabile e documentato. Questo significa che anche in futuro, qualsiasi sviluppatore potrà intervenire senza perdere tempo a decifrare logiche oscure. Integro librerie di animazione come Framer Motion per creare interfacce vive e coinvolgenti, senza sacrificare le performance.",
+          features: ["HTML5 & CSS3 Semantico", "React & JavaScript ES6+", "Sviluppo Web Custom", "Architettura Vite / Next.js", "Animazioni & Micro-interazioni", "API REST & Integrazioni"],
+          highlights: [
+            { label: "Performance", value: "95+", desc: "PageSpeed medio" },
+            { label: "Build", value: "< 2s", desc: "Tempo di compilazione" },
+            { label: "Mobile", value: "100%", desc: "Responsive garantito" }
+          ],
+          process: [
+            { step: "Analisi", desc: "Studio degli obiettivi, del target e della concorrenza per definire l'architettura ideale." },
+            { step: "Sviluppo", desc: "Scrittura di codice pulito con React, deploy progressivo e test continui su tutti i dispositivi." },
+            { step: "Lancio", desc: "Ottimizzazione finale, configurazione hosting, monitoraggio performance e supporto post-lancio." }
+          ]
         },
         {
           title: "CMS & WordPress",
-          description: "Realizzo siti web flessibili e facilmente gestibili dal cliente. Ho un'ottima esperienza nell'uso di CMS come WordPress e page builder avanzati come Elementor.",
-          features: ["WordPress & Elementor", "Siti Vetrina & E-commerce", "Semplice Gestione Autonoma"]
+          description: "Non tutti hanno bisogno di un sito custom in React. Per chi cerca flessibilità e autonomia nella gestione dei contenuti, WordPress resta la scelta più solida — a patto di configurarlo nel modo giusto.",
+          details: "Il CMS giusto ti permette di aggiornare contenuti, immagini e pagine in completa autonomia, senza dover contattare uno sviluppatore ogni volta. Configuro temi professionali, plugin essenziali e sistemi di backup automatici per garantire sicurezza e continuità operativa.",
+          extraDetails: "Ogni installazione WordPress che realizzo è ottimizzata per la velocità: caching avanzato, compressione delle immagini, lazy loading e minificazione del codice. Il risultato è un sito che si carica rapidamente anche su connessioni mobili, con un pannello di controllo intuitivo che ti permette di pubblicare nuovi contenuti in pochi click.",
+          features: ["WordPress & Elementor Pro", "Siti Vetrina & E-commerce", "Gestione Autonoma dei Contenuti", "Plugin SEO & Performance", "Backup & Sicurezza Automatica", "WooCommerce & Pagamenti Online"],
+          highlights: [
+            { label: "Autonomia", value: "100%", desc: "Gestione contenuti" },
+            { label: "Uptime", value: "99.9%", desc: "Backup giornalieri" },
+            { label: "Supporto", value: "48h", desc: "Tempo di risposta" }
+          ],
+          process: [
+            { step: "Setup", desc: "Installazione professionale con hosting performante, SSL, tema child e plugin essenziali pre-configurati." },
+            { step: "Design", desc: "Personalizzazione del layout con Elementor Pro, integrazione brand identity e ottimizzazione mobile." },
+            { step: "Formazione", desc: "Sessione guidata per insegnarti a gestire il sito in autonomia, con documentazione dedicata." }
+          ]
         },
         {
           title: "UI/UX Experience",
-          description: "Progetto l'identità visiva e curo l'esperienza dell'utente. Unisco un'estetica moderna e professionale a una navigazione fluida, per mantenere alta l'attenzione.",
-          features: ["Design System Coerente", "Focus sull'Usabilità", "Interfacce Responsive"]
+          description: "L'estetica senza strategia è decorazione. Progetto interfacce dove ogni elemento — dal colore di un pulsante allo spazio tra le sezioni — ha uno scopo preciso: guidare l'utente e generare conversioni.",
+          details: "Un buon design non è solo bello da vedere: guida l'utente verso l'azione desiderata. Analizzo i flussi di navigazione, ottimizzo i punti di contatto e creo interfacce che riducono il bounce rate e aumentano le conversioni. Il design è il primo linguaggio con cui il tuo brand comunica credibilità.",
+          extraDetails: "Lavoro con principi di visual hierarchy, color theory e tipografia avanzata per creare esperienze che catturano l'attenzione nei primi 3 secondi — quelli che determinano se un visitatore resta o abbandona. Ogni progetto include test di usabilità e iterazioni basate su feedback reali.",
+          features: ["Design System Coerente", "Focus su Usabilità & Accessibilità", "Interfacce Responsive", "Prototipazione & Wireframing", "Ottimizzazione delle Conversioni", "Color Theory & Tipografia"],
+          highlights: [
+            { label: "Bounce Rate", value: "-40%", desc: "Riduzione media" },
+            { label: "Conversioni", value: "+65%", desc: "Incremento medio" },
+            { label: "Attenzione", value: "3s", desc: "Tempo di cattura" }
+          ],
+          process: [
+            { step: "Ricerca", desc: "Analisi del target, benchmark della concorrenza e definizione della user persona ideale." },
+            { step: "Design", desc: "Wireframe, prototipo interattivo e design system completo con palette, tipografia e componenti." },
+            { step: "Validazione", desc: "Test di usabilità, analisi heatmap e ottimizzazione iterativa basata sui dati reali degli utenti." }
+          ]
         }
-      ]
+      ],
+      ctaTitle: "Hai un progetto in mente?",
+      ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per il tuo business. Ogni progetto inizia con una conversazione — senza impegno.",
+      ctaBtn: "Parliamone"
     },
     portfolio: {
       label: "Lavori Precedenti",
@@ -280,20 +319,59 @@ const translations = {
       list: [
         {
           title: "Web Development & React",
-          description: "I build dynamic and performant interfaces. I have a solid knowledge of HTML, CSS, and modern technologies like React to create scalable and interactive apps.",
-          features: ["Semantic HTML5 & CSS3", "React & JavaScript", "Custom Web Development"]
+          description: "I build dynamic and performant interfaces with the most modern technologies on the web landscape. From landing pages to complex portals, every line of code is written to last, scale, and perform.",
+          details: "Every project starts from a clean, maintainable architecture. I use React with Vite to ensure minimal build times and a fluid user experience, with reusable components and efficiently managed state. No pre-made templates: every solution is built from scratch, optimized for your business's specific needs.",
+          extraDetails: "The code I write is readable, testable, and documented. This means that in the future, any developer can step in without wasting time deciphering obscure logic. I integrate animation libraries like Framer Motion to create lively, engaging interfaces without sacrificing performance.",
+          features: ["Semantic HTML5 & CSS3", "React & JavaScript ES6+", "Custom Web Development", "Vite / Next.js Architecture", "Animations & Micro-interactions", "REST APIs & Integrations"],
+          highlights: [
+            { label: "Performance", value: "95+", desc: "Average PageSpeed" },
+            { label: "Build", value: "< 2s", desc: "Compilation time" },
+            { label: "Mobile", value: "100%", desc: "Guaranteed responsive" }
+          ],
+          process: [
+            { step: "Analysis", desc: "Study of goals, target audience, and competition to define the ideal architecture." },
+            { step: "Development", desc: "Clean code with React, progressive deployment, and continuous testing across all devices." },
+            { step: "Launch", desc: "Final optimization, hosting setup, performance monitoring, and post-launch support." }
+          ]
         },
         {
           title: "CMS & WordPress",
-          description: "I craft flexible websites that clients can easily manage. I have extensive experience using CMS platforms like WordPress and advanced page builders like Elementor.",
-          features: ["WordPress & Elementor", "Showcase & E-commerce Sites", "Easy Autonomous Management"]
+          description: "Not everyone needs a custom React site. For those seeking flexibility and content management autonomy, WordPress remains the strongest choice — provided it's configured the right way.",
+          details: "The right CMS lets you update content, images, and pages with full autonomy, without needing to contact a developer every time. I set up professional themes, essential plugins, and automatic backup systems to ensure security and operational continuity.",
+          extraDetails: "Every WordPress installation I build is optimized for speed: advanced caching, image compression, lazy loading, and code minification. The result is a site that loads fast even on mobile connections, with an intuitive dashboard that lets you publish new content in just a few clicks.",
+          features: ["WordPress & Elementor Pro", "Showcase & E-commerce Sites", "Autonomous Content Management", "SEO & Performance Plugins", "Automatic Backup & Security", "WooCommerce & Online Payments"],
+          highlights: [
+            { label: "Autonomy", value: "100%", desc: "Content management" },
+            { label: "Uptime", value: "99.9%", desc: "Daily backups" },
+            { label: "Support", value: "48h", desc: "Response time" }
+          ],
+          process: [
+            { step: "Setup", desc: "Professional installation with performant hosting, SSL, child theme, and pre-configured essential plugins." },
+            { step: "Design", desc: "Layout customization with Elementor Pro, brand identity integration, and mobile optimization." },
+            { step: "Training", desc: "Guided session to teach you how to manage the site independently, with dedicated documentation." }
+          ]
         },
         {
           title: "UI/UX Experience",
-          description: "I design visual identities and curate the user experience. I combine a modern, professional aesthetic with smooth navigation to keep attention high.",
-          features: ["Coherent Design System", "Usability Focus", "Responsive Interfaces"]
+          description: "Aesthetics without strategy is decoration. I design interfaces where every element — from button color to section spacing — has a precise purpose: guiding the user and generating conversions.",
+          details: "Good design isn't just about aesthetics: it guides the user toward the desired action. I analyze navigation flows, optimize touchpoints, and create interfaces that reduce bounce rates and increase conversions. Design is the first language through which your brand communicates credibility.",
+          extraDetails: "I work with visual hierarchy principles, color theory, and advanced typography to create experiences that capture attention in the first 3 seconds — the ones that determine whether a visitor stays or leaves. Every project includes usability testing and iterations based on real feedback.",
+          features: ["Coherent Design System", "Usability & Accessibility Focus", "Responsive Interfaces", "Prototyping & Wireframing", "Conversion Rate Optimization", "Color Theory & Typography"],
+          highlights: [
+            { label: "Bounce Rate", value: "-40%", desc: "Average reduction" },
+            { label: "Conversions", value: "+65%", desc: "Average increase" },
+            { label: "Attention", value: "3s", desc: "Capture time" }
+          ],
+          process: [
+            { step: "Research", desc: "Target analysis, competitor benchmarking, and ideal user persona definition." },
+            { step: "Design", desc: "Wireframe, interactive prototype, and complete design system with palette, typography, and components." },
+            { step: "Validation", desc: "Usability testing, heatmap analysis, and iterative optimization based on real user data." }
+          ]
         }
-      ]
+      ],
+      ctaTitle: "Have a project in mind?",
+      ctaDesc: "Tell me about your idea and let's find the best solution for your business together. Every project starts with a conversation — no strings attached.",
+      ctaBtn: "Let's talk"
     },
     portfolio: {
       label: "Previous Work",
