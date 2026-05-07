@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import './Services.css';
 
 const Services = () => {
-  const { t, lang } = useLanguage();
+  const { t, lang, localizePath } = useLanguage();
   const processLabel = lang === 'it' ? 'Come lavoro' : 'How I work';
 
   const containerVariants = {
@@ -47,7 +47,7 @@ const Services = () => {
     }
   ];
 
-  const localizePath = (path) => `/${lang}${path}`;
+
 
   return (
     <PageTransition>

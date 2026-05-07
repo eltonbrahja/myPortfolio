@@ -70,65 +70,50 @@ const translations = {
       quote: "\"Il tuo sito non deve solo esistere, deve performare.\""
     },
     services: {
-      label: "Competenze Tecniche",
+      label: "Cosa Faccio",
       title1: "Logica e ",
       title2: "Creatività",
-      intro: "Unisco il rigore dello sviluppo software alla sensibilità estetica. Perché un sito veloce deve essere anche bello da vedere.",
+      intro: "Creo siti web che funzionano davvero: belli da vedere, veloci da caricare e facili da trovare su Google.",
       list: [
         {
-          title: "Sviluppo Web & React",
-          description: "Costruisco interfacce dinamiche e performanti con le tecnologie più moderne del panorama web. Dalla landing page al portale complesso, ogni riga di codice è scritta per durare, scalare e performare.",
-          details: "Ogni progetto parte da un'architettura pulita e manutenibile. Utilizzo React con Vite per garantire tempi di build minimi e un'esperienza utente fluida, con componenti riutilizzabili e stato gestito in modo efficiente. Niente template preconfezionati: ogni soluzione è costruita su misura, ottimizzata per le esigenze specifiche del tuo business.",
-          extraDetails: "Il codice che scrivo è leggibile, testabile e documentato. Questo significa che anche in futuro, qualsiasi sviluppatore potrà intervenire senza perdere tempo a decifrare logiche oscure. Integro librerie di animazione come Framer Motion per creare interfacce vive e coinvolgenti, senza sacrificare le performance.",
-          features: ["HTML5 & CSS3 Semantico", "React & JavaScript ES6+", "Sviluppo Web Custom", "Architettura Vite / Next.js", "Animazioni & Micro-interazioni", "API REST & Integrazioni"],
-          highlights: [
-            { label: "Performance", value: "95+", desc: "PageSpeed medio" },
-            { label: "Build", value: "< 2s", desc: "Tempo di compilazione" },
-            { label: "Mobile", value: "100%", desc: "Responsive garantito" }
-          ],
+          title: "Siti Web Su Misura",
+          description: "Realizzo siti web costruiti da zero, senza usare modelli preconfezionati. Ogni pagina, ogni sezione e ogni dettaglio viene pensato appositamente per il tuo progetto — perché la tua attività non è uguale a nessun'altra.",
+          details: "Utilizzo tecnologie moderne che garantiscono velocità e affidabilità. Il risultato è un sito che si carica in meno di un secondo, funziona perfettamente su telefono, tablet e computer, e che puoi aggiornare nel tempo senza doverlo rifare da capo.",
+          extraDetails: "Il codice che scrivo è ordinato e ben organizzato. Questo significa che in futuro, se avrai bisogno di modifiche o ampliamenti, qualsiasi professionista potrà intervenire facilmente senza costi extra inutili. Niente sorprese, niente vincoli.",
+          features: ["Sito costruito da zero", "Veloce su tutti i dispositivi", "Perfetto su smartphone", "Animazioni fluide e moderne", "Facile da aggiornare in futuro", "Collegamento con servizi esterni"],
           process: [
-            { step: "Analisi", desc: "Studio degli obiettivi, del target e della concorrenza per definire l'architettura ideale." },
-            { step: "Sviluppo", desc: "Scrittura di codice pulito con React, deploy progressivo e test continui su tutti i dispositivi." },
-            { step: "Lancio", desc: "Ottimizzazione finale, configurazione hosting, monitoraggio performance e supporto post-lancio." }
+            { step: "Ascolto", desc: "Capisco le tue esigenze, il tuo pubblico e i tuoi obiettivi per progettare la soluzione giusta." },
+            { step: "Costruzione", desc: "Sviluppo il sito pagina per pagina, con verifiche continue su tutti i dispositivi." },
+            { step: "Consegna", desc: "Metto il sito online, verifico che tutto funzioni e resto disponibile per qualsiasi dubbio." }
           ]
         },
         {
-          title: "CMS & WordPress",
-          description: "Non tutti hanno bisogno di un sito custom in React. Per chi cerca flessibilità e autonomia nella gestione dei contenuti, WordPress resta la scelta più solida — a patto di configurarlo nel modo giusto.",
-          details: "Il CMS giusto ti permette di aggiornare contenuti, immagini e pagine in completa autonomia, senza dover contattare uno sviluppatore ogni volta. Configuro temi professionali, plugin essenziali e sistemi di backup automatici per garantire sicurezza e continuità operativa.",
-          extraDetails: "Ogni installazione WordPress che realizzo è ottimizzata per la velocità: caching avanzato, compressione delle immagini, lazy loading e minificazione del codice. Il risultato è un sito che si carica rapidamente anche su connessioni mobili, con un pannello di controllo intuitivo che ti permette di pubblicare nuovi contenuti in pochi click.",
-          features: ["WordPress & Elementor Pro", "Siti Vetrina & E-commerce", "Gestione Autonoma dei Contenuti", "Plugin SEO & Performance", "Backup & Sicurezza Automatica", "WooCommerce & Pagamenti Online"],
-          highlights: [
-            { label: "Autonomia", value: "100%", desc: "Gestione contenuti" },
-            { label: "Uptime", value: "99.9%", desc: "Backup giornalieri" },
-            { label: "Supporto", value: "48h", desc: "Tempo di risposta" }
-          ],
+          title: "WordPress & Gestione Facile",
+          description: "Non tutti hanno bisogno di un sito costruito da zero. Se vuoi poter modificare testi, foto e pagine in autonomia — senza dover chiamare qualcuno ogni volta — WordPress è la soluzione ideale.",
+          details: "Ti consegno un sito pronto all'uso con un pannello di controllo semplice e intuitivo. Potrai aggiungere articoli, cambiare immagini e aggiornare i tuoi servizi in totale autonomia, come se stessi scrivendo un documento Word.",
+          extraDetails: "Mi occupo anche della sicurezza e della manutenzione: copie di salvataggio automatiche, protezione da attacchi informatici e aggiornamenti regolari. Il tuo sito sarà sempre protetto e veloce, senza che tu debba pensarci.",
+          features: ["Pannello di controllo semplice", "Modifica testi e foto da solo", "Negozio online integrato", "Visibile su Google", "Copie di sicurezza automatiche", "Pagamenti online sicuri"],
           process: [
-            { step: "Setup", desc: "Installazione professionale con hosting performante, SSL, tema child e plugin essenziali pre-configurati." },
-            { step: "Design", desc: "Personalizzazione del layout con Elementor Pro, integrazione brand identity e ottimizzazione mobile." },
-            { step: "Formazione", desc: "Sessione guidata per insegnarti a gestire il sito in autonomia, con documentazione dedicata." }
+            { step: "Configurazione", desc: "Installo e configuro tutto: hosting veloce, certificato di sicurezza e tutti gli strumenti necessari." },
+            { step: "Personalizzazione", desc: "Creo il design del tuo sito su misura, con i tuoi colori, il tuo logo e i tuoi contenuti." },
+            { step: "Formazione", desc: "Ti insegno a usare il pannello di controllo passo per passo, con una guida scritta da consultare sempre." }
           ]
         },
         {
-          title: "UI/UX Experience",
-          description: "L'estetica senza strategia è decorazione. Progetto interfacce dove ogni elemento — dal colore di un pulsante allo spazio tra le sezioni — ha uno scopo preciso: guidare l'utente e generare conversioni.",
-          details: "Un buon design non è solo bello da vedere: guida l'utente verso l'azione desiderata. Analizzo i flussi di navigazione, ottimizzo i punti di contatto e creo interfacce che riducono il bounce rate e aumentano le conversioni. Il design è il primo linguaggio con cui il tuo brand comunica credibilità.",
-          extraDetails: "Lavoro con principi di visual hierarchy, color theory e tipografia avanzata per creare esperienze che catturano l'attenzione nei primi 3 secondi — quelli che determinano se un visitatore resta o abbandona. Ogni progetto include test di usabilità e iterazioni basate su feedback reali.",
-          features: ["Design System Coerente", "Focus su Usabilità & Accessibilità", "Interfacce Responsive", "Prototipazione & Wireframing", "Ottimizzazione delle Conversioni", "Color Theory & Tipografia"],
-          highlights: [
-            { label: "Bounce Rate", value: "-40%", desc: "Riduzione media" },
-            { label: "Conversioni", value: "+65%", desc: "Incremento medio" },
-            { label: "Attenzione", value: "3s", desc: "Tempo di cattura" }
-          ],
+          title: "Design & Esperienza Utente",
+          description: "Un sito bello non basta: deve anche essere chiaro e facile da usare. Progetto ogni pagina perché chi arriva sul tuo sito capisca subito chi sei, cosa offri e come contattarti.",
+          details: "Studio come le persone navigano il tuo sito e organizzo contenuti, pulsanti e menu in modo che trovino quello che cercano senza perdersi. Un visitatore che capisce tutto al volo è un visitatore che diventa cliente.",
+          extraDetails: "Mi concentro sulle prime impressioni: hai pochi secondi per convincere un visitatore a restare. Scelgo colori, caratteri e spazi con cura per trasmettere professionalità e fiducia fin dal primo sguardo. Ogni scelta di design ha un motivo preciso.",
+          features: ["Grafica professionale e coerente", "Facile da navigare per tutti", "Perfetto su ogni schermo", "Bozze e anteprime prima del lancio", "Pensato per farti contattare", "Colori e stile su misura"],
           process: [
-            { step: "Ricerca", desc: "Analisi del target, benchmark della concorrenza e definizione della user persona ideale." },
-            { step: "Design", desc: "Wireframe, prototipo interattivo e design system completo con palette, tipografia e componenti." },
-            { step: "Validazione", desc: "Test di usabilità, analisi heatmap e ottimizzazione iterativa basata sui dati reali degli utenti." }
+            { step: "Studio", desc: "Analizzo il tuo settore, i tuoi concorrenti e il tipo di clienti che vuoi raggiungere." },
+            { step: "Progettazione", desc: "Creo le bozze del sito e te le mostro prima di iniziare a costruirlo, così puoi darmi il tuo parere." },
+            { step: "Rifinitura", desc: "Testo il sito con persone reali e miglioro ogni dettaglio in base ai loro commenti." }
           ]
         }
       ],
       ctaTitle: "Hai un progetto in mente?",
-      ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per il tuo business. Ogni progetto inizia con una conversazione — senza impegno.",
+      ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per la tua attività. Ogni progetto inizia con una conversazione — senza impegno.",
       ctaBtn: "Parliamone"
     },
     portfolio: {
@@ -312,60 +297,45 @@ const translations = {
       quote: "\"Your website shouldn't just exist, it must perform.\""
     },
     services: {
-      label: "Technical Skills",
+      label: "What I Do",
       title1: "Logic and ",
       title2: "Creativity",
-      intro: "I combine the rigor of software development with aesthetic sensibility. Because a fast website must also be beautiful to look at.",
+      intro: "I build websites that actually work: beautiful to look at, fast to load, and easy to find on Google.",
       list: [
         {
-          title: "Web Development & React",
-          description: "I build dynamic and performant interfaces with the most modern technologies on the web landscape. From landing pages to complex portals, every line of code is written to last, scale, and perform.",
-          details: "Every project starts from a clean, maintainable architecture. I use React with Vite to ensure minimal build times and a fluid user experience, with reusable components and efficiently managed state. No pre-made templates: every solution is built from scratch, optimized for your business's specific needs.",
-          extraDetails: "The code I write is readable, testable, and documented. This means that in the future, any developer can step in without wasting time deciphering obscure logic. I integrate animation libraries like Framer Motion to create lively, engaging interfaces without sacrificing performance.",
-          features: ["Semantic HTML5 & CSS3", "React & JavaScript ES6+", "Custom Web Development", "Vite / Next.js Architecture", "Animations & Micro-interactions", "REST APIs & Integrations"],
-          highlights: [
-            { label: "Performance", value: "95+", desc: "Average PageSpeed" },
-            { label: "Build", value: "< 2s", desc: "Compilation time" },
-            { label: "Mobile", value: "100%", desc: "Guaranteed responsive" }
-          ],
+          title: "Custom-Built Websites",
+          description: "I build websites from scratch, without using pre-made templates. Every page, every section, and every detail is designed specifically for your project — because your business isn't like anyone else's.",
+          details: "I use modern technologies that guarantee speed and reliability. The result is a website that loads in under a second, works perfectly on phones, tablets, and computers, and can be updated over time without having to start from scratch.",
+          extraDetails: "The code I write is clean and well-organized. This means that in the future, if you need changes or additions, any professional can step in easily without unnecessary extra costs. No surprises, no lock-in.",
+          features: ["Built from scratch for you", "Fast on every device", "Perfect on smartphones", "Smooth modern animations", "Easy to update later", "Connected to external services"],
           process: [
-            { step: "Analysis", desc: "Study of goals, target audience, and competition to define the ideal architecture." },
-            { step: "Development", desc: "Clean code with React, progressive deployment, and continuous testing across all devices." },
-            { step: "Launch", desc: "Final optimization, hosting setup, performance monitoring, and post-launch support." }
+            { step: "Listening", desc: "I understand your needs, your audience, and your goals to design the right solution." },
+            { step: "Building", desc: "I develop the site page by page, with continuous checks on every device." },
+            { step: "Delivery", desc: "I put the site online, verify everything works, and stay available for any questions." }
           ]
         },
         {
-          title: "CMS & WordPress",
-          description: "Not everyone needs a custom React site. For those seeking flexibility and content management autonomy, WordPress remains the strongest choice — provided it's configured the right way.",
-          details: "The right CMS lets you update content, images, and pages with full autonomy, without needing to contact a developer every time. I set up professional themes, essential plugins, and automatic backup systems to ensure security and operational continuity.",
-          extraDetails: "Every WordPress installation I build is optimized for speed: advanced caching, image compression, lazy loading, and code minification. The result is a site that loads fast even on mobile connections, with an intuitive dashboard that lets you publish new content in just a few clicks.",
-          features: ["WordPress & Elementor Pro", "Showcase & E-commerce Sites", "Autonomous Content Management", "SEO & Performance Plugins", "Automatic Backup & Security", "WooCommerce & Online Payments"],
-          highlights: [
-            { label: "Autonomy", value: "100%", desc: "Content management" },
-            { label: "Uptime", value: "99.9%", desc: "Daily backups" },
-            { label: "Support", value: "48h", desc: "Response time" }
-          ],
+          title: "WordPress & Easy Management",
+          description: "Not everyone needs a website built from scratch. If you want to be able to change texts, photos, and pages on your own — without having to call someone every time — WordPress is the ideal solution.",
+          details: "I deliver a ready-to-use website with a simple and intuitive control panel. You'll be able to add articles, change images, and update your services completely on your own, as if you were writing a Word document.",
+          extraDetails: "I also take care of security and maintenance: automatic backups, protection against cyber attacks, and regular updates. Your website will always be protected and fast, without you having to worry about it.",
+          features: ["Simple control panel", "Edit texts and photos yourself", "Integrated online shop", "Visible on Google", "Automatic safety backups", "Secure online payments"],
           process: [
-            { step: "Setup", desc: "Professional installation with performant hosting, SSL, child theme, and pre-configured essential plugins." },
-            { step: "Design", desc: "Layout customization with Elementor Pro, brand identity integration, and mobile optimization." },
-            { step: "Training", desc: "Guided session to teach you how to manage the site independently, with dedicated documentation." }
+            { step: "Setup", desc: "I install and configure everything: fast hosting, security certificate, and all the necessary tools." },
+            { step: "Customization", desc: "I create your website's design to match your colors, your logo, and your content." },
+            { step: "Training", desc: "I teach you how to use the control panel step by step, with a written guide you can always refer to." }
           ]
         },
         {
-          title: "UI/UX Experience",
-          description: "Aesthetics without strategy is decoration. I design interfaces where every element — from button color to section spacing — has a precise purpose: guiding the user and generating conversions.",
-          details: "Good design isn't just about aesthetics: it guides the user toward the desired action. I analyze navigation flows, optimize touchpoints, and create interfaces that reduce bounce rates and increase conversions. Design is the first language through which your brand communicates credibility.",
-          extraDetails: "I work with visual hierarchy principles, color theory, and advanced typography to create experiences that capture attention in the first 3 seconds — the ones that determine whether a visitor stays or leaves. Every project includes usability testing and iterations based on real feedback.",
-          features: ["Coherent Design System", "Usability & Accessibility Focus", "Responsive Interfaces", "Prototyping & Wireframing", "Conversion Rate Optimization", "Color Theory & Typography"],
-          highlights: [
-            { label: "Bounce Rate", value: "-40%", desc: "Average reduction" },
-            { label: "Conversions", value: "+65%", desc: "Average increase" },
-            { label: "Attention", value: "3s", desc: "Capture time" }
-          ],
+          title: "Design & User Experience",
+          description: "A beautiful website isn't enough: it also needs to be clear and easy to use. I design every page so that visitors immediately understand who you are, what you offer, and how to contact you.",
+          details: "I study how people browse your website and organize content, buttons, and menus so they find what they're looking for without getting lost. A visitor who understands everything at a glance is a visitor who becomes a client.",
+          extraDetails: "I focus on first impressions: you have just a few seconds to convince a visitor to stay. I choose colors, fonts, and spacing carefully to convey professionalism and trust from the very first glance. Every design choice has a specific reason behind it.",
+          features: ["Professional, consistent look", "Easy to navigate for everyone", "Perfect on every screen", "Mockups and previews before launch", "Designed to get you contacted", "Colors and style tailored to you"],
           process: [
-            { step: "Research", desc: "Target analysis, competitor benchmarking, and ideal user persona definition." },
-            { step: "Design", desc: "Wireframe, interactive prototype, and complete design system with palette, typography, and components." },
-            { step: "Validation", desc: "Usability testing, heatmap analysis, and iterative optimization based on real user data." }
+            { step: "Research", desc: "I analyze your industry, your competitors, and the type of clients you want to reach." },
+            { step: "Design", desc: "I create mockups of the site and show them to you before building it, so you can give your feedback." },
+            { step: "Refinement", desc: "I test the site with real people and improve every detail based on their comments." }
           ]
         }
       ],
