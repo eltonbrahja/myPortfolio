@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Home, FileText } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
@@ -7,6 +7,15 @@ import './Success.css';
 
 const Success = () => {
   const { t } = useLanguage();
+
+  useEffect(() => {
+    // Google tag (gtag.js) event
+    if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
+      window.gtag('event', 'conversion_event_submit_lead_form', {
+        // <event_parameters>
+      });
+    }
+  }, []);
 
   return (
     <PageTransition>
