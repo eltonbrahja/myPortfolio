@@ -1,5 +1,4 @@
 import React from 'react';
-import {  } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import { Rocket, FolderOpen, ChevronDown, TrendingUp, Target, Code2, Zap, BarChart3, Search } from 'lucide-react';

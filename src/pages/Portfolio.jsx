@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ExternalLink, Github, Code2, X, ChevronLeft, ChevronRight } from 'lucide-react';
-import { AnimatePresence } from 'framer-';
+import { AnimatePresence } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';

@@ -1,5 +1,4 @@
 import React from 'react';
-import {  } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
 import './About.css';

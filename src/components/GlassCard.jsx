@@ -1,5 +1,4 @@
 import React from 'react';
-import {  } from 'framer-motion';
 
 const GlassCard = ({ children, className = '', delay = 0, hoverable = false, disableScrollAnimation = false }) => {
   const hoverStyle = hoverable ? { style: { transition: "transform 0.3s ease", cursor: "pointer" }, whileHover: { y: -5, scale: 1.01 } } : {};

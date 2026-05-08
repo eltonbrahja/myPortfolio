@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  AnimatePresence } from 'framer-';
+import { AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
