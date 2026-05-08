@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, Send, ChevronDown } from 'lucide-react';
-import {  AnimatePresence } from 'framer-';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
@@ -52,7 +52,7 @@ const Contact = () => {
       } else {
         alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
       }
-    } catch () {
+    } catch (error) {
       alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
     } finally {
       setIsSubmitting(false);
