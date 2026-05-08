@@ -1,7 +1,7 @@
 // src/pages/BlogPost.jsx
 import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import {  } from 'framer-motion';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { blogPosts } from '../data/posts';

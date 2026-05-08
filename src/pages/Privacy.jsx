@@ -1,6 +1,6 @@
 // src/pages/Privacy.jsx
 import React, { useEffect } from 'react';
-import { motion } from 'framer-motion';
+import {  } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
 import './Privacy.css';

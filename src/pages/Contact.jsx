@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Mail, Phone, MapPin, Send, ChevronDown } from 'lucide-react';
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import PageTransition from '../components/PageTransition';
@@ -52,7 +53,8 @@ const Contact = () => {
       } else {
         alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
       }
-    } catch (error) {
+    // eslint-disable-next-line no-unused-vars
+    } catch (err) {
       alert(language === 'en' ? 'Oops! There was a problem submitting your form.' : "Oops! C'è stato un problema durante l'invio.");
     } finally {
       setIsSubmitting(false);

@@ -9,6 +9,7 @@ const CookieBanner = () => {
   useEffect(() => {
     const consent = localStorage.getItem('cookieConsent');
     if (!consent) {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
       setIsVisible(true);
       document.body.classList.add('cookie-banner-active');
     } else if (consent === 'accepted') {

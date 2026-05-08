@@ -9,7 +9,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const { language, changeLanguage, localizePath, t } = useLanguage();
+  const { language, localizePath, t } = useLanguage();
 
   useEffect(() => {
     let ticking = false;
@@ -28,6 +28,7 @@ const Navbar = () => {
 
   // Close mobile menu on route change
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMobileMenuOpen(false);
   }, [location.pathname]);
 
