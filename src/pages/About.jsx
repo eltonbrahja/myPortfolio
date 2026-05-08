@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
 import './About.css';

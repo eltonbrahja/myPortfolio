@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 
 const GlassCard = ({ children, className = '', delay = 0, hoverable = false, disableScrollAnimation = false }) => {
   const hoverStyle = hoverable ? { style: { transition: "transform 0.3s ease", cursor: "pointer" }, whileHover: { y: -5, scale: 1.01 } } : {};

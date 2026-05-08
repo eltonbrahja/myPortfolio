@@ -1,4 +1,6 @@
 import React from 'react';
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 import { Code2, MonitorPlay, Zap, ChevronRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';

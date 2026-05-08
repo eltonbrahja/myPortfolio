@@ -1,5 +1,3 @@
-import { ritornoCuffieConFiloPost } from './articles/ritorno-cuffie-con-filo';
-import { ritornoCuffieConFiloPostEn } from './articles/ritorno-cuffie-con-filo-en';
 import { performanceWebPost } from './articles/performance-web';
 import { performanceWebPostEn } from './articles/performance-web-en';
 import { responsiveDesignPost } from './articles/responsive-design';
@@ -36,6 +34,8 @@ import { noCodeIllusionePost } from './articles/no-code-illusione';
 import { noCodeIllusionePostEn } from './articles/no-code-illusione-en';
 import { appleSiriClassActionPost } from './articles/apple-siri-class-action';
 import { appleSiriClassActionPostEn } from './articles/apple-siri-class-action-en';
+import { ritornoCuffieConFiloPost } from './articles/ritorno-cuffie-con-filo';
+import { ritornoCuffieConFiloPostEn } from './articles/ritorno-cuffie-con-filo-en';
 
 export const blogPosts = [
   {

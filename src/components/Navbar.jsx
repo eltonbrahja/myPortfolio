@@ -9,7 +9,7 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
-  const { language, localizePath, t } = useLanguage();
+  const { language, changeLanguage, localizePath, t } = useLanguage();
 
   useEffect(() => {
     let ticking = false;

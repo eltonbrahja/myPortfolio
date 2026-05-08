@@ -1,4 +1,6 @@
 // src/pages/Privacy.jsx
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 import React, { useEffect } from 'react';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
