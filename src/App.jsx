@@ -19,6 +19,7 @@ import BlogPost from './pages/BlogPost';
 import Privacy from './pages/Privacy';
 import NotFound from './pages/NotFound';
 import Success from './pages/Success';
+import LandingProfessionisti from './pages/LandingProfessionisti';
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 // Utility component to set language by route
@@ -73,6 +74,7 @@ const AnimatedRoutes = () => {
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="success" element={<Success />} />
+          <Route path="siti-web-per-professionisti" element={<LandingProfessionisti />} />
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
@@ -85,10 +87,28 @@ const AnimatedRoutes = () => {
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="success" element={<Success />} />
+          <Route path="siti-web-per-professionisti" element={<LandingProfessionisti />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </AnimatePresence>
+  );
+};
+
+const AppLayout = () => {
+  const location = useLocation();
+  const isLandingPage = location.pathname.includes('/siti-web-per-professionisti');
+
+  return (
+    <div className="app-container">
+      {!isLandingPage && <Navbar />}
+      <main className={`main-content ${isLandingPage ? 'no-padding' : ''}`}>
+        <AnimatedRoutes />
+      </main>
+      {!isLandingPage && <Footer />}
+      {!isLandingPage && <WhatsAppButton />}
+      <CookieBanner />
+    </div>
   );
 };
 
@@ -98,15 +118,7 @@ function App() {
       <Router>
         <ScrollToTop />
         <LanguageSynchronizer />
-        <div className="app-container">
-          <Navbar />
-          <main className="main-content">
-            <AnimatedRoutes />
-          </main>
-          <Footer />
-          <WhatsAppButton />
-          <CookieBanner />
-        </div>
+        <AppLayout />
       </Router>
     </LanguageProvider>
   );

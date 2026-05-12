@@ -94,6 +94,10 @@ a {
   padding-top: 80px; /* space for fixed navbar */
 }
 
+.main-content.no-padding {
+  padding-top: 0;
+}
+
 .whatsapp-button {
   position: fixed;
   bottom: 2rem;
