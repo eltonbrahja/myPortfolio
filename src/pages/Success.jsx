@@ -11,7 +11,7 @@ const Success = () => {
   useEffect(() => {
     // Google tag (gtag.js) event
     if (typeof window !== 'undefined' && typeof window.gtag === 'function') {
-      window.gtag('event', 'conversion_event_submit_lead_form', {
+      window.gtag('event', 'ads_conversion_Invio_modulo_per_i_lead_1', {
         // <event_parameters>
       });
     }
