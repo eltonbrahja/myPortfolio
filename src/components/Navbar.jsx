@@ -75,7 +75,7 @@ const Navbar = () => {
                 aria-label="Set English language"
               >EN</button>
             </div>
-            <Link to={localizePath('/contact')} className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
+            <Link to={localizePath('/') + '#preventivo'} className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
             
             <button 
               className="navbar-mobile-toggle"
@@ -98,7 +98,7 @@ const Navbar = () => {
             <NavLink to={localizePath('/services')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.services')}</NavLink>
             <NavLink to={localizePath('/portfolio')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.portfolio')}</NavLink>
             <NavLink to={localizePath('/blog')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.blog')}</NavLink>
-            <NavLink to={localizePath('/contact')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link text-accent">{t('navbar.contact')}</NavLink>
+            <Link to={localizePath('/') + '#preventivo'} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link text-accent">{t('navbar.contact')}</Link>
           </div>
         </div>
       )}

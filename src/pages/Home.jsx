@@ -7,7 +7,10 @@ import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
 import './Home.css';
 
+import { useLanguage } from '../context/LanguageContext';
+
 const Home = () => {
+  const { t } = useLanguage();
   const navigate = useNavigate();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [lightbox, setLightbox] = useState(null);
@@ -15,8 +18,7 @@ const Home = () => {
   const openLightbox = (images, index) => {
     setLightbox({ images, index });
   };
-  
-  const options = ["Nuovo sito web / Landing page", "Restyling sito esistente", "Consulenza UX / Performance", "Altro"];
+  const options = t('home.contact.form.projectOptions');
   const [subjectOpen, setSubjectOpen] = useState(false);
   const [selectedSubject, setSelectedSubject] = useState(options[0]);
   const selectRef = useRef(null);
@@ -54,10 +56,10 @@ const Home = () => {
       if (response.ok) {
         navigate('/success');
       } else {
-        alert("Oops! C'è stato un problema durante l'invio.");
+        alert(t('home.contact.form.error') || "Oops! C'è stato un problema durante l'invio.");
       }
     } catch (error) {
-      alert("Oops! C'è stato un problema durante l'invio.");
+      alert(t('home.contact.form.error') || "Oops! C'è stato un problema durante l'invio.");
     } finally {
       setIsSubmitting(false);
     }
@@ -70,24 +72,24 @@ const Home = () => {
         {/* 1. HERO */}
         <section className="home-section hero-home">
           <div className="hero-home-content">
-            <span className="micro-headline">Web designer freelance per professionisti, studi e attività locali</span>
+            <span className="micro-headline">{t('home.hero.micro')}</span>
             <h1 className="hero-home-title">
-              Siti web veloci e ottimizzati SEO che ti portano <span className="text-gradient shimmer">contatti</span>, non solo visite
+              {t('home.hero.title1')} <span className="text-gradient shimmer">{t('home.hero.titleHighlight')}</span>{t('home.hero.title2')}
             </h1>
             <p className="hero-home-subtitle">
-              Creo siti web per professionisti e attività locali, pensati per convertire visite in contatti reali.
+              {t('home.hero.subtitle')}
             </p>
             <div className="hero-actions">
               <div className="cta-group">
                 <button className="primary-btn" onClick={scrollToForm}>
-                  Richiedi un preventivo <ChevronRight size={20} />
+                  {t('home.hero.btn')} <ChevronRight size={20} />
                 </button>
-                <span className="micro-copy">Nessun impegno</span>
+                <span className="micro-copy">{t('home.hero.noCommitment')}</span>
               </div>
               <ul className="trust-bullets">
-                <li><CheckCircle2 size={14} /> Siti veloci e SEO-ready</li>
-                <li><CheckCircle2 size={14} /> UX pensata per la conversione</li>
-                <li><CheckCircle2 size={14} /> Risposta entro 24 ore</li>
+                <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[0]}</li>
+                <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[1]}</li>
+                <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[2]}</li>
               </ul>
             </div>
           </div>
@@ -95,55 +97,55 @@ const Home = () => {
 
         {/* 2. PER CHI E' */}
         <section className="home-section">
-          <h2 className="section-title">Per chi sono i miei siti web</h2>
+          <h2 className="section-title">{t('home.target.title')}</h2>
           <div className="cards-grid">
             <GlassCard className="home-card">
               <UserPlus size={32} className="text-blue" strokeWidth={1.5} />
-              <h3>Professionisti e freelance</h3>
-              <p>Siti che comunicano autorevolezza e trasformano visite in richieste di consulenza qualificate.</p>
+              <h3>{t('home.target.cards')[0].title}</h3>
+              <p>{t('home.target.cards')[0].desc}</p>
             </GlassCard>
             <GlassCard className="home-card">
               <Building2 size={32} className="text-purple" strokeWidth={1.5} />
-              <h3>Studi e agenzie</h3>
-              <p>Pagine chiare, servizi ben organizzati, moduli di contatto ottimizzati per la lead generation.</p>
+              <h3>{t('home.target.cards')[1].title}</h3>
+              <p>{t('home.target.cards')[1].desc}</p>
             </GlassCard>
             <GlassCard className="home-card">
               <Store size={32} className="text-green" strokeWidth={1.5} />
-              <h3>Attività locali</h3>
-              <p>Siti leggeri, pensati per farti trovare e contattare in pochi tap da mobile (telefonate, WhatsApp, prenotazioni).</p>
+              <h3>{t('home.target.cards')[2].title}</h3>
+              <p>{t('home.target.cards')[2].desc}</p>
             </GlassCard>
           </div>
         </section>
 
         {/* 3. COSA OTTIENI */}
         <section className="home-section">
-          <h2 className="section-title">Cosa ottieni lavorando con me</h2>
+          <h2 className="section-title">{t('home.benefits.title')}</h2>
           <div className="cards-grid">
             <GlassCard className="home-card">
               <LineChart size={32} className="text-blue" strokeWidth={1.5} />
-              <h3>Più contatti, meno dispersione</h3>
+              <h3>{t('home.benefits.cards')[0].title}</h3>
               <ul>
-                <li><CheckCircle2 size={16} /> Landing mirate per campagne Google / social.</li>
-                <li><CheckCircle2 size={16} /> Form e CTA studiati per il tuo cliente.</li>
-                <li><CheckCircle2 size={16} /> Tracking pronto (Analytics, pixel).</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[0]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[1]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[2]}</li>
               </ul>
             </GlassCard>
             <GlassCard className="home-card">
               <Shield size={32} className="text-purple" strokeWidth={1.5} />
-              <h3>Brand che comunica valore</h3>
+              <h3>{t('home.benefits.cards')[1].title}</h3>
               <ul>
-                <li><CheckCircle2 size={16} /> Design coerente con il tuo posizionamento.</li>
-                <li><CheckCircle2 size={16} /> Testi chiari, niente gergo inutile.</li>
-                <li><CheckCircle2 size={16} /> Struttura che guida l'utente a fidarsi.</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[0]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[1]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[2]}</li>
               </ul>
             </GlassCard>
             <GlassCard className="home-card">
               <Zap size={32} className="text-green" strokeWidth={1.5} />
-              <h3>Performance tecniche solide</h3>
+              <h3>{t('home.benefits.cards')[2].title}</h3>
               <ul>
-                <li><CheckCircle2 size={16} /> Siti ultra veloci anche da mobile.</li>
-                <li><CheckCircle2 size={16} /> Struttura SEO friendly (tag, schema).</li>
-                <li><CheckCircle2 size={16} /> Facilità di manutenzione e scalabilità.</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[0]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[1]}</li>
+                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[2]}</li>
               </ul>
             </GlassCard>
           </div>
@@ -151,35 +153,35 @@ const Home = () => {
 
         {/* 4. COME LAVORIAMO */}
         <section className="home-section">
-          <h2 className="section-title">Come lavoriamo insieme in 3 step</h2>
+          <h2 className="section-title">{t('home.process.title')}</h2>
           <div className="timeline">
             <div className="timeline-step">
               <div className="step-number">1</div>
-              <h3>Call conoscitiva (30 minuti)</h3>
-              <p>Capisco i tuoi obiettivi, il tuo target e i contenuti che hai a disposizione per delineare la strategia.</p>
+              <h3>{t('home.process.steps')[0].title}</h3>
+              <p>{t('home.process.steps')[0].desc}</p>
             </div>
             <div className="timeline-step">
               <div className="step-number">2</div>
-              <h3>Proposta + wireframe</h3>
-              <p>Ti propongo struttura, tempi e investimento chiaro. Nessun costo nascosto se decidi di non proseguire.</p>
+              <h3>{t('home.process.steps')[1].title}</h3>
+              <p>{t('home.process.steps')[1].desc}</p>
             </div>
             <div className="timeline-step">
               <div className="step-number">3</div>
-              <h3>Sviluppo & lancio</h3>
-              <p>Design, sviluppo, ottimizzazione e messa online. Ti consegno un sito chiavi in mano che puoi gestire.</p>
+              <h3>{t('home.process.steps')[2].title}</h3>
+              <p>{t('home.process.steps')[2].desc}</p>
             </div>
           </div>
         </section>
 
         {/* 5. PORTFOLIO & SOCIAL PROOF */}
         <section className="home-section" id="portfolio">
-          <h2 className="section-title">Alcuni progetti recenti</h2>
+          <h2 className="section-title">{t('home.portfolio.title')}</h2>
           <div className="portfolio-mini">
             <GlassCard className="portfolio-item">
               <div className="portfolio-info">
-                <h3>Palazzo Dana – Booking Personalizzato</h3>
-                <p>Sito web premium per una struttura ricettiva di lusso. Design immersivo con animazioni su misura, sistema di prenotazione integrato e supporto multilingua globale.</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: Automazione delle prenotazioni e maggiore conversione diretta.</p>
+                <h3>{t('portfolio.projects')[0].title}</h3>
+                <p>{t('portfolio.projects')[0].description}</p>
+                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[0]}</p>
               </div>
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
                 <ProjectGallery images={["/palazzodana-1.webp", "/palazzodana-2.webp", "/palazzodana-3.webp", "/palazzodana-4.webp"]} title="Palazzo Dana" layout="dual" openLightbox={openLightbox} />
@@ -191,17 +193,17 @@ const Home = () => {
                 <ProjectGallery images={["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"]} title="Danubia Macario" openLightbox={openLightbox} />
               </div>
               <div className="portfolio-info">
-                <h3>Danubia Macario – Piattaforma Bilingue</h3>
-                <p>Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: Ottimizzazione per mercato internazionale.</p>
+                <h3>{t('portfolio.projects')[1].title}</h3>
+                <p>{t('portfolio.projects')[1].description}</p>
+                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[1]}</p>
               </div>
             </GlassCard>
             
             <GlassCard className="portfolio-item">
               <div className="portfolio-info">
-                <h3>Alessandra Marascio – Prenotazioni Online</h3>
-                <p>Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: UX fluida e aumento degli appuntamenti tramite sistema di prenotazione.</p>
+                <h3>{t('portfolio.projects')[2].title}</h3>
+                <p>{t('portfolio.projects')[2].description}</p>
+                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[2]}</p>
               </div>
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
                 <ProjectGallery images={["/alessandra-1.webp", "/alessandra-2.webp"]} title="Alessandra Marascio" openLightbox={openLightbox} />
@@ -213,33 +215,33 @@ const Home = () => {
         {/* 6. OFFERTA */}
         <section className="home-section">
           <div className="offer-section">
-            <h2>Vediamo se posso aiutarti</h2>
-            <p>Se hai un'attività che potrebbe ottenere molto di più dal proprio sito web, ti propongo una call gratuita di 30 minuti per capire cosa funziona e cosa no. Senza alcun impegno.</p>
+            <h2>{t('home.offer.title')}</h2>
+            <p>{t('home.offer.desc')}</p>
             <button className="primary-btn" onClick={scrollToForm}>
-              Richiedi una call gratuita <ChevronRight size={20} />
+              {t('home.offer.btn')} <ChevronRight size={20} />
             </button>
           </div>
         </section>
 
         {/* 7. FAQ */}
         <section className="home-section">
-          <h2 className="section-title">Domande Frequenti</h2>
+          <h2 className="section-title">{t('home.faq.title')}</h2>
           <div className="faq-grid">
             <GlassCard className="faq-item">
-              <h3>Quanto costa un sito?</h3>
-              <p>Il costo varia in base alle funzionalità richieste (landing page singola, sito multi-pagina, integrazioni). Dopo una breve call conoscitiva, ti fornirò un preventivo preciso e trasparente al 100%.</p>
+              <h3>{t('home.faq.items')[0].q}</h3>
+              <p>{t('home.faq.items')[0].a}</p>
             </GlassCard>
             <GlassCard className="faq-item">
-              <h3>In quanto tempo si può essere online?</h3>
-              <p>Per una landing page orientata alla lead generation solitamente impiego dalle 2 alle 3 settimane dal momento in cui ho tutti i materiali (testi, loghi). Per siti più complessi i tempi possono variare.</p>
+              <h3>{t('home.faq.items')[1].q}</h3>
+              <p>{t('home.faq.items')[1].a}</p>
             </GlassCard>
             <GlassCard className="faq-item">
-              <h3>Posso aggiornare da solo i contenuti?</h3>
-              <p>Certamente. Fornisco sempre una soluzione su misura che ti permette di modificare testi, immagini e aggiungere articoli al blog in totale autonomia, senza dover toccare il codice.</p>
+              <h3>{t('home.faq.items')[2].q}</h3>
+              <p>{t('home.faq.items')[2].a}</p>
             </GlassCard>
             <GlassCard className="faq-item">
-              <h3>Lavori solo con chi è vicino a te?</h3>
-              <p>No, lavoro al 100% da remoto con clienti in tutta Italia e all'estero. Gestiamo tutto tramite video-call, email e strumenti condivisi in modo rapido ed efficiente.</p>
+              <h3>{t('home.faq.items')[3].q}</h3>
+              <p>{t('home.faq.items')[3].a}</p>
             </GlassCard>
           </div>
         </section>
@@ -248,15 +250,15 @@ const Home = () => {
         <section className="home-section final-form-section" id="preventivo">
           <div className="form-layout-grid">
             <div className="form-layout-left">
-              <h2 className="section-title form-title-left">Raccontami il tuo progetto</h2>
+              <h2 className="section-title form-title-left">{t('home.contact.title')}</h2>
               <p className="form-subtitle-left">
-                Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta.
+                {t('home.contact.subtitle')}
               </p>
               
               <div className="whatsapp-alt form-whatsapp-left">
-                <p>Preferisci scrivermi direttamente su WhatsApp?</p>
+                <p>{t('home.contact.whatsappPrefix')}</p>
                 <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
-                  <MessageCircle size={20} /> Scrivimi su WhatsApp
+                  <MessageCircle size={20} /> {t('home.contact.whatsappBtn')}
                 </a>
               </div>
             </div>
@@ -265,17 +267,17 @@ const Home = () => {
               <GlassCard className="home-form">
                 <form action="https://formspree.io/f/xpqwdgoa" method="POST" onSubmit={handleSubmit}>
                   <div className="form-group">
-                    <label htmlFor="name">Nome / Azienda</label>
-                    <input type="text" id="name" name="name" required placeholder="Es. Mario Rossi" />
+                    <label htmlFor="name">{t('home.contact.form.nameLabel')}</label>
+                    <input type="text" id="name" name="name" required placeholder={t('home.contact.form.namePlace')} />
                   </div>
                   
                   <div className="form-group">
-                    <label htmlFor="email">Indirizzo Email</label>
-                    <input type="email" id="email" name="email" required placeholder="mario@email.it" />
+                    <label htmlFor="email">{t('home.contact.form.emailLabel')}</label>
+                    <input type="email" id="email" name="email" required placeholder={t('home.contact.form.emailPlace')} />
                   </div>
 
                   <div className="form-group" ref={selectRef}>
-                    <label>Tipo di progetto</label>
+                    <label>{t('home.contact.form.projectLabel')}</label>
                     <div className="custom-select-container">
                       <div 
                         className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
@@ -312,15 +314,15 @@ const Home = () => {
                   </div>
 
                   <div className="form-group">
-                    <label htmlFor="message">Cosa vuoi ottenere?</label>
-                    <textarea id="message" name="message" rows="4" required placeholder="Descrivi brevemente la tua attività e i tuoi obiettivi..."></textarea>
+                    <label htmlFor="message">{t('home.contact.form.messageLabel')}</label>
+                    <textarea id="message" name="message" rows="4" required placeholder={t('home.contact.form.messagePlace')}></textarea>
                   </div>
 
                   <div className="form-submit-container">
                     <button type="submit" className="primary-btn home-submit-btn" disabled={isSubmitting}>
-                      {isSubmitting ? 'Invio in corso...' : 'Richiedi il tuo preventivo'} <Send size={18} />
+                      {isSubmitting ? t('home.contact.form.btnSending') : t('home.contact.form.btn')}
                     </button>
-                    <span className="micro-copy">Nessun impegno. I tuoi dati non verranno condivisi.</span>
+                    <span className="micro-copy">{t('home.contact.form.disclaimer')}</span>
                   </div>
                 </form>
               </GlassCard>

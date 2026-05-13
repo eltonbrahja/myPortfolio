@@ -21,43 +21,136 @@ const translations = {
       privacy: "Privacy Policy"
     },
     home: {
-      heroTitle1: "Trasformo la tua visione in",
-      heroTitle2: "risultati digitali misurabili.",
-      scrollDown: "Scorri per scoprire",
-      valueTitle: "Il tuo business merita una presenza online capace di generare fiducia, contatti e vendite, non una semplice vetrina.",
-      valueSubtitle: "L'attenzione online è questione di attimi. Realizzo <strong>siti web veloci, eleganti e ottimizzati SEO</strong>, progettati per posizionare il tuo brand e <strong>convertire i visitatori in clienti reali</strong>.",
-      features: [
-        {
-          title: "Più contatti, più risultati",
-          desc: "Un sito web moderno non è una spesa: è il tuo miglior commerciale, operativo 24 ore su 24. Attraverso percorsi utente (UX) progettati con criterio e strumenti analitici mirati, guido ogni visita verso l’azione concreta — che si tratti di una richiesta, un acquisto o una prenotazione."
-        },
-        {
-          title: "Posizionamento strategico e brand identity",
-          desc: "Ti aiuto a emergere nella tua nicchia con un’identità digitale riconoscibile e autorevole. Un design curato nei dettagli comunica valore, credibilità e professionalità fin dal primo sguardo — la base per distinguerti dalla concorrenza."
-        },
-        {
-          title: "Tecnologia su misura per performance reali",
-          desc: "Addio a piattaforme lente o piene di limiti. Sviluppo soluzioni personalizzate, sicure e ottimizzate SEO, pensate per caricare in una frazione di secondo e scalare nel tempo insieme al tuo business."
+      hero: {
+        micro: "Web designer freelance per professionisti, studi e attività locali",
+        title1: "Siti web veloci e ottimizzati SEO che ti portano ",
+        titleHighlight: "contatti",
+        title2: ", non solo visite",
+        subtitle: "Creo siti web per professionisti e attività locali, pensati per convertire visite in contatti reali.",
+        btn: "Richiedi un preventivo",
+        noCommitment: "Nessun impegno",
+        bullets: [
+          "Siti veloci e SEO-ready",
+          "UX pensata per la conversione",
+          "Risposta entro 24 ore"
+        ]
+      },
+      target: {
+        title: "Per chi sono i miei siti web",
+        cards: [
+          {
+            title: "Professionisti e freelance",
+            desc: "Siti che comunicano autorevolezza e trasformano visite in richieste di consulenza qualificate."
+          },
+          {
+            title: "Studi e agenzie",
+            desc: "Pagine chiare, servizi ben organizzati, moduli di contatto ottimizzati per la lead generation."
+          },
+          {
+            title: "Attività locali",
+            desc: "Siti leggeri, pensati per farti trovare e contattare in pochi tap da mobile (telefonate, WhatsApp, prenotazioni)."
+          }
+        ]
+      },
+      benefits: {
+        title: "Cosa ottieni lavorando con me",
+        cards: [
+          {
+            title: "Più contatti, meno dispersione",
+            bullets: [
+              "Landing mirate per campagne Google / social.",
+              "Form e CTA studiati per il tuo cliente.",
+              "Tracking pronto (Analytics, pixel)."
+            ]
+          },
+          {
+            title: "Brand che comunica valore",
+            bullets: [
+              "Design coerente con il tuo posizionamento.",
+              "Testi chiari, niente gergo inutile.",
+              "Struttura che guida l'utente a fidarsi."
+            ]
+          },
+          {
+            title: "Performance tecniche solide",
+            bullets: [
+              "Siti ultra veloci anche da mobile.",
+              "Struttura SEO friendly (tag, schema).",
+              "Facilità di manutenzione e scalabilità."
+            ]
+          }
+        ]
+      },
+      process: {
+        title: "Come lavoriamo insieme in 3 step",
+        steps: [
+          {
+            title: "Call conoscitiva (30 minuti)",
+            desc: "Capisco i tuoi obiettivi, il tuo target e i contenuti che hai a disposizione per delineare la strategia."
+          },
+          {
+            title: "Proposta + wireframe",
+            desc: "Ti propongo struttura, tempi e investimento chiaro. Nessun costo nascosto se decidi di non proseguire."
+          },
+          {
+            title: "Sviluppo & lancio",
+            desc: "Design, sviluppo, ottimizzazione e messa online. Ti consegno un sito chiavi in mano che puoi gestire."
+          }
+        ]
+      },
+      portfolio: {
+        title: "Alcuni progetti recenti",
+        results: [
+          "Risultato: Automazione delle prenotazioni e maggiore conversione diretta.",
+          "Risultato: Ottimizzazione per mercato internazionale.",
+          "Risultato: UX fluida e aumento degli appuntamenti tramite sistema di prenotazione."
+        ]
+      },
+      offer: {
+        title: "Vediamo se posso aiutarti",
+        desc: "Se hai un'attività che potrebbe ottenere molto di più dal proprio sito web, ti propongo una call gratuita di 30 minuti per capire cosa funziona e cosa no. Senza alcun impegno.",
+        btn: "Richiedi una call gratuita"
+      },
+      faq: {
+        title: "Domande Frequenti",
+        items: [
+          {
+            q: "Quanto costa un sito?",
+            a: "Il costo varia in base alle funzionalità richieste (landing page singola, sito multi-pagina, integrazioni). Dopo una breve call conoscitiva, ti fornirò un preventivo preciso e trasparente al 100%."
+          },
+          {
+            q: "In quanto tempo si può essere online?",
+            a: "Per una landing page orientata alla lead generation solitamente impiego dalle 2 alle 3 settimane dal momento in cui ho tutti i materiali (testi, loghi). Per siti più complessi i tempi possono variare."
+          },
+          {
+            q: "Posso aggiornare da solo i contenuti?",
+            a: "Certamente. Fornisco sempre una soluzione su misura che ti permette di modificare testi, immagini e aggiungere articoli al blog in totale autonomia, senza dover toccare il codice."
+          },
+          {
+            q: "Lavori solo con chi è vicino a te?",
+            a: "No, lavoro al 100% da remoto con clienti in tutta Italia e all'estero. Gestiamo tutto tramite video-call, email e strumenti condivisi in modo rapido ed efficiente."
+          }
+        ]
+      },
+      contact: {
+        title: "Raccontami il tuo progetto",
+        subtitle: "Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta.",
+        whatsappPrefix: "Preferisci scrivermi direttamente su WhatsApp?",
+        whatsappBtn: "Scrivimi su WhatsApp",
+        form: {
+          nameLabel: "Nome / Azienda",
+          namePlace: "Es. Mario Rossi",
+          emailLabel: "Indirizzo Email",
+          emailPlace: "mario@email.it",
+          projectLabel: "Tipo di progetto",
+          messageLabel: "Cosa vuoi ottenere?",
+          messagePlace: "Descrivi brevemente la tua attività e i tuoi obiettivi...",
+          btn: "Richiedi il tuo preventivo",
+          btnSending: "Invio in corso...",
+          disclaimer: "Nessun impegno. I tuoi dati non verranno condivisi.",
+          error: "Oops! C'è stato un problema durante l'invio."
         }
-      ],
-      closingText: "Che si tratti di un brand in crescita, uno studio professionale o un'attività locale, realizzo siti web che portano risultati concreti, non solo visite.",
-      whyTitle: "Perché affidarti a me",
-      whyItems: [
-        {
-          title: "Approccio data-driven",
-          desc: "Ogni decisione di design e sviluppo è guidata dai dati: analizzo il comportamento degli utenti, i tassi di conversione e le metriche di performance per costruire soluzioni che portano risultati misurabili. Nessuna scelta è lasciata al caso."
-        },
-        {
-          title: "Velocità che fa la differenza",
-          desc: "Un sito lento perde clienti. I miei progetti raggiungono punteggi elevati su Google PageSpeed grazie a codice ottimizzato, immagini compresse e architetture leggere. Il tuo sito sarà pronto a caricarsi in meno di un secondo."
-        },
-        {
-          title: "SEO integrato fin dal primo giorno",
-          desc: "Non aggiungo la SEO come un ripensamento: è parte integrante di ogni progetto. Dalla struttura semantica dell'HTML ai meta tag, dai dati strutturati Schema.org alla sitemap — il tuo sito nasce già pronto per posizionarsi su Google."
-        }
-      ],
-      btnStart: "Inizia il tuo progetto",
-      btnPortfolio: "Guarda i miei lavori"
+      }
     },
     about: {
       statusBadge: "Disponibile per nuovi progetti",
@@ -248,43 +341,136 @@ const translations = {
       privacy: "Privacy Policy"
     },
     home: {
-      heroTitle1: "I turn your vision into",
-      heroTitle2: "measurable digital results.",
-      scrollDown: "Scroll to discover",
-      valueTitle: "Your business deserves an online presence capable of generating trust, leads, and sales, not just a simple showcase.",
-      valueSubtitle: "Online attention is fleeting. I build <strong>fast, elegant, and SEO-optimized websites</strong>, intuitively designed to elevate your brand and <strong>convert visitors into real clients</strong>.",
-      features: [
-        {
-          title: "More leads, more results",
-          desc: "A modern website isn't an expense: it's your best salesperson, operating 24/7. Through carefully designed user journeys (UX) and targeted analytics, I guide every visit toward tangible actions—whether it's an inquiry, a purchase, or a booking."
-        },
-        {
-          title: "Strategic positioning & brand identity",
-          desc: "I help you stand out in your niche with a recognizable and authoritative digital identity. Meticulously crafted design communicates value, credibility, and professionalism at first glance—the foundation for distinguishing yourself from competitors."
-        },
-        {
-          title: "Custom technology for real performance",
-          desc: "Goodbye to slow, limited platforms. I build custom, secure, and SEO-optimized solutions designed to load in a fraction of a second and scale over time along with your business."
+      hero: {
+        micro: "Freelance Web Designer for professionals, studios, and local businesses",
+        title1: "Fast, SEO-optimized websites that bring you ",
+        titleHighlight: "leads",
+        title2: ", not just views",
+        subtitle: "I build websites for professionals and local businesses, designed to convert visitors into real clients.",
+        btn: "Request a quote",
+        noCommitment: "No commitment",
+        bullets: [
+          "Fast & SEO-ready sites",
+          "UX designed for conversion",
+          "Response within 24 hours"
+        ]
+      },
+      target: {
+        title: "Who my websites are for",
+        cards: [
+          {
+            title: "Professionals & Freelancers",
+            desc: "Websites that communicate authority and turn visits into qualified consultation requests."
+          },
+          {
+            title: "Studios & Agencies",
+            desc: "Clear pages, well-organized services, and contact forms optimized for lead generation."
+          },
+          {
+            title: "Local Businesses",
+            desc: "Lightweight sites designed to get you found and contacted in a few taps from mobile (calls, WhatsApp, bookings)."
+          }
+        ]
+      },
+      benefits: {
+        title: "What you get working with me",
+        cards: [
+          {
+            title: "More leads, less bounce",
+            bullets: [
+              "Targeted landing pages for Google/social campaigns.",
+              "Forms and CTAs designed for your specific client.",
+              "Ready-to-use tracking (Analytics, pixel)."
+            ]
+          },
+          {
+            title: "A brand that communicates value",
+            bullets: [
+              "Design consistent with your market positioning.",
+              "Clear copy, no unnecessary jargon.",
+              "A structure that guides the user to trust you."
+            ]
+          },
+          {
+            title: "Solid technical performance",
+            bullets: [
+              "Ultra-fast sites, even on mobile.",
+              "SEO-friendly structure (tags, schema).",
+              "Easy maintenance and high scalability."
+            ]
+          }
+        ]
+      },
+      process: {
+        title: "How we work together in 3 steps",
+        steps: [
+          {
+            title: "Discovery Call (30 mins)",
+            desc: "I understand your goals, your target audience, and the content you have available to outline the strategy."
+          },
+          {
+            title: "Proposal + Wireframes",
+            desc: "I propose a structure, timeline, and clear investment. No hidden costs if you decide not to proceed."
+          },
+          {
+            title: "Development & Launch",
+            desc: "Design, development, optimization, and launch. I deliver a turnkey website you can manage easily."
+          }
+        ]
+      },
+      portfolio: {
+        title: "Some recent projects",
+        results: [
+          "Result: Automated bookings and higher direct conversion.",
+          "Result: Optimized for the international market.",
+          "Result: Smooth UX and increased appointments via booking system."
+        ]
+      },
+      offer: {
+        title: "Let's see if I can help you",
+        desc: "If you have a business that could get much more out of its website, I offer a free 30-minute call to figure out what works and what doesn't. No strings attached.",
+        btn: "Request a free call"
+      },
+      faq: {
+        title: "Frequently Asked Questions",
+        items: [
+          {
+            q: "How much does a website cost?",
+            a: "The cost varies based on required features (single landing page, multi-page site, integrations). After a brief discovery call, I'll provide a 100% precise and transparent quote."
+          },
+          {
+            q: "How long until we go online?",
+            a: "For a lead-generation landing page, it usually takes 2 to 3 weeks from the moment I receive all materials (texts, logos). For more complex sites, timelines may vary."
+          },
+          {
+            q: "Can I update the content myself?",
+            a: "Absolutely. I always provide a custom solution that allows you to edit texts, images, and add blog articles completely on your own, without touching any code."
+          },
+          {
+            q: "Do you only work with local clients?",
+            a: "No, I work 100% remotely with clients all over Italy and abroad. We handle everything via video calls, email, and shared tools quickly and efficiently."
+          }
+        ]
+      },
+      contact: {
+        title: "Tell me about your project",
+        subtitle: "Fill out the form below: I will reply within 24 hours with concrete ideas.",
+        whatsappPrefix: "Prefer to message me directly on WhatsApp?",
+        whatsappBtn: "Message me on WhatsApp",
+        form: {
+          nameLabel: "Name / Company",
+          namePlace: "E.g. John Doe",
+          emailLabel: "Email Address",
+          emailPlace: "john@email.com",
+          projectLabel: "Project Type",
+          messageLabel: "What do you want to achieve?",
+          messagePlace: "Briefly describe your business and goals...",
+          btn: "Request your quote",
+          btnSending: "Sending...",
+          disclaimer: "No commitment. Your data will not be shared.",
+          error: "Oops! There was a problem sending the message."
         }
-      ],
-      closingText: "Whether it's a growing brand, a professional studio, or a local business, I build websites that bring concrete results, not just views.",
-      whyTitle: "Why choose me",
-      whyItems: [
-        {
-          title: "Data-driven approach",
-          desc: "Every design and development decision is driven by data: I analyze user behavior, conversion rates, and performance metrics to build solutions that deliver measurable results. Nothing is left to chance."
-        },
-        {
-          title: "Speed that makes the difference",
-          desc: "A slow website loses customers. My projects achieve high Google PageSpeed scores thanks to optimized code, compressed images, and lightweight architectures. Your site will load in under a second."
-        },
-        {
-          title: "SEO built in from day one",
-          desc: "I don't add SEO as an afterthought: it's an integral part of every project. From semantic HTML structure to meta tags, from Schema.org structured data to sitemaps — your site is born ready to rank on Google."
-        }
-      ],
-      btnStart: "Start your project",
-      btnPortfolio: "View my work"
+      }
     },
     about: {
       statusBadge: "Available for new projects",
