@@ -97,11 +97,18 @@
 }
 
 .hero-actions {
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 1.5rem;
+}
+
+.cta-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .primary-btn {
@@ -135,10 +142,11 @@
 .trust-bullets {
   list-style: none;
   padding: 0;
-  margin-top: 1rem;
+  margin-top: 0;
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  align-items: center;
 }
 
 .trust-bullets li {
@@ -151,6 +159,34 @@
 
 .trust-bullets li svg {
   color: var(--accent-color);
+}
+
+/* DESKTOP SPECIFIC HERO LAYOUT */
+@media (min-width: 901px) {
+  .hero-home-content {
+    margin-top: 6rem; /* Push entire body down */
+  }
+
+  .micro-headline {
+    transform: translateY(0); /* Move subtitle down from its high position */
+    margin-bottom: 2rem;
+  }
+
+  .hero-actions {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem; /* Space between button and list */
+    margin-top: 3rem;
+  }
+
+  .cta-group {
+    align-items: center;
+  }
+
+  .trust-bullets {
+    align-items: flex-start;
+  }
 }
 
 /* CARDS GRID (Per chi è & Cosa ottieni) */

@@ -78,10 +78,12 @@ const Home = () => {
               Creo siti web per professionisti e attività locali, pensati per convertire visite in contatti reali.
             </p>
             <div className="hero-actions">
-              <button className="primary-btn" onClick={scrollToForm}>
-                Richiedi un preventivo <ChevronRight size={20} />
-              </button>
-              <span className="micro-copy">Nessun impegno.</span>
+              <div className="cta-group">
+                <button className="primary-btn" onClick={scrollToForm}>
+                  Richiedi un preventivo <ChevronRight size={20} />
+                </button>
+                <span className="micro-copy">Nessun impegno</span>
+              </div>
               <ul className="trust-bullets">
                 <li><CheckCircle2 size={14} /> Siti veloci e SEO-ready</li>
                 <li><CheckCircle2 size={14} /> UX pensata per la conversione</li>
