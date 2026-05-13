@@ -178,7 +178,7 @@ const Home = () => {
             <GlassCard className="portfolio-item">
               <div className="portfolio-info">
                 <h3>Palazzo Dana – Booking Personalizzato</h3>
-                <p>Realizzazione completa di piattaforma di booking custom in React per struttura ricettiva di lusso.</p>
+                <p>Sito web premium per una struttura ricettiva di lusso. Design immersivo con animazioni su misura, sistema di prenotazione integrato e supporto multilingua globale.</p>
                 <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: Automazione delle prenotazioni e maggiore conversione diretta.</p>
               </div>
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
@@ -192,7 +192,7 @@ const Home = () => {
               </div>
               <div className="portfolio-info">
                 <h3>Danubia Macario – Piattaforma Bilingue</h3>
-                <p>Sito WordPress professionale ottimizzato per caricamenti rapidi e con navigazione multilingua IT/PT-BR.</p>
+                <p>Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.</p>
                 <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: Ottimizzazione per mercato internazionale.</p>
               </div>
             </GlassCard>
@@ -200,8 +200,8 @@ const Home = () => {
             <GlassCard className="portfolio-item">
               <div className="portfolio-info">
                 <h3>Alessandra Marascio – Prenotazioni Online</h3>
-                <p>Sito web per psicologa con integrazione di sistema Latepoint Booking per semplificare gli appuntamenti.</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: UX fluida e aumento dei contatti tramite form integrato.</p>
+                <p>Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.</p>
+                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>Risultato: UX fluida e aumento degli appuntamenti tramite sistema di prenotazione.</p>
               </div>
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
                 <ProjectGallery images={["/alessandra-1.webp", "/alessandra-2.webp"]} title="Alessandra Marascio" openLightbox={openLightbox} />
@@ -246,79 +246,85 @@ const Home = () => {
 
         {/* 8. FORM & WHATSAPP */}
         <section className="home-section final-form-section" id="preventivo">
-          <h2 className="section-title">Raccontami il tuo progetto</h2>
-          <p style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
-            Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta e, se ha senso, una proposta di collaborazione.
-          </p>
-          
-          <GlassCard className="home-form">
-            <form action="https://formspree.io/f/xpqwdgoa" method="POST" onSubmit={handleSubmit}>
-              <div className="form-group">
-                <label htmlFor="name">Nome / Azienda</label>
-                <input type="text" id="name" name="name" required placeholder="Es. Mario Rossi" />
-              </div>
+          <div className="form-layout-grid">
+            <div className="form-layout-left">
+              <h2 className="section-title form-title-left">Raccontami il tuo progetto</h2>
+              <p className="form-subtitle-left">
+                Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta.
+              </p>
               
-              <div className="form-group">
-                <label htmlFor="email">Indirizzo Email</label>
-                <input type="email" id="email" name="email" required placeholder="mario@email.it" />
+              <div className="whatsapp-alt form-whatsapp-left">
+                <p>Preferisci scrivermi direttamente su WhatsApp?</p>
+                <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
+                  <MessageCircle size={20} /> Scrivimi su WhatsApp
+                </a>
               </div>
-
-              <div className="form-group" ref={selectRef}>
-                <label>Tipo di progetto</label>
-                <div className="custom-select-container">
-                  <div 
-                    className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
-                    onClick={() => setSubjectOpen(!subjectOpen)}
-                  >
-                    {selectedSubject}
-                    <ChevronDown size={16} className={`select-icon ${subjectOpen ? 'open' : ''}`} />
+            </div>
+            
+            <div className="form-layout-right">
+              <GlassCard className="home-form">
+                <form action="https://formspree.io/f/xpqwdgoa" method="POST" onSubmit={handleSubmit}>
+                  <div className="form-group">
+                    <label htmlFor="name">Nome / Azienda</label>
+                    <input type="text" id="name" name="name" required placeholder="Es. Mario Rossi" />
                   </div>
                   
-                  <AnimatePresence>
-                    {subjectOpen && (
-                      <motion.ul 
-                        initial={{ opacity: 0, y: -10, scale: 0.95 }}
-                        animate={{ opacity: 1, y: 0, scale: 1 }}
-                        exit={{ opacity: 0, y: -10, scale: 0.95 }}
-                        transition={{ duration: 0.2 }}
-                        className="custom-select-options glass-panel"
+                  <div className="form-group">
+                    <label htmlFor="email">Indirizzo Email</label>
+                    <input type="email" id="email" name="email" required placeholder="mario@email.it" />
+                  </div>
+
+                  <div className="form-group" ref={selectRef}>
+                    <label>Tipo di progetto</label>
+                    <div className="custom-select-container">
+                      <div 
+                        className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
+                        onClick={() => setSubjectOpen(!subjectOpen)}
                       >
-                        {options.map((opt, i) => (
-                          <li 
-                            key={i} 
-                            onClick={() => { setSelectedSubject(opt); setSubjectOpen(false); }}
-                            className={`custom-select-option ${selectedSubject === opt ? 'selected' : ''}`}
+                        {selectedSubject}
+                        <ChevronDown size={16} className={`select-icon ${subjectOpen ? 'open' : ''}`} />
+                      </div>
+                      
+                      <AnimatePresence>
+                        {subjectOpen && (
+                          <motion.ul 
+                            initial={{ opacity: 0, y: -10, scale: 0.95 }}
+                            animate={{ opacity: 1, y: 0, scale: 1 }}
+                            exit={{ opacity: 0, y: -10, scale: 0.95 }}
+                            transition={{ duration: 0.2 }}
+                            className="custom-select-options glass-panel"
                           >
-                            {opt}
-                          </li>
-                        ))}
-                      </motion.ul>
-                    )}
-                  </AnimatePresence>
-                  
-                  <input type="hidden" name="projectType" value={selectedSubject} />
-                </div>
-              </div>
+                            {options.map((opt, i) => (
+                              <li 
+                                key={i} 
+                                onClick={() => { setSelectedSubject(opt); setSubjectOpen(false); }}
+                                className={`custom-select-option ${selectedSubject === opt ? 'selected' : ''}`}
+                              >
+                                {opt}
+                              </li>
+                            ))}
+                          </motion.ul>
+                        )}
+                      </AnimatePresence>
+                      
+                      <input type="hidden" name="projectType" value={selectedSubject} />
+                    </div>
+                  </div>
 
-              <div className="form-group">
-                <label htmlFor="message">Cosa vuoi ottenere?</label>
-                <textarea id="message" name="message" rows="4" required placeholder="Descrivi brevemente la tua attività e i tuoi obiettivi..."></textarea>
-              </div>
+                  <div className="form-group">
+                    <label htmlFor="message">Cosa vuoi ottenere?</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Descrivi brevemente la tua attività e i tuoi obiettivi..."></textarea>
+                  </div>
 
-              <div className="form-submit-container">
-                <button type="submit" className="primary-btn home-submit-btn" disabled={isSubmitting}>
-                  {isSubmitting ? 'Invio in corso...' : 'Richiedi il tuo preventivo'} <Send size={18} />
-                </button>
-                <span className="micro-copy">Nessun impegno. I tuoi dati non verranno condivisi.</span>
-              </div>
-            </form>
-          </GlassCard>
-
-          <div className="whatsapp-alt">
-            <p>Preferisci scrivermi direttamente su WhatsApp?</p>
-            <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
-              <MessageCircle size={20} /> Scrivimi su WhatsApp
-            </a>
+                  <div className="form-submit-container">
+                    <button type="submit" className="primary-btn home-submit-btn" disabled={isSubmitting}>
+                      {isSubmitting ? 'Invio in corso...' : 'Richiedi il tuo preventivo'} <Send size={18} />
+                    </button>
+                    <span className="micro-copy">Nessun impegno. I tuoi dati non verranno condivisi.</span>
+                  </div>
+                </form>
+              </GlassCard>
+            </div>
           </div>
         </section>
 
