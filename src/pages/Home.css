@@ -379,7 +379,7 @@
   gap: 3rem;
 }
 
-.form-layout-left {
+.form-content-area {
   display: flex;
   flex-direction: column;
 }
@@ -392,27 +392,36 @@
 
 @media (min-width: 901px) {
   .final-form-section {
-    max-width: 1100px; /* Wider container */
+    max-width: 1100px;
   }
   
   .form-layout-grid {
-    flex-direction: row;
-    align-items: center; /* Center vertically instead of stretch */
-    gap: 5rem; /* Slightly more gap between text and form */
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    grid-template-areas: 
+      "header form"
+      "whatsapp form";
+    align-items: start;
+    gap: 3rem 5rem;
   }
   
-  .form-layout-left {
-    flex: 1;
-    padding-top: 0;
+  .form-content-area {
+    grid-area: header;
+    padding-top: 2rem;
   }
   
-  .form-layout-right {
-    flex: 1.3; /* Give the form more relative width */
+  .form-container-area {
+    grid-area: form;
+  }
+  
+  .whatsapp-alternative-area {
+    grid-area: whatsapp;
+    align-self: start;
   }
   
   .form-title-left {
     text-align: center !important;
-    font-size: 3rem; /* Slightly smaller to fit better on one/two lines elegantly */
+    font-size: 3rem;
     line-height: 1.1;
     margin-bottom: 1.5rem;
   }
@@ -421,14 +430,12 @@
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.6;
-    max-width: 90%; /* Prevent lines from being too long */
+    max-width: 90%;
     margin: 0 auto;
   }
   
-  .form-whatsapp-left {
-    margin-top: 2rem; /* Normal spacing instead of pushed to bottom */
-    text-align: center;
-    align-items: center;
+  .whatsapp-alt {
+    margin-top: 0 !important; /* Managed by grid gap */
   }
 }
 
@@ -559,12 +566,11 @@
 
 /* WHATSAPP CTA */
 .whatsapp-alt {
-  margin-top: 3rem;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 0.8rem;
 }
 
 .whatsapp-alt p {
@@ -575,11 +581,12 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
-  padding: 0.8rem 1.5rem;
+  padding: 0.7rem 1.4rem; /* Slightly smaller than primary-btn */
   background-color: #25D366;
   color: white;
   border-radius: 12px;
   font-weight: 600;
+  font-size: 0.95rem; /* Slightly smaller font */
   transition: all 0.3s ease;
 }
 

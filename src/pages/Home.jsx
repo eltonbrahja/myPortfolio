@@ -258,21 +258,14 @@ const Home = () => {
         {/* 8. FORM & WHATSAPP */}
         <section className="home-section final-form-section" id="preventivo">
           <div className="form-layout-grid">
-            <div className="form-layout-left">
+            <div className="form-content-area">
               <h2 className="section-title form-title-left">{t('home.contact.title')}</h2>
               <p className="form-subtitle-left">
                 {t('home.contact.subtitle')}
               </p>
-              
-              <div className="whatsapp-alt form-whatsapp-left">
-                <p>{t('home.contact.whatsappPrefix')}</p>
-                <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
-                  <MessageCircle size={20} /> {t('home.contact.whatsappBtn')}
-                </a>
-              </div>
             </div>
             
-            <div className="form-layout-right">
+            <div className="form-container-area">
               <GlassCard className="home-form">
                 <form action="https://formspree.io/f/xpqwdgoa" method="POST" onSubmit={handleSubmit}>
                   <div className="form-group">
@@ -284,6 +277,8 @@ const Home = () => {
                     <label htmlFor="email">{t('home.contact.form.emailLabel')}</label>
                     <input type="email" id="email" name="email" required placeholder={t('home.contact.form.emailPlace')} />
                   </div>
+                  
+                  {/* Subject and Message inputs continue here */}
 
                   <div className="form-group" ref={selectRef}>
                     <label>{t('home.contact.form.projectLabel')}</label>
@@ -335,6 +330,15 @@ const Home = () => {
                   </div>
                 </form>
               </GlassCard>
+            </div>
+
+            <div className="whatsapp-alternative-area">
+              <div className="whatsapp-alt">
+                <p>{t('home.contact.whatsappPrefix')}</p>
+                <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
+                  <MessageCircle size={20} /> {t('home.contact.whatsappBtn')}
+                </a>
+              </div>
             </div>
           </div>
         </section>
