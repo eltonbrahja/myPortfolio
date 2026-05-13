@@ -19,7 +19,7 @@ import BlogPost from './pages/BlogPost';
 import Privacy from './pages/Privacy';
 import NotFound from './pages/NotFound';
 import Success from './pages/Success';
-import LandingProfessionisti from './pages/LandingProfessionisti';
+
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
 // Utility component to set language by route
@@ -74,7 +74,7 @@ const AnimatedRoutes = () => {
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="success" element={<Success />} />
-          <Route path="siti-web-per-professionisti" element={<LandingProfessionisti />} />
+
           <Route path="*" element={<NotFound />} />
         </Route>
         <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
@@ -87,7 +87,7 @@ const AnimatedRoutes = () => {
           <Route path="blog/:id" element={<BlogPost />} />
           <Route path="privacy" element={<Privacy />} />
           <Route path="success" element={<Success />} />
-          <Route path="siti-web-per-professionisti" element={<LandingProfessionisti />} />
+
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
@@ -97,16 +97,16 @@ const AnimatedRoutes = () => {
 
 const AppLayout = () => {
   const location = useLocation();
-  const isLandingPage = location.pathname.includes('/siti-web-per-professionisti');
+  const isHome = location.pathname === '/' || location.pathname === '/en' || location.pathname === '/en/';
 
   return (
     <div className="app-container">
-      {!isLandingPage && <Navbar />}
-      <main className={`main-content ${isLandingPage ? 'no-padding' : ''}`}>
+      <Navbar />
+      <main className="main-content">
         <AnimatedRoutes />
       </main>
-      {!isLandingPage && <Footer />}
-      {!isLandingPage && <WhatsAppButton />}
+      <Footer />
+      {!isHome && <WhatsAppButton />}
       <CookieBanner />
     </div>
   );
