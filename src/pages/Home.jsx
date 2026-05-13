@@ -18,10 +18,19 @@ const Home = () => {
   const openLightbox = (images, index) => {
     setLightbox({ images, index });
   };
-  const options = t('home.contact.form.projectOptions');
+  const options = t('home.contact.form.projectOptions') || [];
   const [subjectOpen, setSubjectOpen] = useState(false);
-  const [selectedSubject, setSelectedSubject] = useState(options[0]);
+  const [selectedIndex, setSelectedIndex] = useState(0);
   const selectRef = useRef(null);
+  
+  // Update selectedIndex if it goes out of bounds (shouldn't happen but safe)
+  useEffect(() => {
+    if (selectedIndex >= options.length) {
+      setSelectedIndex(0);
+    }
+  }, [options, selectedIndex]);
+
+  const selectedSubject = options[selectedIndex] || "";
 
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -299,8 +308,8 @@ const Home = () => {
                             {options.map((opt, i) => (
                               <li 
                                 key={i} 
-                                onClick={() => { setSelectedSubject(opt); setSubjectOpen(false); }}
-                                className={`custom-select-option ${selectedSubject === opt ? 'selected' : ''}`}
+                                onClick={() => { setSelectedIndex(i); setSubjectOpen(false); }}
+                                className={`custom-select-option ${selectedIndex === i ? 'selected' : ''}`}
                               >
                                 {opt}
                               </li>
