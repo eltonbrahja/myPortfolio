@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, Github, Code2 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
@@ -6,7 +7,7 @@ import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
 import './Portfolio.css';const Portfolio = () => {
-  const { t } = useLanguage();
+  const { t, localizePath } = useLanguage();
   const [lightbox, setLightbox] = useState(null);
 
   const openLightbox = (images, index) => {
@@ -45,6 +46,14 @@ import './Portfolio.css';const Portfolio = () => {
       description: t('portfolio.projects')[3].description,
       link: "#",
       linkText: t('portfolio.projects')[3].linkText
+    },
+    {
+      title: t('portfolio.projects')[4].title,
+      images: ["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"],
+      tags: ["REACT VITE", "NODE.JS", "EXPRESS", "MONGODB", "CUSTOM BOOKING"],
+      description: t('portfolio.projects')[4].description,
+      internalLink: "/portfolio/custom-booking",
+      linkText: t('portfolio.projects')[4].linkText
     }
   ];
 
@@ -88,10 +97,16 @@ import './Portfolio.css';const Portfolio = () => {
                 <h3 className="portfolio-title">{project.title}</h3>
                 <p className="portfolio-desc">{project.description}</p>
                 <div className="portfolio-actions">
-                  {project.link !== "#" && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+                  {project.internalLink ? (
+                    <Link to={localizePath(project.internalLink)} className="portfolio-link">
                       {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
-                    </a>
+                    </Link>
+                  ) : (
+                    project.link !== "#" && (
+                      <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+                        {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
+                      </a>
+                    )
                   )}
                   {project.github && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="portfolio-github">

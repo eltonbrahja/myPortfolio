@@ -235,6 +235,11 @@ const translations = {
           title: "Portfolio 'No-Bloat'",
           description: "Sviluppato in React con architettura moderna Vite. Animazioni fluide, glassmorphism e zero framework CSS per massimizzare le performance.",
           linkText: "Visita Live"
+        },
+        {
+          title: "Sistema di Prenotazione Custom",
+          description: "Un sistema di prenotazione su misura, flessibile ed estremamente performante. Sviluppato per automatizzare la gestione degli appuntamenti e ottimizzare la conversione.",
+          linkText: "Visualizza altro"
         }
       ],
       nextProject: {
@@ -318,6 +323,51 @@ const translations = {
       title2: "Trovata",
       desc: "L'URL cercato non esiste o è stato rimosso. Torna alla home per esplorare i miei servizi e progetti.",
       backBtn: "Torna alla Home"
+    },
+    customBooking: {
+      backBtn: "Torna al Portfolio",
+      heroLabel: "Caso di Studio - Progetto Personale",
+      title: "Sistema di Prenotazione Custom",
+      subtitle: "Un'applicazione web ad alte prestazioni per la gestione dinamica degli appuntamenti e delle prenotazioni in tempo reale.",
+      techStackTitle: "Tecnologie Utilizzate",
+      overviewTitle: "Panoramica del Progetto",
+      overviewP1: "Ho sviluppato questa applicazione per semplificare la vita a chiunque offra servizi su appuntamento, eliminando la necessità di costosi abbonamenti mensili a software di terze parti o plugin CMS pesanti.",
+      overviewP2: "Sfruttando un'architettura moderna basata su Next.js 14 e Supabase, il sistema garantisce un caricamento istantaneo e una sincronizzazione in tempo reale con Google Calendar. L'utente sperimenta una procedura guidata intuitiva e priva di attriti, mentre l'amministratore ha il controllo totale sulla propria disponibilità oraria.",
+      featuresTitle: "Funzionalità Chiave",
+      features: [
+        {
+          title: "Prenotazione Intuitiva",
+          desc: "Un'interfaccia pulita dove gli utenti selezionano il giorno dal calendario e vedono solo gli slot orari effettivamente disponibili."
+        },
+        {
+          title: "Dashboard Amministratore",
+          desc: "Un'area riservata per gestire le prenotazioni ricevute, impostare gli orari di lavoro e monitorare l'agenda."
+        },
+        {
+          title: "Sincronizzazione Google Calendar",
+          desc: "Le prenotazioni vengono sincronizzate all'istante con Google Calendar tramite API ufficiali per evitare conflitti."
+        },
+        {
+          title: "Gestione Disponibilità",
+          desc: "Massima flessibilità nel definire giorni lavorativi, fasce orarie, pause pianificate e durata personalizzata di ogni appuntamento."
+        }
+      ],
+      architectureTitle: "Architettura Tecnica",
+      frontendTitle: "Frontend / Client Tier",
+      frontendDesc: "Interfaccia utente interattiva e reattiva costruita con Next.js 14 (App Router) e Tailwind CSS per garantire un design mobile-first premium, elegante e ultra-veloce.",
+      backendTitle: "Serverless / Logic Tier",
+      backendDesc: "Gestione serverless tramite Next.js Server Actions e integrazione con le API di Google Calendar per sincronizzare in tempo reale ogni prenotazione.",
+      databaseTitle: "Database / Auth Tier",
+      databaseDesc: "Database relazionale sicuro e autenticazione utenti in tempo reale gestiti in modo nativo tramite Supabase per la persistenza sicura degli appuntamenti.",
+      resultsTitle: "Risultati Ottenuti",
+      resultsList: [
+        "Sincronizzazione bidirezionale istantanea con le API di Google Calendar.",
+        "Velocità di caricamento eccellente grazie al rendering lato server di Next.js 14.",
+        "Autenticazione sicura e database in tempo reale forniti dall'infrastruttura Supabase."
+      ],
+      ctaTitle: "Hai bisogno di un sistema simile per la tua attività?",
+      ctaDesc: "Se desideri automatizzare la gestione delle prenotazioni senza dipendere da costosi canoni mensili o plugin instabili, parliamone.",
+      ctaBtn: "Parla del tuo progetto"
     }
   },
   en: {
@@ -556,6 +606,11 @@ const translations = {
           title: "No-Bloat Portfolio",
           description: "Developed in React with modern Vite architecture. Smooth animations, glassmorphism, and zero CSS frameworks to maximize performance.",
           linkText: "Live Demo"
+        },
+        {
+          title: "Custom Booking System",
+          description: "A tailor-made, flexible and highly performant booking system. Developed to automate appointment scheduling and optimize conversion.",
+          linkText: "View more"
         }
       ],
       nextProject: {
@@ -639,6 +694,51 @@ const translations = {
       title2: "Found",
       desc: "The requested URL does not exist or has been moved. Return home to explore my services and projects.",
       backBtn: "Back to Home"
+    },
+    customBooking: {
+      backBtn: "Back to Portfolio",
+      heroLabel: "Case Study - Personal Project",
+      title: "Custom Booking System",
+      subtitle: "A high-performance web application for dynamic real-time appointment and reservation management.",
+      techStackTitle: "Tech Stack",
+      overviewTitle: "Project Overview",
+      overviewP1: "I developed this application to simplify life for anyone offering appointment-based services, eliminating the need for expensive monthly subscriptions to third-party software or heavy CMS plugins.",
+      overviewP2: "Leveraging a modern architecture based on Next.js 14 and Supabase, the system guarantees instant loading and real-time synchronization with Google Calendar. The user experiences an intuitive, friction-free guided booking flow, while the administrator enjoys complete control over their hourly availability.",
+      featuresTitle: "Key Features",
+      features: [
+        {
+          title: "Intuitive Booking",
+          desc: "A clean interface where users select a day from the calendar and see only the time slots that are actually available."
+        },
+        {
+          title: "Admin Dashboard",
+          desc: "A reserved area to manage received bookings, configure working hours, and monitor the schedule."
+        },
+        {
+          title: "Google Calendar Sync",
+          desc: "Bookings are instantly synchronized with Google Calendar via official APIs to prevent conflicts."
+        },
+        {
+          title: "Availability Management",
+          desc: "Maximum flexibility in defining work days, time ranges, planned breaks, and customized durations for each service."
+        }
+      ],
+      architectureTitle: "Technical Architecture",
+      frontendTitle: "Frontend / Client Tier",
+      frontendDesc: "Interactive and responsive user interface built with Next.js 14 (App Router) and Tailwind CSS to guarantee a premium, sleek and ultra-fast mobile-first design.",
+      backendTitle: "Serverless / Logic Tier",
+      backendDesc: "Serverless management via Next.js Server Actions and integration with the Google Calendar API to synchronize every reservation in real time.",
+      databaseTitle: "Database / Auth Tier",
+      databaseDesc: "Secure relational database and real-time user authentication managed natively via Supabase for secure appointment persistence.",
+      resultsTitle: "Achieved Results",
+      resultsList: [
+        "Instant two-way synchronization with Google Calendar APIs.",
+        "Excellent loading speed thanks to Next.js 14 server-side rendering.",
+        "Secure authentication and real-time database provided by the Supabase infrastructure."
+      ],
+      ctaTitle: "Need a similar system for your business?",
+      ctaDesc: "If you want to automate booking management without depending on expensive monthly fees or unstable plugins, let's talk.",
+      ctaBtn: "Discuss your project"
     }
   }
 };
