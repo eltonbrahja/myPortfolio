@@ -89,4 +89,20 @@
     <priority>0.3</priority>
   </url>
 
+  <!-- Blog Articles - IT -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/blog/quanto-costa-sito-web</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Blog Articles - EN -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/quanto-costa-sito-web</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
