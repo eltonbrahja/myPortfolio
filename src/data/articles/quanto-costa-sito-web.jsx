@@ -22,7 +22,7 @@ export const quantoCostaSitoWebPost = {
   title: "Quanto costa davvero un sito web professionale nel 2026 (e cosa include)",
   excerpt: "La risposta sincera è: non esiste un prezzo fisso, proprio come non esiste un prezzo unico per 'un’auto', perché tutto dipende da cosa ti serve davvero.",
   date: "20 Maggio 2026",
-  readTime: "5 min read",
+  readTime: "5 min di lettura",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
   content: (
