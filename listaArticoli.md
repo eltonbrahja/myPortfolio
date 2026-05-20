@@ -1,20 +1,5 @@
-
-
-
-
-
-
-
-
-
-
-
-
 Idee di articoli per il tuo blog (almeno 20)
 
-
-“5 segnali che ti dicono che il sito del tuo studio ti sta facendo perdere clienti”
-Parli di lentezza, grafica vecchia, niente versione mobile, nessuna chiamata all’azione e mostri come questi problemi si trasformano in richieste perse.
 
 “Come un sito fatto bene può portare più clienti locali alla tua attività”
 Articolo orientato a negozi, artigiani, studi locali: spieghi Google, recensioni, mappa, contatti chiari; inserisci esempi e un mini-case study.
