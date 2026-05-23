@@ -4,8 +4,15 @@ import { cinqueSegnaliSitoPerdereClientiPost } from './articles/5-segnali-sito-p
 import { cinqueSegnaliSitoPerdereClientiPostEn } from './articles/5-segnali-sito-perdere-clienti-en';
 import { sitoClientiLocaliPost } from './articles/sito-clienti-locali';
 import { sitoClientiLocaliPostEn } from './articles/sito-clienti-locali-en';
+import { sitoFaiDaTeVsProfessionalePost } from './articles/sito-fai-da-te-vs-professionale';
+import { sitoFaiDaTeVsProfessionalePostEn } from './articles/sito-fai-da-te-vs-professionale-en';
 
 export const blogPosts = [
+  {
+    id: "sito-fai-da-te-vs-professionale",
+    it: sitoFaiDaTeVsProfessionalePost,
+    en: sitoFaiDaTeVsProfessionalePostEn
+  },
   {
     id: "sito-clienti-locali",
     it: sitoClientiLocaliPost,
