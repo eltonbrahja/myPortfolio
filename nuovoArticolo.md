@@ -1,110 +1,134 @@
-Ecco l’articolo, scritto come se parlassi direttamente a imprenditori e professionisti (tu sei il web designer che offre la soluzione).
+Ecco l’articolo pronto da pubblicare.
 
 ***
 
-# Sito fai‑da‑te vs sito professionale: cosa rischi se scegli la strada sbagliata
+# Guida semplice per scegliere il tipo di sito giusto per la tua attività (vetrina, blog, e‑commerce, prenotazioni)
 
-Oggi chiunque può “farsi un sito” con un builder tipo Wix, Squarespace o simili, spendendo pochi euro al mese e qualche sera di lavoro. [linkedin](https://www.linkedin.com/pulse/diy-vs-professional-web-design-whats-best-your-fnnkc)
-A prima vista sembra la soluzione ideale: economica, veloce, “lo faccio quando ho tempo”. Ma, per un’attività che vuole clienti veri dal web, questa scorciatoia rischia di essere molto più cara di quanto sembri. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
+Non tutti i siti sono uguali: un negozio ha esigenze diverse da uno studio professionale, un artigiano da chi vende prodotti online. [marketingbaker](https://marketingbaker.com/which-type-of-website/)
+Capire che tipo di sito ti serve è il primo passo per non sprecare soldi e avere qualcosa che ti porta davvero clienti, non solo “presenza online”. [flippingbook](https://flippingbook.com/blog/marketing-tips/brochure-websites)
 
-In questo articolo vediamo, in modo concreto, cosa rischi con un sito fai‑da‑te e qual è invece il valore di un sito progettato da un professionista.
-
-***
-
-## Cosa intendiamo per “sito fai‑da‑te”
-
-Per “sito fai‑da‑te” intendo un sito costruito dal titolare dell’attività (o da un amico) usando un builder online con template preimpostati, senza competenze tecniche o di marketing. [marketeam.com](https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business)
-Queste piattaforme promettono design drag‑and‑drop, nessun codice e template pronti: ottimo per hobby o progetti personali, meno per un’attività che vive di clienti e fatturato. [dimensioncreative.co](https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer)
-
-Un sito professionale, invece, è progettato e realizzato da un web designer o da un’agenzia, con grafica su misura, attenzione ai contenuti, struttura pensata per farti trovare su Google e convertire visite in richieste. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
+In questa guida ti spiego, senza linguaggio tecnico, i principali tipi di sito per piccole attività e come scegliere quello giusto.
 
 ***
 
-## 1. Il tempo che perdi (e non tornerà indietro)
+## 1. Sito vetrina: la tua “scheda” professionale online
 
-Le piattaforme fai‑da‑te si presentano come “semplici”, ma chi le usa per la prima volta finisce spesso per passarci decine di ore. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/)
-Analisi recenti sulle piccole imprese mostrano che molti titolari passano 40–80 ore per costruire il proprio sito da soli: l’equivalente di una o due settimane di lavoro pieno. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
+Pensa al sito vetrina come al corrispettivo digitale del tuo biglietto da visita o della brochure del tuo studio: dice chi sei, cosa fai, dove ti trovi e come contattarti. [righthook.co](https://righthook.co.uk/blog/what-is-a-brochure-website/)
+Di solito è composto da poche pagine (es. Home, Chi siamo, Servizi, Contatti) ed è perfetto se il tuo obiettivo principale è farti trovare e dare una buona impressione a chi ti cerca. [wpfoss](https://wpfoss.ke/blog/ecommerce-vs-brochure-website-kenya/)
 
-Se in quel tempo potresti guadagnare, ad esempio, 30–50 € all’ora lavorando sul tuo vero lavoro (clienti, progetti, servizi), quelle ore “risparmiate” sul sito in realtà ti costano spesso molto più di un sito fatto da un professionista. [youtube](https://www.youtube.com/watch?v=qyKN8ykF8BI)
-Con un professionista, il tuo impegno tipico si riduce a poche ore: dare materiali, approvare le bozze, dare feedback, mentre il lavoro “sporco” viene gestito da chi lo fa tutti i giorni. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
+È adatto a te se:
+- Hai uno **studio professionale** (psicologo, avvocato, consulente, commercialista).  
+- Sei un **artigiano** o una piccola attività locale (idraulico, elettricista, falegname, parrucchiere, estetista).  
+- Hai un **negozio fisico** e vuoi far vedere chi sei, cosa vendi e come trovarti.  
 
-***
+Cosa deve fare bene un sito vetrina:
+- Spiegare in modo semplice **chi aiuti e con quali servizi**.  
+- Trasmettere **fiducia** con foto, recensioni, testimonianze. [webador](https://www.webador.com/blog/5-essential-pages-every-small-business-website-needs/)
+- Rendere facilissimo contattarti: telefono ben visibile, indirizzo, mappa, modulo contatti. [makemelocal](https://makemelocal.com/blog/what-is-a-brochure-website)
 
-## 2. Limiti dei builder gratuiti: il sito che assomiglia a mille altri
-
-I builder fai‑da‑te offrono centinaia di template, ma sono gli stessi che usano migliaia di altre attività nel mondo. [dimensioncreative.co](https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer)
-Questo significa che il tuo sito rischia di assomigliare a quello di tanti concorrenti, rendendo difficile differenziarti e dare un’immagine davvero unica del tuo brand. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/)
-
-In più, molte personalizzazioni sono semplicemente impossibili: spesso non puoi spostare certi elementi dove vorresti, cambiare davvero la struttura delle pagine o aggiungere funzioni particolari senza scontrarti con i limiti della piattaforma. [rootlessagency](https://rootlessagency.com/squarespace-vs-wix-vs-wordpress/)
-Un sito professionale, invece, viene progettato su misura per la tua attività: struttura, colori, tipografia ed elementi visivi sono pensati per raccontare chi sei e guidare il cliente dove vuoi tu. [marketeam.com](https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business)
-
-***
-
-## 3. L’immagine poco professionale che allontana i clienti
-
-Le persone giudicano la credibilità di un’azienda anche dalla qualità del suo sito: diverse ricerche indicano che una percentuale significativa di utenti cita il design del sito come primo fattore di fiducia verso un brand. [rudys](https://rudys.ai/small-business-website-statistics)
-Un sito improvvisato, con foto sgranate, impaginazione confusa e testi “messi lì”, comunica inconsciamente l’idea di qualcosa di poco curato, anche se in realtà il tuo lavoro è ottimo. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/)
-
-Al contrario, un sito professionale, pulito e coerente, trasmette subito serietà e affidabilità, aumentando la probabilità che un visitatore ti contatti invece di chiudere la pagina e tornare su Google. [rudys](https://rudys.ai/small-business-website-statistics)
-Per molte piccole attività, il sito è il primo punto di contatto: se l’impatto visivo è sbagliato, la persona potrebbe non arrivare mai a scoprire quanto sei bravo nel tuo mestiere. [marketingltb](https://marketingltb.com/blog/statistics/small-business-website-statistics/)
+Se oggi lavori soprattutto con il passaparola e i clienti ti cercano su Google per “vedere chi sei”, il sito vetrina è quasi sempre il punto di partenza giusto.
 
 ***
 
-## 4. Problemi tecnici e SEO: un sito che nessuno trova (o che non funziona bene)
+## 2. Blog: farti trovare su Google e dimostrare competenza
 
-Un sito non deve solo “essere online”: deve essere veloce, sicuro, leggibile da mobile e facile da trovare sui motori di ricerca. [envizonstudio](https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html)
-Molti builder fai‑da‑te hanno limiti seri da questo punto di vista: codice pesante, template lenti, opzioni SEO ridotte e poca possibilità di intervenire su aspetti tecnici importanti. [marketeam.com](https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business)
+Il blog non è un tipo di sito a parte, ma una **sezione** del sito dove pubblichi articoli utili per i tuoi clienti. [siteclicks.com](https://siteclicks.com.au/blog/7-websites-explained-business-owners/)
+Serve soprattutto a due cose: farti trovare su Google con ricerche specifiche e dimostrare che sai davvero di cosa parli.
 
-Diversi confronti mostrano che i siti costruiti con builder generici tendono ad avere performance peggiori e meno flessibilità SEO rispetto a siti sviluppati su piattaforme più aperte come WordPress, con un lavoro tecnico adeguato. [rootlessagency](https://rootlessagency.com/squarespace-vs-wix-vs-wordpress/)
-Questo si traduce in tempi di caricamento più lenti, peggior posizionamento su Google e meno visite qualificate nel tempo, cioè meno potenziali clienti che arrivano davvero sul tuo sito. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
+È adatto a te se:
+- Vuoi che i clienti ti trovino cercando **domande specifiche** (es. “come scegliere un materasso ortopedico”, “come funziona una consulenza psicologica”). [kombee](https://www.kombee.com/blogs/business-website-types)
+- Offri servizi che richiedono **spiegazioni** e spesso ti trovi a rispondere alle stesse domande.  
+- Vuoi posizionarti come **esperto** in un certo argomento.  
 
-In più, spesso:
-- Sei vincolato all’hosting della piattaforma, con poche opzioni per ottimizzare davvero le prestazioni.  
-- Non controlli pienamente backup, sicurezza, integrazioni con altri strumenti (CRM, gestionali, automazioni). [dimensioncreative.co](https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer)
+Esempi pratici:
+- Uno **studio di fisioterapia** che pubblica articoli su “lombalgia”, “mal di collo al lavoro”, “come prevenire gli infortuni sportivi”.  
+- Un **negozio di arredamento** che scrive guide su “come scegliere il divano per un salotto piccolo” o “come abbinare colori e materiali”.  
 
-Un professionista, invece, progetta il sito pensando anche alla parte “invisibile”: struttura del codice, velocità, ottimizzazione SEO on‑page, sicurezza e possibilità di crescita futura. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
-
-***
-
-## 5. Costi nascosti e blocco alla crescita
-
-Molti builder fai‑da‑te sembrano economici: “gratis” o pochi euro al mese. [linkedin](https://www.linkedin.com/pulse/diy-vs-professional-web-design-whats-best-your-fnnkc)
-Ma spesso le funzioni che realmente servono a un’attività – togliere il logo della piattaforma, usare il tuo dominio, avere più spazio, collegare strumenti esterni, e‑commerce, booking – si pagano come extra o piani superiori. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
-
-Su più anni, diversi confronti mostrano che la differenza di costo reale tra un DIY con abbonamenti potenziati e un sito professionale non è poi così enorme, soprattutto se consideri il valore del tempo che ci hai speso sopra. [marketingltb](https://marketingltb.com/blog/statistics/small-business-website-statistics/)
-In più, se a un certo punto il tuo business cresce e hai bisogno di funzioni serie (area riservata, automazioni, integrazioni, SEO avanzato), spesso ti ritrovi muro contro muro con i limiti del builder, e devi rifare tutto da zero su una piattaforma più flessibile. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/)
-
-Con un sito professionale, invece, la struttura viene pensata per poter crescere: puoi aggiungere pagine, funzionalità, automazioni, senza dover buttare via tutto il lavoro fatto. [marketeam.com](https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business)
+Il blog funziona bene se gli articoli sono pensati dal punto di vista del cliente, con titoli chiari e linguaggio semplice, non per “fare scena”. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
 
 ***
 
-## Cosa ti offre in concreto un sito professionale (e perché ti conviene)
+## 3. E‑commerce: quando vuoi vendere prodotti online
 
-Mettiamo a confronto in modo semplice fai‑da‑te e sito professionale:
+Un e‑commerce è un vero e proprio **negozio online**: le persone possono vedere i prodotti, aggiungerli al carrello e pagarli direttamente dal sito. [kombee](https://www.kombee.com/blogs/business-website-types)
+Non è un semplice “catalogo”, ma un sistema che gestisce ordini, pagamenti, spedizioni e spesso magazzino. [tuesday](https://tuesday.is/blog/the-ultimate-guide-to-choosing-the-perfect-website-builder-for-your-small-business)
 
-- **Tempo**  
-  - Fai‑da‑te: decine di ore spese a imparare la piattaforma, sistemare dettagli, risolvere problemi. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
-  - Professionista: poche ore tue per contenuti e feedback; il resto è gestito da chi lo fa di mestiere. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
+È adatto a te se:
+- Vendi **prodotti fisici** (abbigliamento, cosmetici, prodotti artigianali, integratori, ecc.).  
+- Vendi **prodotti digitali** (corsi online, ebook, contenuti scaricabili). [daveryanmedia](https://daveryanmedia.com/blog/your-small-business-website-a-step-by-step-guide-to-choosing-the-right-web-platform-and-developer/)
+- Vuoi che una parte del tuo fatturato arrivi da persone che comprano direttamente online, non solo in negozio.  
 
-- **Immagine**  
-  - Fai‑da‑te: template già visti, rischio di aspetto amatoriale, messaggi poco chiari. [dimensioncreative.co](https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer)
-  - Professionista: design coerente con il tuo brand, struttura pensata per guidare il cliente verso contatto o prenotazione. [marketeam.com](https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business)
+Cosa deve fare bene un e‑commerce:
+- Presentare i prodotti con **foto chiare, descrizioni semplici e prezzi trasparenti**. [daveryanmedia](https://daveryanmedia.com/blog/your-small-business-website-a-step-by-step-guide-to-choosing-the-right-web-platform-and-developer/)
+- Offrire un **carrello e un pagamento semplici** (meno passaggi, meno abbandoni). [tuesday](https://tuesday.is/blog/the-ultimate-guide-to-choosing-the-perfect-website-builder-for-your-small-business)
+- Gestire in modo affidabile **pagamenti, tasse, spedizioni e giacenze**.  
 
-- **SEO e performance**  
-  - Fai‑da‑te: limiti tecnici, velocità inferiori, meno controllo su aspetti critici per posizionamento e conversioni. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
-  - Professionista: sito più leggero, ottimizzato, costruito secondo buone pratiche SEO fin dall’inizio. [rootlessagency](https://rootlessagency.com/squarespace-vs-wix-vs-wordpress/)
-
-- **Crescita nel tempo**  
-  - Fai‑da‑te: piattaforma chiusa, difficoltà a integrare nuove funzioni o migrare altrove; rischio di dover rifare tutto. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/)
-  - Professionista: sito pensato per crescere con il tuo business, con integrazioni e personalizzazioni possibili nel tempo. [sequentcreative](https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/)
+Se oggi hai un negozio fisico e i clienti ti chiedono “posso ordinare online?” o “spedite fuori città?”, allora può essere il momento di affiancare all’attività un e‑commerce, magari iniziando con una selezione di prodotti.
 
 ***
 
-## Quando ha senso il fai‑da‑te e quando no
+## 4. Sito con sistema di prenotazioni: far prenotare i clienti da soli
 
-Il fai‑da‑te può avere senso se:
-- Stai testando un’idea personale o un progetto non centrale per il tuo reddito.  
-- Vuoi una presenza minima temporanea, sapendo che la cambierai in futuro.  
+Il sito con sistema di prenotazioni è pensato per far sì che il cliente possa **scegliere giorno e ora** e prenotare da solo, senza telefonate o messaggi avanti e indietro. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+Può includere anche pagamenti anticipati o acconti per bloccare l’appuntamento.
 
-Ma se il sito deve portare clienti veri alla tua attività – che sia negozio, studio o laboratorio – allora il rischio di affidarti solo a un builder è di spendere tempo, soldi e energie per un risultato che non ti fa fare il salto di qualità. [horizonsdesign.co](https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/)
-In questi casi, investire in un sito professionale è più simile a investire in un buon negozio fisico: è il posto dove i tuoi clienti entrano, si fidano e decidono se lavorare con te o con qualcun altro. [envizonstudio](https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html)
+È adatto a te se:
+- Hai un’attività con **appuntamenti su orario**: parrucchiere, estetista, barber, centro benessere, personal trainer, studio medico o psicologico.  
+- Organizza **corsi, lezioni, visite guidate, consulenze**.  
+
+Cosa deve fare bene un sito con prenotazioni:
+- Mostrare un **calendario chiaro** con le disponibilità.  
+- Permettere prenotazione e, se necessario, **pagamento online** in pochi passaggi. [kombee](https://www.kombee.com/blogs/business-website-types)
+- Inviare conferma e promemoria automatici (email o SMS).  
+
+Può essere un sito vetrina con una sezione di prenotazione integrata, oppure un sistema più avanzato se hai tanti servizi e orari da gestire.
+
+***
+
+## Come capire di cosa hai davvero bisogno (senza impazzire)
+
+Per non perderti tra mille opzioni, puoi partire da tre domande molto semplici: [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+
+1. **Il tuo obiettivo principale qual è?**  
+   - Farti trovare e dare una buona impressione → sito vetrina.  
+   - Farti trovare su Google per tante ricerche diverse → sito vetrina + blog.  
+   - Vendere prodotti → e‑commerce.  
+   - Far prenotare appuntamenti in autonomia → vetrina + prenotazioni.  
+
+2. **I tuoi clienti cosa vogliono fare sul sito?**  
+   - Capire chi sei e chiamarti.  
+   - Informarsi meglio prima di scegliere.  
+   - Comprare qualcosa.  
+   - Prenotare una data e un’ora.  
+
+3. **Quanto tempo hai per seguire il sito?**  
+   - Poco: meglio un sito vetrina semplice ma curato, aggiornato bene poche volte l’anno. [flippingbook](https://flippingbook.com/blog/marketing-tips/brochure-websites)
+   - Di più: ha senso investire in blog, contenuti, magari e‑commerce o prenotazioni.  
+
+***
+
+## Esempi concreti per categoria
+
+Per rendere tutto ancora più pratico, ecco qualche combinazione “tipo” che funziona bene.
+
+- **Studio professionale (psicologo, avvocato, consulente)**  
+  Sito vetrina + sezione blog (anche pochi articoli mirati) + modulo contatti e, se utile, prenotazione prima consulenza. [siteclicks.com](https://siteclicks.com.au/blog/7-websites-explained-business-owners/)
+
+- **Artigiano o attività locale (idraulico, elettricista, falegname, gommista)**  
+  Sito vetrina con pagine servizi chiare, foto dei lavori, mappa e contatti ben visibili; blog solo se hai voglia di pubblicare qualche guida utile. [kombee](https://www.kombee.com/blogs/business-website-types)
+
+- **Negozio di prodotti fisici**  
+  Se vendi solo in zona: sito vetrina con selezione prodotti e invito a visitare il negozio.  
+  Se vuoi vendere online: e‑commerce + pagina “Chi siamo” che racconta negozio e storia. [wpfoss](https://wpfoss.ke/blog/ecommerce-vs-brochure-website-kenya/)
+
+- **Parrucchiere, estetista, barber, centro benessere**  
+  Sito vetrina + sistema di prenotazioni online, con listino chiaro e possibilità di scegliere trattamenti, giorno e ora. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+
+***
+
+## Conclusione: parti da quello che ti serve oggi (e lascia spazio al domani)
+
+Non esiste il “sito perfetto per tutti”: esiste il sito giusto per il momento in cui si trova la tua attività. [marketingbaker](https://marketingbaker.com/which-type-of-website/)
+L’errore più comune è chiedere subito “che piattaforma uso?” invece di domandarsi “cosa voglio che il mio sito faccia per il mio business”. [hrdigitaldesign](https://www.hrdigitaldesign.com/blogs/news/which-website-platform-is-right-for-your-small-business-a-simple-guide)
+
+Partire da un sito vetrina fatto bene e pensato per crescere (aggiungendo blog, prenotazioni o e‑commerce quando serve) è spesso la scelta più intelligente per chi non vuole sprecare soldi ma vuole uno strumento che lavori davvero per lui.

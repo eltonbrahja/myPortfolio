@@ -6,8 +6,15 @@ import { sitoClientiLocaliPost } from './articles/sito-clienti-locali';
 import { sitoClientiLocaliPostEn } from './articles/sito-clienti-locali-en';
 import { sitoFaiDaTeVsProfessionalePost } from './articles/sito-fai-da-te-vs-professionale';
 import { sitoFaiDaTeVsProfessionalePostEn } from './articles/sito-fai-da-te-vs-professionale-en';
+import { guidaTipoSitoGiustoPost } from './articles/guida-tipo-sito-giusto';
+import { guidaTipoSitoGiustoPostEn } from './articles/guida-tipo-sito-giusto-en';
 
 export const blogPosts = [
+  {
+    id: "guida-tipo-sito-giusto",
+    it: guidaTipoSitoGiustoPost,
+    en: guidaTipoSitoGiustoPostEn
+  },
   {
     id: "sito-fai-da-te-vs-professionale",
     it: sitoFaiDaTeVsProfessionalePost,
@@ -29,4 +36,3 @@ export const blogPosts = [
     en: quantoCostaSitoWebPostEn
   }
 ];
-
