@@ -24,7 +24,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
   date: "May 23, 2026",
   readTime: "7 min read",
   category: "Web Design",
-  image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+  image: "/sito-fai-da-te.jpg",
   content: (
     <div className="article-body">
       <p>

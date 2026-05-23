@@ -24,7 +24,7 @@ export const dieciErroriSitoPost = {
   date: "23 Maggio 2026",
   readTime: "8 min di lettura",
   category: "UX & Conversioni",
-  image: "https://images.unsplash.com/photo-1555861496-0666c8981751?auto=format&fit=crop&w=1200&q=80",
+  image: "/10-errori-sito.jpg",
   content: (
     <div className="article-body">
       <p>
