@@ -8,8 +8,15 @@ import { sitoFaiDaTeVsProfessionalePost } from './articles/sito-fai-da-te-vs-pro
 import { sitoFaiDaTeVsProfessionalePostEn } from './articles/sito-fai-da-te-vs-professionale-en';
 import { guidaTipoSitoGiustoPost } from './articles/guida-tipo-sito-giusto';
 import { guidaTipoSitoGiustoPostEn } from './articles/guida-tipo-sito-giusto-en';
+import { facebookNonBastaPost } from './articles/facebook-non-basta-per-business';
+import { facebookNonBastaPostEn } from './articles/facebook-non-basta-per-business-en';
 
 export const blogPosts = [
+  {
+    id: "facebook-non-basta-per-business",
+    it: facebookNonBastaPost,
+    en: facebookNonBastaPostEn
+  },
   {
     id: "guida-tipo-sito-giusto",
     it: guidaTipoSitoGiustoPost,

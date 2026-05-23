@@ -2,133 +2,122 @@ Ecco l’articolo pronto da pubblicare.
 
 ***
 
-# Guida semplice per scegliere il tipo di sito giusto per la tua attività (vetrina, blog, e‑commerce, prenotazioni)
+# Perché nel 2026 non basta più la sola pagina Facebook per il tuo business
 
-Non tutti i siti sono uguali: un negozio ha esigenze diverse da uno studio professionale, un artigiano da chi vende prodotti online. [marketingbaker](https://marketingbaker.com/which-type-of-website/)
-Capire che tipo di sito ti serve è il primo passo per non sprecare soldi e avere qualcosa che ti porta davvero clienti, non solo “presenza online”. [flippingbook](https://flippingbook.com/blog/marketing-tips/brochure-websites)
+Molte attività pensano ancora: “Ho la pagina Facebook, quindi sono a posto online”.  
+Nel 2026 è esattamente il contrario: affidarti solo a Facebook significa non avere il controllo del tuo business digitale e dipendere da una piattaforma che può cambiare le regole da un giorno all’altro. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
 
-In questa guida ti spiego, senza linguaggio tecnico, i principali tipi di sito per piccole attività e come scegliere quello giusto.
-
-***
-
-## 1. Sito vetrina: la tua “scheda” professionale online
-
-Pensa al sito vetrina come al corrispettivo digitale del tuo biglietto da visita o della brochure del tuo studio: dice chi sei, cosa fai, dove ti trovi e come contattarti. [righthook.co](https://righthook.co.uk/blog/what-is-a-brochure-website/)
-Di solito è composto da poche pagine (es. Home, Chi siamo, Servizi, Contatti) ed è perfetto se il tuo obiettivo principale è farti trovare e dare una buona impressione a chi ti cerca. [wpfoss](https://wpfoss.ke/blog/ecommerce-vs-brochure-website-kenya/)
-
-È adatto a te se:
-- Hai uno **studio professionale** (psicologo, avvocato, consulente, commercialista).  
-- Sei un **artigiano** o una piccola attività locale (idraulico, elettricista, falegname, parrucchiere, estetista).  
-- Hai un **negozio fisico** e vuoi far vedere chi sei, cosa vendi e come trovarti.  
-
-Cosa deve fare bene un sito vetrina:
-- Spiegare in modo semplice **chi aiuti e con quali servizi**.  
-- Trasmettere **fiducia** con foto, recensioni, testimonianze. [webador](https://www.webador.com/blog/5-essential-pages-every-small-business-website-needs/)
-- Rendere facilissimo contattarti: telefono ben visibile, indirizzo, mappa, modulo contatti. [makemelocal](https://makemelocal.com/blog/what-is-a-brochure-website)
-
-Se oggi lavori soprattutto con il passaparola e i clienti ti cercano su Google per “vedere chi sei”, il sito vetrina è quasi sempre il punto di partenza giusto.
+In questo articolo vediamo in modo semplice perché la sola pagina Facebook non basta più e perché ti serve un sito che sia la tua vera “casa” online.
 
 ***
 
-## 2. Blog: farti trovare su Google e dimostrare competenza
+## 1. Gli algoritmi decidono chi ti vede (e di solito ti vedono in pochi)
 
-Il blog non è un tipo di sito a parte, ma una **sezione** del sito dove pubblichi articoli utili per i tuoi clienti. [siteclicks.com](https://siteclicks.com.au/blog/7-websites-explained-business-owners/)
-Serve soprattutto a due cose: farti trovare su Google con ricerche specifiche e dimostrare che sai davvero di cosa parli.
+Negli ultimi anni la visibilità gratuita dei post delle pagine business è crollata: oggi la maggior parte delle pagine vede in media un reach organico di circa 1–5% dei propri follower. [kirkgroup](https://kirkgroup.com/blog/facebook-organic-reach-is-dead/)
+Tradotto: se hai 1.000 persone che ti seguono, spesso i tuoi post vengono mostrati a poche decine di utenti, a meno che tu non paghi per fare pubblicità. [campaignpros](https://campaignpros.io/learning-center/facebook-organic-reach-decline)
 
-È adatto a te se:
-- Vuoi che i clienti ti trovino cercando **domande specifiche** (es. “come scegliere un materasso ortopedico”, “come funziona una consulenza psicologica”). [kombee](https://www.kombee.com/blogs/business-website-types)
-- Offri servizi che richiedono **spiegazioni** e spesso ti trovi a rispondere alle stesse domande.  
-- Vuoi posizionarti come **esperto** in un certo argomento.  
+Questo significa che:
+- Non puoi decidere **chi** vede i tuoi contenuti: dipendi dall’algoritmo.  
+- Ogni cambiamento di regole può farti perdere visibilità da un giorno all’altro, senza che tu possa farci molto. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
 
-Esempi pratici:
-- Uno **studio di fisioterapia** che pubblica articoli su “lombalgia”, “mal di collo al lavoro”, “come prevenire gli infortuni sportivi”.  
-- Un **negozio di arredamento** che scrive guide su “come scegliere il divano per un salotto piccolo” o “come abbinare colori e materiali”.  
-
-Il blog funziona bene se gli articoli sono pensati dal punto di vista del cliente, con titoli chiari e linguaggio semplice, non per “fare scena”. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+Con un sito, invece, le persone ti trovano tramite Google, ricerche dirette o link da altri canali, e non sei legato all’umore dell’algoritmo di turno. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
 
 ***
 
-## 3. E‑commerce: quando vuoi vendere prodotti online
+## 2. Non hai il controllo: la pagina non è veramente “tua”
 
-Un e‑commerce è un vero e proprio **negozio online**: le persone possono vedere i prodotti, aggiungerli al carrello e pagarli direttamente dal sito. [kombee](https://www.kombee.com/blogs/business-website-types)
-Non è un semplice “catalogo”, ma un sistema che gestisce ordini, pagamenti, spedizioni e spesso magazzino. [tuesday](https://tuesday.is/blog/the-ultimate-guide-to-choosing-the-perfect-website-builder-for-your-small-business)
+Una pagina Facebook vive su un terreno che non è tuo: le regole, la grafica, il modo in cui vengono mostrati i contenuti sono decisi da Meta, non da te. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
+In casi estremi, l’account può essere limitato o bloccato (il famoso “Facebook jail”), e puoi ritrovarti senza accesso ai tuoi contenuti o ai tuoi follower, anche se non hai fatto nulla di male. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
 
-È adatto a te se:
-- Vendi **prodotti fisici** (abbigliamento, cosmetici, prodotti artigianali, integratori, ecc.).  
-- Vendi **prodotti digitali** (corsi online, ebook, contenuti scaricabili). [daveryanmedia](https://daveryanmedia.com/blog/your-small-business-website-a-step-by-step-guide-to-choosing-the-right-web-platform-and-developer/)
-- Vuoi che una parte del tuo fatturato arrivi da persone che comprano direttamente online, non solo in negozio.  
+Un sito, invece:
+- Ha un **dominio tuo** (es. tuobrand.it), che costruisce riconoscibilità e identità. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
+- È uno spazio che controlli al 100%: struttura, contenuti, grafica, modalità di contatto. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
+- Non sparisce perché una piattaforma decide di cambiare regole o chiudere un servizio.  
 
-Cosa deve fare bene un e‑commerce:
-- Presentare i prodotti con **foto chiare, descrizioni semplici e prezzi trasparenti**. [daveryanmedia](https://daveryanmedia.com/blog/your-small-business-website-a-step-by-step-guide-to-choosing-the-right-web-platform-and-developer/)
-- Offrire un **carrello e un pagamento semplici** (meno passaggi, meno abbandoni). [tuesday](https://tuesday.is/blog/the-ultimate-guide-to-choosing-the-perfect-website-builder-for-your-small-business)
-- Gestire in modo affidabile **pagamenti, tasse, spedizioni e giacenze**.  
-
-Se oggi hai un negozio fisico e i clienti ti chiedono “posso ordinare online?” o “spedite fuori città?”, allora può essere il momento di affiancare all’attività un e‑commerce, magari iniziando con una selezione di prodotti.
+Facebook può cambiare, declinare o perdere utenti (come è successo ad altre piattaforme in passato): il tuo sito resta il punto fisso che non dipende dalle mode. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
 
 ***
 
-## 4. Sito con sistema di prenotazioni: far prenotare i clienti da soli
+## 3. Facebook non ti fa trovare bene su Google
 
-Il sito con sistema di prenotazioni è pensato per far sì che il cliente possa **scegliere giorno e ora** e prenotare da solo, senza telefonate o messaggi avanti e indietro. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
-Può includere anche pagamenti anticipati o acconti per bloccare l’appuntamento.
+Quando qualcuno cerca su Google “psicologo + città”, “idraulico urgente + città” o “negozio [prodotto] + città”, Google tende a mostrare **siti web** e schede Google Business come risultati principali. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
+Una semplice pagina Facebook difficilmente si posiziona bene per tante ricerche diverse, soprattutto se non è collegata a un sito e a una presenza curata sui motori di ricerca. [quzeks](https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/)
 
-È adatto a te se:
-- Hai un’attività con **appuntamenti su orario**: parrucchiere, estetista, barber, centro benessere, personal trainer, studio medico o psicologico.  
-- Organizza **corsi, lezioni, visite guidate, consulenze**.  
+Un sito:
+- Può essere ottimizzato per diverse parole chiave legate ai tuoi servizi e alla tua zona.  
+- Ti permette di creare pagine specifiche (es. un servizio per ogni problema del cliente), che Google può mostrare come risposta precisa alle ricerche. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
 
-Cosa deve fare bene un sito con prenotazioni:
-- Mostrare un **calendario chiaro** con le disponibilità.  
-- Permettere prenotazione e, se necessario, **pagamento online** in pochi passaggi. [kombee](https://www.kombee.com/blogs/business-website-types)
-- Inviare conferma e promemoria automatici (email o SMS).  
-
-Può essere un sito vetrina con una sezione di prenotazione integrata, oppure un sistema più avanzato se hai tanti servizi e orari da gestire.
+In sintesi: se punti solo su Facebook, una parte enorme delle persone che ti cerca su Google potrebbe non trovarti mai.
 
 ***
 
-## Come capire di cosa hai davvero bisogno (senza impazzire)
+## 4. Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio
 
-Per non perderti tra mille opzioni, puoi partire da tre domande molto semplici: [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+Chiunque può aprire una pagina Facebook in 5 minuti, mettere un logo preso da internet e scrivere due righe: anche chi non è una vera azienda. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
+Per questo, sempre più persone usano il sito ufficiale come “prova” che l’attività esiste davvero e fa le cose in modo professionale. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
 
-1. **Il tuo obiettivo principale qual è?**  
-   - Farti trovare e dare una buona impressione → sito vetrina.  
-   - Farti trovare su Google per tante ricerche diverse → sito vetrina + blog.  
-   - Vendere prodotti → e‑commerce.  
-   - Far prenotare appuntamenti in autonomia → vetrina + prenotazioni.  
+Ricerche recenti indicano che:
+- Una larga percentuale di utenti giudica la **credibilità** di un’attività dalla qualità del suo sito; l’assenza di un sito o un sito molto povero genera sospetto. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
+- Fino al 90% delle persone si informa online prima di comprare: senza sito, spesso non entri nemmeno nella loro lista di possibili scelte. [marketingltb](https://marketingltb.com/blog/statistics/small-business-website-statistics/)
 
-2. **I tuoi clienti cosa vogliono fare sul sito?**  
-   - Capire chi sei e chiamarti.  
-   - Informarsi meglio prima di scegliere.  
-   - Comprare qualcosa.  
-   - Prenotare una data e un’ora.  
-
-3. **Quanto tempo hai per seguire il sito?**  
-   - Poco: meglio un sito vetrina semplice ma curato, aggiornato bene poche volte l’anno. [flippingbook](https://flippingbook.com/blog/marketing-tips/brochure-websites)
-   - Di più: ha senso investire in blog, contenuti, magari e‑commerce o prenotazioni.  
+Un sito curato, con informazioni chiare, contatti, recensioni e magari un blog, fa subito un’impressione più seria rispetto a una sola pagina social aggiornabile in pochi minuti da chiunque. [quzeks](https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/)
 
 ***
 
-## Esempi concreti per categoria
+## 5. Su Facebook sei circondato da distrazioni e concorrenti
 
-Per rendere tutto ancora più pratico, ecco qualche combinazione “tipo” che funziona bene.
+Chi ti vede su Facebook, ti vede in mezzo a:
+- Post di amici e parenti.  
+- Video, meme, notizie, pubblicità di altre aziende.  
+- Contenuti consigliati dall’algoritmo per “trattenerlo” sulla piattaforma. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
 
-- **Studio professionale (psicologo, avvocato, consulente)**  
-  Sito vetrina + sezione blog (anche pochi articoli mirati) + modulo contatti e, se utile, prenotazione prima consulenza. [siteclicks.com](https://siteclicks.com.au/blog/7-websites-explained-business-owners/)
+Quindi, anche quando qualcuno arriva sulla tua pagina, basta un attimo per uscire e distrarsi con qualcos’altro.  
+Sul tuo sito, invece, hai l’attenzione dell’utente per quei pochi secondi decisivi in cui può decidere di contattarti, prenotare o richiedere un preventivo. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
 
-- **Artigiano o attività locale (idraulico, elettricista, falegname, gommista)**  
-  Sito vetrina con pagine servizi chiare, foto dei lavori, mappa e contatti ben visibili; blog solo se hai voglia di pubblicare qualche guida utile. [kombee](https://www.kombee.com/blogs/business-website-types)
-
-- **Negozio di prodotti fisici**  
-  Se vendi solo in zona: sito vetrina con selezione prodotti e invito a visitare il negozio.  
-  Se vuoi vendere online: e‑commerce + pagina “Chi siamo” che racconta negozio e storia. [wpfoss](https://wpfoss.ke/blog/ecommerce-vs-brochure-website-kenya/)
-
-- **Parrucchiere, estetista, barber, centro benessere**  
-  Sito vetrina + sistema di prenotazioni online, con listino chiaro e possibilità di scegliere trattamenti, giorno e ora. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
+In più, su Facebook vicino a te possono comparire pagine o annunci di **concorrenti**, mentre sul tuo sito parli solo tu, alle tue condizioni. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
 
 ***
 
-## Conclusione: parti da quello che ti serve oggi (e lascia spazio al domani)
+## 6. Con il sito puoi costruire una vera “casa” per tutti i tuoi canali
 
-Non esiste il “sito perfetto per tutti”: esiste il sito giusto per il momento in cui si trova la tua attività. [marketingbaker](https://marketingbaker.com/which-type-of-website/)
-L’errore più comune è chiedere subito “che piattaforma uso?” invece di domandarsi “cosa voglio che il mio sito faccia per il mio business”. [hrdigitaldesign](https://www.hrdigitaldesign.com/blogs/news/which-website-platform-is-right-for-your-small-business-a-simple-guide)
+Il tuo sito è il centro di tutta la tua presenza online: una “casa” dove far arrivare il traffico da Facebook, Instagram, Google, email, annunci, volantini, biglietti da visita. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
+I social, al contrario, sono come “piazze” dove vai a parlare con le persone e poi le inviti a visitare casa tua.
 
-Partire da un sito vetrina fatto bene e pensato per crescere (aggiungendo blog, prenotazioni o e‑commerce quando serve) è spesso la scelta più intelligente per chi non vuole sprecare soldi ma vuole uno strumento che lavori davvero per lui.
+Sul sito puoi:
+- Presentare in modo ordinato **servizi, prezzi, portfolio, casi studio, recensioni, FAQ**. [webador](https://www.webador.com/blog/5-essential-pages-every-small-business-website-needs/)
+- Attivare moduli contatti, sistemi di prenotazione, e‑commerce, blog, newsletter: strumenti che sui social sono limitati o non esistono. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
+- Misurare in profondità quello che succede (con strumenti come Google Analytics e simili) e migliorare le tue pagine nel tempo. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
+
+Facebook rimane utilissimo per farti conoscere e per comunicare in modo immediato; il sito è il posto dove trasformi questa attenzione in clienti veri. [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
+
+***
+
+## 7. Pagina Facebook + sito: come farli lavorare insieme
+
+La soluzione non è “abbandonare Facebook”, ma smettere di usarlo come **unico** canale. [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
+Il mix che funziona nel 2026 è:
+
+- **Sito web** come base:  
+  - Presentazione professionale.  
+  - Informazioni chiare e aggiornate.  
+  - Strumenti per contatto, prenotazione, acquisto.  
+
+- **Pagina Facebook** come supporto:  
+  - Pubblicare novità, offerte, retroscena del lavoro.  
+  - Rispondere ai commenti e ai messaggi.  
+  - Portare traffico verso il sito con link chiari (“scopri di più sul sito”, “prenota dal sito”). [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
+
+In questo modo non metti “tutte le uova nello stesso paniere”: se un giorno l’algoritmo cambia, i tuoi contenuti e i tuoi contatti restano comunque al sicuro sul tuo sito.
+
+***
+
+## In pratica: se oggi hai solo la pagina Facebook
+
+Se oggi hai solo una pagina Facebook, significa che:
+
+- Non possiedi davvero il tuo spazio online.  
+- Dipendi da regole, cambi di algoritmo e limiti di una piattaforma terza.  
+- Dai un’immagine meno solida rispetto a chi ha un sito ben fatto collegato ai social. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
+
+Il passo successivo naturale è costruire un sito semplice ma professionale che diventi la tua casa online, e usare Facebook (e gli altri social) per portare le persone lì.  
+Così, invece di inseguire continuamente l’algoritmo, ti costruisci una presenza digitale solida, credibile e sotto il tuo controllo. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
