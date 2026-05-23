@@ -10,8 +10,15 @@ import { guidaTipoSitoGiustoPost } from './articles/guida-tipo-sito-giusto';
 import { guidaTipoSitoGiustoPostEn } from './articles/guida-tipo-sito-giusto-en';
 import { facebookNonBastaPost } from './articles/facebook-non-basta-per-business';
 import { facebookNonBastaPostEn } from './articles/facebook-non-basta-per-business-en';
+import { dieciErroriSitoPost } from './articles/10-errori-sito-piccole-attivita';
+import { dieciErroriSitoPostEn } from './articles/10-errori-sito-piccole-attivita-en';
 
 export const blogPosts = [
+  {
+    id: "10-errori-sito-piccole-attivita",
+    it: dieciErroriSitoPost,
+    en: dieciErroriSitoPostEn
+  },
   {
     id: "facebook-non-basta-per-business",
     it: facebookNonBastaPost,

@@ -2,122 +2,148 @@ Ecco l’articolo pronto da pubblicare.
 
 ***
 
-# Perché nel 2026 non basta più la sola pagina Facebook per il tuo business
+# 10 errori comuni nei siti delle piccole attività che fanno scappare i clienti (e come evitarli)
 
-Molte attività pensano ancora: “Ho la pagina Facebook, quindi sono a posto online”.  
-Nel 2026 è esattamente il contrario: affidarti solo a Facebook significa non avere il controllo del tuo business digitale e dipendere da una piattaforma che può cambiare le regole da un giorno all’altro. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
+Il sito della tua attività dovrebbe portarti contatti, richieste di preventivo e visite in negozio, non far scappare le persone dopo pochi secondi.  
+Molti piccoli business però commettono sempre gli stessi errori: layout confuso, testi infiniti, nessuna chiamata all’azione, contatti nascosti, foto scarse, zero recensioni. [relacionesinternacionales](https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make)
 
-In questo articolo vediamo in modo semplice perché la sola pagina Facebook non basta più e perché ti serve un sito che sia la tua vera “casa” online.
-
-***
-
-## 1. Gli algoritmi decidono chi ti vede (e di solito ti vedono in pochi)
-
-Negli ultimi anni la visibilità gratuita dei post delle pagine business è crollata: oggi la maggior parte delle pagine vede in media un reach organico di circa 1–5% dei propri follower. [kirkgroup](https://kirkgroup.com/blog/facebook-organic-reach-is-dead/)
-Tradotto: se hai 1.000 persone che ti seguono, spesso i tuoi post vengono mostrati a poche decine di utenti, a meno che tu non paghi per fare pubblicità. [campaignpros](https://campaignpros.io/learning-center/facebook-organic-reach-decline)
-
-Questo significa che:
-- Non puoi decidere **chi** vede i tuoi contenuti: dipendi dall’algoritmo.  
-- Ogni cambiamento di regole può farti perdere visibilità da un giorno all’altro, senza che tu possa farci molto. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
-
-Con un sito, invece, le persone ti trovano tramite Google, ricerche dirette o link da altri canali, e non sei legato all’umore dell’algoritmo di turno. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
+Vediamo i 10 errori più frequenti e come sistemarli (cioè il tipo di lavoro che fa davvero la differenza quando affidi il sito a un professionista).
 
 ***
 
-## 2. Non hai il controllo: la pagina non è veramente “tua”
+## 1. Testi lunghi e muri di parole
 
-Una pagina Facebook vive su un terreno che non è tuo: le regole, la grafica, il modo in cui vengono mostrati i contenuti sono decisi da Meta, non da te. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
-In casi estremi, l’account può essere limitato o bloccato (il famoso “Facebook jail”), e puoi ritrovarti senza accesso ai tuoi contenuti o ai tuoi follower, anche se non hai fatto nulla di male. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
+Uno degli errori più diffusi è avere pagine piene di testo, tutto attaccato, senza titoli chiari, paragrafi brevi o punti elenco. [linkedin](https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc)
+Le persone online leggono velocemente: se non capiscono in pochi secondi cosa fai e come puoi aiutarle, chiudono la pagina e tornano su Google. [youtube](https://www.youtube.com/watch?v=szG4CWQm9Og)
 
-Un sito, invece:
-- Ha un **dominio tuo** (es. tuobrand.it), che costruisce riconoscibilità e identità. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
-- È uno spazio che controlli al 100%: struttura, contenuti, grafica, modalità di contatto. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
-- Non sparisce perché una piattaforma decide di cambiare regole o chiudere un servizio.  
+Come evitarlo:
+- Spezza i contenuti in **paragrafi brevi**, con titoli chiari e punti elenco. [pinelogic](https://www.pinelogic.ca/website-mistakes-small-businesses/)
+- Metti subito in alto una frase che spiega **chi sei e cosa fai per il cliente**, non la storia dell’azienda dal 1970. [forbes](https://www.forbes.com/sites/allbusiness/2016/12/18/10-small-business-website-errors-that-drive-customers-away/)
 
-Facebook può cambiare, declinare o perdere utenti (come è successo ad altre piattaforme in passato): il tuo sito resta il punto fisso che non dipende dalle mode. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
-
-***
-
-## 3. Facebook non ti fa trovare bene su Google
-
-Quando qualcuno cerca su Google “psicologo + città”, “idraulico urgente + città” o “negozio [prodotto] + città”, Google tende a mostrare **siti web** e schede Google Business come risultati principali. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
-Una semplice pagina Facebook difficilmente si posiziona bene per tante ricerche diverse, soprattutto se non è collegata a un sito e a una presenza curata sui motori di ricerca. [quzeks](https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/)
-
-Un sito:
-- Può essere ottimizzato per diverse parole chiave legate ai tuoi servizi e alla tua zona.  
-- Ti permette di creare pagine specifiche (es. un servizio per ogni problema del cliente), che Google può mostrare come risposta precisa alle ricerche. [mappersgeo](https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/)
-
-In sintesi: se punti solo su Facebook, una parte enorme delle persone che ti cerca su Google potrebbe non trovarti mai.
+Questo è proprio il tipo di lavoro editoriale (struttura, titoli, ordine delle informazioni) che un professionista cura per far sì che il sito si legga in modo naturale.
 
 ***
 
-## 4. Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio
+## 2. Nessuna call to action (CTA) chiara
 
-Chiunque può aprire una pagina Facebook in 5 minuti, mettere un logo preso da internet e scrivere due righe: anche chi non è una vera azienda. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
-Per questo, sempre più persone usano il sito ufficiale come “prova” che l’attività esiste davvero e fa le cose in modo professionale. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
+Molti siti raccontano chi sei ma non dicono *cosa* deve fare il visitatore dopo: chiamare, compilare un modulo, prenotare, chiedere un preventivo. [rubiagroupagency](https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them)
+Senza una CTA chiara è come avere un negozio senza banco cassa: la gente entra, guarda… e se ne va a mani vuote. [eyebreathedesign](https://www.eyebreathedesign.com/post/5-common-small-business-website-mistakes-that-drive-customers-away)
 
-Ricerche recenti indicano che:
-- Una larga percentuale di utenti giudica la **credibilità** di un’attività dalla qualità del suo sito; l’assenza di un sito o un sito molto povero genera sospetto. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
-- Fino al 90% delle persone si informa online prima di comprare: senza sito, spesso non entri nemmeno nella loro lista di possibili scelte. [marketingltb](https://marketingltb.com/blog/statistics/small-business-website-statistics/)
+Come evitarlo:
+- Metti pulsanti chiari tipo **“Richiedi un preventivo”, “Prenota una consulenza”, “Chiama ora”** nelle sezioni importanti. [pinelogic](https://www.pinelogic.ca/website-mistakes-small-businesses/)
+- Usa testi brevi e orientati al beneficio (“Prenota la tua visita”, non “Invia”). [eurodns](https://www.eurodns.com/blog/common-design-mistakes-on-small-business-website)
 
-Un sito curato, con informazioni chiare, contatti, recensioni e magari un blog, fa subito un’impressione più seria rispetto a una sola pagina social aggiornabile in pochi minuti da chiunque. [quzeks](https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/)
-
-***
-
-## 5. Su Facebook sei circondato da distrazioni e concorrenti
-
-Chi ti vede su Facebook, ti vede in mezzo a:
-- Post di amici e parenti.  
-- Video, meme, notizie, pubblicità di altre aziende.  
-- Contenuti consigliati dall’algoritmo per “trattenerlo” sulla piattaforma. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
-
-Quindi, anche quando qualcuno arriva sulla tua pagina, basta un attimo per uscire e distrarsi con qualcos’altro.  
-Sul tuo sito, invece, hai l’attenzione dell’utente per quei pochi secondi decisivi in cui può decidere di contattarti, prenotare o richiedere un preventivo. [deltadigital.co](https://deltadigital.co.uk/socialmedia/business-website-vs-facebook-page/)
-
-In più, su Facebook vicino a te possono comparire pagine o annunci di **concorrenti**, mentre sul tuo sito parli solo tu, alle tue condizioni. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
+Un web designer progetta il percorso dell’utente proprio per accompagnarlo da “sto guardando” a “ti contatto”.
 
 ***
 
-## 6. Con il sito puoi costruire una vera “casa” per tutti i tuoi canali
+## 3. Contatti nascosti o difficili da trovare
 
-Il tuo sito è il centro di tutta la tua presenza online: una “casa” dove far arrivare il traffico da Facebook, Instagram, Google, email, annunci, volantini, biglietti da visita. [mozello](https://www.mozello.com/blog/make-a-website-vs-facebook)
-I social, al contrario, sono come “piazze” dove vai a parlare con le persone e poi le inviti a visitare casa tua.
+Sembra incredibile, ma tantissimi siti non mostrano chiaramente numero di telefono, email, indirizzo o orari. [iubenda](https://www.iubenda.com/en/blog/website-mistakes/)
+Se un visitatore deve cercare per più di qualche secondo come contattarti, spesso si irrita e chiude la pagina. [rubiagroupagency](https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them)
 
-Sul sito puoi:
-- Presentare in modo ordinato **servizi, prezzi, portfolio, casi studio, recensioni, FAQ**. [webador](https://www.webador.com/blog/5-essential-pages-every-small-business-website-needs/)
-- Attivare moduli contatti, sistemi di prenotazione, e‑commerce, blog, newsletter: strumenti che sui social sono limitati o non esistono. [newperspectivestudio.co](https://www.newperspectivestudio.co.za/wp/why-your-business-needs-a-website-not-just-a-facebook-business-page/)
-- Misurare in profondità quello che succede (con strumenti come Google Analytics e simili) e migliorare le tue pagine nel tempo. [geoffresh](https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles)
+Come evitarlo:
+- Metti **telefono ed email** ben visibili in alto e in basso in tutte le pagine. [iubenda](https://www.iubenda.com/en/blog/website-mistakes/)
+- Crea una pagina “Contatti” semplice, con modulo, recapiti, indirizzo e mappa. [rubiagroupagency](https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them)
 
-Facebook rimane utilissimo per farti conoscere e per comunicare in modo immediato; il sito è il posto dove trasformi questa attenzione in clienti veri. [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
-
-***
-
-## 7. Pagina Facebook + sito: come farli lavorare insieme
-
-La soluzione non è “abbandonare Facebook”, ma smettere di usarlo come **unico** canale. [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
-Il mix che funziona nel 2026 è:
-
-- **Sito web** come base:  
-  - Presentazione professionale.  
-  - Informazioni chiare e aggiornate.  
-  - Strumenti per contatto, prenotazione, acquisto.  
-
-- **Pagina Facebook** come supporto:  
-  - Pubblicare novità, offerte, retroscena del lavoro.  
-  - Rispondere ai commenti e ai messaggi.  
-  - Portare traffico verso il sito con link chiari (“scopri di più sul sito”, “prenota dal sito”). [instagram](https://www.instagram.com/p/DW8EnF0AVID/)
-
-In questo modo non metti “tutte le uova nello stesso paniere”: se un giorno l’algoritmo cambia, i tuoi contenuti e i tuoi contatti restano comunque al sicuro sul tuo sito.
+Qui entra in gioco il lavoro di struttura e layout: un professionista sa dove posizionare questi elementi perché siano sempre sotto gli occhi.
 
 ***
 
-## In pratica: se oggi hai solo la pagina Facebook
+## 4. Foto scarse, sfocate o tutte di stock
 
-Se oggi hai solo una pagina Facebook, significa che:
+Le immagini contano tantissimo per la prima impressione: foto sfocate, buie o generiche (stock viste mille volte) fanno percepire il sito come poco curato e poco credibile. [relacionesinternacionales](https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make)
+Le persone riconoscono quando una foto è “finta” e non rappresenta davvero il tuo negozio o il tuo studio. [lucidrhino](https://lucidrhino.design/blog/reasons-online-reviews-essential/)
 
-- Non possiedi davvero il tuo spazio online.  
-- Dipendi da regole, cambi di algoritmo e limiti di una piattaforma terza.  
-- Dai un’immagine meno solida rispetto a chi ha un sito ben fatto collegato ai social. [linkedin](https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe)
+Come evitarlo:
+- Usa **foto reali** del tuo locale, del team, dei lavori fatti, scattate con un minimo di cura. [lucidrhino](https://lucidrhino.design/blog/reasons-online-reviews-essential/)
+- Se usi stock, fallo con attenzione e mescolale a immagini autentiche. [relacionesinternacionales](https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make)
 
-Il passo successivo naturale è costruire un sito semplice ma professionale che diventi la tua casa online, e usare Facebook (e gli altri social) per portare le persone lì.  
-Così, invece di inseguire continuamente l’algoritmo, ti costruisci una presenza digitale solida, credibile e sotto il tuo controllo. [getresponse](https://www.getresponse.com/blog/facebook-page-vs-website)
+Un web designer ti aiuta a scegliere e disporre le foto in modo da valorizzare la tua attività e non sembrare l’ennesimo sito anonimo.
+
+***
+
+## 5. Nessuna recensione o testimonianza
+
+Oggi le persone si fidano molto di più delle opinioni di altri clienti che delle frasi “siamo i migliori” scritte da te. [vecto](https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/)
+La mancanza totale di recensioni, testimonianze o casi studio sul sito rende più difficile fidarsi, soprattutto se non sei un marchio famoso. [forbes](https://www.forbes.com/sites/allbusiness/2016/12/18/10-small-business-website-errors-that-drive-customers-away/)
+
+Come evitarlo:
+- Inserisci **testimonianze brevi** con nome, attività/ruolo e, se possibile, foto. [pinelogic](https://www.pinelogic.ca/website-mistakes-small-businesses/)
+- Collega, quando ha senso, le **recensioni Google** o di altre piattaforme. [lucidrhino](https://lucidrhino.design/blog/reasons-online-reviews-essential/)
+
+Un professionista sa dove inserire queste “prove sociali” per farle pesare al momento giusto nel percorso del visitatore.
+
+***
+
+## 6. Navigazione confusa e menu complicati
+
+Se il menu è pieno di voci strane, sottomenù infiniti o nomi poco chiari (“Soluzioni”, “Persone”, “Risorse”) il visitatore non capisce dove cliccare e se ne va. [lukefernando](https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away)
+La regola è semplice: se non si trova ciò che serve in pochi clic, il sito sta perdendo clienti. [linkedin](https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc)
+
+Come evitarlo:
+- Usa un **menu semplice** con etichette intuitive: “Servizi”, “Chi siamo”, “Contatti”, “Blog”, ecc. [iubenda](https://www.iubenda.com/en/blog/website-mistakes/)
+- Raggruppa bene le pagine e non creare 20 voci diverse nella barra principale. [eurodns](https://www.eurodns.com/blog/common-design-mistakes-on-small-business-website)
+
+Il lavoro di architettura delle informazioni è una parte centrale del mestiere di web designer e fa davvero la differenza nell’esperienza utente.
+
+***
+
+## 7. Sito non ottimizzato per smartphone
+
+Oltre metà del traffico web arriva da mobile: se il tuo sito su smartphone è difficile da usare, con testi minuscoli e bottoni impossibili da cliccare, stai perdendo una grossa fetta di potenziali clienti. [lukefernando](https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away)
+Molte analisi mostrano che un sito non mobile‑friendly aumenta nettamente il tasso di abbandono e peggiora anche il posizionamento su Google. [forbes](https://www.forbes.com/sites/allbusiness/2016/12/18/10-small-business-website-errors-that-drive-customers-away/)
+
+Come evitarlo:
+- Usa un design **responsive**, che si adatta automaticamente a schermi diversi. [lukefernando](https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away)
+- Testa il sito su vari telefoni e rendi pulsanti e testi facilmente cliccabili. [linkedin](https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc)
+
+Qui la differenza tra un tema improvvisato e un progetto serio la senti subito quando apri il sito dal telefono.
+
+***
+
+## 8. Sito lento a caricarsi
+
+Se il sito ci mette più di 3 secondi a caricarsi, molte persone chiudono la pagina prima ancora di vedere chi sei. [reddit](https://www.reddit.com/r/smallbusiness/comments/1pli5m0/small_business_owners_5_website_mistakes_that_are/)
+La velocità influisce sia sulle conversioni (quanti ti contattano) sia sulla SEO (quanto Google ti mostra). [vecto](https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/)
+
+Come evitarlo:
+- Ottimizza le immagini (dimensioni e formato), evita plugin inutili e scegli un **hosting decente**. [pinelogic](https://www.pinelogic.ca/website-mistakes-small-businesses/)
+- Fai controlli periodici con strumenti come PageSpeed o simili. [linkedin](https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc)
+
+Un professionista non si limita all’aspetto estetico, ma lavora anche “sotto il cofano” per rendere il sito veloce e leggero.
+
+***
+
+## 9. Contenuti vecchi, non aggiornati o poco chiari
+
+Blog fermi da anni, servizi non più attuali, orari sbagliati: tutto questo dà l’idea di un’attività ferma o poco curata. [iubenda](https://www.iubenda.com/en/blog/website-mistakes/)
+Contenuti vaghi o autoreferenziali (“siamo leader, siamo i migliori”) non aiutano il cliente a capire se sei la persona giusta per il suo problema. [reddit](https://www.reddit.com/r/smallbusiness/comments/1pli5m0/small_business_owners_5_website_mistakes_that_are/)
+
+Come evitarlo:
+- Aggiorna almeno le pagine chiave (servizi, orari, contatti, chi siamo) quando qualcosa cambia. [pinelogic](https://www.pinelogic.ca/website-mistakes-small-businesses/)
+- Scrivi mettendoti nei panni del cliente: **cosa vuole sapere lui?**, non solo cosa vuoi dire tu. [vecto](https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/)
+
+Nel lavoro professionale, la revisione periodica dei contenuti e la cura del tono di voce sono elementi che mantengono il sito “vivo” e credibile.
+
+***
+
+## 10. Nessuna sicurezza e nessun segnale di affidabilità
+
+Siti senza https (lucchetto), senza privacy/cookie policy o moduli contatto poco chiari fanno nascere dubbi sulla serietà dell’attività. [vecto](https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/)
+Se mancano completamente elementi di fiducia (recensioni, loghi di partner, certificazioni, foto del team), molte persone esitano a lasciare i propri dati o a comprare. [reddit](https://www.reddit.com/r/smallbusiness/comments/1pli5m0/small_business_owners_5_website_mistakes_that_are/)
+
+Come evitarlo:
+- Assicurati che il sito abbia **certificato SSL** (https) e pagine legali minimali ma corrette. [iubenda](https://www.iubenda.com/en/blog/website-mistakes/)
+- Mostra **segnali di fiducia**: testimonianze, loghi, anni di attività, foto reali, dati di contatto completi. [rubiagroupagency](https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them)
+
+Un web designer serio lavora insieme, se serve, a consulenti legali/tecnici per impostare un sito che non solo funzioni, ma sia anche affidabile.
+
+***
+
+## Perché questi errori mostrano il valore di un lavoro professionale
+
+Ognuno di questi 10 errori da solo può far scappare una parte dei visitatori; messi insieme, spiegano perché tanti siti “non portano niente”. [relacionesinternacionales](https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make)
+Correggerli vuol dire intervenire su contenuti, struttura, design, performance, SEO e fiducia: esattamente le aree che un professionista considera quando progetta o rifà un sito per una piccola attività. [vecto](https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/)
+
+In pratica: non paghi solo “la grafica”, ma un insieme di scelte pensate per fare in modo che chi arriva sul sito **resti, capisca e ti contatti**, invece di scappare dopo pochi secondi.

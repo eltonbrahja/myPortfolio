@@ -24,7 +24,7 @@ export const facebookNonBastaPost = {
   date: "23 Maggio 2026",
   readTime: "7 min di lettura",
   category: "Marketing Digitale",
-  image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
+  image: "/facebook-non-basta.jpg",
   content: (
     <div className="article-body">
       <p>
