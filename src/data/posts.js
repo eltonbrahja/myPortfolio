@@ -12,8 +12,15 @@ import { facebookNonBastaPost } from './articles/facebook-non-basta-per-business
 import { facebookNonBastaPostEn } from './articles/facebook-non-basta-per-business-en';
 import { dieciErroriSitoPost } from './articles/10-errori-sito-piccole-attivita';
 import { dieciErroriSitoPostEn } from './articles/10-errori-sito-piccole-attivita-en';
+import { cosaChiedereWebDesignerContrattoPost } from './articles/cosa-chiedere-web-designer-contratto';
+import { cosaChiedereWebDesignerContrattoPostEn } from './articles/cosa-chiedere-web-designer-contratto-en';
 
 export const blogPosts = [
+  {
+    id: "cosa-chiedere-web-designer-contratto",
+    it: cosaChiedereWebDesignerContrattoPost,
+    en: cosaChiedereWebDesignerContrattoPostEn
+  },
   {
     id: "10-errori-sito-piccole-attivita",
     it: dieciErroriSitoPost,
