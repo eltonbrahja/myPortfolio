@@ -19,6 +19,11 @@ import { comeScrivereTestiEfficaciPostEn } from './articles/come-scrivere-testi-
 
 export const blogPosts = [
   {
+    id: "come-scrivere-testi-efficaci",
+    it: comeScrivereTestiEfficaciPost,
+    en: comeScrivereTestiEfficaciPostEn
+  },
+  {
     id: "cosa-chiedere-web-designer-contratto",
     it: cosaChiedereWebDesignerContrattoPost,
     en: cosaChiedereWebDesignerContrattoPostEn
@@ -57,10 +62,5 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
-  },
-  {
-    id: "come-scrivere-testi-efficaci",
-    it: comeScrivereTestiEfficaciPost,
-    en: comeScrivereTestiEfficaciPostEn
   }
 ];

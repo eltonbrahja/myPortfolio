@@ -24,7 +24,7 @@ export const comeScrivereTestiEfficaciPostEn = {
   date: "May 27, 2026",
   readTime: "6 min read",
   category: "Copywriting",
-  image: "/come-scrivere-testi.jpg",
+  image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
   content: (
     <div className="article-body">
       <p>
