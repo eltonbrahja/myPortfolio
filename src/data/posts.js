@@ -14,6 +14,8 @@ import { dieciErroriSitoPost } from './articles/10-errori-sito-piccole-attivita'
 import { dieciErroriSitoPostEn } from './articles/10-errori-sito-piccole-attivita-en';
 import { cosaChiedereWebDesignerContrattoPost } from './articles/cosa-chiedere-web-designer-contratto';
 import { cosaChiedereWebDesignerContrattoPostEn } from './articles/cosa-chiedere-web-designer-contratto-en';
+import { comeScrivereTestiEfficaciPost } from './articles/come-scrivere-testi-efficaci';
+import { comeScrivereTestiEfficaciPostEn } from './articles/come-scrivere-testi-efficaci-en';
 
 export const blogPosts = [
   {
@@ -55,5 +57,10 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
+  },
+  {
+    id: "come-scrivere-testi-efficaci",
+    it: comeScrivereTestiEfficaciPost,
+    en: comeScrivereTestiEfficaciPostEn
   }
 ];
