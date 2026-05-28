@@ -16,8 +16,15 @@ import { cosaChiedereWebDesignerContrattoPost } from './articles/cosa-chiedere-w
 import { cosaChiedereWebDesignerContrattoPostEn } from './articles/cosa-chiedere-web-designer-contratto-en';
 import { comeScrivereTestiEfficaciPost } from './articles/come-scrivere-testi-efficaci';
 import { comeScrivereTestiEfficaciPostEn } from './articles/come-scrivere-testi-efficaci-en';
+import { seoLocaleGoogleMapsPost } from './articles/seo-locale-google-maps';
+import { seoLocaleGoogleMapsPostEn } from './articles/seo-locale-google-maps-en';
 
 export const blogPosts = [
+  {
+    id: "seo-locale-google-maps",
+    it: seoLocaleGoogleMapsPost,
+    en: seoLocaleGoogleMapsPostEn
+  },
   {
     id: "come-scrivere-testi-efficaci",
     it: comeScrivereTestiEfficaciPost,
