@@ -1,118 +1,204 @@
-Come apparire su Google quando i clienti cercano “attività + città”
-Quando una persona cerca “idraulico Bari” o “dentista Trani”, non sta facendo una ricerca generica: sta cercando qualcuno da contattare subito. Essere tra i primi risultati significa intercettare proprio questi clienti “caldi”, quelli che sono pronti a chiamare, prenotare o chiedere un preventivo.
+Pagina “Servizi” che vende: come strutturarla per far capire subito cosa fai
+La maggior parte delle pagine “Servizi” sembra un elenco di cose messe lì a caso: tante voci, descrizioni vaghe e nessuna direzione chiara per chi legge. Il risultato è che il visitatore si confonde, chiude la pagina e passa oltre.
 
-In questo articolo ti spiego in modo semplice cosa serve per apparire su Google quando i clienti cercano “attività + città” e come posso occuparmene io al posto tuo, così tu ti concentri sul tuo lavoro mentre io mi occupo di tutta la parte tecnica.
+Una pagina Servizi fatta bene, invece, è una delle parti più importanti del tuo sito: è il ponte tra chi si sta informando e chi è pronto a contattarti o chiedere un preventivo. In questo articolo ti spiego come strutturarla per far capire subito cosa fai e come posso aiutarti a trasformare la tua pagina Servizi in uno strumento che vende davvero.
 
-Cosa significa apparire per “attività + città”
-Quando qualcuno cerca “pizzeria Andria” o “psicologo a Barletta”, Google mostra di solito due aree importanti:
+A cosa deve servire davvero la tua pagina Servizi
+Prima di parlare di struttura e testi, è fondamentale chiarire l’obiettivo: la pagina Servizi non è un articolo informativo, è una pagina pensata per chi vuole comprare o almeno valutare seriamente di lavorare con te.
 
-La mappa con le attività (Google Maps / Local Pack)
+Chi arriva qui:
 
-I risultati “normali” (i siti che compaiono sotto la mappa)
+Ha già un’idea del problema che vuole risolvere.
 
-Per farti trovare davvero, devi lavorare su entrambe le cose:
+Vuole capire se offri il servizio giusto.
 
-La scheda Google Business Profile (quella che ti fa comparire sulla mappa).
+Vuole farsi un’idea di come lavori e quanto potresti costare.
 
-Il sito ottimizzato per la SEO locale, con le parole giuste e le informazioni sulla tua zona.
+Vuole un modo semplice per contattarti.
 
-È quello che faccio per le attività locali con cui lavoro: non mi limito a “fare il sito”, ma lo collego bene alla scheda Google e lo ottimizzo perché Google capisca dove sei, cosa fai e a chi ti rivolgi.
+Quando progetto o riscrivo una pagina Servizi, lavoro proprio su questo: fare in modo che chi la visita capisca in pochi secondi se è nel posto giusto e cosa deve fare per iniziare a lavorare con te.
 
-Passo 1: crea (o sistema) la scheda Google Business Profile
-La base per apparire quando cercano “attività + città” è avere una scheda Google Business Profile completa, verificata e curata.
+Pochi servizi, ma spiegati bene
+Uno degli errori più comuni è elencare troppi servizi tutti insieme, con nomi vaghi o troppo creativi. Questo confonde il visitatore e rende più difficile per Google capire di cosa ti occupi.
 
-In pratica bisogna:
+Meglio:
 
-Creare o rivendicare la scheda partendo da Google Maps o da business.google.com.
+Pochi servizi principali, spiegati bene.
 
-Inserire nome attività, categoria corretta, indirizzo preciso, numero di telefono, sito web e orari.
+Nomi chiari, che usano le stesse parole che userebbe il cliente (es. “Sito web per attività locali”, “Landing page per campagne pubblicitarie”).
 
-Verificare l’attività con il codice che Google invia (cartolina, SMS, telefono, ecc.).
+Di solito, quando lavoro su una pagina Servizi:
 
-Molte attività hanno già una scheda, ma è incompleta, non verificata o con dati errati: in quei casi Google ti mostra meno spesso o ti mostra solo se uno cerca il nome preciso dell’attività, non “attività + città”.
+Ti aiuto a scegliere 3–5 servizi core su cui puntare.
 
-Quando prendo in mano un progetto locale, una delle prime cose che faccio è proprio questa: controllare se esiste già una scheda, sistemarla, ottimizzare ogni campo e collegarla al sito nel modo giusto.
+Definiamo insieme nomi semplici e comprensibili.
 
-Passo 2: ottimizza la scheda per farti scegliere (non solo vedere)
-Non basta esserci, bisogna anche convincere. Una scheda curata fa una grande differenza rispetto a una scheda vuota o trascurata.
+Creiamo link di approfondimento se serve una pagina dedicata per ognuno.
 
-Le cose da fare sono:
+Struttura base di una pagina Servizi che vende
+Una pagina Servizi efficace non nasce dal caso: segue una struttura chiara, che guida l’utente dall’alto verso il contatto.
 
-Compilare tutti i campi (descrizione, servizi, categorie aggiuntive, attributi).
+Una struttura che puoi usare (e che posso adattare al tuo caso) è questa:
 
-Caricare foto di qualità di locale, staff, prodotti o lavori prima/dopo.
+Intro breve: cosa fai e per chi
 
-Tenere aggiornati orari, chiusure straordinarie, contatti.
+Elenco dei servizi principali (con blocchi chiari)
 
-Pubblicare aggiornamenti e post periodici (offerte, novità, eventi).
+Dettaglio di ogni servizio (problema, soluzione, benefici)
 
-Inoltre, è fondamentale chiedere recensioni ai clienti soddisfatti e rispondere sempre, anche alle critiche, in modo professionale. Le recensioni sono uno dei segnali che Google usa per capire se mostrare la tua attività sopra i concorrenti.
+Prove di fiducia (testimonianze, casi, loghi, risultati)
 
-Se vuoi, questa parte posso gestirla io: ti preparo il testo della descrizione, imposto categorie e servizi corretti, organizzo il piano per raccogliere recensioni e rendo la scheda molto più “vendente”.
+Call to action finale (come contattarti o richiedere un preventivo)
 
-Passo 3: rendi il tuo sito chiaro per Google (e per chi ti cerca)
-La scheda Google è fondamentale, ma da sola non basta: Google guarda anche il tuo sito per capire dove sei, cosa fai e per quale zona sei rilevante.
+Il mio lavoro qui è tradurre quello che fai nella pratica in questa struttura, senza testi generici o frasi “di circostanza”, ma con un taglio orientato alle richieste dei tuoi clienti reali.
 
-Per questo sul sito è importante:
-
-Indicare bene nome attività, indirizzo completo e telefono (NAP) nelle pagine principali, soprattutto in home e contatti.
-
-Usare la formula “attività + città” nei punti giusti (titoli, testi, footer), in modo naturale.
-
-Avere una pagina dedicata ai servizi nella tua zona, dove spieghi chiaramente dove lavori (città, quartieri, provincia).
-
-Quando realizzo un sito per un’attività locale, penso già da subito alla SEO locale: scrivo i testi con le ricerche reali dei clienti in mente, preparo le sezioni giuste e collego tutto con la scheda Google. Non è solo “un sito bello”, ma un sito pensato per farti trovare e contattare.
-
-Passo 4: crea contenuti intorno alle ricerche locali
-Un modo efficace per rafforzare il posizionamento per “attività + città” è creare contenuti utili sul sito che parlino dei problemi reali dei clienti nella tua zona.
+L’introduzione: chiarire subito cosa fai
+La parte iniziale deve rispondere subito a tre domande: chi sei, che tipo di servizi offri, per che tipo di clienti. Non deve essere lunga: bastano poche righe chiare.
 
 Per esempio:
 
-Articoli tipo “Come scegliere un [attività] a [città] senza buttare soldi”.
+“Aiuto piccole attività, professionisti e B&B a avere siti veloci, chiari e pensati per portare contatti e prenotazioni.”
 
-Guide come “Quanto costa davvero un [servizio] a [città] nel 2026”.
+“Qui trovi tutti i servizi che posso seguirti passo passo, dalla creazione del sito alla sua ottimizzazione per farti trovare su Google.”
 
-Pagine su “Servizi di [attività] a [quartiere / zona]”.
+Quando progetto questa intro per te, la scrivo in modo che sia coerente con tutto il resto del sito, con il tuo tono di voce e con il tipo di clienti che vuoi davvero attirare.
 
-Google vede che il tuo sito parla spesso di quel tipo di attività collegata a quella zona e inizia a considerarti più rilevante per quelle ricerche.
+Come presentare i singoli servizi
+Ogni servizio principale dovrebbe avere un blocco dedicato, sempre con la stessa struttura, così chi legge non si perde.
 
-Qui posso aiutarti in due modi:
+Per ogni servizio, la struttura ideale è:
 
-Progettare la struttura delle pagine locali (es. “idraulico a Bari”, “idraulico in provincia di Bari”).
+Nome del servizio chiaro
 
-Scrivere gli articoli con un linguaggio semplice, ma ottimizzato per le ricerche che i tuoi clienti fanno davvero.
+Problema che risolve
 
-Passo 5: coerenza dei dati ovunque
-Un altro pezzo spesso sottovalutato è la coerenza dei dati: il nome attività, l’indirizzo e il numero devono essere uguali su sito, scheda Google, social e principali portali dove sei presente.
+Cosa include in pratica
 
-Se Google trova versioni diverse (indirizzo scritto in modi differenti, numeri di telefono diversi, vecchi nomi dell’attività), può fare confusione e darti meno visibilità nelle ricerche locali.
+Benefici concreti per il cliente
 
-Quando prendo in carico una realtà locale, faccio una sorta di “pulizia” delle informazioni online: verifico dove sei presente, allineo i dati e ti aiuto a costruire una base solida e coerente per la tua presenza digitale.
+CTA specifica (es. “Richiedi un preventivo per questo servizio”)
 
-Perché conviene farti aiutare da chi fa questo tutti i giorni
-Mettere online un sito e aprire una scheda Google si può fare anche in autonomia, ma far sì che il tuo nome esca quando cercano “attività + città” richiede un minimo di metodo, attenzione ai dettagli e continuità.
+Per esempio, invece di scrivere solo “Realizzazione siti web”, si può dire:
 
-Io mi occupo proprio di questo:
+Problema: “Il tuo sito attuale è lento, confuso o non esiste proprio.”
 
-Progetto e realizzo siti veloci e chiari per attività locali.
+Cosa faccio: “Progetto e realizzo un sito veloce, chiaro, ottimizzato per mobile e pensato per portare contatti.”
 
-Ottimizzo i testi e la struttura del sito per la SEO locale.
+Benefici: “Più fiducia da parte dei clienti, più richieste, immagine professionale migliore.”
 
-Creo, sistemo e ottimizzo la tua scheda Google Business Profile, così inizi a comparire sulla mappa e nei risultati locali.
+CTA: “Scopri come posso creare il sito giusto per la tua attività.”
 
-Ti aiuto a definire recensioni, contenuti e piccoli accorgimenti che nel tempo ti portano clienti dalla tua zona.
+Qui entro in gioco io: ti aiuto a trasformare la descrizione tecnica dei tuoi servizi in qualcosa che il cliente capisce subito e sente “su misura” per sé.
 
-In pratica, mentre tu continui a occuparti dei tuoi clienti, c’è qualcuno che lavora perché le persone della tua città ti trovino e scelgano te quando cercano il tuo servizio su Google.
+Parti dal problema e dalla trasformazione
+Una pagina Servizi forte non parte dall’elenco di tutto ciò che fai punto per punto, ma dai problemi che i tuoi clienti vogliono risolvere e dalla trasformazione che il tuo servizio porta nella loro attività.
 
-Cosa puoi fare adesso
-Se hai già un sito e vuoi capire cosa manca per farti trovare quando cercano “attività + città”, posso:
+Per ogni servizio, è utile rispondere a queste domande:
 
-Analizzare il tuo sito e la tua scheda attuale.
+Qual è la situazione prima che il cliente lavori con te?
 
-Dirti cosa va sistemato (in modo chiaro, senza tecnicismi inutili).
+Cosa cambia dopo?
 
-Occupami io di tutta la parte tecnica e strategica, così hai un unico referente.
+Che cosa diventa più facile, più veloce, più chiaro?
 
-Ti basta contattarmi e raccontarmi che tipo di attività hai e in che zona lavori: da lì preparo un piano su misura per farti comparire su Google quando i tuoi potenziali clienti cercano proprio “attività + città”.
+Quando lavoro sui testi con i miei clienti:
 
-Se vuoi, nel prossimo step posso trasformare questo articolo in una versione ultra-specifica per un tipo di attività (es. dentista, psicologo, B&B) da usare come modello per altre nicchie.
+Raccolgo le parole che i loro clienti usano davvero.
+
+Le uso per descrivere la situazione “prima” e “dopo”.
+
+Mostro il servizio come un ponte tra questi due punti, non come un elenco di caratteristiche.
+
+Evita nomi confusi, scegli titoli che vendono
+Nella pagina Servizi è meglio evitare nomi troppo creativi o interni tipo “Pacchetto Silver / Gold / Platinum” senza contesto. Chi legge non capisce subito la differenza e rischia di sentirsi spaesato.
+
+Meglio:
+
+Nomi descrittivi: “Sito per attività locali”, “Landing page per campagne”, “Restyling sito esistente”.
+
+Eventuale label aggiuntiva (es. “Pacchetto completo”, “Soluzione veloce”).
+
+Se vuoi, posso aiutarti a rinominare i servizi attuali del tuo sito con titoli più chiari e orientati alle ricerche dei tuoi clienti e alla SEO, così la pagina funziona sia per loro sia per Google.
+
+Ordine, chiarezza e sintesi
+Una buona pagina Servizi è facile da scansionare: in pochi secondi il visitatore vede i titoli, capisce cosa offri ed entra solo nei blocchi che gli interessano.
+
+Per questo:
+
+Usa titoli evidenti per ogni servizio.
+
+Usa paragrafi brevi ed elenchi puntati dove serve.
+
+Evita blocchi di testo lunghissimi.
+
+Mantieni un layout coerente tra un servizio e l’altro.
+
+Quando progetto la pagina, non mi occupo solo dei testi: penso anche alla struttura visiva, così testi, spazi e pulsanti lavorano insieme per guidare il lettore verso il contatto.
+
+Inserisci prezzi o almeno un’indicazione
+Molte persone abbandonano la pagina Servizi perché non trovano neanche una minima idea di prezzo. Non serve pubblicare un listino rigido, ma spesso è utile inserire almeno un range o un “a partire da…”.
+
+Questo:
+
+Filtra chi cerca soluzioni troppo low budget.
+
+Rende più trasparente il tuo posizionamento.
+
+Fa percepire i servizi come concreti, non fumosi.
+
+Se preferisci non mettere prezzi precisi, posso aiutarti a definire testi del tipo “Progetti su misura, con soluzioni a partire da X”, in modo coerente con il tuo target e con il tipo di clienti che vuoi attrarre.
+
+Prove di fiducia: testimonianze, loghi, esempi
+Una pagina Servizi che vende non può vivere solo di promesse: ha bisogno di prove.
+
+Puoi inserire:
+
+Brevi testimonianze di clienti legate a uno specifico servizio.
+
+Loghi di aziende o attività con cui hai lavorato.
+
+Micro-casi studio sintetici (prima/dopo, problema/risultato).
+
+Quando lavoro su questa sezione, ti aiuto a scegliere le frasi più forti, a non usare testimonianze generiche e a collegarle ai servizi giusti, così ogni blocco è più credibile.
+
+CTA chiare e specifiche
+Ogni pagina Servizi deve chiudersi (e spesso anche aprirsi) con una call to action chiara: cosa deve fare il visitatore se è interessato?
+
+Esempi:
+
+“Prenota una call gratuita di 15 minuti per capire quale servizio fa per te.”
+
+“Compila il form e ti rispondo entro 24 ore.”
+
+“Scrivimi su WhatsApp per spiegarmi la tua situazione.”
+
+Nel mio lavoro inserisco CTA:
+
+Coerenti con i tuoi processi (email, call, WhatsApp, form).
+
+Collegate a singoli servizi (non solo generiche).
+
+Visibili e ripetute nei punti chiave della pagina.
+
+Come posso aiutarti a trasformare la tua pagina Servizi
+Mettere insieme tutte queste cose da solo può richiedere tempo, test e diversi tentativi. Quello che faccio per i miei clienti è proprio questo:
+
+Analizzo la pagina Servizi attuale (se già esiste).
+
+Ti aiuto a scegliere e ordinare i servizi più importanti.
+
+Riscrivo i testi partendo dai problemi dei tuoi clienti, non dal gergo tecnico.
+
+Progetto la struttura perché sia chiara sia per le persone sia per Google.
+
+Imposto CTA e sezioni di fiducia che spingono davvero al contatto.
+
+In pratica, trasformo la tua pagina Servizi da semplice elenco a uno strumento che fa capire subito cosa fai e perché dovrebbero scegliere te invece di un altro.
+
+Se vuoi, nel prossimo passo posso:
+
+Adattare questo articolo in versione specifica per i tuoi servizi reali.
+
+Proporti una bozza concreta di struttura per la tua pagina Servizi (blocchi, titoli, CTA) pronta da incollare nel tuo sito.
+
+Quale dei tuoi servizi vorresti mettere più in evidenza nella pagina (es. siti per attività locali, landing page, restyling siti esistenti)?

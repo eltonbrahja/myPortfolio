@@ -18,8 +18,15 @@ import { comeScrivereTestiEfficaciPost } from './articles/come-scrivere-testi-ef
 import { comeScrivereTestiEfficaciPostEn } from './articles/come-scrivere-testi-efficaci-en';
 import { seoLocaleGoogleMapsPost } from './articles/seo-locale-google-maps';
 import { seoLocaleGoogleMapsPostEn } from './articles/seo-locale-google-maps-en';
+import { paginaServiziCheVendePost } from './articles/pagina-servizi-che-vende';
+import { paginaServiziCheVendePostEn } from './articles/pagina-servizi-che-vende-en';
 
 export const blogPosts = [
+  {
+    id: "pagina-servizi-che-vende",
+    it: paginaServiziCheVendePost,
+    en: paginaServiziCheVendePostEn
+  },
   {
     id: "seo-locale-google-maps",
     it: seoLocaleGoogleMapsPost,
