@@ -1,204 +1,148 @@
-Pagina “Servizi” che vende: come strutturarla per far capire subito cosa fai
-La maggior parte delle pagine “Servizi” sembra un elenco di cose messe lì a caso: tante voci, descrizioni vaghe e nessuna direzione chiara per chi legge. Il risultato è che il visitatore si confonde, chiude la pagina e passa oltre.
+Come prepararti prima di contattare un web designer: materiali, idee e obiettivi
+Contattare un web designer senza avere le idee un minimo chiare è come entrare in un’agenzia viaggi dicendo solo “voglio andare da qualche parte”: si può fare, ma servirà molto più tempo, più domande e il rischio di fraintendimenti è alto.
 
-Una pagina Servizi fatta bene, invece, è una delle parti più importanti del tuo sito: è il ponte tra chi si sta informando e chi è pronto a contattarti o chiedere un preventivo. In questo articolo ti spiego come strutturarla per far capire subito cosa fai e come posso aiutarti a trasformare la tua pagina Servizi in uno strumento che vende davvero.
+In questo articolo ti spiego cosa è utile preparare prima di contattare un web designer, così il progetto parte col piede giusto, i preventivi sono più precisi e tu ti senti più sicuro di quello che stai chiedendo. Ed è proprio il tipo di preparazione che io ti aiuto a mettere a fuoco se decidiamo di lavorare insieme.
 
-A cosa deve servire davvero la tua pagina Servizi
-Prima di parlare di struttura e testi, è fondamentale chiarire l’obiettivo: la pagina Servizi non è un articolo informativo, è una pagina pensata per chi vuole comprare o almeno valutare seriamente di lavorare con te.
+Chiarisci i tuoi obiettivi (anche in modo semplice)
+Prima ancora di parlare di pagine, colori e piattaforme, è fondamentale capire perché vuoi un sito o un restyling.
 
-Chi arriva qui:
+Domande utili:
 
-Ha già un’idea del problema che vuole risolvere.
+Cosa vuoi che il sito faccia per te? (Portare contatti, prenotazioni, richieste di preventivo, vendite, altro.)
 
-Vuole capire se offri il servizio giusto.
+Chi vuoi che lo usi? (Clienti nuovi, clienti esistenti, collaboratori, ecc.)
 
-Vuole farsi un’idea di come lavori e quanto potresti costare.
+Come ti accorgerai che il sito sta funzionando?
 
-Vuole un modo semplice per contattarti.
+Non serve avere un documento perfetto: anche poche righe bastano. Quando un cliente mi contatta e ha già una bozza di obiettivi, posso cucire il progetto meglio sulle sue esigenze e proporgli soluzioni più adatte invece di “indovinare” cosa gli serve.
 
-Quando progetto o riscrivo una pagina Servizi, lavoro proprio su questo: fare in modo che chi la visita capisca in pochi secondi se è nel posto giusto e cosa deve fare per iniziare a lavorare con te.
+Definisci chi è il tuo cliente ideale
+Un sito non deve parlare a “tutti”: deve parlare al tipo di persona che vuoi davvero attrarre.
 
-Pochi servizi, ma spiegati bene
-Uno degli errori più comuni è elencare troppi servizi tutti insieme, con nomi vaghi o troppo creativi. Questo confonde il visitatore e rende più difficile per Google capire di cosa ti occupi.
+Per prepararti puoi:
 
-Meglio:
+Pensare a 2–3 clienti reali che hai già e che vorresti “clonare”.
 
-Pochi servizi principali, spiegati bene.
+Scrivere in poche righe chi sono, che lavoro fanno, che problemi avevano quando ti hanno contattato.
 
-Nomi chiari, che usano le stesse parole che userebbe il cliente (es. “Sito web per attività locali”, “Landing page per campagne pubblicitarie”).
+Segnare il linguaggio che usano, le parole con cui ti spiegano il loro problema.
 
-Di solito, quando lavoro su una pagina Servizi:
+Quando arrivi da me con questo tipo di informazioni, posso progettare un sito con testi, struttura e call to action che parlano davvero alle persone giuste, invece di restare sul generico.
 
-Ti aiuto a scegliere 3–5 servizi core su cui puntare.
+Raccogli materiali e contenuti già esistenti
+Un’ottima preparazione prima di contattare un web designer è mettere insieme ciò che hai già:
 
-Definiamo insieme nomi semplici e comprensibili.
+Logo, colori e materiali di brand (se esistono).
 
-Creiamo link di approfondimento se serve una pagina dedicata per ognuno.
+Foto professionali o almeno foto decenti dell’attività, del team, dei prodotti.
 
-Struttura base di una pagina Servizi che vende
-Una pagina Servizi efficace non nasce dal caso: segue una struttura chiara, che guida l’utente dall’alto verso il contatto.
+Testi già usati in brochure, vecchi siti, presentazioni, profili social.
 
-Una struttura che puoi usare (e che posso adattare al tuo caso) è questa:
+Recensioni e testimonianze dei tuoi clienti migliori.
 
-Intro breve: cosa fai e per chi
+Non devono essere perfetti, ma averli raccolti fa risparmiare tantissimo tempo. Nel mio processo, quando un cliente mi manda questi materiali, io:
 
-Elenco dei servizi principali (con blocchi chiari)
+Li seleziono e ripulisco.
 
-Dettaglio di ogni servizio (problema, soluzione, benefici)
+Li adatto al web.
 
-Prove di fiducia (testimonianze, casi, loghi, risultati)
+Propongo cosa va riscritto da zero e cosa si può recuperare.
 
-Call to action finale (come contattarti o richiedere un preventivo)
-
-Il mio lavoro qui è tradurre quello che fai nella pratica in questa struttura, senza testi generici o frasi “di circostanza”, ma con un taglio orientato alle richieste dei tuoi clienti reali.
-
-L’introduzione: chiarire subito cosa fai
-La parte iniziale deve rispondere subito a tre domande: chi sei, che tipo di servizi offri, per che tipo di clienti. Non deve essere lunga: bastano poche righe chiare.
+Fatti un’idea di struttura (anche se cambierà)
+Non devi sapere esattamente quante pagine avrà il tuo sito, ma è utile arrivare con almeno una bozza di struttura, anche semplice.
 
 Per esempio:
 
-“Aiuto piccole attività, professionisti e B&B a avere siti veloci, chiari e pensati per portare contatti e prenotazioni.”
+Home
 
-“Qui trovi tutti i servizi che posso seguirti passo passo, dalla creazione del sito alla sua ottimizzazione per farti trovare su Google.”
+Chi sono / Chi siamo
 
-Quando progetto questa intro per te, la scrivo in modo che sia coerente con tutto il resto del sito, con il tuo tono di voce e con il tipo di clienti che vuoi davvero attirare.
+Servizi (magari con sottopagine)
 
-Come presentare i singoli servizi
-Ogni servizio principale dovrebbe avere un blocco dedicato, sempre con la stessa struttura, così chi legge non si perde.
+Portfolio / Casi studio
 
-Per ogni servizio, la struttura ideale è:
+Blog / Articoli
 
-Nome del servizio chiaro
+Contatti
 
-Problema che risolve
+Quando mi contatti, possiamo partire da questa bozza e decidere insieme cosa ha senso tenere, cosa togliere e cosa aggiungere in base ai tuoi obiettivi e al tipo di clienti che vuoi raggiungere.
 
-Cosa include in pratica
+Salva 3–4 siti che ti piacciono (e spiega perché)
+Un altro modo semplice per prepararti è fare una mini raccolta di siti che ti piacciono o che senti “vicini” a quello che vorresti.
 
-Benefici concreti per il cliente
+Ti basta:
 
-CTA specifica (es. “Richiedi un preventivo per questo servizio”)
+Salvare 3–4 link.
 
-Per esempio, invece di scrivere solo “Realizzazione siti web”, si può dire:
+Annotare cosa ti piace di ognuno (es. colori, struttura, foto, tono dei testi, semplicità, ecc.).
 
-Problema: “Il tuo sito attuale è lento, confuso o non esiste proprio.”
+Segnalare anche cosa non ti piace, se c’è qualcosa che vuoi evitare.
 
-Cosa faccio: “Progetto e realizzo un sito veloce, chiaro, ottimizzato per mobile e pensato per portare contatti.”
+Questo non serve per copiare, ma per allineare gusti e aspettative. Quando lavoro con un cliente, questi esempi mi aiutano a capire più velocemente la direzione visiva e di tono che ha in mente.
 
-Benefici: “Più fiducia da parte dei clienti, più richieste, immagine professionale migliore.”
+Pensa al budget e ai tempi
+Non è la parte più simpatica, ma è importantissima. Arrivare da un web designer con un’idea almeno indicativa di budget e tempistiche evita fraintendimenti e ti fa ottenere preventivi più realistici.
 
-CTA: “Scopri come posso creare il sito giusto per la tua attività.”
+Puoi chiederti:
 
-Qui entro in gioco io: ti aiuto a trasformare la descrizione tecnica dei tuoi servizi in qualcosa che il cliente capisce subito e sente “su misura” per sé.
+Quanto sono disposto a investire in questo progetto nei prossimi mesi?
 
-Parti dal problema e dalla trasformazione
-Una pagina Servizi forte non parte dall’elenco di tutto ciò che fai punto per punto, ma dai problemi che i tuoi clienti vogliono risolvere e dalla trasformazione che il tuo servizio porta nella loro attività.
+Ho una scadenza precisa (es. evento, stagione, scadenza normative) oppure no?
 
-Per ogni servizio, è utile rispondere a queste domande:
+Preferisco un progetto “tutto e subito” o una soluzione che cresca in step?
 
-Qual è la situazione prima che il cliente lavori con te?
+Quando un cliente mi dice già “vorrei stare in questa fascia di investimento” e “mi piacerebbe essere online entro questa data”, posso essere molto più chiaro nel proporre soluzioni, priorità e fasi del lavoro.
 
-Cosa cambia dopo?
+Decidi chi farà cosa dopo il lancio
+Un sito non è “finito” il giorno del lancio: va aggiornato, va protetto, e spesso va arricchito con nuovi contenuti.
 
-Che cosa diventa più facile, più veloce, più chiaro?
+Prima di contattare un web designer, chiediti:
 
-Quando lavoro sui testi con i miei clienti:
+Chi aggiornerà i contenuti (testi, immagini, blog)?
 
-Raccolgo le parole che i loro clienti usano davvero.
+Vuoi fare da solo dati tecnici e manutenzione, o preferisci delegare?
 
-Le uso per descrivere la situazione “prima” e “dopo”.
+Vuoi imparare a usare il sito (con una breve formazione) o vuoi che qualcun altro ci metta mano per te?
 
-Mostro il servizio come un ponte tra questi due punti, non come un elenco di caratteristiche.
+Nel mio lavoro, chiarisco da subito questi aspetti e posso:
 
-Evita nomi confusi, scegli titoli che vendono
-Nella pagina Servizi è meglio evitare nomi troppo creativi o interni tipo “Pacchetto Silver / Gold / Platinum” senza contesto. Chi legge non capisce subito la differenza e rischia di sentirsi spaesato.
+Offrirti una formazione base per essere autonomo sulle cose semplici.
 
-Meglio:
+Oppure proporti un piano di supporto e manutenzione, così ti concentri sul tuo lavoro e io mi occupo del resto.
 
-Nomi descrittivi: “Sito per attività locali”, “Landing page per campagne”, “Restyling sito esistente”.
+Prepara 2–3 messaggi chiave sul tuo modo di lavorare
+Più che elencare tutto ciò che fai, è utile avere chiari i messaggi chiave che vuoi che il sito comunichi su di te o sulla tua attività.
 
-Eventuale label aggiuntiva (es. “Pacchetto completo”, “Soluzione veloce”).
+Per esempio:
 
-Se vuoi, posso aiutarti a rinominare i servizi attuali del tuo sito con titoli più chiari e orientati alle ricerche dei tuoi clienti e alla SEO, così la pagina funziona sia per loro sia per Google.
+“Siamo uno studio piccolo, ma molto presente e reperibile.”
 
-Ordine, chiarezza e sintesi
-Una buona pagina Servizi è facile da scansionare: in pochi secondi il visitatore vede i titoli, capisce cosa offri ed entra solo nei blocchi che gli interessano.
+“Lavoriamo soprattutto con clienti locali.”
 
-Per questo:
+“Puntiamo sulla qualità e non sulle soluzioni più economiche.”
 
-Usa titoli evidenti per ogni servizio.
+Quando un cliente arriva da me con queste cose chiare, posso farle emergere nei testi, nelle scelte grafiche e nelle call to action, così il sito assomiglia davvero a lui e non alla solita “copia incolla” generica.
 
-Usa paragrafi brevi ed elenchi puntati dove serve.
+Cosa faccio io con tutte queste informazioni
+Potrebbe sembrare tanta preparazione, ma non devi fare tutto in solitaria e in modo perfetto. Il mio lavoro è proprio aiutarti a mettere ordine in queste idee.
 
-Evita blocchi di testo lunghissimi.
+Quando mi contatti:
 
-Mantieni un layout coerente tra un servizio e l’altro.
+Partiamo da una chiacchierata per chiarire obiettivi e pubblico.
 
-Quando progetto la pagina, non mi occupo solo dei testi: penso anche alla struttura visiva, così testi, spazi e pulsanti lavorano insieme per guidare il lettore verso il contatto.
+Ti guido con domande semplici per tirare fuori materiali, preferenze e priorità.
 
-Inserisci prezzi o almeno un’indicazione
-Molte persone abbandonano la pagina Servizi perché non trovano neanche una minima idea di prezzo. Non serve pubblicare un listino rigido, ma spesso è utile inserire almeno un range o un “a partire da…”.
+Trasformo tutto questo in una struttura chiara, un preventivo sensato e un progetto concreto.
 
-Questo:
+Se arrivi già con una parte di queste cose pronte, guadagniamo tempo, risparmi soldi e il risultato finale è molto più vicino a quello che avevi in mente.
 
-Filtra chi cerca soluzioni troppo low budget.
+Come puoi iniziare subito
+Se stai pensando di contattare un web designer, puoi iniziare subito con tre passi veloci:
 
-Rende più trasparente il tuo posizionamento.
+Scrivi in poche righe i tuoi obiettivi principali per il sito.
 
-Fa percepire i servizi come concreti, non fumosi.
+Annota chi sono i tuoi clienti ideali e che problemi hanno.
 
-Se preferisci non mettere prezzi precisi, posso aiutarti a definire testi del tipo “Progetti su misura, con soluzioni a partire da X”, in modo coerente con il tuo target e con il tipo di clienti che vuoi attrarre.
+Raccogli in una cartella i materiali che hai già (logo, foto, testi, link di siti che ti piacciono).
 
-Prove di fiducia: testimonianze, loghi, esempi
-Una pagina Servizi che vende non può vivere solo di promesse: ha bisogno di prove.
-
-Puoi inserire:
-
-Brevi testimonianze di clienti legate a uno specifico servizio.
-
-Loghi di aziende o attività con cui hai lavorato.
-
-Micro-casi studio sintetici (prima/dopo, problema/risultato).
-
-Quando lavoro su questa sezione, ti aiuto a scegliere le frasi più forti, a non usare testimonianze generiche e a collegarle ai servizi giusti, così ogni blocco è più credibile.
-
-CTA chiare e specifiche
-Ogni pagina Servizi deve chiudersi (e spesso anche aprirsi) con una call to action chiara: cosa deve fare il visitatore se è interessato?
-
-Esempi:
-
-“Prenota una call gratuita di 15 minuti per capire quale servizio fa per te.”
-
-“Compila il form e ti rispondo entro 24 ore.”
-
-“Scrivimi su WhatsApp per spiegarmi la tua situazione.”
-
-Nel mio lavoro inserisco CTA:
-
-Coerenti con i tuoi processi (email, call, WhatsApp, form).
-
-Collegate a singoli servizi (non solo generiche).
-
-Visibili e ripetute nei punti chiave della pagina.
-
-Come posso aiutarti a trasformare la tua pagina Servizi
-Mettere insieme tutte queste cose da solo può richiedere tempo, test e diversi tentativi. Quello che faccio per i miei clienti è proprio questo:
-
-Analizzo la pagina Servizi attuale (se già esiste).
-
-Ti aiuto a scegliere e ordinare i servizi più importanti.
-
-Riscrivo i testi partendo dai problemi dei tuoi clienti, non dal gergo tecnico.
-
-Progetto la struttura perché sia chiara sia per le persone sia per Google.
-
-Imposto CTA e sezioni di fiducia che spingono davvero al contatto.
-
-In pratica, trasformo la tua pagina Servizi da semplice elenco a uno strumento che fa capire subito cosa fai e perché dovrebbero scegliere te invece di un altro.
-
-Se vuoi, nel prossimo passo posso:
-
-Adattare questo articolo in versione specifica per i tuoi servizi reali.
-
-Proporti una bozza concreta di struttura per la tua pagina Servizi (blocchi, titoli, CTA) pronta da incollare nel tuo sito.
-
-Quale dei tuoi servizi vorresti mettere più in evidenza nella pagina (es. siti per attività locali, landing page, restyling siti esistenti)?
+Quando ti sentirai pronto, possiamo parlarne: ti aiuto a trasformare queste idee in un progetto di sito concreto, con tempi, costi e passaggi chiari, così non hai la sensazione di “buttarti nel vuoto”.

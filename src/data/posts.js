@@ -20,8 +20,15 @@ import { seoLocaleGoogleMapsPost } from './articles/seo-locale-google-maps';
 import { seoLocaleGoogleMapsPostEn } from './articles/seo-locale-google-maps-en';
 import { paginaServiziCheVendePost } from './articles/pagina-servizi-che-vende';
 import { paginaServiziCheVendePostEn } from './articles/pagina-servizi-che-vende-en';
+import { comePreparartiContattareWebDesignerPost } from './articles/come-prepararti-contattare-web-designer';
+import { comePreparartiContattareWebDesignerPostEn } from './articles/come-prepararti-contattare-web-designer-en';
 
 export const blogPosts = [
+  {
+    id: "come-prepararti-contattare-web-designer",
+    it: comePreparartiContattareWebDesignerPost,
+    en: comePreparartiContattareWebDesignerPostEn
+  },
   {
     id: "pagina-servizi-che-vende",
     it: paginaServiziCheVendePost,
