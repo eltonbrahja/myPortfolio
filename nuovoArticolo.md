@@ -1,148 +1,115 @@
-Come prepararti prima di contattare un web designer: materiali, idee e obiettivi
-Contattare un web designer senza avere le idee un minimo chiare è come entrare in un’agenzia viaggi dicendo solo “voglio andare da qualche parte”: si può fare, ma servirà molto più tempo, più domande e il rischio di fraintendimenti è alto.
+Come raccontare la storia della tua attività nel sito senza annoiare il lettore
 
-In questo articolo ti spiego cosa è utile preparare prima di contattare un web designer, così il progetto parte col piede giusto, i preventivi sono più precisi e tu ti senti più sicuro di quello che stai chiedendo. Ed è proprio il tipo di preparazione che io ti aiuto a mettere a fuoco se decidiamo di lavorare insieme.
+Raccontare la storia della tua attività nel sito non significa scrivere una biografia lunga e noiosa, ma aiutare il lettore a capire perché fai quello che fai e perché dovrebbe fidarsi di te. Le pagine “Chi siamo” più efficaci sono brevi, strutturate e orientate a chi legge, non all’ego del brand.
 
-Chiarisci i tuoi obiettivi (anche in modo semplice)
-Prima ancora di parlare di pagine, colori e piattaforme, è fondamentale capire perché vuoi un sito o un restyling.
+A cosa serve davvero la storia della tua attività
+La storia della tua attività deve rispondere a una domanda semplice: “Perché dovrei scegliere proprio te?”. Una buona narrazione rende più umani, aumenta la fiducia e fa percepire che dietro al sito ci sono persone vere, valori e scelte concrete.
 
-Domande utili:
+Non si tratta di inventare un romanzo, ma di selezionare i passaggi che spiegano come sei arrivato fin qui, quali problemi hai imparato a risolvere e cosa ti distingue rispetto agli altri.
 
-Cosa vuoi che il sito faccia per te? (Portare contatti, prenotazioni, richieste di preventivo, vendite, altro.)
+Parti dal lettore, non da te
+La trappola classica è iniziare con “La nostra azienda nasce nel 1994…”. Il lettore, però, all’inizio vuole capire se hai qualcosa di utile per lui, non la cronologia completa.
 
-Chi vuoi che lo usi? (Clienti nuovi, clienti esistenti, collaboratori, ecc.)
+Per evitare di annoiare:
 
-Come ti accorgerai che il sito sta funzionando?
+Apri con poche frasi che spiegano cosa fai e per chi lo fai.
 
-Non serve avere un documento perfetto: anche poche righe bastano. Quando un cliente mi contatta e ha già una bozza di obiettivi, posso cucire il progetto meglio sulle sue esigenze e proporgli soluzioni più adatte invece di “indovinare” cosa gli serve.
+Solo dopo introduci come ci sei arrivato.
 
-Definisci chi è il tuo cliente ideale
-Un sito non deve parlare a “tutti”: deve parlare al tipo di persona che vuoi davvero attrarre.
+Collega subito la tua storia ai problemi che risolvi oggi.
 
-Per prepararti puoi:
+In pratica: parli di te, ma scrivi per l’utente, seguendo l’idea che la tua storia serve a lui per orientarsi, non solo a te per raccontarti.
 
-Pensare a 2–3 clienti reali che hai già e che vorresti “clonare”.
+Usa una struttura semplice e sempre uguale
+Per non perdersi e non perdersi il lettore, è utile seguire una struttura narrativa chiara, tipo:
 
-Scrivere in poche righe chi sono, che lavoro fanno, che problemi avevano quando ti hanno contattato.
+Chi sei oggi in poche righe (elevator pitch).
 
-Segnare il linguaggio che usano, le parole con cui ti spiegano il loro problema.
+Come è nata l’attività (origine).
 
-Quando arrivi da me con questo tipo di informazioni, posso progettare un sito con testi, struttura e call to action che parlano davvero alle persone giuste, invece di restare sul generico.
+Quali ostacoli hai affrontato (sfide).
 
-Raccogli materiali e contenuti già esistenti
-Un’ottima preparazione prima di contattare un web designer è mettere insieme ciò che hai già:
+Cosa hai imparato e come aiuti i clienti (valore).
 
-Logo, colori e materiali di brand (se esistono).
+Mission/vision in una frase comprensibile.
 
-Foto professionali o almeno foto decenti dell’attività, del team, dei prodotti.
+Invito all’azione.
 
-Testi già usati in brochure, vecchi siti, presentazioni, profili social.
+Questa struttura richiama il classico schema delle storie: situazione iniziale, difficoltà, soluzione, risultato finale, applicato allo storytelling aziendale.
 
-Recensioni e testimonianze dei tuoi clienti migliori.
-
-Non devono essere perfetti, ma averli raccolti fa risparmiare tantissimo tempo. Nel mio processo, quando un cliente mi manda questi materiali, io:
-
-Li seleziono e ripulisco.
-
-Li adatto al web.
-
-Propongo cosa va riscritto da zero e cosa si può recuperare.
-
-Fatti un’idea di struttura (anche se cambierà)
-Non devi sapere esattamente quante pagine avrà il tuo sito, ma è utile arrivare con almeno una bozza di struttura, anche semplice.
+Scegli solo gli episodi che contano
+Per non annoiare, devi tagliare: non tutta la tua storia è interessante per chi ti legge. La cosa più importante è selezionare episodi che mostrano valori, scelte e risultati rilevanti per i tuoi clienti.
 
 Per esempio:
 
-Home
+L’episodio in cui hai deciso di cambiare modo di lavorare per offrire più qualità.
 
-Chi sono / Chi siamo
+Una difficoltà concreta che hai superato e che oggi ti fa capire meglio i problemi dei tuoi clienti.
 
-Servizi (magari con sottopagine)
+Un progetto o un cliente che rappresenta bene come lavori.
 
-Portfolio / Casi studio
+Selezionare questi momenti permette di raccontare meno, ma meglio, e di costruire una storia autentica e coerente.
 
-Blog / Articoli
+Fai del cliente il protagonista
+Nel migliore storytelling aziendale, il vero “eroe” non sei tu: è il cliente. Tu sei il mentore, l’aiutante che lo accompagna.
 
-Contatti
+Per questo:
 
-Quando mi contatti, possiamo partire da questa bozza e decidere insieme cosa ha senso tenere, cosa togliere e cosa aggiungere in base ai tuoi obiettivi e al tipo di clienti che vuoi raggiungere.
+Fai vedere in che modo la tua storia ti ha reso più capace di aiutare chi ti sceglie.
 
-Salva 3–4 siti che ti piacciono (e spiega perché)
-Un altro modo semplice per prepararti è fare una mini raccolta di siti che ti piacciono o che senti “vicini” a quello che vorresti.
+Collega episodi della tua attività a problemi reali dei clienti.
 
-Ti basta:
+Mostra il “lieto fine” non come successo tuo, ma come risultato per loro.
 
-Salvare 3–4 link.
+Così il lettore si riconosce e sente che la tua storia riguarda anche lui, non è solo autocelebrativa.
 
-Annotare cosa ti piace di ognuno (es. colori, struttura, foto, tono dei testi, semplicità, ecc.).
+Scrivi semplice, breve e per blocchi
+Per evitare il muro di testo tipico delle pagine “Chi siamo”, usa:
 
-Segnalare anche cosa non ti piace, se c’è qualcosa che vuoi evitare.
+Paragrafi brevi.
 
-Questo non serve per copiare, ma per allineare gusti e aspettative. Quando lavoro con un cliente, questi esempi mi aiutano a capire più velocemente la direzione visiva e di tono che ha in mente.
+Sottotitoli chiari.
 
-Pensa al budget e ai tempi
-Non è la parte più simpatica, ma è importantissima. Arrivare da un web designer con un’idea almeno indicativa di budget e tempistiche evita fraintendimenti e ti fa ottenere preventivi più realistici.
+Qualche elenco puntato per momenti chiave (valori, tappe, risultati).
 
-Puoi chiederti:
+Il tono dovrebbe essere:
 
-Quanto sono disposto a investire in questo progetto nei prossimi mesi?
+Diretto e umano.
 
-Ho una scadenza precisa (es. evento, stagione, scadenza normative) oppure no?
+Coerente con il resto del sito.
 
-Preferisco un progetto “tutto e subito” o una soluzione che cresca in step?
+Privo di troppe frasi pompose o autoreferenziali.
 
-Quando un cliente mi dice già “vorrei stare in questa fascia di investimento” e “mi piacerebbe essere online entro questa data”, posso essere molto più chiaro nel proporre soluzioni, priorità e fasi del lavoro.
+Molte linee guida consigliano di mettere un riassunto molto sintetico all’inizio (2–3 frasi) e poi sviluppare meglio il racconto più in basso, così chi ha fretta capisce subito l’essenziale.
 
-Decidi chi farà cosa dopo il lancio
-Un sito non è “finito” il giorno del lancio: va aggiornato, va protetto, e spesso va arricchito con nuovi contenuti.
+Inserisci voce, volti e valori
+Una storia che non annoia spesso include:
 
-Prima di contattare un web designer, chiediti:
+Elementi visivi (foto vere, non solo stock).
 
-Chi aggiornerà i contenuti (testi, immagini, blog)?
+Persone: chi c’è dietro l’attività.
 
-Vuoi fare da solo dati tecnici e manutenzione, o preferisci delegare?
+Valori espressi in modo concreto, non in parole vuote.
 
-Vuoi imparare a usare il sito (con una breve formazione) o vuoi che qualcun altro ci metta mano per te?
+Esempi:
 
-Nel mio lavoro, chiarisco da subito questi aspetti e posso:
+Raccontare cosa ti spinge ancora oggi a fare questo lavoro.
 
-Offrirti una formazione base per essere autonomo sulle cose semplici.
+Citare una frase che ti rappresenta.
 
-Oppure proporti un piano di supporto e manutenzione, così ti concentri sul tuo lavoro e io mi occupo del resto.
+Mostrare brevemente chi collabora con te, non solo “l’azienda” astratta.
 
-Prepara 2–3 messaggi chiave sul tuo modo di lavorare
-Più che elencare tutto ciò che fai, è utile avere chiari i messaggi chiave che vuoi che il sito comunichi su di te o sulla tua attività.
+Questo rende la pagina più “umana” e memorabile, soprattutto per attività piccole e professionisti.
 
-Per esempio:
+Chiudi con una call to action
+Anche la pagina in cui racconti la tua storia dovrebbe avere un finale che invita a fare un passo concreto: contattarti, leggere i servizi, vedere i progetti.
 
-“Siamo uno studio piccolo, ma molto presente e reperibile.”
+Suggerimenti:
 
-“Lavoriamo soprattutto con clienti locali.”
+“Ti ritrovi in questo modo di lavorare? Raccontami della tua attività.”
 
-“Puntiamo sulla qualità e non sulle soluzioni più economiche.”
+“Vuoi un sito che racconti bene anche la tua storia? Scopri come posso aiutarti.”
 
-Quando un cliente arriva da me con queste cose chiare, posso farle emergere nei testi, nelle scelte grafiche e nelle call to action, così il sito assomiglia davvero a lui e non alla solita “copia incolla” generica.
+“Dai un’occhiata ai servizi che posso seguirti passo passo.”
 
-Cosa faccio io con tutte queste informazioni
-Potrebbe sembrare tanta preparazione, ma non devi fare tutto in solitaria e in modo perfetto. Il mio lavoro è proprio aiutarti a mettere ordine in queste idee.
-
-Quando mi contatti:
-
-Partiamo da una chiacchierata per chiarire obiettivi e pubblico.
-
-Ti guido con domande semplici per tirare fuori materiali, preferenze e priorità.
-
-Trasformo tutto questo in una struttura chiara, un preventivo sensato e un progetto concreto.
-
-Se arrivi già con una parte di queste cose pronte, guadagniamo tempo, risparmi soldi e il risultato finale è molto più vicino a quello che avevi in mente.
-
-Come puoi iniziare subito
-Se stai pensando di contattare un web designer, puoi iniziare subito con tre passi veloci:
-
-Scrivi in poche righe i tuoi obiettivi principali per il sito.
-
-Annota chi sono i tuoi clienti ideali e che problemi hanno.
-
-Raccogli in una cartella i materiali che hai già (logo, foto, testi, link di siti che ti piacciono).
-
-Quando ti sentirai pronto, possiamo parlarne: ti aiuto a trasformare queste idee in un progetto di sito concreto, con tempi, costi e passaggi chiari, così non hai la sensazione di “buttarti nel vuoto”.
+Così la storia non rimane fine a sé stessa, ma diventa un pezzo del percorso che porta il visitatore a lavorare con te.

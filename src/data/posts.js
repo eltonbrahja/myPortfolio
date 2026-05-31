@@ -22,6 +22,8 @@ import { paginaServiziCheVendePost } from './articles/pagina-servizi-che-vende';
 import { paginaServiziCheVendePostEn } from './articles/pagina-servizi-che-vende-en';
 import { comePreparartiContattareWebDesignerPost } from './articles/come-prepararti-contattare-web-designer';
 import { comePreparartiContattareWebDesignerPostEn } from './articles/come-prepararti-contattare-web-designer-en';
+import { raccontareStoriaAttivitaPost } from './articles/raccontare-storia-attivita';
+import { raccontareStoriaAttivitaPostEn } from './articles/raccontare-storia-attivita-en';
 
 export const blogPosts = [
   {
@@ -83,5 +85,10 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
+  },
+  {
+    id: "raccontare-storia-attivita",
+    it: raccontareStoriaAttivitaPost,
+    en: raccontareStoriaAttivitaPostEn
   }
 ];
