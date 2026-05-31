@@ -24,8 +24,15 @@ import { comePreparartiContattareWebDesignerPost } from './articles/come-prepara
 import { comePreparartiContattareWebDesignerPostEn } from './articles/come-prepararti-contattare-web-designer-en';
 import { raccontareStoriaAttivitaPost } from './articles/raccontare-storia-attivita';
 import { raccontareStoriaAttivitaPostEn } from './articles/raccontare-storia-attivita-en';
+import { sitoAbbonamentoVsPagamentoUnicoPost } from './articles/sito-abbonamento-vs-pagamento-unico';
+import { sitoAbbonamentoVsPagamentoUnicoPostEn } from './articles/sito-abbonamento-vs-pagamento-unico-en';
 
 export const blogPosts = [
+  {
+    id: "sito-abbonamento-vs-pagamento-unico",
+    it: sitoAbbonamentoVsPagamentoUnicoPost,
+    en: sitoAbbonamentoVsPagamentoUnicoPostEn
+  },
   {
     id: "raccontare-storia-attivita",
     it: raccontareStoriaAttivitaPost,
