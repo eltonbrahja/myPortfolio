@@ -24,7 +24,7 @@ export const raccontareStoriaAttivitaPost = {
   date: "31 Maggio 2026",
   readTime: "5 min di lettura",
   category: "Copywriting",
-  image: "https://images.unsplash.com/photo-GFrBMipOd_E?auto=format&fit=crop&w=1200&q=80",
+  image: "/raccontare-storia.jpg",
   content: (
     <div className="article-body">
       <p>

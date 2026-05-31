@@ -27,6 +27,11 @@ import { raccontareStoriaAttivitaPostEn } from './articles/raccontare-storia-att
 
 export const blogPosts = [
   {
+    id: "raccontare-storia-attivita",
+    it: raccontareStoriaAttivitaPost,
+    en: raccontareStoriaAttivitaPostEn
+  },
+  {
     id: "come-prepararti-contattare-web-designer",
     it: comePreparartiContattareWebDesignerPost,
     en: comePreparartiContattareWebDesignerPostEn
@@ -85,10 +90,5 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
-  },
-  {
-    id: "raccontare-storia-attivita",
-    it: raccontareStoriaAttivitaPost,
-    en: raccontareStoriaAttivitaPostEn
   }
 ];
