@@ -42,7 +42,7 @@ const Navbar = () => {
 
           <div className="navbar-desktop-links">
             <NavLink to={localizePath('/')} end className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.home').toUpperCase()}</NavLink>
-            <NavLink to={localizePath('/about')} className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.about') || "CHI SONO"}</NavLink>
+
             <NavLink to={localizePath('/services')} className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.services').toUpperCase()}</NavLink>
             <NavLink to={localizePath('/portfolio')} className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.portfolio').toUpperCase()}</NavLink>
             <NavLink to={localizePath('/blog')} className={({isActive}) => isActive ? "nav-link active" : "nav-link"}>{t('navbar.blog').toUpperCase()}</NavLink>
@@ -94,7 +94,7 @@ const Navbar = () => {
         <div className="navbar-mobile-menu">
           <div className="mobile-nav-links">
             <NavLink to={localizePath('/')} end onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.home')}</NavLink>
-            <NavLink to={localizePath('/about')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.about') || "Chi Sono"}</NavLink>
+
             <NavLink to={localizePath('/services')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.services')}</NavLink>
             <NavLink to={localizePath('/portfolio')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.portfolio')}</NavLink>
             <NavLink to={localizePath('/blog')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.blog')}</NavLink>

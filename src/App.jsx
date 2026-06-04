@@ -11,7 +11,7 @@ import CookieBanner from './components/CookieBanner';
 import Home from './pages/Home';
 
 // Pages lazy loaded
-const About = lazy(() => import('./pages/About'));
+
 const Services = lazy(() => import('./pages/Services'));
 const Portfolio = lazy(() => import('./pages/Portfolio'));
 const CustomBooking = lazy(() => import('./pages/CustomBooking'));
@@ -80,7 +80,7 @@ const AnimatedRoutes = () => {
         <Routes location={location} key={normalizedPath}>
           <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
+
             <Route path="services" element={<Services />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="portfolio/custom-booking" element={<CustomBooking />} />
@@ -93,7 +93,7 @@ const AnimatedRoutes = () => {
           </Route>
           <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
             <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
+
             <Route path="services" element={<Services />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="portfolio/custom-booking" element={<CustomBooking />} />
