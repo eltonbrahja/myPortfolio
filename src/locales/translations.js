@@ -256,7 +256,7 @@ const translations = {
       emailLabel: "Email",
       phoneLabel: "Telefono",
       locationLabel: "Sede Operativa",
-      locationDesc: "Santeramo in colle (BA), Italia",
+      locationDesc: "Puglia, Italia",
       form: {
         name: "Nome",
         namePlace: "Il tuo nome",
@@ -298,7 +298,7 @@ const translations = {
       sections: [
         {
           title: "1. Titolare del Trattamento",
-          content: "Il titolare del trattamento dei dati è <strong>Elton Brahja</strong>.<br/>Sede: Santeramo in colle (BA), Italia.<br/>Email di contatto: <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>"
+          content: "Il titolare del trattamento dei dati è <strong>Elton Brahja</strong>.<br/>Sede: Puglia, Italia.<br/>Email di contatto: <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>"
         },
         {
           title: "2. Quali dati raccogliamo e perché",
@@ -627,7 +627,7 @@ const translations = {
       emailLabel: "Email",
       phoneLabel: "Phone",
       locationLabel: "Operational Office",
-      locationDesc: "Santeramo in colle (BA), Italy",
+      locationDesc: "Puglia, Italy",
       form: {
         name: "Name",
         namePlace: "Your name",
@@ -669,7 +669,7 @@ const translations = {
       sections: [
         {
           title: "1. Data Controller",
-          content: "The data controller is <strong>Elton Brahja</strong>.<br/>Based in: Santeramo in colle (BA), Italy.<br/>Contact email: <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>"
+          content: "The data controller is <strong>Elton Brahja</strong>.<br/>Based in: Puglia, Italy.<br/>Contact email: <a href=\"mailto:elton.brahja.s@gmail.com\">elton.brahja.s@gmail.com</a>"
         },
         {
           title: "2. What data we collect and why",

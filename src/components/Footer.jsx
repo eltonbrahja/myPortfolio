@@ -50,7 +50,7 @@ const Footer = () => {
                   <Mail size={18} strokeWidth={1.5} /> elton.brahja.s@gmail.com
                 </a>
               </li>
-              <li>{language === 'it' ? 'Santeramo in colle (BA), Italia' : 'Santeramo in colle (BA), Italy'}</li>
+              <li>{language === 'it' ? 'Puglia, Italia' : 'Puglia, Italy'}</li>
             </ul>
           </div>
           
