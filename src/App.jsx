@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, Outlet } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 
@@ -8,17 +8,17 @@ import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 import CookieBanner from './components/CookieBanner';
 
-// Pages
-import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Portfolio from './pages/Portfolio';
-import CustomBooking from './pages/CustomBooking';
-import Blog from './pages/Blog';
-import BlogPost from './pages/BlogPost';
-import Privacy from './pages/Privacy';
-import NotFound from './pages/NotFound';
-import Success from './pages/Success';
+// Pages lazy loaded
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Services = lazy(() => import('./pages/Services'));
+const Portfolio = lazy(() => import('./pages/Portfolio'));
+const CustomBooking = lazy(() => import('./pages/CustomBooking'));
+const Blog = lazy(() => import('./pages/Blog'));
+const BlogPost = lazy(() => import('./pages/BlogPost'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const NotFound = lazy(() => import('./pages/NotFound'));
+const Success = lazy(() => import('./pages/Success'));
 
 import { LanguageProvider, useLanguage } from './context/LanguageContext';
 
@@ -75,34 +75,36 @@ const AnimatedRoutes = () => {
   
   return (
     <AnimatePresence mode="wait">
-      <Routes location={location} key={normalizedPath}>
-        <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="portfolio/custom-booking" element={<CustomBooking />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/:id" element={<BlogPost />} />
-          <Route path="privacy" element={<Privacy />} />
-          <Route path="success" element={<Success />} />
+      <Suspense fallback={<div style={{ height: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>Caricamento...</div>}>
+        <Routes location={location} key={normalizedPath}>
+          <Route path="/en" element={<LanguageRouterSync routeLang="en" />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="portfolio/custom-booking" element={<CustomBooking />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="blog/:id" element={<BlogPost />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="success" element={<Success />} />
 
-          <Route path="*" element={<NotFound />} />
-        </Route>
-        <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="services" element={<Services />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="portfolio/custom-booking" element={<CustomBooking />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="blog/:id" element={<BlogPost />} />
-          <Route path="privacy" element={<Privacy />} />
-          <Route path="success" element={<Success />} />
+            <Route path="*" element={<NotFound />} />
+          </Route>
+          <Route path="/" element={<LanguageRouterSync routeLang="it" />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="services" element={<Services />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="portfolio/custom-booking" element={<CustomBooking />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="blog/:id" element={<BlogPost />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="success" element={<Success />} />
 
-          <Route path="*" element={<NotFound />} />
-        </Route>
-      </Routes>
+            <Route path="*" element={<NotFound />} />
+          </Route>
+        </Routes>
+      </Suspense>
     </AnimatePresence>
   );
 };

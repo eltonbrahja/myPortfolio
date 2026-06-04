@@ -23,14 +23,9 @@ const Home = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const selectRef = useRef(null);
   
-  // Update selectedIndex if it goes out of bounds (shouldn't happen but safe)
-  useEffect(() => {
-    if (selectedIndex >= options.length) {
-      setSelectedIndex(0);
-    }
-  }, [options, selectedIndex]);
-
-  const selectedSubject = options[selectedIndex] || "";
+  // Calculate safe index during render (derived state)
+  const safeSelectedIndex = selectedIndex >= options.length ? 0 : selectedIndex;
+  const selectedSubject = options[safeSelectedIndex] || "";
 
   useEffect(() => {
     const handleClickOutside = (e) => {
@@ -285,7 +280,7 @@ const Home = () => {
                     <div className="custom-select-container">
                       <div 
                         className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
-                        onClick={() => setSubjectOpen(!subjectOpen)}
+                        onClick={() => setSubjectOpen(prev => !prev)}
                       >
                         {selectedSubject}
                         <ChevronDown size={16} className={`select-icon ${subjectOpen ? 'open' : ''}`} />
@@ -304,7 +299,7 @@ const Home = () => {
                               <li 
                                 key={i} 
                                 onClick={() => { setSelectedIndex(i); setSubjectOpen(false); }}
-                                className={`custom-select-option ${selectedIndex === i ? 'selected' : ''}`}
+                                className={`custom-select-option ${safeSelectedIndex === i ? 'selected' : ''}`}
                               >
                                 {opt}
                               </li>

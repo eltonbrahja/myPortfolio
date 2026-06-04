@@ -79,7 +79,7 @@ const Navbar = () => {
             
             <button 
               className="navbar-mobile-toggle"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              onClick={() => setMobileMenuOpen(prev => !prev)}
               aria-label={mobileMenuOpen ? "Chiudi menu" : "Apri menu"}
               aria-expanded={mobileMenuOpen}
             >

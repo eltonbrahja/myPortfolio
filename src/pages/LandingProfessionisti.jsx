@@ -276,7 +276,7 @@ const LandingProfessionisti = () => {
                 <div className="custom-select-container">
                   <div 
                     className={`custom-select-trigger ${subjectOpen ? 'open' : ''}`}
-                    onClick={() => setSubjectOpen(!subjectOpen)}
+                    onClick={() => setSubjectOpen(prev => !prev)}
                   >
                     {selectedSubject}
                     <ChevronDown size={16} className={`select-icon ${subjectOpen ? 'open' : ''}`} />
