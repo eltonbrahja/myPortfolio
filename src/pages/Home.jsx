@@ -158,21 +158,78 @@ const Home = () => {
         {/* 4. COME LAVORIAMO */}
         <section className="home-section">
           <h2 className="section-title">{t('home.process.title')}</h2>
-          <div className="timeline">
-            <div className="timeline-step">
-              <div className="step-number">1</div>
-              <h3>{t('home.process.steps')[0].title}</h3>
-              <p>{t('home.process.steps')[0].desc}</p>
+          <div className="timeline" style={{ position: 'relative' }}>
+            {/* Animated primary line overlay */}
+            <motion.div 
+              initial={{ width: 0 }}
+              whileInView={{ width: '100%' }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 1.2, ease: "linear" }}
+              style={{
+                position: 'absolute',
+                top: '24px',
+                left: 0,
+                height: '2px',
+                background: 'var(--primary)',
+                zIndex: 1
+              }}
+            />
+
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0 }}
+              >1</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
+              >
+                <h3>{t('home.process.steps')[0].title}</h3>
+                <p>{t('home.process.steps')[0].desc}</p>
+              </motion.div>
             </div>
-            <div className="timeline-step">
-              <div className="step-number">2</div>
-              <h3>{t('home.process.steps')[1].title}</h3>
-              <p>{t('home.process.steps')[1].desc}</p>
+            
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0.6 }}
+              >2</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 0.8 }}
+              >
+                <h3>{t('home.process.steps')[1].title}</h3>
+                <p>{t('home.process.steps')[1].desc}</p>
+              </motion.div>
             </div>
-            <div className="timeline-step">
-              <div className="step-number">3</div>
-              <h3>{t('home.process.steps')[2].title}</h3>
-              <p>{t('home.process.steps')[2].desc}</p>
+            
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 1.2 }}
+              >3</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 1.4 }}
+              >
+                <h3>{t('home.process.steps')[2].title}</h3>
+                <p>{t('home.process.steps')[2].desc}</p>
+              </motion.div>
             </div>
           </div>
         </section>
