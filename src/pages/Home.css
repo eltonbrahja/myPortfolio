@@ -234,6 +234,61 @@
   margin-top: 0.2rem;
 }
 
+/* TARGET CARDS (Per chi è) */
+.target-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  border: 1px solid rgba(255, 255, 255, 0.02);
+  z-index: 1;
+}
+
+.target-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02) 0%, transparent 100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.target-card:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+
+.target-card:hover .target-overlay {
+  opacity: 1;
+}
+
+.target-icon {
+  transition: all 0.4s ease;
+  filter: drop-shadow(0 0 0px transparent);
+}
+
+.target-card:hover .target-icon {
+  filter: drop-shadow(0 0 10px currentColor);
+}
+
+.target-card h3 {
+  transition: color 0.4s ease;
+  color: var(--text-primary);
+}
+
+.target-card:hover h3 {
+  color: #fff;
+}
+
+.target-card p {
+  transition: color 0.4s ease;
+  color: var(--text-secondary);
+}
+
+.target-card:hover p {
+  color: rgba(255, 255, 255, 0.9);
+}
+
 /* PREMIUM CARDS (Cosa ottieni) */
 .premium-card {
   position: relative;

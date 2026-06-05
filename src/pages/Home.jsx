@@ -101,25 +101,80 @@ const Home = () => {
         </section>
 
         {/* 2. PER CHI E' */}
-        <section className="home-section">
-          <h2 className="section-title">{t('home.target.title')}</h2>
-          <div className="cards-grid">
-            <GlassCard className="home-card">
-              <UserPlus size={32} className="text-blue" strokeWidth={1.5} />
-              <h3>{t('home.target.cards')[0].title}</h3>
-              <p>{t('home.target.cards')[0].desc}</p>
-            </GlassCard>
-            <GlassCard className="home-card">
-              <Building2 size={32} className="text-purple" strokeWidth={1.5} />
-              <h3>{t('home.target.cards')[1].title}</h3>
-              <p>{t('home.target.cards')[1].desc}</p>
-            </GlassCard>
-            <GlassCard className="home-card">
-              <Store size={32} className="text-green" strokeWidth={1.5} />
-              <h3>{t('home.target.cards')[2].title}</h3>
-              <p>{t('home.target.cards')[2].desc}</p>
-            </GlassCard>
-          </div>
+        <section className="home-section target-section">
+          <motion.h2 
+            className="section-title"
+            initial={{ clipPath: 'polygon(0 0, 100% 0, 100% 0, 0 0)', opacity: 0.5 }}
+            whileInView={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', opacity: 1 }}
+            viewport={{ once: false, margin: "-10%" }}
+            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+          >
+            {t('home.target.title')}
+          </motion.h2>
+          
+          <motion.div 
+            className="cards-grid"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, margin: "-10%" }}
+            variants={{
+              hidden: {},
+              visible: { transition: { staggerChildren: 0.25 } }
+            }}
+          >
+            {[
+              { icon: UserPlus, colorClass: "text-blue" },
+              { icon: Building2, colorClass: "text-purple" },
+              { icon: Store, colorClass: "text-green" }
+            ].map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <motion.div 
+                  key={idx}
+                  variants={{
+                    hidden: { opacity: 0.4, scale: 0.96, filter: shouldReduceMotion ? "none" : "contrast(0.7) blur(3px) brightness(0.6)" },
+                    visible: { 
+                      opacity: 1, 
+                      scale: 1, 
+                      filter: shouldReduceMotion ? "none" : "contrast(1) blur(0px) brightness(1)",
+                      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
+                    }
+                  }}
+                >
+                  <GlassCard className="home-card target-card">
+                    <div className="target-overlay" />
+                    
+                    <motion.div
+                      variants={{
+                        hidden: { scale: 0.8, opacity: 0, clipPath: 'circle(0% at center)' },
+                        visible: { scale: 1, opacity: 1, clipPath: 'circle(100% at center)', transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] } }
+                      }}
+                    >
+                      <Icon size={32} className={`target-icon ${item.colorClass}`} strokeWidth={1.5} />
+                    </motion.div>
+                    
+                    <motion.h3
+                      variants={{
+                        hidden: { opacity: 0, y: 4, filter: shouldReduceMotion ? "none" : "blur(2px)" },
+                        visible: { opacity: 1, y: 0, filter: shouldReduceMotion ? "none" : "blur(0px)", transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
+                      }}
+                    >
+                      {t('home.target.cards')[idx].title}
+                    </motion.h3>
+                    
+                    <motion.p
+                      variants={{
+                        hidden: { opacity: 0, y: 4 },
+                        visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.1, ease: [0.16, 1, 0.3, 1] } }
+                      }}
+                    >
+                      {t('home.target.cards')[idx].desc}
+                    </motion.p>
+                  </GlassCard>
+                </motion.div>
+              );
+            })}
+          </motion.div>
         </section>
 
         {/* 3. COSA OTTIENI */}
