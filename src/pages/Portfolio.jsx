@@ -25,34 +25,34 @@ import './Portfolio.css';const Portfolio = () => {
     },
     {
       title: t('portfolio.projects')[1].title,
-      images: ["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"],
-      tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
+      images: ["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"],
+      tags: ["REACT VITE", "NODE.JS", "EXPRESS", "MONGODB", "CUSTOM BOOKING"],
       description: t('portfolio.projects')[1].description,
-      link: "https://www.danubiamacario.com",
+      internalLink: "/portfolio/custom-booking",
       linkText: t('portfolio.projects')[1].linkText
     },
     {
       title: t('portfolio.projects')[2].title,
-      images: ["/alessandra-1.webp", "/alessandra-2.webp"],
-      tags: ["WORDPRESS", "LATEPOINT BOOKING"],
+      images: ["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"],
+      tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
       description: t('portfolio.projects')[2].description,
-      link: "https://www.alessandra-marascio-psicologa.it/",
+      link: "https://www.danubiamacario.com",
       linkText: t('portfolio.projects')[2].linkText
     },
     {
       title: t('portfolio.projects')[3].title,
-      image: "/mioSito.webp",
-      tags: ["REACT VITE", "FRAMER MOTION", "VANILLA CSS"],
+      images: ["/alessandra-1.webp", "/alessandra-2.webp"],
+      tags: ["WORDPRESS", "LATEPOINT BOOKING"],
       description: t('portfolio.projects')[3].description,
-      link: "#",
+      link: "https://www.alessandra-marascio-psicologa.it/",
       linkText: t('portfolio.projects')[3].linkText
     },
     {
       title: t('portfolio.projects')[4].title,
-      images: ["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"],
-      tags: ["REACT VITE", "NODE.JS", "EXPRESS", "MONGODB", "CUSTOM BOOKING"],
+      image: "/mioSito.webp",
+      tags: ["REACT VITE", "FRAMER MOTION", "VANILLA CSS"],
       description: t('portfolio.projects')[4].description,
-      internalLink: "/portfolio/custom-booking",
+      link: "#",
       linkText: t('portfolio.projects')[4].linkText
     }
   ];

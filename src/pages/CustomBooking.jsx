@@ -57,7 +57,6 @@ const CustomBooking = () => {
             transition={{ delay: 0.1 }}
             className="booking-hero-label"
           >
-            <Sparkles size={14} className="sparkle-icon" />
             {t('customBooking.heroLabel')}
           </motion.span>
           
@@ -145,20 +144,11 @@ const CustomBooking = () => {
               </div>
               <div className="meta-item">
                 <div className="meta-icon-wrapper">
-                  <ShieldCheck size={20} />
-                </div>
-                <div>
-                  <div className="meta-label">Ruolo / Role</div>
-                  <div className="meta-value">Full Stack Developer</div>
-                </div>
-              </div>
-              <div className="meta-item">
-                <div className="meta-icon-wrapper">
                   <Cpu size={20} />
                 </div>
                 <div>
                   <div className="meta-label">Categoria / Category</div>
-                  <div className="meta-value">PWA & Booking Engine</div>
+                  <div className="meta-value">Booking Engine</div>
                 </div>
               </div>
             </GlassCard>
@@ -197,7 +187,6 @@ const CustomBooking = () => {
               </div>
               <h3 className="arch-card-title">{t('customBooking.frontendTitle')}</h3>
               <p className="arch-card-desc">{t('customBooking.frontendDesc')}</p>
-              <div className="arch-badge">Client Tier</div>
             </GlassCard>
 
             {/* Connection Arrow */}
@@ -213,7 +202,6 @@ const CustomBooking = () => {
               </div>
               <h3 className="arch-card-title">{t('customBooking.backendTitle')}</h3>
               <p className="arch-card-desc">{t('customBooking.backendDesc')}</p>
-              <div className="arch-badge">Logic Tier</div>
             </GlassCard>
 
             {/* Connection Arrow */}
@@ -229,7 +217,6 @@ const CustomBooking = () => {
               </div>
               <h3 className="arch-card-title">{t('customBooking.databaseTitle')}</h3>
               <p className="arch-card-desc">{t('customBooking.databaseDesc')}</p>
-              <div className="arch-badge">Data Tier</div>
             </GlassCard>
           </div>
         </section>

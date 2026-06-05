@@ -222,6 +222,11 @@ const translations = {
           linkText: "Visita Live"
         },
         {
+          title: "Sistema di Prenotazione Custom",
+          description: "Un sistema di prenotazione su misura, flessibile ed estremamente performante. Sviluppato per automatizzare la gestione degli appuntamenti e ottimizzare la conversione.",
+          linkText: "Visualizza altro"
+        },
+        {
           title: "Studio Dott.ssa Danubia Macario",
           description: "Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.",
           linkText: "Visita Live"
@@ -235,11 +240,6 @@ const translations = {
           title: "Portfolio 'No-Bloat'",
           description: "Sviluppato in React con architettura moderna Vite. Animazioni fluide, glassmorphism e zero framework CSS per massimizzare le performance.",
           linkText: "Visita Live"
-        },
-        {
-          title: "Sistema di Prenotazione Custom",
-          description: "Un sistema di prenotazione su misura, flessibile ed estremamente performante. Sviluppato per automatizzare la gestione degli appuntamenti e ottimizzare la conversione.",
-          linkText: "Visualizza altro"
         }
       ],
       nextProject: {
@@ -326,7 +326,7 @@ const translations = {
     },
     customBooking: {
       backBtn: "Torna al Portfolio",
-      heroLabel: "Caso di Studio - Progetto Personale",
+      heroLabel: "Progetto Personale",
       title: "Sistema di Prenotazione Custom",
       subtitle: "Un'applicazione web ad alte prestazioni per la gestione dinamica degli appuntamenti e delle prenotazioni in tempo reale.",
       techStackTitle: "Tecnologie Utilizzate",
@@ -353,13 +353,13 @@ const translations = {
         }
       ],
       architectureTitle: "Architettura Tecnica",
-      frontendTitle: "Frontend / Client Tier",
+      frontendTitle: "Frontend",
       frontendDesc: "Interfaccia utente interattiva e reattiva costruita con Next.js 14 (App Router) e Tailwind CSS per garantire un design mobile-first premium, elegante e ultra-veloce.",
-      backendTitle: "Serverless / Logic Tier",
+      backendTitle: "Serverless",
       backendDesc: "Gestione serverless tramite Next.js Server Actions e integrazione con le API di Google Calendar per sincronizzare in tempo reale ogni prenotazione.",
-      databaseTitle: "Database / Auth Tier",
+      databaseTitle: "Database",
       databaseDesc: "Database relazionale sicuro e autenticazione utenti in tempo reale gestiti in modo nativo tramite Supabase per la persistenza sicura degli appuntamenti.",
-      resultsTitle: "Risultati Ottenuti",
+      resultsTitle: "Perché è la scelta giusta?",
       resultsList: [
         "Sincronizzazione bidirezionale istantanea con le API di Google Calendar.",
         "Velocità di caricamento eccellente grazie al rendering lato server di Next.js 14.",
@@ -593,6 +593,11 @@ const translations = {
           linkText: "Live Demo"
         },
         {
+          title: "Custom Booking System",
+          description: "A tailor-made, flexible and highly performant booking system. Developed to automate appointment scheduling and optimize conversion.",
+          linkText: "View more"
+        },
+        {
           title: "Dr. Danubia Macario Studio",
           description: "Full bilingual website (IT/PT-BR) for psychological consulting. Professional interface with online booking system, multilingual content management.",
           linkText: "Live Demo"
@@ -606,11 +611,6 @@ const translations = {
           title: "No-Bloat Portfolio",
           description: "Developed in React with modern Vite architecture. Smooth animations, glassmorphism, and zero CSS frameworks to maximize performance.",
           linkText: "Live Demo"
-        },
-        {
-          title: "Custom Booking System",
-          description: "A tailor-made, flexible and highly performant booking system. Developed to automate appointment scheduling and optimize conversion.",
-          linkText: "View more"
         }
       ],
       nextProject: {
@@ -697,7 +697,7 @@ const translations = {
     },
     customBooking: {
       backBtn: "Back to Portfolio",
-      heroLabel: "Case Study - Personal Project",
+      heroLabel: "Personal Project",
       title: "Custom Booking System",
       subtitle: "A high-performance web application for dynamic real-time appointment and reservation management.",
       techStackTitle: "Tech Stack",
@@ -724,13 +724,13 @@ const translations = {
         }
       ],
       architectureTitle: "Technical Architecture",
-      frontendTitle: "Frontend / Client Tier",
+      frontendTitle: "Frontend",
       frontendDesc: "Interactive and responsive user interface built with Next.js 14 (App Router) and Tailwind CSS to guarantee a premium, sleek and ultra-fast mobile-first design.",
-      backendTitle: "Serverless / Logic Tier",
+      backendTitle: "Serverless",
       backendDesc: "Serverless management via Next.js Server Actions and integration with the Google Calendar API to synchronize every reservation in real time.",
-      databaseTitle: "Database / Auth Tier",
+      databaseTitle: "Database",
       databaseDesc: "Secure relational database and real-time user authentication managed natively via Supabase for secure appointment persistence.",
-      resultsTitle: "Achieved Results",
+      resultsTitle: "Why is it the right choice?",
       resultsList: [
         "Instant two-way synchronization with Google Calendar APIs.",
         "Excellent loading speed thanks to Next.js 14 server-side rendering.",
