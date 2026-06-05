@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, LineChart, Shield, Zap } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
@@ -12,6 +12,7 @@ import { useLanguage } from '../context/LanguageContext';
 const Home = () => {
   const { t } = useLanguage();
   const navigate = useNavigate();
+  const shouldReduceMotion = useReducedMotion();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [lightbox, setLightbox] = useState(null);
 
@@ -157,80 +158,65 @@ const Home = () => {
 
         {/* 4. COME LAVORIAMO */}
         <section className="home-section">
-          <h2 className="section-title">{t('home.process.title')}</h2>
-          <div className="timeline" style={{ position: 'relative' }}>
-            {/* Animated primary line overlay */}
-            <motion.div 
-              initial={{ width: 0 }}
-              whileInView={{ width: '100%' }}
-              viewport={{ once: true, amount: 0.3 }}
-              transition={{ duration: 1.2, ease: "linear" }}
-              style={{
-                position: 'absolute',
-                top: '24px',
-                left: 0,
-                height: '2px',
-                background: 'var(--primary)',
-                zIndex: 1
-              }}
-            />
+          <motion.h2 
+            className="section-title"
+            initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-10%" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          >
+            {t('home.process.title')}
+          </motion.h2>
+          
+          <div className="timeline">
+            {/* Animated line */}
+            <div className="timeline-line-bg">
+              <motion.div 
+                className="timeline-line-fill"
+                initial={{ scaleX: 0 }}
+                whileInView={{ scaleX: 1 }}
+                viewport={{ once: true, margin: "-10%" }}
+                transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
+              >
+                <div className="timeline-line-highlight" />
+              </motion.div>
+            </div>
 
-            <div className="timeline-step" style={{ zIndex: 2 }}>
+            {t('home.process.steps').map((step, idx) => (
               <motion.div 
-                className="step-number"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0 }}
-              >1</motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.4, delay: 0.2 }}
+                key={idx}
+                className="timeline-step"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, margin: "-10%" }}
+                variants={{
+                  hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, filter: shouldReduceMotion ? "blur(0px)" : "blur(4px)" },
+                  visible: { 
+                    opacity: 1, 
+                    y: 0,
+                    filter: "blur(0px)",
+                    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 + (idx * 0.15) }
+                  }
+                }}
               >
-                <h3>{t('home.process.steps')[0].title}</h3>
-                <p>{t('home.process.steps')[0].desc}</p>
+                <motion.div 
+                  className="step-number"
+                  variants={{
+                    hidden: { scale: shouldReduceMotion ? 1 : 0.8, opacity: 0 },
+                    visible: { 
+                      scale: 1, 
+                      opacity: 1,
+                      transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.2 + (idx * 0.15) }
+                    }
+                  }}
+                >
+                  <div className="step-glow" />
+                  <span>{idx + 1}</span>
+                </motion.div>
+                <h3>{step.title}</h3>
+                <p>{step.desc}</p>
               </motion.div>
-            </div>
-            
-            <div className="timeline-step" style={{ zIndex: 2 }}>
-              <motion.div 
-                className="step-number"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0.6 }}
-              >2</motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.4, delay: 0.8 }}
-              >
-                <h3>{t('home.process.steps')[1].title}</h3>
-                <p>{t('home.process.steps')[1].desc}</p>
-              </motion.div>
-            </div>
-            
-            <div className="timeline-step" style={{ zIndex: 2 }}>
-              <motion.div 
-                className="step-number"
-                initial={{ scale: 0 }}
-                whileInView={{ scale: 1 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 1.2 }}
-              >3</motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, amount: 0.3 }}
-                transition={{ duration: 0.4, delay: 1.4 }}
-              >
-                <h3>{t('home.process.steps')[2].title}</h3>
-                <p>{t('home.process.steps')[2].desc}</p>
-              </motion.div>
-            </div>
+            ))}
           </div>
         </section>
 
