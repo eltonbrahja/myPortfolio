@@ -162,7 +162,7 @@ const Home = () => {
             className="section-title"
             initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-10%" }}
+            viewport={{ once: false, margin: "-10%" }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             {t('home.process.title')}
@@ -175,7 +175,7 @@ const Home = () => {
                 className="timeline-line-fill"
                 initial={{ scaleX: 0 }}
                 whileInView={{ scaleX: 1 }}
-                viewport={{ once: true, margin: "-10%" }}
+                viewport={{ once: false, margin: "-10%" }}
                 transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
               >
                 <div className="timeline-line-highlight" />
@@ -188,7 +188,7 @@ const Home = () => {
                 className="timeline-step"
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, margin: "-10%" }}
+                viewport={{ once: false, margin: "-10%" }}
                 variants={{
                   hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, filter: shouldReduceMotion ? "blur(0px)" : "blur(4px)" },
                   visible: { 
