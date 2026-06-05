@@ -26,7 +26,7 @@ import './Portfolio.css';const Portfolio = () => {
     {
       title: t('portfolio.projects')[1].title,
       images: ["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"],
-      tags: ["REACT VITE", "NODE.JS", "EXPRESS", "MONGODB", "CUSTOM BOOKING"],
+      tags: ["REACT VITE", "NODE.JS", "CUSTOM BOOKING"],
       description: t('portfolio.projects')[1].description,
       internalLink: "/portfolio/custom-booking",
       linkText: t('portfolio.projects')[1].linkText
