@@ -123,37 +123,91 @@ const Home = () => {
         </section>
 
         {/* 3. COSA OTTIENI */}
-        <section className="home-section">
-          <h2 className="section-title">{t('home.benefits.title')}</h2>
-          <div className="cards-grid">
-            <GlassCard className="home-card">
-              <LineChart size={32} className="text-blue" strokeWidth={1.5} />
-              <h3>{t('home.benefits.cards')[0].title}</h3>
-              <ul>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[0]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[1]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[0].bullets[2]}</li>
-              </ul>
-            </GlassCard>
-            <GlassCard className="home-card">
-              <Shield size={32} className="text-purple" strokeWidth={1.5} />
-              <h3>{t('home.benefits.cards')[1].title}</h3>
-              <ul>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[0]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[1]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[1].bullets[2]}</li>
-              </ul>
-            </GlassCard>
-            <GlassCard className="home-card">
-              <Zap size={32} className="text-green" strokeWidth={1.5} />
-              <h3>{t('home.benefits.cards')[2].title}</h3>
-              <ul>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[0]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[1]}</li>
-                <li><CheckCircle2 size={16} /> {t('home.benefits.cards')[2].bullets[2]}</li>
-              </ul>
-            </GlassCard>
-          </div>
+        <section className="home-section premium-benefits-section">
+          <motion.h2 
+            className="section-title"
+            initial={{ opacity: 0, clipPath: 'inset(100% 0 0 0)' }}
+            whileInView={{ opacity: 1, clipPath: 'inset(0% 0 0 0)' }}
+            viewport={{ once: false, margin: "-10%" }}
+            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+          >
+            {t('home.benefits.title')}
+          </motion.h2>
+          
+          <motion.div 
+            className="cards-grid"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, margin: "-10%" }}
+            variants={{
+              hidden: {},
+              visible: {
+                transition: { staggerChildren: 0.2 }
+              }
+            }}
+          >
+            {[
+              { icon: LineChart, colorClass: "text-blue" },
+              { icon: Shield, colorClass: "text-purple" },
+              { icon: Zap, colorClass: "text-green" }
+            ].map((item, idx) => {
+              const Icon = item.icon;
+              return (
+                <motion.div 
+                  key={idx}
+                  variants={{
+                    hidden: { opacity: 0.3, scale: 0.98, filter: shouldReduceMotion ? "none" : "brightness(0.6) blur(2px)" },
+                    visible: { 
+                      opacity: 1, 
+                      scale: 1,
+                      filter: shouldReduceMotion ? "none" : "brightness(1) blur(0px)",
+                      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] }
+                    }
+                  }}
+                >
+                  <GlassCard className="home-card premium-card">
+                    <motion.div
+                      variants={{
+                        hidden: { opacity: 0, scale: 0.8 },
+                        visible: { opacity: 1, scale: 1, transition: { delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
+                      }}
+                    >
+                      <Icon size={32} className={`premium-icon ${item.colorClass}`} strokeWidth={1.5} />
+                    </motion.div>
+                    
+                    <motion.h3
+                      variants={{
+                        hidden: { opacity: 0, y: 10 },
+                        visible: { opacity: 1, y: 0, transition: { delay: 0.4, duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
+                      }}
+                    >
+                      {t('home.benefits.cards')[idx].title}
+                    </motion.h3>
+                    
+                    <ul className="premium-list">
+                      {[0, 1, 2].map((bulletIdx) => (
+                        <motion.li 
+                          key={bulletIdx}
+                          variants={{
+                            hidden: { opacity: 0, x: -10, clipPath: 'inset(0 100% 0 0)' },
+                            visible: { 
+                              opacity: 1, 
+                              x: 0, 
+                              clipPath: 'inset(0 0% 0 0)',
+                              transition: { delay: 0.5 + (bulletIdx * 0.15), duration: 0.5, ease: [0.16, 1, 0.3, 1] }
+                            }
+                          }}
+                        >
+                          <CheckCircle2 size={16} className="premium-bullet-icon" /> 
+                          <span>{t('home.benefits.cards')[idx].bullets[bulletIdx]}</span>
+                        </motion.li>
+                      ))}
+                    </ul>
+                  </GlassCard>
+                </motion.div>
+              );
+            })}
+          </motion.div>
         </section>
 
         {/* 4. COME LAVORIAMO */}
