@@ -160,21 +160,78 @@ const LandingProfessionisti = () => {
         {/* 4. COME LAVORIAMO */}
         <section className="landing-section">
           <h2 className="section-title">Come lavoriamo insieme in 3 step</h2>
-          <div className="timeline">
-            <div className="timeline-step">
-              <div className="step-number">1</div>
-              <h3>Call conoscitiva (30 minuti)</h3>
-              <p>Capisco i tuoi obiettivi, il tuo target e i contenuti che hai a disposizione per delineare la strategia.</p>
+          <div className="timeline" style={{ position: 'relative' }}>
+            {/* Animated primary line overlay */}
+            <motion.div 
+              initial={{ width: 0 }}
+              whileInView={{ width: '100%' }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 1.2, ease: "linear" }}
+              style={{
+                position: 'absolute',
+                top: '24px',
+                left: 0,
+                height: '2px',
+                background: 'var(--primary)',
+                zIndex: 1
+              }}
+            />
+
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0 }}
+              >1</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 0.2 }}
+              >
+                <h3>Call conoscitiva (30 minuti)</h3>
+                <p>Capisco i tuoi obiettivi, il tuo target e i contenuti che hai a disposizione per delineare la strategia.</p>
+              </motion.div>
             </div>
-            <div className="timeline-step">
-              <div className="step-number">2</div>
-              <h3>Proposta + wireframe</h3>
-              <p>Ti propongo struttura, tempi e investimento chiaro. Nessun costo nascosto se decidi di non proseguire.</p>
+            
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 0.6 }}
+              >2</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 0.8 }}
+              >
+                <h3>Proposta + wireframe</h3>
+                <p>Ti propongo struttura, tempi e investimento chiaro. Nessun costo nascosto se decidi di non proseguire.</p>
+              </motion.div>
             </div>
-            <div className="timeline-step">
-              <div className="step-number">3</div>
-              <h3>Sviluppo & lancio</h3>
-              <p>Design, sviluppo, ottimizzazione e messa online. Ti consegno un sito chiavi in mano che puoi gestire.</p>
+            
+            <div className="timeline-step" style={{ zIndex: 2 }}>
+              <motion.div 
+                className="step-number"
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ type: 'spring', stiffness: 300, damping: 20, delay: 1.2 }}
+              >3</motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.4, delay: 1.4 }}
+              >
+                <h3>Sviluppo & lancio</h3>
+                <p>Design, sviluppo, ottimizzazione e messa online. Ti consegno un sito chiavi in mano che puoi gestire.</p>
+              </motion.div>
             </div>
           </div>
         </section>
