@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useNavigate, Link } from 'react-router-dom';
-import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, LineChart, Shield, Zap, ExternalLink } from 'lucide-react';
+import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, UserSearch, MessageCircleCheck, Gauge, ExternalLink } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
@@ -202,9 +202,9 @@ const Home = () => {
             }}
           >
             {[
-              { icon: LineChart, colorClass: "text-blue" },
-              { icon: Shield, colorClass: "text-purple" },
-              { icon: Zap, colorClass: "text-green" }
+              { icon: UserSearch, colorClass: "text-blue" },
+              { icon: MessageCircleCheck, colorClass: "text-purple" },
+              { icon: Gauge, colorClass: "text-green" }
             ].map((item, idx) => {
               const Icon = item.icon;
               return (
