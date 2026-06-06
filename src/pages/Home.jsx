@@ -5,9 +5,9 @@ import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, Use
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
-import './Home.css';
-
+import { getProjects } from '../data/projects';
 import { useLanguage } from '../context/LanguageContext';
+import './Home.css';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -333,38 +333,44 @@ const Home = () => {
         <section className="home-section" id="portfolio">
           <h2 className="section-title">{t('home.portfolio.title')}</h2>
           <div className="portfolio-mini">
-            <GlassCard className="portfolio-item">
-              <div className="portfolio-info">
-                <h3>{t('portfolio.projects')[0].title}</h3>
-                <p>{t('portfolio.projects')[0].description}</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[0]}</p>
-              </div>
-              <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                <ProjectGallery images={["/palazzodana-1.webp", "/palazzodana-2.webp", "/palazzodana-3.webp", "/palazzodana-4.webp"]} title="Palazzo Dana" layout="dual" openLightbox={openLightbox} />
-              </div>
-            </GlassCard>
-            
-            <GlassCard className="portfolio-item">
-              <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                <ProjectGallery images={["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"]} title={t('portfolio.projects')[1].title} openLightbox={openLightbox} />
-              </div>
-              <div className="portfolio-info">
-                <h3>{t('portfolio.projects')[1].title}</h3>
-                <p>{t('portfolio.projects')[1].description}</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[1]}</p>
-              </div>
-            </GlassCard>
-            
-            <GlassCard className="portfolio-item">
-              <div className="portfolio-info">
-                <h3>{t('portfolio.projects')[2].title}</h3>
-                <p>{t('portfolio.projects')[2].description}</p>
-                <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[2]}</p>
-              </div>
-              <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                <ProjectGallery images={["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"]} title={t('portfolio.projects')[2].title} openLightbox={openLightbox} />
-              </div>
-            </GlassCard>
+            {getProjects(t).slice(0, 3).map((project, idx) => {
+              const infoBlock = (
+                <div className="portfolio-info">
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>
+                    {t('home.portfolio.results')[idx]}
+                  </p>
+                </div>
+              );
+              
+              const imageBlock = (
+                <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
+                  <ProjectGallery 
+                    images={project.images} 
+                    title={project.title} 
+                    layout={idx === 0 ? "dual" : "single"} 
+                    openLightbox={openLightbox} 
+                  />
+                </div>
+              );
+
+              return (
+                <GlassCard key={idx} className="portfolio-item">
+                  {idx % 2 === 1 ? (
+                    <>
+                      {imageBlock}
+                      {infoBlock}
+                    </>
+                  ) : (
+                    <>
+                      {infoBlock}
+                      {imageBlock}
+                    </>
+                  )}
+                </GlassCard>
+              );
+            })}
           </div>
         </section>
 
