@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
-import { useNavigate } from 'react-router-dom';
-import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, LineChart, Shield, Zap } from 'lucide-react';
+import { useNavigate, Link } from 'react-router-dom';
+import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, LineChart, Shield, Zap, ExternalLink } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
@@ -10,7 +10,7 @@ import { useLanguage } from '../context/LanguageContext';
 import './Home.css';
 
 const Home = () => {
-  const { t } = useLanguage();
+  const { t, localizePath } = useLanguage();
   const navigate = useNavigate();
   const shouldReduceMotion = useReducedMotion();
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -338,9 +338,19 @@ const Home = () => {
                 <div className="portfolio-info">
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
-                  <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>
-                    {t('home.portfolio.results')[idx]}
-                  </p>
+                  <div className="portfolio-actions" style={{ marginTop: '1.5rem' }}>
+                    {project.internalLink ? (
+                      <Link to={localizePath(project.internalLink)} className="portfolio-link">
+                        {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
+                      </Link>
+                    ) : (
+                      project.link !== "#" && (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+                          {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
+                        </a>
+                      )
+                    )}
+                  </div>
                 </div>
               );
               
