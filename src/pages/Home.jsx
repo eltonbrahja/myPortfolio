@@ -346,7 +346,7 @@ const Home = () => {
             
             <GlassCard className="portfolio-item">
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                <ProjectGallery images={["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"]} title="Danubia Macario" openLightbox={openLightbox} />
+                <ProjectGallery images={["/prenotazione/prenotazione1.png", "/prenotazione/prenotazione2.png", "/prenotazione/prenotazione3.png", "/prenotazione/prenotazione4.png"]} title={t('portfolio.projects')[1].title} openLightbox={openLightbox} />
               </div>
               <div className="portfolio-info">
                 <h3>{t('portfolio.projects')[1].title}</h3>
@@ -362,7 +362,7 @@ const Home = () => {
                 <p className="text-gradient" style={{ marginTop: '1rem', fontWeight: 'bold' }}>{t('home.portfolio.results')[2]}</p>
               </div>
               <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                <ProjectGallery images={["/alessandra-1.webp", "/alessandra-2.webp"]} title="Alessandra Marascio" openLightbox={openLightbox} />
+                <ProjectGallery images={["/danubia-1.webp", "/danubia-2.webp", "/danubia-3.webp", "/danubia-4.webp"]} title={t('portfolio.projects')[2].title} openLightbox={openLightbox} />
               </div>
             </GlassCard>
           </div>
