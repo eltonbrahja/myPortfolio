@@ -25,6 +25,36 @@ export const dieciErroriSitoPost = {
   readTime: "8 min di lettura",
   category: "UX & Conversioni",
   image: "/10-errori-sito.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual è l'errore più grave che fa perdere visite su mobile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La mancanza di un design responsive. Se il sito non si adatta automaticamente agli smartphone e obbliga l'utente a zoomare per leggere o a fare fatica a cliccare i bottoni, oltre il 50% dei visitatori abbandonerà immediatamente la pagina."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come posso capire se il mio sito web è troppo lento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Puoi testare il tuo sito con strumenti gratuiti di Google come PageSpeed Insights. Se il tempo di caricamento supera i 3 secondi, rischi di perdere più della metà del traffico potenziale prima ancora che visualizzi la pagina."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa deve includere una buona Call to Action (CTA)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Una CTA efficace deve contenere un verbo d'azione chiaro e orientato al beneficio dell'utente, come 'Richiedi una consulenza gratuita' o 'Prenota una chiamata di 15 minuti', anziché testi generici come 'Invia' o 'Clicca qui'."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -104,6 +134,10 @@ export const dieciErroriSitoPost = {
         </li>
       </ul>
       <p>Qui entra in gioco il lavoro di struttura e layout: un professionista sa dove posizionare questi elementi perché siano sempre sotto gli occhi.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi assicurarti che i contatti del tuo sito siano posizionati nel modo corretto? <a href="/#contact">Richiedi un'analisi gratuita della UX della tua homepage →</a>
+      </p>
 
       <h2 id="foto-scarse">4. Foto scarse, sfocate o tutte di stock</h2>
       <p>
@@ -195,6 +229,10 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Un professionista non si limita all'aspetto estetico, ma lavora anche "sotto il cofano" per rendere il sito veloce e leggero.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I siti web che realizzo sono ottimizzati per caricarsi in meno di 2 secondi e rispettare i Core Web Vitals. <a href="/services">Scopri i dettagli dello sviluppo →</a>
+      </p>
+
       <h2 id="contenuti-vecchi">9. Contenuti vecchi, non aggiornati o poco chiari</h2>
       <p>
         Blog fermi da anni, servizi non più attuali, orari sbagliati: tutto questo dà l'idea di un'attività ferma o poco curata.
@@ -239,6 +277,19 @@ export const dieciErroriSitoPost = {
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>
       </p>
       <p>In pratica: non paghi solo "la grafica", ma un insieme di scelte pensate per fare in modo che chi arriva sul sito <strong>resti, capisca e ti contatti</strong>, invece di scappare dopo pochi secondi.</p>
+      <p>Per assicurarti che il tuo sito sia pronto al 100% sotto ogni punto di vista, consulta la nostra <a href="/blog/checklist-sito-web-controlli-online">checklist del sito web con i 15 controlli da fare prima di andare online</a>.</p>
+
+      <h2>FAQ - Domande Frequenti sugli Errori dei Siti Web</h2>
+      <dl className="faq-list">
+        <dt>Qual è l'errore più grave che fa perdere visite su mobile?</dt>
+        <dd>La mancanza di un design responsive. Se il sito non si adatta automaticamente agli smartphone e obbliga l'utente a zoomare per leggere o a fare fatica a cliccare i bottoni, oltre il 50% dei visitatori abbandonerà immediatamente la pagina.</dd>
+        
+        <dt>Come posso capire se il mio sito web è troppo lento?</dt>
+        <dd>Puoi testare il tuo sito con strumenti gratuiti di Google come PageSpeed Insights. Se il tempo di caricamento supera i 3 secondi, rischi di perdere più della metà del traffico potenziale prima ancora che visualizzi la pagina.</dd>
+        
+        <dt>Cosa deve includere una buona Call to Action (CTA)?</dt>
+        <dd>Una CTA efficace deve contenere un verbo d'azione chiaro e orientato al beneficio dell'utente, come "Richiedi una consulenza gratuita" o "Prenota una chiamata di 15 minuti", anziché testi generici come "Invia" o "Clicca qui".</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

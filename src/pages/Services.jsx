@@ -159,6 +159,42 @@ const Services = () => {
           ))}
         </motion.div>
 
+        {/* Insights Section */}
+        <motion.div 
+          className="services-insights"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.7 }}
+        >
+          <span className="section-label">{t('services.insightsLabel')}</span>
+          <h2 className="services-insights-title">
+            {t('services.insightsTitle')}
+          </h2>
+          <div className="insights-grid">
+            <Link to={localizePath('/blog/checklist-sito-web-controlli-online')} className="insight-card">
+              <span className="insight-category">{t('services.insights.checklist.category')}</span>
+              <h3>{t('services.insights.checklist.title')}</h3>
+              <p>{t('services.insights.checklist.desc')}</p>
+              <span className="insight-link">{t('blog.readMore')} →</span>
+            </Link>
+
+            <Link to={localizePath('/blog/quanto-costa-sito-web')} className="insight-card">
+              <span className="insight-category">{t('services.insights.costs.category')}</span>
+              <h3>{t('services.insights.costs.title')}</h3>
+              <p>{t('services.insights.costs.desc')}</p>
+              <span className="insight-link">{t('blog.readMore')} →</span>
+            </Link>
+
+            <Link to={localizePath('/blog/10-errori-sito-piccole-attivita')} className="insight-card">
+              <span className="insight-category">{t('services.insights.errors.category')}</span>
+              <h3>{t('services.insights.errors.title')}</h3>
+              <p>{t('services.insights.errors.desc')}</p>
+              <span className="insight-link">{t('blog.readMore')} →</span>
+            </Link>
+          </div>
+        </motion.div>
+
         {/* CTA Section */}
         <motion.div 
           className="services-cta"

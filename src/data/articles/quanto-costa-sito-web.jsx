@@ -25,6 +25,36 @@ export const quantoCostaSitoWebPost = {
   readTime: "5 min di lettura",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Perché c'è così tanta differenza di prezzo tra i preventivi per un sito web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La differenza dipende dal livello di personalizzazione, dallo studio dell'usabilità (UX), dalla scrittura di testi professionali (copywriting) e dal lavoro SEO. I preventivi più economici spesso usano template già pronti e non includono questi servizi fondamentali."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ci sono costi nascosti di cui dovrei preoccuparmi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I costi che spesso non sono inclusi nei preventivi base riguardano la scrittura dei testi, le immagini professionali, la manutenzione periodica (aggiornamenti di sicurezza) e l'ottimizzazione SEO continuativa. È fondamentale chiedere cosa sia escluso prima di firmare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto costa mantenere un sito web dopo il lancio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I costi fissi annuali includono il dominio (10-20 €) e l'hosting (80-300 € per siti vetrina). A questi si può aggiungere un servizio di manutenzione tecnica per aggiornamenti e sicurezza, che solitamente varia da 300 € a 1500 € l'anno."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -102,6 +132,10 @@ export const quantoCostaSitoWebPost = {
         </table>
       </div>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai bisogno di capire in quale fascia di prezzo si colloca il tuo progetto? <a href="/#contact">Richiedi un'analisi e un preventivo personalizzato per il tuo sito →</a>
+      </p>
+
       <h2 id="cosa-e-incluso">Cosa è (quasi sempre) incluso nel prezzo iniziale</h2>
       <p>In un preventivo serio per un sito web professionale trovi almeno questi elementi:</p>
       <ul style={{ paddingLeft: '20px' }}>
@@ -123,6 +157,10 @@ export const quantoCostaSitoWebPost = {
         <li><strong>Funzionalità avanzate extra:</strong> aree riservate, integrazioni con gestionali, CRM, sistemi di prenotazione complessi. <a href="https://makeroni.it/quanto-costa-un-sito-web-nel-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>makeroni ↗</a></li>
       </ul>
       <p>Quando confronti due preventivi, chiedi sempre cosa è compreso e cosa no, soprattutto su testi, foto, SEO e manutenzione.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi creare testi che attraggano clienti e posizionino il tuo sito su Google? <a href="/services">Scopri il mio servizio di Copywriting e SEO →</a>
+      </p>
 
       <h2 id="costi-mantenimento">Quanto costa mantenere un sito ogni anno</h2>
       <p>Oltre al costo di realizzazione, ci sono i costi ricorrenti per tenere il sito online e aggiornato.</p>
@@ -171,6 +209,18 @@ export const quantoCostaSitoWebPost = {
         <li><strong>Se la manutenzione è inclusa e per quanto tempo</strong> (es. 1–3 mesi dopo il lancio) o se c’è un canone annuale chiaro. <a href="https://www.formazioneprofessionista.it/it/post/professioni/quanto-costa-far-realizzare-un-sito-internet" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>formazioneprofessionista ↗</a></li>
       </ul>
       <p>Un preventivo più alto ma chiaro e completo spesso è più conveniente, nel medio periodo, di uno “low cost” pieno di limiti nascosti.</p>
+
+      <h2>FAQ - Domande Frequenti sui Costi di un Sito Web</h2>
+      <dl className="faq-list">
+        <dt>Perché c'è così tanta differenza di prezzo tra i preventivi per un sito web?</dt>
+        <dd>La differenza dipende dal livello di personalizzazione, dallo studio dell'usabilità (UX), dalla scrittura di testi professionali (copywriting) e dal lavoro SEO. I preventivi più economici spesso usano template già pronti e non includono questi servizi fondamentali.</dd>
+        
+        <dt>Ci sono costi nascosti di cui dovrei preoccuparmi?</dt>
+        <dd>I costi che spesso non sono inclusi nei preventivi base riguardano la scrittura dei testi, le immagini professionali, la manutenzione periodica (aggiornamenti di sicurezza) e l'ottimizzazione SEO continuativa. È fondamentale chiedere cosa sia escluso prima di firmare.</dd>
+        
+        <dt>Quanto costa mantenere un sito web dopo il lancio?</dt>
+        <dd>I costi fissi annuali includono il dominio (10-20 €) e l'hosting (80-300 € per siti vetrina). A questi si può aggiungere un servizio di manutenzione tecnica per aggiornamenti e sicurezza, che solitamente varia da 300 € a 1500 € l'anno.</dd>
+      </dl>
 
       <h2>E adesso: quanto costerà il TUO sito?</h2>
       <p>

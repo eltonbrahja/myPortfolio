@@ -25,6 +25,36 @@ export const comeScrivereTestiEfficaciPostEn = {
   readTime: "6 min read",
   category: "Copywriting",
   image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I have to hire a professional copywriter for my website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not necessarily in the beginning. If you follow guidelines for clarity, write short sentences, avoid technical jargon, and focus on your customers' actual problems, you can get great copy on your own."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which are the most important pages to focus on when writing website copy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The Homepage (which must instantly clarify what you do and for whom), the About Page (which builds trust and connection), and the Service Pages (which clearly explain benefits and purchasing options)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a Call to Action (CTA) and where should it be placed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A CTA is a clear invitation to act (e.g., 'Contact me for a quote'). It should be placed in hot areas of the page: in the header, midway through the copy, and at the end, keeping it highly visible."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -90,6 +120,10 @@ export const comeScrivereTestiEfficaciPostEn = {
         <a href="https://it.squarespace.com/blog/come-scrivere-contenuti-per-siti-web" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>squarespace ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Have doubts about how effective your current website copy is? <a href="/en#contact">Request a review or a free homepage copy analysis →</a>
+      </p>
+
       <h2 id="scrivi-frasi-brevi">Write short sentences and simple words</h2>
       <p>
         People on the web don't read line by line: they scroll quickly looking for keywords that reassure them. That's why short sentences, brief paragraphs, and bullet points work much better than long blocks of text.
@@ -126,6 +160,10 @@ export const comeScrivereTestiEfficaciPostEn = {
       <p>
         This way of writing forces you to translate your work into concrete results: more requests, more bookings, less confusion, higher perceived professionalism. That is what people reading actually care about.
         <a href="https://it.squarespace.com/blog/come-scrivere-contenuti-per-siti-web" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>squarespace ↗</a>
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        All my website packages include consulting for content architecture and SEO copywriting. <a href="/services">Find out how I can help →</a>
       </p>
 
       <h2 id="parla-come-clienti">Speak the way your customers speak</h2>
@@ -180,6 +218,18 @@ export const comeScrivereTestiEfficaciPostEn = {
         You can repeat the CTA at multiple points on the page (at the beginning, middle, and end) so those who are convinced early on don't have to scroll all the way down to reach out.
         <a href="https://www.avantgrade.com/seo/meta-title-meta-description" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>avantgrade ↗</a>
       </p>
+
+      <h2>FAQ - Frequently Asked Questions on Website Copywriting</h2>
+      <dl className="faq-list">
+        <dt>Do I have to hire a professional copywriter for my website?</dt>
+        <dd>Not necessarily in the beginning. If you follow guidelines for clarity, write short sentences, avoid technical jargon, and focus on your customers' actual problems, you can get great copy on your own.</dd>
+        
+        <dt>Which are the most important pages to focus on when writing website copy?</dt>
+        <dd>The Homepage (which must instantly clarify what you do and for whom), the About Page (which builds trust and connection), and the Service Pages (which clearly explain benefits and purchasing options).</dd>
+        
+        <dt>What is a Call to Action (CTA) and where should it be placed?</dt>
+        <dd>A CTA is a clear invitation to act (e.g., "Contact me for a quote"). It should be placed in hot areas of the page: in the header, midway through the copy, and at the end, keeping it highly visible.</dd>
+      </dl>
 
       <h2 id="checklist-pratica">A practical checklist for immediate improvement</h2>
       <p>To conclude, you can use this checklist every time you write or revise a page:</p>

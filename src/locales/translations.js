@@ -208,7 +208,26 @@ const translations = {
       ],
       ctaTitle: "Hai un progetto in mente?",
       ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per la tua attività. Ogni progetto inizia con una conversazione — senza impegno.",
-      ctaBtn: "Parliamone"
+      ctaBtn: "Parliamone",
+      insightsLabel: "Guide & Risorse",
+      insightsTitle: "Approfondimenti Utili per la tua Attività",
+      insights: {
+        checklist: {
+          category: "Checklist",
+          title: "Checklist sito web: 15 controlli prima di andare online",
+          desc: "Evita errori costosi al lancio. Ecco i 15 controlli fondamentali prima di mettere online il tuo nuovo sito."
+        },
+        costs: {
+          category: "Guida Costi",
+          title: "Quanto costa un sito web nel 2026? Guida completa",
+          desc: "Un'analisi dettagliata dei costi per la creazione di un sito, divisa per tipologia, funzionalità e piattaforme."
+        },
+        errors: {
+          category: "UX & Conversioni",
+          title: "10 errori nei siti web delle piccole attività",
+          desc: "Scopri quali sono le sviste più comuni che spingono i visitatori a lasciare il sito e come correggerle subito."
+        }
+      }
     },
     portfolio: {
       label: "Lavori Precedenti",
@@ -579,7 +598,26 @@ const translations = {
       ],
       ctaTitle: "Have a project in mind?",
       ctaDesc: "Tell me about your idea and let's find the best solution for your business together. Every project starts with a conversation — no strings attached.",
-      ctaBtn: "Let's talk"
+      ctaBtn: "Let's talk",
+      insightsLabel: "Guides & Resources",
+      insightsTitle: "Useful Insights for Your Business",
+      insights: {
+        checklist: {
+          category: "Checklist",
+          title: "Website Launch Checklist: 15 essential steps before going live",
+          desc: "Avoid costly launch errors. Here are the 15 fundamental checks before putting your new site online."
+        },
+        costs: {
+          category: "Cost Guide",
+          title: "How much does a website cost in 2026? Full Guide",
+          desc: "A detailed breakdown of website creation costs, categorized by type, features, and platforms."
+        },
+        errors: {
+          category: "UX & Conversions",
+          title: "10 common website mistakes small businesses make",
+          desc: "Discover the most frequent blunders that drive visitors away and how to fix them immediately."
+        }
+      }
     },
     portfolio: {
       label: "Previous Work",

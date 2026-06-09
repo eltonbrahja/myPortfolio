@@ -8,6 +8,36 @@ export const comePreparartiContattareWebDesignerPostEn = {
   readTime: "4 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What materials do I need to provide to the web designer before starting?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You don't need to have everything ready immediately, but the core materials are your logo (if you have one), basic texts describing who you are and what you do, high-quality photos of your work/studio (or ideas for stock images), and your contact details."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I do if I don't have clear design ideas for my website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No worries, guiding you is part of the web designer's job. A great way to start is to gather 3 or 4 links of websites you like (even from other industries) and note what you like about them (e.g., color scheme, clarity, contact forms)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I purchase the domain and hosting before contacting a professional?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, it is usually best to wait and discuss it with the web designer. A professional can recommend the best hosting based on your performance needs and guide you through the purchase and technical setup to avoid errors."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -80,6 +110,10 @@ export const comePreparartiContattareWebDesignerPostEn = {
         <li>Suggest what needs to be rewritten from scratch and what can be salvaged.</li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Don't have your photos or copy ready yet? No problem, I can help you draft and refine your content. <a href="/en/services">Discover my process →</a>
+      </p>
+
       <h2 id="idea-struttura">Get an Idea of the Structure (Even If It Changes)</h2>
       <p>
         You don't need to know exactly how many pages your site will have, but it is useful to arrive with at least a draft of a structure, however simple.
@@ -128,6 +162,7 @@ export const comePreparartiContattareWebDesignerPostEn = {
       <h2 id="dopo-lancio">Decide Who Does What After the Launch</h2>
       <p>
         A website is not "finished" the day it launches: it must be updated, protected, and often enriched with new content.
+        To understand all the steps needed for a successful launch, you can check out our <a href="/en/blog/checklist-sito-web-controlli-online">website launch checklist before going live</a>.
       </p>
       <p>Before contacting a web designer, ask yourself:</p>
       <ul>
@@ -140,6 +175,10 @@ export const comePreparartiContattareWebDesignerPostEn = {
         <li>Offer you basic training so you can be independent with simple tasks.</li>
         <li>Or propose a support and maintenance plan, so you can focus on your work and I take care of the rest.</li>
       </ul>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to delegate technical maintenance and focus entirely on your business? <a href="/en/#contact">Request a custom maintenance plan →</a>
+      </p>
 
       <h2 id="messaggi-chiave">Prepare 2–3 Key Messages About Your Way of Working</h2>
       <p>
@@ -154,6 +193,18 @@ export const comePreparartiContattareWebDesignerPostEn = {
       <p>
         When a client comes to me with these things clear, I can highlight them in the copy, graphic choices, and calls to action, so the site really resembles them and isn't just a generic "copy and paste."
       </p>
+
+      <h2>FAQ - Frequently Asked Questions about Website Preparation</h2>
+      <dl className="faq-list">
+        <dt>What materials do I need to provide to the web designer before starting?</dt>
+        <dd>You don't need to have everything ready immediately, but the core materials are your logo (if you have one), basic texts describing who you are and what you do, high-quality photos of your work/studio (or ideas for stock images), and your contact details.</dd>
+        
+        <dt>What should I do if I don't have clear design ideas for my website?</dt>
+        <dd>No worries, guiding you is part of the web designer's job. A great way to start is to gather 3 or 4 links of websites you like (even from other industries) and note what you like about them (e.g., color scheme, clarity, contact forms).</dd>
+        
+        <dt>Should I purchase the domain and hosting before contacting a professional?</dt>
+        <dd>No, it is usually best to wait and discuss it with the web designer. A professional can recommend the best hosting based on your performance needs and guide you through the purchase and technical setup to avoid errors.</dd>
+      </dl>
 
       <h2 id="cosa-faccio-io">What I Do With All This Information</h2>
       <p>

@@ -25,6 +25,36 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
   readTime: "7 min di lettura",
   category: "Business & Budget",
   image: "/sito-abbonamento.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual è la differenza principale tra un sito in abbonamento e uno a pagamento unico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Con il pagamento unico compri il sito come un asset proprietario: una volta saldato, è tuo e paghi solo i costi vivi di hosting/dominio. Con l'abbonamento mensile, paghi una tariffa ricorrente per usufruire del sito e di un servizio continuo di manutenzione, aggiornamenti e supporto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Chi è il proprietario del dominio e del sito in caso di abbonamento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Dipende dall'accordo. In molti servizi low-cost l'agenzia rimane proprietaria del sito e, se interrompi l'abbonamento, il sito viene rimosso. Nei contratti professionali è importante che il dominio sia intestato a te e che sia definito un riscatto per la proprietà del sito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa succede se voglio disdire l'abbonamento mensile del mio sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Di solito i contratti in abbonamento prevedono un vincolo temporale minimo (es. 12, 24 o 36 mesi). Se decidi di disdire prima del termine, potrebbe esserti richiesto di saldare le rate rimanenti o una penale di recesso. Verifica sempre questa clausola nel contratto."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -195,6 +225,10 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
         </li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai ricevuto un preventivo a canone e vuoi capire se nasconde insidie? <a href="/#contact">Contattami per un parere gratuito sul tuo preventivo →</a>
+      </p>
+
       <p>Sono proprio queste zone grigie che rendono difficile confrontare due offerte a canone mensile.</p>
 
       <h2 id="come-leggere-offerta">Come leggere un’offerta: separa sempre queste tre voci</h2>
@@ -246,6 +280,10 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
         In questi casi, il modello una tantum è più lineare: paghi il progetto, il sito è tuo, e se un domani vuoi cambiare sviluppatore puoi farlo senza drammi.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Se cerchi un sito web professionale di proprietà, senza canoni mensili vincolanti, <a href="/services">scopri come realizzo siti web su misura →</a>
+      </p>
+
       <h2 id="quando-ha-senso-abbonamento">Quando ha senso davvero un abbonamento mensile</h2>
       <p>L’abbonamento mensile, invece, ha senso se:</p>
       <ul style={{ paddingLeft: '20px' }}>
@@ -284,6 +322,18 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
         <li>Se la tua priorità è <strong>“avere il sito fatto bene, possederlo e poi gestire solo il minimo indispensabile”</strong>, di solito è meglio il <strong>pagamento unico</strong> con eventuale piccolo canone solo per hosting e manutenzione base.</li>
         <li>Se la tua priorità è <strong>“avere qualcuno che tutti i mesi mette mano al sito, lo aggiorna e lo fa crescere con me”</strong>, allora può avere senso <strong>un abbonamento chiaro e strutturato</strong>, purché ben scritto.</li>
       </ul>
+
+      <h2>FAQ - Domande Frequenti su Abbonamento vs Pagamento Unico</h2>
+      <dl className="faq-list">
+        <dt>Qual è la differenza principale tra un sito in abbonamento e uno a pagamento unico?</dt>
+        <dd>Con il pagamento unico compri il sito come un asset proprietario: una volta saldato, è tuo e paghi solo i costi vivi di hosting/dominio. Con l'abbonamento mensile, paghi una tariffa ricorrente per usufruire del sito e di un servizio continuo di manutenzione, aggiornamenti e supporto.</dd>
+        
+        <dt>Chi è il proprietario del dominio e del sito in caso di abbonamento?</dt>
+        <dd>Dipende dall'accordo. In molti servizi low-cost l'agenzia rimane proprietaria del sito e, se interrompi l'abbonamento, il sito viene rimosso. Nei contratti professionali è importante che il dominio sia intestato a te e che sia definito un riscatto per la proprietà del sito.</dd>
+        
+        <dt>Cosa succede se voglio disdire l'abbonamento mensile del mio sito?</dt>
+        <dd>Di solito i contratti in abbonamento prevedono un vincolo temporale minimo (es. 12, 24 o 36 mesi). Se decidi di disdire prima del termine, potrebbe esserti richiesto di saldare le rate rimanenti o una penale di recesso. Verifica sempre questa clausola nel contratto.</dd>
+      </dl>
 
       <h2 id="cosa-fare-pratica">E adesso, cosa puoi fare in pratica</h2>
       <p>

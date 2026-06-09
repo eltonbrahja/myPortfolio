@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const seoLocaleGoogleMapsPostEn = {
   id: "seo-locale-google-maps",
@@ -25,6 +10,36 @@ export const seoLocaleGoogleMapsPostEn = {
   readTime: "5 min read",
   category: "Local SEO",
   image: "https://unsplash.com/photos/UWVJaDvXW_c/download?w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Local SEO and why does my business need it?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local SEO is the set of optimizations that allow your business to appear on Google (including maps) when users search for a service in your area, such as 'business + city'. It helps you intercept clients ready to buy."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to rank on Google Maps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Google Business Profile verification is instant, but optimization and ranking in the top results usually take anywhere from a few weeks to 3-6 months, depending on the competition in your city."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I appear on Google Maps if I don't have a physical office or store?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If you offer on-site services (e.g. plumber, electrician, mobile consultant), you can create a profile setting a service area without showing your private address publicly."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -98,6 +113,10 @@ export const seoLocaleGoogleMapsPostEn = {
         If you want, I can handle this part: I'll write the description text, set correct categories and services, organize the plan to collect reviews and make the profile much more “sales-oriented”.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Need to set up and optimize your Google Business Profile professionally? <a href="/en#contact">Contact me for initial optimization and consulting →</a>
+      </p>
+
       <h2 id="passo-3">Step 3: make your website clear for Google (and for those who search)</h2>
       <p>
         The Google profile is fundamental, but alone it's not enough: Google also looks at your website to understand where you are, what you do and for which area you are relevant. That's why on the website it's important to:
@@ -136,6 +155,10 @@ export const seoLocaleGoogleMapsPostEn = {
         When I take charge of a local reality, I do a sort of “cleanup” of online info: I verify where you are present, align data and help you build a solid and consistent foundation for your digital presence.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want a website natively optimized for local SEO and built to convert visitors into clients? <a href="/services">Discover my website development services →</a>
+      </p>
+
       <h2 id="perche-conviene">Why you should get help from a professional</h2>
       <p>
         Putting a site online and opening a Google profile can also be done independently, but making sure your name comes up when they search “business + city” requires some method, attention to details and continuity.
@@ -150,6 +173,18 @@ export const seoLocaleGoogleMapsPostEn = {
       <p>
         Basically, while you continue to take care of your clients, there is someone working so people in your city can find and choose you when they search for your service on Google.
       </p>
+
+      <h2>FAQ - Frequently Asked Questions on Local SEO and Google Maps</h2>
+      <dl className="faq-list">
+        <dt>What is Local SEO and why does my business need it?</dt>
+        <dd>Local SEO is the set of optimizations that allow your business to appear on Google (including maps) when users search for a service in your area, such as "business + city". It helps you intercept clients ready to buy.</dd>
+        
+        <dt>How long does it take to rank on Google Maps?</dt>
+        <dd>Google Business Profile verification is instant, but optimization and ranking in the top results usually take anywhere from a few weeks to 3-6 months, depending on the competition in your city.</dd>
+        
+        <dt>Can I appear on Google Maps if I don't have a physical office or store?</dt>
+        <dd>Yes. If you offer on-site services (e.g. plumber, electrician, mobile consultant), you can create a profile setting a service area without showing your private address publicly.</dd>
+      </dl>
 
       <h2 id="cosa-fare-adesso">What you can do now</h2>
       <p>

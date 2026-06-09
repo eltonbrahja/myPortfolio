@@ -25,6 +25,36 @@ export const guidaTipoSitoGiustoPost = {
   readTime: "8 min di lettura",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Qual è la differenza principale tra un sito vetrina e un e-commerce?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un sito vetrina serve a presentare la tua attività (chi sei, servizi, contatti) e a farti trovare localmente. Un e-commerce include invece un carrello, la gestione dei prodotti e dei sistemi di pagamento per vendere direttamente online."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso iniziare con un sito vetrina e aggiungere funzionalità in seguito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, è una pratica consigliata. Puoi iniziare con un sito vetrina semplice ed elegante e, man mano che l'attività cresce, integrare una sezione blog, un sistema di prenotazione appuntamenti o un negozio online completo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Ho bisogno di un sistema di prenotazione appuntamenti sul mio sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se la tua attività si basa sulla vendita di servizi a tempo (es. consulenze, trattamenti benessere, sedute mediche o corsi), un sistema di prenotazione automatizzato fa risparmiare tempo e migliora l'esperienza dell'utente, riducendo le telefonate."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -73,6 +103,10 @@ export const guidaTipoSitoGiustoPost = {
         </li>
       </ul>
       <p>Se oggi lavori soprattutto con il passaparola e i clienti ti cercano su Google per "vedere chi sei", il sito vetrina è quasi sempre il punto di partenza giusto.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai uno studio professionale o un'attività locale e vuoi un sito vetrina elegante e veloce? <a href="/services">Scopri il mio servizio di Realizzazione Siti Vetrina →</a>
+      </p>
 
       <h2 id="blog">2. Blog: farti trovare su Google e dimostrare competenza</h2>
       <p>
@@ -124,6 +158,10 @@ export const guidaTipoSitoGiustoPost = {
         <li>Gestire in modo affidabile <strong>pagamenti, tasse, spedizioni e giacenze</strong>.</li>
       </ul>
       <p>Se oggi hai un negozio fisico e i clienti ti chiedono "posso ordinare online?" o "spedite fuori città?", allora può essere il momento di affiancare all'attività un e‑commerce, magari iniziando con una selezione di prodotti.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi lanciare il tuo shop online per vendere prodotti fisici o digitali? <a href="/#contact">Richiedi un preventivo per il tuo e-commerce →</a>
+      </p>
 
       <h2 id="prenotazioni">4. Sito con sistema di prenotazioni: far prenotare i clienti da soli</h2>
       <p>
@@ -217,6 +255,18 @@ export const guidaTipoSitoGiustoPost = {
           <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>
         </li>
       </ul>
+
+      <h2>FAQ - Domande Frequenti sulla Scelta del Tipo di Sito</h2>
+      <dl className="faq-list">
+        <dt>Qual è la differenza principale tra un sito vetrina e un e-commerce?</dt>
+        <dd>Un sito vetrina serve a presentare la tua attività (chi sei, servizi, contatti) e a farti trovare localmente. Un e-commerce include invece un carrello, la gestione dei prodotti e dei sistemi di pagamento per vendere direttamente online.</dd>
+        
+        <dt>Posso iniziare con un sito vetrina e aggiungere funzionalità in seguito?</dt>
+        <dd>Sì, è una pratica consigliata. Puoi iniziare con un sito vetrina semplice ed elegante e, man mano che l'attività cresce, integrare una sezione blog, un sistema di prenotazione appuntamenti o un negozio online completo.</dd>
+        
+        <dt>Ho bisogno di un sistema di prenotazione appuntamenti sul mio sito?</dt>
+        <dd>Se la tua attività si basa sulla vendita di servizi a tempo (es. consulenze, trattamenti benessere, sedute mediche o corsi), un sistema di prenotazione automatizzato fa risparmiare tempo e migliora l'esperienza dell'utente, riducendo le telefonate.</dd>
+      </dl>
 
       <h2 id="conclusione">Conclusione: parti da quello che ti serve oggi (e lascia spazio al domani)</h2>
       <p>

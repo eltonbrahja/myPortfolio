@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const seoLocaleGoogleMapsPost = {
   id: "seo-locale-google-maps",
@@ -25,6 +10,36 @@ export const seoLocaleGoogleMapsPost = {
   readTime: "5 min di lettura",
   category: "SEO Locale",
   image: "https://unsplash.com/photos/UWVJaDvXW_c/download?w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Cos'è la SEO Locale e perché serve alla mia attività?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La SEO Locale è l'insieme di ottimizzazioni che permettono alla tua attività di apparire su Google (anche sulle mappe) quando gli utenti cercano un servizio nella tua zona, come 'attività + città'. Serve a intercettare clienti pronti ad acquistare."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo ci vuole per posizionarsi su Google Maps?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La verifica della scheda Google Business Profile è immediata, ma l'ottimizzazione e la scalata nei primi risultati richiedono solitamente da poche settimane a 3-6 mesi, a seconda della concorrenza nella tua città."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso apparire su Google Maps se non ho un ufficio o negozio fisico?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì. Se offri servizi a domicilio (es. idraulico, elettricista, consulente a domicilio), puoi creare una scheda impostando un'area di servizio senza mostrare pubblicamente il tuo indirizzo privato."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -98,6 +113,10 @@ export const seoLocaleGoogleMapsPost = {
         Se vuoi, questa parte posso gestirla io: ti preparo il testo della descrizione, imposto categorie e servizi corretti, organizzo il piano per raccogliere recensioni e rendo la scheda molto più “vendente”.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai bisogno di impostare e ottimizzare la tua scheda Google Business Profile in modo professionale? <a href="/#contact">Contattami per una consulenza e ottimizzazione iniziale →</a>
+      </p>
+
       <h2 id="passo-3">Passo 3: rendi il tuo sito chiaro per Google (e per chi ti cerca)</h2>
       <p>
         La scheda Google è fondamentale, ma da sola non basta: Google guarda anche il tuo sito per capire dove sei, cosa fai e per quale zona sei rilevante. Per questo sul sito è importante:
@@ -136,6 +155,10 @@ export const seoLocaleGoogleMapsPost = {
         Quando prendo in carico una realtà locale, faccio una sorta di “pulizia” delle informazioni online: verifico dove sei presente, allineo i dati e ti aiuto a costruire una base solida e coerente per la tua presenza digitale.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi un sito web già nativamente ottimizzato per la SEO locale e pensato per convertire i visitatori in clienti? <a href="/services">Scopri il mio servizio di realizzazione siti web →</a>
+      </p>
+
       <h2 id="perche-conviene">Perché conviene farti aiutare da chi fa questo tutti i giorni</h2>
       <p>
         Mettere online un sito e aprire una scheda Google si può fare anche in autonomia, ma far sì che il tuo nome esca quando cercano “attività + città” richiede un minimo di metodo, attenzione ai dettagli e continuità.
@@ -150,6 +173,18 @@ export const seoLocaleGoogleMapsPost = {
       <p>
         In pratica, mentre tu continui a occuparti dei tuoi clienti, c’è qualcuno che lavora perché le persone della tua città ti trovino e scelgano te quando cercano il tuo servizio su Google.
       </p>
+
+      <h2>FAQ - Domande Frequenti sulla SEO Locale e Google Maps</h2>
+      <dl className="faq-list">
+        <dt>Cos'è la SEO Locale e perché serve alla mia attività?</dt>
+        <dd>La SEO Locale è l'insieme di ottimizzazioni che permettono alla tua attività di apparire su Google (anche sulle mappe) quando gli utenti cercano un servizio nella tua zona, come "attività + città". Serve a intercettare clienti pronti ad acquistare.</dd>
+        
+        <dt>Quanto tempo ci vuole per posizionarsi su Google Maps?</dt>
+        <dd>La verifica della scheda Google Business Profile è immediata, ma l'ottimizzazione e la scalata nei primi risultati richiedono solitamente da poche settimane a 3-6 mesi, a seconda della concorrenza nella tua città.</dd>
+        
+        <dt>Posso apparire su Google Maps se non ho un ufficio o negozio fisico?</dt>
+        <dd>Sì. Se offri servizi a domicilio (es. idraulico, elettricista, consulente a domicilio), puoi creare una scheda impostando un'area di servizio senza mostrare pubblicamente il tuo indirizzo privato.</dd>
+      </dl>
 
       <h2 id="cosa-fare-adesso">Cosa puoi fare adesso</h2>
       <p>

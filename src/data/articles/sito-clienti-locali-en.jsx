@@ -25,6 +25,36 @@ export const sitoClientiLocaliPostEn = {
   readTime: "5 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a website if I already have an active Facebook page?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. A social media page does not belong to you, and not all users search social media for local services. A website guarantees full control and is key to ranking on search engines when clients look for local services."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I appear on Google Maps in my area?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You need to create and optimize a Google Business Profile listing and link it to a website structured with clear local references (consistent NAP)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is NAP and why does it matter for local SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NAP stands for Name, Address, Phone. It is vital that this information is identical and formatted the same way on your website, Google listing, and every online directory."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -86,6 +116,10 @@ export const sitoClientiLocaliPostEn = {
       <p>
         Google itself rewards complete and active profiles with a linked website, photos, posts, and reviews, showing these businesses higher in local searches.
         <a href="https://getpin.com/google-business-profile-en/guide-google-business-profile-optimization-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getpin ↗</a>
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to dominate local searches in your city? <a href="/en#contact">Request a free analysis of your Google Maps presence →</a>
       </p>
 
       <h2 id="reviews">Reviews: the social proof that makes them choose you</h2>
@@ -150,6 +184,10 @@ export const sitoClientiLocaliPostEn = {
         <a href="https://www.serve-tex.com/post/why-accurate-contact-information-is-crucial-for-businesses" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>serve-tex ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I build websites designed specifically for local craftsmen, shops, and professionals. <a href="/services">Discover my services →</a>
+      </p>
+
       <h2 id="summary-table">Summary Table: Key Elements for Local Clients</h2>
       <div className="table-responsive">
         <table className="article-table">
@@ -189,6 +227,18 @@ export const sitoClientiLocaliPostEn = {
           </tbody>
         </table>
       </div>
+
+      <h2>FAQ - Frequently Asked Questions on Local Clients and Websites</h2>
+      <dl className="faq-list">
+        <dt>Do I need a website if I already have an active Facebook page?</dt>
+        <dd>Yes. A social media page does not belong to you, and not all users search social media for local services. A website guarantees full control and is key to ranking on search engines when clients look for local services.</dd>
+        
+        <dt>How do I appear on Google Maps in my area?</dt>
+        <dd>You need to create and optimize a Google Business Profile listing and link it to a website structured with clear local references (consistent NAP).</dd>
+        
+        <dt>What is NAP and why does it matter for local SEO?</dt>
+        <dd>NAP stands for Name, Address, Phone. It is vital that this information is identical and formatted the same way on your website, Google listing, and every online directory.</dd>
+      </dl>
 
       <h2 id="case-study">Mini case study: from "invisible" to local landmark</h2>
       <p>

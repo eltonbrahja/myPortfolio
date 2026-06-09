@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
   id: "sito-abbonamento-vs-pagamento-unico",
@@ -25,6 +10,36 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
   readTime: "7 min read",
   category: "Business & Budget",
   image: "/sito-abbonamento.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the main difference between a subscription site and a one-time payment site?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "With a one-time payment, you purchase the site as a proprietary asset: once paid off, it's yours and you only pay hosting/domain costs. With a monthly subscription, you pay a recurring fee for using the site and receiving continuous maintenance, updates, and support."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who owns the domain and website under a subscription model?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the agreement. In many low-cost services, the agency retains ownership, and if you stop paying, the site is taken down. In professional contracts, it is crucial that you own the domain and that a buyout clause is defined for the site's ownership."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I want to cancel my monthly website subscription?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typically, monthly subscription contracts have a minimum binding period (e.g., 12, 24, or 36 months). If you cancel early, you may be required to pay the remaining balance or a termination penalty. Always verify this clause in the agreement."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -181,6 +196,10 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
         </li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Did you receive a monthly fee quote and want to understand if there are hidden traps? <a href="/en/#contact">Contact me for a free evaluation of your quote →</a>
+      </p>
+
       <p>It's precisely these gray areas that make it difficult to compare two monthly fee offers.</p>
 
       <h2 id="come-leggere-offerta">How to read an offer: always separate these three items</h2>
@@ -231,6 +250,10 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
         In these cases, the one-off model is more straightforward: you pay for the project, the site is yours, and if you want to change developers tomorrow you can do so without drama.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        If you are looking for a professional website you fully own, without binding monthly fees, <a href="/en/services">discover my custom website design services →</a>
+      </p>
+
       <h2 id="quando-ha-senso-abbonamento">When a monthly subscription truly makes sense</h2>
       <p>The monthly subscription, on the other hand, makes sense if:</p>
       <ul style={{ paddingLeft: '20px' }}>
@@ -267,6 +290,18 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
         <li>If your priority is <strong>"having the site done well, owning it, and then managing only the bare minimum"</strong>, the <strong>one-time payment</strong> with a possible small fee only for hosting and basic maintenance is usually better.</li>
         <li>If your priority is <strong>"having someone who puts their hand to the site every month, updates it, and makes it grow with me"</strong>, then <strong>a clear and structured subscription</strong> can make sense, provided it is well written.</li>
       </ul>
+
+      <h2>FAQ - Frequently Asked Questions about Subscriptions vs One-Time Payment</h2>
+      <dl className="faq-list">
+        <dt>What is the main difference between a subscription site and a one-time payment site?</dt>
+        <dd>With a one-time payment, you purchase the site as a proprietary asset: once paid off, it's yours and you only pay hosting/domain costs. With a monthly subscription, you pay a recurring fee for using the site and receiving continuous maintenance, updates, and support.</dd>
+        
+        <dt>Who owns the domain and website under a subscription model?</dt>
+        <dd>It depends on the agreement. In many low-cost services, the agency retains ownership, and if you stop paying, the site is taken down. In professional contracts, it is crucial that you own the domain and that a buyout clause is defined for the site's ownership.</dd>
+        
+        <dt>What happens if I want to cancel my monthly website subscription?</dt>
+        <dd>Typically, monthly subscription contracts have a minimum binding period (e.g., 12, 24, or 36 months). If you cancel early, you may be required to pay the remaining balance or a termination penalty. Always verify this clause in the agreement.</dd>
+      </dl>
 
       <h2 id="cosa-fare-pratica">And now, what can you do practically?</h2>
       <p>

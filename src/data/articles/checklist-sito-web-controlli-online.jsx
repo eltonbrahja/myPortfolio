@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const checklistSitoWebControlliOnlinePost = {
   id: "checklist-sito-web-controlli-online",
@@ -25,6 +10,36 @@ export const checklistSitoWebControlliOnlinePost = {
   readTime: "7 min di lettura",
   category: "SEO & Performance",
   image: "/articoloChecklist.webp",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Perché la velocità del sito è così importante prima del lancio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La velocità influisce direttamente sulle conversioni: se un sito impiega troppo a caricare, gli utenti lo abbandonano immediatamente. Inoltre, Google la considera un fattore di posizionamento ufficiale, penalizzando i siti lenti."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa succede se dimentico il certificato SSL (HTTPS)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "I browser mostreranno un messaggio di avviso rosso contrassegnando il sito come non sicuro. Questo compromette la fiducia del visitatore e penalizza gravemente l'indicizzazione su Google."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Posso usare immagini in formato JPG sul mio sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì, ma è consigliabile usare il formato WebP. Offre la stessa qualità visiva riducendo il peso del file del 30% circa, con un netto beneficio sulla velocità di caricamento."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -64,6 +79,10 @@ export const checklistSitoWebControlliOnlinePost = {
         </li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai dei dubbi sulla UX o sul posizionamento delle CTA del tuo sito? <a href="/#contact">Richiedi un'analisi gratuita della UX della tua homepage →</a>
+      </p>
+
       <h2 id="seo">2. SEO On-Page (Ottimizzazione per i motori di ricerca)</h2>
       <p>Per farsi trovare su Google, ogni pagina deve seguire regole strutturali precise.</p>
 
@@ -81,6 +100,10 @@ export const checklistSitoWebControlliOnlinePost = {
           <strong>I link interni funzionano ed usano anchor text descrittivi?</strong> Evita link generici come "clicca qui". Usa anchor text descrittivi che spiegano a Google e all'utente dove stanno andando (es. "scopri il nostro servizio di <a href="/services">realizzazione siti web per piccole attività</a>"). Se vuoi approfondire le dinamiche dei costi prima di partire, leggi il nostro confronto tra <a href="/blog/sito-abbonamento-vs-pagamento-unico">sito web in abbonamento e pagamento unico</a>.
         </li>
       </ul>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi posizionarti sui motori di ricerca e farti trovare dai clienti della tua zona? <a href="/#contact">Scopri come posso ottimizzare la SEO del tuo sito →</a>
+      </p>
 
       <h2 id="performance">3. Performance e Velocità</h2>
       <p>La velocità di caricamento è un fattore di posizionamento ufficiale per Google e incide direttamente sulle vendite: se il sito ci mette più di 3 secondi a caricare, la metà degli utenti se ne va.</p>
@@ -114,6 +137,18 @@ export const checklistSitoWebControlliOnlinePost = {
           <strong>Google Search Console e Analytics sono configurati?</strong> Collega il sito a Google Search Console per monitorare l'indicizzazione delle pagine e a Google Analytics (GA4) per tracciare le visite e il comportamento degli utenti fin dal primo giorno di lancio.
         </li>
       </ul>
+
+      <h2>FAQ - Domande Frequenti sulla Checklist di Lancio</h2>
+      <dl className="faq-list">
+        <dt>Perché la velocità del sito è così importante prima del lancio?</dt>
+        <dd>La velocità influisce direttamente sulle conversioni. Se un sito è lento, gli utenti lo abbandonano prima ancora di vedere la tua offerta. Inoltre, Google penalizza i siti lenti posizionandoli più in basso nelle ricerche.</dd>
+        
+        <dt>Cosa succede se dimentico il certificato SSL (HTTPS)?</dt>
+        <dd>I browser moderni mostreranno un avviso di sicurezza rosso ("Sito non sicuro") a chiunque cerchi di entrare. Questo spaventa gli utenti e riduce drasticamente le visite e le conversioni.</dd>
+        
+        <dt>Posso usare immagini in formato JPG sul mio sito?</dt>
+        <dd>È preferibile convertire e comprimere tutte le immagini in formati di nuova generazione come <strong>WebP</strong>. Il WebP mantiene una qualità visiva eccellente ma pesa fino al 30% in meno rispetto al JPG, velocizzando il caricamento della pagina.</dd>
+      </dl>
 
       <h2>Conclusioni: cosa fare adesso</h2>
       <p>

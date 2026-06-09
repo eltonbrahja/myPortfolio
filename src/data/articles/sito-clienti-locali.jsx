@@ -25,6 +25,36 @@ export const sitoClientiLocaliPost = {
   readTime: "5 min di lettura",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Un sito web serve anche se ho già una pagina Facebook molto attiva?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sì. Una pagina social non ti appartiene e non tutti gli utenti usano i social per cercare servizi locali. Un sito web ti garantisce il pieno controllo ed è fondamentale per posizionarsi nei motori di ricerca quando i clienti cercano un servizio locale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come faccio a comparire su Google Maps nella mia zona?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "È necessario creare e ottimizzare una scheda Google Business Profile e collegarla a un sito web strutturato con riferimenti locali chiari (NAP coerenti)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cos'è la NAP e perché è così importante per la SEO locale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "NAP sta per Name, Address, Phone (Nome, Indirizzo, Telefono). È fondamentale che queste informazioni siano identiche e formattate nello stesso modo sul sito, sulla scheda Google e su ogni directory online."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -86,6 +116,10 @@ export const sitoClientiLocaliPost = {
       <p>
         Google stesso premia i profili completi e attivi, con sito collegato, foto, post e recensioni, mostrando queste attività più in alto nelle ricerche locali.
         <a href="https://getpin.com/google-business-profile-en/guide-google-business-profile-optimization-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getpin ↗</a>
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi dominare le ricerche locali nella tua città? <a href="/#contact">Richiedi un'analisi gratuita della tua presenza su Google Maps →</a>
       </p>
 
       <h2 id="recensioni">Recensioni: la prova sociale che fa scegliere te</h2>
@@ -150,6 +184,10 @@ export const sitoClientiLocaliPost = {
         <a href="https://www.serve-tex.com/post/why-accurate-contact-information-is-crucial-for-businesses" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>serve-tex ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Sviluppo siti web progettati specificamente per artigiani, negozi e professionisti locali. <a href="/services">Scopri i miei servizi →</a>
+      </p>
+
       <h2 id="tabella-riassuntiva">Tabella riassuntiva: Elementi Chiave per Clienti Locali</h2>
       <div className="table-responsive">
         <table className="article-table">
@@ -189,6 +227,18 @@ export const sitoClientiLocaliPost = {
           </tbody>
         </table>
       </div>
+
+      <h2>FAQ - Domande Frequenti sui Clienti Locali e il Sito Web</h2>
+      <dl className="faq-list">
+        <dt>Un sito web serve anche se ho già una pagina Facebook molto attiva?</dt>
+        <dd>Sì. Una pagina social non ti appartiene e non tutti gli utenti usano i social per cercare servizi locali. Un sito web ti garantisce il pieno controllo ed è fondamentale per posizionarsi nei motori di ricerca quando i clienti cercano un servizio locale.</dd>
+        
+        <dt>Come faccio a comparire su Google Maps nella mia zona?</dt>
+        <dd>È necessario creare e ottimizzare una scheda Google Business Profile e collegarla a un sito web strutturato con riferimenti locali chiari (NAP coerenti).</dd>
+        
+        <dt>Cos'è la NAP e perché è così importante per la SEO locale?</dt>
+        <dd>NAP sta per Name, Address, Phone (Nome, Indirizzo, Telefono). È fondamentale che queste informazioni siano identiche e formattate nello stesso modo sul sito, sulla scheda Google e su ogni directory online.</dd>
+      </dl>
 
       <h2 id="case-study">Mini case study: da "invisibile" a punto di riferimento nel quartiere</h2>
       <p>

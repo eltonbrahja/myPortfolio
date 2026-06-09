@@ -8,6 +8,36 @@ export const comePreparartiContattareWebDesignerPost = {
   readTime: "4 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quali materiali devo fornire obbligatoriamente al web designer prima di iniziare?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non occorre avere tutto subito, ma i materiali principali sono il tuo logo (se lo hai), testi base che descrivono chi sei e cosa fai, foto di qualità del tuo lavoro/studio (o idee su immagini stock), e i recapiti di contatto."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa devo fare se non ho ancora le idee chiare sul design del sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nessun problema, fa parte del lavoro del web designer guidarti. Un ottimo modo per iniziare è raccogliere 3 o 4 link di siti web che ti piacciono (anche di settori diversi) ed evidenziare cosa apprezzi (es. i colori, la chiarezza delle informazioni, il modulo di contatto)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo avere già acquistato il dominio e l'hosting prima di contattare un professionista?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No, solitamente è meglio attendere e parlarne con il web designer. Un professionista può consigliarti l'hosting più adatto in base alle prestazioni necessarie e aiutarti nella procedura di acquisto e configurazione tecnica per evitare errori."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -80,6 +110,10 @@ export const comePreparartiContattareWebDesignerPost = {
         <li>Propongo cosa va riscritto da zero e cosa si può recuperare.</li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Non hai ancora le foto o i testi pronti? Nessun problema, ti posso aiutare anche nella redazione dei contenuti. <a href="/services">Scopri come lavoro →</a>
+      </p>
+
       <h2 id="idea-struttura">Fatti un’idea di struttura (anche se cambierà)</h2>
       <p>
         Non devi sapere esattamente quante pagine avrà il tuo sito, ma è utile arrivare con almeno una bozza di struttura, anche semplice.
@@ -128,6 +162,7 @@ export const comePreparartiContattareWebDesignerPost = {
       <h2 id="dopo-lancio">Decidi chi farà cosa dopo il lancio</h2>
       <p>
         Un sito non è “finito” il giorno del lancio: va aggiornato, va protetto, e spesso va arricchito con nuovi contenuti.
+        Per capire tutti i passaggi necessari per un lancio di successo, puoi dare un'occhiata alla nostra <a href="/blog/checklist-sito-web-controlli-online">checklist del sito web prima di andare online</a>.
       </p>
       <p>Prima di contattare un web designer, chiediti:</p>
       <ul>
@@ -140,6 +175,10 @@ export const comePreparartiContattareWebDesignerPost = {
         <li>Offrirti una formazione base per essere autonomo sulle cose semplici.</li>
         <li>Oppure proporti un piano di supporto e manutenzione, così ti concentri sul tuo lavoro e io mi occupo del resto.</li>
       </ul>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi delegare la manutenzione tecnica del sito e concentrarti solo sul tuo lavoro? <a href="/#contact">Richiedi un piano di manutenzione personalizzato →</a>
+      </p>
 
       <h2 id="messaggi-chiave">Prepara 2–3 messaggi chiave sul tuo modo di lavorare</h2>
       <p>
@@ -154,6 +193,18 @@ export const comePreparartiContattareWebDesignerPost = {
       <p>
         Quando un cliente arriva da me con queste cose chiare, posso farle emergere nei testi, nelle scelte grafiche e nelle call to action, così il sito assomiglia davvero a lui e non alla solita “copia incolla” generica.
       </p>
+
+      <h2>FAQ - Domande Frequenti sulla Preparazione del Sito</h2>
+      <dl className="faq-list">
+        <dt>Quali materiali devo fornire obbligatoriamente al web designer prima di iniziare?</dt>
+        <dd>Non occorre avere tutto subito, ma i materiali principali sono il tuo logo (se lo hai), testi base che descrivono chi sei e cosa fai, foto di qualità del tuo lavoro/studio (o idee su immagini stock), e i recapiti di contatto.</dd>
+        
+        <dt>Cosa devo fare se non ho ancora le idee chiare sul design del sito?</dt>
+        <dd>Nessun problema, fa parte del lavoro del web designer guidarti. Un ottimo modo per iniziare è raccogliere 3 o 4 link di siti web che ti piacciono (anche di settori diversi) ed evidenziare cosa apprezzi (es. i colori, la chiarezza delle informazioni, il modulo di contatto).</dd>
+        
+        <dt>Devo avere già acquistato il dominio e l'hosting prima di contattare un professionista?</dt>
+        <dd>No, solitamente è meglio attendere e parlarne con il web designer. Un professionista può consigliarti l'hosting più adatto in base alle prestazioni necessarie e aiutarti nella procedura di acquisto e configurazione tecnica per evitare errori.</dd>
+      </dl>
 
       <h2 id="cosa-faccio-io">Cosa faccio io con tutte queste informazioni</h2>
       <p>

@@ -25,6 +25,36 @@ export const comeScrivereTestiEfficaciPost = {
   readTime: "6 min di lettura",
   category: "Copywriting",
   image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Devo per forza assumere un copywriter professionista per il mio sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non per forza all'inizio. Se segui regole di chiarezza, scrivi frasi brevi, eviti il gergo tecnico e ti concentri sui problemi reali dei tuoi clienti, puoi ottenere ottimi testi anche da solo."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quali sono le pagine più importanti dove concentrare la scrittura dei testi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La Homepage (che deve chiarire subito cosa fai e per chi), la pagina Chi Sono (che deve creare fiducia e connessione) e le pagine Servizio (che devono spiegare chiaramente benefici e modalità di acquisto)."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cos'è una Call to Action (CTA) e dove va inserita?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "La CTA è un invito all'azione chiaro (es. 'Contattami per un preventivo'). Va inserita nei punti caldi della pagina: nell'header, a metà testo e alla fine, rendendola sempre ben visibile."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -90,6 +120,10 @@ export const comeScrivereTestiEfficaciPost = {
         <a href="https://it.squarespace.com/blog/come-scrivere-contenuti-per-siti-web" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>squarespace ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Hai dubbi sull'efficacia dei testi del tuo sito attuale? <a href="/#contact">Richiedi una revisione o un'analisi gratuita della tua homepage →</a>
+      </p>
+
       <h2 id="scrivi-frasi-brevi">Scrivi frasi brevi e parole semplici</h2>
       <p>
         Sul web le persone non leggono riga per riga: scorrono velocemente cercando parole chiave che li rassicurino. Per questo frasi corte, paragrafi brevi ed elenchi puntati funzionano molto meglio di blocchi di testo lunghi.
@@ -126,6 +160,10 @@ export const comeScrivereTestiEfficaciPost = {
       <p>
         Questo modo di scrivere ti costringe a tradurre il tuo lavoro in risultati concreti: più richieste, più prenotazioni, meno confusione, più professionalità percepita. È quello che interessa davvero a chi legge.
         <a href="https://it.squarespace.com/blog/come-scrivere-contenuti-per-siti-web" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>squarespace ↗</a>
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Tutti i miei siti includono una fase di consulenza per l'architettura dei contenuti e il copywriting SEO. <a href="/services">Scopri come posso aiutarti →</a>
       </p>
 
       <h2 id="parla-come-clienti">Parla come parlano i tuoi clienti</h2>
@@ -180,6 +218,18 @@ export const comeScrivereTestiEfficaciPost = {
         Puoi ripetere la CTA in più punti della pagina (all'inizio, a metà e alla fine), così chi è convinto prima non deve per forza arrivare fino in fondo per contattarti.
         <a href="https://www.avantgrade.com/seo/meta-title-meta-description" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>avantgrade ↗</a>
       </p>
+
+      <h2>FAQ - Domande Frequenti sulla Scrittura di Testi per Siti Web</h2>
+      <dl className="faq-list">
+        <dt>Devo per forza assumere un copywriter professionista per il mio sito?</dt>
+        <dd>Non per forza all'inizio. Se segui regole di chiarezza, scrivi frasi brevi, eviti il gergo tecnico e ti concentri sui problemi reali dei tuoi clienti, puoi ottenere ottimi testi anche da solo.</dd>
+        
+        <dt>Quali sono le pagine più importanti dove concentrare la scrittura dei testi?</dt>
+        <dd>La Homepage (che deve chiarire subito cosa fai e per chi), la pagina Chi Sono (che deve creare fiducia e connessione) e le pagine Servizio (che devono spiegare chiaramente benefici e modalità di acquisto).</dd>
+        
+        <dt>Cos'è una Call to Action (CTA) e dove va inserita?</dt>
+        <dd>La CTA è un invito all'azione chiaro (es. "Contattami per un preventivo"). Va inserita nei punti caldi della pagina: nell'header, a metà testo e alla fine, rendendola sempre ben visibile.</dd>
+      </dl>
 
       <h2 id="checklist-pratica">Una checklist pratica per migliorare subito i tuoi testi</h2>
       <p>Per chiudere, puoi usare questa checklist ogni volta che scrivi o revisioni una pagina:</p>

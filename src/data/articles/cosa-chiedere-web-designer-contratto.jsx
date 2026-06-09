@@ -25,6 +25,36 @@ export const cosaChiedereWebDesignerContrattoPost = {
   readTime: "8 min di lettura",
   category: "Consulenza & Sviluppo",
   image: "/foto-webdesign.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Perché è importante definire la proprietà di dominio e hosting nel contratto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perché se sono intestati all'agenzia o al professionista, potresti perdere l'accesso al tuo sito o avere difficoltà a cambiare fornitore in futuro. Assicurati che nel contratto sia specificato che tu sei il proprietario unico di dominio, hosting e file."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa si intende per 'revisioni incluse' nel preventivo di un sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Le revisioni sono cicli di modifiche in cui puoi richiedere aggiustamenti a testi, colori o immagini sulle bozze proposte. È importante specificare il numero esatto (es. 2 o 3 giri di revisione) per evitare costi extra non previsti."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come posso tutelarmi se la consegna del sito web subisce forti ritardi?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un contratto professionale dovrebbe indicare una data di consegna stimata e definire le responsabilità di entrambe le parti (ad esempio, le tempistiche di invio dei materiali da parte del cliente e i tempi di risposta del designer)."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -89,6 +119,10 @@ export const cosaChiedereWebDesignerContrattoPost = {
       <p>
         Chiedi anche cosa è considerato <strong>fuori scope</strong> (non incluso): meglio chiarirlo subito che litigare dopo.
         <a href="https://sprintlaw.com.au/articles/web-design-contracts-protect-your-digital-business/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sprintlaw ↗</a>
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi ricevere un preventivo chiaro, trasparente e con tutte le voci descritte nel dettaglio? <a href="/#contact">Richiedi un preventivo senza sorprese →</a>
       </p>
 
       <h2 id="tempistiche-processo">3. Quali sono le tempistiche e come funziona il processo?</h2>
@@ -161,6 +195,10 @@ export const cosaChiedereWebDesignerContrattoPost = {
       </ul>
       <p>Un partner serio non ti lascia solo il giorno dopo il lancio e chiarisce subito condizioni e costi dell’assistenza.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Tutti i miei siti includono 3 mesi di assistenza tecnica post-lancio e percorsi di formazione. <a href="/services">Scopri i miei servizi →</a>
+      </p>
+
       <h2 id="gestione-pagamenti">7. Come vengono gestiti pagamenti, acconti e costi extra?</h2>
       <p>
         Anche la parte economica va chiarita bene e per iscritto.
@@ -228,6 +266,18 @@ export const cosaChiedereWebDesignerContrattoPost = {
         <a href="https://onesuite.io/blog/web-design-contract-template-included/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>onesuite ↗</a>
       </p>
       <p>Chi ti risponde in modo chiaro su questi punti dimostra trasparenza e serietà.</p>
+
+      <h2>FAQ - Domande Frequenti sui Contratti di Web Design</h2>
+      <dl className="faq-list">
+        <dt>Perché è importante definire la proprietà di dominio e hosting nel contratto?</dt>
+        <dd>Perché se sono intestati all'agenzia o al professionista, potresti perdere l'accesso al tuo sito o avere difficoltà a cambiare fornitore in futuro. Assicurati che nel contratto sia specificato che tu sei il proprietario unico di dominio, hosting e file.</dd>
+        
+        <dt>Cosa si intende per "revisioni incluse" nel preventivo di un sito?</dt>
+        <dd>Le revisioni sono cicli di modifiche in cui puoi richiedere aggiustamenti a testi, colori o immagini sulle bozze proposte. È importante specificare il numero esatto (es. 2 o 3 giri di revisione) per evitare costi extra non previsti.</dd>
+        
+        <dt>Come posso tutelarmi se la consegna del sito web subisce forti ritardi?</dt>
+        <dd>Un contratto professionale dovrebbe indicare una data di consegna stimata e definire le responsabilità di entrambe le parti (ad esempio, le tempistiche di invio dei materiali da parte del cliente e i tempi di risposta del designer).</dd>
+      </dl>
 
       <h2>Posizionarti come partner, non come “fornitore”</h2>
       <p>

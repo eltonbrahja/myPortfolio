@@ -25,6 +25,36 @@ export const facebookNonBastaPostEn = {
   readTime: "7 min read",
   category: "Digital Marketing",
   image: "/facebook-non-basta.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is a Facebook page not enough to get found on Google?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because Google prefers to index and show structured websites and Google Business Profile listings for local searches (e.g., 'plumber Bari'). Facebook pages rarely appear in top local search results."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the risks of relying only on social media for my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The main risk is loss of control: if the platform changes its algorithm, you lose organic reach. Also, Meta owns your data and followers; if your account gets hacked or suspended, you lose customer contact."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should a website and Facebook work together?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Facebook should serve as a town square to grab user attention and build community, while your website is the 'digital home' where you direct users to convert them into clients or bookings."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -106,6 +136,10 @@ export const facebookNonBastaPostEn = {
       </ul>
       <p>Bottom line: if you rely only on Facebook, a huge portion of people searching for you on Google may never find you.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to see if your local ranking on Google is correct? <a href="/en#contact">Request a free analysis of your online presence →</a>
+      </p>
+
       <h2 id="trust">4. Trust and credibility: having only Facebook makes you look less serious</h2>
       <p>
         Anyone can open a Facebook page in 5 minutes, add a logo from the internet, and write two lines — even someone who isn't a real business.
@@ -166,6 +200,10 @@ export const facebookNonBastaPostEn = {
       </ul>
       <p>Facebook remains incredibly useful for building awareness and communicating quickly; the website is where you turn that attention into real clients.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I design and build independent websites, fully integrated with your social media channels. <a href="/services">Discover how I work →</a>
+      </p>
+
       <h2 id="together">7. Facebook + website: making them work together</h2>
       <p>The solution isn't to "abandon Facebook," but to stop using it as your <strong>only</strong> channel. The winning mix in 2026 is:</p>
 
@@ -209,6 +247,18 @@ export const facebookNonBastaPostEn = {
         This way, instead of constantly chasing the algorithm, you build a solid, credible digital presence that's under your control.
         <a href="https://www.getresponse.com/blog/facebook-page-vs-website" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getresponse ↗</a>
       </p>
+
+      <h2>FAQ - Frequently Asked Questions on Website vs Facebook</h2>
+      <dl className="faq-list">
+        <dt>Why is a Facebook page not enough to get found on Google?</dt>
+        <dd>Because Google prefers to index and show structured websites and Google Business Profile listings for local searches (e.g., "plumber Bari"). Facebook pages rarely appear in top local search results.</dd>
+        
+        <dt>What are the risks of relying only on social media for my business?</dt>
+        <dd>The main risk is loss of control: if the platform changes its algorithm, you lose organic reach. Also, Meta owns your data and followers; if your account gets hacked or suspended, you lose customer contact.</dd>
+        
+        <dt>How should a website and Facebook work together?</dt>
+        <dd>Facebook should serve as a town square to grab user attention and build community, while your website is the "digital home" where you direct users to convert them into clients or bookings.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

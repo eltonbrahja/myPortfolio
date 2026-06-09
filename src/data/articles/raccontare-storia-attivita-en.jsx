@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const raccontareStoriaAttivitaPostEn = {
   id: "raccontare-storia-attivita",
@@ -25,6 +10,36 @@ export const raccontareStoriaAttivitaPostEn = {
   readTime: "5 min read",
   category: "Copywriting",
   image: "/raccontare-storia.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How should an effective About Us page be structured?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An effective About Us page should start by explaining clearly how you help your clients (what you do for them). Afterwards, you can introduce your story, the challenges you overcame, your core values, and finally a clear call to action."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is business storytelling important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Storytelling helps humanize your brand. Explaining the 'why' behind your work builds empathy and emotional connection, which are key to getting chosen over anonymous competitors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long should my business story be on the website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The recommendation is to keep it concise and avoid walls of text. It's best to focus on 3-4 key milestones, using short paragraphs, subtitles, and bullet points to make reading easy."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -69,6 +84,10 @@ export const raccontareStoriaAttivitaPostEn = {
         This structure recalls the classic story schema: initial situation, difficulty, solution, final result, applied to corporate storytelling.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to build an About Us page that earns the trust of your visitors? <a href="/en#contact">Contact me for copywriting consulting →</a>
+      </p>
+
       <h2>Choose only the episodes that matter</h2>
       <p>
         To avoid boredom, you have to cut: not all of your story is interesting to your reader. The most important thing is to select episodes that show values, choices, and results relevant to your clients.
@@ -95,6 +114,10 @@ export const raccontareStoriaAttivitaPostEn = {
       </ul>
       <p>
         This way, the reader recognizes themselves and feels that your story is about them too, not just self-celebratory.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I design and build websites that emphasize your unique identity and services. <a href="/services">Discover my services →</a>
       </p>
 
       <h2>Write simple, short, and in blocks</h2>
@@ -144,6 +167,18 @@ export const raccontareStoriaAttivitaPostEn = {
       <p>
         This way, the story isn't an end in itself, but becomes a piece of the journey that leads the visitor to work with you.
       </p>
+
+      <h2>FAQ - Frequently Asked Questions on Website Storytelling</h2>
+      <dl className="faq-list">
+        <dt>How should an effective About Us page be structured?</dt>
+        <dd>An effective About Us page should start by explaining clearly how you help your clients (what you do for them). Afterwards, you can introduce your story, the challenges you overcame, your core values, and finally a clear call to action.</dd>
+        
+        <dt>Why is business storytelling important?</dt>
+        <dd>Storytelling helps humanize your brand. Explaining the "why" behind your work builds empathy and emotional connection, which are key to getting chosen over anonymous competitors.</dd>
+        
+        <dt>How long should my business story be on the website?</dt>
+        <dd>The recommendation is to keep it concise and avoid walls of text. It's best to focus on 3-4 key milestones, using short paragraphs, subtitles, and bullet points to make reading easy.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

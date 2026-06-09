@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+// eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useNavigate, Link } from 'react-router-dom';
 import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, UserSearch, MessageCircleCheck, Gauge, ExternalLink } from 'lucide-react';
@@ -63,7 +64,7 @@ const Home = () => {
       } else {
         alert(t('home.contact.form.error') || "Oops! C'è stato un problema durante l'invio.");
       }
-    } catch (error) {
+    } catch {
       alert(t('home.contact.form.error') || "Oops! C'è stato un problema durante l'invio.");
     } finally {
       setIsSubmitting(false);

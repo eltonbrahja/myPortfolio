@@ -25,6 +25,36 @@ export const facebookNonBastaPost = {
   readTime: "7 min di lettura",
   category: "Marketing Digitale",
   image: "/facebook-non-basta.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Perché non basta la pagina Facebook per farmi trovare su Google?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perché Google tende a indicizzare e mostrare siti web strutturati e schede Google Business Profile per le ricerche locali (es. 'idraulico Bari'). Le pagine Facebook compaiono raramente nei primi risultati di ricerca locali."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quali sono i rischi di basare la propria attività solo sui social network?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Il rischio principale è la perdita di controllo: se la piattaforma cambia l'algoritmo, perdi visibilità organica. Inoltre, Meta possiede i tuoi dati e follower; se l'account viene hackerato o bloccato, perdi il contatto con i clienti."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come devono lavorare insieme il sito web e Facebook?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Facebook deve servire come piazza per attirare l'attenzione degli utenti e creare community, mentre il sito web è la 'casa digitale' in cui indirizzare gli utenti per effettuare conversioni, prenotazioni o richieste di preventivo."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -106,6 +136,10 @@ export const facebookNonBastaPost = {
       </ul>
       <p>In sintesi: se punti solo su Facebook, una parte enorme delle persone che ti cerca su Google potrebbe non trovarti mai.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi capire se il tuo posizionamento locale su Google è corretto? <a href="/#contact">Richiedi un'analisi gratuita della tua presenza online →</a>
+      </p>
+
       <h2 id="fiducia">4. Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio</h2>
       <p>
         Chiunque può aprire una pagina Facebook in 5 minuti, mettere un logo preso da internet e scrivere due righe: anche chi non è una vera azienda.
@@ -168,6 +202,10 @@ export const facebookNonBastaPost = {
         Facebook rimane utilissimo per farti conoscere e per comunicare in modo immediato; il sito è il posto dove trasformi questa attenzione in clienti veri.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Progetto siti web indipendenti e di proprietà al 100%, integrati con i tuoi canali social. <a href="/services">Scopri come lavoro →</a>
+      </p>
+
       <h2 id="insieme">7. Pagina Facebook + sito: come farli lavorare insieme</h2>
       <p>La soluzione non è "abbandonare Facebook", ma smettere di usarlo come <strong>unico</strong> canale. Il mix che funziona nel 2026 è:</p>
 
@@ -211,6 +249,18 @@ export const facebookNonBastaPost = {
         Così, invece di inseguire continuamente l'algoritmo, ti costruisci una presenza digitale solida, credibile e sotto il tuo controllo.
         <a href="https://www.getresponse.com/blog/facebook-page-vs-website" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getresponse ↗</a>
       </p>
+
+      <h2>FAQ - Domande Frequenti su Sito Web vs Facebook</h2>
+      <dl className="faq-list">
+        <dt>Perché non basta la pagina Facebook per farmi trovare su Google?</dt>
+        <dd>Perché Google tende a indicizzare e mostrare siti web strutturati e schede Google Business Profile per le ricerche locali (es. "idraulico Bari"). Le pagine Facebook compaiono raramente nei primi risultati di ricerca locali.</dd>
+        
+        <dt>Quali sono i rischi di basare la propria attività solo sui social network?</dt>
+        <dd>Il rischio principale è la perdita di controllo: se la piattaforma cambia l'algoritmo, perdi visibilità organica. Inoltre, Meta possiede i tuoi dati e follower; se l'account viene hackerato o bloccato, perdi il contatto con i clienti.</dd>
+        
+        <dt>Come devono lavorare insieme il sito web e Facebook?</dt>
+        <dd>Facebook deve servire come piazza per attirare l'attenzione degli utenti e creare community, mentre il sito web è la "casa digitale" in cui indirizzare gli utenti per effettuare conversioni, prenotazioni o richieste di preventivo.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

@@ -25,6 +25,36 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
   readTime: "4 min di lettura",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Come influisce la velocità di caricamento sulle richieste di contatto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Se un sito impiega più di 3 secondi a caricare, circa il 40-50% degli utenti lo abbandona immediatamente. Un ritardo di un solo secondo può ridurre il tasso di conversione del 7%."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Perché un design del sito web datato allontana i clienti?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un design datato comunica inconsciamente trascuratezza. Chi visita il sito associa la qualità dell'interfaccia a quella del servizio dello studio, preferendo concorrenti dall'immagine più professionale."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Cosa rischia chi ha un sito web non responsive (mobile-friendly)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rischia di perdere oltre la metà del traffico web, che oggi proviene da smartphone. Inoltre, Google penalizza visibilmente i siti non ottimizzati per dispositivi mobili posizionandoli più in basso."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -78,6 +108,10 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
       </ul>
       <p>In un mercato in cui i clienti possono confrontare 3–4 studi in pochi minuti, un design datato è spesso il motivo per cui “vincono gli altri”, anche se sei bravissimo in quello che fai.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Il tuo sito attuale ha una grafica datata o non si adatta bene agli smartphone? <a href="/#contact">Richiedi un restyling o un'analisi gratuita →</a>
+      </p>
+
       <h2 id="no-mobile">3. Il sito non è ottimizzato per smartphone</h2>
       <p>
         Oggi la maggior parte delle visite arriva da smartphone: se sul telefono il tuo sito è difficile da leggere o navigare, stai regalando clienti ai concorrenti.
@@ -112,6 +146,10 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
         <li>“Scrivimi su WhatsApp per fissare un appuntamento”</li>
       </ul>
       <p>Se queste frasi non esistono, o non sono ben visibili, ogni giorno perdi opportunità di lavoro senza accorgertene.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Progetto e sviluppo siti web moderni, veloci e incentrati sulla conversione dell'utente. <a href="/services">Scopri i miei servizi →</a>
+      </p>
 
       <h2 id="contenuti-confusi">5. Contenuti confusi o non aggiornati</h2>
       <p>
@@ -173,6 +211,19 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
         La buona notizia è che ognuno di questi problemi si può risolvere: lavorando su velocità, design, versione mobile, inviti chiari all’azione e contenuti aggiornati, il tuo sito può diventare una vera macchina per portarti nuovi clienti e pazienti.
         <a href="https://metrifi.com/blog/research-shows-if-you-repeat-your-call-to-action-more-people-will-convert/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>metrifi ↗</a>
       </p>
+      <p>Per verificare lo stato di salute generale del tuo sito e assicurarti di non perdere visite preziose, consulta la nostra <a href="/blog/checklist-sito-web-controlli-online">checklist del sito web prima di andare online</a> con i 15 controlli indispensabili.</p>
+
+      <h2>FAQ - Domande Frequenti sui Segnali di Allarme di un Sito Web</h2>
+      <dl className="faq-list">
+        <dt>Come influisce la velocità di caricamento sulle richieste di contatto?</dt>
+        <dd>Se un sito impiega più di 3 secondi a caricare, circa il 40-50% degli utenti lo abbandona immediatamente. Un ritardo di un solo secondo può ridurre il tasso di conversione del 7%.</dd>
+        
+        <dt>Perché un design del sito web datato allontana i clienti?</dt>
+        <dd>Un design datato comunica inconsciamente trascuratezza. Chi visita il sito associa la qualità dell'interfaccia a quella del servizio dello studio, preferendo concorrenti dall'immagine più professionale.</dd>
+        
+        <dt>Cosa rischia chi ha un sito web non responsive (mobile-friendly)?</dt>
+        <dd>Rischia di perdere oltre la metà del traffico web, che oggi proviene da smartphone. Inoltre, Google penalizza visibilmente i siti non ottimizzati per dispositivi mobili posizionandoli più in basso.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

@@ -25,6 +25,36 @@ export const guidaTipoSitoGiustoPostEn = {
   readTime: "8 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the main difference between a showcase website and an e-commerce?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A showcase website serves to present your business (about, services, contacts) and get found locally. An e-commerce website includes a shopping cart, product management, and payment processing systems to sell directly online."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I start with a showcase website and add features later?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it is highly recommended. You can start with a simple and elegant showcase website and, as your business grows, integrate a blog section, an appointment booking system, or a full online store."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do I need an appointment booking system on my website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If your business relies on schedule-based services (e.g., consultations, spa treatments, medical appointments, or classes), an automated booking system saves time, reduces phone calls, and improves the client experience."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -73,6 +103,10 @@ export const guidaTipoSitoGiustoPostEn = {
         </li>
       </ul>
       <p>If you currently work mostly through word of mouth and clients Google you to "see who you are," a showcase website is almost always the right starting point.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Do you have a professional practice or local business and want a sleek, fast showcase website? <a href="/en/services">Discover my Showcase Website services →</a>
+      </p>
 
       <h2 id="blog">2. Blog: getting found on Google and proving your expertise</h2>
       <p>
@@ -124,6 +158,10 @@ export const guidaTipoSitoGiustoPostEn = {
         <li>Reliably manage <strong>payments, taxes, shipping, and stock</strong>.</li>
       </ul>
       <p>If you have a physical shop and clients ask "can I order online?" or "do you ship outside the city?", it might be time to add an e-commerce to your business — perhaps starting with a selection of products.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to launch an online store to sell physical or digital products? <a href="/en/#contact">Request a quote for your e-commerce website →</a>
+      </p>
 
       <h2 id="booking-system">4. Website with booking system: letting clients book on their own</h2>
       <p>
@@ -217,6 +255,18 @@ export const guidaTipoSitoGiustoPostEn = {
           <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>
         </li>
       </ul>
+
+      <h2>FAQ - Frequently Asked Questions about Choosing a Website Type</h2>
+      <dl className="faq-list">
+        <dt>What is the main difference between a showcase website and an e-commerce?</dt>
+        <dd>A showcase website serves to present your business (about, services, contacts) and get found locally. An e-commerce website includes a shopping cart, product management, and payment processing systems to sell directly online.</dd>
+        
+        <dt>Can I start with a showcase website and add features later?</dt>
+        <dd>Yes, it is highly recommended. You can start with a simple and elegant showcase website and, as your business grows, integrate a blog section, an appointment booking system, or a full online store.</dd>
+        
+        <dt>Do I need an appointment booking system on my website?</dt>
+        <dd>If your business relies on schedule-based services (e.g., consultations, spa treatments, medical appointments, or classes), an automated booking system saves time, reduces phone calls, and improves the client experience.</dd>
+      </dl>
 
       <h2 id="conclusion">Conclusion: start with what you need today (and leave room for tomorrow)</h2>
       <p>

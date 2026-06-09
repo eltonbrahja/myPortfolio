@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const checklistSitoWebControlliOnlinePostEn = {
   id: "checklist-sito-web-controlli-online",
@@ -25,6 +10,36 @@ export const checklistSitoWebControlliOnlinePostEn = {
   readTime: "7 min read",
   category: "SEO & Performance",
   image: "/articoloChecklist.webp",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is website speed so important before launching?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Speed directly affects conversions: if a site takes too long to load, users abandon it immediately. Additionally, Google considers it an official ranking factor, penalizing slow websites."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What happens if I forget the SSL certificate (HTTPS)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Browsers will show a red warning message marking the site as not secure. This compromises visitor trust and severely penalizes indexing on Google."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use JPG images on my website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, but it is recommended to use the WebP format. It offers the same visual quality while reducing the file size by about 30%, which directly benefits loading speed."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -64,6 +79,10 @@ export const checklistSitoWebControlliOnlinePostEn = {
         </li>
       </ul>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Have doubts about your site's UX or CTA placement? <a href="/en#contact">Request a free UX analysis of your homepage →</a>
+      </p>
+
       <h2 id="seo">2. On-Page SEO (Search Engine Optimization)</h2>
       <p>To get found on Google, every page must follow precise structural guidelines.</p>
 
@@ -81,6 +100,10 @@ export const checklistSitoWebControlliOnlinePostEn = {
           <strong>Do internal links work and use descriptive anchor texts?</strong> Avoid generic links like "click here." Use descriptive anchor texts that tell Google and the user where the link leads (e.g., "explore our <a href="/en/services">website development service for small businesses</a>"). If you want to analyze costs before starting, read our comparison of <a href="/en/blog/sito-abbonamento-vs-pagamento-unico">subscription-based websites vs. one-time payments</a>.
         </li>
       </ul>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to rank on search engines and get found by local clients? <a href="/en#contact">Discover how I can optimize your site's SEO →</a>
+      </p>
 
       <h2 id="performance">3. Performance and Speed</h2>
       <p>Loading speed is an official Google ranking factor and directly impacts sales: if a site takes more than 3 seconds to load, half of the users leave.</p>
@@ -114,6 +137,18 @@ export const checklistSitoWebControlliOnlinePostEn = {
           <strong>Are Google Search Console and Analytics set up?</strong> Connect the site to Google Search Console to monitor page indexing and Google Analytics (GA4) to track traffic and user behavior from day one.
         </li>
       </ul>
+
+      <h2>FAQ - Frequently Asked Questions about the Launch Checklist</h2>
+      <dl className="faq-list">
+        <dt>Why is website speed so important before launching?</dt>
+        <dd>Because it directly affects conversions. If a site is slow, users abandon it before even seeing your offer. Furthermore, Google penalizes slow sites by placing them lower in search results.</dd>
+        
+        <dt>What happens if I forget the SSL certificate (HTTPS)?</dt>
+        <dd>Modern browsers will display a red security warning ("Not Secure") to anyone trying to enter. This scares users away and drastically reduces visits and conversions.</dd>
+        
+        <dt>Can I use JPG images on my website?</dt>
+        <dd>It is preferable to convert and compress all images to next-generation formats like <strong>WebP</strong>. WebP maintains excellent visual quality but weighs up to 30% less than JPG, speeding up page loading times.</dd>
+      </dl>
 
       <h2>Conclusion: What to do now</h2>
       <p>

@@ -8,6 +8,36 @@ export const paginaServiziCheVendePostEn = {
   readTime: "5 min read",
   category: "Copywriting",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How many services should I include on my website's Services page?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It is best to focus on a few main services (usually 3 to 5 core offerings) explained in detail, rather than listing dozens of micro-tasks that risk confusing the user."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should I display the pricing of my services on the page?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Including pricing or at least a baseline rate ('starting from...') helps qualify leads, weeds out ultra-low budget searchers, and increases transparency and trust with your site visitors."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I make the value of my services stand out compared to competitors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Avoid purely technical descriptions and focus on the transformation: explain what the client's initial problem is and what concrete benefit they will get from working with you. Add real client testimonials to validate this value."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -81,6 +111,10 @@ export const paginaServiziCheVendePostEn = {
       </ul>
       <p>
         My job here is to translate what you practically do into this structure, avoiding generic texts or clichés, and keeping it focused on what your real clients are asking for.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to restructure your Services page to make it more effective and clear? <a href="/en#contact">Request a strategic website consultation →</a>
       </p>
 
       <h2 id="introduzione">The Introduction: Instantly Clarify What You Do</h2>
@@ -175,7 +209,11 @@ export const paginaServiziCheVendePostEn = {
         <li>Makes services feel concrete, not vague.</li>
       </ul>
       <p>
-        If you prefer not to display exact prices, I can help you craft copy like "Custom projects, with solutions starting at X", aligning with your target audience and the type of clients you want to attract.
+        If you wish, I can help you craft copy like "Custom projects, with solutions starting at X", aligning with your target audience and the type of clients you want to attract.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I offer complete turnkey website packages with clear, upfront pricing. <a href="/services">Check my services and rates →</a>
       </p>
 
       <h2 id="prove-di-fiducia">Trust Signals: Testimonials, Logos, Examples</h2>
@@ -221,6 +259,18 @@ export const paginaServiziCheVendePostEn = {
       <p>
         In short, I turn your Services page from a basic list into a tool that instantly clarifies what you do and why someone should choose you over anyone else.
       </p>
+
+      <h2>FAQ - Frequently Asked Questions on Service Pages</h2>
+      <dl className="faq-list">
+        <dt>How many services should I include on my website's Services page?</dt>
+        <dd>It is best to focus on a few main services (usually 3 to 5 core offerings) explained in detail, rather than listing dozens of micro-tasks that risk confusing the user.</dd>
+        
+        <dt>Should I display the pricing of my services on the page?</dt>
+        <dd>Including pricing or at least a baseline rate ("starting from...") helps qualify leads, weeds out ultra-low budget searchers, and increases transparency and trust with your site visitors.</dd>
+        
+        <dt>How can I make the value of my services stand out compared to competitors?</dt>
+        <dd>Avoid purely technical descriptions and focus on the transformation: explain what the client's initial problem is and what concrete benefit they will get from working with you. Add real client testimonials to validate this value.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

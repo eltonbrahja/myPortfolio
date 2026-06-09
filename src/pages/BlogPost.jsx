@@ -59,6 +59,18 @@ const BlogPost = () => {
         document.head.appendChild(script);
       }
       script.text = JSON.stringify(structuredData);
+
+      // Inject custom schema (e.g. FAQPage) if present on the post
+      if (post.schema) {
+        let customScript = document.querySelector('#article-custom-structured-data');
+        if (!customScript) {
+          customScript = document.createElement('script');
+          customScript.type = 'application/ld+json';
+          customScript.id = 'article-custom-structured-data';
+          document.head.appendChild(customScript);
+        }
+        customScript.text = JSON.stringify(post.schema);
+      }
     }
 
     return () => {
@@ -66,6 +78,10 @@ const BlogPost = () => {
       const script = document.querySelector('#article-structured-data');
       if (script) {
         document.head.removeChild(script);
+      }
+      const customScript = document.querySelector('#article-custom-structured-data');
+      if (customScript) {
+        document.head.removeChild(customScript);
       }
     };
   }, [post]);

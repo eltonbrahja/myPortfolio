@@ -25,6 +25,36 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
   readTime: "4 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does website speed affect contact requests?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "If a site takes more than 3 seconds to load, around 40-50% of users will abandon it immediately. A delay of just one second can decrease conversion rates by up to 7%."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why does an outdated website design turn off clients?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An outdated design unconsciously communicates neglect. Visitors associate the interface quality with the level of service, choosing competitors with a more professional image."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What are the risks of a non-responsive (mobile-friendly) website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You risk losing over half of your web traffic, which now comes from mobile devices. Additionally, Google penalizes unoptimized sites, ranking them lower in search results."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -78,6 +108,10 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
       </ul>
       <p>In a market where clients can compare 3–4 practices in minutes, an outdated design is often the reason “others win,” even if you are exceptionally good at what you do.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Does your current website look dated or fail to adapt to mobile screens? <a href="/en#contact">Request a redesign or a free analysis →</a>
+      </p>
+
       <h2 id="no-mobile">3. The website is not mobile-friendly</h2>
       <p>
         Today, the majority of visits come from smartphones: if your site is hard to read or navigate on mobile, you are gifting clients to your competitors.
@@ -112,6 +146,10 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
         <li>“Message me on WhatsApp to schedule an appointment”</li>
       </ul>
       <p>If these phrases don't exist, or are not highly visible, you are losing business opportunities every day without noticing.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        I design and develop modern, fast, and conversion-focused websites. <a href="/services">Discover my services →</a>
+      </p>
 
       <h2 id="confusing-content">5. Confusing or outdated content</h2>
       <p>
@@ -173,6 +211,19 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
         The good news is that each of these problems can be solved: by working on speed, design, mobile responsiveness, clear calls to action, and updated content, your website can become a true machine for bringing you new clients and patients.
         <a href="https://metrifi.com/blog/research-shows-if-you-repeat-your-call-to-action-more-people-will-convert/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>metrifi ↗</a>
       </p>
+      <p>To check the overall health of your site and ensure you are not losing valuable visits, check out our <a href="/en/blog/checklist-sito-web-controlli-online">website launch checklist before going live</a> containing 15 essential checks.</p>
+
+      <h2>FAQ - Frequently Asked Questions on Website Warning Signs</h2>
+      <dl className="faq-list">
+        <dt>How does website speed affect contact requests?</dt>
+        <dd>If a site takes more than 3 seconds to load, around 40-50% of users will abandon it immediately. A delay of just one second can decrease conversion rates by up to 7%.</dd>
+        
+        <dt>Why does an outdated website design turn off clients?</dt>
+        <dd>An outdated design unconsciously communicates neglect. Visitors associate the interface quality with the level of service, choosing competitors more aligned with professional standards.</dd>
+        
+        <dt>What are the risks of a non-responsive (mobile-friendly) website?</dt>
+        <dd>You risk losing over half of your web traffic, which now comes from mobile devices. Additionally, Google penalizes unoptimized sites, ranking them lower in search results.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

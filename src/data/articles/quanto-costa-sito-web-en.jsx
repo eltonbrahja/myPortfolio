@@ -25,6 +25,36 @@ export const quantoCostaSitoWebPostEn = {
   readTime: "5 min read",
   category: "Web Design",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is there such a big price difference between website quotes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The difference depends on the level of customization, the user experience (UX) design, professional copywriting, and SEO work. Cheaper quotes often use pre-made templates and omit these critical services."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are there any hidden costs I should be aware of?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costs that are often excluded from basic quotes include copywriting, professional photography/graphics, periodic technical maintenance (security updates), and ongoing SEO optimization. It is crucial to ask what is excluded before signing."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much does it cost to maintain a website after launch?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Recurring yearly costs include the domain (€10-€20) and hosting (€80-€300 for showcase sites). You should also consider a technical maintenance plan for updates and security, which typically ranges from €300 to €1500 per year."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -102,6 +132,10 @@ export const quantoCostaSitoWebPostEn = {
         </table>
       </div>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Need to understand which price range fits your project? <a href="/en/#contact">Request a personalized analysis and quote for your website →</a>
+      </p>
+
       <h2 id="what-is-included">What is (almost always) included in the initial price</h2>
       <p>In a serious quote for a professional website, you'll find at least these elements:</p>
       <ul style={{ paddingLeft: '20px' }}>
@@ -123,6 +157,10 @@ export const quantoCostaSitoWebPostEn = {
         <li><strong>Extra advanced features:</strong> restricted areas, integrations with ERPs, CRMs, complex booking systems. <a href="https://makeroni.it/quanto-costa-un-sito-web-nel-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>makeroni ↗</a></li>
       </ul>
       <p>When comparing two quotes, always ask what is included and what is not, especially regarding texts, photos, SEO, and maintenance.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to create copy that attracts clients and ranks your site on Google? <a href="/en/services">Discover my Copywriting and SEO service →</a>
+      </p>
 
       <h2 id="maintenance-costs">How much it costs to maintain a website each year</h2>
       <p>Besides the creation cost, there are recurring costs to keep the site online and updated.</p>
@@ -171,6 +209,18 @@ export const quantoCostaSitoWebPostEn = {
         <li><strong>If maintenance is included and for how long</strong> (e.g., 1-3 months after launch) or if there is a clear annual fee. <a href="https://www.formazioneprofessionista.it/it/post/professioni/quanto-costa-far-realizzare-un-sito-internet" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>formazioneprofessionista ↗</a></li>
       </ul>
       <p>A higher but clear and complete quote is often more cost-effective in the medium term than a "low cost" one full of hidden limits.</p>
+
+      <h2>FAQ - Frequently Asked Questions about Website Costs</h2>
+      <dl className="faq-list">
+        <dt>Why is there such a big price difference between website quotes?</dt>
+        <dd>The difference depends on the level of customization, the user experience (UX) design, professional copywriting, and SEO work. Cheaper quotes often use pre-made templates and omit these critical services.</dd>
+        
+        <dt>Are there any hidden costs I should be aware of?</dt>
+        <dd>Costs that are often excluded from basic quotes include copywriting, professional photography/graphics, periodic technical maintenance (security updates), and ongoing SEO optimization. It is crucial to ask what is excluded before signing.</dd>
+        
+        <dt>How much does it cost to maintain a website after launch?</dt>
+        <dd>Recurring yearly costs include the domain (€10-€20) and hosting (€80-€300 for showcase sites). You should also consider a technical maintenance plan for updates and security, which typically ranges from €300 to €1500 per year.</dd>
+      </dl>
 
       <h2>And now: how much will YOUR website cost?</h2>
       <p>

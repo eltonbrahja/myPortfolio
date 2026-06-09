@@ -25,6 +25,36 @@ export const sitoFaiDaTeVsProfessionalePost = {
   readTime: "7 min di lettura",
   category: "Web Design",
   image: "/sito-fai-da-te.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Wix, Squarespace o Shopify sono davvero cattive opzioni per le piccole attività?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Non necessariamente. Sono ottimi strumenti per testare un'idea o per siti personali a basso budget. Tuttavia, per un business strutturato, presentano limiti in termini di ottimizzazione SEO avanzata, velocità di caricamento e flessibilità di design rispetto a un sito web sviluppato su misura."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Perché un sito fai-da-te spesso non porta clienti?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Perché i builder semplificano l'impaginazione visiva ma non ti aiutano con la strategia di conversione (UX), l'architettura dei contenuti, la scrittura di testi persuasivi (copywriting) e l'ottimizzazione SEO locale. Senza questi elementi, il sito rischia di rimanere invisibile su Google."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto tempo richiede la creazione di un sito web professionale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Solitamente un progetto professionale richiede dalle 4 alle 8 settimane, a seconda della complessità. Questo tempo include l'analisi strategica iniziale, lo studio del design grafico, la stesura dei testi, lo sviluppo tecnico e una rigorosa checklist di test pre-lancio."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -90,6 +120,10 @@ export const sitoFaiDaTeVsProfessionalePost = {
         <a href="https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>marketeam ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi un design unico, cucito su misura per il tuo brand? <a href="/services">Scopri il mio servizio di Web Design professionale →</a>
+      </p>
+
       <h2 id="immagine-poco-professionale">3. L'immagine poco professionale che allontana i clienti</h2>
       <p>
         Le persone giudicano la credibilità di un'azienda anche dalla qualità del suo sito: diverse ricerche indicano che una percentuale significativa di utenti cita il design del sito come primo fattore di fiducia verso un brand.
@@ -127,6 +161,11 @@ export const sitoFaiDaTeVsProfessionalePost = {
       <p>
         Un professionista, invece, progetta il sito pensando anche alla parte "invisibile": struttura del codice, velocità, ottimizzazione SEO on‑page, sicurezza e possibilità di crescita futura.
         <a href="https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sequentcreative ↗</a>
+        Questo include seguire un processo di test rigoroso prima della pubblicazione: per approfondire questo aspetto, puoi consultare la nostra <a href="/blog/checklist-sito-web-controlli-online">checklist del sito web prima di andare online</a>.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Desideri un sito web veloce, sicuro e ottimizzato per Google? <a href="/#contact">Contattami per analizzare il tuo progetto →</a>
       </p>
 
       <h2 id="costi-nascosti">5. Costi nascosti e blocco alla crescita</h2>
@@ -187,6 +226,18 @@ export const sitoFaiDaTeVsProfessionalePost = {
           </tbody>
         </table>
       </div>
+
+      <h2>FAQ - Domande Frequenti su Sito Fai-da-te vs Professionale</h2>
+      <dl className="faq-list">
+        <dt>Wix, Squarespace o Shopify sono davvero cattive opzioni per le piccole attività?</dt>
+        <dd>Non necessariamente. Sono ottimi strumenti per testare un'idea o per siti personali a basso budget. Tuttavia, per un business strutturato, presentano limiti in termini di ottimizzazione SEO avanzata, velocità di caricamento e flessibilità di design rispetto a un sito web sviluppato su misura.</dd>
+        
+        <dt>Perché un sito fai-da-te spesso non porta clienti?</dt>
+        <dd>Perché i builder semplificano l'impaginazione visiva ma non ti aiutano con la strategia di conversione (UX), l'architettura dei contenuti, la scrittura di testi persuasivi (copywriting) e l'ottimizzazione SEO locale. Senza questi elementi, il sito rischia di rimanere invisibile su Google.</dd>
+        
+        <dt>Quanto tempo richiede la creazione di un sito web professionale?</dt>
+        <dd>Solitamente un progetto professionale richiede dalle 4 alle 8 settimane, a seconda della complessità. Questo tempo include l'analisi strategica iniziale, lo studio del design grafico, la stesura dei testi, lo sviluppo tecnico e una rigorosa checklist di test pre-lancio.</dd>
+      </dl>
 
       <h2 id="quando-fai-da-te">Quando ha senso il fai‑da‑te e quando no</h2>
       <p>Il fai‑da‑te può avere senso se:</p>

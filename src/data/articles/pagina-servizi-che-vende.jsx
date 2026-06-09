@@ -8,6 +8,36 @@ export const paginaServiziCheVendePost = {
   readTime: "5 min read",
   category: "Copywriting",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.1.0&q=85&fm=jpg&w=1200",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Quanti servizi conviene includere nella pagina Servizi di un sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "È consigliabile concentrarsi su pochi servizi principali (di solito da 3 a 5 core business) spiegati nel dettaglio, piuttosto che elencare decine di micro-attività che rischiano di confondere l'utente."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Devo mostrare i prezzi dei miei servizi sulla pagina?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Inserire i prezzi o almeno una tariffa indicativa ('a partire da...') aiuta a qualificare i lead, allontanando chi cerca soluzioni low-cost e aumentando la trasparenza e la fiducia verso chi visita il sito."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Come posso far risaltare il valore dei miei servizi rispetto ai concorrenti?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Evita descrizioni puramente tecniche e focalizzati sulla trasformazione: spiega qual è il problema iniziale del cliente e quale beneficio concreto otterrà lavorando con te. Aggiungi testimonianze reali per comprovare il valore."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -81,6 +111,10 @@ export const paginaServiziCheVendePost = {
       </ul>
       <p>
         Il mio lavoro qui è tradurre quello che fai nella pratica in questa struttura, senza testi generici o frasi “di circostanza”, ma con un taglio orientato alle richieste dei tuoi clienti reali.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi ristrutturare la tua pagina Servizi per renderla più efficace e chiara? <a href="/#contact">Richiedi una consulenza strategica per il tuo sito →</a>
       </p>
 
       <h2 id="introduzione">L’introduzione: chiarire subito cosa fai</h2>
@@ -178,6 +212,10 @@ export const paginaServiziCheVendePost = {
         Se preferisci non mettere prezzi precisi, posso aiutarti a definire testi del tipo “Progetti su misura, con soluzioni a partire da X”, in modo coerente con il tuo target e con il tipo di clienti che vuoi attrarre.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Offro pacchetti di sviluppo siti web chiavi in mano con prezzi chiari e trasparenti. <a href="/services">Scopri i miei servizi e le tariffe →</a>
+      </p>
+
       <h2 id="prove-di-fiducia">Prove di fiducia: testimonianze, loghi, esempi</h2>
       <p>Una pagina Servizi che vende non può vivere solo di promesse: ha bisogno di prove.</p>
       <p>Puoi inserire:</p>
@@ -221,6 +259,18 @@ export const paginaServiziCheVendePost = {
       <p>
         In pratica, trasformo la tua pagina Servizi da semplice elenco a uno strumento che fa capire subito cosa fai e perché dovrebbero scegliere te invece di un altro.
       </p>
+
+      <h2>FAQ - Domande Frequenti sulla Creazione di una Pagina Servizi</h2>
+      <dl className="faq-list">
+        <dt>Quanti servizi conviene includere nella pagina Servizi di un sito?</dt>
+        <dd>È consigliabile concentrarsi su pochi servizi principali (di solito da 3 a 5 core business) spiegati nel dettaglio, piuttosto che elencare decine di micro-attività che rischiano di confondere l'utente.</dd>
+        
+        <dt>Devo mostrare i prezzi dei miei servizi sulla pagina?</dt>
+        <dd>Inserire i prezzi o almeno una tariffa indicativa ("a partire da...") aiuta a qualificare i lead, allontanando chi cerca soluzioni low-cost e aumentando la trasparenza e la fiducia verso chi visita il sito.</dd>
+        
+        <dt>Come posso far risaltare il valore dei miei servizi rispetto ai concorrenti?</dt>
+        <dd>Evita descrizioni puramente tecniche e focalizzati sulla trasformazione: spiega qual è il problema iniziale del cliente e quale beneficio concreto otterrà lavorando con te. Aggiungi testimonianze reali per comprovare il valore.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

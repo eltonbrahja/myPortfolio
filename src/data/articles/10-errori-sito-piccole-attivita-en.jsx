@@ -25,6 +25,36 @@ export const dieciErroriSitoPostEn = {
   readTime: "8 min read",
   category: "UX & Conversions",
   image: "/10-errori-sito.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the most critical mistake that hurts mobile traffic?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The lack of responsive design. If a site doesn't automatically adapt to smartphones and forces users to zoom in to read or struggle to tap buttons, over 50% of visitors will bounce immediately."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I tell if my website is too slow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can test your website with free Google tools like PageSpeed Insights. If the loading time exceeds 3 seconds, you risk losing more than half of your potential traffic before they even see your page."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a good Call to Action (CTA) include?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An effective CTA must contain a clear, benefit-driven action verb like 'Request a Free Consultation' or 'Book a 15-Minute Call', instead of generic texts like 'Submit' or 'Click Here'."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -104,6 +134,10 @@ export const dieciErroriSitoPostEn = {
         </li>
       </ul>
       <p>This is where structure and layout expertise comes in: a professional knows where to position these elements so they're always in sight.</p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want to ensure your site's contact details are positioned correctly? <a href="/en#contact">Request a free UX analysis of your homepage →</a>
+      </p>
 
       <h2 id="poor-photos">4. Poor, blurry, or all-stock photos</h2>
       <p>
@@ -195,6 +229,10 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>A professional doesn't just focus on aesthetics — they also work "under the hood" to make the site fast and lean.</p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        The websites I build are optimized to load in under 2 seconds and meet Core Web Vitals. <a href="/services">Discover my development services →</a>
+      </p>
+
       <h2 id="outdated-content">9. Outdated or unclear content</h2>
       <p>
         Blog posts from years ago, outdated services, wrong hours: all of this gives the impression of a stagnant or careless business.
@@ -239,6 +277,19 @@ export const dieciErroriSitoPostEn = {
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>
       </p>
       <p>In practice: you're not just paying for "the design," but for a set of thoughtful choices designed to make sure that whoever lands on the site <strong>stays, understands, and contacts you</strong> — instead of bouncing after a few seconds.</p>
+      <p>To make sure your website is 100% ready under every aspect, check out our <a href="/en/blog/checklist-sito-web-controlli-online">website launch checklist with 15 essential steps before going live</a>.</p>
+
+      <h2>FAQ - Frequently Asked Questions on Website Mistakes</h2>
+      <dl className="faq-list">
+        <dt>What is the most critical mistake that hurts mobile traffic?</dt>
+        <dd>The lack of responsive design. If a site doesn't automatically adapt to smartphones and forces users to zoom in to read or struggle to tap buttons, over 50% of visitors will bounce immediately.</dd>
+        
+        <dt>How can I tell if my website is too slow?</dt>
+        <dd>You can test your website with free Google tools like PageSpeed Insights. If the loading time exceeds 3 seconds, you risk losing more than half of your potential traffic before they even see your page.</dd>
+        
+        <dt>What should a good Call to Action (CTA) include?</dt>
+        <dd>An effective CTA must contain a clear, benefit-driven action verb like "Request a Free Consultation" or "Book a 15-Minute Call", instead of generic texts like "Submit" or "Click Here".</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

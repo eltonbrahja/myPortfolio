@@ -25,6 +25,36 @@ export const cosaChiedereWebDesignerContrattoPostEn = {
   readTime: "8 min read",
   category: "Consulting & Development",
   image: "/foto-webdesign.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is it important to define domain and hosting ownership in the contract?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because if they are registered under the agency or professional's name, you risk losing access to your site or having trouble switching providers later. Ensure the contract explicitly states that you are the sole owner of the domain, hosting, and all website files."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What does 'revisions included' mean in a website quote?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Revisions are feedback cycles where you can request tweaks to copy, colors, or images on proposed drafts. It is important to specify the exact number (e.g., 2 or 3 rounds of revisions) to prevent unexpected extra costs."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I protect myself if the website delivery gets heavily delayed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A professional contract should indicate an estimated delivery date and define the responsibilities of both parties (for example, the timeline for sending assets by the client and the designer's response times)."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -89,6 +119,10 @@ export const cosaChiedereWebDesignerContrattoPostEn = {
       <p>
         Also ask what is considered <strong>out of scope</strong> (not included): it's better to clarify this immediately rather than argue later.
         <a href="https://sprintlaw.com.au/articles/web-design-contracts-protect-your-digital-business/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sprintlaw ↗</a>
+      </p>
+ 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want a clear, transparent quote with all items described in detail? <a href="/#contact">Request a quote with no surprises →</a>
       </p>
 
       <h2 id="tempistiche-processo">3. What is the timeline and how does the process work?</h2>
@@ -160,6 +194,10 @@ export const cosaChiedereWebDesignerContrattoPostEn = {
         </li>
       </ul>
       <p>A serious partner does not leave you alone the day after the launch and immediately clarifies the conditions and costs of support.</p>
+ 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        All my websites include 3 months of post-launch technical support and training sessions. <a href="/services">Discover my services →</a>
+      </p>
 
       <h2 id="gestione-pagamenti">7. How are payments, down payments, and extra costs managed?</h2>
       <p>
@@ -228,7 +266,19 @@ export const cosaChiedereWebDesignerContrattoPostEn = {
         <a href="https://onesuite.io/blog/web-design-contract-template-included/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>onesuite ↗</a>
       </p>
       <p>A designer who answers these questions clearly demonstrates transparency and professionalism.</p>
-
+ 
+      <h2>FAQ - Frequently Asked Questions on Web Design Contracts</h2>
+      <dl className="faq-list">
+        <dt>Why is it important to define domain and hosting ownership in the contract?</dt>
+        <dd>Because if they are registered under the agency or professional's name, you risk losing access to your site or having trouble switching providers later. Ensure the contract explicitly states that you are the sole owner of the domain, hosting, and all website files.</dd>
+        
+        <dt>What does "revisions included" mean in a website quote?</dt>
+        <dd>Revisions are feedback cycles where you can request tweaks to copy, colors, or images on proposed drafts. It is important to specify the exact number (e.g., 2 or 3 rounds of revisions) to prevent unexpected extra costs.</dd>
+        
+        <dt>How can I protect myself if the website delivery gets heavily delayed?</dt>
+        <dd>A professional contract should indicate an estimated delivery date and define the responsibilities of both parties (for example, the timeline for sending assets by the client and the designer's response times).</dd>
+      </dl>
+ 
       <h2>Positioning yourself as a partner, not a "vendor"</h2>
       <p>
         Asking these questions is not about "putting the web designer on the spot", but about understanding if they will be a **partner** who works alongside you and explains things in a understandable way.

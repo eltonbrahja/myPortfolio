@@ -1,21 +1,6 @@
 import React from 'react';
 
-const sourceLinkStyle = {
-  fontSize: '11px',
-  fontWeight: '600',
-  color: 'var(--accent-color)',
-  background: 'rgba(168, 85, 247, 0.08)',
-  border: '1px solid rgba(168, 85, 247, 0.15)',
-  padding: '2px 6px',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: 'inline-flex',
-  alignItems: 'center',
-  gap: '2px',
-  marginLeft: '6px',
-  verticalAlign: 'middle',
-  transition: 'all 0.2s ease',
-};
+
 
 export const raccontareStoriaAttivitaPost = {
   id: "raccontare-storia-attivita",
@@ -25,6 +10,36 @@ export const raccontareStoriaAttivitaPost = {
   readTime: "5 min di lettura",
   category: "Copywriting",
   image: "/raccontare-storia.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Come deve essere strutturata la pagina Chi Siamo di un sito web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Una pagina Chi Siamo efficace deve iniziare spiegando chiaramente come aiuti i tuoi clienti (cosa fai per loro). Successivamente, puoi inserire la tua storia, le sfide superate, i tuoi valori e infine una chiara chiamata all'azione."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Perché è importante fare storytelling aziendale?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lo storytelling aiuta a umanizzare il tuo brand. Spiegare il 'perché' dietro il tuo lavoro crea empatia e connessione emotiva, elementi chiave per farti scegliere rispetto a concorrenti anonimi."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quanto deve essere lunga la storia della mia attività sul sito?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Il consiglio è mantenerla sintetica ed evitare muri di testo. Meglio concentrarsi su 3-4 tappe fondamentali, usando paragrafi brevi, sottotitoli ed elenchi puntati per facilitare la lettura."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -69,6 +84,10 @@ export const raccontareStoriaAttivitaPost = {
         Questa struttura richiama il classico schema delle storie: situazione iniziale, difficoltà, soluzione, risultato finale, applicato allo storytelling aziendale.
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Vuoi strutturare una pagina Chi Siamo che conquisti la fiducia dei visitatori? <a href="/#contact">Contattami per una consulenza di copywriting →</a>
+      </p>
+
       <h2>Scegli solo gli episodi che contano</h2>
       <p>
         Per non annoiare, devi tagliare: non tutta la tua storia è interessante per chi ti legge. La cosa più importante è selezionare episodi che mostrano valori, scelte e risultati rilevanti per i tuoi clienti.
@@ -95,6 +114,10 @@ export const raccontareStoriaAttivitaPost = {
       </ul>
       <p>
         Così il lettore si riconosce e sente che la tua storia riguarda anche lui, non è solo autocelebrativa.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Progetto e sviluppo siti web che sanno valorizzare la tua identità e i tuoi servizi unici. <a href="/services">Scopri i miei servizi →</a>
       </p>
 
       <h2>Scrivi semplice, breve e per blocchi</h2>
@@ -144,6 +167,18 @@ export const raccontareStoriaAttivitaPost = {
       <p>
         Così la storia non rimane fine a sé stessa, ma diventa un pezzo del percorso che porta il visitatore a lavorare con te.
       </p>
+
+      <h2>FAQ - Domande Frequenti sullo Storytelling per Siti Web</h2>
+      <dl className="faq-list">
+        <dt>Come deve essere strutturata la pagina Chi Siamo di un sito web?</dt>
+        <dd>Una pagina Chi Siamo efficace deve iniziare spiegando chiaramente come aiuti i tuoi clienti (cosa fai per loro). Successivamente, puoi inserire la tua storia, le sfide superate, i tuoi valori e infine una chiara chiamata all'azione.</dd>
+        
+        <dt>Perché è importante fare storytelling aziendale?</dt>
+        <dd>Lo storytelling aiuta a umanizzare il tuo brand. Spiegare il "perché" dietro il tuo lavoro crea empatia e connessione emotiva, elementi chiave per farti scegliere rispetto a concorrenti anonimi.</dd>
+        
+        <dt>Quanto deve essere lunga la storia della mia attività sul sito?</dt>
+        <dd>Il consiglio è mantenerla sintetica ed evitare muri di testo. Meglio concentrarsi su 3-4 tappe fondamentali, usando paragrafi brevi, sottotitoli ed elenchi puntati per facilitare la lettura.</dd>
+      </dl>
 
       <div style={{
         background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',

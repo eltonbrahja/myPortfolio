@@ -25,6 +25,36 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
   readTime: "7 min read",
   category: "Web Design",
   image: "/sito-fai-da-te.jpg",
+  schema: {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are Wix, Squarespace, or Shopify bad options for small businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Not necessarily. They are great tools for testing a new concept or for personal websites with a tight budget. However, for an established business, they present limits in advanced SEO optimization, loading speed, and design flexibility compared to a custom-developed website."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do DIY websites often fail to attract clients?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because website builders simplify visual layout but do not help you with conversion strategy (UX), content architecture, professional copywriting, and local SEO. Without these pillars, the site is likely to remain invisible on search engines."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does it take to create a professional website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typically, a professional project takes between 4 and 8 weeks, depending on its complexity. This timeframe covers initial strategic analysis, graphic design custom layout, copywriting, coding, and a comprehensive pre-launch checklist of tests."
+        }
+      }
+    ]
+  },
   content: (
     <div className="article-body">
       <p>
@@ -90,6 +120,10 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         <a href="https://marketeam.com.au/resources/articles/web-design/diy-vs-professional-web-design-whats-right-for-your-small-business" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>marketeam ↗</a>
       </p>
 
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Want a unique design custom-tailored to your brand? <a href="/en/services">Discover my professional Web Design services →</a>
+      </p>
+
       <h2 id="unprofessional-image">3. The unprofessional image that drives clients away</h2>
       <p>
         People judge a company's credibility partly by the quality of its website: multiple studies indicate that a significant percentage of users cite website design as the primary trust factor for a brand.
@@ -127,6 +161,11 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
       <p>
         A professional, instead, designs the site with the "invisible" part in mind too: code structure, speed, on-page SEO optimization, security, and room for future growth.
         <a href="https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sequentcreative ↗</a>
+        This includes following a rigorous testing process before going live: to learn more, you can consult our <a href="/en/blog/checklist-sito-web-controlli-online">website launch checklist before going live</a>.
+      </p>
+
+      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
+        Looking for a fast, secure, and Google-optimized website? <a href="/en/#contact">Get in touch to discuss your project →</a>
       </p>
 
       <h2 id="hidden-costs">5. Hidden costs and growth blockers</h2>
@@ -187,6 +226,18 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
           </tbody>
         </table>
       </div>
+
+      <h2>FAQ - Frequently Asked Questions about DIY vs Professional Websites</h2>
+      <dl className="faq-list">
+        <dt>Are Wix, Squarespace, or Shopify bad options for small businesses?</dt>
+        <dd>Not necessarily. They are great tools for testing a new concept or for personal websites with a tight budget. However, for an established business, they present limits in advanced SEO optimization, loading speed, and design flexibility compared to a custom-developed website.</dd>
+        
+        <dt>Why do DIY websites often fail to attract clients?</dt>
+        <dd>Because website builders simplify visual layout but do not help you with conversion strategy (UX), content architecture, professional copywriting, and local SEO. Without these pillars, the site is likely to remain invisible on search engines.</dd>
+        
+        <dt>How long does it take to create a professional website?</dt>
+        <dd>Typically, a professional project takes between 4 and 8 weeks, depending on its complexity. This timeframe covers initial strategic analysis, graphic design custom layout, copywriting, coding, and a comprehensive pre-launch checklist of tests.</dd>
+      </dl>
 
       <h2 id="when-diy">When DIY makes sense and when it doesn't</h2>
       <p>DIY can make sense if:</p>
