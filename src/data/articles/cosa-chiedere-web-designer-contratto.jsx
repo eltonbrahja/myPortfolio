@@ -81,7 +81,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         </ol>
       </div>
 
-      <h2 id="portfolio-clienti">1. Posso vedere il tuo portfolio e parlare con qualche cliente?</h2>
+      <h2 id="portfolio-clienti">Posso vedere il tuo portfolio e parlare con qualche cliente?</h2>
       <p>
         La prima cosa da verificare è se il web designer ha già realizzato siti simili al tipo di attività che hai tu e alla qualità che cerchi.
         <a href="https://cliquestudios.com/faq/how-to-choose-a-web-design-agency" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>cliquestudios ↗</a>
@@ -98,7 +98,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         <a href="https://www.dotcraft.agency/our-blog/how-to-choose-a-website-design-development-agency/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>dotcraft ↗</a>
       </p>
 
-      <h2 id="cosa-incluso">2. Cosa è incluso esattamente nel preventivo (e cosa no)?</h2>
+      <h2 id="cosa-incluso">Cosa è incluso esattamente nel preventivo (e cosa no)?</h2>
       <p>
         Molti problemi nascono perché il cliente pensa che “sia tutto compreso”, mentre il web designer considera tante cose come extra.
         <a href="https://portstbd.com/questions-ask-website-designer/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>portstbd ↗</a>
@@ -125,7 +125,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         Vuoi ricevere un preventivo chiaro, trasparente e con tutte le voci descritte nel dettaglio? <a href="/#contact">Richiedi un preventivo senza sorprese →</a>
       </p>
 
-      <h2 id="tempistiche-processo">3. Quali sono le tempistiche e come funziona il processo?</h2>
+      <h2 id="tempistiche-processo">Quali sono le tempistiche e come funziona il processo?</h2>
       <p>
         Un sito non si fa “domani”: ogni professionista serio ha un processo e delle tempistiche realistiche.
         <a href="https://www.orbitmedia.com/blog/5-questions-to-ask-when-choosing-a-web-design-firm/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>orbitmedia ↗</a>
@@ -147,7 +147,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         <a href="https://onesuite.io/blog/web-design-contract-template-included/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>onesuite ↗</a>
       </p>
 
-      <h2 id="quante-revisioni">4. Quante revisioni sono incluse?</h2>
+      <h2 id="quante-revisioni">Quante revisioni sono incluse?</h2>
       <p>
         Un altro punto delicato sono le modifiche: quante ne puoi chiedere prima che diventino un lavoro extra da pagare a parte.
         <a href="https://onesuite.io/blog/web-design-contract-template-included/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>onesuite ↗</a>
@@ -163,7 +163,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
       </ul>
       <p>Un professionista trasparente ti spiega questo punto con chiarezza e lo include nel contratto per evitare fraintendimenti.</p>
 
-      <h2 id="proprieta-sito">5. Chi possiede il dominio, l’hosting e i file del sito?</h2>
+      <h2 id="proprieta-sito">Chi possiede il dominio, l’hosting e i file del sito?</h2>
       <p>Questo è uno dei punti più importanti per non restare “incastrato”.</p>
       <p>Chiedi sempre:</p>
       <ul style={{ paddingLeft: '20px' }}>
@@ -178,7 +178,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         <a href="https://www.tagdesign.co.nz/blog-post/12-questions-to-ask-before-hiring-a-webdesigner" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>tagdesign ↗</a>
       </p>
 
-      <h2 id="assistenza-aggiornamenti">6. Come funzionano assistenza e aggiornamenti dopo la messa online?</h2>
+      <h2 id="assistenza-aggiornamenti">Come funzionano assistenza e aggiornamenti dopo la messa online?</h2>
       <p>
         Un sito non finisce il giorno del lancio: servono aggiornamenti di sicurezza, piccole modifiche, supporto tecnico.
         <a href="https://www.orbitmedia.com/blog/5-questions-to-ask-when-choosing-a-web-design-firm/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>orbitmedia ↗</a>
@@ -199,7 +199,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
         Tutti i miei siti includono 3 mesi di assistenza tecnica post-lancio e percorsi di formazione. <a href="/services">Scopri i miei servizi →</a>
       </p>
 
-      <h2 id="gestione-pagamenti">7. Come vengono gestiti pagamenti, acconti e costi extra?</h2>
+      <h2 id="gestione-pagamenti">Come vengono gestiti pagamenti, acconti e costi extra?</h2>
       <p>
         Anche la parte economica va chiarita bene e per iscritto.
         <a href="https://onesuite.io/blog/web-design-contract-template-included/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>onesuite ↗</a>
@@ -218,7 +218,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
       </ul>
       <p>Tutto questo evita sorprese del tipo “non sapevo che…”.</p>
 
-      <h2 id="piattaforma-autonomia">8. Su quale piattaforma verrà realizzato il sito e quanto sarò autonomo?</h2>
+      <h2 id="piattaforma-autonomia">Su quale piattaforma verrà realizzato il sito e quanto sarò autonomo?</h2>
       <p>
         Sapere su cosa sarà costruito il sito è importante per capire quanto potrai gestirlo in autonomia.
         <a href="https://designpowers.com/blog/25-questions-to-ask-your-website-designer-before-hiring" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>designpowers ↗</a>
@@ -235,7 +235,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
       </ul>
       <p>L’obiettivo è non ritrovarti con un sito che per qualsiasi piccola modifica richiede di aprire un ticket a pagamento.</p>
 
-      <h2 id="performance-sicurezza">9. Come ti assicuri che il sito sia veloce, responsive e sicuro?</h2>
+      <h2 id="performance-sicurezza">Come ti assicuri che il sito sia veloce, responsive e sicuro?</h2>
       <p>
         Un buon sito non è solo “bello”: deve essere veloce, funzionare bene da smartphone ed essere sicuro.
         <a href="https://cliquestudios.com/faq/how-to-choose-a-web-design-agency" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>cliquestudios ↗</a>
@@ -254,7 +254,7 @@ export const cosaChiedereWebDesignerContrattoPost = {
       </ul>
       <p>Le risposte ti faranno capire se il designer pensa anche alla parte tecnica o solo all’aspetto estetico.</p>
 
-      <h2 id="qualcosa-storto">10. Cosa succede se qualcosa va storto?</h2>
+      <h2 id="qualcosa-storto">Cosa succede se qualcosa va storto?</h2>
       <p>Nessuno lo ama chiedere, ma è importante:</p>
       <ul style={{ paddingLeft: '20px' }}>
         <li>Cosa succede se il progetto <strong>ritarda</strong>?</li>

@@ -79,7 +79,7 @@ export const facebookNonBastaPostEn = {
         </ol>
       </div>
 
-      <h2 id="algorithms">1. Algorithms decide who sees you (and usually very few do)</h2>
+      <h2 id="algorithms">Algorithms decide who sees you (and usually very few do)</h2>
       <p>
         In recent years, the free visibility of business page posts has plummeted: today most pages see an average organic reach of about 1–5% of their followers.
         <a href="https://kirkgroup.com/blog/facebook-organic-reach-is-dead/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>kirkgroup ↗</a>
@@ -98,7 +98,7 @@ export const facebookNonBastaPostEn = {
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
       </p>
 
-      <h2 id="control">2. You don't have control: the page isn't really "yours"</h2>
+      <h2 id="control">You don't have control: the page isn't really "yours"</h2>
       <p>
         A Facebook page lives on someone else's land: the rules, the layout, and how your content is displayed are all decided by Meta, not you.
         <a href="https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>
@@ -120,7 +120,7 @@ export const facebookNonBastaPostEn = {
         <a href="https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>geoffresh ↗</a>
       </p>
 
-      <h2 id="google">3. Facebook doesn't help you rank on Google</h2>
+      <h2 id="google">Facebook doesn't help you rank on Google</h2>
       <p>
         When someone searches Google for "psychologist + city," "urgent plumber + city," or "shop [product] + city," Google tends to show <strong>websites</strong> and Google Business profiles as the main results.
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
@@ -140,7 +140,7 @@ export const facebookNonBastaPostEn = {
         Want to see if your local ranking on Google is correct? <a href="/en#contact">Request a free analysis of your online presence →</a>
       </p>
 
-      <h2 id="trust">4. Trust and credibility: having only Facebook makes you look less serious</h2>
+      <h2 id="trust">Trust and credibility: having only Facebook makes you look less serious</h2>
       <p>
         Anyone can open a Facebook page in 5 minutes, add a logo from the internet, and write two lines — even someone who isn't a real business.
         <a href="https://www.getresponse.com/blog/facebook-page-vs-website" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getresponse ↗</a>
@@ -161,7 +161,7 @@ export const facebookNonBastaPostEn = {
         <a href="https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>quzeks ↗</a>
       </p>
 
-      <h2 id="distractions">5. On Facebook you're surrounded by distractions and competitors</h2>
+      <h2 id="distractions">On Facebook you're surrounded by distractions and competitors</h2>
       <p>Anyone who sees you on Facebook sees you alongside:</p>
       <ul style={{ paddingLeft: '20px' }}>
         <li>Posts from friends and family.</li>
@@ -180,7 +180,7 @@ export const facebookNonBastaPostEn = {
         <a href="https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>geoffresh ↗</a>
       </p>
 
-      <h2 id="online-home">6. Your website as a "home" for all your channels</h2>
+      <h2 id="online-home">Your website as a "home" for all your channels</h2>
       <p>
         Your website is the center of your entire online presence: a "home" where you drive traffic from Facebook, Instagram, Google, email, ads, flyers, and business cards.
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
@@ -204,7 +204,7 @@ export const facebookNonBastaPostEn = {
         I design and build independent websites, fully integrated with your social media channels. <a href="/services">Discover how I work →</a>
       </p>
 
-      <h2 id="together">7. Facebook + website: making them work together</h2>
+      <h2 id="together">Facebook + website: making them work together</h2>
       <p>The solution isn't to "abandon Facebook," but to stop using it as your <strong>only</strong> channel. The winning mix in 2026 is:</p>
 
       <div className="table-responsive">

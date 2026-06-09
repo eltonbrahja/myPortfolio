@@ -79,7 +79,7 @@ export const guidaTipoSitoGiustoPost = {
         </ol>
       </div>
 
-      <h2 id="sito-vetrina">1. Sito vetrina: la tua "scheda" professionale online</h2>
+      <h2 id="sito-vetrina">Sito vetrina: la tua "scheda" professionale online</h2>
       <p>
         Pensa al sito vetrina come al corrispettivo digitale del tuo biglietto da visita o della brochure del tuo studio: dice chi sei, cosa fai, dove ti trovi e come contattarti.
         <a href="https://righthook.co.uk/blog/what-is-a-brochure-website/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>righthook ↗</a>
@@ -108,7 +108,7 @@ export const guidaTipoSitoGiustoPost = {
         Hai uno studio professionale o un'attività locale e vuoi un sito vetrina elegante e veloce? <a href="/services">Scopri il mio servizio di Realizzazione Siti Vetrina →</a>
       </p>
 
-      <h2 id="blog">2. Blog: farti trovare su Google e dimostrare competenza</h2>
+      <h2 id="blog">Blog: farti trovare su Google e dimostrare competenza</h2>
       <p>
         Il blog non è un tipo di sito a parte, ma una <strong>sezione</strong> del sito dove pubblichi articoli utili per i tuoi clienti.
         <a href="https://siteclicks.com.au/blog/7-websites-explained-business-owners/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>siteclicks ↗</a>
@@ -132,7 +132,7 @@ export const guidaTipoSitoGiustoPost = {
         <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>
       </p>
 
-      <h2 id="ecommerce">3. E‑commerce: quando vuoi vendere prodotti online</h2>
+      <h2 id="ecommerce">E‑commerce: quando vuoi vendere prodotti online</h2>
       <p>
         Un e‑commerce è un vero e proprio <strong>negozio online</strong>: le persone possono vedere i prodotti, aggiungerli al carrello e pagarli direttamente dal sito.
         <a href="https://www.kombee.com/blogs/business-website-types" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>kombee ↗</a>
@@ -163,7 +163,7 @@ export const guidaTipoSitoGiustoPost = {
         Vuoi lanciare il tuo shop online per vendere prodotti fisici o digitali? <a href="/#contact">Richiedi un preventivo per il tuo e-commerce →</a>
       </p>
 
-      <h2 id="prenotazioni">4. Sito con sistema di prenotazioni: far prenotare i clienti da soli</h2>
+      <h2 id="prenotazioni">Sito con sistema di prenotazioni: far prenotare i clienti da soli</h2>
       <p>
         Il sito con sistema di prenotazioni è pensato per far sì che il cliente possa <strong>scegliere giorno e ora</strong> e prenotare da solo, senza telefonate o messaggi avanti e indietro.
         <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>

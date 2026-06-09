@@ -68,16 +68,16 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#slow-site">1. The website is slow to load</a></li>
-          <li><a href="#old-design">2. The design looks 10 years old</a></li>
-          <li><a href="#no-mobile">3. The website is not mobile-friendly</a></li>
-          <li><a href="#no-cta">4. There is no clear Call to Action (CTA)</a></li>
-          <li><a href="#confusing-content">5. Confusing or outdated content</a></li>
+          <li><a href="#slow-site">The website is slow to load</a></li>
+          <li><a href="#old-design">The design looks 10 years old</a></li>
+          <li><a href="#no-mobile">The website is not mobile-friendly</a></li>
+          <li><a href="#no-cta">There is no clear Call to Action (CTA)</a></li>
+          <li><a href="#confusing-content">Confusing or outdated content</a></li>
           <li><a href="#summary-table">Summary Table: Signs, Impacts, and Solutions</a></li>
         </ol>
       </div>
 
-      <h2 id="slow-site">1. The website is slow to load</h2>
+      <h2 id="slow-site">The website is slow to load</h2>
       <p>
         If your website takes more than 3 seconds to load, a major chunk of users will close it and head back to Google without ever seeing who you are.
         <a href="https://www.elmawebstudio.com/blog/why-website-speed-impacts-revenue-google-ranking" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>elmawebstudio ↗</a>
@@ -94,7 +94,7 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
         <a href="https://www.tedeca.de/blogs/business-cost-of" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>tedeca ↗</a>
       </p>
 
-      <h2 id="old-design">2. The design looks 10 years old</h2>
+      <h2 id="old-design">The design looks 10 years old</h2>
       <p>
         The average user takes only a few seconds to form an impression of you, and your website is often the first touchpoint with your practice.
         An outdated, unpolished design with old fonts, chaotic colors, and messy layout unconsciously communicates poor professionalism and lack of care for the client.
@@ -112,7 +112,7 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
         Does your current website look dated or fail to adapt to mobile screens? <a href="/en#contact">Request a redesign or a free analysis →</a>
       </p>
 
-      <h2 id="no-mobile">3. The website is not mobile-friendly</h2>
+      <h2 id="no-mobile">The website is not mobile-friendly</h2>
       <p>
         Today, the majority of visits come from smartphones: if your site is hard to read or navigate on mobile, you are gifting clients to your competitors.
         <a href="https://www.jamiesdesign.com/website-design-and-marketing-blog/mobile-friendly-websites-are-important" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>jamiesdesign ↗</a>
@@ -128,7 +128,7 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
       </ul>
       <p>This translates to fewer qualified visitors and, consequently, fewer requests for appointments or quotes, even if you do outstanding work.</p>
 
-      <h2 id="no-cta">4. There is no clear Call to Action (CTA)</h2>
+      <h2 id="no-cta">There is no clear Call to Action (CTA)</h2>
       <p>
         Many professional practice websites “tell” who you are, but don't explain clearly what the user should do next.
         If you don't explicitly invite the person to contact you – with a clear button, a simple form, a prominent “Book a Consultation” – many visitors will look around and then leave without doing anything.
@@ -151,7 +151,7 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
         I design and develop modern, fast, and conversion-focused websites. <a href="/services">Discover my services →</a>
       </p>
 
-      <h2 id="confusing-content">5. Confusing or outdated content</h2>
+      <h2 id="confusing-content">Confusing or outdated content</h2>
       <p>
         Last warning sign, but no less important: unclear, overly technical, or evidently old texts.
         If your site shows wrong hours, services you no longer offer, articles from years ago, or difficult jargon, the implicit message is: “This practice is not updated and doesn't speak my language.”

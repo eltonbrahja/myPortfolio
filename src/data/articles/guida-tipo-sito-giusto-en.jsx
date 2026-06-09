@@ -79,7 +79,7 @@ export const guidaTipoSitoGiustoPostEn = {
         </ol>
       </div>
 
-      <h2 id="showcase-website">1. Showcase website: your professional online "business card"</h2>
+      <h2 id="showcase-website">Showcase website: your professional online "business card"</h2>
       <p>
         Think of a showcase website as the digital equivalent of your business card or studio brochure: it tells people who you are, what you do, where you are, and how to contact you.
         <a href="https://righthook.co.uk/blog/what-is-a-brochure-website/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>righthook ↗</a>
@@ -108,7 +108,7 @@ export const guidaTipoSitoGiustoPostEn = {
         Do you have a professional practice or local business and want a sleek, fast showcase website? <a href="/en/services">Discover my Showcase Website services →</a>
       </p>
 
-      <h2 id="blog">2. Blog: getting found on Google and proving your expertise</h2>
+      <h2 id="blog">Blog: getting found on Google and proving your expertise</h2>
       <p>
         A blog isn't a separate type of website, but a <strong>section</strong> of your site where you publish useful articles for your clients.
         <a href="https://siteclicks.com.au/blog/7-websites-explained-business-owners/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>siteclicks ↗</a>
@@ -132,7 +132,7 @@ export const guidaTipoSitoGiustoPostEn = {
         <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>
       </p>
 
-      <h2 id="ecommerce">3. E-commerce: when you want to sell products online</h2>
+      <h2 id="ecommerce">E-commerce: when you want to sell products online</h2>
       <p>
         An e-commerce site is a real <strong>online shop</strong>: people can browse products, add them to their cart, and pay directly on the website.
         <a href="https://www.kombee.com/blogs/business-website-types" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>kombee ↗</a>
@@ -163,7 +163,7 @@ export const guidaTipoSitoGiustoPostEn = {
         Want to launch an online store to sell physical or digital products? <a href="/en/#contact">Request a quote for your e-commerce website →</a>
       </p>
 
-      <h2 id="booking-system">4. Website with booking system: letting clients book on their own</h2>
+      <h2 id="booking-system">Website with booking system: letting clients book on their own</h2>
       <p>
         A website with a booking system is designed to let clients <strong>choose a day and time</strong> and book on their own, without back-and-forth phone calls or messages.
         <a href="https://www.mappersgeo.com/knowledge_base/how-to-choose-a-website-for-your-business-a-detailed-guide/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mappersgeo ↗</a>

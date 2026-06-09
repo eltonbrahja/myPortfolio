@@ -68,16 +68,16 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
       <div className="article-toc">
         <div className="toc-title">Indice</div>
         <ol className="toc-list">
-          <li><a href="#sito-lento">1. Il sito è lento a caricarsi</a></li>
-          <li><a href="#grafica-vecchia">2. La grafica sembra uscita da 10 anni fa</a></li>
-          <li><a href="#no-mobile">3. Il sito non è ottimizzato per smartphone</a></li>
-          <li><a href="#no-cta">4. Non c’è una vera chiamata all’azione (CTA)</a></li>
-          <li><a href="#contenuti-confusi">5. Contenuti confusi o non aggiornati</a></li>
+          <li><a href="#sito-lento">Il sito è lento a caricarsi</a></li>
+          <li><a href="#grafica-vecchia">La grafica sembra uscita da 10 anni fa</a></li>
+          <li><a href="#no-mobile">Il sito non è ottimizzato per smartphone</a></li>
+          <li><a href="#no-cta">Non c’è una vera chiamata all’azione (CTA)</a></li>
+          <li><a href="#contenuti-confusi">Contenuti confusi o non aggiornati</a></li>
           <li><a href="#tabella-riassuntiva">Tabella riassuntiva: Segnali, Impatti e Soluzioni</a></li>
         </ol>
       </div>
 
-      <h2 id="sito-lento">1. Il sito è lento a caricarsi</h2>
+      <h2 id="sito-lento">Il sito è lento a caricarsi</h2>
       <p>
         Se il tuo sito impiega più di 3 secondi a caricarsi, una fetta importante di persone chiude e torna su Google senza neanche vedere chi sei.
         <a href="https://www.elmawebstudio.com/blog/why-website-speed-impacts-revenue-google-ranking" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>elmawebstudio ↗</a>
@@ -94,7 +94,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
         <a href="https://www.tedeca.de/blogs/business-cost-of" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>tedeca ↗</a>
       </p>
 
-      <h2 id="grafica-vecchia">2. La grafica sembra uscita da 10 anni fa</h2>
+      <h2 id="grafica-vecchia">La grafica sembra uscita da 10 anni fa</h2>
       <p>
         L’utente medio impiega pochissimi secondi per farsi un’idea di te, e il sito è spesso il primo contatto con il tuo studio.
         Una grafica vecchia, poco curata, con font datati, colori confusi e impaginazione disordinata comunica inconsciamente poca professionalità e poca attenzione al cliente.
@@ -112,7 +112,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
         Il tuo sito attuale ha una grafica datata o non si adatta bene agli smartphone? <a href="/#contact">Richiedi un restyling o un'analisi gratuita →</a>
       </p>
 
-      <h2 id="no-mobile">3. Il sito non è ottimizzato per smartphone</h2>
+      <h2 id="no-mobile">Il sito non è ottimizzato per smartphone</h2>
       <p>
         Oggi la maggior parte delle visite arriva da smartphone: se sul telefono il tuo sito è difficile da leggere o navigare, stai regalando clienti ai concorrenti.
         <a href="https://www.jamiesdesign.com/website-design-and-marketing-blog/mobile-friendly-websites-are-important" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>jamiesdesign ↗</a>
@@ -128,7 +128,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
       </ul>
       <p>Questo significa meno visite qualificate e, di conseguenza, meno richieste di appuntamento o preventivo, anche se fai benissimo il tuo lavoro.</p>
 
-      <h2 id="no-cta">4. Non c’è una vera chiamata all’azione (CTA)</h2>
+      <h2 id="no-cta">Non c’è una vera chiamata all’azione (CTA)</h2>
       <p>
         Molti siti di studi professionali “raccontano” chi sei, ma non spiegano chiaramente cosa deve fare l’utente dopo.
         Se non inviti esplicitamente la persona a contattarti – con un pulsante chiaro, un modulo semplice, un “Prenota una consulenza” ben visibile – molti visitatori guardano la pagina, poi se ne vanno senza fare niente.
@@ -151,7 +151,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
         Progetto e sviluppo siti web moderni, veloci e incentrati sulla conversione dell'utente. <a href="/services">Scopri i miei servizi →</a>
       </p>
 
-      <h2 id="contenuti-confusi">5. Contenuti confusi o non aggiornati</h2>
+      <h2 id="contenuti-confusi">Contenuti confusi o non aggiornati</h2>
       <p>
         Ultimo segnale, ma non meno importante: testi poco chiari, troppo tecnici o evidentemente vecchi.
         Se sul sito compaiono orari sbagliati, servizi che non offri più, articoli fermi a anni fa o un linguaggio difficile, il messaggio implicito per chi legge è: “Questo studio non è aggiornato e non parla la mia lingua”.

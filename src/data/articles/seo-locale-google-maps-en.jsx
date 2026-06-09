@@ -54,11 +54,11 @@ export const seoLocaleGoogleMapsPostEn = {
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
           <li><a href="#cosa-significa">What it means to appear for “business + city”</a></li>
-          <li><a href="#passo-1">Step 1: create (or fix) your Google Business Profile</a></li>
-          <li><a href="#passo-2">Step 2: optimize the profile to get chosen</a></li>
-          <li><a href="#passo-3">Step 3: make your website clear for Google</a></li>
-          <li><a href="#passo-4">Step 4: create content around local searches</a></li>
-          <li><a href="#passo-5">Step 5: data consistency everywhere</a></li>
+          <li><a href="#passo-1">create (or fix) your Google Business Profile</a></li>
+          <li><a href="#passo-2">optimize the profile to get chosen</a></li>
+          <li><a href="#passo-3">make your website clear for Google</a></li>
+          <li><a href="#passo-4">create content around local searches</a></li>
+          <li><a href="#passo-5">data consistency everywhere</a></li>
           <li><a href="#perche-conviene">Why you should get help from a professional</a></li>
           <li><a href="#cosa-fare-adesso">What you can do now</a></li>
         </ol>
@@ -79,7 +79,7 @@ export const seoLocaleGoogleMapsPostEn = {
         That's what I do for the local businesses I work with: I don't just “build a site”, I connect it well to the Google profile and optimize it so Google understands where you are, what you do and who you address.
       </p>
 
-      <h2 id="passo-1">Step 1: create (or fix) your Google Business Profile</h2>
+      <h2 id="passo-1">create (or fix) your Google Business Profile</h2>
       <p>
         The foundation to appear when they search “business + city” is having a complete, verified and maintained Google Business Profile.
       </p>
@@ -96,7 +96,7 @@ export const seoLocaleGoogleMapsPostEn = {
         When I take on a local project, one of the first things I do is exactly this: check if a profile already exists, fix it, optimize every field and connect it to the website the right way.
       </p>
 
-      <h2 id="passo-2">Step 2: optimize the profile to get chosen (not just seen)</h2>
+      <h2 id="passo-2">optimize the profile to get chosen (not just seen)</h2>
       <p>
         Just being there is not enough, you must also convince. A well-maintained profile makes a huge difference compared to an empty or neglected one. Things to do are:
       </p>
@@ -117,7 +117,7 @@ export const seoLocaleGoogleMapsPostEn = {
         Need to set up and optimize your Google Business Profile professionally? <a href="/en#contact">Contact me for initial optimization and consulting →</a>
       </p>
 
-      <h2 id="passo-3">Step 3: make your website clear for Google (and for those who search)</h2>
+      <h2 id="passo-3">make your website clear for Google (and for those who search)</h2>
       <p>
         The Google profile is fundamental, but alone it's not enough: Google also looks at your website to understand where you are, what you do and for which area you are relevant. That's why on the website it's important to:
       </p>
@@ -130,7 +130,7 @@ export const seoLocaleGoogleMapsPostEn = {
         When I build a website for a local business, I think about local SEO right from the start: I write texts keeping in mind the real searches clients make, I prepare the right sections and I connect everything with the Google profile. It's not just “a beautiful site”, but a site designed to get you found and contacted.
       </p>
 
-      <h2 id="passo-4">Step 4: create content around local searches</h2>
+      <h2 id="passo-4">create content around local searches</h2>
       <p>
         An effective way to strengthen the ranking for “business + city” is to create useful content on the site that addresses the real problems of clients in your area.
       </p>
@@ -144,7 +144,7 @@ export const seoLocaleGoogleMapsPostEn = {
         Google sees that your site often talks about that type of business connected to that area and starts considering you more relevant for those searches. Here I can help you in two ways: designing the structure of local pages (e.g. “plumber in Bari”, “plumber in Bari province”) and writing the articles with simple language, but optimized for the searches your clients actually make.
       </p>
 
-      <h2 id="passo-5">Step 5: data consistency everywhere</h2>
+      <h2 id="passo-5">data consistency everywhere</h2>
       <p>
         Another often underestimated piece is data consistency: business name, address and number must be identical on website, Google profile, socials and main portals where you are present.
       </p>

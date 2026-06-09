@@ -79,7 +79,7 @@ export const facebookNonBastaPost = {
         </ol>
       </div>
 
-      <h2 id="algoritmi">1. Gli algoritmi decidono chi ti vede (e di solito ti vedono in pochi)</h2>
+      <h2 id="algoritmi">Gli algoritmi decidono chi ti vede (e di solito ti vedono in pochi)</h2>
       <p>
         Negli ultimi anni la visibilità gratuita dei post delle pagine business è crollata: oggi la maggior parte delle pagine vede in media un reach organico di circa 1–5% dei propri follower.
         <a href="https://kirkgroup.com/blog/facebook-organic-reach-is-dead/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>kirkgroup ↗</a>
@@ -98,7 +98,7 @@ export const facebookNonBastaPost = {
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
       </p>
 
-      <h2 id="controllo">2. Non hai il controllo: la pagina non è veramente "tua"</h2>
+      <h2 id="controllo">Non hai il controllo: la pagina non è veramente "tua"</h2>
       <p>
         Una pagina Facebook vive su un terreno che non è tuo: le regole, la grafica, il modo in cui vengono mostrati i contenuti sono decisi da Meta, non da te.
         <a href="https://www.linkedin.com/pulse/facebook-pages-vs-websites-m-kendall-ludwig-fnkwe" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>
@@ -120,7 +120,7 @@ export const facebookNonBastaPost = {
         <a href="https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>geoffresh ↗</a>
       </p>
 
-      <h2 id="google">3. Facebook non ti fa trovare bene su Google</h2>
+      <h2 id="google">Facebook non ti fa trovare bene su Google</h2>
       <p>
         Quando qualcuno cerca su Google "psicologo + città", "idraulico urgente + città" o "negozio [prodotto] + città", Google tende a mostrare <strong>siti web</strong> e schede Google Business come risultati principali.
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
@@ -140,7 +140,7 @@ export const facebookNonBastaPost = {
         Vuoi capire se il tuo posizionamento locale su Google è corretto? <a href="/#contact">Richiedi un'analisi gratuita della tua presenza online →</a>
       </p>
 
-      <h2 id="fiducia">4. Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio</h2>
+      <h2 id="fiducia">Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio</h2>
       <p>
         Chiunque può aprire una pagina Facebook in 5 minuti, mettere un logo preso da internet e scrivere due righe: anche chi non è una vera azienda.
         <a href="https://www.getresponse.com/blog/facebook-page-vs-website" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>getresponse ↗</a>
@@ -161,7 +161,7 @@ export const facebookNonBastaPost = {
         <a href="https://quzeks.com/facebook-page-vs-website-which-one-should-you-choose/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>quzeks ↗</a>
       </p>
 
-      <h2 id="distrazioni">5. Su Facebook sei circondato da distrazioni e concorrenti</h2>
+      <h2 id="distrazioni">Su Facebook sei circondato da distrazioni e concorrenti</h2>
       <p>Chi ti vede su Facebook, ti vede in mezzo a:</p>
       <ul style={{ paddingLeft: '20px' }}>
         <li>Post di amici e parenti.</li>
@@ -180,7 +180,7 @@ export const facebookNonBastaPost = {
         <a href="https://www.geoffresh.com/news/5-reasons-to-have-an-official-website-over-just-social-media-profiles" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>geoffresh ↗</a>
       </p>
 
-      <h2 id="casa-online">6. Con il sito puoi costruire una vera "casa" per tutti i tuoi canali</h2>
+      <h2 id="casa-online">Con il sito puoi costruire una vera "casa" per tutti i tuoi canali</h2>
       <p>
         Il tuo sito è il centro di tutta la tua presenza online: una "casa" dove far arrivare il traffico da Facebook, Instagram, Google, email, annunci, volantini, biglietti da visita.
         <a href="https://www.mozello.com/blog/make-a-website-vs-facebook" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>mozello ↗</a>
@@ -206,7 +206,7 @@ export const facebookNonBastaPost = {
         Progetto siti web indipendenti e di proprietà al 100%, integrati con i tuoi canali social. <a href="/services">Scopri come lavoro →</a>
       </p>
 
-      <h2 id="insieme">7. Pagina Facebook + sito: come farli lavorare insieme</h2>
+      <h2 id="insieme">Pagina Facebook + sito: come farli lavorare insieme</h2>
       <p>La soluzione non è "abbandonare Facebook", ma smettere di usarlo come <strong>unico</strong> canale. Il mix che funziona nel 2026 è:</p>
 
       <div className="table-responsive">

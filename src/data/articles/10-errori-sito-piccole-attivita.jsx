@@ -81,7 +81,7 @@ export const dieciErroriSitoPost = {
         </ol>
       </div>
 
-      <h2 id="testi-lunghi">1. Testi lunghi e muri di parole</h2>
+      <h2 id="testi-lunghi">Testi lunghi e muri di parole</h2>
       <p>
         Uno degli errori più diffusi è avere pagine piene di testo, tutto attaccato, senza titoli chiari, paragrafi brevi o punti elenco.
         <a href="https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>
@@ -99,7 +99,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Questo è proprio il tipo di lavoro editoriale (struttura, titoli, ordine delle informazioni) che un professionista cura per far sì che il sito si legga in modo naturale.</p>
 
-      <h2 id="nessuna-cta">2. Nessuna call to action (CTA) chiara</h2>
+      <h2 id="nessuna-cta">Nessuna call to action (CTA) chiara</h2>
       <p>
         Molti siti raccontano chi sei ma non dicono <em>cosa</em> deve fare il visitatore dopo: chiamare, compilare un modulo, prenotare, chiedere un preventivo.
         <a href="https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>rubiagroupagency ↗</a>
@@ -117,7 +117,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Un web designer progetta il percorso dell'utente proprio per accompagnarlo da "sto guardando" a "ti contatto".</p>
 
-      <h2 id="contatti-nascosti">3. Contatti nascosti o difficili da trovare</h2>
+      <h2 id="contatti-nascosti">Contatti nascosti o difficili da trovare</h2>
       <p>
         Sembra incredibile, ma tantissimi siti non mostrano chiaramente numero di telefono, email, indirizzo o orari.
         <a href="https://www.iubenda.com/en/blog/website-mistakes/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>iubenda ↗</a>
@@ -139,7 +139,7 @@ export const dieciErroriSitoPost = {
         Vuoi assicurarti che i contatti del tuo sito siano posizionati nel modo corretto? <a href="/#contact">Richiedi un'analisi gratuita della UX della tua homepage →</a>
       </p>
 
-      <h2 id="foto-scarse">4. Foto scarse, sfocate o tutte di stock</h2>
+      <h2 id="foto-scarse">Foto scarse, sfocate o tutte di stock</h2>
       <p>
         Le immagini contano tantissimo per la prima impressione: foto sfocate, buie o generiche (stock viste mille volte) fanno percepire il sito come poco curato e poco credibile.
         <a href="https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>relacionesinternacionales ↗</a>
@@ -157,7 +157,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Un web designer ti aiuta a scegliere e disporre le foto in modo da valorizzare la tua attività e non sembrare l'ennesimo sito anonimo.</p>
 
-      <h2 id="nessuna-recensione">5. Nessuna recensione o testimonianza</h2>
+      <h2 id="nessuna-recensione">Nessuna recensione o testimonianza</h2>
       <p>
         Oggi le persone si fidano molto di più delle opinioni di altri clienti che delle frasi "siamo i migliori" scritte da te.
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>
@@ -175,7 +175,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Un professionista sa dove inserire queste "prove sociali" per farle pesare al momento giusto nel percorso del visitatore.</p>
 
-      <h2 id="navigazione-confusa">6. Navigazione confusa e menu complicati</h2>
+      <h2 id="navigazione-confusa">Navigazione confusa e menu complicati</h2>
       <p>
         Se il menu è pieno di voci strane, sottomenù infiniti o nomi poco chiari ("Soluzioni", "Persone", "Risorse") il visitatore non capisce dove cliccare e se ne va.
         <a href="https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>lukefernando ↗</a>
@@ -193,7 +193,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Il lavoro di architettura delle informazioni è una parte centrale del mestiere di web designer e fa davvero la differenza nell'esperienza utente.</p>
 
-      <h2 id="non-mobile">7. Sito non ottimizzato per smartphone</h2>
+      <h2 id="non-mobile">Sito non ottimizzato per smartphone</h2>
       <p>
         Oltre metà del traffico web arriva da mobile: se il tuo sito su smartphone è difficile da usare, con testi minuscoli e bottoni impossibili da cliccare, stai perdendo una grossa fetta di potenziali clienti.
         <a href="https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>lukefernando ↗</a>
@@ -211,7 +211,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Qui la differenza tra un tema improvvisato e un progetto serio la senti subito quando apri il sito dal telefono.</p>
 
-      <h2 id="sito-lento">8. Sito lento a caricarsi</h2>
+      <h2 id="sito-lento">Sito lento a caricarsi</h2>
       <p>
         Se il sito ci mette più di 3 secondi a caricarsi, molte persone chiudono la pagina prima ancora di vedere chi sei.
         <a href="https://www.reddit.com/r/smallbusiness/comments/1pli5m0/small_business_owners_5_website_mistakes_that_are/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>reddit ↗</a>
@@ -233,7 +233,7 @@ export const dieciErroriSitoPost = {
         I siti web che realizzo sono ottimizzati per caricarsi in meno di 2 secondi e rispettare i Core Web Vitals. <a href="/services">Scopri i dettagli dello sviluppo →</a>
       </p>
 
-      <h2 id="contenuti-vecchi">9. Contenuti vecchi, non aggiornati o poco chiari</h2>
+      <h2 id="contenuti-vecchi">Contenuti vecchi, non aggiornati o poco chiari</h2>
       <p>
         Blog fermi da anni, servizi non più attuali, orari sbagliati: tutto questo dà l'idea di un'attività ferma o poco curata.
         <a href="https://www.iubenda.com/en/blog/website-mistakes/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>iubenda ↗</a>
@@ -251,7 +251,7 @@ export const dieciErroriSitoPost = {
       </ul>
       <p>Nel lavoro professionale, la revisione periodica dei contenuti e la cura del tono di voce sono elementi che mantengono il sito "vivo" e credibile.</p>
 
-      <h2 id="nessuna-sicurezza">10. Nessuna sicurezza e nessun segnale di affidabilità</h2>
+      <h2 id="nessuna-sicurezza">Nessuna sicurezza e nessun segnale di affidabilità</h2>
       <p>
         Siti senza https (lucchetto), senza privacy/cookie policy o moduli contatto poco chiari fanno nascere dubbi sulla serietà dell'attività.
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>

@@ -54,14 +54,14 @@ export const checklistSitoWebControlliOnlinePostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#usability">1. Usability and Conversions (UX)</a></li>
-          <li><a href="#seo">2. On-Page SEO</a></li>
-          <li><a href="#performance">3. Performance and Speed</a></li>
-          <li><a href="#technical">4. Technical and Legal Aspects</a></li>
+          <li><a href="#usability">Usability and Conversions (UX)</a></li>
+          <li><a href="#seo">On-Page SEO</a></li>
+          <li><a href="#performance">Performance and Speed</a></li>
+          <li><a href="#technical">Technical and Legal Aspects</a></li>
         </ol>
       </div>
 
-      <h2 id="usability">1. Usability and Conversions (UX)</h2>
+      <h2 id="usability">Usability and Conversions (UX)</h2>
       <p>A beautiful but confusing website does not sell. The first step is verifying that the user journey is smooth and obstacle-free.</p>
       
       <ul style={{ paddingLeft: '20px' }}>
@@ -83,7 +83,7 @@ export const checklistSitoWebControlliOnlinePostEn = {
         Have doubts about your site's UX or CTA placement? <a href="/en#contact">Request a free UX analysis of your homepage →</a>
       </p>
 
-      <h2 id="seo">2. On-Page SEO (Search Engine Optimization)</h2>
+      <h2 id="seo">On-Page SEO (Search Engine Optimization)</h2>
       <p>To get found on Google, every page must follow precise structural guidelines.</p>
 
       <ul style={{ paddingLeft: '20px' }}>
@@ -105,7 +105,7 @@ export const checklistSitoWebControlliOnlinePostEn = {
         Want to rank on search engines and get found by local clients? <a href="/en#contact">Discover how I can optimize your site's SEO →</a>
       </p>
 
-      <h2 id="performance">3. Performance and Speed</h2>
+      <h2 id="performance">Performance and Speed</h2>
       <p>Loading speed is an official Google ranking factor and directly impacts sales: if a site takes more than 3 seconds to load, half of the users leave.</p>
 
       <ul style={{ paddingLeft: '20px' }}>
@@ -120,7 +120,7 @@ export const checklistSitoWebControlliOnlinePostEn = {
         </li>
       </ul>
 
-      <h2 id="technical">4. Technical and Legal Aspects</h2>
+      <h2 id="technical">Technical and Legal Aspects</h2>
       <p>Final details, often invisible but crucial for security, trust, and legal compliance.</p>
 
       <ul style={{ paddingLeft: '20px' }}>

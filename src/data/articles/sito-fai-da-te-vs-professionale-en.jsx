@@ -92,7 +92,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         <a href="https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sequentcreative ↗</a>
       </p>
 
-      <h2 id="time-lost">1. The time you lose (and won't get back)</h2>
+      <h2 id="time-lost">The time you lose (and won't get back)</h2>
       <p>
         DIY platforms market themselves as "simple," but first-time users often end up spending dozens of hours on them.
         <a href="https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>newperspectivestudio ↗</a>
@@ -106,7 +106,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         <a href="https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>horizonsdesign ↗</a>
       </p>
 
-      <h2 id="builder-limits">2. Limits of free builders: the site that looks like a thousand others</h2>
+      <h2 id="builder-limits">Limits of free builders: the site that looks like a thousand others</h2>
       <p>
         DIY builders offer hundreds of templates, but they're the same ones used by thousands of other businesses worldwide.
         <a href="https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>dimensioncreative ↗</a>
@@ -124,7 +124,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         Want a unique design custom-tailored to your brand? <a href="/en/services">Discover my professional Web Design services →</a>
       </p>
 
-      <h2 id="unprofessional-image">3. The unprofessional image that drives clients away</h2>
+      <h2 id="unprofessional-image">The unprofessional image that drives clients away</h2>
       <p>
         People judge a company's credibility partly by the quality of its website: multiple studies indicate that a significant percentage of users cite website design as the primary trust factor for a brand.
         <a href="https://rudys.ai/small-business-website-statistics" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>rudys ↗</a>
@@ -138,7 +138,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         <a href="https://marketingltb.com/blog/statistics/small-business-website-statistics/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>marketingltb ↗</a>
       </p>
 
-      <h2 id="technical-seo-issues">4. Technical and SEO issues: a site nobody finds (or that doesn't work well)</h2>
+      <h2 id="technical-seo-issues">Technical and SEO issues: a site nobody finds (or that doesn't work well)</h2>
       <p>
         A website doesn't just need to "be online": it must be fast, secure, mobile-friendly, and easy to find on search engines.
         <a href="https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>envizonstudio ↗</a>
@@ -168,7 +168,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
         Looking for a fast, secure, and Google-optimized website? <a href="/en/#contact">Get in touch to discuss your project →</a>
       </p>
 
-      <h2 id="hidden-costs">5. Hidden costs and growth blockers</h2>
+      <h2 id="hidden-costs">Hidden costs and growth blockers</h2>
       <p>
         Many DIY builders seem cheap: "free" or just a few euros a month.
         <a href="https://www.linkedin.com/pulse/diy-vs-professional-web-design-whats-best-your-fnnkc" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>

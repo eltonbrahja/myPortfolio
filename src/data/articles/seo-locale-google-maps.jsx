@@ -54,11 +54,11 @@ export const seoLocaleGoogleMapsPost = {
         <div className="toc-title">Indice</div>
         <ol className="toc-list">
           <li><a href="#cosa-significa">Cosa significa apparire per “attività + città”</a></li>
-          <li><a href="#passo-1">Passo 1: crea (o sistema) la scheda Google Business Profile</a></li>
-          <li><a href="#passo-2">Passo 2: ottimizza la scheda per farti scegliere</a></li>
-          <li><a href="#passo-3">Passo 3: rendi il tuo sito chiaro per Google</a></li>
-          <li><a href="#passo-4">Passo 4: crea contenuti intorno alle ricerche locali</a></li>
-          <li><a href="#passo-5">Passo 5: coerenza dei dati ovunque</a></li>
+          <li><a href="#passo-1">crea (o sistema) la scheda Google Business Profile</a></li>
+          <li><a href="#passo-2">ottimizza la scheda per farti scegliere</a></li>
+          <li><a href="#passo-3">rendi il tuo sito chiaro per Google</a></li>
+          <li><a href="#passo-4">crea contenuti intorno alle ricerche locali</a></li>
+          <li><a href="#passo-5">coerenza dei dati ovunque</a></li>
           <li><a href="#perche-conviene">Perché conviene farti aiutare da chi fa questo tutti i giorni</a></li>
           <li><a href="#cosa-fare-adesso">Cosa puoi fare adesso</a></li>
         </ol>
@@ -79,7 +79,7 @@ export const seoLocaleGoogleMapsPost = {
         È quello che faccio per le attività locali con cui lavoro: non mi limito a “fare il sito”, ma lo collego bene alla scheda Google e lo ottimizzo perché Google capisca dove sei, cosa fai e a chi ti rivolgi.
       </p>
 
-      <h2 id="passo-1">Passo 1: crea (o sistema) la scheda Google Business Profile</h2>
+      <h2 id="passo-1">crea (o sistema) la scheda Google Business Profile</h2>
       <p>
         La base per apparire quando cercano “attività + città” è avere una scheda Google Business Profile completa, verificata e curata.
       </p>
@@ -96,7 +96,7 @@ export const seoLocaleGoogleMapsPost = {
         Quando prendo in mano un progetto locale, una delle prime cose che faccio è proprio questa: controllare se esiste già una scheda, sistemarla, ottimizzare ogni campo e collegarla al sito nel modo giusto.
       </p>
 
-      <h2 id="passo-2">Passo 2: ottimizza la scheda per farti scegliere (non solo vedere)</h2>
+      <h2 id="passo-2">ottimizza la scheda per farti scegliere (non solo vedere)</h2>
       <p>
         Non basta esserci, bisogna anche convincere. Una scheda curata fa una grande differenza rispetto a una scheda vuota o trascurata. Le cose da fare sono:
       </p>
@@ -117,7 +117,7 @@ export const seoLocaleGoogleMapsPost = {
         Hai bisogno di impostare e ottimizzare la tua scheda Google Business Profile in modo professionale? <a href="/#contact">Contattami per una consulenza e ottimizzazione iniziale →</a>
       </p>
 
-      <h2 id="passo-3">Passo 3: rendi il tuo sito chiaro per Google (e per chi ti cerca)</h2>
+      <h2 id="passo-3">rendi il tuo sito chiaro per Google (e per chi ti cerca)</h2>
       <p>
         La scheda Google è fondamentale, ma da sola non basta: Google guarda anche il tuo sito per capire dove sei, cosa fai e per quale zona sei rilevante. Per questo sul sito è importante:
       </p>
@@ -130,7 +130,7 @@ export const seoLocaleGoogleMapsPost = {
         Quando realizzo un sito per un’attività locale, penso già da subito alla SEO locale: scrivo i testi con le ricerche reali dei clienti in mente, preparo le sezioni giuste e collego tutto con la scheda Google. Non è solo “un sito bello”, ma un sito pensato per farti trovare e contattare.
       </p>
 
-      <h2 id="passo-4">Passo 4: crea contenuti intorno alle ricerche locali</h2>
+      <h2 id="passo-4">crea contenuti intorno alle ricerche locali</h2>
       <p>
         Un modo efficace per rafforzare il posizionamento per “attività + città” è creare contenuti utili sul sito che parlino dei problemi reali dei clienti nella tua zona.
       </p>
@@ -144,7 +144,7 @@ export const seoLocaleGoogleMapsPost = {
         Google vede che il tuo sito parla spesso di quel tipo di attività collegata a quella zona e inizia a considerarti più rilevante per quelle ricerche. Qui posso aiutarti in due modi: progettare la struttura delle pagine locali (es. “idraulico a Bari”, “idraulico in provincia di Bari”) e scrivere gli articoli con un linguaggio semplice, ma ottimizzato per le ricerche che i tuoi clienti fanno davvero.
       </p>
 
-      <h2 id="passo-5">Passo 5: coerenza dei dati ovunque</h2>
+      <h2 id="passo-5">coerenza dei dati ovunque</h2>
       <p>
         Un altro pezzo spesso sottovalutato è la coerenza dei dati: il nome attività, l’indirizzo e il numero devono essere uguali su sito, scheda Google, social e principali portali dove sei presente.
       </p>

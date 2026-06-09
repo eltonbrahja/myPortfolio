@@ -92,7 +92,7 @@ export const sitoFaiDaTeVsProfessionalePost = {
         <a href="https://www.sequentcreative.com/diy-vs-professional-website-the-truth-about-what-works/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sequentcreative ↗</a>
       </p>
 
-      <h2 id="tempo-perso">1. Il tempo che perdi (e non tornerà indietro)</h2>
+      <h2 id="tempo-perso">Il tempo che perdi (e non tornerà indietro)</h2>
       <p>
         Le piattaforme fai‑da‑te si presentano come "semplici", ma chi le usa per la prima volta finisce spesso per passarci decine di ore.
         <a href="https://www.newperspectivestudio.co.za/wp/website-builders-vs-web-designer-developer-whats-the-best-way-to-get-a-website/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>newperspectivestudio ↗</a>
@@ -106,7 +106,7 @@ export const sitoFaiDaTeVsProfessionalePost = {
         <a href="https://horizonsdesign.co.uk/blog/diy-website-builders-vs-professional-web-design-which-is-right-for-you/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>horizonsdesign ↗</a>
       </p>
 
-      <h2 id="limiti-builder">2. Limiti dei builder gratuiti: il sito che assomiglia a mille altri</h2>
+      <h2 id="limiti-builder">Limiti dei builder gratuiti: il sito che assomiglia a mille altri</h2>
       <p>
         I builder fai‑da‑te offrono centinaia di template, ma sono gli stessi che usano migliaia di altre attività nel mondo.
         <a href="https://www.dimensioncreative.co.uk/post/the-pros-and-cons-of-website-builders-vs-working-with-a-web-designer" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>dimensioncreative ↗</a>
@@ -124,7 +124,7 @@ export const sitoFaiDaTeVsProfessionalePost = {
         Vuoi un design unico, cucito su misura per il tuo brand? <a href="/services">Scopri il mio servizio di Web Design professionale →</a>
       </p>
 
-      <h2 id="immagine-poco-professionale">3. L'immagine poco professionale che allontana i clienti</h2>
+      <h2 id="immagine-poco-professionale">L'immagine poco professionale che allontana i clienti</h2>
       <p>
         Le persone giudicano la credibilità di un'azienda anche dalla qualità del suo sito: diverse ricerche indicano che una percentuale significativa di utenti cita il design del sito come primo fattore di fiducia verso un brand.
         <a href="https://rudys.ai/small-business-website-statistics" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>rudys ↗</a>
@@ -138,7 +138,7 @@ export const sitoFaiDaTeVsProfessionalePost = {
         <a href="https://marketingltb.com/blog/statistics/small-business-website-statistics/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>marketingltb ↗</a>
       </p>
 
-      <h2 id="problemi-tecnici-seo">4. Problemi tecnici e SEO: un sito che nessuno trova (o che non funziona bene)</h2>
+      <h2 id="problemi-tecnici-seo">Problemi tecnici e SEO: un sito che nessuno trova (o che non funziona bene)</h2>
       <p>
         Un sito non deve solo "essere online": deve essere veloce, sicuro, leggibile da mobile e facile da trovare sui motori di ricerca.
         <a href="https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>envizonstudio ↗</a>
@@ -168,7 +168,7 @@ export const sitoFaiDaTeVsProfessionalePost = {
         Desideri un sito web veloce, sicuro e ottimizzato per Google? <a href="/#contact">Contattami per analizzare il tuo progetto →</a>
       </p>
 
-      <h2 id="costi-nascosti">5. Costi nascosti e blocco alla crescita</h2>
+      <h2 id="costi-nascosti">Costi nascosti e blocco alla crescita</h2>
       <p>
         Molti builder fai‑da‑te sembrano economici: "gratis" o pochi euro al mese.
         <a href="https://www.linkedin.com/pulse/diy-vs-professional-web-design-whats-best-your-fnnkc" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>

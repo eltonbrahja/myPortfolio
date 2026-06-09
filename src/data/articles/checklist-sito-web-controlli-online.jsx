@@ -54,14 +54,14 @@ export const checklistSitoWebControlliOnlinePost = {
       <div className="article-toc">
         <div className="toc-title">Indice</div>
         <ol className="toc-list">
-          <li><a href="#usabilita">1. Usabilità e Conversioni (UX)</a></li>
-          <li><a href="#seo">2. SEO On-Page</a></li>
-          <li><a href="#performance">3. Performance e Velocità</a></li>
-          <li><a href="#tecnico">4. Aspetti Tecnici e Legali</a></li>
+          <li><a href="#usabilita">Usabilità e Conversioni (UX)</a></li>
+          <li><a href="#seo">SEO On-Page</a></li>
+          <li><a href="#performance">Performance e Velocità</a></li>
+          <li><a href="#tecnico">Aspetti Tecnici e Legali</a></li>
         </ol>
       </div>
 
-      <h2 id="usabilita">1. Usabilità e Conversioni (UX)</h2>
+      <h2 id="usabilita">Usabilità e Conversioni (UX)</h2>
       <p>Un sito bello ma incomprensibile non vende. La prima cosa da verificare è che il percorso dell'utente sia fluido e privo di ostacoli.</p>
       
       <ul style={{ paddingLeft: '20px' }}>
@@ -83,7 +83,7 @@ export const checklistSitoWebControlliOnlinePost = {
         Hai dei dubbi sulla UX o sul posizionamento delle CTA del tuo sito? <a href="/#contact">Richiedi un'analisi gratuita della UX della tua homepage →</a>
       </p>
 
-      <h2 id="seo">2. SEO On-Page (Ottimizzazione per i motori di ricerca)</h2>
+      <h2 id="seo">SEO On-Page (Ottimizzazione per i motori di ricerca)</h2>
       <p>Per farsi trovare su Google, ogni pagina deve seguire regole strutturali precise.</p>
 
       <ul style={{ paddingLeft: '20px' }}>
@@ -105,7 +105,7 @@ export const checklistSitoWebControlliOnlinePost = {
         Vuoi posizionarti sui motori di ricerca e farti trovare dai clienti della tua zona? <a href="/#contact">Scopri come posso ottimizzare la SEO del tuo sito →</a>
       </p>
 
-      <h2 id="performance">3. Performance e Velocità</h2>
+      <h2 id="performance">Performance e Velocità</h2>
       <p>La velocità di caricamento è un fattore di posizionamento ufficiale per Google e incide direttamente sulle vendite: se il sito ci mette più di 3 secondi a caricare, la metà degli utenti se ne va.</p>
 
       <ul style={{ paddingLeft: '20px' }}>
@@ -120,7 +120,7 @@ export const checklistSitoWebControlliOnlinePost = {
         </li>
       </ul>
 
-      <h2 id="tecnico">4. Aspetti Tecnici e Legali</h2>
+      <h2 id="tecnico">Aspetti Tecnici e Legali</h2>
       <p>Gli ultimi dettagli, spesso invisibili ma fondamentali per la sicurezza e la conformità legale.</p>
 
       <ul style={{ paddingLeft: '20px' }}>

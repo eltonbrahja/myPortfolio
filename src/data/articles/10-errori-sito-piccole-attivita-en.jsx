@@ -81,7 +81,7 @@ export const dieciErroriSitoPostEn = {
         </ol>
       </div>
 
-      <h2 id="walls-of-text">1. Walls of text and long paragraphs</h2>
+      <h2 id="walls-of-text">Walls of text and long paragraphs</h2>
       <p>
         One of the most common mistakes is having pages full of text, all crammed together, without clear headings, short paragraphs, or bullet points.
         <a href="https://www.linkedin.com/pulse/common-website-issues-drive-customers-away-how-j7xzc" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>linkedin ↗</a>
@@ -99,7 +99,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>This is exactly the kind of editorial work (structure, headings, information order) that a professional handles to make the site read naturally.</p>
 
-      <h2 id="no-cta">2. No clear call to action (CTA)</h2>
+      <h2 id="no-cta">No clear call to action (CTA)</h2>
       <p>
         Many websites tell visitors who you are but never say <em>what</em> they should do next: call, fill out a form, book, request a quote.
         <a href="https://rubiagroupagency.com/next-level-edge/top-5-website-mistakes-small-businesses-make-and-how-to-fix-them" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>rubiagroupagency ↗</a>
@@ -117,7 +117,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>A web designer plans the user journey specifically to guide them from "just browsing" to "I'm reaching out."</p>
 
-      <h2 id="hidden-contacts">3. Hidden or hard-to-find contacts</h2>
+      <h2 id="hidden-contacts">Hidden or hard-to-find contacts</h2>
       <p>
         It sounds unbelievable, but many websites don't clearly show a phone number, email, address, or hours.
         <a href="https://www.iubenda.com/en/blog/website-mistakes/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>iubenda ↗</a>
@@ -139,7 +139,7 @@ export const dieciErroriSitoPostEn = {
         Want to ensure your site's contact details are positioned correctly? <a href="/en#contact">Request a free UX analysis of your homepage →</a>
       </p>
 
-      <h2 id="poor-photos">4. Poor, blurry, or all-stock photos</h2>
+      <h2 id="poor-photos">Poor, blurry, or all-stock photos</h2>
       <p>
         Images matter enormously for first impressions: blurry, dark, or generic stock photos (seen a thousand times) make the site feel sloppy and untrustworthy.
         <a href="https://www.relacionesinternacionales.media/historico/10-most-popular-web-design-blunders-small-companies-help-to-make" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>relacionesinternacionales ↗</a>
@@ -157,7 +157,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>A web designer helps you choose and arrange photos to showcase your business rather than looking like yet another anonymous site.</p>
 
-      <h2 id="no-reviews">5. No reviews or testimonials</h2>
+      <h2 id="no-reviews">No reviews or testimonials</h2>
       <p>
         Today, people trust other clients' opinions far more than your own "we're the best" claims.
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>
@@ -175,7 +175,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>A professional knows where to place these "social proof" elements to make them count at the right moment in the visitor's journey.</p>
 
-      <h2 id="confusing-nav">6. Confusing navigation and complicated menus</h2>
+      <h2 id="confusing-nav">Confusing navigation and complicated menus</h2>
       <p>
         If the menu is full of strange labels, endless submenus, or unclear names ("Solutions," "People," "Resources"), visitors don't know where to click and leave.
         <a href="https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>lukefernando ↗</a>
@@ -193,7 +193,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>Information architecture is a core part of a web designer's work and truly makes a difference in user experience.</p>
 
-      <h2 id="not-mobile">7. Not optimized for smartphones</h2>
+      <h2 id="not-mobile">Not optimized for smartphones</h2>
       <p>
         Over half of web traffic comes from mobile: if your site is hard to use on a smartphone, with tiny text and impossible-to-tap buttons, you're losing a huge chunk of potential clients.
         <a href="https://www.lukefernando.dev/blog/common-website-mistakes-that-drive-customers-away" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>lukefernando ↗</a>
@@ -211,7 +211,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>Here, the difference between a thrown-together theme and a serious project is immediately obvious when you open the site on your phone.</p>
 
-      <h2 id="slow-site">8. Slow loading times</h2>
+      <h2 id="slow-site">Slow loading times</h2>
       <p>
         If the site takes more than 3 seconds to load, many people close the page before even seeing who you are.
         <a href="https://www.reddit.com/r/smallbusiness/comments/1pli5m0/small_business_owners_5_website_mistakes_that_are/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>reddit ↗</a>
@@ -233,7 +233,7 @@ export const dieciErroriSitoPostEn = {
         The websites I build are optimized to load in under 2 seconds and meet Core Web Vitals. <a href="/services">Discover my development services →</a>
       </p>
 
-      <h2 id="outdated-content">9. Outdated or unclear content</h2>
+      <h2 id="outdated-content">Outdated or unclear content</h2>
       <p>
         Blog posts from years ago, outdated services, wrong hours: all of this gives the impression of a stagnant or careless business.
         <a href="https://www.iubenda.com/en/blog/website-mistakes/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>iubenda ↗</a>
@@ -251,7 +251,7 @@ export const dieciErroriSitoPostEn = {
       </ul>
       <p>In professional work, periodic content reviews and tone-of-voice care are what keep a site "alive" and credible.</p>
 
-      <h2 id="no-security">10. No security or trust signals</h2>
+      <h2 id="no-security">No security or trust signals</h2>
       <p>
         Sites without https (padlock), without privacy/cookie policies, or with unclear contact forms raise doubts about the business's seriousness.
         <a href="https://vecto.digital/blog/top-reasons-why-website-is-important-for-business-in-2025/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>vecto ↗</a>
