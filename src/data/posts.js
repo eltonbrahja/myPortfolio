@@ -26,8 +26,15 @@ import { raccontareStoriaAttivitaPost } from './articles/raccontare-storia-attiv
 import { raccontareStoriaAttivitaPostEn } from './articles/raccontare-storia-attivita-en';
 import { sitoAbbonamentoVsPagamentoUnicoPost } from './articles/sito-abbonamento-vs-pagamento-unico';
 import { sitoAbbonamentoVsPagamentoUnicoPostEn } from './articles/sito-abbonamento-vs-pagamento-unico-en';
+import { checklistSitoWebControlliOnlinePost } from './articles/checklist-sito-web-controlli-online';
+import { checklistSitoWebControlliOnlinePostEn } from './articles/checklist-sito-web-controlli-online-en';
 
 export const blogPosts = [
+  {
+    id: "checklist-sito-web-controlli-online",
+    it: checklistSitoWebControlliOnlinePost,
+    en: checklistSitoWebControlliOnlinePostEn
+  },
   {
     id: "sito-abbonamento-vs-pagamento-unico",
     it: sitoAbbonamentoVsPagamentoUnicoPost,
