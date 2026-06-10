@@ -28,8 +28,14 @@ import { sitoAbbonamentoVsPagamentoUnicoPost } from './articles/sito-abbonamento
 import { sitoAbbonamentoVsPagamentoUnicoPostEn } from './articles/sito-abbonamento-vs-pagamento-unico-en';
 import { checklistSitoWebControlliOnlinePost } from './articles/checklist-sito-web-controlli-online';
 import { checklistSitoWebControlliOnlinePostEn } from './articles/checklist-sito-web-controlli-online-en';
+import { quantoCostaRifareSitoWebPost } from './articles/quanto-costa-rifare-sito-web';
 
 export const blogPosts = [
+  {
+    id: "quanto-costa-rifare-sito-web",
+    it: quantoCostaRifareSitoWebPost,
+    en: null
+  },
   {
     id: "checklist-sito-web-controlli-online",
     it: checklistSitoWebControlliOnlinePost,
