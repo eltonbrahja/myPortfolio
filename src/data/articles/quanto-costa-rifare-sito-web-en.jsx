@@ -25,7 +25,7 @@ export const quantoCostaRifareSitoWebPostEn = {
         "name": "What is the average cost to rebuild a professional website in 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "The cost of a complete and professional restyling for a small business ranges indicatively between €1,200 and €2,500. Lighter optimization interventions can cost less (€500-€1,200), while complex solutions or e-commerce exceed €3,000."
+          "text": "The cost of a complete and professional restyling for a small business ranges indicatively between €1,000 and €2,000. Lighter optimization interventions can cost less (€500-€800), while complex solutions or e-commerce exceed €3,000."
         }
       },
       {
@@ -40,6 +40,9 @@ export const quantoCostaRifareSitoWebPostEn = {
   },
   content: (
     <div className="article-body">
+      <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.4)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
+        Cover photo by <a href="https://unsplash.com/it/@leecampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Lee Campbell</a> on <a href="https://unsplash.com/it/foto/imac-argento-acceso-allinterno-della-stanza-DtDlVpy-vvQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
+      </p>
       <p>
         You have a website for your business, but you feel like it's time for a change. Maybe the design looks outdated, maybe it's slow, or it simply isn't bringing in clients like it used to. 
         However, when talking about a <strong>website restyling</strong>, the main fear is always the same: spending thousands of euros on a new graphical look that doesn't solve the concrete problems of your business.
@@ -132,12 +135,12 @@ export const quantoCostaRifareSitoWebPostEn = {
         <tbody>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
             <td style={{ padding: '12px' }}><strong>Light Restyling / Optimization</strong></td>
-            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>500€ – 1,200€</td>
+            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>500€ – 800€</td>
             <td style={{ padding: '12px' }}>Speed optimization, visual theme refresh, UX improvements, and updating contact details.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
             <td style={{ padding: '12px' }}><strong>Standard Complete Rebuild</strong></td>
-            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>1,200€ – 2,500€</td>
+            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>1,000€ – 2,000€</td>
             <td style={{ padding: '12px' }}>Professional website rebuilt from scratch, complete on-page SEO optimization, strategic copywriting for 5-10 pages, and responsive design.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>

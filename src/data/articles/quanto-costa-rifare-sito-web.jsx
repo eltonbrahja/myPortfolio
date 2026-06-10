@@ -25,7 +25,7 @@ export const quantoCostaRifareSitoWebPost = {
         "name": "Qual è il costo medio per rifare un sito web professionale nel 2026?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Il costo di un restyling completo e professionale per una piccola attività oscilla indicativamente tra i 1.200€ e i 2.500€. Interventi di ottimizzazione più leggeri possono costare meno (500€-1.200€), mentre soluzioni complesse o e-commerce superano i 3.000€."
+          "text": "Il costo di un restyling completo e professionale per una piccola attività oscilla indicativamente tra i 1.000€ e i 2.000€. Interventi di ottimizzazione più leggeri possono costare meno (500€-800€), mentre soluzioni complesse o e-commerce superano i 3.000€."
         }
       },
       {
@@ -40,6 +40,9 @@ export const quantoCostaRifareSitoWebPost = {
   },
   content: (
     <div className="article-body">
+      <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.4)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
+        Foto copertina di <a href="https://unsplash.com/it/@leecampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Lee Campbell</a> su <a href="https://unsplash.com/it/foto/imac-argento-acceso-allinterno-della-stanza-DtDlVpy-vvQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
+      </p>
       <p>
         Hai un sito web per la tua attività, ma senti che è arrivato il momento di cambiarlo. Forse la grafica ti sembra superata, forse è lento, o semplicemente non ti porta più clienti come un tempo. 
         Tuttavia, quando si parla di <strong>restyling di un sito web</strong>, il timore principale è sempre lo stesso: spendere migliaia di euro inutilmente per una veste grafica nuova che non risolve i problemi concreti del business.
@@ -132,12 +135,12 @@ export const quantoCostaRifareSitoWebPost = {
         <tbody>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
             <td style={{ padding: '12px' }}><strong>Restyling leggero / Ottimizzazione</strong></td>
-            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>500€ – 1.200€</td>
+            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>500€ – 800€</td>
             <td style={{ padding: '12px' }}>Ottimizzazione velocità, restyling grafico del tema, miglioramento della UX e aggiornamento dei contatti.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
             <td style={{ padding: '12px' }}><strong>Rifacimento completo standard</strong></td>
-            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>1.200€ – 2.500€</td>
+            <td style={{ padding: '12px', color: 'var(--accent-color)' }}>1.000€ – 2.000€</td>
             <td style={{ padding: '12px' }}>Sito web professionale rifatto da zero, ottimizzazione SEO on-page completa, copywriting strategico per 5-10 pagine e responsive design.</td>
           </tr>
           <tr style={{ borderBottom: '1px solid rgba(255, 255, 255, 0.05)' }}>
