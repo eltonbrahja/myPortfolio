@@ -52,14 +52,14 @@ export const quantoCostaRifareSitoWebPost = {
       <div className="article-toc">
         <div className="toc-title">Indice dell'articolo</div>
         <ol className="toc-list">
-          <li><a href="#test-valutazione">1. Restyling, ottimizzazione o rifacimento da zero? Fai il test</a></li>
-          <li><a href="#prezzi-2026">2. Quanto costa rifare un sito web nel 2026?</a></li>
-          <li><a href="#scudo-seo">3. Come proteggere la tua SEO e non perdere posizioni</a></li>
-          <li><a href="#evitare-sprechi">4. Come evitare di buttare soldi (e preventivi gonfiati)</a></li>
+          <li><a href="#test-valutazione">Restyling, ottimizzazione o rifacimento da zero?</a></li>
+          <li><a href="#prezzi-2026">Quanto costa rifare un sito web nel 2026?</a></li>
+          <li><a href="#scudo-seo">Come proteggere la tua SEO e non perdere posizioni</a></li>
+          <li><a href="#evitare-sprechi">Come evitare di buttare soldi (e preventivi gonfiati)</a></li>
         </ol>
       </div>
 
-      <h2 id="test-valutazione">1. Restyling grafico, ottimizzazione o rifacimento da zero?</h2>
+      <h2 id="test-valutazione">Restyling grafico, ottimizzazione o rifacimento da zero?</h2>
       <p>
         Prima di chiedere preventivi e investire denaro, devi capire di cosa ha realmente bisogno la tua attività. Molto spesso, infatti, non è necessario buttare via tutto l'esistente.
       </p>
@@ -96,7 +96,7 @@ export const quantoCostaRifareSitoWebPost = {
         </li>
       </ol>
 
-      <h2 id="prezzi-2026">2. Quanto costa rifare un sito web nel 2026?</h2>
+      <h2 id="prezzi-2026">Quanto costa rifare un sito web nel 2026?</h2>
       <p>
         Il costo di rifacimento di un sito non dipende mai solo dal numero di pagine, ma dall'approccio strategico, tecnico e contenutistico applicato.
       </p>
@@ -148,7 +148,7 @@ export const quantoCostaRifareSitoWebPost = {
         </tbody>
       </table>
 
-      <h2 id="scudo-seo">3. Come proteggere la tua SEO e non perdere clienti su Google</h2>
+      <h2 id="scudo-seo">Come proteggere la tua SEO e non perdere clienti su Google</h2>
       <p>
         Questo è l'aspetto più sottovalutato. Molti imprenditori decidono di rifare il sito, cambiano gli URL delle pagine (es. da <code>/vecchio-servizio</code> a <code>/servizio-nuovo</code>) senza dire nulla a Google. Il risultato?
         Pagine piene di errori 404, utenti che scappano e crollo immediato del posizionamento organico guadagnato in anni di lavoro.
@@ -165,7 +165,7 @@ export const quantoCostaRifareSitoWebPost = {
         Se una pagina del tuo vecchio sito riceve molto traffico o si posiziona bene per una determinata ricerca dei clienti, non stravolgerla del tutto. Mantieni la gerarchia dei titoli e le informazioni principali, migliorando solo l'usabilità e la velocità della pagina.
       </p>
 
-      <h2 id="evitare-sprechi">4. Come evitare di buttare soldi (e preventivi gonfiati)</h2>
+      <h2 id="evitare-sprechi">Come evitare di buttare soldi (e preventivi gonfiati)</h2>
       <p>
         Rifare il sito web deve essere un investimento, non una spesa a fondo perduto. Per assicurarti di spendere bene il tuo budget, segui queste regole:
       </p>

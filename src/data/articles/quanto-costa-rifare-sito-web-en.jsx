@@ -52,14 +52,14 @@ export const quantoCostaRifareSitoWebPostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#test-valutazione">1. Graphical restyling, optimization, or rebuilding from scratch? Take the test</a></li>
-          <li><a href="#prezzi-2026">2. How much does it cost to rebuild a website in 2026?</a></li>
-          <li><a href="#scudo-seo">3. How to protect your SEO and not lose rankings</a></li>
-          <li><a href="#evitare-sprechi">4. How to avoid wasting money (and inflated quotes)</a></li>
+          <li><a href="#test-valutazione">Graphical restyling, optimization, or rebuilding from scratch?</a></li>
+          <li><a href="#prezzi-2026">How much does it cost to rebuild a website in 2026?</a></li>
+          <li><a href="#scudo-seo">How to protect your SEO and not lose rankings</a></li>
+          <li><a href="#evitare-sprechi">How to avoid wasting money (and inflated quotes)</a></li>
         </ol>
       </div>
 
-      <h2 id="test-valutazione">1. Graphical restyling, optimization, or rebuilding from scratch?</h2>
+      <h2 id="test-valutazione">Graphical restyling, optimization, or rebuilding from scratch?</h2>
       <p>
         Before asking for quotes and investing money, you must understand what your business really needs. Very often, in fact, it is not necessary to throw everything away.
       </p>
@@ -96,7 +96,7 @@ export const quantoCostaRifareSitoWebPostEn = {
         </li>
       </ol>
 
-      <h2 id="prezzi-2026">2. How much does it cost to rebuild a website in 2026?</h2>
+      <h2 id="prezzi-2026">How much does it cost to rebuild a website in 2026?</h2>
       <p>
         The cost of rebuilding a website never depends solely on the number of pages, but on the strategic, technical, and content approach applied.
       </p>
@@ -148,7 +148,7 @@ export const quantoCostaRifareSitoWebPostEn = {
         </tbody>
       </table>
 
-      <h2 id="scudo-seo">3. How to protect your SEO and not lose rankings on Google</h2>
+      <h2 id="scudo-seo">How to protect your SEO and not lose rankings on Google</h2>
       <p>
         This is the most underestimated aspect. Many business owners decide to rebuild their site, change the page URLs (e.g., from <code>/old-service</code> to <code>/new-service</code>) without telling Google anything. The result?
         Pages filled with 404 errors, users bouncing, and an immediate drop in the organic traffic earned over years of work.
@@ -165,7 +165,7 @@ export const quantoCostaRifareSitoWebPostEn = {
         If a page on your old site gets a lot of traffic or ranks well for a specific customer query, do not completely change it. Keep the headings hierarchy and main information, improving only the usability and page speed.
       </p>
 
-      <h2 id="evitare-sprechi">4. How to avoid wasting money (and inflated quotes)</h2>
+      <h2 id="evitare-sprechi">How to avoid wasting money (and inflated quotes)</h2>
       <p>
         Rebuilding your website must be an investment, not a sunk cost. To make sure you spend your budget wisely, follow these rules:
       </p>
