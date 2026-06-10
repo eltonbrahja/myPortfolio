@@ -1,6 +1,7 @@
 import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, Outlet } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Components
 import Navbar from './components/Navbar';
@@ -134,6 +135,7 @@ function App() {
         <ScrollToTop />
         <LanguageSynchronizer />
         <AppLayout />
+        <SpeedInsights />
       </Router>
     </LanguageProvider>
   );
