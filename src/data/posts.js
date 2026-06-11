@@ -30,8 +30,15 @@ import { checklistSitoWebControlliOnlinePost } from './articles/checklist-sito-w
 import { checklistSitoWebControlliOnlinePostEn } from './articles/checklist-sito-web-controlli-online-en';
 import { quantoCostaRifareSitoWebPost } from './articles/quanto-costa-rifare-sito-web';
 import { quantoCostaRifareSitoWebPostEn } from './articles/quanto-costa-rifare-sito-web-en';
+import { sitoWebRistorantePrenotazioniPost } from './articles/sito-web-ristorante-prenotazioni';
+import { sitoWebRistorantePrenotazioniPostEn } from './articles/sito-web-ristorante-prenotazioni-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-ristorante-prenotazioni",
+    it: sitoWebRistorantePrenotazioniPost,
+    en: sitoWebRistorantePrenotazioniPostEn
+  },
   {
     id: "quanto-costa-rifare-sito-web",
     it: quantoCostaRifareSitoWebPost,

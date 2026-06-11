@@ -112,6 +112,7 @@ export const sitoClientiLocaliPostEn = {
         <li>You offer content that doesn't fit on the profile: explanations, FAQs, in-depth details, detailed photos.
           <a href="https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>envizonstudio ↗</a>
         </li>
+        <li>You provide direct booking paths for vertical markets (for example, as shown in our guide for a <a href="/en/blog/sito-web-ristorante-prenotazioni">restaurant website</a>, encouraging the user to book a table instantly).</li>
       </ul>
       <p>
         Google itself rewards complete and active profiles with a linked website, photos, posts, and reviews, showing these businesses higher in local searches.

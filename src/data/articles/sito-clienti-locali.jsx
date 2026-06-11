@@ -112,6 +112,7 @@ export const sitoClientiLocaliPost = {
         <li>Dai spazio a contenuti che sulla scheda non entrano: spiegazioni, FAQ, approfondimenti, foto dettagliate.
           <a href="https://www.envizonstudio.com/blog/the-significance-of-a-website-for-local-businesses.html" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>envizonstudio ↗</a>
         </li>
+        <li>Fornisci percorsi di prenotazione immediati per mercati verticali (ad esempio, come mostrato nella nostra guida per un <a href="/blog/sito-web-ristorante-prenotazioni">sito web per ristorante</a>, spingendo l'utente a prenotare un tavolo all'istante).</li>
       </ul>
       <p>
         Google stesso premia i profili completi e attivi, con sito collegato, foto, post e recensioni, mostrando queste attività più in alto nelle ricerche locali.
