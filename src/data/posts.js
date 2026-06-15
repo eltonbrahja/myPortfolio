@@ -32,8 +32,15 @@ import { quantoCostaRifareSitoWebPost } from './articles/quanto-costa-rifare-sit
 import { quantoCostaRifareSitoWebPostEn } from './articles/quanto-costa-rifare-sito-web-en';
 import { sitoWebRistorantePrenotazioniPost } from './articles/sito-web-ristorante-prenotazioni';
 import { sitoWebRistorantePrenotazioniPostEn } from './articles/sito-web-ristorante-prenotazioni-en';
+import { sitoWebBnbCaseVacanzaPost } from './articles/sito-web-bnb-case-vacanza';
+import { sitoWebBnbCaseVacanzaPostEn } from './articles/sito-web-bnb-case-vacanza-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-bnb-case-vacanza",
+    it: sitoWebBnbCaseVacanzaPost,
+    en: sitoWebBnbCaseVacanzaPostEn
+  },
   {
     id: "sito-web-ristorante-prenotazioni",
     it: sitoWebRistorantePrenotazioniPost,

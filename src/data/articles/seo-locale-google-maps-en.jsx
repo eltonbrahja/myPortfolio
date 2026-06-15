@@ -138,7 +138,7 @@ export const seoLocaleGoogleMapsPostEn = {
       <ul style={{ paddingLeft: '20px' }}>
         <li>Articles like “How to choose a [business] in [city] without wasting money”.</li>
         <li>Guides like “How much does a [service] in [city] really cost in 2026”.</li>
-        <li>An industry-specific article such as our guide on <a href="/en/blog/sito-web-ristorante-prenotazioni">what a restaurant website needs to bring in bookings</a>.</li>
+        <li>An industry-specific article such as our guide on <a href="/en/blog/sito-web-ristorante-prenotazioni">what a restaurant website needs to bring in bookings</a> or on the <a href="/en/blog/sito-web-bnb-case-vacanza">ideal website for B&Bs and holiday homes</a>.</li>
         <li>Pages on “Services of [business] in [neighborhood / area]”.</li>
       </ul>
       <p>
