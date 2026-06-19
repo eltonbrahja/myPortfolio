@@ -39,6 +39,11 @@ import { sitoWebPsicologiPazientiGiustiPostEn } from './articles/sito-web-psicol
 
 export const blogPosts = [
   {
+    id: "sito-web-psicologi-pazienti-giusti",
+    it: sitoWebPsicologiPazientiGiustiPost,
+    en: sitoWebPsicologiPazientiGiustiPostEn
+  },
+  {
     id: "sito-web-bnb-case-vacanza",
     it: sitoWebBnbCaseVacanzaPost,
     en: sitoWebBnbCaseVacanzaPostEn
@@ -127,10 +132,5 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
-  },
-  {
-    id: "sito-web-psicologi-pazienti-giusti",
-    it: sitoWebPsicologiPazientiGiustiPost,
-    en: sitoWebPsicologiPazientiGiustiPostEn
   }
 ];
