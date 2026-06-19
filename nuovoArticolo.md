@@ -1,15 +1,18 @@
 Titolo articolo
-  Sito web per B&B e case vacanza: come riempire le stanze anche fuori stagione
+  Sito web per psicologi e psicoterapeuti: come farti scegliere dai pazienti giusti
 
 Intento / Obiettivo
-  Settore specifico, lead da strutture ricettive
+  Settore specifico, molto in target con te
 
 Note SEO principali
-  Keyword “sito per b&b”, “sito bed and breakfast + città”; parla di integrazione con Booking, foto, recensioni, SEO locale
+  “sito psicologo”, “psicologo + città”; struttura pagina servizi, bio, linguaggio semplice, call to action etica (richiedi colloquio). 
 
 
 Crediti foto:
-  Foto di <a href="https://unsplash.com/it/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay Banks</a> su <a href="https://unsplash.com/it/foto/una-camera-da-letto-con-un-letto-ben-fatto-e-una-cassettiera-BJc1mj3xgeE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Foto di <a href="https://unsplash.com/it/@tjump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Shuliahin 💛💙</a> su <a href="https://unsplash.com/it/foto/un-uomo-si-tiene-la-testa-mentre-e-seduto-su-un-divano-BuNWp1bL0nc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
+
+    
       
       
       

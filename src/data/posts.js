@@ -34,6 +34,8 @@ import { sitoWebRistorantePrenotazioniPost } from './articles/sito-web-ristorant
 import { sitoWebRistorantePrenotazioniPostEn } from './articles/sito-web-ristorante-prenotazioni-en';
 import { sitoWebBnbCaseVacanzaPost } from './articles/sito-web-bnb-case-vacanza';
 import { sitoWebBnbCaseVacanzaPostEn } from './articles/sito-web-bnb-case-vacanza-en';
+import { sitoWebPsicologiPazientiGiustiPost } from './articles/sito-web-psicologi-pazienti-giusti';
+import { sitoWebPsicologiPazientiGiustiPostEn } from './articles/sito-web-psicologi-pazienti-giusti-en';
 
 export const blogPosts = [
   {
@@ -125,5 +127,10 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
+  },
+  {
+    id: "sito-web-psicologi-pazienti-giusti",
+    it: sitoWebPsicologiPazientiGiustiPost,
+    en: sitoWebPsicologiPazientiGiustiPostEn
   }
 ];
