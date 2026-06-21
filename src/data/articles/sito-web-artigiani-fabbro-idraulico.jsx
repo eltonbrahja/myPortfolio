@@ -55,14 +55,14 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
       <div className="article-toc">
         <div className="toc-title">Indice dell'articolo</div>
         <ol className="toc-list">
-          <li><a href="#intercettare-emergenze">1. SEO Locale: intercettare le emergenze (fabbro + città)</a></li>
-          <li><a href="#struttura-sito">2. La struttura perfetta: servizi chiari e telefono in primo piano</a></li>
-          <li><a href="#fiducia-recensioni">3. Ottenere fiducia con foto reali e recensioni</a></li>
-          <li><a href="#social-vs-sito">4. Perché i social network non bastano</a></li>
+          <li><a href="#intercettare-emergenze">SEO Locale: intercettare le emergenze (fabbro + città)</a></li>
+          <li><a href="#struttura-sito">La struttura perfetta: servizi chiari e telefono in primo piano</a></li>
+          <li><a href="#fiducia-recensioni">Ottenere fiducia con foto reali e recensioni</a></li>
+          <li><a href="#social-vs-sito">Perché i social network non bastano</a></li>
         </ol>
       </div>
 
-      <h2 id="intercettare-emergenze">1. SEO Locale: intercettare le emergenze (fabbro + città)</h2>
+      <h2 id="intercettare-emergenze">SEO Locale: intercettare le emergenze (fabbro + città)</h2>
       <p>
         Il traffico più prezioso per un artigiano è quello generato dalle ricerche locali. La SEO locale è la tecnica che ti permette di apparire ai primi posti quando qualcuno cerca servizi nella tua specifica area geografica.
       </p>
@@ -81,7 +81,7 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
         </li>
       </ul>
 
-      <h2 id="struttura-sito">2. La struttura perfetta: servizi chiari e telefono in primo piano</h2>
+      <h2 id="struttura-sito">La struttura perfetta: servizi chiari e telefono in primo piano</h2>
       <p>
         Chi cerca un idraulico con l'acqua che allaga il bagno non ha intenzione di leggere la storia della tua vita o navigare tra menu complessi. L'esperienza utente (UX) deve essere fluida, veloce e senza ostacoli, un concetto fondamentale per evitare i <a href="/blog/10-errori-sito-piccole-attivita">10 errori comuni che fanno scappare i clienti</a>.
       </p>
@@ -100,7 +100,7 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
         </li>
       </ul>
 
-      <h2 id="fiducia-recensioni">3. Ottenere fiducia con foto reali e recensioni</h2>
+      <h2 id="fiducia-recensioni">Ottenere fiducia con foto reali e recensioni</h2>
       <p>
         Avere un bel sito web rassicura il cliente e trasmette professionalità, ma per un artigiano che deve entrare in casa di uno sconosciuto, la fiducia è essenziale.
       </p>
@@ -113,7 +113,7 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
         </li>
       </ul>
 
-      <h2 id="social-vs-sito">4. Perché i social network non bastano</h2>
+      <h2 id="social-vs-sito">Perché i social network non bastano</h2>
       <p>
         Molti artigiani pensano che una pagina Facebook o Instagram sia sufficiente per trovare clienti. Sebbene i social siano utili per mantenere una presenza visibile e far vedere i propri lavori, soffrono di un grande limite: <strong>mancano di "intento di ricerca"</strong>.
       </p>
