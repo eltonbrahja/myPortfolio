@@ -1,15 +1,17 @@
 Titolo articolo
-  Sito web per psicologi e psicoterapeuti: come farti scegliere dai pazienti giusti
+  Sito web per artigiani (fabbro, idraulico, elettricista): farti trovare quando serve
 
 Intento / Obiettivo
-  Settore specifico, molto in target con te
+  Settore artigiani & SEO locale
 
 Note SEO principali
-  “sito psicologo”, “psicologo + città”; struttura pagina servizi, bio, linguaggio semplice, call to action etica (richiedi colloquio). 
+  Agganci alle best practice SEO locale per artigiani; keyword “fabbro + città”, “idraulico + città”. 
 
+Nome foto: fotoLavoratori.webp
 
 Crediti foto:
-  Foto di <a href="https://unsplash.com/it/@tjump?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nik Shuliahin 💛💙</a> su <a href="https://unsplash.com/it/foto/un-uomo-si-tiene-la-testa-mentre-e-seduto-su-un-divano-BuNWp1bL0nc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Foto di <a href="https://unsplash.com/it/@frantic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Kotliarskyi</a> su <a href="https://unsplash.com/it/foto/people-doing-office-works-QBpZGqEMsKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
       
 
     

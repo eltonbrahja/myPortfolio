@@ -36,8 +36,15 @@ import { sitoWebBnbCaseVacanzaPost } from './articles/sito-web-bnb-case-vacanza'
 import { sitoWebBnbCaseVacanzaPostEn } from './articles/sito-web-bnb-case-vacanza-en';
 import { sitoWebPsicologiPazientiGiustiPost } from './articles/sito-web-psicologi-pazienti-giusti';
 import { sitoWebPsicologiPazientiGiustiPostEn } from './articles/sito-web-psicologi-pazienti-giusti-en';
+import { sitoWebArtigianiFabbroIdraulicoPost } from './articles/sito-web-artigiani-fabbro-idraulico';
+import { sitoWebArtigianiFabbroIdraulicoPostEn } from './articles/sito-web-artigiani-fabbro-idraulico-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-artigiani-fabbro-idraulico",
+    it: sitoWebArtigianiFabbroIdraulicoPost,
+    en: sitoWebArtigianiFabbroIdraulicoPostEn
+  },
   {
     id: "sito-web-psicologi-pazienti-giusti",
     it: sitoWebPsicologiPazientiGiustiPost,
