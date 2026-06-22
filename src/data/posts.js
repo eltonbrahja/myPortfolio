@@ -1,5 +1,7 @@
 import { quantoCostaSitoWebPost } from './articles/quanto-costa-sito-web';
 import { quantoCostaSitoWebPostEn } from './articles/quanto-costa-sito-web-en';
+import { setteSegnaliRifareSitoPost } from './articles/7-segnali-rifare-sito';
+import { setteSegnaliRifareSitoPostEn } from './articles/7-segnali-rifare-sito-en';
 import { cinqueSegnaliSitoPerdereClientiPost } from './articles/5-segnali-sito-perdere-clienti';
 import { cinqueSegnaliSitoPerdereClientiPostEn } from './articles/5-segnali-sito-perdere-clienti-en';
 import { sitoClientiLocaliPost } from './articles/sito-clienti-locali';
@@ -134,6 +136,11 @@ export const blogPosts = [
     id: "5-segnali-sito-perdere-clienti",
     it: cinqueSegnaliSitoPerdereClientiPost,
     en: cinqueSegnaliSitoPerdereClientiPostEn
+  },
+  {
+    id: "7-segnali-rifare-sito",
+    it: setteSegnaliRifareSitoPost,
+    en: setteSegnaliRifareSitoPostEn
   },
   {
     id: "quanto-costa-sito-web",

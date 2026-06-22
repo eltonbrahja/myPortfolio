@@ -1,16 +1,17 @@
 Titolo articolo
-  Sito web per artigiani (fabbro, idraulico, elettricista): farti trovare quando serve
+  7 segnali che è ora di rifare il sito della tua attività
 
 Intento / Obiettivo
-  Settore artigiani & SEO locale
+  Awareness + decisionale
 
 Note SEO principali
-  Agganci alle best practice SEO locale per artigiani; keyword “fabbro + città”, “idraulico + città”. 
+  Diverso dall’articolo sugli errori (controlla nel blog): qui focus sui **campanelli d’allarme** (non mobile, lento, non aggiornato, nessuna richiesta ecc.). 
 
-Nome foto: fotoLavoratori.webp
+Nome foto: fotoCambioSito.webp
 
 Crediti foto:
-  Foto di <a href="https://unsplash.com/it/@frantic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Kotliarskyi</a> su <a href="https://unsplash.com/it/foto/people-doing-office-works-QBpZGqEMsKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Foto di <a href="https://unsplash.com/it/@brett_jordan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brett Jordan</a> su <a href="https://unsplash.com/it/foto/blocchi-di-lettere-lettere-in-legno-marrone-ehKaEaZ5VuU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
       
       
 
