@@ -19,7 +19,7 @@
 }
 
 .home-section .section-title {
-  font-size: 2.5rem;
+  font-size: clamp(2rem, 3.5vw + 1rem, 2.5rem);
   font-weight: 700;
   margin-bottom: 3rem;
   text-align: center;
@@ -80,7 +80,7 @@
 }
 
 .hero-home-title {
-  font-size: 3.5rem;
+  font-size: clamp(2.2rem, 5vw + 1rem, 3.5rem);
   line-height: 1.1;
   font-weight: 800;
   letter-spacing: -0.03em;
@@ -286,7 +286,7 @@
 }
 
 .target-card:hover h3 {
-  color: var(--bg-color);
+  color: var(--accent-color);
 }
 
 .target-card p {
@@ -295,7 +295,7 @@
 }
 
 .target-card:hover p {
-  color: rgba(86, 124, 141, 0.90);
+  color: var(--text-primary);
 }
 
 /* PREMIUM CARDS (Cosa ottieni) */
@@ -354,7 +354,7 @@
 }
 
 .premium-card:hover .premium-list li {
-  color: rgba(86, 124, 141, 0.85);
+  color: var(--text-primary);
 }
 
 .premium-bullet-icon {
@@ -1094,12 +1094,7 @@
 
 @media (max-width: 600px) {
   .hero-home-title {
-    font-size: 2.2rem;
     line-height: 1.15;
-  }
-  
-  .home-section .section-title {
-    font-size: 2rem;
   }
   
   .home-form {
