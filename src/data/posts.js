@@ -43,6 +43,11 @@ import { sitoWebArtigianiFabbroIdraulicoPostEn } from './articles/sito-web-artig
 
 export const blogPosts = [
   {
+    id: "7-segnali-rifare-sito",
+    it: setteSegnaliRifareSitoPost,
+    en: setteSegnaliRifareSitoPostEn
+  },
+  {
     id: "sito-web-artigiani-fabbro-idraulico",
     it: sitoWebArtigianiFabbroIdraulicoPost,
     en: sitoWebArtigianiFabbroIdraulicoPostEn
@@ -136,11 +141,6 @@ export const blogPosts = [
     id: "5-segnali-sito-perdere-clienti",
     it: cinqueSegnaliSitoPerdereClientiPost,
     en: cinqueSegnaliSitoPerdereClientiPostEn
-  },
-  {
-    id: "7-segnali-rifare-sito",
-    it: setteSegnaliRifareSitoPost,
-    en: setteSegnaliRifareSitoPostEn
   },
   {
     id: "quanto-costa-sito-web",
