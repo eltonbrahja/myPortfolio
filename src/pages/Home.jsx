@@ -78,7 +78,6 @@ const Home = () => {
         {/* 1. HERO */}
         <section className="home-section hero-home">
           <div className="hero-home-content">
-            <span className="micro-headline">{t('home.hero.micro')}</span>
             <h1 className="hero-home-title">
               {t('home.hero.title1')} <span className="text-gradient shimmer">{t('home.hero.titleHighlight')}</span>{t('home.hero.title2')}
             </h1>
@@ -105,10 +104,10 @@ const Home = () => {
         <section className="home-section target-section">
           <motion.h2 
             className="section-title"
-            initial={{ clipPath: 'polygon(0 0, 100% 0, 100% 0, 0 0)', opacity: 0.5 }}
-            whileInView={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', opacity: 1 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, margin: "-10%" }}
-            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             {t('home.target.title')}
           </motion.h2>
@@ -133,12 +132,11 @@ const Home = () => {
                 <motion.div 
                   key={idx}
                   variants={{
-                    hidden: { opacity: 0.4, scale: 0.96, filter: shouldReduceMotion ? "none" : "contrast(0.7) blur(3px) brightness(0.6)" },
+                    hidden: { opacity: 0, y: 20 },
                     visible: { 
                       opacity: 1, 
-                      scale: 1, 
-                      filter: shouldReduceMotion ? "none" : "contrast(1) blur(0px) brightness(1)",
-                      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] } 
+                      y: 0, 
+                      transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } 
                     }
                   }}
                 >
@@ -147,8 +145,8 @@ const Home = () => {
                     
                     <motion.div
                       variants={{
-                        hidden: { scale: 0.8, opacity: 0, clipPath: 'circle(0% at center)' },
-                        visible: { scale: 1, opacity: 1, clipPath: 'circle(100% at center)', transition: { duration: 0.7, ease: [0.16, 1, 0.3, 1] } }
+                        hidden: { scale: 0.8, opacity: 0 },
+                        visible: { scale: 1, opacity: 1, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
                       }}
                     >
                       <Icon size={32} className={`target-icon ${item.colorClass}`} strokeWidth={1.5} />
@@ -156,8 +154,8 @@ const Home = () => {
                     
                     <motion.h3
                       variants={{
-                        hidden: { opacity: 0, y: 4, filter: shouldReduceMotion ? "none" : "blur(2px)" },
-                        visible: { opacity: 1, y: 0, filter: shouldReduceMotion ? "none" : "blur(0px)", transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
+                        hidden: { opacity: 0, y: 10 },
+                        visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
                       }}
                     >
                       {t('home.target.cards')[idx].title}
@@ -182,10 +180,10 @@ const Home = () => {
         <section className="home-section premium-benefits-section">
           <motion.h2 
             className="section-title"
-            initial={{ opacity: 0, clipPath: 'inset(100% 0 0 0)' }}
-            whileInView={{ opacity: 1, clipPath: 'inset(0% 0 0 0)' }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, margin: "-10%" }}
-            transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             {t('home.benefits.title')}
           </motion.h2>
@@ -212,12 +210,11 @@ const Home = () => {
                 <motion.div 
                   key={idx}
                   variants={{
-                    hidden: { opacity: 0.3, scale: 0.98, filter: shouldReduceMotion ? "none" : "brightness(0.6) blur(2px)" },
+                    hidden: { opacity: 0, y: 20 },
                     visible: { 
                       opacity: 1, 
-                      scale: 1,
-                      filter: shouldReduceMotion ? "none" : "brightness(1) blur(0px)",
-                      transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1] }
+                      y: 0,
+                      transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1] }
                     }
                   }}
                 >
@@ -245,12 +242,11 @@ const Home = () => {
                         <motion.li 
                           key={bulletIdx}
                           variants={{
-                            hidden: { opacity: 0, x: -10, clipPath: 'inset(0 100% 0 0)' },
+                            hidden: { opacity: 0, x: -10 },
                             visible: { 
                               opacity: 1, 
                               x: 0, 
-                              clipPath: 'inset(0 0% 0 0)',
-                              transition: { delay: 0.5 + (bulletIdx * 0.15), duration: 0.5, ease: [0.16, 1, 0.3, 1] }
+                              transition: { delay: 0.4 + (bulletIdx * 0.1), duration: 0.5, ease: [0.16, 1, 0.3, 1] }
                             }
                           }}
                         >
@@ -300,12 +296,11 @@ const Home = () => {
                 whileInView="visible"
                 viewport={{ once: false, margin: "-10%" }}
                 variants={{
-                  hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 15, filter: shouldReduceMotion ? "blur(0px)" : "blur(4px)" },
+                  hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 20 },
                   visible: { 
                     opacity: 1, 
                     y: 0,
-                    filter: "blur(0px)",
-                    transition: { duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.3 + (idx * 0.6) }
+                    transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.2 + (idx * 0.3) }
                   }
                 }}
               >
