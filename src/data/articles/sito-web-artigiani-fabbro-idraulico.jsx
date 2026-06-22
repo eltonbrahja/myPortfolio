@@ -40,7 +40,7 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
   },
   content: (
     <div className="article-body">
-      <p style={{ fontSize: '13px', color: 'rgba(255,255,255,0.4)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
+      <p style={{ fontSize: '13px', color: 'rgba(47, 65, 86, 0.6)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
         Foto di <a href="https://unsplash.com/it/@frantic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Alex Kotliarskyi</a> su <a href="https://unsplash.com/it/foto/people-doing-office-works-QBpZGqEMsKg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
       </p>
 
@@ -139,15 +139,15 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
       </p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -158,13 +158,13 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Il tuo telefono squilla abbastanza grazie a Google?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso aiutarti a capire come intercettare più clienti nella tua zona analizzando gratuitamente la tua attuale visibilità locale. Scopriremo insieme dove stai perdendo contatti a favore dei tuoi concorrenti.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -175,8 +175,7 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi un'analisi gratuita della tua visibilità online →
         </a>
@@ -184,3 +183,5 @@ export const sitoWebArtigianiFabbroIdraulicoPost = {
     </div>
   )
 };
+
+

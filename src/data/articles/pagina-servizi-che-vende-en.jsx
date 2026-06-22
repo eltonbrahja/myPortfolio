@@ -273,15 +273,15 @@ export const paginaServiziCheVendePostEn = {
       </dl>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -292,10 +292,10 @@ export const paginaServiziCheVendePostEn = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Want a services page that delivers results?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           I build websites that aren't just beautiful, but designed to get you more requests. Tell me about your project with no obligation.
         </p>
         <a href="/en#contact" className="filter-chip active" style={{ 
@@ -309,8 +309,7 @@ export const paginaServiziCheVendePostEn = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Contact me for a free consultation →
         </a>
@@ -318,3 +317,5 @@ export const paginaServiziCheVendePostEn = {
     </div>
   )
 };
+
+

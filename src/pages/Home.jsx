@@ -269,7 +269,7 @@ const Home = () => {
         {/* 4. COME LAVORIAMO */}
         <section className="home-section">
           <motion.h2 
-            className="section-title"
+            className="section-title shimmer-text"
             initial={{ opacity: 0, y: shouldReduceMotion ? 0 : 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, margin: "-10%" }}
@@ -423,7 +423,9 @@ const Home = () => {
         <section className="home-section final-form-section" id="preventivo">
           <div className="form-layout-grid">
             <div className="form-content-area">
-              <h2 className="section-title form-title-left">{t('home.contact.title')}</h2>
+              <h2 className="section-title form-title-left shimmer-text">
+                {t('home.contact.title1')}{t('home.contact.titleHighlight')}
+              </h2>
               <p className="form-subtitle-left">
                 {t('home.contact.subtitle')}
               </p>

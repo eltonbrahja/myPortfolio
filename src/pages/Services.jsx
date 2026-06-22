@@ -210,7 +210,7 @@ const Services = () => {
             <p className="services-cta-desc">
               {t('services.ctaDesc')}
             </p>
-            <Link to={localizePath('/contact')} className="services-cta-btn">
+            <Link to={localizePath('/#preventivo')} className="services-cta-btn">
               {t('services.ctaBtn')}
               <ChevronRight size={18} />
             </Link>

@@ -107,9 +107,9 @@ const translations = {
         ]
       },
       offer: {
-        title: "Vediamo se posso aiutarti",
-        desc: "Se hai un'attività che potrebbe ottenere molto di più dal proprio sito web, ti propongo una call gratuita di 30 minuti per capire cosa funziona e cosa no. Senza alcun impegno.",
-        btn: "Richiedi una call gratuita"
+        title: "La tua attività merita una presenza online fatta per convertire",
+        desc: "Se hai già un sito o stai partendo da zero, analizziamo insieme la soluzione più adatta per attirare più contatti e presentarti meglio online.",
+        btn: "Richiedi una consulenza gratuita"
       },
       faq: {
         title: "Domande Frequenti",
@@ -133,7 +133,8 @@ const translations = {
         ]
       },
       contact: {
-        title: "Raccontami il tuo progetto",
+        title1: "Raccontami il tuo ",
+        titleHighlight: "progetto",
         subtitle: "Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta.",
         whatsappPrefix: "Preferisci scrivermi direttamente su WhatsApp?",
         whatsappBtn: "Scrivimi su WhatsApp",
@@ -497,9 +498,9 @@ const translations = {
         ]
       },
       offer: {
-        title: "Let's see if I can help you",
-        desc: "If you have a business that could get much more out of its website, I offer a free 30-minute call to figure out what works and what doesn't. No strings attached.",
-        btn: "Request a free call"
+        title: "Your business deserves an online presence built to convert",
+        desc: "Whether you already have a website or are starting from scratch, let's analyze the best solution to attract more leads and present yourself better online.",
+        btn: "Request a free consultation"
       },
       faq: {
         title: "Frequently Asked Questions",
@@ -523,7 +524,8 @@ const translations = {
         ]
       },
       contact: {
-        title: "Tell me about your project",
+        title1: "Tell me about your ",
+        titleHighlight: "project",
         subtitle: "Fill out the form below: I will reply within 24 hours with concrete ideas.",
         whatsappPrefix: "Prefer to message me directly on WhatsApp?",
         whatsappBtn: "Message me on WhatsApp",

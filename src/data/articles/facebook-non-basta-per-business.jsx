@@ -137,7 +137,7 @@ export const facebookNonBastaPost = {
       <p>In sintesi: se punti solo su Facebook, una parte enorme delle persone che ti cerca su Google potrebbe non trovarti mai.</p>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Vuoi capire se il tuo posizionamento locale su Google è corretto? <a href="/#contact">Richiedi un'analisi gratuita della tua presenza online →</a>
+        Vuoi capire se il tuo posizionamento locale su Google è corretto? <a href="/#preventivo">Richiedi un'analisi gratuita della tua presenza online →</a>
       </p>
 
       <h2 id="fiducia">Fiducia e credibilità: chi ha solo Facebook viene percepito come meno serio</h2>
@@ -220,12 +220,12 @@ export const facebookNonBastaPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Sito web (base)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Sito web (base)</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Casa digitale, punto di conversione</td>
               <td>Presentazione professionale, info chiare, strumenti per contatto, prenotazione e acquisto.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Facebook (supporto)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Facebook (supporto)</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Piazza di comunicazione</td>
               <td>Novità, offerte, retroscena; risposte ai messaggi; link chiari al sito ("scopri di più", "prenota dal sito").</td>
             </tr>
@@ -263,15 +263,15 @@ export const facebookNonBastaPost = {
       </dl>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -282,13 +282,13 @@ export const facebookNonBastaPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Vuoi smettere di dipendere solo da Facebook?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso aiutarti a costruire un sito professionale che diventi la tua vera casa online, collegato ai tuoi social. Contattami per una consulenza gratuita.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -299,8 +299,7 @@ export const facebookNonBastaPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi una consulenza gratuita →
         </a>
@@ -308,3 +307,5 @@ export const facebookNonBastaPost = {
     </div>
   )
 };
+
+

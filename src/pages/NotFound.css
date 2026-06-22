@@ -15,7 +15,7 @@
   transform: translate(-50%, -50%);
   width: 600px;
   height: 600px;
-  background: radial-gradient(circle, rgba(145, 53, 255, 0.15) 0%, rgba(0, 194, 255, 0.05) 50%, rgba(0, 0, 0, 0) 70%);
+  background: radial-gradient(circle, rgba(145, 53, 255, 0.15) 0%, rgba(0, 194, 255, 0.05) 50%, transparent 70%);
   z-index: 0;
   pointer-events: none;
   filter: blur(40px);
@@ -31,12 +31,12 @@
 
 .not-found-content {
   background: rgba(20, 20, 22, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(86, 124, 141, 0.10);
   border-radius: 24px;
   padding: 60px 40px;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  box-shadow: 0 30px 60px var(--shadow-color), inset 0 1px 0 rgba(86, 124, 141, 0.10);
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -21,8 +21,8 @@
   gap: 0.5rem;
   padding: 0.75rem 1.25rem;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.02);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(86, 124, 141, 0.04);
+  border: 1px solid rgba(86, 124, 141, 0.12);
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-secondary);
@@ -31,8 +31,8 @@
 
 .booking-back-btn:hover {
   color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(86, 124, 141, 0.12);
+  border-color: rgba(86, 124, 141, 0.30);
   transform: translateX(-4px);
 }
 
@@ -53,8 +53,8 @@
   gap: 0.5rem;
   padding: 0.5rem 1rem;
   border-radius: 50px;
-  background: rgba(41, 151, 255, 0.1);
-  border: 1px solid rgba(41, 151, 255, 0.2);
+  background: rgba(52, 73, 94, 0.1);
+  border: 1px solid rgba(52, 73, 94, 0.1);
   color: var(--accent-color);
   font-size: 0.85rem;
   font-weight: 600;
@@ -87,7 +87,7 @@
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #ffffff 30%, #2997ff 100%);
+  background: linear-gradient(135deg, #2F4156 30%, #2997ff 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -111,7 +111,7 @@
   border-radius: 16px;
   overflow: hidden;
   background: #0d0d0d;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(86, 124, 141, 0.10);
 }
 
 .gallery-main-image {
@@ -123,7 +123,7 @@
 .gallery-main-overlay {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at center, transparent 40%, rgba(0, 0, 0, 0.4) 100%);
+  background: radial-gradient(circle at center, transparent 40%, var(--shadow-color) 100%);
   pointer-events: none;
 }
 
@@ -167,7 +167,7 @@
 .gallery-thumb-btn.active {
   border-color: var(--accent-color);
   transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(41, 151, 255, 0.3);
+  box-shadow: 0 4px 15px rgba(52, 73, 94, 0.1);
 }
 
 /* Tech Tags */
@@ -177,7 +177,7 @@
   align-items: center;
   gap: 1.25rem;
   padding-bottom: 2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(86, 124, 141, 0.10);
 }
 
 .booking-tags-title {
@@ -198,8 +198,8 @@
 .booking-tech-tag {
   padding: 0.5rem 1.25rem;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(86, 124, 141, 0.06);
+  border: 1px solid rgba(86, 124, 141, 0.16);
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-primary);
@@ -207,8 +207,8 @@
 }
 
 .booking-tech-tag:hover {
-  background: rgba(41, 151, 255, 0.05);
-  border-color: rgba(41, 151, 255, 0.3);
+  background: rgba(52, 73, 94, 0.1);
+  border-color: rgba(52, 73, 94, 0.1);
   transform: translateY(-2px);
   color: var(--accent-color);
 }
@@ -269,8 +269,8 @@
   width: 48px;
   height: 48px;
   border-radius: 12px;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(86, 124, 141, 0.06);
+  border: 1px solid rgba(86, 124, 141, 0.16);
   color: var(--accent-color);
 }
 
@@ -305,8 +305,8 @@
 
 .feature-card:hover {
   transform: translateY(-5px);
-  border-color: rgba(41, 151, 255, 0.25);
-  box-shadow: 0 10px 30px rgba(41, 151, 255, 0.05);
+  border-color: rgba(52, 73, 94, 0.1);
+  box-shadow: 0 10px 30px rgba(52, 73, 94, 0.1);
 }
 
 .feature-icon-box {
@@ -316,8 +316,8 @@
   width: 52px;
   height: 52px;
   border-radius: 14px;
-  background: rgba(41, 151, 255, 0.08);
-  border: 1px solid rgba(41, 151, 255, 0.15);
+  background: rgba(52, 73, 94, 0.1);
+  border: 1px solid rgba(52, 73, 94, 0.1);
   color: var(--accent-color);
 }
 
@@ -365,15 +365,15 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(86, 124, 141, 0.06);
+  border: 1px solid rgba(86, 124, 141, 0.16);
   color: var(--accent-color);
   transition: all 0.3s ease;
 }
 
 .arch-card:hover .arch-icon-wrapper {
-  background: rgba(41, 151, 255, 0.08);
-  border-color: rgba(41, 151, 255, 0.2);
+  background: rgba(52, 73, 94, 0.1);
+  border-color: rgba(52, 73, 94, 0.1);
   transform: scale(1.05);
 }
 
@@ -396,7 +396,7 @@
   letter-spacing: 0.05em;
   padding: 0.3rem 0.8rem;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(86, 124, 141, 0.10);
   color: var(--text-secondary);
 }
 
@@ -407,7 +407,7 @@
   position: relative;
   flex: 0 0 60px;
   height: 2px;
-  background: linear-gradient(90deg, rgba(41, 151, 255, 0.3), rgba(168, 85, 247, 0.3));
+  background: linear-gradient(90deg, rgba(52, 73, 94, 0.1), rgba(168, 85, 247, 0.3));
 }
 
 .connector-dot {
@@ -440,7 +440,7 @@
   aspect-ratio: 16 / 10;
   border-radius: 20px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(86, 124, 141, 0.16);
   background: #0d0d0d;
 }
 
@@ -453,7 +453,7 @@
 .results-glow {
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 10% 20%, rgba(41, 151, 255, 0.15), transparent 45%);
+  background: radial-gradient(circle at 10% 20%, rgba(52, 73, 94, 0.1), transparent 45%);
   pointer-events: none;
 }
 
@@ -511,7 +511,7 @@
   inset: 0;
   z-index: 0;
   background: 
-    radial-gradient(circle at 30% -20%, rgba(41, 151, 255, 0.12), transparent 40%),
+    radial-gradient(circle at 30% -20%, rgba(52, 73, 94, 0.1), transparent 40%),
     radial-gradient(circle at 70% 120%, rgba(168, 85, 247, 0.1), transparent 40%);
   pointer-events: none;
 }
@@ -542,10 +542,10 @@
   padding: 1rem 2.5rem;
   border-radius: 14px;
   background: var(--accent-color);
-  color: #ffffff;
+  color: var(--bg-color);
   font-size: 1.05rem;
   font-weight: 600;
-  box-shadow: 0 4px 20px rgba(41, 151, 255, 0.4);
+  box-shadow: 0 4px 20px rgba(52, 73, 94, 0.1);
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   z-index: 1;
@@ -554,7 +554,7 @@
 .booking-cta-btn-link:hover {
   background: var(--accent-hover);
   transform: translateY(-2px);
-  box-shadow: 0 6px 25px rgba(41, 151, 255, 0.6);
+  box-shadow: 0 6px 25px rgba(52, 73, 94, 0.1);
 }
 
 /* Responsive Adaptations */
@@ -573,7 +573,7 @@
     flex: none;
     width: 2px;
     height: 40px;
-    background: linear-gradient(180deg, rgba(41, 151, 255, 0.3), rgba(168, 85, 247, 0.3));
+    background: linear-gradient(180deg, rgba(52, 73, 94, 0.1), rgba(168, 85, 247, 0.3));
   }
   
   .arrow-icon {
@@ -635,3 +635,4 @@
     width: 70px;
   }
 }
+

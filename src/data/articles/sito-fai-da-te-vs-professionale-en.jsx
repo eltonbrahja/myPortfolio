@@ -199,27 +199,27 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Time</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Time</td>
               <td>Dozens of hours spent learning the platform, fixing details, solving problems.</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Just a few hours for content and feedback; the rest is handled by the expert.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Image</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Image</td>
               <td>Overused templates, risk of amateurish look, unclear messaging.</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Consistent design aligned with your brand, structure built to guide clients to contact or booking.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>SEO & Performance</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>SEO & Performance</td>
               <td>Technical limits, slower speed, less control over rankings and conversions.</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Lighter, optimized site built with SEO best practices from the start.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Growth over time</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Growth over time</td>
               <td>Closed platform, hard to integrate new features; risk of starting over.</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Site designed to grow with your business, with integrations and customizations possible over time.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Real costs</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Real costs</td>
               <td>Seems cheap, but subscriptions + lost time raise the actual expense.</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Clear upfront investment, with a site that works for you over time with no surprises.</td>
             </tr>
@@ -253,15 +253,15 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
       </p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -272,13 +272,13 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Want to know if your website is really working for you?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           I can analyze your current website for free and show you what to improve to start receiving more inquiries and clients from the web.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -289,8 +289,7 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Request a free website analysis →
         </a>
@@ -298,3 +297,5 @@ export const sitoFaiDaTeVsProfessionalePostEn = {
     </div>
   )
 };
+
+

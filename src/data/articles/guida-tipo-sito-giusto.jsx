@@ -160,7 +160,7 @@ export const guidaTipoSitoGiustoPost = {
       <p>Se oggi hai un negozio fisico e i clienti ti chiedono "posso ordinare online?" o "spedite fuori città?", allora può essere il momento di affiancare all'attività un e‑commerce, magari iniziando con una selezione di prodotti.</p>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Vuoi lanciare il tuo shop online per vendere prodotti fisici o digitali? <a href="/#contact">Richiedi un preventivo per il tuo e-commerce →</a>
+        Vuoi lanciare il tuo shop online per vendere prodotti fisici o digitali? <a href="/#preventivo">Richiedi un preventivo per il tuo e-commerce →</a>
       </p>
 
       <h2 id="prenotazioni">Sito con sistema di prenotazioni: far prenotare i clienti da soli</h2>
@@ -201,7 +201,7 @@ export const guidaTipoSitoGiustoPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }} rowSpan="4">Il tuo obiettivo principale?</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }} rowSpan="4">Il tuo obiettivo principale?</td>
               <td>Farti trovare e dare una buona impressione</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Sito vetrina</td>
             </tr>
@@ -218,7 +218,7 @@ export const guidaTipoSitoGiustoPost = {
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Vetrina + Prenotazioni</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }} rowSpan="2">Quanto tempo hai per il sito?</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }} rowSpan="2">Quanto tempo hai per il sito?</td>
               <td>Poco</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Vetrina semplice ma curata</td>
             </tr>
@@ -278,15 +278,15 @@ export const guidaTipoSitoGiustoPost = {
       <p>Partire da un sito vetrina fatto bene e pensato per crescere (aggiungendo blog, prenotazioni o e‑commerce quando serve) è spesso la scelta più intelligente per chi non vuole sprecare soldi ma vuole uno strumento che lavori davvero per lui.</p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -297,13 +297,13 @@ export const guidaTipoSitoGiustoPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Non sai quale tipo di sito fa al caso tuo?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso aiutarti a capire quale soluzione è la più adatta alla tua attività, senza impegno. Contattami per una consulenza gratuita.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -314,8 +314,7 @@ export const guidaTipoSitoGiustoPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi una consulenza gratuita →
         </a>
@@ -323,3 +322,5 @@ export const guidaTipoSitoGiustoPost = {
     </div>
   )
 };
+
+

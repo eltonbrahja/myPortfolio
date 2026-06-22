@@ -179,27 +179,27 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>1. Slow Loading (&gt;3s)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>1. Slow Loading (&gt;3s)</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Loss of 40-50% of immediate visitors</td>
               <td>Image optimization, clean code, fast hosting, and caching.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>2. Outdated Design</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>2. Outdated Design</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Low trust, perception of poor professionalism</td>
               <td>Modern restyling, harmonious color palette, premium typography.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>3. Not Mobile-Friendly</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>3. Not Mobile-Friendly</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Mobile abandonment, Google SEO penalty</td>
               <td>Fully responsive development with a mobile-first approach.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>4. No Call to Action (CTA)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>4. No Call to Action (CTA)</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Users read but do not contact you</td>
               <td>Add clear, repeated action buttons (WhatsApp, forms, contacts).</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>5. Confusing or Old Texts</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>5. Confusing or Old Texts</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Lack of clarity, doubts lead client elsewhere</td>
               <td>Simple copywriting, updated hours, focus on customer benefits.</td>
             </tr>
@@ -226,15 +226,15 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
       </dl>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -245,13 +245,13 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Is your website helping you or holding you back?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           If you notice one or more of these warning signs, you might be losing valuable leads every day. I can analyze your current website for free and show you how to improve it to start getting real requests.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -262,8 +262,7 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Request a free website analysis →
         </a>
@@ -271,3 +270,5 @@ export const cinqueSegnaliSitoPerdereClientiPostEn = {
     </div>
   )
 };
+
+

@@ -120,7 +120,7 @@ export const sitoClientiLocaliPost = {
       </p>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Vuoi dominare le ricerche locali nella tua città? <a href="/#contact">Richiedi un'analisi gratuita della tua presenza su Google Maps →</a>
+        Vuoi dominare le ricerche locali nella tua città? <a href="/#preventivo">Richiedi un'analisi gratuita della tua presenza su Google Maps →</a>
       </p>
 
       <h2 id="recensioni">Recensioni: la prova sociale che fa scegliere te</h2>
@@ -201,27 +201,27 @@ export const sitoClientiLocaliPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>SEO Locale</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>SEO Locale</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>I clienti ti trovano cercando su Google nella tua zona</td>
               <td>Usare parole chiave locali, pagine per ogni servizio, contenuti mirati.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Google Business Profile</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Google Business Profile</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Aumenta visibilità in Ricerca e Maps</td>
               <td>Scheda completa, foto, orari aggiornati, link al sito.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Recensioni</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Recensioni</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>+30% visibilità con ≥50 recensioni e media ≥4,5★</td>
               <td>Mostrare recensioni sul sito, invitare i clienti a lasciarne.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Mappa e Indicazioni</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Mappa e Indicazioni</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Il cliente sa dove trovarti senza stress</td>
               <td>Mappa incorporata, indicazioni semplici, indirizzi coerenti ovunque.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Contatti Visibili</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Contatti Visibili</td>
               <td style={{ color: 'rgba(34, 197, 94, 0.9)', fontWeight: '500' }}>Più fiducia e più chiamate/richieste</td>
               <td>Telefono cliccabile, modulo semplice, contatti in header e footer.</td>
             </tr>
@@ -275,15 +275,15 @@ export const sitoClientiLocaliPost = {
       </p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -294,13 +294,13 @@ export const sitoClientiLocaliPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Vuoi portare più clienti locali alla tua attività?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso analizzare gratuitamente il tuo sito attuale e la tua presenza su Google, e mostrarti cosa migliorare per iniziare a ricevere più chiamate e richieste dalla tua zona.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -311,8 +311,7 @@ export const sitoClientiLocaliPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi un'analisi gratuita del tuo sito →
         </a>
@@ -320,3 +319,5 @@ export const sitoClientiLocaliPost = {
     </div>
   )
 };
+
+

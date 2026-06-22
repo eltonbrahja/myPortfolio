@@ -109,7 +109,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
       <p>In un mercato in cui i clienti possono confrontare 3–4 studi in pochi minuti, un design datato è spesso il motivo per cui “vincono gli altri”, anche se sei bravissimo in quello che fai.</p>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Il tuo sito attuale ha una grafica datata o non si adatta bene agli smartphone? <a href="/#contact">Richiedi un restyling o un'analisi gratuita →</a>
+        Il tuo sito attuale ha una grafica datata o non si adatta bene agli smartphone? <a href="/#preventivo">Richiedi un restyling o un'analisi gratuita →</a>
       </p>
 
       <h2 id="no-mobile">Il sito non è ottimizzato per smartphone</h2>
@@ -179,27 +179,27 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>1. Caricamento Lento (&gt;3s)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>1. Caricamento Lento (&gt;3s)</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Perdita del 40-50% dei visitatori immediati</td>
               <td>Ottimizzazione immagini, codice pulito, hosting veloce e cache.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>2. Grafica Obsoleta (vecchia)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>2. Grafica Obsoleta (vecchia)</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Scarsa fiducia, percezione di poca professionalità</td>
               <td>Restyling moderno, palette colori armonica, font e layout premium.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>3. Non Mobile-Friendly</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>3. Non Mobile-Friendly</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Abbandono da mobile, penalizzazione SEO Google</td>
               <td>Sviluppo completamente responsive con approccio mobile-first.</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>4. Assenza di Chiamate all'Azione (CTA)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>4. Assenza di Chiamate all'Azione (CTA)</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Gli utenti leggono ma non ti contattano</td>
               <td>Inserire pulsanti chiari e ripetuti (WhatsApp, form, contatti).</td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>5. Testi Confusi o Vecchi</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>5. Testi Confusi o Vecchi</td>
               <td style={{ color: 'rgba(239, 68, 68, 0.9)', fontWeight: '500' }}>Poca chiarezza, dubbi del cliente che va altrove</td>
               <td>Copywriting semplice, orari aggiornati, focalizzazione sui benefici.</td>
             </tr>
@@ -226,15 +226,15 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
       </dl>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -245,13 +245,13 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Il tuo sito ti sta aiutando o ti sta frenando?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Se riscontri uno o più di questi segnali, potresti perdere contatti preziosi ogni giorno. Posso analizzare gratuitamente il tuo sito attuale e mostrarti come migliorarlo per iniziare a ricevere richieste reali.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -262,8 +262,7 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi un'analisi gratuita del tuo sito →
         </a>
@@ -271,3 +270,5 @@ export const cinqueSegnaliSitoPerdereClientiPost = {
     </div>
   )
 };
+
+

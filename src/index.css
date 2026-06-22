@@ -1,15 +1,19 @@
 
 :root {
-  /* Apple-style Design Tokens */
-  --bg-color: #000000;
-  --text-primary: #f5f5f7;
-  --text-secondary: #86868b;
-  --accent-color: #2997ff;
-  --accent-hover: #147ce5;
+  /* Platinum Prestige Theme Tokens */
+  --bg-color: #ecf0f1;
+  --text-primary: #2c3e50;
+  --text-secondary: #34495e;
+  --accent-color: #34495e;
+  --accent-hover: #2c3e50;
   
-  /* Glassmorphism Variables */
-  --glass-bg: rgba(255, 255, 255, 0.02);
-  --glass-border: rgba(255, 255, 255, 0.08);
+  /* Surfaces & Borders (Replacing hardcoded dark values) */
+  --surface-color: rgba(255, 255, 255, 0.6);
+  --border-color: #bdc3c7;
+  --shadow-color: rgba(44, 62, 80, 0.1);
+  --shadow-color-heavy: rgba(44, 62, 80, 0.2);
+  --glass-bg: rgba(255, 255, 255, 0.4);
+  --glass-border: rgba(44, 62, 80, 0.15);
   --glass-blur: saturate(180%) blur(20px);
   
   --font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -41,8 +45,8 @@ body::before {
   inset: 0;
   z-index: -1;
   background:
-    radial-gradient(circle at 15% 50%, rgba(41, 151, 255, 0.08), transparent 25%),
-    radial-gradient(circle at 85% 30%, rgba(168, 85, 247, 0.08), transparent 25%);
+    radial-gradient(circle at 15% 50%, rgba(189, 195, 199, 0.3), transparent 30%),
+    radial-gradient(circle at 85% 30%, rgba(52, 73, 94, 0.05), transparent 30%);
   pointer-events: none;
   will-change: transform;
 }
@@ -73,14 +77,14 @@ a {
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #000;
+  background: var(--bg-color);
 }
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: var(--border-color);
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--accent-color);
 }
 
 .app-container {
@@ -102,7 +106,7 @@ a {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background-color: var(--accent-color);
+  background-color: #25D366;
   color: #ffffff;
   width: 56px;
   height: 56px;
@@ -110,14 +114,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(41, 151, 255, 0.4);
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
   z-index: 999;
   transition: all 0.3s ease;
 }
 
 .whatsapp-button:hover {
   transform: scale(1.1);
-  background-color: var(--accent-hover);
+  background-color: #1ebd5a;
 }
 
 .whatsapp-button svg {
@@ -141,13 +145,13 @@ a {
   right: 6.5rem;
   width: 100%;
   max-width: 380px;
-  background: rgba(15, 15, 15, 0.75);
+  background: var(--surface-color);
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid var(--border-color);
   padding: 1.5rem;
   border-radius: 24px;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 10px 40px var(--shadow-color-heavy);
   animation: slideUp 0.5s ease;
 }
 
@@ -209,18 +213,18 @@ a {
 .cookie-btn.decline {
   background-color: transparent;
   color: var(--text-primary);
-  border: 1px solid var(--glass-border);
+  border: 1px solid var(--border-color);
 }
 
 .cookie-btn.decline:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(44, 62, 80, 0.05);
 }
 
 @media (max-width: 768px) {
   /* Mobile: Full Backdrop Overlay */
   .cookie-backdrop {
     pointer-events: auto;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(236, 240, 241, 0.7);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     display: flex;
@@ -237,7 +241,7 @@ a {
     max-width: 100%;
     padding: 2rem;
     border-radius: 24px 24px 0 0;
-    box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 -10px 40px var(--shadow-color-heavy);
     animation: slideUpModal 0.5s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
@@ -255,5 +259,29 @@ a {
 @media (min-width: 769px) {
   body.cookie-banner-active {
     overflow: auto !important;
+  }
+}
+
+/* Animated Gradient Text / Shimmer Effect */
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    var(--accent-color) 0%,
+    #8ab4f8 25%,
+    #a8c7fa 50%,
+    #8ab4f8 75%,
+    var(--accent-color) 100%
+  );
+  background-size: 200% auto;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: shineTextGlobal 4s linear infinite;
+  display: inline-block;
+}
+
+@keyframes shineTextGlobal {
+  to {
+    background-position: 200% center;
   }
 }

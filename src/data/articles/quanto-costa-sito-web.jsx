@@ -97,7 +97,7 @@ export const quantoCostaSitoWebPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Landing page / One-page</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Landing page / One-page</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>400 € - 800 €</td>
               <td>
                 Una pagina lunga (benefici, chi sei, contatti), responsive, modulo contatti.
@@ -105,7 +105,7 @@ export const quantoCostaSitoWebPost = {
               </td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Sito Vetrina (5-10 pagine)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Sito Vetrina (5-10 pagine)</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>700 € - 3.000 €</td>
               <td>
                 Home, Chi siamo, Servizi, Contatti. Setup dominio, responsive design, email base.
@@ -113,7 +113,7 @@ export const quantoCostaSitoWebPost = {
               </td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>Sito Aziendale (con blog)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>Sito Aziendale (con blog)</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>2.500 € - 8.000 €</td>
               <td>
                 15-30 pagine, design su misura, UX, blog, lead generation, prime ottimizzazioni SEO.
@@ -121,7 +121,7 @@ export const quantoCostaSitoWebPost = {
               </td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}>E-commerce</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}>E-commerce</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>3.000 € - 15.000+ €</td>
               <td>
                 Catalogo, carrello, checkout, pagamenti, configurazione spedizioni.
@@ -133,7 +133,7 @@ export const quantoCostaSitoWebPost = {
       </div>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Hai bisogno di capire in quale fascia di prezzo si colloca il tuo progetto? <a href="/#contact">Richiedi un'analisi e un preventivo personalizzato per il tuo sito →</a>
+        Hai bisogno di capire in quale fascia di prezzo si colloca il tuo progetto? <a href="/#preventivo">Richiedi un'analisi e un preventivo personalizzato per il tuo sito →</a>
       </p>
 
       <h2 id="cosa-e-incluso">Cosa è (quasi sempre) incluso nel prezzo iniziale</h2>
@@ -174,21 +174,21 @@ export const quantoCostaSitoWebPost = {
           </thead>
           <tbody>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}><strong>Dominio</strong> (es. .it o .com)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}><strong>Dominio</strong> (es. .it o .com)</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>
                 10 € - 20 €
                 <a href="https://ivemind.com/en/blog/how-much-does-a-website-cost-small-business/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>ivemind ↗</a>
               </td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}><strong>Hosting</strong> (Sito vetrina - E-commerce)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}><strong>Hosting</strong> (Sito vetrina - E-commerce)</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>
                 80 € - 1.000 €
                 <a href="https://www.sferica.io/quanto-costa-un-sito-web-vetrina/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>sferica ↗</a>
               </td>
             </tr>
             <tr>
-              <td style={{ fontWeight: '600', color: 'var(--text-primary)' }}><strong>Manutenzione tecnica</strong> (aggiornamenti, backup, sicurezza)</td>
+              <td style={{ fontWeight: '600', color: 'var(--bg-color)', background: 'var(--accent-color)' }}><strong>Manutenzione tecnica</strong> (aggiornamenti, backup, sicurezza)</td>
               <td style={{ fontWeight: '600', color: 'var(--accent-color)' }}>
                 300 € - 1.700 €
                 <a href="https://ivemind.com/en/blog/how-much-does-a-website-cost-small-business/" target="_blank" rel="noopener noreferrer" style={sourceLinkStyle}>ivemind ↗</a>
@@ -231,15 +231,15 @@ export const quantoCostaSitoWebPost = {
       </p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -250,11 +250,11 @@ export const quantoCostaSitoWebPost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>Pronto per il tuo nuovo sito?</h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>Pronto per il tuo nuovo sito?</h3>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso analizzare la tua situazione e prepararti un preventivo chiaro e senza sorprese, spiegandoti cosa è incluso e cosa no, in modo che tu sappia esattamente dove vanno i tuoi soldi.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -265,8 +265,7 @@ export const quantoCostaSitoWebPost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi un preventivo gratuito →
         </a>
@@ -274,3 +273,5 @@ export const quantoCostaSitoWebPost = {
     </div>
   )
 };
+
+

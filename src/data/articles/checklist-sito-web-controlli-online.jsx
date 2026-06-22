@@ -80,7 +80,7 @@ export const checklistSitoWebControlliOnlinePost = {
       </ul>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Hai dei dubbi sulla UX o sul posizionamento delle CTA del tuo sito? <a href="/#contact">Richiedi un'analisi gratuita della UX della tua homepage →</a>
+        Hai dei dubbi sulla UX o sul posizionamento delle CTA del tuo sito? <a href="/#preventivo">Richiedi un'analisi gratuita della UX della tua homepage →</a>
       </p>
 
       <h2 id="seo">SEO On-Page (Ottimizzazione per i motori di ricerca)</h2>
@@ -102,7 +102,7 @@ export const checklistSitoWebControlliOnlinePost = {
       </ul>
 
       <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Vuoi posizionarti sui motori di ricerca e farti trovare dai clienti della tua zona? <a href="/#contact">Scopri come posso ottimizzare la SEO del tuo sito →</a>
+        Vuoi posizionarti sui motori di ricerca e farti trovare dai clienti della tua zona? <a href="/#preventivo">Scopri come posso ottimizzare la SEO del tuo sito →</a>
       </p>
 
       <h2 id="performance">Performance e Velocità</h2>
@@ -157,15 +157,15 @@ export const checklistSitoWebControlliOnlinePost = {
       </p>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(255,255,255,0.03) 0%, rgba(255,255,255,0.01) 100%)',
-        border: '1px solid rgba(255, 255, 255, 0.08)',
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.15)',
         borderRadius: '24px',
         padding: '40px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px rgba(0,0,0,0.3)'
+        boxShadow: '0 20px 40px var(--shadow-color)'
       }}>
         <div style={{
           position: 'absolute',
@@ -176,13 +176,13 @@ export const checklistSitoWebControlliOnlinePost = {
           background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
           pointerEvents: 'none'
         }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: '#fff', marginTop: 0 }}>
+        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
           Vuoi un sito web che vende fin dal primo giorno?
         </h3>
-        <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
           Posso fare un'analisi gratuita della tua presenza online e darti un feedback sincero su velocità, ottimizzazione mobile e SEO del tuo sito attuale o in fase di sviluppo.
         </p>
-        <a href="/#contact" className="filter-chip active" style={{ 
+        <a href="/#preventivo" className="filter-chip active" style={{ 
           display: 'inline-flex',
           alignItems: 'center',
           gap: '8px',
@@ -193,8 +193,7 @@ export const checklistSitoWebControlliOnlinePost = {
           borderRadius: '9999px',
           boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
           border: 'none',
-          color: '#fff',
-          background: 'var(--accent-color)'
+          color: 'var(--bg-color)', background: 'var(--accent-color)'
         }}>
           Richiedi un'analisi gratuita del tuo sito →
         </a>
@@ -202,3 +201,5 @@ export const checklistSitoWebControlliOnlinePost = {
     </div>
   )
 };
+
+
