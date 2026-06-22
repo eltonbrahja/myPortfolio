@@ -135,7 +135,7 @@ const translations = {
       contact: {
         title1: "Raccontami il tuo ",
         titleHighlight: "progetto",
-        subtitle: "Compila il form qui sotto: ti rispondo entro 24 ore con qualche idea concreta.",
+        subtitle: "Compila il form qui sotto: ti rispondo entro 24 ore presentandoti idee concrete.",
         whatsappPrefix: "Preferisci scrivermi direttamente su WhatsApp?",
         whatsappBtn: "Scrivimi su WhatsApp",
         form: {
@@ -526,7 +526,7 @@ const translations = {
       contact: {
         title1: "Tell me about your ",
         titleHighlight: "project",
-        subtitle: "Fill out the form below: I will reply within 24 hours with concrete ideas.",
+        subtitle: "Fill out the form below: I will reply within 24 hours presenting you with concrete ideas.",
         whatsappPrefix: "Prefer to message me directly on WhatsApp?",
         whatsappBtn: "Message me on WhatsApp",
         form: {
