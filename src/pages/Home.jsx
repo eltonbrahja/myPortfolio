@@ -140,7 +140,7 @@ const Home = () => {
                     }
                   }}
                 >
-                  <GlassCard className="home-card target-card">
+                  <GlassCard className="home-card target-card" disableScrollAnimation>
                     <div className="target-overlay" />
                     
                     <motion.div
@@ -218,7 +218,7 @@ const Home = () => {
                     }
                   }}
                 >
-                  <GlassCard className="home-card premium-card">
+                  <GlassCard className="home-card premium-card" disableScrollAnimation>
                     <motion.div
                       variants={{
                         hidden: { opacity: 0, scale: 0.8 },
@@ -303,6 +303,7 @@ const Home = () => {
                     transition: { duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: 0.2 + (idx * 0.3) }
                   }
                 }}
+                whileHover={shouldReduceMotion ? {} : { y: -4 }}
               >
                 <motion.div 
                   className="step-number"
