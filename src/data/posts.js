@@ -1,5 +1,7 @@
 import { quantoCostaSitoWebPost } from './articles/quanto-costa-sito-web';
 import { quantoCostaSitoWebPostEn } from './articles/quanto-costa-sito-web-en';
+import { sitoWebVsGoogleBusinessProfilePost } from './articles/sito-web-vs-google-business-profile';
+import { sitoWebVsGoogleBusinessProfilePostEn } from './articles/sito-web-vs-google-business-profile-en';
 import { setteSegnaliRifareSitoPost } from './articles/7-segnali-rifare-sito';
 import { setteSegnaliRifareSitoPostEn } from './articles/7-segnali-rifare-sito-en';
 import { cinqueSegnaliSitoPerdereClientiPost } from './articles/5-segnali-sito-perdere-clienti';
@@ -42,6 +44,11 @@ import { sitoWebArtigianiFabbroIdraulicoPost } from './articles/sito-web-artigia
 import { sitoWebArtigianiFabbroIdraulicoPostEn } from './articles/sito-web-artigiani-fabbro-idraulico-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-vs-google-business-profile",
+    it: sitoWebVsGoogleBusinessProfilePost,
+    en: sitoWebVsGoogleBusinessProfilePostEn
+  },
   {
     id: "7-segnali-rifare-sito",
     it: setteSegnaliRifareSitoPost,
