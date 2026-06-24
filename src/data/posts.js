@@ -42,6 +42,8 @@ import { sitoWebPsicologiPazientiGiustiPost } from './articles/sito-web-psicolog
 import { sitoWebPsicologiPazientiGiustiPostEn } from './articles/sito-web-psicologi-pazienti-giusti-en';
 import { sitoWebArtigianiFabbroIdraulicoPost } from './articles/sito-web-artigiani-fabbro-idraulico';
 import { sitoWebArtigianiFabbroIdraulicoPostEn } from './articles/sito-web-artigiani-fabbro-idraulico-en';
+import { blogPerPortareClientiLocaliPost } from './articles/blog-per-portare-clienti-locali';
+import { blogPerPortareClientiLocaliPostEn } from './articles/blog-per-portare-clienti-locali-en';
 
 export const blogPosts = [
   {
@@ -153,5 +155,10 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
+  },
+  {
+    id: "blog-per-portare-clienti-locali",
+    it: blogPerPortareClientiLocaliPost,
+    en: blogPerPortareClientiLocaliPostEn
   }
 ];

@@ -1,16 +1,17 @@
 Titolo articolo
-  Sito web vs solo Google Business Profile: cosa rischi se non hai un sito
+  Come usare il blog del tuo sito per portare clienti locali (anche senza diventare blogger)
 
 Intento / Obiettivo
-  Decisionale: chi pensa che basti Google Maps
+  Considerazione + local SEO
 
 Note SEO principali
-  Completa l’articolo “non basta Facebook”: qui focus su scheda Google vs sito tuo. eltonbrahja+1
+  Spiega blog come sezione del sito per mostrare competenza, con focus su contenuti legati a città/zona. eltonbrahja+2
 
-Nome foto: fotoMapsVsGoogle.webp
+Nome foto: fotoBlogLocalSeo.webp
 
 Crediti foto:
-  Foto di <a href="https://unsplash.com/it/@nathanareboucas?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathana Rebouças</a> su <a href="https://unsplash.com/it/foto/schermo-del-computer-che-mostra-la-ricerca-di-google-c4aT8MfEzdw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Foto di <a href="https://unsplash.com/it/@nickmorrison?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Morrison</a> su <a href="https://unsplash.com/it/foto/macbook-pro-near-white-open-book-FHnnjk1Yj7Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
       
       
       
