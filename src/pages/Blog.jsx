@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 import { AnimatePresence } from 'framer-motion';
@@ -15,6 +15,8 @@ const Blog = () => {
   const allPosts = blogPosts.map(group => group[language]).filter(Boolean);
   
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  
   const categories = [...new Set(allPosts.map(post => post.category))];
   
   const filteredPosts = selectedCategory 
@@ -22,6 +24,14 @@ const Blog = () => {
     : allPosts;
     
   const allLabel = language === 'it' ? 'Tutti' : 'All';
+
+  useEffect(() => {
+    setIsLoading(true);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 800);
+    return () => clearTimeout(timer);
+  }, [selectedCategory]);
 
   return (
     <PageTransition>
@@ -60,37 +70,69 @@ const Blog = () => {
 
           <div className="blog-grid">
             <AnimatePresence mode="popLayout">
-              {filteredPosts.map((post, index) => (
-                <motion.div
-                  key={post.id}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, scale: 0.95 }}
-                  transition={{ duration: 0.4, delay: index * 0.05 }}
-                  className="blog-card-wrapper"
-                  style={{ willChange: "transform, opacity" }}
-                >
-                  <GlassCard className="blog-card" hoverable disableScrollAnimation>
-                <Link to={localizePath(`/blog/${post.id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
-                  <div className="blog-image-wrapper">
-                    <img src={post.image} alt={post.title} className="blog-image" loading={index < 4 ? "eager" : "lazy"} />
-                    <span className="blog-category">{post.category}</span>
-                  </div>
-                  <div className="blog-content">
-                    <div className="blog-meta">
-                      <span className="meta-item"><Calendar size={14} strokeWidth={1.5} /> {post.date}</span>
-                      <span className="meta-item"><Clock size={14} strokeWidth={1.5} /> {post.readTime}</span>
+              {isLoading ? (
+                Array.from({ length: 6 }).map((_, index) => (
+                  <motion.div
+                    key={`skeleton-${index}`}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    transition={{ duration: 0.4, delay: index * 0.05 }}
+                    className="blog-card-wrapper"
+                  >
+                    <GlassCard className="blog-card" disableScrollAnimation>
+                      <div className="skeleton-card">
+                        <div className="skeleton-image" />
+                        <div className="skeleton-content">
+                          <div className="skeleton-meta" />
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                            <div className="skeleton-title" />
+                            <div className="skeleton-title short" />
+                          </div>
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
+                            <div className="skeleton-text" />
+                            <div className="skeleton-text medium" />
+                            <div className="skeleton-text short" />
+                          </div>
+                          <div className="skeleton-btn" />
+                        </div>
+                      </div>
+                    </GlassCard>
+                  </motion.div>
+                ))
+              ) : (
+                filteredPosts.map((post, index) => (
+                  <motion.div
+                    key={post.id}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, scale: 0.95 }}
+                    transition={{ duration: 0.4, delay: index * 0.05 }}
+                    className="blog-card-wrapper"
+                    style={{ willChange: "transform, opacity" }}
+                  >
+                    <GlassCard className="blog-card" hoverable disableScrollAnimation>
+                  <Link to={localizePath(`/blog/${post.id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                    <div className="blog-image-wrapper">
+                      <img src={post.image} alt={post.title} className="blog-image" loading={index < 4 ? "eager" : "lazy"} />
+                      <span className="blog-category">{post.category}</span>
                     </div>
-                    <h3 className="blog-title">{post.title}</h3>
-                    <p className="blog-excerpt">{post.excerpt}</p>
-                    <span className="read-more-btn">
-                      {t('blog.readMore')} <ArrowRight size={16} strokeWidth={1.5} />
-                    </span>
-                  </div>
-                </Link>
-                </GlassCard>
-                </motion.div>
-              ))}
+                    <div className="blog-content">
+                      <div className="blog-meta">
+                        <span className="meta-item"><Calendar size={14} strokeWidth={1.5} /> {post.date}</span>
+                        <span className="meta-item"><Clock size={14} strokeWidth={1.5} /> {post.readTime}</span>
+                      </div>
+                      <h3 className="blog-title">{post.title}</h3>
+                      <p className="blog-excerpt">{post.excerpt}</p>
+                      <span className="read-more-btn">
+                        {t('blog.readMore')} <ArrowRight size={16} strokeWidth={1.5} />
+                      </span>
+                    </div>
+                  </Link>
+                  </GlassCard>
+                  </motion.div>
+                ))
+              )}
             </AnimatePresence>
           </div>
         </motion.div>

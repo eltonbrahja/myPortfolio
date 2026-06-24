@@ -47,6 +47,11 @@ import { blogPerPortareClientiLocaliPostEn } from './articles/blog-per-portare-c
 
 export const blogPosts = [
   {
+    id: "blog-per-portare-clienti-locali",
+    it: blogPerPortareClientiLocaliPost,
+    en: blogPerPortareClientiLocaliPostEn
+  },
+  {
     id: "sito-web-vs-google-business-profile",
     it: sitoWebVsGoogleBusinessProfilePost,
     en: sitoWebVsGoogleBusinessProfilePostEn
@@ -155,10 +160,5 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
-  },
-  {
-    id: "blog-per-portare-clienti-locali",
-    it: blogPerPortareClientiLocaliPost,
-    en: blogPerPortareClientiLocaliPostEn
   }
 ];
