@@ -44,8 +44,15 @@ import { sitoWebArtigianiFabbroIdraulicoPost } from './articles/sito-web-artigia
 import { sitoWebArtigianiFabbroIdraulicoPostEn } from './articles/sito-web-artigiani-fabbro-idraulico-en';
 import { blogPerPortareClientiLocaliPost } from './articles/blog-per-portare-clienti-locali';
 import { blogPerPortareClientiLocaliPostEn } from './articles/blog-per-portare-clienti-locali-en';
+import { recensioniOnlineSitoPost } from './articles/come-usare-recensioni-online';
+import { recensioniOnlineSitoPostEn } from './articles/come-usare-recensioni-online-en';
 
 export const blogPosts = [
+  {
+    id: "come-usare-recensioni-online",
+    it: recensioniOnlineSitoPost,
+    en: recensioniOnlineSitoPostEn
+  },
   {
     id: "blog-per-portare-clienti-locali",
     it: blogPerPortareClientiLocaliPost,

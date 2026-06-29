@@ -1,16 +1,17 @@
 Titolo articolo
-  Come usare il blog del tuo sito per portare clienti locali (anche senza diventare blogger)
+  Come usare le recensioni online nel tuo sito per aumentare le richieste
 
 Intento / Obiettivo
-  Considerazione + local SEO
+  Social proof & local
 
 Note SEO principali
-  Spiega blog come sezione del sito per mostrare competenza, con focus su contenuti legati a città/zona. eltonbrahja+2
+ Spiega perché recensioni (Google, portali, email) integrate nel sito aiutano ranking e conversioni.
 
-Nome foto: fotoBlogLocalSeo.webp
+Nome foto: fotoBlogRecensioni.webp
 
 Crediti foto:
-  Foto di <a href="https://unsplash.com/it/@nickmorrison?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nick Morrison</a> su <a href="https://unsplash.com/it/foto/macbook-pro-near-white-open-book-FHnnjk1Yj7Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Foto di <a href="https://unsplash.com/it/@embedsocial?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">EmbedSocial</a> su <a href="https://unsplash.com/it/foto/due-mani-che-tengono-una-carta-di-credito-google-davanti-a-un-logo-apple-bDx48KKzkZ0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      
       
       
       
