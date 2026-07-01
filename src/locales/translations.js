@@ -37,7 +37,8 @@ const translations = {
           "Siti veloci e SEO-ready",
           "UX pensata per la conversione",
           "Risposta entro 24 ore"
-        ]
+        ],
+        blogLink: "Scopri le guide del mio blog su siti web e SEO locale"
       },
       target: {
         title: "Per chi sono i miei siti web",
@@ -432,7 +433,8 @@ const translations = {
           "Fast & SEO-ready sites",
           "UX designed for conversion",
           "Response within 24 hours"
-        ]
+        ],
+        blogLink: "Discover my blog guides on websites and local SEO"
       },
       target: {
         title: "Who my websites are for",

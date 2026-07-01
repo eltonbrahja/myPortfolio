@@ -9,7 +9,6 @@ import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
 import { getProjects } from '../data/projects';
 import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
-import { Helmet } from 'react-helmet-async';
 import './Home.css';
 
 const Home = () => {
@@ -82,9 +81,6 @@ const Home = () => {
         hreflangIt="https://www.eltonbrahja.eu/"
         hreflangEn="https://www.eltonbrahja.eu/en"
       />
-      <Helmet>
-        <link rel="preload" as="video" href="/video-hero.mp4" type="video/mp4" />
-      </Helmet>
       <div className="home-container">
 
         {/* 1. HERO */}
@@ -108,11 +104,7 @@ const Home = () => {
                 <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[1]}</li>
                 <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[2]}</li>
               </ul>
-              <div style={{ marginTop: '1.5rem' }}>
-                <Link to={localizePath('/blog')} className="portfolio-link" style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>
-                  {t('home.hero.blogLink') || "Scopri le guide del mio blog su siti web e SEO locale"} <ChevronRight size={14} />
-                </Link>
-              </div>
+
             </div>
           </div>
         </section>
