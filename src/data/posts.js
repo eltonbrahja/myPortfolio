@@ -46,6 +46,8 @@ import { blogPerPortareClientiLocaliPost } from './articles/blog-per-portare-cli
 import { blogPerPortareClientiLocaliPostEn } from './articles/blog-per-portare-clienti-locali-en';
 import { recensioniOnlineSitoPost } from './articles/come-usare-recensioni-online';
 import { recensioniOnlineSitoPostEn } from './articles/come-usare-recensioni-online-en';
+import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito-aziendale';
+import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
   {
@@ -167,5 +169,10 @@ export const blogPosts = [
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
     en: quantoCostaSitoWebPostEn
+  },
+  {
+    id: "errori-dominio-hosting-sito-aziendale",
+    it: erroriDominioHostingPost,
+    en: erroriDominioHostingPostEn
   }
 ];
