@@ -76,8 +76,8 @@ const Home = () => {
   return (
     <PageTransition>
       <SEO 
-        title={t('home.seo?.title') || "Siti Web Veloci, SEO e UX | Brand Identity di Valore"}
-        description={t('home.seo?.description') || "Elton Brahja — Realizzo siti web veloci, eleganti e ottimizzati SEO per il tuo business. Contattami per risultati concreti e una brand identity che converte."}
+        title={t('home.seo.title') || "Siti Web Veloci, SEO e UX | Brand Identity di Valore"}
+        description={t('home.seo.description') || "Elton Brahja — Realizzo siti web veloci, eleganti e ottimizzati SEO per il tuo business. Contattami per risultati concreti e una brand identity che converte."}
         canonical="https://www.eltonbrahja.eu/"
         hreflangIt="https://www.eltonbrahja.eu/"
         hreflangEn="https://www.eltonbrahja.eu/en"

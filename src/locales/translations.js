@@ -21,6 +21,10 @@ const translations = {
       privacy: "Privacy Policy"
     },
     home: {
+      seo: {
+        title: "Siti Web Veloci, SEO e UX | Brand Identity di Valore",
+        description: "Elton Brahja — Realizzo siti web veloci, eleganti e ottimizzati SEO per il tuo business. Contattami per risultati concreti e una brand identity che converte."
+      },
       hero: {
         micro: "Web designer freelance per professionisti, studi e attività locali",
         title1: "Siti web veloci e ottimizzati SEO che ti portano ",
@@ -412,6 +416,10 @@ const translations = {
       privacy: "Privacy Policy"
     },
     home: {
+      seo: {
+        title: "Fast Websites, SEO & UX | Valuable Brand Identity",
+        description: "Elton Brahja — I build fast, elegant, and SEO-optimized websites for your business. Contact me for concrete results and a converting brand identity."
+      },
       hero: {
         micro: "Freelance Web Designer for professionals, studios, and local businesses",
         title1: "Fast, SEO-optimized websites that bring you ",
