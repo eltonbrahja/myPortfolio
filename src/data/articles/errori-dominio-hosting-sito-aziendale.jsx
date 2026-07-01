@@ -67,11 +67,11 @@ export const erroriDominioHostingPost = {
       <div className="article-toc">
         <div className="toc-title">Indice</div>
         <ol className="toc-list">
-          <li><a href="#estensioni-strane">1. Scegliere estensioni del dominio strane o nomi troppo lunghi</a></li>
-          <li><a href="#hosting-lento">2. Risparmiare sull'hosting (e distruggere la SEO)</a></li>
-          <li><a href="#email-gmail">3. Usare email su Gmail o Libero invece del dominio aziendale</a></li>
-          <li><a href="#intestazione-dominio">4. Non intestare il dominio a se stessi</a></li>
-          <li><a href="#mancanza-ssl">5. Non avere il certificato SSL (https)</a></li>
+          <li><a href="#estensioni-strane">Scegliere estensioni del dominio strane o nomi troppo lunghi</a></li>
+          <li><a href="#hosting-lento">Risparmiare sull'hosting (e distruggere la SEO)</a></li>
+          <li><a href="#email-gmail">Usare email su Gmail o Libero invece del dominio aziendale</a></li>
+          <li><a href="#intestazione-dominio">Non intestare il dominio a se stessi</a></li>
+          <li><a href="#mancanza-ssl">Non avere il certificato SSL (https)</a></li>
         </ol>
       </div>
 

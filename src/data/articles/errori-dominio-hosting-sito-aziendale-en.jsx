@@ -67,11 +67,11 @@ export const erroriDominioHostingPostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#weird-extensions">1. Choosing weird domain extensions or names that are too long</a></li>
-          <li><a href="#slow-hosting">2. Skimping on hosting (and destroying SEO)</a></li>
-          <li><a href="#gmail-email">3. Using Gmail or Yahoo email instead of a business domain</a></li>
-          <li><a href="#domain-ownership">4. Not registering the domain in your own name</a></li>
-          <li><a href="#no-ssl">5. Not having an SSL certificate (https)</a></li>
+          <li><a href="#weird-extensions">Choosing weird domain extensions or names that are too long</a></li>
+          <li><a href="#slow-hosting">Skimping on hosting (and destroying SEO)</a></li>
+          <li><a href="#gmail-email">Using Gmail or Yahoo email instead of a business domain</a></li>
+          <li><a href="#domain-ownership">Not registering the domain in your own name</a></li>
+          <li><a href="#no-ssl">Not having an SSL certificate (https)</a></li>
         </ol>
       </div>
 
