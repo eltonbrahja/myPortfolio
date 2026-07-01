@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Calendar, Clock, ArrowRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
+import SEO from '../components/SEO';
 import { blogPosts } from '../data/posts';
 import { useLanguage } from '../context/LanguageContext';
 import './Blog.css';
@@ -35,6 +36,13 @@ const Blog = () => {
 
   return (
     <PageTransition>
+      <SEO 
+        title={language === 'it' ? "Il mio blog su siti web veloci, SEO e UX | Elton Brahja" : "My blog on fast websites, SEO and UX | Elton Brahja"}
+        description={language === 'it' ? "Guide pratiche su siti web veloci, SEO locale, UX e marketing digitale per professionisti e attività locali." : "Practical guides on fast websites, local SEO, UX, and digital marketing for professionals and local businesses."}
+        canonical="https://www.eltonbrahja.eu/blog"
+        hreflangIt="https://www.eltonbrahja.eu/blog"
+        hreflangEn="https://www.eltonbrahja.eu/en/blog"
+      />
       <div className="blog-container">
         <motion.div 
           initial={{ opacity: 0, scale: 0.98 }}

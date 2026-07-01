@@ -305,7 +305,7 @@ const translations = {
       label: "Thoughts & Articles",
       title1: "Il mio ",
       title2: "Blog",
-      intro: "Condivido scoperte, guide tecniche e riflessioni sul mondo dello sviluppo web, UI/UX design e performance.",
+      intro: "Un blog pensato per professionisti, artigiani e attività locali. Qui troverai guide pratiche e riflessioni su come sfruttare la SEO locale, migliorare le web performance e creare siti che portano clienti reali.",
       readMore: "Leggi l'articolo",
       backToBlog: "Torna agli articoli",
       notFound: "Articolo non trovato"
@@ -696,7 +696,7 @@ const translations = {
       label: "Thoughts & Articles",
       title1: "My ",
       title2: "Blog",
-      intro: "I share discoveries, technical guides, and thoughts on web development, UI/UX design, and performance.",
+      intro: "A blog designed for professionals, artisans, and local businesses. Here you will find practical guides and reflections on how to leverage local SEO, improve web performance, and build sites that bring real clients.",
       readMore: "Read article",
       backToBlog: "Back to articles",
       notFound: "Article not found"

@@ -2,6 +2,7 @@ import React, { useEffect, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, Outlet } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { HelmetProvider } from 'react-helmet-async';
 
 // Components
 import Navbar from './components/Navbar';
@@ -130,14 +131,16 @@ const AppLayout = () => {
 
 function App() {
   return (
-    <LanguageProvider>
-      <Router>
-        <ScrollToTop />
-        <LanguageSynchronizer />
-        <AppLayout />
-        <SpeedInsights />
-      </Router>
-    </LanguageProvider>
+    <HelmetProvider>
+      <LanguageProvider>
+        <Router>
+          <ScrollToTop />
+          <LanguageSynchronizer />
+          <AppLayout />
+          <SpeedInsights />
+        </Router>
+      </LanguageProvider>
+    </HelmetProvider>
   );
 }
 

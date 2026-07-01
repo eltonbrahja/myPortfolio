@@ -5,6 +5,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Calendar, Clock, ArrowLeft } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
+import SEO from '../components/SEO';
 import { blogPosts } from '../data/posts';
 import { useLanguage } from '../context/LanguageContext';
 import './Blog.css';
@@ -19,15 +20,6 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (post) {
-      document.title = `${post.title} | Elton Brahja`;
-      let metaDesc = document.querySelector('meta[name="description"]');
-      if (!metaDesc) {
-        metaDesc = document.createElement('meta');
-        metaDesc.name = "description";
-        document.head.appendChild(metaDesc);
-      }
-      metaDesc.content = post.excerpt;
-
       // Add JSON-LD for rich snippets
       const imageUrl = post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`;
       const structuredData = {
@@ -101,6 +93,15 @@ const BlogPost = () => {
 
   return (
     <PageTransition>
+      <SEO 
+        title={`${post.title} | Elton Brahja`}
+        description={post.excerpt}
+        canonical={`https://www.eltonbrahja.eu${language === 'en' ? '/en' : ''}/blog/${id}`}
+        hreflangIt={`https://www.eltonbrahja.eu/blog/${id}`}
+        hreflangEn={`https://www.eltonbrahja.eu/en/blog/${id}`}
+        type="article"
+        image={post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`}
+      />
       <div className="blog-container">
         <motion.article 
           initial={{ opacity: 0, y: 30 }}
