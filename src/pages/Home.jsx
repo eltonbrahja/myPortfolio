@@ -9,6 +9,7 @@ import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
 import { getProjects } from '../data/projects';
 import { useLanguage } from '../context/LanguageContext';
 import SEO from '../components/SEO';
+import { Helmet } from 'react-helmet-async';
 import './Home.css';
 
 const Home = () => {
@@ -81,6 +82,43 @@ const Home = () => {
         hreflangIt="https://www.eltonbrahja.eu/"
         hreflangEn="https://www.eltonbrahja.eu/en"
       />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "url": "https://www.eltonbrahja.eu/",
+              "name": "Elton Brahja — Web Developer & UI Designer",
+              "description": "Realizzo siti web veloci, eleganti e ottimizzati SEO per il tuo business. Contattami per risultati concreti e una brand identity che converte.",
+              "inLanguage": ["it", "en"],
+              "publisher": {
+                "@type": "Person",
+                "name": "Elton Brahja",
+                "url": "https://www.eltonbrahja.eu/"
+              },
+              "potentialAction": {
+                "@type": "ReadAction",
+                "target": ["https://www.eltonbrahja.eu/"]
+              }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Elton Brahja",
+              "url": "https://www.eltonbrahja.eu/",
+              "jobTitle": "Web Developer & UI Designer",
+              "description": "Realizzo siti web veloci, eleganti e ottimizzati SEO per il tuo business. Sviluppatore web e UI designer specializzato in brand identity, performance e conversione.",
+              "knowsAbout": ["Web Development", "UI Design", "UX Design", "SEO", "React", "Brand Identity", "Performance Optimization"],
+              "sameAs": [
+                "https://github.com/eltonbrahja",
+                "https://www.linkedin.com/in/elton-brahja"
+              ],
+              "image": "https://www.eltonbrahja.eu/foto-profilo.webp"
+            }
+          ])}
+        </script>
+      </Helmet>
       <div className="home-container">
 
         {/* 1. HERO */}
