@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {new Date().getFullYear()} Elton Brahja. Code is Art. {t('footer.rights')}</p>
+          <p>&copy; {new Date().getFullYear()} Elton Brahja. {t('footer.rights')}</p>
           <div className="footer-bottom-links">
             <Link to={localizePath('/privacy')}>{t('footer.privacy')}</Link>
           </div>
