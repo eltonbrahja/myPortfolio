@@ -135,7 +135,6 @@ const Home = () => {
                 <button className="primary-btn" onClick={scrollToForm}>
                   {t('home.hero.btn')} <ChevronRight size={20} />
                 </button>
-                <span className="micro-copy">{t('home.hero.noCommitment')}</span>
               </div>
               <ul className="trust-bullets">
                 <li><CheckCircle2 size={14} /> {t('home.hero.bullets')[0]}</li>
