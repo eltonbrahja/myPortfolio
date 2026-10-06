@@ -1,5 +1,6 @@
 export const initGoogleAnalytics = () => {
   const GA_MEASUREMENT_ID = 'G-C0TSKJ5SKD';
+  const ADS_MEASUREMENT_ID = 'AW-18035288276';
 
   // Prevent multiple injections
   if (document.getElementById('google-analytics')) {
@@ -23,6 +24,7 @@ export const initGoogleAnalytics = () => {
       page_path: window.location.pathname,
       anonymize_ip: true
     });
+    gtag('config', '${ADS_MEASUREMENT_ID}');
   `;
   document.head.appendChild(script2);
 };
