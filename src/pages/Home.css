@@ -243,6 +243,61 @@
   flex-direction: column;
 }
 
+.target-cluster-banner {
+  margin-top: 2rem;
+  padding: 1.25rem 1.75rem;
+  border-radius: 16px;
+  background: rgba(86, 124, 141, 0.05);
+  border: 1px solid rgba(86, 124, 141, 0.16);
+  transition: all 0.3s ease;
+}
+
+.target-cluster-banner:hover {
+  background: rgba(86, 124, 141, 0.09);
+  border-color: rgba(86, 124, 141, 0.28);
+}
+
+.target-cluster-content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+}
+
+.target-cluster-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  background: var(--accent-color);
+  color: #ffffff;
+  display: inline-block;
+}
+
+.target-cluster-text {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin: 0;
+  flex: 1;
+  min-width: 260px;
+}
+
+.target-cluster-link {
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.target-cluster-link:hover {
+  opacity: 0.85;
+  color: var(--text-primary);
+}
+
 .target-card {
   position: relative;
   overflow: hidden;
@@ -517,6 +572,29 @@
   color: var(--text-secondary);
   line-height: 1.6;
   font-size: 1.1rem;
+}
+
+.portfolio-mini-deepdive {
+  margin-top: 1rem;
+  padding: 10px 14px;
+  background: rgba(86, 124, 141, 0.07);
+  border-left: 3px solid var(--accent-color);
+  border-radius: 8px;
+}
+
+.portfolio-mini-anchor {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.portfolio-mini-anchor:hover {
+  text-decoration: underline;
+  color: var(--text-primary);
 }
 
 /* OFFERTA PREMIUM */

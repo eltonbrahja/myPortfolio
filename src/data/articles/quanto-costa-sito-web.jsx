@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const quantoCostaSitoWebPost = {
   id: "quanto-costa-sito-web",
+  seoTitle: "Quanto Costa un Sito Web nel 2026? Guida ai Prezzi Reali",
   title: "Quanto costa davvero un sito web professionale nel 2026 (e cosa include)",
-  excerpt: "La risposta sincera è: non esiste un prezzo fisso, proprio come non esiste un prezzo unico per 'un’auto', perché tutto dipende da cosa ti serve davvero.",
+  excerpt: "Quanto costa creare un sito web professionale nel 2026? Prezzi medi, costi nascosti, differenze tra piattaforme e come scegliere la soluzione su misura.",
   date: "20 Maggio 2026",
   readTime: "5 min di lettura",
   category: "Web Design",

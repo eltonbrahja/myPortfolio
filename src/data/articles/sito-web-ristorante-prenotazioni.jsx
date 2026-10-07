@@ -2,8 +2,9 @@ import React from 'react';
 
 export const sitoWebRistorantePrenotazioniPost = {
   id: "sito-web-ristorante-prenotazioni",
+  seoTitle: "Sito Web per Ristoranti: Come Ottenere Prenotazioni Tavoli",
   title: "Sito web per ristorante: cosa deve avere per portare prenotazioni",
-  excerpt: "Vuoi che il sito del tuo ristorante o bar porti davvero persone al tavolo? Ecco i 5 elementi chiave che non possono mancare, dal menu digitale no-PDF alla SEO locale.",
+  excerpt: "Menu digitale leggibile da mobile, prenotazione tavoli senza commissioni e SEO locale: i requisiti essenziali per il sito web di un ristorante o pizzeria.",
   date: "11 Giugno 2026",
   readTime: "6 min di lettura",
   category: "SEO Locale",

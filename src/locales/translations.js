@@ -55,7 +55,10 @@ const translations = {
             title: "Attività locali",
             desc: "Siti leggeri, pensati per farti trovare e contattare in pochi tap da mobile (telefonate, WhatsApp, prenotazioni)."
           }
-        ]
+        ],
+        clusterBadge: "Focus Sanità & Studi Professionali",
+        clusterText: "Hai uno studio medico o psicologico e vuoi gestire prenotazioni e conformità privacy in totale sicurezza?",
+        clusterLink: "Approfondisci come sviluppiamo siti web a norma per psicologi e psicoterapeuti"
       },
       benefits: {
         title: "Cosa ottieni lavorando con me",
@@ -215,9 +218,20 @@ const translations = {
       ctaTitle: "Hai un progetto in mente?",
       ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per la tua attività. Ogni progetto inizia con una conversazione — senza impegno.",
       ctaBtn: "Parliamone",
+      healthcareCallout: {
+        tag: "Settori Regolamentati & Salute",
+        desc: "Per professionisti della salute e studi clinici implementiamo crittografia dei dati sanitari (GDPR Art. 9), consenso informato e agende di prenotazione automatizzate.",
+        linkText: "Approfondisci come sviluppiamo siti web a norma per psicologi e psicoterapeuti"
+      },
       insightsLabel: "Guide & Risorse",
       insightsTitle: "Approfondimenti Utili per la tua Attività",
       insights: {
+        psychology: {
+          category: "Guida Sanità & Privacy",
+          title: "Sito Web per Psicologi: Guida a Privacy, Normativa e Booking",
+          desc: "Come creare un sito web conforme per psicologi: gestione GDPR dei dati sanitari, prenotazione automatica delle sedute e strategie di visibilità locale.",
+          anchorText: "Approfondisci come sviluppiamo siti web a norma per psicologi e psicoterapeuti"
+        },
         checklist: {
           category: "Checklist",
           title: "Checklist sito web: 15 controlli prima di andare online",
@@ -271,7 +285,9 @@ const translations = {
         title: "Prossimo Progetto",
         desc: "Sperimentazione con API e automazione dei dati.",
         badge: "Work in Progress"
-      }
+      },
+      caseDeepDiveLabel: "Approfondimento tecnico & conformità di settore",
+      psychologyDeepDive: "Approfondisci come sviluppiamo siti web a norma per psicologi e psicoterapeuti"
     },
     contact: {
       label: "Canali di Comunicazione",
@@ -451,7 +467,10 @@ const translations = {
             title: "Local Businesses",
             desc: "Lightweight sites designed to get you found and contacted in a few taps from mobile (calls, WhatsApp, bookings)."
           }
-        ]
+        ],
+        clusterBadge: "Healthcare & Clinical Practices",
+        clusterText: "Do you run a psychology or medical practice needing compliant booking and GDPR management?",
+        clusterLink: "Learn how we build compliant websites for psychologists and psychotherapists"
       },
       benefits: {
         title: "What you get working with me",
@@ -611,9 +630,20 @@ const translations = {
       ctaTitle: "Have a project in mind?",
       ctaDesc: "Tell me about your idea and let's find the best solution for your business together. Every project starts with a conversation — no strings attached.",
       ctaBtn: "Let's talk",
+      healthcareCallout: {
+        tag: "Regulated Sectors & Healthcare",
+        desc: "For mental health professionals and clinical practices we implement GDPR Art. 9 healthcare data encryption, electronic informed consent, and automated booking schedules.",
+        linkText: "Learn how we build compliant websites for psychologists and psychotherapists"
+      },
       insightsLabel: "Guides & Resources",
       insightsTitle: "Useful Insights for Your Business",
       insights: {
+        psychology: {
+          category: "Healthcare & Privacy",
+          title: "Websites for Psychologists: Guide to Privacy, Regulations & Booking",
+          desc: "How to build a compliant website for psychologists: GDPR Art. 9 healthcare data management, automated appointment booking, and local SEO strategies.",
+          anchorText: "Learn how we build compliant websites for psychologists and psychotherapists"
+        },
         checklist: {
           category: "Checklist",
           title: "Website Launch Checklist: 15 essential steps before going live",
@@ -667,7 +697,9 @@ const translations = {
         title: "Next Project",
         desc: "Experimenting with APIs and data automation.",
         badge: "Work in Progress"
-      }
+      },
+      caseDeepDiveLabel: "Technical deep-dive & industry compliance",
+      psychologyDeepDive: "Learn how we build compliant websites for psychologists and psychotherapists"
     },
     contact: {
       label: "Communication Channels",

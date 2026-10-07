@@ -119,6 +119,19 @@ const Services = () => {
                   <p className="service-section-details">{service.data.extraDetails}</p>
                 )}
 
+                {/* Healthcare / Psychology Callout */}
+                {idx === 0 && (
+                  <div className="service-cluster-callout">
+                    <span className="cluster-callout-tag">{t('services.healthcareCallout.tag')}</span>
+                    <p className="cluster-callout-desc">
+                      {t('services.healthcareCallout.desc')}{' '}
+                      <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="cluster-callout-anchor">
+                        {t('services.healthcareCallout.linkText')} →
+                      </Link>
+                    </p>
+                  </div>
+                )}
+
 
 
                 {/* Features grid */}
@@ -172,6 +185,13 @@ const Services = () => {
             {t('services.insightsTitle')}
           </h2>
           <div className="insights-grid">
+            <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="insight-card insight-card-featured">
+              <span className="insight-category">{t('services.insights.psychology.category')}</span>
+              <h3>{t('services.insights.psychology.title')}</h3>
+              <p>{t('services.insights.psychology.desc')}</p>
+              <span className="insight-link">{t('services.insights.psychology.anchorText')} →</span>
+            </Link>
+
             <Link to={localizePath('/blog/checklist-sito-web-controlli-online')} className="insight-card">
               <span className="insight-category">{t('services.insights.checklist.category')}</span>
               <h3>{t('services.insights.checklist.title')}</h3>
@@ -179,14 +199,14 @@ const Services = () => {
               <span className="insight-link">{t('blog.readMore')} →</span>
             </Link>
 
-            <Link to={localizePath('/blog/quanto-costa-sito-web')} className="insight-card">
+            <Link to={localizePath('/blog/quanto-costa-rifare-sito-web')} className="insight-card">
               <span className="insight-category">{t('services.insights.costs.category')}</span>
               <h3>{t('services.insights.costs.title')}</h3>
               <p>{t('services.insights.costs.desc')}</p>
               <span className="insight-link">{t('blog.readMore')} →</span>
             </Link>
 
-            <Link to={localizePath('/blog/10-errori-sito-piccole-attivita')} className="insight-card">
+            <Link to={localizePath('/blog/7-segnali-rifare-sito')} className="insight-card">
               <span className="insight-category">{t('services.insights.errors.category')}</span>
               <h3>{t('services.insights.errors.title')}</h3>
               <p>{t('services.insights.errors.desc')}</p>

@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const sitoAbbonamentoVsPagamentoUnicoPost = {
   id: "sito-abbonamento-vs-pagamento-unico",
+  seoTitle: "Sito Web in Abbonamento vs Pagamento Unico: Cosa Conviene?",
   title: "Sito web in abbonamento mensile vs pagamento unico: quale conviene davvero a una piccola attività?",
-  excerpt: "Ti sarà già capitato: chiedi un preventivo per il sito e ti arrivano due proposte molto diverse. Da una parte il pagamento unico, dall’altra il canone mensile. Vediamo quale conviene davvero scegliere in base alla tua attività.",
+  excerpt: "Meglio un canone mensile 'tutto incluso' o un investimento iniziale una tantum? Analisi trasparente di costi, vincoli contrattuali e proprietà del codice.",
   date: "31 Maggio 2026",
   readTime: "7 min di lettura",
   category: "Business & Budget",

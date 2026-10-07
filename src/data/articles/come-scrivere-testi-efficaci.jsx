@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const comeScrivereTestiEfficaciPost = {
   id: "come-scrivere-testi-efficaci",
+  seoTitle: "Come Scrivere Testi Efficaci per il Tuo Sito Web Aziendale",
   title: "Come scrivere testi efficaci per il tuo sito senza essere copywriter",
-  excerpt: "Hai un sito ma i testi non ti convincono? Scopri una guida semplice per scrivere contenuti chiari, efficaci e orientati ai clienti.",
+  excerpt: "Guida pratica di copywriting per non professionisti: impara a presentare i tuoi servizi con parole chiare che ispirano fiducia e trasformano visite in clienti.",
   date: "27 Maggio 2026",
   readTime: "6 min di lettura",
   category: "Copywriting",

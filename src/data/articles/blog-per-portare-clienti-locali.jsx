@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const blogPerPortareClientiLocaliPost = {
   id: "blog-per-portare-clienti-locali",
+  seoTitle: "Come Usare il Blog per Attirare Clienti Locali su Google",
   title: "Come usare il blog del tuo sito per portare clienti locali (anche senza diventare blogger)",
-  excerpt: "Molti professionisti e piccole attività evitano di aprire un blog perché pensano richieda troppo tempo o sia roba da influencer. In realtà, è uno degli strumenti più efficaci per farsi trovare su Google nella propria città.",
+  excerpt: "Non serve diventare blogger: scopri come scrivere guide e articoli mirati a risolvere problemi specifici per posizionare la tua attività nella tua città.",
   date: "24 Giugno 2026",
   readTime: "6 min di lettura",
   category: "SEO",

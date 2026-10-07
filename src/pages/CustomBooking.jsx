@@ -256,6 +256,11 @@ const CustomBooking = () => {
             <div className="cta-glow"></div>
             <h2 className="booking-cta-title">{t('customBooking.ctaTitle')}</h2>
             <p className="booking-cta-desc">{t('customBooking.ctaDesc')}</p>
+            <div style={{ margin: '12px 0 22px 0', fontSize: '0.9rem' }}>
+              <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} style={{ color: 'var(--accent-color)', textDecoration: 'underline', fontWeight: 500 }}>
+                {t('portfolio.psychologyDeepDive')} →
+              </Link>
+            </div>
             <Link to={localizePath('/') + '#preventivo'} className="booking-cta-btn-link">
               {t('customBooking.ctaBtn')}
             </Link>

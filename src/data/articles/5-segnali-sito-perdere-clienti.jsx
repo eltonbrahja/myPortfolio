@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const cinqueSegnaliSitoPerdereClientiPost = {
   id: "5-segnali-sito-perdere-clienti",
+  seoTitle: "5 Segnali che il Tuo Sito Web Ti Fa Perdere Clienti",
   title: "5 segnali che ti dicono che il sito del tuo studio ti sta facendo perdere clienti",
-  excerpt: "Molti studi professionali pensano: 'Il sito ce l'ho già, quindi sono a posto'. In realtà, proprio quel sito potrebbe essere il motivo per cui i clienti scelgono i tuoi competitor.",
+  excerpt: "Perché i visitatori non contattano il tuo studio? Scopri i 5 errori critici di usabilità e comunicazione che spingono potenziali clienti verso la concorrenza.",
   date: "21 Maggio 2026",
   readTime: "4 min di lettura",
   category: "Web Design",

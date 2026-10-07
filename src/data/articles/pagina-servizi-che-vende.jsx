@@ -2,8 +2,9 @@ import React from 'react';
 
 export const paginaServiziCheVendePost = {
   id: "pagina-servizi-che-vende",
+  seoTitle: "Come Strutturare una Pagina Servizi per Convertire Visite",
   title: "Pagina “Servizi” che vende: come strutturarla per far capire subito cosa fai",
-  excerpt: "La maggior parte delle pagine “Servizi” sembra un elenco di cose messe lì a caso. Scopri come strutturarla per far capire subito cosa fai e trasformarla in uno strumento che vende davvero.",
+  excerpt: "Basta elenchi noiosi e gergo tecnico. Come organizzare la pagina dei servizi sul tuo sito per catturare l'attenzione e generare richieste di preventivo.",
   date: "30 Maggio 2026",
   readTime: "5 min read",
   category: "Copywriting",

@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const facebookNonBastaPost = {
   id: "facebook-non-basta-per-business",
+  seoTitle: "Perché la Pagina Facebook Non Basta Più per la Tua Attività",
   title: "Perché nel 2026 non basta più la sola pagina Facebook per il tuo business",
-  excerpt: "Molte attività pensano ancora: \"Ho la pagina Facebook, quindi sono a posto online\". Nel 2026 è esattamente il contrario: affidarti solo a Facebook significa non avere il controllo del tuo business digitale.",
+  excerpt: "Affidarsi solo ai social per promuovere il proprio business è rischioso. Ecco perché un sito proprietario è indispensabile per conversioni, SEO e stabilità.",
   date: "23 Maggio 2026",
   readTime: "7 min di lettura",
   category: "Marketing Digitale",

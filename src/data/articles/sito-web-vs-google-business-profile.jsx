@@ -2,8 +2,9 @@ import React from 'react';
 
 export const sitoWebVsGoogleBusinessProfilePost = {
   id: "sito-web-vs-google-business-profile",
+  seoTitle: "Sito Web vs Google Business Profile: Perché Servono Entrambi",
   title: "Sito web vs solo Google Business Profile: cosa rischi se non hai un sito",
-  excerpt: "Molte attività locali pensano che basti apparire su Google Maps per trovare clienti. Scopri perché affidarsi solo alla scheda Google è un rischio e come un sito web proprietario fa la differenza.",
+  excerpt: "Basta la scheda Google Maps per trovare clienti locali? Scopri i rischi di non avere un sito web proprietario e come integrarli per massimizzare i contatti.",
   date: "23 Giugno 2026",
   readTime: "4 min di lettura",
   category: "Web Design",

@@ -2,8 +2,9 @@ import React from 'react';
 
 export const sitoWebBnbCaseVacanzaPost = {
   id: "sito-web-bnb-case-vacanza",
+  seoTitle: "Sito Web per B&B e Case Vacanza: Più Prenotazioni Dirette",
   title: "Sito web per B&B e case vacanza: come riempire le stanze anche fuori stagione",
-  excerpt: "Vuoi aumentare le prenotazioni dirette del tuo B&B o casa vacanza? Scopri come disintermediare da Booking, attirare ospiti fuori stagione con la SEO locale e impostare la tua strategia.",
+  excerpt: "Come disintermediare da OTA come Booking e Airbnb: strategie di prenotazione diretta, booking engine integrato e SEO turistica locale per il tuo B&B.",
   date: "15 Giugno 2026",
   readTime: "6 min di lettura",
   category: "SEO Locale",

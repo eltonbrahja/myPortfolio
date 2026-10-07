@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const sitoFaiDaTeVsProfessionalePost = {
   id: "sito-fai-da-te-vs-professionale",
+  seoTitle: "Sito Fai-da-Te vs Sito Professionale: Rischi e Costi Reali",
   title: "Sito fai‑da‑te vs sito professionale: cosa rischi se scegli la strada sbagliata",
-  excerpt: "Oggi chiunque può \"farsi un sito\" con un builder tipo Wix o Squarespace. Ma per un'attività che vuole clienti veri dal web, questa scorciatoia rischia di essere molto più cara di quanto sembri.",
+  excerpt: "Wix, Squarespace o uno sviluppatore web? Analisi costi-benefici tra sito web fai-da-te e su misura per capire quale scelta conviene davvero al tuo business.",
   date: "23 Maggio 2026",
   readTime: "7 min di lettura",
   category: "Web Design",

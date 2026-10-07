@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const setteSegnaliRifareSitoPost = {
   id: "7-segnali-rifare-sito",
+  seoTitle: "7 Segnali che è Ora di Rifare il Tuo Sito Web Aziendale",
   title: "7 segnali che è ora di rifare il sito della tua attività",
-  excerpt: "Sei sicuro che il tuo sito web stia aiutando la tua attività locale? Scopri i 7 campanelli d'allarme che indicano che è arrivato il momento di un restyling per non perdere clienti.",
+  excerpt: "Il tuo sito web allontana clienti invece di attirarne? Scopri i 7 campanelli d'allarme che indicano quando è arrivato il momento di fare un restyling efficace.",
   date: "22 Giugno 2026",
   readTime: "5 min di lettura",
   category: "Web Design",

@@ -21,7 +21,9 @@ export const getProjects = (t) => [
     tags: ["WORDPRESS", "MULTILINGUA IT/PT-BR"],
     description: t('portfolio.projects')[2].description,
     link: "https://www.danubiamacario.com",
-    linkText: t('portfolio.projects')[2].linkText
+    linkText: t('portfolio.projects')[2].linkText,
+    blogLink: "/blog/sito-web-psicologi-pazienti-giusti",
+    blogLinkText: t('portfolio.psychologyDeepDive')
   },
   {
     title: t('portfolio.projects')[3].title,
@@ -29,7 +31,9 @@ export const getProjects = (t) => [
     tags: ["WORDPRESS", "LATEPOINT BOOKING"],
     description: t('portfolio.projects')[3].description,
     link: "https://www.alessandra-marascio-psicologa.it/",
-    linkText: t('portfolio.projects')[3].linkText
+    linkText: t('portfolio.projects')[3].linkText,
+    blogLink: "/blog/sito-web-psicologi-pazienti-giusti",
+    blogLinkText: t('portfolio.psychologyDeepDive')
   },
   {
     title: t('portfolio.projects')[4].title,

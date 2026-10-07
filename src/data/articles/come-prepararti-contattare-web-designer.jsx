@@ -2,8 +2,9 @@ import React from 'react';
 
 export const comePreparartiContattareWebDesignerPost = {
   id: "come-prepararti-contattare-web-designer",
+  seoTitle: "Cosa Preparare Prima di Contattare un Web Designer: Guida",
   title: "Come prepararti prima di contattare un web designer: materiali, idee e obiettivi",
-  excerpt: "Contattare un web designer senza avere le idee un minimo chiare è come entrare in un’agenzia viaggi dicendo solo “voglio andare da qualche parte”. Scopri cosa preparare prima.",
+  excerpt: "Obiettivi, testi, riferimenti visivi e budget: la guida pratica per arrivare preparato alla prima call conoscitiva e velocizzare la realizzazione del tuo sito.",
   date: "30 Maggio 2026",
   readTime: "4 min read",
   category: "Web Design",

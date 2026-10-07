@@ -74,6 +74,14 @@
       ]
     }
   ],
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/en/blog/errori-dominio-hosting-sito-aziendale",
+      "destination": "/blog/errori-dominio-hosting-sito-aziendale",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/((?!api/|sitemap\\.xml|sitemap\\.xsl|robots\\.txt|llms\\.txt|favicon\\.svg|google68b79b17be17ab1f\\.html|.*\\.(?:webp|jpg|jpeg|png|gif|svg|ico|mp4|js|css|txt|xml|xsl|json|woff|woff2|ttf|eot)).*)",

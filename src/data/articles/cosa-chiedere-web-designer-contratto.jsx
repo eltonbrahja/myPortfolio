@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const cosaChiedereWebDesignerContrattoPost = {
   id: "cosa-chiedere-web-designer-contratto",
+  seoTitle: "Cosa Chiedere al Web Designer Prima di Firmare: Guida",
   title: "Cosa chiedere al tuo web designer prima di firmare un contratto",
-  excerpt: "Commissionare un sito è un investimento importante: se scegli la persona sbagliata rischi ritardi, costi extra imprevisti e un sito che non fa quello che ti serve. Prima di firmare qualunque contratto, è fondamentale fare le domande giuste su referenze, tempi, cosa è incluso, assistenza e proprietà del sito.",
+  excerpt: "Proprietà del dominio, tempi di consegna, manutenzione e SEO: le domande fondamentali da fare a un web designer per evitare costi imprevisti e brutte sorprese.",
   date: "26 Maggio 2026",
   readTime: "8 min di lettura",
   category: "Consulenza & Sviluppo",

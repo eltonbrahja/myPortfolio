@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const sitoClientiLocaliPost = {
   id: "sito-clienti-locali",
+  seoTitle: "Come Trovare Clienti Locali con un Sito Web Ottimizzato",
   title: "Come un sito fatto bene può portare più clienti locali alla tua attività",
-  excerpt: "Che tu abbia un negozio, un laboratorio artigianale o uno studio professionale, oggi i tuoi clienti ti scoprono (e ti valutano) prima online e solo dopo dal vivo.",
+  excerpt: "Strategie pratiche per attirare clienti nella tua città con il sito web: ottimizzazione per dispositivi mobili, chiarezza dei servizi e chiamate all'azione.",
   date: "22 Maggio 2026",
   readTime: "5 min di lettura",
   category: "Web Design",

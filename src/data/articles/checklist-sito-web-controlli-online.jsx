@@ -4,8 +4,9 @@ import React from 'react';
 
 export const checklistSitoWebControlliOnlinePost = {
   id: "checklist-sito-web-controlli-online",
+  seoTitle: "Checklist Sito Web: 15 Controlli Prima di Andare Online",
   title: "Checklist sito web: 15 controlli prima di andare online",
-  excerpt: "Lancia il tuo sito web senza errori. Ecco la checklist definitiva con 15 controlli fondamentali prima di andare online per convertire e vendere.",
+  excerpt: "Lancia il tuo sito web senza errori tecnici o problemi SEO. La checklist completa con 15 controlli essenziali su mobile, velocità, privacy e tracciamento.",
   date: "9 Giugno 2026",
   readTime: "7 min di lettura",
   category: "SEO & Performance",

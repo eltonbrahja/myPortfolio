@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const guidaTipoSitoGiustoPost = {
   id: "guida-tipo-sito-giusto",
+  seoTitle: "Come Scegliere il Tipo di Sito Giusto per la Tua Attività",
   title: "Guida semplice per scegliere il tipo di sito giusto per la tua attività",
-  excerpt: "Non tutti i siti sono uguali: un negozio ha esigenze diverse da uno studio professionale. Capire che tipo di sito ti serve è il primo passo per non sprecare soldi e avere qualcosa che ti porta davvero clienti.",
+  excerpt: "Landing page, sito vetrina o piattaforma con prenotazioni? Guida pratica per scegliere l'architettura web più adatta al tuo modello di business e budget.",
   date: "23 Maggio 2026",
   readTime: "8 min di lettura",
   category: "Web Design",

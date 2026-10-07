@@ -2,8 +2,9 @@ import React from 'react';
 
 export const recensioniOnlineSitoPost = {
   id: "come-usare-recensioni-online",
+  seoTitle: "Come Sfruttare le Recensioni sul Sito per Più Conversioni",
   title: "Come usare le recensioni online nel tuo sito per aumentare le richieste",
-  excerpt: "Le recensioni non servono solo su Google o TripAdvisor. Scopri perché integrarle direttamente nel tuo sito web è la mossa decisiva per migliorare il ranking locale e convincere i visitatori a contattarti.",
+  excerpt: "Dalla riprova sociale alla SEO locale: scopri come e dove mostrare le recensioni dei tuoi clienti sul sito web per eliminare i dubbi e stimolare i contatti.",
   date: "29 Giugno 2026",
   readTime: "5 min di lettura",
   category: "SEO Locale",

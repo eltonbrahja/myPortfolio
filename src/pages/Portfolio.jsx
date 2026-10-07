@@ -58,6 +58,14 @@ const Portfolio = () => {
                 </div>
                 <h3 className="portfolio-title">{project.title}</h3>
                 <p className="portfolio-desc">{project.description}</p>
+                {project.blogLink && (
+                  <div className="portfolio-topic-silo">
+                    <span className="silo-label">{t('portfolio.caseDeepDiveLabel')}</span>
+                    <Link to={localizePath(project.blogLink)} className="silo-anchor">
+                      {project.blogLinkText} →
+                    </Link>
+                  </div>
+                )}
                 <div className="portfolio-actions">
                   {project.internalLink ? (
                     <Link to={localizePath(project.internalLink)} className="portfolio-link">

@@ -220,6 +220,25 @@ const Home = () => {
               );
             })}
           </motion.div>
+
+          {/* Contextual Link - Topic Siloing (Sanità & Psicologi) */}
+          <motion.div 
+            className="target-cluster-banner"
+            initial={{ opacity: 0, y: 15 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: false, margin: "-10%" }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            <div className="target-cluster-content">
+              <span className="target-cluster-badge">{t('home.target.clusterBadge')}</span>
+              <p className="target-cluster-text">
+                {t('home.target.clusterText')}{' '}
+                <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="target-cluster-link">
+                  {t('home.target.clusterLink')} →
+                </Link>
+              </p>
+            </div>
+          </motion.div>
         </section>
 
         {/* 3. COSA OTTIENI */}
@@ -381,6 +400,13 @@ const Home = () => {
                 <div className="portfolio-info">
                   <h3>{project.title}</h3>
                   <p>{project.description}</p>
+                  {project.blogLink && (
+                    <div className="portfolio-mini-deepdive">
+                      <Link to={localizePath(project.blogLink)} className="portfolio-mini-anchor">
+                        {project.blogLinkText} →
+                      </Link>
+                    </div>
+                  )}
                   <div className="portfolio-actions" style={{ marginTop: '1.5rem' }}>
                     {project.internalLink ? (
                       <Link to={localizePath(project.internalLink)} className="portfolio-link">

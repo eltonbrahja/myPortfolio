@@ -2,8 +2,9 @@ import React from 'react';
 
 export const sitoWebArtigianiFabbroIdraulicoPost = {
   id: "sito-web-artigiani-fabbro-idraulico",
+  seoTitle: "Sito Web per Artigiani: Trova Clienti Locali su Google",
   title: "Sito web per artigiani (fabbro, idraulico, elettricista): farti trovare quando serve",
-  excerpt: "Per artigiani come fabbri, idraulici ed elettricisti, il passaparola non basta più. Scopri come un sito web ottimizzato per la SEO locale ti permette di intercettare clienti pronti a contattarti nel momento del bisogno.",
+  excerpt: "Fabbri, idraulici ed elettricisti: come farsi trovare da clienti pronti a chiamare nelle vicinanze. Strategie di SEO locale, click-to-call e recensioni.",
   date: "22 Giugno 2026",
   readTime: "5 min di lettura",
   category: "Siti per settore",

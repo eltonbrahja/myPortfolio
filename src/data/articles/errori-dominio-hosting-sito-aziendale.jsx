@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const erroriDominioHostingPost = {
   id: "errori-dominio-hosting-sito-aziendale",
+  seoTitle: "Errori su Dominio e Hosting da Evitare per un Sito Web",
   title: "Errori da evitare quando scegli dominio e hosting per il tuo sito aziendale",
-  excerpt: "Scegliere il nome a dominio o l'hosting sbagliato può compromettere le performance, la SEO e la professionalità del tuo sito. Ecco gli errori più comuni e come evitarli.",
+  excerpt: "Scegliere il nome a dominio o il server hosting sbagliato rallenta il sito e danneggia la SEO. Ecco i 5 errori più comuni e le soluzioni per andare sul sicuro.",
   date: "1 Luglio 2026",
   readTime: "6 min di lettura",
   category: "Tecnica & Performance",

@@ -4,8 +4,9 @@ import React from 'react';
 
 export const raccontareStoriaAttivitaPost = {
   id: "raccontare-storia-attivita",
+  seoTitle: "Come Scrivere la Pagina \"Chi Siamo\" del Tuo Sito Web",
   title: "Come raccontare la storia della tua attività nel sito senza annoiare il lettore",
-  excerpt: "Raccontare la storia della tua attività nel sito non significa scrivere una biografia lunga e noiosa, ma aiutare il lettore a capire perché fai quello che fai e perché dovrebbe fidarsi di te. Le pagine “Chi siamo” più efficaci sono brevi, strutturate e orientate a chi legge, non all’ego del brand.",
+  excerpt: "Evita l'autoreferenzialità: impara a raccontare la storia della tua attività mettendo al centro i benefici per il cliente e costruendo credibilità immediata.",
   date: "31 Maggio 2026",
   readTime: "5 min di lettura",
   category: "Copywriting",

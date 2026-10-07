@@ -19,8 +19,9 @@ const sourceLinkStyle = {
 
 export const dieciErroriSitoPost = {
   id: "10-errori-sito-piccole-attivita",
+  seoTitle: "10 Errori Comuni nei Siti Web delle Piccole Attività Locali",
   title: "10 errori comuni nei siti delle piccole attività che fanno scappare i clienti",
-  excerpt: "Il sito della tua attività dovrebbe portarti contatti e richieste, non far scappare le persone dopo pochi secondi. Vediamo i 10 errori più frequenti e come sistemarli.",
+  excerpt: "Dai testi generici alla lentezza su smartphone: scopri i 10 errori più diffusi nei siti web aziendali e come correggerli per aumentare conversioni e contatti.",
   date: "23 Maggio 2026",
   readTime: "8 min di lettura",
   category: "UX & Conversioni",

@@ -94,7 +94,7 @@ const BlogPost = () => {
   return (
     <PageTransition>
       <SEO 
-        title={`${post.title} | Elton Brahja`}
+        title={post.seoTitle || `${post.title} | Elton Brahja`}
         description={post.excerpt}
         canonical={`https://www.eltonbrahja.eu${language === 'en' ? '/en' : ''}/blog/${id}`}
         hreflangIt={`https://www.eltonbrahja.eu/blog/${id}`}

@@ -4,8 +4,9 @@ import React from 'react';
 
 export const seoLocaleGoogleMapsPost = {
   id: "seo-locale-google-maps",
+  seoTitle: "SEO Locale: Come Apparire su Google con \"Attività + Città\"",
   title: "Come apparire su Google quando i clienti cercano “attività + città”",
-  excerpt: "In questo articolo ti spiego in modo semplice cosa serve per apparire su Google quando i clienti cercano “attività + città” e come intercettare clienti pronti a contattarti.",
+  excerpt: "Come posizionare la tua attività locale nelle prime posizioni di Google e Maps: ottimizzazione scheda profilo, parole chiave geolocalizzate e recensioni.",
   date: "28 Maggio 2026",
   readTime: "5 min di lettura",
   category: "SEO Locale",

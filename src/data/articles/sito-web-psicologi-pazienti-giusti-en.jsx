@@ -2,10 +2,11 @@ import React from 'react';
 
 export const sitoWebPsicologiPazientiGiustiPostEn = {
   id: "sito-web-psicologi-pazienti-giusti",
-  title: "Website for Psychologists and Therapists: How to Get Chosen by the Right Patients",
-  excerpt: "For a psychologist or therapist, the website is the first point of contact with a patient seeking help. Discover how to structure your bio, services, and local SEO to inspire trust and gain new contacts.",
+  seoTitle: "Websites for Psychologists: Guide to Privacy, Regulations & Booking",
+  title: "Websites for Psychologists: Guide to Privacy, Regulations & Booking",
+  excerpt: "How to build a compliant website for psychologists: GDPR Art. 9 healthcare data management, automated appointment booking, and local SEO strategies.",
   date: "19 June 2026",
-  readTime: "6 min read",
+  readTime: "10 min read",
   category: "Industry Websites",
   image: "/sitoPsicologoArticolo.webp",
   schema: {

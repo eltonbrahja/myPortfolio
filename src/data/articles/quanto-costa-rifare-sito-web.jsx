@@ -2,8 +2,9 @@ import React from 'react';
 
 export const quantoCostaRifareSitoWebPost = {
   id: "quanto-costa-rifare-sito-web",
+  seoTitle: "Quanto Costa Rifare un Sito Web? Guida al Restyling 2026",
   title: "Quanto costa rifare un sito web che hai già (senza buttare soldi)",
-  excerpt: "Vuoi rifare il tuo sito web? Scopri quanto costa davvero un restyling nel 2026, come capire se ti serve da zero e come proteggere la tua SEO senza sprecare budget.",
+  excerpt: "Hai già un sito web obsoleto? Scopri i costi reali per un restyling moderno nel 2026, come proteggere il posizionamento SEO esistente e cosa evitare.",
   date: "10 Giugno 2026",
   readTime: "6 min di lettura",
   category: "Costi & Strategia",
