@@ -51,6 +51,11 @@ import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-si
 
 export const blogPosts = [
   {
+    id: "quanto-costa-sito-web",
+    it: quantoCostaSitoWebPost,
+    en: quantoCostaSitoWebPostEn
+  },
+  {
     id: "errori-dominio-hosting-sito-aziendale",
     it: erroriDominioHostingPost,
     en: erroriDominioHostingPostEn
@@ -169,10 +174,5 @@ export const blogPosts = [
     id: "5-segnali-sito-perdere-clienti",
     it: cinqueSegnaliSitoPerdereClientiPost,
     en: cinqueSegnaliSitoPerdereClientiPostEn
-  },
-  {
-    id: "quanto-costa-sito-web",
-    it: quantoCostaSitoWebPost,
-    en: quantoCostaSitoWebPostEn
   }
 ];
