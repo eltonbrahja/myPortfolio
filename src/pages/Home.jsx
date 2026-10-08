@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useNavigate, Link } from 'react-router-dom';
-import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, UserSearch, MessageCircleCheck, Gauge, ExternalLink } from 'lucide-react';
+import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, ExternalLink } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
@@ -265,12 +265,7 @@ const Home = () => {
               }
             }}
           >
-            {[
-              { icon: UserSearch, colorClass: "text-blue" },
-              { icon: MessageCircleCheck, colorClass: "text-purple" },
-              { icon: Gauge, colorClass: "text-green" }
-            ].map((item, idx) => {
-              const Icon = item.icon;
+            {[0, 1, 2].map((idx) => {
               return (
                 <motion.div 
                   key={idx}
@@ -284,19 +279,11 @@ const Home = () => {
                   }}
                 >
                   <GlassCard className="home-card premium-card" disableScrollAnimation>
-                    <motion.div
-                      variants={{
-                        hidden: { opacity: 0, scale: 0.8 },
-                        visible: { opacity: 1, scale: 1, transition: { delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
-                      }}
-                    >
-                      <Icon size={32} className={`premium-icon ${item.colorClass}`} strokeWidth={1.5} />
-                    </motion.div>
-                    
                     <motion.h3
+                      className="premium-card-title"
                       variants={{
                         hidden: { opacity: 0, y: 10 },
-                        visible: { opacity: 1, y: 0, transition: { delay: 0.4, duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
+                        visible: { opacity: 1, y: 0, transition: { delay: 0.3, duration: 0.6, ease: [0.16, 1, 0.3, 1] } }
                       }}
                     >
                       {t('home.benefits.cards')[idx].title}

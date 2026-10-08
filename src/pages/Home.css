@@ -354,7 +354,16 @@
 }
 
 /* PREMIUM CARDS (Cosa ottieni) */
+.premium-benefits-section .cards-grid > div {
+  display: flex;
+  flex-direction: column;
+}
+
 .premium-card {
+  height: 100%;
+  min-height: 290px;
+  display: flex;
+  flex-direction: column;
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
@@ -383,14 +392,14 @@
   opacity: 1;
 }
 
-.premium-icon {
-  transition: all 0.4s ease;
-  filter: drop-shadow(0 0 8px rgba(86, 124, 141, 0.00));
-}
-
-.premium-card:hover .premium-icon {
-  transform: scale(1.05);
-  filter: drop-shadow(0 0 12px currentColor);
+.premium-card-title,
+.premium-card h3 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
 }
 
 .premium-list {
