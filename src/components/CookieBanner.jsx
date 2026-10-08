@@ -49,7 +49,7 @@ const CookieBanner = () => {
 
   return (
     <div className="cookie-backdrop">
-      <div className="cookie-banner glass-panel">
+      <div className="cookie-banner">
         <div className="cookie-content">
           <p>{currentContent.text}</p>
           <div className="cookie-buttons">

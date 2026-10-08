@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink, Link, useLocation, useNavigate } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import LanguageSwitcher from './LanguageSwitcher';
 import './Navbar.css';
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  const navigate = useNavigate();
-  const { language, localizePath, t } = useLanguage();
+  const { localizePath, t } = useLanguage();
 
   useEffect(() => {
     let ticking = false;
@@ -49,32 +49,7 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-actions">
-            <div className="lang-switcher" aria-label="Cambio Lingua / Language Switch">
-              <button 
-                className={`lang-btn ${language === 'it' ? 'active' : ''}`}
-                onClick={() => {
-                  let p = location.pathname;
-                  if (p.startsWith('/en')) {
-                    p = p.substring(3);
-                    if (p === '') p = '/';
-                  }
-                  navigate(p);
-                }}
-                aria-label="Imposta lingua Italiana"
-              >IT</button>
-              <span className="lang-divider" aria-hidden="true">|</span>
-              <button 
-                className={`lang-btn ${language === 'en' ? 'active' : ''}`}
-                onClick={() => {
-                  let p = location.pathname;
-                  if (!p.startsWith('/en')) {
-                    p = `/en${p === '/' ? '' : p}`;
-                  }
-                  navigate(p);
-                }}
-                aria-label="Set English language"
-              >EN</button>
-            </div>
+            <LanguageSwitcher />
             <Link to={localizePath('/') + '#preventivo'} className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
             
             <button 
