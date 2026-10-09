@@ -64,121 +64,145 @@ export const blogPosts = [
   },
   {
     id: "errori-dominio-hosting-sito-aziendale",
+    hidden: true,
     it: erroriDominioHostingPost,
     en: erroriDominioHostingPostEn
   },
   {
     id: "come-usare-recensioni-online",
+    hidden: true,
     it: recensioniOnlineSitoPost,
     en: recensioniOnlineSitoPostEn
   },
   {
     id: "blog-per-portare-clienti-locali",
+    hidden: true,
     it: blogPerPortareClientiLocaliPost,
     en: blogPerPortareClientiLocaliPostEn
   },
   {
     id: "sito-web-vs-google-business-profile",
+    hidden: true,
     it: sitoWebVsGoogleBusinessProfilePost,
     en: sitoWebVsGoogleBusinessProfilePostEn
   },
   {
     id: "7-segnali-rifare-sito",
+    hidden: true,
     it: setteSegnaliRifareSitoPost,
     en: setteSegnaliRifareSitoPostEn
   },
   {
     id: "sito-web-artigiani-fabbro-idraulico",
+    hidden: true,
     it: sitoWebArtigianiFabbroIdraulicoPost,
     en: sitoWebArtigianiFabbroIdraulicoPostEn
   },
   {
     id: "sito-web-psicologi-pazienti-giusti",
+    hidden: true,
     it: sitoWebPsicologiPazientiGiustiPost,
     en: sitoWebPsicologiPazientiGiustiPostEn
   },
   {
     id: "sito-web-bnb-case-vacanza",
+    hidden: true,
     it: sitoWebBnbCaseVacanzaPost,
     en: sitoWebBnbCaseVacanzaPostEn
   },
   {
     id: "sito-web-ristorante-prenotazioni",
+    hidden: true,
     it: sitoWebRistorantePrenotazioniPost,
     en: sitoWebRistorantePrenotazioniPostEn
   },
   {
     id: "quanto-costa-rifare-sito-web",
+    hidden: true,
     it: quantoCostaRifareSitoWebPost,
     en: quantoCostaRifareSitoWebPostEn
   },
   {
     id: "checklist-sito-web-controlli-online",
+    hidden: true,
     it: checklistSitoWebControlliOnlinePost,
     en: checklistSitoWebControlliOnlinePostEn
   },
   {
     id: "sito-abbonamento-vs-pagamento-unico",
+    hidden: true,
     it: sitoAbbonamentoVsPagamentoUnicoPost,
     en: sitoAbbonamentoVsPagamentoUnicoPostEn
   },
   {
     id: "raccontare-storia-attivita",
+    hidden: true,
     it: raccontareStoriaAttivitaPost,
     en: raccontareStoriaAttivitaPostEn
   },
   {
     id: "come-prepararti-contattare-web-designer",
+    hidden: true,
     it: comePreparartiContattareWebDesignerPost,
     en: comePreparartiContattareWebDesignerPostEn
   },
   {
     id: "pagina-servizi-che-vende",
+    hidden: true,
     it: paginaServiziCheVendePost,
     en: paginaServiziCheVendePostEn
   },
   {
     id: "seo-locale-google-maps",
+    hidden: true,
     it: seoLocaleGoogleMapsPost,
     en: seoLocaleGoogleMapsPostEn
   },
   {
     id: "come-scrivere-testi-efficaci",
+    hidden: true,
     it: comeScrivereTestiEfficaciPost,
     en: comeScrivereTestiEfficaciPostEn
   },
   {
     id: "cosa-chiedere-web-designer-contratto",
+    hidden: true,
     it: cosaChiedereWebDesignerContrattoPost,
     en: cosaChiedereWebDesignerContrattoPostEn
   },
   {
     id: "10-errori-sito-piccole-attivita",
+    hidden: true,
     it: dieciErroriSitoPost,
     en: dieciErroriSitoPostEn
   },
   {
     id: "facebook-non-basta-per-business",
+    hidden: true,
     it: facebookNonBastaPost,
     en: facebookNonBastaPostEn
   },
   {
     id: "guida-tipo-sito-giusto",
+    hidden: true,
     it: guidaTipoSitoGiustoPost,
     en: guidaTipoSitoGiustoPostEn
   },
   {
     id: "sito-fai-da-te-vs-professionale",
+    hidden: true,
     it: sitoFaiDaTeVsProfessionalePost,
     en: sitoFaiDaTeVsProfessionalePostEn
   },
   {
     id: "sito-clienti-locali",
+    hidden: true,
     it: sitoClientiLocaliPost,
     en: sitoClientiLocaliPostEn
   },
   {
     id: "5-segnali-sito-perdere-clienti",
+    hidden: true,
     it: cinqueSegnaliSitoPerdereClientiPost,
     en: cinqueSegnaliSitoPerdereClientiPostEn
   }

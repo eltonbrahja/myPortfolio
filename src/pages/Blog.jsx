@@ -13,13 +13,22 @@ import './Blog.css';
 
 const Blog = () => {
   const { t, language, localizePath } = useLanguage();
-  const allPosts = blogPosts.map(group => group[language]).filter(Boolean);
+  const allPosts = blogPosts
+    .filter(group => !group.hidden)
+    .map(group => group[language])
+    .filter(Boolean);
   
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [isLoading, setIsLoading] = useState(true);
   
   const categories = [...new Set(allPosts.map(post => post.category))];
   
+  useEffect(() => {
+    if (selectedCategory && !categories.includes(selectedCategory)) {
+      setSelectedCategory(null);
+    }
+  }, [categories, selectedCategory]);
+
   const filteredPosts = selectedCategory 
     ? allPosts.filter(post => post.category === selectedCategory)
     : allPosts;

@@ -21,9 +21,9 @@ export const quantoCostaSitoWebPostEn = {
   id: "quanto-costa-sito-web",
   title: "How much does a professional website really cost in 2026 (and what it includes)",
   excerpt: "The honest answer is: there is no fixed price, just as there is no single price for a 'car', because it all depends on what you really need.",
-  date: "May 20, 2026",
-  readTime: "5 min read",
-  category: "Web Design",
+  date: "October 8, 2026",
+  readTime: "11 min read",
+  category: "Costs & Strategy",
   image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
   schema: {
     "@context": "https://schema.org",
