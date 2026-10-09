@@ -1,3 +1,5 @@
+import { seoLocaleImportanzaBusinessPost } from './articles/seo-locale-importanza-business';
+import { seoLocaleImportanzaBusinessPostEn } from './articles/seo-locale-importanza-business-en';
 import { quantoCostaSitoWebPost } from './articles/quanto-costa-sito-web';
 import { quantoCostaSitoWebPostEn } from './articles/quanto-costa-sito-web-en';
 import { sitoWebVsGoogleBusinessProfilePost } from './articles/sito-web-vs-google-business-profile';
@@ -50,6 +52,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "seo-locale-importanza-business",
+    it: seoLocaleImportanzaBusinessPost,
+    en: seoLocaleImportanzaBusinessPostEn
+  },
   {
     id: "quanto-costa-sito-web",
     it: quantoCostaSitoWebPost,
