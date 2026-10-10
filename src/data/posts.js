@@ -1,3 +1,5 @@
+import { eliminareCommissioniBookingPost } from './articles/eliminare-commissioni-booking-sito-bnb';
+import { eliminareCommissioniBookingPostEn } from './articles/eliminare-commissioni-booking-sito-bnb-en';
 import { seoLocaleImportanzaBusinessPost } from './articles/seo-locale-importanza-business';
 import { seoLocaleImportanzaBusinessPostEn } from './articles/seo-locale-importanza-business-en';
 import { quantoCostaSitoWebPost } from './articles/quanto-costa-sito-web';
@@ -52,6 +54,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "eliminare-commissioni-booking-sito-bnb",
+    it: eliminareCommissioniBookingPost,
+    en: eliminareCommissioniBookingPostEn
+  },
   {
     id: "seo-locale-importanza-business",
     it: seoLocaleImportanzaBusinessPost,

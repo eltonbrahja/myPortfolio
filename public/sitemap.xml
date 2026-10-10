@@ -90,6 +90,12 @@
 
   <!-- Blog Articles - IT -->
   <url>
+    <loc>https://www.eltonbrahja.eu/blog/eliminare-commissioni-booking-sito-bnb</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.eltonbrahja.eu/blog/seo-locale-importanza-business</loc>
     <lastmod>2026-10-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,6 +253,12 @@
   </url>
 
   <!-- Blog Articles - EN -->
+  <url>
+    <loc>https://www.eltonbrahja.eu/en/blog/eliminare-commissioni-booking-sito-bnb</loc>
+    <lastmod>2026-10-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
   <url>
     <loc>https://www.eltonbrahja.eu/en/blog/seo-locale-importanza-business</loc>
     <lastmod>2026-10-09</lastmod>
