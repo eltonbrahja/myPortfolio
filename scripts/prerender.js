@@ -16,7 +16,10 @@ async function prerender() {
     process.exit(1);
   }
 
-  const template = fs.readFileSync(templatePath, 'utf-8');
+  let cleanTemplate = fs.readFileSync(templatePath, 'utf-8');
+  // Rendi il template riutilizzabile e idempotente anche in caso di esecuzioni ripetute
+  cleanTemplate = cleanTemplate.replace(/<div id="root">[\s\S]*<\/div>(?=\s*<\/body>)/i, '<div id="root"></div>');
+  cleanTemplate = cleanTemplate.replace(/\n\s*<meta name="description"[\s\S]*?<\/head>/i, '\n  </head>');
 
   // Inizializza Vite per caricare i moduli ESM/JSX in Node.js
   const vite = await createServer({
@@ -28,6 +31,55 @@ async function prerender() {
   try {
     const { blogPosts } = await vite.ssrLoadModule('/src/data/posts.js');
     console.log(`Caricati ${blogPosts.length} articoli per il prerendering SSG.`);
+
+    const activePostsIt = blogPosts.filter(group => !group.hidden && group.it).map(group => ({ id: group.id, ...group.it }));
+    const activePostsEn = blogPosts.filter(group => !group.hidden && group.en).map(group => ({ id: group.id, ...group.en }));
+
+    const blogIndexHtmlIt = `
+      <main class="page-container blog-archive-static" style="max-width:1100px;margin:0 auto;padding:40px 20px;">
+        <header style="margin-bottom:32px;">
+          <h1>Blog & Approfondimenti Digitali</h1>
+          <p>Guide pratiche su siti web veloci, SEO locale, UX e marketing digitale per professionisti e attività locali.</p>
+        </header>
+        <section class="blog-articles-list" style="display:grid;gap:24px;">
+          ${activePostsIt.map(post => `
+            <article style="padding:24px;border:1px solid rgba(255,255,255,0.1);border-radius:12px;background:rgba(255,255,255,0.02);">
+              <div style="font-size:0.85rem;margin-bottom:8px;opacity:0.75;">
+                <span>${post.date || ''}</span> • <span>${post.readTime || ''}</span> • <span>${post.category || ''}</span>
+              </div>
+              <h2 style="font-size:1.4rem;margin:0 0 10px 0;">
+                <a href="/blog/${post.id}" style="color:inherit;text-decoration:none;">${post.title}</a>
+              </h2>
+              <p style="margin:0 0 14px 0;opacity:0.85;line-height:1.6;">${post.excerpt || ''}</p>
+              <a href="/blog/${post.id}" style="font-weight:600;text-decoration:underline;">Leggi l'articolo completo →</a>
+            </article>
+          `).join('')}
+        </section>
+      </main>
+    `;
+
+    const blogIndexHtmlEn = `
+      <main class="page-container blog-archive-static" style="max-width:1100px;margin:0 auto;padding:40px 20px;">
+        <header style="margin-bottom:32px;">
+          <h1>Blog & Digital Strategy Guides</h1>
+          <p>Practical guides on fast websites, local SEO, UX, and digital marketing for professionals and businesses.</p>
+        </header>
+        <section class="blog-articles-list" style="display:grid;gap:24px;">
+          ${activePostsEn.map(post => `
+            <article style="padding:24px;border:1px solid rgba(255,255,255,0.1);border-radius:12px;background:rgba(255,255,255,0.02);">
+              <div style="font-size:0.85rem;margin-bottom:8px;opacity:0.75;">
+                <span>${post.date || ''}</span> • <span>${post.readTime || ''}</span> • <span>${post.category || ''}</span>
+              </div>
+              <h2 style="font-size:1.4rem;margin:0 0 10px 0;">
+                <a href="/en/blog/${post.id}" style="color:inherit;text-decoration:none;">${post.title}</a>
+              </h2>
+              <p style="margin:0 0 14px 0;opacity:0.85;line-height:1.6;">${post.excerpt || ''}</p>
+              <a href="/en/blog/${post.id}" style="font-weight:600;text-decoration:underline;">Read full article →</a>
+            </article>
+          `).join('')}
+        </section>
+      </main>
+    `;
 
     const staticPages = [
       {
@@ -124,7 +176,15 @@ async function prerender() {
         path: 'blog',
         title: 'Blog Web Development, SEO e Strategie Digitali | Elton Brahja',
         description: 'Guide pratiche, approfondimenti e consigli su creazione siti web, SEO, normative sanitarie e crescita online.',
-        h1: 'Blog & Approfondimenti Digitali'
+        h1: 'Blog & Approfondimenti Digitali',
+        customHtml: blogIndexHtmlIt
+      },
+      {
+        path: 'en/blog',
+        title: 'Blog Web Development, SEO & Digital Strategies | Elton Brahja',
+        description: 'Practical guides and insights on fast websites, SEO, and digital growth for professionals.',
+        h1: 'Blog & Digital Strategy Guides',
+        customHtml: blogIndexHtmlEn
       }
     ];
 
@@ -144,7 +204,7 @@ async function prerender() {
       schemaJson = null,
       bodyHtml = ''
     }) => {
-      let pageHtml = template;
+      let pageHtml = cleanTemplate;
 
       // Aggiorna Title
       pageHtml = pageHtml.replace(/<title>.*?<\/title>/i, `<title>${title}</title>`);
