@@ -8,7 +8,7 @@ export const restylingSitoWebPrezzoPostEn = {
   date: "October 13, 2026",
   readTime: "11 min read",
   category: "Pricing & Strategy",
-  image: "/fotoarticoloRestyling.webp",
+  image: "/lee-campbell-Pmw_LMwmOdU-unsplash.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -58,7 +58,7 @@ export const restylingSitoWebPrezzoPostEn = {
   content: (
     <div className="article-body">
       <p style={{ fontSize: '13px', color: 'rgba(47, 65, 86, 0.6)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
-        Operational guide to digital modernization and SEO protection for professionals and SMBs – by Elton Brahja.
+        Photo by <a href="https://unsplash.com/@leecampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Lee Campbell</a> on <a href="https://unsplash.com/photos/a-white-coffee-cup-sitting-on-top-of-a-wooden-table-Pmw_LMwmOdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
       </p>
 
       {/* ========================================================

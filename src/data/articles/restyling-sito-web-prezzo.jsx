@@ -8,7 +8,7 @@ export const restylingSitoWebPrezzoPost = {
   date: "13 Ottobre 2026",
   readTime: "11 min di lettura",
   category: "Costi & Strategia",
-  image: "/fotoarticoloRestyling.webp",
+  image: "/lee-campbell-Pmw_LMwmOdU-unsplash.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -58,7 +58,7 @@ export const restylingSitoWebPrezzoPost = {
   content: (
     <div className="article-body">
       <p style={{ fontSize: '13px', color: 'rgba(47, 65, 86, 0.6)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
-        Guida operativa alla modernizzazione digitale e salvaguardia SEO per professionisti e PMI – a cura di Elton Brahja.
+        Foto di <a href="https://unsplash.com/it/@leecampbell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Lee Campbell</a> su <a href="https://unsplash.com/it/foto/tazza-sulla-scrivania-Pmw_LMwmOdU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
       </p>
 
       {/* ========================================================
@@ -116,7 +116,7 @@ export const restylingSitoWebPrezzoPost = {
           ======================================================== */}
       <h2 id="restyling-vs-rifacimento">2. Restyling grafico superficiale vs Rifacimento da zero: le differenze sostanziali</h2>
       <p>
-        Nel settore dello sviluppo web regna spesso un equivoco pericoloso: confondere una "rinfrescata estetica" con una vera ristrutturazione ingegneristica. 
+        Nel settore dello sviluppo web regna spesso un equivoco pericoloso: confondere una "rinfrescata estetica" con una vera ristrutturazione ingegneristica.
       </p>
       <p>
         Installare un nuovo template grafico su un'installazione vecchia e appesantita equivale a verniciare la carrozzeria di un'auto col motore fuso: l'aspetto visivo cambia, ma il veicolo continuerà a non partire.
@@ -333,8 +333,8 @@ export const restylingSitoWebPrezzoPost = {
           Studio Dr.ssa Marascio – Da Gestione Manuale a Booking Automatico
         </h3>
         <p style={{ fontSize: '15px', lineHeight: '1.7', color: 'var(--text-secondary, #555)' }}>
-          <strong>La Criticità:</strong> Lo studio necessitava di rinnovare radicalmente l'immagine digitale e soprattutto di eliminare la perdita continua di tempo dovuta alla gestione telefonica manuale di appuntamenti e disdette dei pazienti.<br/><br/>
-          <strong>L'Intervento Tecnico:</strong> Riprogettazione integrale della piattaforma con architettura leggera, interfaccia sobria conforme ai canoni deontologici e integrazione del sistema <strong>LatePoint</strong> sincronizzato con l'agenda del professionista.<br/><br/>
+          <strong>La Criticità:</strong> Lo studio necessitava di rinnovare radicalmente l'immagine digitale e soprattutto di eliminare la perdita continua di tempo dovuta alla gestione telefonica manuale di appuntamenti e disdette dei pazienti.<br /><br />
+          <strong>L'Intervento Tecnico:</strong> Riprogettazione integrale della piattaforma con architettura leggera, interfaccia sobria conforme ai canoni deontologici e integrazione del sistema <strong>LatePoint</strong> sincronizzato con l'agenda del professionista.<br /><br />
           <strong>Il Risultato:</strong> Autonomia completa per i pazienti nella prenotazione, zero telefonate durante le sedute cliniche e totale rispetto dei requisiti di riservatezza GDPR per i dati sanitari.
         </p>
         <div style={{ marginTop: '20px' }}>
@@ -359,8 +359,8 @@ export const restylingSitoWebPrezzoPost = {
           Studio Dott.ssa Danubia Macario – Piattaforma Bilingue ad Alte Prestazioni
         </h3>
         <p style={{ fontSize: '15px', lineHeight: '1.7', color: 'var(--text-secondary, #555)' }}>
-          <strong>La Criticità:</strong> Presenza digitale limitata che non permetteva di valorizzare la doppia competenza linguistica (Italiano e Portoghese) per seguire pazienti sia sul territorio italiano che da remoto all'estero.<br/><br/>
-          <strong>L'Intervento Tecnico:</strong> Sviluppo di un portale bilingue senza plugin di traduzione automatica scadente, con routing ottimizzato per i motori di ricerca, caricamento istantaneo e sezioni informative chiare.<br/><br/>
+          <strong>La Criticità:</strong> Presenza digitale limitata che non permetteva di valorizzare la doppia competenza linguistica (Italiano e Portoghese) per seguire pazienti sia sul territorio italiano che da remoto all'estero.<br /><br />
+          <strong>L'Intervento Tecnico:</strong> Sviluppo di un portale bilingue senza plugin di traduzione automatica scadente, con routing ottimizzato per i motori di ricerca, caricamento istantaneo e sezioni informative chiare.<br /><br />
           <strong>Il Risultato:</strong> Posizionamento organico raddoppiato sui mercati di riferimento e un flusso regolare di contatti diretti da entrambe le aree geografiche.
         </p>
       </div>
@@ -458,7 +458,7 @@ export const restylingSitoWebPrezzoPost = {
         <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
           <a
             href="mailto:elton.brahja.s@gmail.com?subject=Richiesta%20Audit%20Preliminare%20Sito%20Web"
-            style={{ 
+            style={{
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
@@ -476,7 +476,7 @@ export const restylingSitoWebPrezzoPost = {
           </a>
           <a
             href="/portfolio"
-            style={{ 
+            style={{
               display: 'inline-flex',
               alignItems: 'center',
               gap: '8px',
