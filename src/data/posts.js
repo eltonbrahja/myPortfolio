@@ -1,3 +1,5 @@
+import { restylingSitoWebPrezzoPost } from './articles/restyling-sito-web-prezzo';
+import { restylingSitoWebPrezzoPostEn } from './articles/restyling-sito-web-prezzo-en';
 import { eliminareCommissioniBookingPost } from './articles/eliminare-commissioni-booking-sito-bnb';
 import { eliminareCommissioniBookingPostEn } from './articles/eliminare-commissioni-booking-sito-bnb-en';
 import { seoLocaleImportanzaBusinessPost } from './articles/seo-locale-importanza-business';
@@ -54,6 +56,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "restyling-sito-web-prezzo",
+    it: restylingSitoWebPrezzoPost,
+    en: restylingSitoWebPrezzoPostEn
+  },
   {
     id: "eliminare-commissioni-booking-sito-bnb",
     it: eliminareCommissioniBookingPost,
