@@ -8,7 +8,7 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
   date: "13 Ottobre 2026",
   readTime: "10 min di lettura",
   category: "Costi & Strategia",
-  image: "/sito-abbonamento.jpg",
+  image: "/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -57,6 +57,10 @@ export const sitoAbbonamentoVsPagamentoUnicoPost = {
   },
   content: (
     <div className="article-body">
+      <p style={{ fontSize: '13px', color: 'rgba(47, 65, 86, 0.6)', marginTop: '-15px', marginBottom: '30px', fontStyle: 'italic' }}>
+        Foto di <a href="https://unsplash.com/it/@ffstop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Fotis Fotopoulos</a> su <a href="https://unsplash.com/it/foto/smartphone-e-monitor-per-computer-con-codice-6sAl6aQ4OWI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Unsplash</a>
+      </p>
+
       {/* ========================================================
           HOOK INTRODUTTIVO (Max 3-4 righe sul problema reale)
           ======================================================== */}
