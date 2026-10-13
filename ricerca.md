@@ -90,18 +90,9 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-## 8. I 9 Articoli Strategici per Acquisire Clienti Paganti
+## 8. I 6 Articoli Strategici da Scrivere per Acquisire Clienti Paganti
 
-### Articolo 1: SEO Locale per Piccole Imprese nel 2026: Come Acquisire Clienti nella Tua Città
-- **Keyword:** `seo locale per piccole imprese`, `google my business e seo locale`, `ricerca locale google`
-- **Target:** Attività locali, artigiani e studi professionali territoriali.
-- **Problema:** Invisibilità nelle ricerche locali di Google Maps rispetto ai concorrenti di zona.
-- **Soluzione:** Sinergia tra profilo Google Business e pagine del sito ottimizzate per l'area geografica.
-- **CTA:** Consulenza di posizionamento territoriale per l'attività.
-
----
-
-### Articolo 2: Sito Web per Psicologi e Psicoterapeuti: Normativa GDPR, Deontologia e Prenotazioni Online
+### Articolo 1: Sito Web per Psicologi e Psicoterapeuti: Normativa GDPR, Deontologia e Prenotazioni Online
 - **Keyword:** `sito web per psicologi`, `siti web psicologi`, `normativa sito web psicologi`, `booking psicologi`
 - **Target:** Psicologi e psicoterapeuti liberi professionisti o associati.
 - **Problema:** Perdita di tempo nella gestione degli appuntamenti e rischio di sanzioni sui dati sanitari (GDPR art. 9).
@@ -110,25 +101,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 3: Come Eliminare le Commissioni di Booking: Il Sito Web con Prenotazione Diretta per B&B
-- **Keyword:** `sito web per b&b`, `sistema prenotazione sito b&b`, `booking diretto b&b`
-- **Target:** Proprietari di Bed & Breakfast, boutique hotel e strutture ricettive di livello.
-- **Problema:** Perdita del 15%–20% del fatturato annuo in commissioni verso intermediari terzi.
-- **Soluzione:** Motore di booking proprietario con sincronizzazione iCal dei calendari. *Case study: B&B Palazzo Dana*.
-- **CTA:** Valutazione di un motore di prenotazione diretta proprietario.
-
----
-
-### Articolo 4: Sito Web Proprietario vs Canone Mensile: Perché Evitare gli Abbonamenti a Vita
-- **Keyword:** `costo mantenimento sito web`, `sito web a noleggio conviene`, `sito proprietario`
-- **Target:** Imprenditori vincolati a canoni mensili da 70€–150€ senza reale manutenzione.
-- **Problema:** Sensazione di non possedere la propria presenza digitale e rischio di perdere tutto interrompendo i pagamenti.
-- **Soluzione:** Confronto economico sul lungo periodo tra formula a noleggio e formula proprietaria una-tantum.
-- **CTA:** Preventivo a prezzo fisso senza vincoli di abbonamento periodico.
-
----
-
-### Articolo 5: Sito Web per Studi Medici e Fisioterapisti: Linee Guida di Trasparenza Sanitaria
+### Articolo 2: Sito Web per Studi Medici e Fisioterapisti: Linee Guida di Trasparenza Sanitaria
 - **Keyword:** `sito web studio medico`, `sito internet fisioterapista`, `pubblicità sanitaria sito web`
 - **Target:** Medici specialisti, fisioterapisti e centri polidiagnostici.
 - **Problema:** Necessità di comunicare i servizi specialistici rispettando i divieti promozionali della legge sanitaria.
@@ -137,7 +110,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 6: Perché il Tuo Sito Web Non Porta Clienti? I 5 Errori Tecnici che Bloccano le Conversioni
+### Articolo 3: Perché il Tuo Sito Web Non Porta Clienti? I 5 Errori Tecnici che Bloccano le Conversioni
 - **Keyword:** `perché il sito web non converte`, `sito web non riceve contatti`, `errori sito web aziendale`
 - **Target:** Titolari d'azienda che ritengono inutile il proprio sito web attuale.
 - **Problema:** Zero lead o telefonate ricevute a fronte di spese sostenute in precedenza.
@@ -146,7 +119,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 7: Sito Web Multilingua: Come Strutturarlo per Offrire Servizi a Clienti Esteri
+### Articolo 4: Sito Web Multilingua: Come Strutturarlo per Offrire Servizi a Clienti Esteri
 - **Keyword:** `sito web multilingua professionale`, `creazione sito web bilingue`, `seo multilingua`
 - **Target:** Professionisti con clientela internazionale e operatori ricettivi.
 - **Problema:** Traduzioni automatiche di bassa qualità che allontanano i clienti e non si posizionano su Google.
@@ -155,7 +128,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 8: Quanto Costa Sviluppare una Web App o un Sistema di Prenotazione su Misura?
+### Articolo 5: Quanto Costa Sviluppare una Web App o un Sistema di Prenotazione su Misura?
 - **Keyword:** `costo web app personalizzata`, `sviluppo software su misura pmi`, `sistema prenotazione su misura`
 - **Target:** Imprese con flussi organizzativi specifici non coperti dai plugin standard.
 - **Problema:** Software SaaS preconfezionati rigidi e con costi di licenza mensili elevati.
@@ -164,7 +137,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 9: Sito Web vs Social Media: Il Rischio di Affidare il Tuo Business Solo a Instagram
+### Articolo 6: Sito Web vs Social Media: Il Rischio di Affidare il Tuo Business Solo a Instagram
 - **Keyword:** `serve ancora un sito web`, `sito web o instagram`, `perché avere un sito aziendale`
 - **Target:** Piccoli imprenditori che investono solo sui canali social.
 - **Problema:** Calo continuo della copertura organica e dipendenza dai costi delle sponsorizzazioni.

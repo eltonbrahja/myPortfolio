@@ -1,14 +1,13 @@
 import React from 'react';
 
-
-
 export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
   id: "sito-abbonamento-vs-pagamento-unico",
-  title: "Monthly Subscription Website vs One-Time Payment: Which One Is Best for Your Small Business?",
-  excerpt: "It happens often: you ask for a website quote and get two completely different proposals. A one-time payment on one hand, a monthly fee on the other. Let's see which one is truly best for you.",
-  date: "May 31, 2026",
-  readTime: "7 min read",
-  category: "Business & Budget",
+  seoTitle: "Custom Owned Website vs Monthly Fee: 2026 Cost Guide",
+  title: "Owned Website vs Monthly Subscription: Why You Should Avoid Endless Fees and What You Actually Save",
+  excerpt: "Custom owned website or monthly subscription fee? Transparent guide to real costs, the hidden traps of rented websites, and long-term savings with a fixed one-off investment.",
+  date: "October 13, 2026",
+  readTime: "10 min read",
+  category: "Pricing & Strategy",
   image: "/sito-abbonamento.jpg",
   schema: {
     "@context": "https://schema.org",
@@ -16,347 +15,415 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "What is the main difference between a subscription site and a one-time payment site?",
+        "name": "What is the core difference between an owned website and a monthly subscription website?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "With a one-time payment, you purchase the site as a proprietary asset: once paid off, it's yours and you only pay hosting/domain costs. With a monthly subscription, you pay a recurring fee for using the site and receiving continuous maintenance, updates, and support."
+          "text": "An owned website is a business asset that belongs exclusively to you: after paying a one-off development fee, you own 100% of the code, domain, and content, paying only direct annual hosting costs (around €80-€120/year). A monthly subscription website is an endless rental: you pay a recurring fee (€50-€150/month), and if you cancel, the site is switched off and you lose all accumulated equity."
         }
       },
       {
         "@type": "Question",
-        "name": "Who owns the domain and website under a subscription model?",
+        "name": "How much does it cost to maintain an owned website per year?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "It depends on the agreement. In many low-cost services, the agency retains ownership, and if you stop paying, the site is taken down. In professional contracts, it is crucial that you own the domain and that a buyout clause is defined for the site's ownership."
+          "text": "For a professional custom-owned website, the only recurring mandatory expenses are domain renewal and fast professional hosting, totaling between €80 and €150 per year. There are no mandatory agency retainer fees or locked subscriptions."
         }
       },
       {
         "@type": "Question",
-        "name": "What happens if I want to cancel my monthly website subscription?",
+        "name": "What happens if I cancel a rented website contract with an agency?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Typically, monthly subscription contracts have a minimum binding period (e.g., 12, 24, or 36 months). If you cancel early, you may be required to pay the remaining balance or a termination penalty. Always verify this clause in the agreement."
+          "text": "In most subscription contracts, the agency retains ownership of the code and templates. Upon cancellation, your site is removed from the web or you face a steep buyout penalty (often between €1,000 and €2,000) for legacy files that are rarely portable to other servers."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "When does it actually make sense to pay a monthly retainer to an agency?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A monthly retainer only makes sense when it pays for proactive, continuous growth activities: managing Google or Meta Ad campaigns, publishing weekly SEO content, or providing 24/7 technical operations for high-volume e-commerce. Paying an ongoing retainer just to keep a presentation website online makes zero financial sense."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "If I purchase an owned website, can I edit text and images independently?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Our owned platforms are built to be intuitive and autonomous. Upon delivery, we configure everything so you can freely update text, opening hours, services, and blog articles without paying billable agency hours for every small change."
         }
       }
     ]
   },
   content: (
     <div className="article-body">
+      {/* ========================================================
+          HOOK INTRODUTTIVO (Max 3-4 righe sul problema reale)
+          ======================================================== */}
       <p>
-        It happens often: you ask for a website quote and get two completely different proposals.
-        On one hand, the <strong>one-time payment</strong> ("pay once and the site is yours"), and on the other, the <strong>monthly fee</strong> ("29/59/99 € a month and we take care of everything").
+        You are offered a business website for €49 or €99 per month <em>“with zero upfront cost and full maintenance included”</em>. At first glance it sounds like a bargain, but in reality you are entering an open-ended lease: after three years you have spent thousands of euros without owning a single line of code, with the threat that your site will be shut down the instant you stop paying. In this guide, we break down the hidden costs of monthly subscriptions, the advantages of a 100% <strong>owned website</strong>, and the exact financial savings over 3 and 5 years.
       </p>
 
-      <p>
-        At first glance, the monthly fee might seem like the lighter path, but the truth is that the right choice depends on <strong>how the offer is structured</strong> and what you truly need from your website.
-      </p>
-      
-      <p>
-        In this article, I will help you understand practically <strong>when a one-time payment makes sense and when a subscription is actually a good idea</strong>.
-      </p>
-
+      {/* ========================================================
+          TABLE OF CONTENTS (TOC)
+          ======================================================== */}
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#pagamento-unico">What "one-time payment" means for a website</a></li>
-          <li><a href="#abbonamento-mensile">What "monthly subscription website" means</a></li>
-          <li><a href="#vantaggi-unico">Advantages of the one-time payment</a></li>
-          <li><a href="#limiti-unico">Limits of the one-time payment</a></li>
-          <li><a href="#vantaggi-abbonamento">Advantages of the subscription website (when done right)</a></li>
-          <li><a href="#rischi-canoni">The risks (and traps) of monthly fees</a></li>
-          <li><a href="#come-leggere-offerta">How to read an offer: always separate these three items</a></li>
-          <li><a href="#quando-conviene-unico">When the one-time payment suits you</a></li>
-          <li><a href="#quando-ha-senso-abbonamento">When a monthly subscription truly makes sense</a></li>
-          <li><a href="#regola-semplice">A simple rule to decide</a></li>
-          <li><a href="#cosa-fare-pratica">And now, what can you do practically?</a></li>
+          <li><a href="#digital-rental-trap">The digital rental trap: what really hides behind monthly subscription fees</a></li>
+          <li><a href="#what-is-owned-website">What is a 100% owned website: complete freedom, clean code, zero lock-in</a></li>
+          <li><a href="#subscription-comparison-table">Comparison Table: Monthly Rental vs Closed SaaS vs Custom Owned Ecosystem</a></li>
+          <li><a href="#real-financial-calculation">Real financial calculation: 3-year and 5-year total cost comparison</a></li>
+          <li><a href="#vendor-lockin-risks">Vendor lock-in and exit clauses: what happens when you want to switch providers</a></li>
+          <li><a href="#when-retainer-makes-sense">When a recurring fee makes sense vs when it is wasted money</a></li>
+          <li><a href="#portfolio-case-studies">Real-world proof: high-performance owned platforms from our portfolio</a></li>
+          <li><a href="#faq-owned-website">Frequently Asked Questions (FAQ) on owned vs subscription websites</a></li>
+          <li><a href="#cta-fixed-price-quote">Request a transparent fixed-price quote with zero recurring fees</a></li>
         </ol>
       </div>
 
-      <h2 id="pagamento-unico">What "one-time payment" means for a website</h2>
-      <p>By one-time payment I mean a simple model:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You pay a specific amount for the <strong>initial project</strong> (new site, restyling, landing page, etc.).</li>
-        <li>The work has a clear <strong>start and end</strong>.</li>
-        <li>Upon delivery, the site is yours: contents, graphics, structure.</li>
-      </ul>
-
-      <p>What remains are only:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>the "physiological" recurring technical costs (domain, hosting, any theme/plugin licenses)</li>
-        <li>any extra interventions you choose to commission in the future</li>
-      </ul>
-
+      {/* ========================================================
+          SECTION 1: THE DIGITAL RENTAL TRAP
+          ======================================================== */}
+      <h2 id="digital-rental-trap">1. The digital rental trap: what really hides behind monthly subscription fees</h2>
       <p>
-        Here <strong>you are buying an asset</strong>: like when you buy a machine for your lab or an armchair for your studio, you are not "renting" it indefinitely.
+        In recent years, many traditional web agencies and telecom companies have shifted website sales into recurring subscription models: an apparently painless monthly rate (often €59 to €149/month + VAT), pitched as an easy way to avoid upfront capital expenditure.
       </p>
-
-      <h2 id="abbonamento-mensile">What "monthly subscription website" means</h2>
-      <p>When we talk about a "subscription website" or a "monthly fee website," this is usually what happens:</p>
+      <p>
+        However, every business owner must understand a fundamental economic difference before signing: <strong>the difference between purchasing a durable business asset and renting one indefinitely</strong>.
+      </p>
       <ul style={{ paddingLeft: '20px' }}>
-        <li>You pay a <strong>monthly fee</strong> (e.g., 50–100–200 € a month) for a certain number of months.</li>
-        <li>Mixed in the fee are:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>the initial design of the site</li>
-            <li>technical costs (hosting, domain, etc.)</li>
-            <li>a part of maintenance/assistance (sometimes real, sometimes vague)</li>
-          </ul>
+        <li>
+          <strong>You don't own the site:</strong> Legally and technically, you are only purchasing a temporary license to display pages hosted on the agency's infrastructure. If you cancel, you cannot simply take your files elsewhere: the website is turned off, and your web address drops back to square one.
+        </li>
+        <li>
+          <strong>Phantom maintenance:</strong> The recurring fee is almost always justified under "technical maintenance and updates." But for a professional service or presentation website that only requires occasional edits, what is actually being maintained each month for €100? In reality, nothing: automated backups and routine script checks that take seconds on modern infrastructure.
+        </li>
+        <li>
+          <strong>Runaway cumulative costs:</strong> Paying €99 a month feels negligible in month 1. By month 36, you have paid €3,564; by month 60, nearly €6,000. With that budget, you could have built two top-tier custom platforms and owned your business assets outright.
         </li>
       </ul>
 
-      <p>The problem arises when <strong>everything is inside a single number</strong> and you no longer understand:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>how much you are paying for the initial site</li>
-        <li>how much for the technical part</li>
-        <li>how much for the ongoing work over time</li>
-      </ul>
-
+      {/* ========================================================
+          SECTION 2: WHAT IS AN OWNED WEBSITE
+          ======================================================== */}
+      <h2 id="what-is-owned-website">2. What is a 100% owned website: complete freedom, clean code, zero lock-in</h2>
       <p>
-        And often, at the end of the contract, you discover that <strong>the total paid is higher than a one-time payment</strong>.
+        An <strong>owned website</strong> is engineered as a capital asset for your business—just like purchasing specialized equipment, workshop machinery, or office furniture.
       </p>
-
-      <h2 id="vantaggi-unico">Advantages of the one-time payment</h2>
-      <p>The one-time payment makes a lot of sense when:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You need <strong>a project with clear boundaries</strong>: a new site, a redesign, a specific landing page.</li>
-        <li>You don't need heavy and continuous work every month (e.g., campaigns, aggressive SEO, weekly changes).</li>
-      </ul>
-
-      <p>Its strong points:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li><strong>You know what you spend and when</strong>: the budget is predictable, without monthly surprises.</li>
-        <li>After delivery, the site is <strong>an amortized investment</strong>, not an endless expense.</li>
-        <li>It's easier to compare quotes: "what is included in these X euros?".</li>
-      </ul>
-
       <p>
-        If you foresee that, after the launch, the site will only have occasional small changes, the one-time payment is often the most honest model.
+        The approach is built on full transparency and technical independence:
       </p>
 
-      <h2 id="limiti-unico">Limits of the one-time payment</h2>
-      <p>It's not the perfect solution in every case, though. The one-time payment is less suitable if:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You need <strong>continuous support</strong>: frequent updates, new pages every month, constant testing.</li>
-        <li>You want someone to follow you in a structured way on <strong>SEO, content, campaigns</strong>.</li>
-      </ul>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', margin: '28px 0' }}>
+        <div style={{
+          background: 'rgba(86, 124, 141, 0.05)',
+          borderLeft: '4px solid var(--accent-color)',
+          borderRadius: '0 12px 12px 0',
+          padding: '20px'
+        }}>
+          <h3 style={{ margin: '0 0 8px 0', fontSize: '18px', color: 'var(--text-primary)' }}>
+            One-Off Investment with Defined Scope and Delivery
+          </h3>
+          <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6' }}>
+            Once the initial proposal for graphic design, commercial copywriting, and high-performance development is agreed upon, the price remains fixed. No infinite monthly installments, surprise add-ons, or end-of-year price hikes. Upon final delivery, the project is completed, and the website belongs to you forever.
+          </p>
+        </div>
 
-      <p>The risk here is this:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>you make the site once,</li>
-        <li>then no one takes care of it anymore,</li>
-        <li>and after a couple of years you find yourself again with something old, slow, and outdated.</li>
-      </ul>
+        <div style={{
+          background: 'rgba(86, 124, 141, 0.05)',
+          borderLeft: '4px solid var(--accent-color)',
+          borderRadius: '0 12px 12px 0',
+          padding: '20px'
+        }}>
+          <h3 style={{ margin: '0 0 8px 0', fontSize: '18px', color: 'var(--text-primary)' }}>
+            Exclusive Ownership of Code, Domain, and Data
+          </h3>
+          <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6' }}>
+            The domain is 100% registered under your business name, all source code and assets are yours, and you retain full root access. If you ever decide to work with another developer or migrate to another server, you can do so in minutes without legal or technical hurdles.
+          </p>
+        </div>
 
+        <div style={{
+          background: 'rgba(86, 124, 141, 0.05)',
+          borderLeft: '4px solid var(--accent-color)',
+          borderRadius: '0 12px 12px 0',
+          padding: '20px'
+        }}>
+          <h3 style={{ margin: '0 0 8px 0', fontSize: '18px', color: 'var(--text-primary)' }}>
+            Direct Infrastructure Costs Minimized
+          </h3>
+          <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6' }}>
+            Your only recurring expenses are pure web infrastructure costs: annual domain renewal and fast professional hosting (roughly €80 to €130 per year). Zero hidden agency retainers and zero passive monthly drains.
+          </p>
+        </div>
+      </div>
+
+      {/* ========================================================
+          SECTION 3: COMPARISON TABLE
+          ======================================================== */}
+      <h2 id="subscription-comparison-table">3. Comparison Table: Monthly Rental vs Closed SaaS vs Custom Owned Ecosystem</h2>
       <p>
-        In those situations, a <strong>clear fee for maintenance and evolution</strong> can make much more sense than "we'll talk when you need it".
+        Let's compare the three most common market solutions to see what you actually receive for your investment:
       </p>
 
-      <h2 id="vantaggi-abbonamento">Advantages of the subscription website (when done right)</h2>
+      <div className="table-responsive">
+        <table className="article-table">
+          <thead>
+            <tr>
+              <th>Evaluation Factor</th>
+              <th>Agency Monthly Rental</th>
+              <th>DIY Site Builders (Wix / Squarespace)</th>
+              <th>Custom Owned Website (Elton Brahja)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Code Ownership</strong></td>
+              <td>Zero: code belongs to the subscription agency</td>
+              <td>Zero: locked inside their proprietary platform</td>
+              <td><strong>100% Total Ownership: source files and root access</strong></td>
+            </tr>
+            <tr>
+              <td><strong>3-Year Cost (Average Case)</strong></td>
+              <td>€2,800 – €4,500 (€80–€120/month retainers)</td>
+              <td>€600 – €1,100 (plus dozens of lost billable hours)</td>
+              <td><strong>€1,500 – €2,200 total one-off fee</strong></td>
+            </tr>
+            <tr>
+              <td><strong>5-Year Cost</strong></td>
+              <td>€4,800 – €7,500 (endless monthly billing)</td>
+              <td>€1,000 – €1,800</td>
+              <td><strong>Unchanged (only ~€90/year pure hosting)</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Page Speed &amp; Core Web Vitals</strong></td>
+              <td>Often sluggish: bloated legacy themes on shared servers</td>
+              <td>Poor to mediocre due to heavy client-side scripts</td>
+              <td><strong>Instantaneous (&lt; 0.8s) with modern no-bloat code</strong></td>
+            </tr>
+            <tr>
+              <td><strong>What happens if you stop paying</strong></td>
+              <td>Website is erased and domain transfer is held hostage</td>
+              <td>Site is suspended or displays intrusive ads</td>
+              <td><strong>Your website stays live and fully operational</strong></td>
+            </tr>
+            <tr>
+              <td><strong>Customization &amp; Architecture</strong></td>
+              <td>Rigid: every custom feature triggers extra fees</td>
+              <td>Limited strictly to app store plugins</td>
+              <td><strong>Fully tailored (custom booking, multi-region, privacy)</strong></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {/* ========================================================
+          SECTION 4: REAL FINANCIAL CALCULATION
+          ======================================================== */}
+      <h2 id="real-financial-calculation">4. Real financial calculation: 3-year and 5-year total cost comparison</h2>
       <p>
-        A subscription model makes sense when the fee doesn't just include the site "spread in installments," but also <strong>real ongoing work</strong>.
+        Let's run a realistic financial simulation based on typical market pricing in Italy and Europe for a small business or professional practice:
       </p>
-
-      <p>It can be a good idea if:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You want to <strong>spread the initial investment</strong> because you prefer not to block a few thousand euros right away.</li>
-        <li>You need an online presence that is curated and <strong>always alive</strong>, with:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>changes and updates included</li>
-            <li>regular technical maintenance</li>
-            <li>continuous small improvements</li>
-          </ul>
-        </li>
-        <li>You already know that the site is a tool to work on <strong>month after month</strong>, not a static object.</li>
-      </ul>
-
-      <p>
-        Here the subscription can work as <strong>an ongoing "service"</strong>, rather than a disguised installment plan.
-      </p>
-
-      <h2 id="rischi-canoni">The risks (and traps) of monthly fees</h2>
-      <p>
-        Unfortunately, many "subscription website" packages are built in a non-transparent way.
-      </p>
-
-      <p>Typical risks:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li><strong>Higher total cost</strong>: at the end of the contract, you have paid much more than the real value of the site.</li>
-        <li><strong>Rigid minimum duration</strong>: 24/36 months to respect, even if you are not satisfied after 10 months.</li>
-        <li><strong>Unclear ownership</strong>:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>is the domain registered to you or the agency?</li>
-            <li>if you interrupt the contract, does the site stay online or disappear?</li>
-          </ul>
-        </li>
-        <li><strong>"Ghost" maintenance</strong>: the fee mentions "assistance and updates," but in practice:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>there are no reports</li>
-            <li>there is no clear perimeter of the monthly work</li>
-            <li>you struggle to understand what you are really paying for</li>
-          </ul>
-        </li>
-      </ul>
-
-      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        Did you receive a monthly fee quote and want to understand if there are hidden traps? <a href="/en/#contact">Contact me for a free evaluation of your quote →</a>
-      </p>
-
-      <p>It's precisely these gray areas that make it difficult to compare two monthly fee offers.</p>
-
-      <h2 id="come-leggere-offerta">How to read an offer: always separate these three items</h2>
-      <p>
-        Whether it's a one-time payment or a subscription, always try to get a proposal that separates <strong>at least</strong> three levels (even just verbally):
-      </p>
-
-      <ol style={{ paddingLeft: '20px' }}>
-        <li><strong>Initial project</strong>
-          <ul style={{ paddingLeft: '20px', marginTop: '8px', marginBottom: '8px' }}>
-            <li>Analysis, design, layout, and development of the new site or redesign.</li>
-            <li>Here a clear cost, with a beginning and an end, makes sense.</li>
-          </ul>
-        </li>
-        <li><strong>Periodic technical costs</strong>
-          <ul style={{ paddingLeft: '20px', marginTop: '8px', marginBottom: '8px' }}>
-            <li>Domain, hosting, any licenses.</li>
-            <li>They can be in a fee, but they must be <strong>readable</strong> (amounts and deadlines).</li>
-          </ul>
-        </li>
-        <li><strong>True ongoing activities</strong>
-          <ul style={{ paddingLeft: '20px', marginTop: '8px', marginBottom: '8px' }}>
-            <li>Technical maintenance (updates, backups, security).</li>
-            <li>Small monthly changes included.</li>
-            <li>SEO, content, campaigns, conversion testing (if planned).</li>
-          </ul>
-        </li>
-      </ol>
-
-      <p>If everything is in the same number, you no longer know <strong>how much you are paying for the site</strong> and how much you are paying for the ongoing service.</p>
-
-      <h2 id="quando-conviene-unico">When the one-time payment suits you</h2>
-      <p>In general, the one-time payment suits you if:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You need <strong>a site or restyling with a clear perimeter</strong>, not an endless construction site.</li>
-        <li>After the launch you expect few changes: annual updates, a new page every now and then.</li>
-        <li>You want to <strong>own the site without duration constraints</strong> and be able to change providers whenever you want.</li>
-        <li>You prefer to have recurring costs only for:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>domain</li>
-            <li>hosting</li>
-            <li>any <strong>explicitly agreed</strong> maintenance</li>
-          </ul>
-        </li>
-      </ul>
-
-      <p>
-        In these cases, the one-off model is more straightforward: you pay for the project, the site is yours, and if you want to change developers tomorrow you can do so without drama.
-      </p>
-
-      <p style={{ fontStyle: 'italic', marginTop: '20px', borderLeft: '3px solid var(--accent-color)', paddingLeft: '16px' }}>
-        If you are looking for a professional website you fully own, without binding monthly fees, <a href="/en/services">discover my custom website design services →</a>
-      </p>
-
-      <h2 id="quando-ha-senso-abbonamento">When a monthly subscription truly makes sense</h2>
-      <p>The monthly subscription, on the other hand, makes sense if:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>You want to <strong>start right away</strong> with a well-made site, but prefer to divide the investment over time.</li>
-        <li>You need <strong>continuous updates</strong> (new pages, offer testing, constant optimization).</li>
-        <li>You want to stably delegate:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>technical maintenance</li>
-            <li>small corrective interventions</li>
-            <li>constant support for content or campaigns</li>
-          </ul>
-        </li>
-        <li>You already have a workflow where the site is a living piece of your marketing, not a static brochure.</li>
-      </ul>
-
-      <p>The important thing is that the fee is:</p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li><strong>limited in time</strong> (no endless "cages" for no reason)</li>
-        <li><strong>transparent</strong> on what happens:
-          <ul style={{ paddingLeft: '20px', marginTop: '8px' }}>
-            <li>after how many months you have paid off the initial setup</li>
-            <li>what happens if you leave early</li>
-            <li>who remains the owner of the site and domain</li>
-          </ul>
-        </li>
-      </ul>
-
-      <h2 id="regola-semplice">A simple rule to decide</h2>
-      <p>You can use this question as a quick filter:</p>
-      <blockquote style={{ borderLeft: '4px solid var(--accent-color)', paddingLeft: '16px', fontStyle: 'italic', margin: '24px 0' }}>
-        “Between 18–24 months, do I want to have paid for a <strong>project</strong> or do I want to have <strong>a partner</strong> who works on the site every month?”
-      </blockquote>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>If your priority is <strong>"having the site done well, owning it, and then managing only the bare minimum"</strong>, the <strong>one-time payment</strong> with a possible small fee only for hosting and basic maintenance is usually better.</li>
-        <li>If your priority is <strong>"having someone who puts their hand to the site every month, updates it, and makes it grow with me"</strong>, then <strong>a clear and structured subscription</strong> can make sense, provided it is well written.</li>
-      </ul>
-
-      <h2>FAQ - Frequently Asked Questions about Subscriptions vs One-Time Payment</h2>
-      <dl className="faq-list">
-        <dt>What is the main difference between a subscription site and a one-time payment site?</dt>
-        <dd>With a one-time payment, you purchase the site as a proprietary asset: once paid off, it's yours and you only pay hosting/domain costs. With a monthly subscription, you pay a recurring fee for using the site and receiving continuous maintenance, updates, and support.</dd>
-        
-        <dt>Who owns the domain and website under a subscription model?</dt>
-        <dd>It depends on the agreement. In many low-cost services, the agency retains ownership, and if you stop paying, the site is taken down. In professional contracts, it is crucial that you own the domain and that a buyout clause is defined for the site's ownership.</dd>
-        
-        <dt>What happens if I want to cancel my monthly website subscription?</dt>
-        <dd>Typically, monthly subscription contracts have a minimum binding period (e.g., 12, 24, or 36 months). If you cancel early, you may be required to pay the remaining balance or a termination penalty. Always verify this clause in the agreement.</dd>
-      </dl>
-
-      <h2 id="cosa-fare-pratica">And now, what can you do practically?</h2>
-      <p>
-        If you have a "monthly subscription site" proposal or a one-time payment quote in your hand and you are not sure what is best for you, you can do a simple thing:
-      </p>
-      <ul style={{ paddingLeft: '20px' }}>
-        <li>take the quote you received</li>
-        <li>see if it clearly distinguishes <strong>initial project, technical costs, and ongoing work</strong></li>
-        <li>if it is not clear, ask that it be rewritten separating these three parts</li>
-      </ul>
 
       <div style={{
-        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.5) 0%, rgba(200, 217, 230, 0.1) 100%)',
-        border: '1px solid rgba(86, 124, 141, 0.15)',
+        background: 'rgba(86, 124, 141, 0.06)',
+        borderRadius: '16px',
+        padding: '24px 28px',
+        margin: '28px 0',
+        border: '1px solid rgba(86, 124, 141, 0.2)'
+      }}>
+        <h3 style={{ marginTop: 0, fontSize: '19px', color: 'var(--text-primary)' }}>
+          Scenario A: Agency Monthly Rental (€90 / month + VAT)
+        </h3>
+        <ul style={{ paddingLeft: '20px', marginBottom: '20px' }}>
+          <li>Year 1 Spend: <strong>€1,080</strong></li>
+          <li>Total Spend after 3 years: <strong>€3,240</strong></li>
+          <li>Total Spend after 5 years: <strong>€5,400</strong></li>
+          <li><strong>Accumulated Equity at Year 5: €0</strong> (if you cancel payments, you walk away with nothing).</li>
+        </ul>
+
+        <h3 style={{ marginTop: '20px', fontSize: '19px', color: 'var(--text-primary)' }}>
+          Scenario B: Custom Owned Website by Elton Brahja (€1,600 One-Off)
+        </h3>
+        <ul style={{ paddingLeft: '20px', margin: 0 }}>
+          <li>Year 1 Spend: €1,600 development + €90 hosting = <strong>€1,690</strong></li>
+          <li>Total Spend after 3 years: €1,600 + (€90 × 3) = <strong>€1,870</strong></li>
+          <li>Total Spend after 5 years: €1,600 + (€90 × 5) = <strong>€2,050</strong></li>
+          <li><strong>Net Financial Savings at Year 5: €3,350 saved</strong>, with an asset that you own 100%, loads in sub-second speeds, and actively generates inbound leads on Google.</li>
+        </ul>
+      </div>
+
+      <p>
+        The numbers are clear: the supposed financial benefit of paying monthly disappears completely by month 18 to 20. From that point onward, every monthly invoice represents an unearned surcharge eating into your operational profit margins.
+      </p>
+
+      {/* ========================================================
+          SECTION 5: VENDOR LOCK-IN RISKS
+          ======================================================== */}
+      <h2 id="vendor-lockin-risks">5. Vendor lock-in and exit clauses: what happens when you want to switch providers</h2>
+      <p>
+        The most dangerous aspect of subscription models is not just monetary—it is operational: <strong>Vendor Lock-in</strong>.
+      </p>
+      <p>
+        Most business owners only realize this trap when, dissatisfied with slow customer service or outdated performance, they attempt to switch developers. Here is what they frequently encounter in the fine print:
+      </p>
+      <ul style={{ paddingLeft: '20px' }}>
+        <li>
+          <strong>Termination Buyout Clauses:</strong> If you wish to migrate away before the 24 or 36-month term expires, agencies often demand a buyout penalty ranging from €1,000 to €1,800.
+        </li>
+        <li>
+          <strong>Proprietary Closed CMS Frameworks:</strong> Many agencies build on their own locked-down software rather than open, portable code. This means even if you pay the buyout fee, the files cannot run on standard web servers—forcing you to scrap everything and start from zero.
+        </li>
+        <li>
+          <strong>Domain Hostage Situations:</strong> The domain is registered with the agency's credentials rather than yours, resulting in tedious administrative fights just to obtain the authorization transfer code (Auth-Info).
+        </li>
+      </ul>
+
+      {/* ========================================================
+          SECTION 6: WHEN RETAINERS MAKE SENSE
+          ======================================================== */}
+      <h2 id="when-retainer-makes-sense">6. When a recurring fee makes sense vs when it is wasted money</h2>
+      <p>
+        To provide a balanced view, there are scenarios where ongoing monthly retainers are sound business decisions. The rule of thumb is straightforward: <strong>are you paying for ongoing active labor or a passive static asset?</strong>
+      </p>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', margin: '24px 0' }}>
+        <div style={{
+          background: 'rgba(217, 83, 79, 0.08)',
+          borderLeft: '4px solid #d9534f',
+          padding: '16px 20px',
+          borderRadius: '0 8px 8px 0'
+        }}>
+          <strong>When a Monthly Retainer is UNJUSTIFIED:</strong>
+          <p style={{ margin: '6px 0 0 0', fontSize: '14px' }}>
+            Paying €70–€120/month for a standard presentation website or clinical practice that only needs minor updates to opening hours or phone numbers. A clean, properly engineered modern website does not break on its own and requires no passive retainer to remain online.
+          </p>
+        </div>
+
+        <div style={{
+          background: 'rgba(92, 184, 92, 0.08)',
+          borderLeft: '4px solid #5cb85c',
+          padding: '16px 20px',
+          borderRadius: '0 8px 8px 0'
+        }}>
+          <strong>When a Monthly Retainer MAKES SENSE:</strong>
+          <p style={{ margin: '6px 0 0 0', fontSize: '14px' }}>
+            When the fee funds proactive marketing activities that generate direct pipeline revenue: such as managing Google Ads with weekly bid optimization, or drafting and publishing targeted Local SEO articles. In that scenario, you are not paying to rent a website—you are investing in lead generation.
+          </p>
+        </div>
+      </div>
+
+      {/* ========================================================
+          SECTION 7: REAL-WORLD PORTFOLIO PROOF
+          ======================================================== */}
+      <h2 id="portfolio-case-studies">7. Real-world proof: high-performance owned platforms from our portfolio</h2>
+      <p>
+        Our core philosophy at <a href="/en/portfolio" style={{ color: 'var(--accent-color)', fontWeight: '600' }}>eltonbrahja.eu/portfolio</a> is uncompromised independence: our clients never feel trapped by their technology. Every platform we deliver is <strong>100% owned by the client</strong>, completely free of recurring retainers, and engineered for maximum conversion:
+      </p>
+
+      <ul style={{ paddingLeft: '20px' }}>
+        <li>
+          <strong>Studio Dr.ssa Marascio (Psychology &amp; Psychotherapy):</strong> Built with an integrated, automated clinical booking engine (LatePoint) connected directly to Google Calendar. The practice owns 100% of the platform, eliminating €60–€100/month subscriptions to third-party medical appointment directories.
+        </li>
+        <li>
+          <strong>Studio Dott.ssa Danubia Macario (International Clinical Consultation):</strong> A bilingual healthcare portal loading in under 0.7s with proprietary architecture. The client handles patients across Italy and abroad with complete administrative autonomy and zero recurring agency fees.
+        </li>
+        <li>
+          <strong>B&amp;B Palazzo Dana (Hospitality &amp; Direct Booking):</strong> Designed with a tailored direct reservation system and two-way iCal synchronization, enabling the boutique accommodation to take direct commission-free bookings without paying monthly SaaS subscriptions to external booking platforms.
+        </li>
+      </ul>
+
+      {/* ========================================================
+          SECTION 8: FAQ OWNED VS SUBSCRIPTION
+          ======================================================== */}
+      <h2 id="faq-owned-website">8. Frequently Asked Questions (FAQ) on Owned vs Subscription Websites</h2>
+      <dl className="faq-list">
+        <dt>What is the core difference between an owned website and a monthly subscription website?</dt>
+        <dd>
+          An owned website is a business asset that belongs exclusively to you: after paying a one-off development fee, you own 100% of the code, domain, and content, paying only direct annual hosting costs (around €80-€120/year). A monthly subscription website is an endless rental: you pay a recurring fee (€50-€150/month), and if you cancel, the site is switched off and you lose all accumulated equity.
+        </dd>
+
+        <dt>How much does it cost to maintain an owned website per year?</dt>
+        <dd>
+          For a professional custom-owned website, the only recurring mandatory expenses are domain renewal and fast professional hosting, totaling between €80 and €150 per year. There are no mandatory agency retainer fees or locked subscriptions.
+        </dd>
+
+        <dt>What happens if I cancel a rented website contract with an agency?</dt>
+        <dd>
+          In most subscription contracts, the agency retains ownership of the code and templates. Upon cancellation, your site is removed from the web or you face a steep buyout penalty (often between €1,000 and €2,000) for legacy files that are rarely portable to other servers.
+        </dd>
+
+        <dt>When does it actually make sense to pay a monthly retainer to an agency?</dt>
+        <dd>
+          A monthly retainer only makes sense when it pays for proactive, continuous growth activities: managing Google or Meta Ad campaigns, publishing weekly SEO content, or providing 24/7 technical operations for high-volume e-commerce. Paying an ongoing retainer just to keep a presentation website online makes zero financial sense.
+        </dd>
+
+        <dt>If I purchase an owned website, can I edit text and images independently?</dt>
+        <dd>
+          Yes. Our owned platforms are built to be intuitive and autonomous. Upon delivery, we configure everything so you can freely update text, opening hours, services, and blog articles without paying billable agency hours for every small change.
+        </dd>
+      </dl>
+
+      {/* ========================================================
+          CTA BOX FINALE
+          ======================================================== */}
+      <div id="cta-fixed-price-quote" style={{
+        background: 'linear-gradient(135deg, rgba(245, 239, 235, 0.8) 0%, rgba(200, 217, 230, 0.3) 100%)',
+        border: '1px solid rgba(86, 124, 141, 0.25)',
         borderRadius: '24px',
-        padding: '40px',
+        padding: '40px 32px',
         marginTop: '60px',
         textAlign: 'center',
         position: 'relative',
         overflow: 'hidden',
-        boxShadow: '0 20px 40px var(--shadow-color)'
+        boxShadow: '0 20px 40px rgba(0,0,0,0.05)'
       }}>
-        <div style={{
-          position: 'absolute',
-          top: '-50%',
-          left: '-50%',
-          width: '200%',
-          height: '200%',
-          background: 'radial-gradient(circle, rgba(168, 85, 247, 0.05) 0%, transparent 70%)',
-          pointerEvents: 'none'
-        }} />
-        <h3 style={{ fontSize: '24px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
-          Do you want help reading your quote?
+        <h3 style={{ fontSize: '26px', fontWeight: '700', marginBottom: '16px', color: 'var(--text-primary)', marginTop: 0 }}>
+          Looking for a High-Performance Website Without Endless Monthly Fees?
         </h3>
-        <p style={{ color: 'rgba(86, 124, 141, 0.9)', fontSize: '16px', maxWidth: '600px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
-          I can take a look at the proposal you received and tell you honestly if the one-time payment or the fee suits you better. Write to me and attach it without any obligation.
+        <p style={{ color: 'rgba(47, 65, 86, 0.85)', fontSize: '16px', maxWidth: '640px', margin: '0 auto 24px auto', lineHeight: '1.6' }}>
+          Build your digital presence with a transparent, fixed-price one-off investment. 100% owned code, sub-second mobile speeds, and zero hidden subscriptions.
         </p>
-        <a href="/en/#contact" className="filter-chip active" style={{ 
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '8px',
-          textDecoration: 'none',
-          padding: '12px 32px',
-          fontSize: '15px',
-          fontWeight: '600',
-          borderRadius: '9999px',
-          boxShadow: '0 8px 24px rgba(168, 85, 247, 0.3)',
-          border: 'none',
-          color: 'var(--bg-color)', background: 'var(--accent-color)'
-        }}>
-          Send the quote for evaluation →
-        </a>
+        <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <a
+            href="mailto:elton.brahja.s@gmail.com?subject=Fixed%20Price%20Owned%20Website%20Inquiry"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              textDecoration: 'none',
+              padding: '14px 32px',
+              fontSize: '15px',
+              fontWeight: '600',
+              borderRadius: '9999px',
+              boxShadow: '0 8px 24px rgba(44, 62, 80, 0.2)',
+              color: '#ffffff',
+              backgroundColor: 'var(--accent-color)'
+            }}
+          >
+            Get a Fixed-Price Quote →
+          </a>
+          <a
+            href="/en/portfolio"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '8px',
+              textDecoration: 'none',
+              padding: '14px 28px',
+              fontSize: '15px',
+              fontWeight: '600',
+              borderRadius: '9999px',
+              border: '1px solid rgba(86, 124, 141, 0.3)',
+              color: 'var(--text-primary)',
+              backgroundColor: 'rgba(255, 255, 255, 0.8)'
+            }}
+          >
+            Explore Case Studies
+          </a>
+        </div>
       </div>
     </div>
   )
 };
-
-

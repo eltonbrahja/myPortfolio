@@ -57,6 +57,11 @@ import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-si
 
 export const blogPosts = [
   {
+    id: "sito-abbonamento-vs-pagamento-unico",
+    it: sitoAbbonamentoVsPagamentoUnicoPost,
+    en: sitoAbbonamentoVsPagamentoUnicoPostEn
+  },
+  {
     id: "restyling-sito-web-prezzo",
     it: restylingSitoWebPrezzoPost,
     en: restylingSitoWebPrezzoPostEn
@@ -141,12 +146,6 @@ export const blogPosts = [
     hidden: true,
     it: checklistSitoWebControlliOnlinePost,
     en: checklistSitoWebControlliOnlinePostEn
-  },
-  {
-    id: "sito-abbonamento-vs-pagamento-unico",
-    hidden: true,
-    it: sitoAbbonamentoVsPagamentoUnicoPost,
-    en: sitoAbbonamentoVsPagamentoUnicoPostEn
   },
   {
     id: "raccontare-storia-attivita",
