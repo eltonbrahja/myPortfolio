@@ -131,7 +131,13 @@ const Blog = () => {
                     <GlassCard className="blog-card" hoverable disableScrollAnimation>
                   <Link to={localizePath(`/blog/${post.id}`)} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', flexDirection: 'column', height: '100%' }}>
                     <div className="blog-image-wrapper">
-                      <img src={post.image} alt={post.title} className="blog-image" loading={index < 4 ? "eager" : "lazy"} />
+                      {post.image ? (
+                        <img src={post.image} alt={post.title} className="blog-image" loading={index < 4 ? "eager" : "lazy"} />
+                      ) : (
+                        <div style={{ width: '100%', height: '100%', minHeight: '200px', background: 'linear-gradient(135deg, rgba(86, 124, 141, 0.2), rgba(47, 65, 86, 0.4))', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                          <span style={{ fontSize: '13px', color: 'rgba(255, 255, 255, 0.85)', fontWeight: 600, letterSpacing: '0.5px' }}>{post.category}</span>
+                        </div>
+                      )}
                       <span className="blog-category">{post.category}</span>
                     </div>
                     <div className="blog-content">

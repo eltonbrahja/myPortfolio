@@ -8,7 +8,7 @@ export const sitoAbbonamentoVsPagamentoUnicoPostEn = {
   date: "October 13, 2026",
   readTime: "10 min read",
   category: "Pricing & Strategy",
-  image: "/fotis-fotopoulos-6sAl6aQ4OWI-unsplash.jpg",
+  image: "/sito-abbonamento-vs-proprietario.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",

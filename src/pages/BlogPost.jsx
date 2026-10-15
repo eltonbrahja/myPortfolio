@@ -21,7 +21,7 @@ const BlogPost = () => {
   useEffect(() => {
     if (post) {
       // Add JSON-LD for rich snippets
-      const imageUrl = post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`;
+      const imageUrl = post.image ? (post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`) : 'https://www.eltonbrahja.eu/profile.webp';
       const structuredData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
@@ -100,7 +100,7 @@ const BlogPost = () => {
         hreflangIt={`https://www.eltonbrahja.eu/blog/${id}`}
         hreflangEn={`https://www.eltonbrahja.eu/en/blog/${id}`}
         type="article"
-        image={post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`}
+        image={post.image ? (post.image.startsWith('http') ? post.image : `https://www.eltonbrahja.eu${post.image}`) : 'https://www.eltonbrahja.eu/profile.webp'}
       />
       <div className="blog-container">
         <motion.article 
@@ -123,9 +123,11 @@ const BlogPost = () => {
             <h1 className="article-title">{post.title}</h1>
           </div>
 
-          <div className="article-hero-image">
-            <img src={post.image} alt={post.title} />
-          </div>
+          {post.image ? (
+            <div className="article-hero-image">
+              <img src={post.image} alt={post.title} />
+            </div>
+          ) : null}
 
           {post.content}
         </motion.article>

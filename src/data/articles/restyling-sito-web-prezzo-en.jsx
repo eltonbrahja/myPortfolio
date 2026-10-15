@@ -8,7 +8,7 @@ export const restylingSitoWebPrezzoPostEn = {
   date: "October 13, 2026",
   readTime: "11 min read",
   category: "Pricing & Strategy",
-  image: "/lee-campbell-Pmw_LMwmOdU-unsplash.jpg",
+  image: "/restyling-sito-web.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",

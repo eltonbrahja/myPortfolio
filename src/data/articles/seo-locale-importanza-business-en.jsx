@@ -8,7 +8,7 @@ export const seoLocaleImportanzaBusinessPostEn = {
   date: "October 9, 2026",
   readTime: "10 min read",
   category: "Local SEO",
-  image: "/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg",
+  image: "/seo-locale-business.jpg",
   schema: {
     "@context": "https://schema.org",
     "@type": "FAQPage",

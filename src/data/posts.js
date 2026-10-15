@@ -1,3 +1,5 @@
+import { sitoWebStudioMedicoFisioterapistaPost } from './articles/sito-web-studio-medico-fisioterapista';
+import { sitoWebStudioMedicoFisioterapistaPostEn } from './articles/sito-web-studio-medico-fisioterapista-en';
 import { restylingSitoWebPrezzoPost } from './articles/restyling-sito-web-prezzo';
 import { restylingSitoWebPrezzoPostEn } from './articles/restyling-sito-web-prezzo-en';
 import { eliminareCommissioniBookingPost } from './articles/eliminare-commissioni-booking-sito-bnb';
@@ -56,6 +58,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-studio-medico-fisioterapista",
+    it: sitoWebStudioMedicoFisioterapistaPost,
+    en: sitoWebStudioMedicoFisioterapistaPostEn
+  },
   {
     id: "sito-abbonamento-vs-pagamento-unico",
     it: sitoAbbonamentoVsPagamentoUnicoPost,
