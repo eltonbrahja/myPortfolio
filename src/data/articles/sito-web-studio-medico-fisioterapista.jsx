@@ -92,17 +92,17 @@ export const sitoWebStudioMedicoFisioterapistaPost = {
       <div className="article-toc">
         <div className="toc-title">Indice dei Contenuti</div>
         <ol className="toc-list">
-          <li><a href="#normativa-pubblicita-sanitaria">1. La Legge 145/2018 sulla Pubblicità Sanitaria: cosa è consentito e cosa è vietato</a></li>
-          <li><a href="#dati-sanitari-gdpr-art9">2. Il vincolo dell'Articolo 9 del GDPR: moduli di contatto e gestione dei dati clinici</a></li>
-          <li><a href="#architettura-schede-prestazione">3. Schede prestazione ad alta chiarezza: informare il paziente senza formule commerciali</a></li>
-          <li><a href="#automazione-booking-sanitario">4. Il sistema di prenotazione integrato: gestire l'agenda senza telefonate durante le visite</a></li>
-          <li><a href="#tabella-aggregatori-vs-proprietario">5. Tabella comparativa: Portali Aggregatori vs Sito Template vs Piattaforma Sanitaria su Misura</a></li>
-          <li><a href="#dati-obbligatori-footer">6. Dati obbligatori e trasparenza ordinistica: gli elementi da inserire per legge</a></li>
-          <li><a href="#casi-studio-sanitari">7. Prove sul campo: due piattaforme cliniche attive nel nostro portfolio</a></li>
-          <li><a href="#calcolo-roi-studio-medico">8. Il calcolo economico del ROI: come ammortizzare l'investimento in pochi mesi</a></li>
-          <li><a href="#seo-locale-pazienti">9. SEO Locale per medici e fisioterapisti: farsi trovare dai pazienti della propria città</a></li>
-          <li><a href="#faq-siti-medici">10. Domande Frequenti (FAQ) su siti web per studi medici e fisioterapici</a></li>
-          <li><a href="#cta-consulenza-sanitaria">11. Progetta la presenza digitale a norma per il tuo studio medico o fisioterapico</a></li>
+          <li><a href="#normativa-pubblicita-sanitaria">La Legge 145/2018 sulla Pubblicità Sanitaria: cosa è consentito e cosa è vietato</a></li>
+          <li><a href="#dati-sanitari-gdpr-art9">Il vincolo dell'Articolo 9 del GDPR: moduli di contatto e gestione dei dati clinici</a></li>
+          <li><a href="#architettura-schede-prestazione">Schede prestazione ad alta chiarezza: informare il paziente senza formule commerciali</a></li>
+          <li><a href="#automazione-booking-sanitario">Il sistema di prenotazione integrato: gestire l'agenda senza telefonate durante le visite</a></li>
+          <li><a href="#tabella-aggregatori-vs-proprietario">Tabella comparativa: Portali Aggregatori vs Sito Template vs Piattaforma Sanitaria su Misura</a></li>
+          <li><a href="#dati-obbligatori-footer">Dati obbligatori e trasparenza ordinistica: gli elementi da inserire per legge</a></li>
+          <li><a href="#casi-studio-sanitari">Prove sul campo: due piattaforme cliniche attive nel nostro portfolio</a></li>
+          <li><a href="#calcolo-roi-studio-medico">Il calcolo economico del ROI: come ammortizzare l'investimento in pochi mesi</a></li>
+          <li><a href="#seo-locale-pazienti">SEO Locale per medici e fisioterapisti: farsi trovare dai pazienti della propria città</a></li>
+          <li><a href="#faq-siti-medici">Domande Frequenti (FAQ) su siti web per studi medici e fisioterapici</a></li>
+          <li><a href="#cta-consulenza-sanitaria">Progetta la presenza digitale a norma per il tuo studio medico o fisioterapico</a></li>
         </ol>
       </div>
 

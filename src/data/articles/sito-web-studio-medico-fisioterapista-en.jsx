@@ -92,17 +92,17 @@ export const sitoWebStudioMedicoFisioterapistaPostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#healthcare-advertising-regulations">1. Healthcare advertising laws: what is permitted and what is prohibited</a></li>
-          <li><a href="#gdpr-article-9-health-data">2. GDPR Article 9 compliance: patient contact forms and clinical data security</a></li>
-          <li><a href="#clinical-service-pages">3. High-clarity clinical service pages: informative content without commercial hype</a></li>
-          <li><a href="#automated-patient-booking">4. Integrated booking systems: managing your calendar without treatment disruptions</a></li>
-          <li><a href="#comparison-aggregators-vs-owned">5. Comparative table: Aggregator Directories vs Template Sites vs Custom Owned Platform</a></li>
-          <li><a href="#mandatory-practice-information">6. Mandatory regulatory details: what must be visible on your website</a></li>
-          <li><a href="#case-studies-healthcare">7. Field proof: two active clinical platforms from our portfolio</a></li>
-          <li><a href="#roi-calculation-practice">8. The economic calculation of ROI: recovering your investment in months</a></li>
-          <li><a href="#local-seo-physicians">9. Local SEO for doctors and physiotherapists: capturing nearby patients</a></li>
-          <li><a href="#faq-healthcare-websites">10. Frequently Asked Questions (FAQ) for medical and physiotherapy practices</a></li>
-          <li><a href="#cta-healthcare-consultation">11. Build a compliant, automated digital presence for your practice</a></li>
+          <li><a href="#healthcare-advertising-regulations">Healthcare advertising laws: what is permitted and what is prohibited</a></li>
+          <li><a href="#gdpr-article-9-health-data">GDPR Article 9 compliance: patient contact forms and clinical data security</a></li>
+          <li><a href="#clinical-service-pages">High-clarity clinical service pages: informative content without commercial hype</a></li>
+          <li><a href="#automated-patient-booking">Integrated booking systems: managing your calendar without treatment disruptions</a></li>
+          <li><a href="#comparison-aggregators-vs-owned">Comparative table: Aggregator Directories vs Template Sites vs Custom Owned Platform</a></li>
+          <li><a href="#mandatory-practice-information">Mandatory regulatory details: what must be visible on your website</a></li>
+          <li><a href="#case-studies-healthcare">Field proof: two active clinical platforms from our portfolio</a></li>
+          <li><a href="#roi-calculation-practice">The economic calculation of ROI: recovering your investment in months</a></li>
+          <li><a href="#local-seo-physicians">Local SEO for doctors and physiotherapists: capturing nearby patients</a></li>
+          <li><a href="#faq-healthcare-websites">Frequently Asked Questions (FAQ) for medical and physiotherapy practices</a></li>
+          <li><a href="#cta-healthcare-consultation">Build a compliant, automated digital presence for your practice</a></li>
         </ol>
       </div>
 
