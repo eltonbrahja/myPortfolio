@@ -70,15 +70,15 @@ export const sitoWebMultilinguaProfessionalePostEn = {
       <div className="article-toc">
         <div className="toc-title">Table of Contents</div>
         <ol className="toc-list">
-          <li><a href="#trap-auto-widgets">1. The illusion of automated widgets: why flags alone generate zero sales</a></li>
-          <li><a href="#multilingual-url-architecture">2. URL architecture: Subdirectories, Subdomains, or ccTLDs?</a></li>
-          <li><a href="#hreflang-and-canonical">3. Hreflang and canonical tags: the essential roadmap for Google</a></li>
-          <li><a href="#translation-vs-localization">4. Literal translation vs Cultural localization</a></li>
-          <li><a href="#comparison-table-multilingual">5. Comparison Table: Widgets vs Heavy CMS Plugins vs Custom Architecture</a></li>
-          <li><a href="#case-study-macario">6. Real-world proof of work: Dott.ssa Danubia Macario's bilingual platform</a></li>
-          <li><a href="#roi-calculation-foreign-clients">7. Calculating ROI: what is an international client or guest worth?</a></li>
-          <li><a href="#faq-multilingual-sites">8. Frequently Asked Questions (FAQ) on multilingual web design</a></li>
-          <li><a href="#cta-multilingual-consultation">9. Ready to expand your reach to international clients?</a></li>
+          <li><a href="#trap-auto-widgets">The illusion of automated widgets: why flags alone generate zero sales</a></li>
+          <li><a href="#multilingual-url-architecture">URL architecture: Subdirectories, Subdomains, or ccTLDs?</a></li>
+          <li><a href="#hreflang-and-canonical">Hreflang and canonical tags: the essential roadmap for Google</a></li>
+          <li><a href="#translation-vs-localization">Literal translation vs Cultural localization</a></li>
+          <li><a href="#comparison-table-multilingual">Comparison Table: Widgets vs Heavy CMS Plugins vs Custom Architecture</a></li>
+          <li><a href="#case-study-macario">Real-world proof of work: Dott.ssa Danubia Macario's bilingual platform</a></li>
+          <li><a href="#roi-calculation-foreign-clients">Calculating ROI: what is an international client or guest worth?</a></li>
+          <li><a href="#faq-multilingual-sites">Frequently Asked Questions (FAQ) on multilingual web design</a></li>
+          <li><a href="#cta-multilingual-consultation">Ready to expand your reach to international clients?</a></li>
         </ol>
       </div>
 

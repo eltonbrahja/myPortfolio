@@ -70,15 +70,15 @@ export const sitoWebMultilinguaProfessionalePost = {
       <div className="article-toc">
         <div className="toc-title">Indice dei Contenuti</div>
         <ol className="toc-list">
-          <li><a href="#trappola-widget-automatici">1. L'illusione dei widget automatici: perché la bandierina in alto non produce vendite</a></li>
-          <li><a href="#architettura-url-multilingua">2. Architettura tecnica degli URL: Sottocartelle, Sottodomini o Domini ccTLD?</a></li>
-          <li><a href="#tag-hreflang-canonical">3. Tag hreflang e canonical: la bussola indispensabile per Google</a></li>
-          <li><a href="#traduzione-vs-localizzazione">4. Traduzione letterale vs Localizzazione culturale dei contenuti</a></li>
-          <li><a href="#tabella-comparativa-multilingua">5. Tabella comparativa: Widget vs Plugin Tradizionali vs Architettura Custom</a></li>
-          <li><a href="#caso-studio-portfolio-macario">6. Esperienza sul campo: il caso bilingue dello Studio Dott.ssa Danubia Macario</a></li>
-          <li><a href="#calcolo-roi-clienti-esteri">7. Il calcolo del ritorno economico (ROI): quanto vale un cliente internazionale</a></li>
-          <li><a href="#faq-sito-multilingua">8. Domande Frequenti (FAQ) sui siti web multilingua</a></li>
-          <li><a href="#cta-consulenza-multilingua">9. Vuoi espandere la tua attività oltre i confini nazionali?</a></li>
+          <li><a href="#trappola-widget-automatici">L'illusione dei widget automatici: perché la bandierina in alto non produce vendite</a></li>
+          <li><a href="#architettura-url-multilingua">Architettura tecnica degli URL: Sottocartelle, Sottodomini o Domini ccTLD?</a></li>
+          <li><a href="#tag-hreflang-canonical">Tag hreflang e canonical: la bussola indispensabile per Google</a></li>
+          <li><a href="#traduzione-vs-localizzazione">Traduzione letterale vs Localizzazione culturale dei contenuti</a></li>
+          <li><a href="#tabella-comparativa-multilingua">Tabella comparativa: Widget vs Plugin Tradizionali vs Architettura Custom</a></li>
+          <li><a href="#caso-studio-portfolio-macario">Esperienza sul campo: il caso bilingue dello Studio Dott.ssa Danubia Macario</a></li>
+          <li><a href="#calcolo-roi-clienti-esteri">Il calcolo del ritorno economico (ROI): quanto vale un cliente internazionale</a></li>
+          <li><a href="#faq-sito-multilingua">Domande Frequenti (FAQ) sui siti web multilingua</a></li>
+          <li><a href="#cta-consulenza-multilingua">Vuoi espandere la tua attività oltre i confini nazionali?</a></li>
         </ol>
       </div>
 
