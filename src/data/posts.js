@@ -1,3 +1,5 @@
+import { sitoWebMultilinguaProfessionalePost } from './articles/sito-web-multilingua-professionale';
+import { sitoWebMultilinguaProfessionalePostEn } from './articles/sito-web-multilingua-professionale-en';
 import { sitoWebStudioMedicoFisioterapistaPost } from './articles/sito-web-studio-medico-fisioterapista';
 import { sitoWebStudioMedicoFisioterapistaPostEn } from './articles/sito-web-studio-medico-fisioterapista-en';
 import { restylingSitoWebPrezzoPost } from './articles/restyling-sito-web-prezzo';
@@ -58,6 +60,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "sito-web-multilingua-professionale",
+    it: sitoWebMultilinguaProfessionalePost,
+    en: sitoWebMultilinguaProfessionalePostEn
+  },
   {
     id: "sito-web-studio-medico-fisioterapista",
     it: sitoWebStudioMedicoFisioterapistaPost,

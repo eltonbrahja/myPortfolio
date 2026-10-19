@@ -92,25 +92,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ## 8. Gli Articoli Strategici da Scrivere per Acquisire Clienti Paganti
 
-### Articolo 1: Perché il Tuo Sito Web Non Porta Clienti? I 5 Errori Tecnici che Bloccano le Conversioni
-- **Keyword:** `perché il sito web non converte`, `sito web non riceve contatti`, `errori sito web aziendale`
-- **Target:** Titolari d'azienda che ritengono inutile il proprio sito web attuale.
-- **Problema:** Zero lead o telefonate ricevute a fronte di spese sostenute in precedenza.
-- **Soluzione:** Analisi su tempi di caricamento, complessità dei moduli e chiarezza della proposta.
-- **CTA:** Richiesta di audit tecnico e di usabilità per individuare i colli di bottiglia.
-
----
-
-### Articolo 2: Sito Web Multilingua: Come Strutturarlo per Offrire Servizi a Clienti Esteri
-- **Keyword:** `sito web multilingua professionale`, `creazione sito web bilingue`, `seo multilingua`
-- **Target:** Professionisti con clientela internazionale e operatori ricettivi.
-- **Problema:** Traduzioni automatiche di bassa qualità che allontanano i clienti e non si posizionano su Google.
-- **Soluzione:** Configurazione tecnica corretta (hreflang, architettura URL). *Case study: Studio Dott.ssa Danubia Macario*.
-- **CTA:** Progettazione di un'architettura multilingua conforme.
-
----
-
-### Articolo 3: Quanto Costa Sviluppare una Web App o un Sistema di Prenotazione su Misura?
+### Articolo 1: Quanto Costa Sviluppare una Web App o un Sistema di Prenotazione su Misura?
 - **Keyword:** `costo web app personalizzata`, `sviluppo software su misura pmi`, `sistema prenotazione su misura`
 - **Target:** Imprese con flussi organizzativi specifici non coperti dai plugin standard.
 - **Problema:** Software SaaS preconfezionati rigidi e con costi di licenza mensili elevati.
@@ -119,7 +101,7 @@ Gli argomenti devono posizionarsi all'intersezione tra le esigenze concrete dell
 
 ---
 
-### Articolo 4: Sito Web vs Social Media: Il Rischio di Affidare il Tuo Business Solo a Instagram
+### Articolo 2: Sito Web vs Social Media: Il Rischio di Affidare il Tuo Business Solo a Instagram
 - **Keyword:** `serve ancora un sito web`, `sito web o instagram`, `perché avere un sito aziendale`
 - **Target:** Piccoli imprenditori che investono solo sui canali social.
 - **Problema:** Calo continuo della copertura organica e dipendenza dai costi delle sponsorizzazioni.
