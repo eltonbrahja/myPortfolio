@@ -1,3 +1,5 @@
+import { costoWebAppPersonalizzataPost } from './articles/costo-web-app-personalizzata';
+import { costoWebAppPersonalizzataPostEn } from './articles/costo-web-app-personalizzata-en';
 import { sitoWebMultilinguaProfessionalePost } from './articles/sito-web-multilingua-professionale';
 import { sitoWebMultilinguaProfessionalePostEn } from './articles/sito-web-multilingua-professionale-en';
 import { sitoWebStudioMedicoFisioterapistaPost } from './articles/sito-web-studio-medico-fisioterapista';
@@ -60,6 +62,11 @@ import { erroriDominioHostingPost } from './articles/errori-dominio-hosting-sito
 import { erroriDominioHostingPostEn } from './articles/errori-dominio-hosting-sito-aziendale-en';
 
 export const blogPosts = [
+  {
+    id: "costo-web-app-personalizzata",
+    it: costoWebAppPersonalizzataPost,
+    en: costoWebAppPersonalizzataPostEn
+  },
   {
     id: "sito-web-multilingua-professionale",
     it: sitoWebMultilinguaProfessionalePost,
