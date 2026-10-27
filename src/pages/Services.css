@@ -86,46 +86,38 @@
   padding: 48px 48px 48px 56px;
 }
 
-/* ── Top Row (Icon + Number) ── */
-.service-top-row {
+/* ── Header Row (Title + Number Aligned) ── */
+.service-header-row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 28px;
+  gap: 24px;
+  margin-bottom: 24px;
 }
 
-.service-icon-box-lg {
-  width: 64px;
-  height: 64px;
-  border-radius: 18px;
-  border: 1px solid;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s ease;
-}
-
-.service-section:hover .service-icon-box-lg {
-  transform: scale(1.05);
-}
-
-.service-number {
-  font-size: 56px;
-  font-weight: 800;
-  opacity: 0.12;
-  letter-spacing: -0.04em;
-  line-height: 1;
-  user-select: none;
-}
-
-/* ── Title ── */
 .service-section-title {
-  font-size: clamp(24px, 3vw, 32px);
+  font-size: clamp(24px, 3.2vw, 36px);
   font-weight: 700;
   letter-spacing: -0.02em;
   color: var(--text-primary);
-  margin-bottom: 16px;
-  line-height: 1.2;
+  margin: 0;
+  line-height: 1.25;
+}
+
+.service-number {
+  font-size: clamp(38px, 4.5vw, 56px);
+  font-weight: 800;
+  opacity: 0.6;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  user-select: none;
+  flex-shrink: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.service-section:hover .service-number {
+  opacity: 0.9;
+  transform: scale(1.04);
 }
 
 /* ── Description ── */
@@ -398,19 +390,14 @@
     padding: 32px 20px 32px 28px;
   }
 
+  .service-header-row {
+    gap: 16px;
+    margin-bottom: 18px;
+  }
+
   .service-number {
-    font-size: 40px;
-  }
-
-  .service-icon-box-lg {
-    width: 52px;
-    height: 52px;
-    border-radius: 14px;
-  }
-
-  .service-icon-box-lg svg {
-    width: 28px;
-    height: 28px;
+    font-size: 34px;
+    opacity: 0.7;
   }
 
   .service-highlights {

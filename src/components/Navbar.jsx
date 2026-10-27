@@ -9,7 +9,7 @@ const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  const { localizePath, t } = useLanguage();
+  const { language, localizePath, t } = useLanguage();
 
   useEffect(() => {
     let ticking = false;
@@ -49,7 +49,6 @@ const Navbar = () => {
           </div>
 
           <div className="navbar-actions">
-            <LanguageSwitcher />
             <Link to={localizePath('/') + '#preventivo'} className="nav-cta-btn">{t('navbar.contact').toUpperCase()}</Link>
             
             <button 
@@ -74,6 +73,11 @@ const Navbar = () => {
             <NavLink to={localizePath('/portfolio')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.portfolio')}</NavLink>
             <NavLink to={localizePath('/blog')} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link">{t('navbar.blog')}</NavLink>
             <Link to={localizePath('/') + '#preventivo'} onClick={() => setMobileMenuOpen(false)} className="mobile-nav-link text-accent">{t('navbar.contact')}</Link>
+          </div>
+
+          <div className="mobile-nav-utility">
+            <span className="mobile-utility-label">{language === 'it' ? 'Lingua' : 'Language'}</span>
+            <LanguageSwitcher id="mobile" />
           </div>
         </div>
       )}

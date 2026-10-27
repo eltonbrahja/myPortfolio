@@ -1,7 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import { Code2, MonitorPlay, Zap, ChevronRight } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
 import { Link } from 'react-router-dom';
@@ -9,7 +9,7 @@ import './Services.css';
 
 const Services = () => {
   const { t, lang, localizePath } = useLanguage();
-  const processLabel = lang === 'it' ? 'Come lavoro' : 'How I work';
+  const processLabel = 'Come lavoro';
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -26,24 +26,15 @@ const Services = () => {
 
   const servicesList = [
     {
-      icon: <Code2 size={36} strokeWidth={1.2} />,
       accentColor: '#2997ff',
-      accentGradient: 'linear-gradient(135deg, rgba(41, 151, 255, 0.15) 0%, rgba(41, 151, 255, 0.02) 100%)',
-      accentBorder: 'rgba(41, 151, 255, 0.2)',
       data: t('services.list')[0]
     },
     {
-      icon: <MonitorPlay size={36} strokeWidth={1.2} />,
       accentColor: '#a855f7',
-      accentGradient: 'linear-gradient(135deg, rgba(168, 85, 247, 0.15) 0%, rgba(168, 85, 247, 0.02) 100%)',
-      accentBorder: 'rgba(168, 85, 247, 0.2)',
       data: t('services.list')[1]
     },
     {
-      icon: <Zap size={36} strokeWidth={1.2} />,
       accentColor: '#30d158',
-      accentGradient: 'linear-gradient(135deg, rgba(48, 209, 88, 0.15) 0%, rgba(48, 209, 88, 0.02) 100%)',
-      accentBorder: 'rgba(48, 209, 88, 0.2)',
       data: t('services.list')[2]
     }
   ];
@@ -53,9 +44,9 @@ const Services = () => {
   return (
     <PageTransition>
       <div className="services-container">
-        
+
         {/* Hero Header */}
-        <motion.div 
+        <motion.div
           className="services-hero"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -78,35 +69,22 @@ const Services = () => {
           className="services-sections"
         >
           {servicesList.map((service, idx) => (
-            <motion.section 
-              key={idx} 
-              variants={itemVariants} 
+            <motion.section
+              key={idx}
+              variants={itemVariants}
               className="service-section"
             >
               {/* Accent line on left */}
               <div className="service-accent-line" style={{ background: service.accentColor }} />
-              
+
               <div className="service-section-inner">
-                {/* Top row: icon + number */}
-                <div className="service-top-row">
-                  <div 
-                    className="service-icon-box-lg" 
-                    style={{ 
-                      background: service.accentGradient,
-                      borderColor: service.accentBorder
-                    }}
-                  >
-                    <div style={{ color: service.accentColor }}>
-                      {service.icon}
-                    </div>
-                  </div>
+                {/* Header row: Title aligned with Number */}
+                <div className="service-header-row">
+                  <h2 className="service-section-title">{service.data.title}</h2>
                   <span className="service-number" style={{ color: service.accentColor }}>
                     0{idx + 1}
                   </span>
                 </div>
-
-                {/* Title */}
-                <h2 className="service-section-title">{service.data.title}</h2>
 
                 {/* Description */}
                 <p className="service-section-desc">{service.data.description}</p>
@@ -119,28 +97,13 @@ const Services = () => {
                   <p className="service-section-details">{service.data.extraDetails}</p>
                 )}
 
-                {/* Healthcare / Psychology Callout */}
-                {idx === 0 && (
-                  <div className="service-cluster-callout">
-                    <span className="cluster-callout-tag">{t('services.healthcareCallout.tag')}</span>
-                    <p className="cluster-callout-desc">
-                      {t('services.healthcareCallout.desc')}{' '}
-                      <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="cluster-callout-anchor">
-                        {t('services.healthcareCallout.linkText')} →
-                      </Link>
-                    </p>
-                  </div>
-                )}
-
-
-
                 {/* Features grid */}
                 <div className="service-features-grid">
                   {service.data.features.map((feature, fIdx) => (
                     <div key={fIdx} className="service-feature-item">
                       <div className="feature-check" style={{ background: service.accentColor }}>
                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                          <path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                          <path d="M2.5 6L5 8.5L9.5 3.5" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                         </svg>
                       </div>
                       <span>{feature}</span>
@@ -173,7 +136,7 @@ const Services = () => {
         </motion.div>
 
         {/* Insights Section */}
-        <motion.div 
+        <motion.div
           className="services-insights"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -216,7 +179,7 @@ const Services = () => {
         </motion.div>
 
         {/* CTA Section */}
-        <motion.div 
+        <motion.div
           className="services-cta"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}

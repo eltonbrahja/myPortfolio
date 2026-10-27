@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence, useReducedMotion } from 'framer-motion';
 import { useNavigate, Link } from 'react-router-dom';
-import { CheckCircle2, ChevronRight, ChevronDown, MessageCircle, Send, Star, UserPlus, Building2, Store, ExternalLink } from 'lucide-react';
+import { CheckCircle2, ChevronRight, ChevronDown, Send, Star, UserPlus, Building2, Store, ExternalLink } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { ProjectGallery, Lightbox } from '../components/ProjectGallery';
@@ -220,25 +220,6 @@ const Home = () => {
               );
             })}
           </motion.div>
-
-          {/* Contextual Link - Topic Siloing (Sanità & Psicologi) */}
-          <motion.div 
-            className="target-cluster-banner"
-            initial={{ opacity: 0, y: 15 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, margin: "-10%" }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-          >
-            <div className="target-cluster-content">
-              <span className="target-cluster-badge">{t('home.target.clusterBadge')}</span>
-              <p className="target-cluster-text">
-                {t('home.target.clusterText')}{' '}
-                <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="target-cluster-link">
-                  {t('home.target.clusterLink')} →
-                </Link>
-              </p>
-            </div>
-          </motion.div>
         </section>
 
         {/* 3. COSA OTTIENI */}
@@ -314,7 +295,87 @@ const Home = () => {
           </motion.div>
         </section>
 
-        {/* 4. COME LAVORIAMO */}
+        {/* 4. PORTFOLIO & SOCIAL PROOF */}
+        <section className="home-section" id="portfolio">
+          <h2 className="section-title">{t('home.portfolio.title')}</h2>
+          <div className="portfolio-mini">
+            {getProjects(t).slice(0, 3).map((project, idx) => {
+              const infoBlock = (
+                <div className="portfolio-info">
+                  {project.tags && (
+                    <div className="portfolio-tags">
+                      {project.tags.map((tag, tIdx) => (
+                        <span key={tIdx} className="portfolio-tag">{tag}</span>
+                      ))}
+                    </div>
+                  )}
+                  <h3>{project.title}</h3>
+                  <p>{project.description}</p>
+                  {project.blogLink && (
+                    <div className="portfolio-mini-deepdive">
+                      <Link to={localizePath(project.blogLink)} className="portfolio-mini-anchor">
+                        {project.blogLinkText} →
+                      </Link>
+                    </div>
+                  )}
+                  <div className="portfolio-actions" style={{ marginTop: '1.5rem' }}>
+                    {project.internalLink ? (
+                      <Link to={localizePath(project.internalLink)} className="portfolio-link">
+                        {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
+                      </Link>
+                    ) : (
+                      project.link !== "#" && (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
+                          {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
+                        </a>
+                      )
+                    )}
+                  </div>
+                </div>
+              );
+              
+              const imageBlock = (
+                <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
+                  <ProjectGallery 
+                    images={project.images} 
+                    title={project.title} 
+                    layout={idx === 0 ? "dual" : "single"} 
+                    openLightbox={openLightbox} 
+                  />
+                </div>
+              );
+
+              return (
+                <GlassCard key={idx} className="portfolio-item">
+                  {idx % 2 === 1 ? (
+                    <>
+                      {imageBlock}
+                      {infoBlock}
+                    </>
+                  ) : (
+                    <>
+                      {infoBlock}
+                      {imageBlock}
+                    </>
+                  )}
+                </GlassCard>
+              );
+            })}
+          </div>
+        </section>
+
+        {/* 5. OFFERTA */}
+        <section className="home-section">
+          <div className="offer-section">
+            <h2>{t('home.offer.title')}</h2>
+            <p>{t('home.offer.desc')}</p>
+            <button className="primary-btn" onClick={scrollToForm}>
+              {t('home.offer.btn')} <ChevronRight size={20} />
+            </button>
+          </div>
+        </section>
+
+        {/* 6. COME LAVORIAMO */}
         <section className="home-section">
           <motion.h2 
             className="section-title shimmer-text"
@@ -378,79 +439,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* 5. PORTFOLIO & SOCIAL PROOF */}
-        <section className="home-section" id="portfolio">
-          <h2 className="section-title">{t('home.portfolio.title')}</h2>
-          <div className="portfolio-mini">
-            {getProjects(t).slice(0, 3).map((project, idx) => {
-              const infoBlock = (
-                <div className="portfolio-info">
-                  <h3>{project.title}</h3>
-                  <p>{project.description}</p>
-                  {project.blogLink && (
-                    <div className="portfolio-mini-deepdive">
-                      <Link to={localizePath(project.blogLink)} className="portfolio-mini-anchor">
-                        {project.blogLinkText} →
-                      </Link>
-                    </div>
-                  )}
-                  <div className="portfolio-actions" style={{ marginTop: '1.5rem' }}>
-                    {project.internalLink ? (
-                      <Link to={localizePath(project.internalLink)} className="portfolio-link">
-                        {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
-                      </Link>
-                    ) : (
-                      project.link !== "#" && (
-                        <a href={project.link} target="_blank" rel="noopener noreferrer" className="portfolio-link">
-                          {project.linkText} <ExternalLink size={16} strokeWidth={1.5} />
-                        </a>
-                      )
-                    )}
-                  </div>
-                </div>
-              );
-              
-              const imageBlock = (
-                <div style={{width: '100%', overflow: 'hidden', borderRadius: '16px', border: '1px solid var(--glass-border)'}}>
-                  <ProjectGallery 
-                    images={project.images} 
-                    title={project.title} 
-                    layout={idx === 0 ? "dual" : "single"} 
-                    openLightbox={openLightbox} 
-                  />
-                </div>
-              );
-
-              return (
-                <GlassCard key={idx} className="portfolio-item">
-                  {idx % 2 === 1 ? (
-                    <>
-                      {imageBlock}
-                      {infoBlock}
-                    </>
-                  ) : (
-                    <>
-                      {infoBlock}
-                      {imageBlock}
-                    </>
-                  )}
-                </GlassCard>
-              );
-            })}
-          </div>
-        </section>
-
-        {/* 6. OFFERTA */}
-        <section className="home-section">
-          <div className="offer-section">
-            <h2>{t('home.offer.title')}</h2>
-            <p>{t('home.offer.desc')}</p>
-            <button className="primary-btn" onClick={scrollToForm}>
-              {t('home.offer.btn')} <ChevronRight size={20} />
-            </button>
-          </div>
-        </section>
-
         {/* 7. FAQ */}
         <section className="home-section">
           <h2 className="section-title">{t('home.faq.title')}</h2>
@@ -474,7 +462,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* 8. FORM & WHATSAPP */}
+        {/* 8. FORM CONTATTO */}
         <section className="home-section final-form-section" id="preventivo">
           <div className="form-layout-grid">
             <div className="form-content-area">
@@ -488,6 +476,12 @@ const Home = () => {
             
             <div className="form-container-area">
               <GlassCard className="home-form">
+                {t('home.contact.reassurance') && (
+                  <div className="form-reassurance-badge">
+                    <CheckCircle2 size={18} />
+                    <span>{t('home.contact.reassurance')}</span>
+                  </div>
+                )}
                 <form action="https://formspree.io/f/xpqwdgoa" method="POST" onSubmit={handleSubmit}>
                   <div className="form-group">
                     <label htmlFor="name">{t('home.contact.form.nameLabel')}</label>
@@ -551,15 +545,6 @@ const Home = () => {
                   </div>
                 </form>
               </GlassCard>
-            </div>
-
-            <div className="whatsapp-alternative-area">
-              <div className="whatsapp-alt">
-                <p>{t('home.contact.whatsappPrefix')}</p>
-                <a href="https://wa.me/393519989647?text=Ciao%20Elton%2C%20vorrei%20avere%20maggiori%20informazioni%20sui%20tuoi%20servizi." target="_blank" rel="noopener noreferrer" className="whatsapp-btn">
-                  <MessageCircle size={20} /> {t('home.contact.whatsappBtn')}
-                </a>
-              </div>
             </div>
           </div>
         </section>

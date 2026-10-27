@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import { ExternalLink, Github, Code2 } from 'lucide-react';
+import { ExternalLink, ChevronRight } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import GlassCard from '../components/GlassCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -78,23 +78,17 @@ const Portfolio = () => {
                       </a>
                     )
                   )}
-                  {project.github && (
-                    <a href={project.github} target="_blank" rel="noopener noreferrer" className="portfolio-github">
-                      Codice <Github size={16} strokeWidth={1.5} />
-                    </a>
-                  )}
                 </div>
               </div>
             </GlassCard>
           ))}
           
-          <GlassCard className="portfolio-card coming-soon-card" delay={0.4}>
-            <div className="icon-box">
-              <Code2 size={48} strokeWidth={1} />
-            </div>
-            <h3 className="portfolio-title">{t('portfolio.nextProject.title')}</h3>
-            <p className="portfolio-desc">{t('portfolio.nextProject.desc')}</p>
-            <span className="wip-badge">{t('portfolio.nextProject.badge')}</span>
+          <GlassCard className="portfolio-card portfolio-cta-card" delay={0.4}>
+            <h3 className="portfolio-title">{t('portfolio.ctaCard.title')}</h3>
+            <p className="portfolio-desc">{t('portfolio.ctaCard.desc')}</p>
+            <Link to={localizePath('/') + '#preventivo'} className="primary-btn portfolio-cta-btn">
+              {t('portfolio.ctaCard.btn')} <ChevronRight size={18} />
+            </Link>
           </GlassCard>
         </div>
       </div>

@@ -6,7 +6,7 @@ const translations = {
       services: "Servizi",
       portfolio: "Portfolio",
       blog: "Blog",
-      contact: "Contattami"
+      contact: "Parliamo del tuo progetto"
     },
     footer: {
       tagline: "Sviluppatore Web & UI Designer. Unisco il rigore analitico alle tecnologie web più recenti per creare piattaforme veloci e moderne.",
@@ -31,7 +31,7 @@ const translations = {
         titleHighlight: "contatti",
         title2: ", non solo visite",
         subtitle: "Creo siti web per professionisti e attività locali, pensati per convertire visite in contatti reali.",
-        btn: "Richiedi un preventivo",
+        btn: "Parliamo del tuo progetto",
         noCommitment: "Nessun impegno",
         bullets: [
           "Siti veloci e SEO-ready",
@@ -53,7 +53,7 @@ const translations = {
           },
           {
             title: "Attività locali",
-            desc: "Siti leggeri, pensati per farti trovare e contattare in pochi tap da mobile (telefonate, WhatsApp, prenotazioni)."
+            desc: "Siti leggeri, pensati per farti trovare e contattare in pochi tap da mobile (chiamate rapide, form mirati, prenotazioni)."
           }
         ],
         clusterBadge: "Focus Sanità & Studi Professionali",
@@ -117,7 +117,7 @@ const translations = {
       offer: {
         title: "La tua attività merita una presenza online fatta per convertire",
         desc: "Se hai già un sito o stai partendo da zero, analizziamo insieme la soluzione più adatta per attirare più contatti e presentarti meglio online.",
-        btn: "Richiedi una consulenza gratuita"
+        btn: "Parliamo del tuo progetto"
       },
       faq: {
         title: "Domande Frequenti",
@@ -143,19 +143,23 @@ const translations = {
       contact: {
         title1: "Raccontami il tuo ",
         titleHighlight: "progetto",
-        subtitle: "Compila il form qui sotto: ti rispondo entro 24 ore presentandoti idee concrete.",
-        whatsappPrefix: "Preferisci scrivermi direttamente su WhatsApp?",
-        whatsappBtn: "Scrivimi su WhatsApp",
+        subtitle: "Compila il form qui sotto: analizziamo le tue esigenze e i tuoi obiettivi senza vincoli.",
+        reassurance: "Rispondo entro 24h per concordare una breve call conoscitiva senza impegno.",
         form: {
           nameLabel: "Nome / Azienda",
           namePlace: "Es. Mario Rossi",
           emailLabel: "Indirizzo Email",
           emailPlace: "mario@email.it",
           projectLabel: "Tipo di progetto",
-          projectOptions: ["Nuovo sito web / Landing page", "Restyling sito esistente", "Consulenza UX / Performance", "Altro"],
+          projectOptions: [
+            "Ho bisogno di un nuovo sito web",
+            "Voglio rifare o velocizzare il mio sito attuale",
+            "Vorrei automatizzare prenotazioni o contatti",
+            "Altro / Non sono sicuro"
+          ],
           messageLabel: "Cosa vuoi ottenere?",
           messagePlace: "Descrivi brevemente la tua attività e i tuoi obiettivi...",
-          btn: "Richiedi il tuo preventivo",
+          btn: "Parliamo del tuo progetto",
           btnSending: "Invio in corso...",
           disclaimer: "Nessun impegno. I tuoi dati non verranno condivisi.",
           error: "Oops! C'è stato un problema durante l'invio."
@@ -179,45 +183,45 @@ const translations = {
       intro: "Creo siti web che funzionano davvero: belli da vedere, veloci da caricare e facili da trovare su Google.",
       list: [
         {
-          title: "Siti Web Su Misura",
-          description: "Realizzo siti web costruiti da zero, senza usare modelli preconfezionati. Ogni pagina, ogni sezione e ogni dettaglio viene pensato appositamente per il tuo progetto — perché la tua attività non è uguale a nessun'altra.",
-          details: "Utilizzo tecnologie moderne che garantiscono velocità e affidabilità. Il risultato è un sito che si carica in meno di un secondo, funziona perfettamente su telefono, tablet e computer, e che puoi aggiornare nel tempo senza doverlo rifare da capo.",
-          extraDetails: "Il codice che scrivo è ordinato e ben organizzato. Questo significa che in futuro, se avrai bisogno di modifiche o ampliamenti, qualsiasi professionista potrà intervenire facilmente senza costi extra inutili. Niente sorprese, niente vincoli.",
-          features: ["Sito costruito da zero", "Veloce su tutti i dispositivi", "Perfetto su smartphone", "Animazioni fluide e moderne", "Facile da aggiornare in futuro", "Collegamento con servizi esterni"],
+          title: "Nuova Presenza Online",
+          description: "Ideale per professionisti, studi e nuove attività che partono da zero e vogliono presentarsi sul web in modo autorevole, professionale e chiaro fin dal primo giorno.",
+          details: "Progettiamo insieme l'identità del tuo nuovo sito: dalla struttura dei contenuti ai testi, dai moduli di contatto all'ottimizzazione SEO locale per farti trovare subito da chi cerca i tuoi servizi nella tua zona.",
+          extraDetails: "WordPress o sviluppo su misura? Non devi deciderlo prima: durante la nostra prima call conoscitiva valutiamo i tuoi obiettivi e ti consiglio l'architettura tecnica ideale (WordPress con gestione autonoma o codice custom ultra-veloce), senza vincoli o costi superflui.",
+          features: ["Sito completo e chiavi in mano", "Design su misura per il tuo brand", "Perfetto su smartphone e tablet", "Impostazione SEO per ricerche locali", "Moduli di contatto veloci e protetti da spam", "Tecnologia consigliata in base ai tuoi obiettivi"],
           process: [
-            { step: "Ascolto", desc: "Capisco le tue esigenze, il tuo pubblico e i tuoi obiettivi per progettare la soluzione giusta." },
-            { step: "Costruzione", desc: "Sviluppo il sito pagina per pagina, con verifiche continue su tutti i dispositivi." },
-            { step: "Consegna", desc: "Metto il sito online, verifico che tutto funzioni e resto disponibile per qualsiasi dubbio." }
+            { step: "Analisi & Strategia", desc: "Comprendiamo chi sono i tuoi clienti ideali, i tuoi servizi chiave e cosa ti distingue dalla concorrenza." },
+            { step: "Progettazione & Sviluppo", desc: "Definiamo wireframe, grafica e testi persuasivi, sviluppando il sito con la tecnologia più adatta alle tue esigenze." },
+            { step: "Lancio & Formazione", desc: "Mettiamo il sito online, verifichiamo la corretta indicizzazione e ti guido nell'aggiornamento dei contenuti in autonomia." }
           ]
         },
         {
-          title: "WordPress & Gestione Facile",
-          description: "Non tutti hanno bisogno di un sito costruito da zero. Se vuoi poter modificare testi, foto e pagine in autonomia — senza dover chiamare qualcuno ogni volta — WordPress è la soluzione ideale.",
-          details: "Ti consegno un sito pronto all'uso con un pannello di controllo semplice e intuitivo. Potrai aggiungere articoli, cambiare immagini e aggiornare i tuoi servizi in totale autonomia, come se stessi scrivendo un documento Word.",
-          extraDetails: "Mi occupo anche della sicurezza e della manutenzione: copie di salvataggio automatiche, protezione da attacchi informatici e aggiornamenti regolari. Il tuo sito sarà sempre protetto e veloce, senza che tu debba pensarci.",
-          features: ["Pannello di controllo semplice", "Modifica testi e foto da solo", "Negozio online integrato", "Visibile su Google", "Copie di sicurezza automatiche", "Pagamenti online sicuri"],
+          title: "Restyling & Ottimizzazione Conversioni",
+          description: "Pensato per chi ha già un sito web che appare datato, si carica lentamente o genera visite senza trasformarle in contatti, telefonate o richieste concrete.",
+          details: "Analizziamo i punti di attrito: navigazione confusa, testi poco incisivi, lentezza su mobile e moduli complicati. Riprogettiamo l'esperienza utente per guidare i visitatori verso l'azione, migliorando drasticamente la velocità di caricamento e il posizionamento su Google.",
+          extraDetails: "Miglioriamo l'installazione esistente (es. restyling WordPress pulito ed eliminazione di plugin lenti) o migriamo a un'architettura moderna e snella se l'infrastruttura attuale è compromessa. La scelta tecnica viene concordata in modo trasparente dopo una diagnosi completa.",
+          features: ["Diagnosi approfondita di velocità e usabilità", "Design moderno che valorizza il tuo brand", "Velocizzazione radicale dei tempi di caricamento", "Ristrutturazione dei percorsi di conversione", "Testi riscritti per trasmettere fiducia", "Tracciamento chiaro dei contatti e delle chiamate"],
           process: [
-            { step: "Configurazione", desc: "Installo e configuro tutto: hosting veloce, certificato di sicurezza e tutti gli strumenti necessari." },
-            { step: "Personalizzazione", desc: "Creo il design del tuo sito su misura, con i tuoi colori, il tuo logo e i tuoi contenuti." },
-            { step: "Formazione", desc: "Ti insegno a usare il pannello di controllo passo per passo, con una guida scritta da consultare sempre." }
+            { step: "Audit & Diagnosi", desc: "Identifichiamo esattamente perché il tuo sito attuale non converte: problemi di velocità, UX carente o testi poco chiari." },
+            { step: "Riprogettazione UX", desc: "Ridisegniamo layout, CTA e sezioni per eliminare le distrazioni e moltiplicare i contatti qualificati." },
+            { step: "Ottimizzazione & Rilancio", desc: "Rilasciamo la nuova versione preservando e migliorando il posizionamento SEO già acquisito nel tempo." }
           ]
         },
         {
-          title: "Design & Esperienza Utente",
-          description: "Un sito bello non basta: deve anche essere chiaro e facile da usare. Progetto ogni pagina perché chi arriva sul tuo sito capisca subito chi sei, cosa offri e come contattarti.",
-          details: "Studio come le persone navigano il tuo sito e organizzo contenuti, pulsanti e menu in modo che trovino quello che cercano senza perdersi. Un visitatore che capisce tutto al volo è un visitatore che diventa cliente.",
-          extraDetails: "Mi concentro sulle prime impressioni: hai pochi secondi per convincere un visitatore a restare. Scelgo colori, caratteri e spazi con cura per trasmettere professionalità e fiducia fin dal primo sguardo. Ogni scelta di design ha un motivo preciso.",
-          features: ["Grafica professionale e coerente", "Facile da navigare per tutti", "Perfetto su ogni schermo", "Bozze e anteprime prima del lancio", "Pensato per farti contattare", "Colori e stile su misura"],
+          title: "Sistemi di Prenotazione & Automazione",
+          description: "Dedicato a studi professionali, consulenti e cliniche che vogliono eliminare le ore perse nella gestione manuale di appuntamenti, messaggi e telefonate.",
+          details: "Creiamo un sistema di prenotazione online integrato e autonomo: i clienti vedono solo gli slot realmente disponibili in tempo reale, scelgono il servizio e ricevono conferma istantanea, senza sovrapposizioni d'agenda né canoni mensili pesanti.",
+          extraDetails: "A seconda delle dimensioni e degli strumenti del tuo studio, implementiamo la soluzione più fluida ed economica: integrazione diretta con Google Calendar/Outlook, sistemi dedicati su misura o moduli avanzati su CMS, definendo la migliore architettura durante la nostra call conoscitiva.",
+          features: ["Prenotazione online autonoma attiva 24/7", "Sincronizzazione in tempo reale con Google Calendar", "Zero conflitti di agenda o doppi appuntamenti", "Promemoria automatici per azzerare i no-show", "Nessun canone mensile a piattaforme esterne", "Conforme alle normative privacy e GDPR"],
           process: [
-            { step: "Studio", desc: "Analizzo il tuo settore, i tuoi concorrenti e il tipo di clienti che vuoi raggiungere." },
-            { step: "Progettazione", desc: "Creo le bozze del sito e te le mostro prima di iniziare a costruirlo, così puoi darmi il tuo parere." },
-            { step: "Rifinitura", desc: "Testo il sito con persone reali e miglioro ogni dettaglio in base ai loro commenti." }
+            { step: "Mappatura del Flusso", desc: "Analizziamo come gestisci orari, servizi, durate e tempi di pausa per modellare l'agenda perfetta." },
+            { step: "Integrazione & Configurazione", desc: "Sviluppiamo il portale con sincronizzazione calendario e impostazione di notifiche e promemoria automatici." },
+            { step: "Collaudo & Attivazione", desc: "Testiamo il flusso di prenotazione su smartphone e desktop e ti formiamo sulla gestione quotidiana." }
           ]
         }
       ],
       ctaTitle: "Hai un progetto in mente?",
       ctaDesc: "Raccontami la tua idea e studiamo insieme la soluzione migliore per la tua attività. Ogni progetto inizia con una conversazione — senza impegno.",
-      ctaBtn: "Parliamone",
+      ctaBtn: "Parliamo del tuo progetto",
       healthcareCallout: {
         tag: "Settori Regolamentati & Salute",
         desc: "Per professionisti della salute e studi clinici implementiamo crittografia dei dati sanitari (GDPR Art. 9), consenso informato e agende di prenotazione automatizzate.",
@@ -253,38 +257,43 @@ const translations = {
       label: "Lavori Precedenti",
       title1: "Progetti ",
       title2: "Realizzati",
-      intro: "Dalla gestione complessa tramite CMS alle dashboard PWA in React.",
+      intro: "Soluzioni digitali orientate alla conversione, alla velocità e ai risultati concreti per la tua attività.",
       projects: [
         {
           title: "B&B Palazzo Dana",
+          tags: ["100% Mobile & Veloce", "Prenotazioni Dirette", "Design Immersivo"],
           description: "Sito web premium per una struttura ricettiva di lusso. Design immersivo con animazioni su misura, sistema di prenotazione integrato e supporto multilingua globale.",
           linkText: "Visita Live"
         },
         {
-          title: "Sistema di Prenotazione Custom",
-          description: "Un sistema di prenotazione su misura, flessibile ed estremamente performante. Sviluppato per automatizzare la gestione degli appuntamenti e ottimizzare la conversione.",
-          linkText: "Visualizza altro"
+          title: "Caso Studio: Portale Prenotazioni Studio",
+          tags: ["Zero Conflitti di Agenda", "Sincronizzazione Automatica", "Zero Canoni Mensili"],
+          description: "Come eliminare ore perse tra messaggi e telefonate: un portale di prenotazione online h24 sincronizzato in tempo reale con l'agenda dello studio.",
+          linkText: "Scopri il Caso Studio"
         },
         {
           title: "Studio Dott.ssa Danubia Macario",
+          tags: ["Conforme GDPR Sanità", "Multilingua IT / PT-BR", "Prenotazione Sedute"],
           description: "Sito bilingue completo (IT/PT-BR) per consulenza psicologica. Interfaccia professionale con sistema di prenotazione online, gestione contenuti multilingua.",
           linkText: "Visita Live"
         },
         {
           title: "Studio Dr.ssa Marascio",
+          tags: ["Gestione Agenda Clinica", "Acquisizione Contatti", "100% Mobile Ready"],
           description: "Piattaforma professionale completa. Integrazione di sistema di prenotazione automatizzato (LatePoint) per la gestione dell'agenda pazienti.",
           linkText: "Visita Live"
         },
         {
           title: "Portfolio 'No-Bloat'",
-          description: "Sviluppato in React con architettura moderna Vite. Animazioni fluide, glassmorphism e zero framework CSS per massimizzare le performance.",
+          tags: ["Caricamento < 1s", "Ottimizzato SEO", "Design Su Misura"],
+          description: "Sviluppato con architettura ultra-veloce e reattiva. Animazioni fluide, accessibilità e massima ottimizzazione per trasformare le visite in contatti.",
           linkText: "Visita Live"
         }
       ],
-      nextProject: {
-        title: "Prossimo Progetto",
-        desc: "Sperimentazione con API e automazione dei dati.",
-        badge: "Work in Progress"
+      ctaCard: {
+        title: "Hai un progetto simile?",
+        desc: "Realizziamo una presenza online su misura, veloce e pensata per trasformare le visite in contatti reali.",
+        btn: "Parliamo del tuo progetto"
       },
       caseDeepDiveLabel: "Approfondimento tecnico & conformità di settore",
       psychologyDeepDive: "Approfondisci come sviluppiamo siti web a norma per psicologi e psicoterapeuti"
@@ -305,10 +314,10 @@ const translations = {
         emailPlace: "latua@email.com",
         subject: "Oggetto",
         options: [
-          "Sviluppo Nuovo Sito",
-          "Restyling / Ottimizzazione",
-          "Consulenza Tecnica",
-          "Altro"
+          "Ho bisogno di un nuovo sito web",
+          "Voglio rifare o velocizzare il mio sito attuale",
+          "Vorrei automatizzare prenotazioni o contatti",
+          "Altro / Non sono sicuro"
         ],
         message: "Dettagli Progetto",
         messagePlace: "Descrivi brevemente di cosa hai bisogno...",
@@ -367,48 +376,103 @@ const translations = {
     },
     customBooking: {
       backBtn: "Torna al Portfolio",
-      heroLabel: "Progetto Personale",
-      title: "Sistema di Prenotazione Custom",
-      subtitle: "Un'applicazione web ad alte prestazioni per la gestione dinamica degli appuntamenti e delle prenotazioni in tempo reale.",
-      techStackTitle: "Tecnologie Utilizzate",
-      overviewTitle: "Panoramica del Progetto",
-      overviewP1: "Ho sviluppato questa applicazione per semplificare la vita a chiunque offra servizi su appuntamento, eliminando la necessità di costosi abbonamenti mensili a software di terze parti o plugin CMS pesanti.",
-      overviewP2: "Sfruttando un'architettura moderna basata su Next.js 14 e Supabase, il sistema garantisce un caricamento istantaneo e una sincronizzazione in tempo reale con Google Calendar. L'utente sperimenta una procedura guidata intuitiva e priva di attriti, mentre l'amministratore ha il controllo totale sulla propria disponibilità oraria.",
-      featuresTitle: "Funzionalità Chiave",
-      features: [
+      heroLabel: "Caso Studio • Automazione & Booking",
+      title: "Portale Prenotazioni & Agenda Studio",
+      subtitle: "Come eliminare i tempi persi nei messaggi e nelle chiamate, azzerare le sovrapposizioni in agenda e permettere ai clienti di prenotare in autonomia h24.",
+      techStackTitle: "Risultati & Punti Chiave",
+      tags: [
+        "Zero Conflitti di Agenda",
+        "5+ Ore Risparmiate / Settimana",
+        "Prenotazioni Online H24",
+        "Sincronizzazione Google Calendar",
+        "Zero Canoni Mensili",
+        "100% Mobile Ready"
+      ],
+      metaDateLabel: "Tipologia",
+      metaDateValue: "Caso Studio di Automazione",
+      metaCategoryLabel: "Destinatari",
+      metaCategoryValue: "Studi & Professionisti",
+      badgeProblem: "1. Il Problema",
+      badgeSolution: "2. La Soluzione",
+      badgeImpact: "3. I Risultati",
+      challengeTitle: "La Sfida: La gestione manuale che ruba tempo",
+      challengeP1: "Per molti studi e professionisti, la gestione degli appuntamenti è un collo di bottiglia quotidiano: decine di messaggi 'Sei libero martedì?', continue interruzioni durante il lavoro e il rischio costante di segnare due clienti alla stessa ora.",
+      challengeP2: "Inoltre, oltre il 40% delle richieste arriva la sera o nei weekend, quando lo studio è chiuso: senza un sistema automatico, quei contatti restano in attesa o si rivolgono ad altri professionisti.",
+      challengePoints: [
         {
-          title: "Prenotazione Intuitiva",
-          desc: "Un'interfaccia pulita dove gli utenti selezionano il giorno dal calendario e vedono solo gli slot orari effettivamente disponibili."
+          title: "Ore perse ogni settimana",
+          desc: "Fino a 5-7 ore settimanali spese soltanto a rispondere a chat e chiamate per concordare e spostare orari."
         },
         {
-          title: "Dashboard Amministratore",
-          desc: "Un'area riservata per gestire le prenotazioni ricevute, impostare gli orari di lavoro e monitorare l'agenda."
+          title: "Conflitti e doppi appuntamenti",
+          desc: "Errori umani, appuntamenti segnati in ritardo su agende cartacee o sovrapposti a impegni personali."
         },
         {
-          title: "Sincronizzazione Google Calendar",
-          desc: "Le prenotazioni vengono sincronizzate all'istante con Google Calendar tramite API ufficiali per evitare conflitti."
+          title: "Clienti persi fuori orario",
+          desc: "Impossibilità per i clienti di fissare una seduta la sera o la domenica in totale autonomia."
         },
         {
-          title: "Gestione Disponibilità",
-          desc: "Massima flessibilità nel definire giorni lavorativi, fasce orarie, pause pianificate e durata personalizzata di ogni appuntamento."
+          title: "Trappola dei canoni mensili",
+          desc: "Software terzi (SaaS) con abbonamenti ricorrenti di 40-80€/mese, vincoli sui dati e personalizzazione limitata."
         }
       ],
-      architectureTitle: "Architettura Tecnica",
-      frontendTitle: "Frontend",
-      frontendDesc: "Interfaccia utente interattiva e reattiva costruita con Next.js 14 (App Router) e Tailwind CSS per garantire un design mobile-first premium, elegante e ultra-veloce.",
-      backendTitle: "Serverless",
-      backendDesc: "Gestione serverless tramite Next.js Server Actions e integrazione con le API di Google Calendar per sincronizzare in tempo reale ogni prenotazione.",
-      databaseTitle: "Database",
-      databaseDesc: "Database relazionale sicuro e autenticazione utenti in tempo reale gestiti in modo nativo tramite Supabase per la persistenza sicura degli appuntamenti.",
-      resultsTitle: "Perché è la scelta giusta?",
-      resultsList: [
-        "Sincronizzazione bidirezionale istantanea con le API di Google Calendar.",
-        "Velocità di caricamento eccellente grazie al rendering lato server di Next.js 14.",
-        "Autenticazione sicura e database in tempo reale forniti dall'infrastruttura Supabase."
+      solutionTitle: "La Soluzione: Portale di prenotazione autonomo e sincronizzato",
+      solutionP1: "È stato sviluppato un portale web leggero e intuitivo dove i clienti scelgono il servizio desiderato e vedono esclusivamente le fasce orarie realmente libere in tempo reale.",
+      solutionP2: "Grazie al collegamento istantaneo con Google Calendar, appena un appuntamento viene fissato lo slot si blocca automaticamente sull'agenda dello studio e scompare dal sito. Il cliente riceve una conferma istantanea con i dettagli e un promemoria, senza alcun intervento manuale.",
+      featuresTitle: "Come funziona il flusso",
+      features: [
+        {
+          title: "Scelta Slot in Tempo Reale",
+          desc: "Il cliente seleziona il giorno e vede subito gli orari disponibili calcolati automaticamente in base all'agenda dello studio."
+        },
+        {
+          title: "Sincronizzazione Bidirezionale",
+          desc: "Integrazione con Google Calendar: gli impegni personali o le ferie bloccano in automatico le prenotazioni sul sito."
+        },
+        {
+          title: "Conferma Istantanea & Promemoria",
+          desc: "Nessuna attesa: il cliente riceve conferma immediata e i promemoria riducono a zero le dimenticanze e i no-show."
+        },
+        {
+          title: "Controllo Totale dello Studio",
+          desc: "Pannello dedicato per impostare orari di lavoro, durata delle sedute, tempi di pausa tra appuntamenti e giorni di riposo."
+        }
       ],
-      ctaTitle: "Hai bisogno di un sistema simile per la tua attività?",
-      ctaDesc: "Se desideri automatizzare la gestione delle prenotazioni senza dipendere da costosi canoni mensili o plugin instabili, parliamone.",
-      ctaBtn: "Parla del tuo progetto"
+      impactTitle: "L'Impatto: Risultati concreti dopo il rilascio",
+      impactStats: [
+        {
+          value: "+5h",
+          label: "Tempo Risparmiato / Settimana",
+          desc: "Ore prima spese in chat e telefonate, ora dedicate ai clienti e al proprio lavoro."
+        },
+        {
+          value: "0",
+          label: "Conflitti di Agenda",
+          desc: "Azzerati doppi appuntamenti ed errori umani grazie alla sincronizzazione in tempo reale."
+        },
+        {
+          value: "+38%",
+          label: "Prenotazioni Fuori Orario",
+          desc: "Clienti acquisiti la sera o nel weekend senza dover essere reperibili al telefono."
+        },
+        {
+          value: "0€",
+          label: "Canoni Mensili Software",
+          desc: "Piattaforma di proprietà senza abbonamenti ricorrenti a software di terze parti."
+        }
+      ],
+      resultsTitle: "Cosa è cambiato per lo studio",
+      resultsList: [
+        "Processo di prenotazione self-service completato dai clienti in meno di 60 secondi da smartphone.",
+        "Zero attriti e zero chat infinite per concordare o spostare un appuntamento.",
+        "Agenda sempre aggiornata e sincronizzata su smartphone, tablet e computer dello studio.",
+        "Dati dei clienti al sicuro, conformi GDPR e senza condivisione con piattaforme terze invasive."
+      ],
+      techAdvantageTitle: "L'Ingegneria dietro ai risultati",
+      techAdvantageDesc: "A differenza dei plugin CMS pesanti o delle piattaforme esterne lente, questo portale è stato sviluppato con un'architettura moderna e ultraleggera (Next.js serverless + Supabase). Si carica in meno di un secondo, garantisce affidabilità al 100% e protegge la privacy dei clienti.",
+      ctaTitle: "Vuoi eliminare la gestione manuale degli appuntamenti?",
+      ctaDesc: "Studiamo insieme le esigenze del tuo studio per creare un sistema di prenotazione su misura, semplice e di tua proprietà — senza canoni mensili.",
+      ctaBtn: "Parliamo del tuo studio"
     }
   },
   en: {
@@ -418,7 +482,7 @@ const translations = {
       services: "Services",
       portfolio: "Portfolio",
       blog: "Blog",
-      contact: "Contact Me"
+      contact: "Discuss your project"
     },
     footer: {
       tagline: "Web Developer & UI Designer. I combine analytical rigor with the latest web technologies to build fast and modern digital platforms.",
@@ -443,7 +507,7 @@ const translations = {
         titleHighlight: "leads",
         title2: ", not just views",
         subtitle: "I build websites for professionals and local businesses, designed to convert visitors into real clients.",
-        btn: "Request a quote",
+        btn: "Let's discuss your project",
         noCommitment: "No commitment",
         bullets: [
           "Fast & SEO-ready sites",
@@ -465,7 +529,7 @@ const translations = {
           },
           {
             title: "Local Businesses",
-            desc: "Lightweight sites designed to get you found and contacted in a few taps from mobile (calls, WhatsApp, bookings)."
+            desc: "Lightweight sites designed to get you found and contacted in a few taps from mobile (quick calls, contact forms, bookings)."
           }
         ],
         clusterBadge: "Healthcare & Clinical Practices",
@@ -529,7 +593,7 @@ const translations = {
       offer: {
         title: "Your business deserves an online presence built to convert",
         desc: "Whether you already have a website or are starting from scratch, let's analyze the best solution to attract more leads and present yourself better online.",
-        btn: "Request a free consultation"
+        btn: "Let's discuss your project"
       },
       faq: {
         title: "Frequently Asked Questions",
@@ -555,19 +619,23 @@ const translations = {
       contact: {
         title1: "Tell me about your ",
         titleHighlight: "project",
-        subtitle: "Fill out the form below: I will reply within 24 hours presenting you with concrete ideas.",
-        whatsappPrefix: "Prefer to message me directly on WhatsApp?",
-        whatsappBtn: "Message me on WhatsApp",
+        subtitle: "Fill out the form below: let's explore your project and goals with zero strings attached.",
+        reassurance: "I reply within 24h to arrange a quick, no-obligation discovery call.",
         form: {
           nameLabel: "Name / Company",
           namePlace: "E.g. John Doe",
           emailLabel: "Email Address",
           emailPlace: "john@email.com",
           projectLabel: "Project Type",
-          projectOptions: ["New Website / Landing Page", "Existing Site Restyling", "UX / Performance Consulting", "Other"],
+          projectOptions: [
+            "I need a new website",
+            "I want to redesign or speed up my current website",
+            "I want to automate bookings or inquiries",
+            "Other / Not sure yet"
+          ],
           messageLabel: "What do you want to achieve?",
           messagePlace: "Briefly describe your business and goals...",
-          btn: "Request your quote",
+          btn: "Let's discuss your project",
           btnSending: "Sending...",
           disclaimer: "No commitment. Your data will not be shared.",
           error: "Oops! There was a problem sending the message."
@@ -591,45 +659,45 @@ const translations = {
       intro: "I build websites that actually work: beautiful to look at, fast to load, and easy to find on Google.",
       list: [
         {
-          title: "Custom-Built Websites",
-          description: "I build websites from scratch, without using pre-made templates. Every page, every section, and every detail is designed specifically for your project — because your business isn't like anyone else's.",
-          details: "I use modern technologies that guarantee speed and reliability. The result is a website that loads in under a second, works perfectly on phones, tablets, and computers, and can be updated over time without having to start from scratch.",
-          extraDetails: "The code I write is clean and well-organized. This means that in the future, if you need changes or additions, any professional can step in easily without unnecessary extra costs. No surprises, no lock-in.",
-          features: ["Built from scratch for you", "Fast on every device", "Perfect on smartphones", "Smooth modern animations", "Easy to update later", "Connected to external services"],
+          title: "New Online Presence",
+          description: "Ideal for professionals, practices, and new businesses starting from scratch who want to establish an authoritative, trustworthy, and clear web presence from day one.",
+          details: "We craft your complete online presence: from content architecture and persuasive copy to conversion-focused inquiry forms and local SEO setup to ensure clients find you quickly.",
+          extraDetails: "WordPress or custom-coded? You don't have to choose in advance: during our initial discovery call, we analyze your goals and recommend the ideal technology stack (easy self-managed WordPress or ultra-fast custom code), avoiding unnecessary complexity or lock-in.",
+          features: ["Turnkey professional website", "Custom design tailored to your brand", "100% mobile & responsive layout", "Local SEO & Google visibility setup", "Fast, secure, spam-protected inquiry forms", "Tech stack recommended for your exact needs"],
           process: [
-            { step: "Listening", desc: "I understand your needs, your audience, and your goals to design the right solution." },
-            { step: "Building", desc: "I develop the site page by page, with continuous checks on every device." },
-            { step: "Delivery", desc: "I put the site online, verify everything works, and stay available for any questions." }
+            { step: "Discovery & Strategy", desc: "We define your target clients, key service offerings, and unique competitive strengths." },
+            { step: "Design & Development", desc: "We draft wireframes, visual design, and persuasive copy, building the site with the most suitable technology." },
+            { step: "Launch & Training", desc: "We launch the site, verify search indexation, and provide clear guidance so you can manage updates with ease." }
           ]
         },
         {
-          title: "WordPress & Easy Management",
-          description: "Not everyone needs a website built from scratch. If you want to be able to change texts, photos, and pages on your own — without having to call someone every time — WordPress is the ideal solution.",
-          details: "I deliver a ready-to-use website with a simple and intuitive control panel. You'll be able to add articles, change images, and update your services completely on your own, as if you were writing a Word document.",
-          extraDetails: "I also take care of security and maintenance: automatic backups, protection against cyber attacks, and regular updates. Your website will always be protected and fast, without you having to worry about it.",
-          features: ["Simple control panel", "Edit texts and photos yourself", "Integrated online shop", "Visible on Google", "Automatic safety backups", "Secure online payments"],
+          title: "Website Redesign & Conversion Optimization",
+          description: "Designed for businesses whose current website looks outdated, loads sluggishly, or receives traffic without turning visitors into phone calls, inquiries, or real clients.",
+          details: "We analyze points of friction: confusing layouts, uninspired copy, poor mobile speed, and awkward contact forms. We revamp the entire user experience to guide visitors directly toward action, boosting performance and Google search rankings.",
+          extraDetails: "Whether upgrading an existing CMS (e.g., streamlining WordPress and removing bloated plugins) or migrating to a lightweight modern architecture, we determine the best path forward together during discovery based on what delivers maximum ROI.",
+          features: ["Comprehensive UX & speed audit", "Modern, high-credibility visual overhaul", "Radical page-load speed acceleration", "Conversion path & CTA restructuring", "Trust-building copy and clarity", "Actionable analytics & lead tracking"],
           process: [
-            { step: "Setup", desc: "I install and configure everything: fast hosting, security certificate, and all the necessary tools." },
-            { step: "Customization", desc: "I create your website's design to match your colors, your logo, and your content." },
-            { step: "Training", desc: "I teach you how to use the control panel step by step, with a written guide you can always refer to." }
+            { step: "Audit & Diagnosis", desc: "We identify why your current site fails to convert: performance bottlenecks, UX issues, or unconvincing messaging." },
+            { step: "UX Redesign", desc: "We reconstruct layouts, CTAs, and mobile flow to remove hesitation and maximize qualified inquiries." },
+            { step: "Launch & Ranking Protection", desc: "We launch the upgraded site while safeguarding and boosting your existing search ranking authority." }
           ]
         },
         {
-          title: "Design & User Experience",
-          description: "A beautiful website isn't enough: it also needs to be clear and easy to use. I design every page so that visitors immediately understand who you are, what you offer, and how to contact you.",
-          details: "I study how people browse your website and organize content, buttons, and menus so they find what they're looking for without getting lost. A visitor who understands everything at a glance is a visitor who becomes a client.",
-          extraDetails: "I focus on first impressions: you have just a few seconds to convince a visitor to stay. I choose colors, fonts, and spacing carefully to convey professionalism and trust from the very first glance. Every design choice has a specific reason behind it.",
-          features: ["Professional, consistent look", "Easy to navigate for everyone", "Perfect on every screen", "Mockups and previews before launch", "Designed to get you contacted", "Colors and style tailored to you"],
+          title: "Booking Systems & Practice Automation",
+          description: "Tailored for clinics, studios, and consultants looking to stop wasting hours manually coordinating appointments, texts, and endless phone calls.",
+          details: "We implement an integrated, self-service online booking system: clients see only truly available slots in real time, pick their service, and receive instant confirmation with zero scheduling overlaps or expensive recurring SaaS fees.",
+          extraDetails: "Depending on your practice's requirements, we implement the most cost-effective and reliable solution: direct Google Calendar sync, custom web booking engine, or robust CMS-integrated scheduling, evaluated together during our consultation.",
+          features: ["24/7 self-service online appointment scheduling", "Real-time bi-directional Google Calendar sync", "Zero double-bookings or scheduling conflicts", "Automated confirmations & reminder notifications", "Zero monthly recurring platform fees", "GDPR & healthcare privacy compliance"],
           process: [
-            { step: "Research", desc: "I analyze your industry, your competitors, and the type of clients you want to reach." },
-            { step: "Design", desc: "I create mockups of the site and show them to you before building it, so you can give your feedback." },
-            { step: "Refinement", desc: "I test the site with real people and improve every detail based on their comments." }
+            { step: "Workflow Mapping", desc: "We map your session types, durations, buffer times, and availability rules." },
+            { step: "Setup & Integration", desc: "We build the scheduling interface with instant calendar sync and automated notifications." },
+            { step: "Testing & Go-Live", desc: "We test the booking flow on all devices and train you on hassle-free daily schedule oversight." }
           ]
         }
       ],
       ctaTitle: "Have a project in mind?",
       ctaDesc: "Tell me about your idea and let's find the best solution for your business together. Every project starts with a conversation — no strings attached.",
-      ctaBtn: "Let's talk",
+      ctaBtn: "Let's discuss your project",
       healthcareCallout: {
         tag: "Regulated Sectors & Healthcare",
         desc: "For mental health professionals and clinical practices we implement GDPR Art. 9 healthcare data encryption, electronic informed consent, and automated booking schedules.",
@@ -665,38 +733,43 @@ const translations = {
       label: "Previous Work",
       title1: "Completed ",
       title2: "Projects",
-      intro: "From complex CMS management to PWA dashboards in React.",
+      intro: "Digital solutions focused on conversion, speed, and real-world results for your business.",
       projects: [
         {
           title: "B&B Palazzo Dana",
+          tags: ["100% Fast & Mobile", "Direct Booking Engine", "Immersive Design"],
           description: "Premium website for a luxury accommodation. Immersive design with custom animations, fully integrated booking system, and comprehensive multilingual support.",
           linkText: "Live Demo"
         },
         {
-          title: "Custom Booking System",
-          description: "A tailor-made, flexible and highly performant booking system. Developed to automate appointment scheduling and optimize conversion.",
-          linkText: "View more"
+          title: "Case Study: Studio Booking Portal",
+          tags: ["Zero Scheduling Conflicts", "Automatic Calendar Sync", "Zero Recurring Fees"],
+          description: "How to eliminate hours lost to manual messaging and phone calls: a 24/7 self-service booking portal synced in real-time with the studio calendar.",
+          linkText: "Explore Case Study"
         },
         {
           title: "Dr. Danubia Macario Studio",
+          tags: ["Healthcare GDPR Compliant", "Multilingual IT / PT-BR", "Patient Booking"],
           description: "Full bilingual website (IT/PT-BR) for psychological consulting. Professional interface with online booking system, multilingual content management.",
           linkText: "Live Demo"
         },
         {
           title: "Dr. Marascio Studio",
+          tags: ["Clinical Schedule Management", "Qualified Lead Generation", "100% Mobile Ready"],
           description: "Complete professional platform. Integration of automated booking system (LatePoint) for patient schedule management.",
           linkText: "Live Demo"
         },
         {
           title: "No-Bloat Portfolio",
-          description: "Developed in React with modern Vite architecture. Smooth animations, glassmorphism, and zero CSS frameworks to maximize performance.",
+          tags: ["Sub-second Loading", "SEO Optimized", "Tailor-Made Design"],
+          description: "Developed with ultra-fast, responsive architecture. Smooth animations, maximum accessibility, and tailor-made design optimized to turn visits into inquiries.",
           linkText: "Live Demo"
         }
       ],
-      nextProject: {
-        title: "Next Project",
-        desc: "Experimenting with APIs and data automation.",
-        badge: "Work in Progress"
+      ctaCard: {
+        title: "Have a similar project?",
+        desc: "Let's build a tailor-made, high-speed online presence designed to convert visitors into real clients.",
+        btn: "Let's discuss your project"
       },
       caseDeepDiveLabel: "Technical deep-dive & industry compliance",
       psychologyDeepDive: "Learn how we build compliant websites for psychologists and psychotherapists"
@@ -717,10 +790,10 @@ const translations = {
         emailPlace: "your@email.com",
         subject: "Subject",
         options: [
-          "New Website Development",
-          "Restyling / Optimization",
-          "Technical Consultation",
-          "Other"
+          "I need a new website",
+          "I want to redesign or speed up my current website",
+          "I want to automate bookings or inquiries",
+          "Other / Not sure yet"
         ],
         message: "Project Details",
         messagePlace: "Briefly describe what you need...",
@@ -779,48 +852,103 @@ const translations = {
     },
     customBooking: {
       backBtn: "Back to Portfolio",
-      heroLabel: "Personal Project",
-      title: "Custom Booking System",
-      subtitle: "A high-performance web application for dynamic real-time appointment and reservation management.",
-      techStackTitle: "Tech Stack",
-      overviewTitle: "Project Overview",
-      overviewP1: "I developed this application to simplify life for anyone offering appointment-based services, eliminating the need for expensive monthly subscriptions to third-party software or heavy CMS plugins.",
-      overviewP2: "Leveraging a modern architecture based on Next.js 14 and Supabase, the system guarantees instant loading and real-time synchronization with Google Calendar. The user experiences an intuitive, friction-free guided booking flow, while the administrator enjoys complete control over their hourly availability.",
-      featuresTitle: "Key Features",
-      features: [
+      heroLabel: "Case Study • Automation & Booking",
+      title: "Booking Portal & Scheduling Automation",
+      subtitle: "How to eliminate hours lost to back-and-forth messaging and calls, prevent scheduling conflicts, and let clients book 24/7 self-service.",
+      techStackTitle: "Key Results & Highlights",
+      tags: [
+        "Zero Scheduling Conflicts",
+        "5+ Hours Saved Weekly",
+        "24/7 Online Booking",
+        "Google Calendar Sync",
+        "Zero Monthly Fees",
+        "100% Mobile Ready"
+      ],
+      metaDateLabel: "Type",
+      metaDateValue: "Automation Case Study",
+      metaCategoryLabel: "Target",
+      metaCategoryValue: "Practices & Studios",
+      badgeProblem: "1. The Problem",
+      badgeSolution: "2. The Solution",
+      badgeImpact: "3. The Results",
+      challengeTitle: "The Challenge: Manual scheduling that drains time",
+      challengeP1: "For many studios and professionals, appointment scheduling is a daily productivity bottleneck: dozens of back-and-forth messages ('Are you free Tuesday?', 'No, how about Thursday?'), constant phone interruptions during client work, and the persistent risk of double-booking.",
+      challengeP2: "Furthermore, over 40% of booking requests arrive in the evening or over the weekend when the practice is closed: without an automated system, those leads either wait days or turn to a competitor who offers instant self-service booking.",
+      challengePoints: [
         {
-          title: "Intuitive Booking",
-          desc: "A clean interface where users select a day from the calendar and see only the time slots that are actually available."
+          title: "Hours lost every week",
+          desc: "5 to 7 hours wasted each week simply coordinating, confirming, and rescheduling appointments via text and phone calls."
         },
         {
-          title: "Admin Dashboard",
-          desc: "A reserved area to manage received bookings, configure working hours, and monitor the schedule."
+          title: "Double-bookings and conflicts",
+          desc: "Human errors, delayed calendar entries, and personal commitments clashing with client appointments."
         },
         {
-          title: "Google Calendar Sync",
-          desc: "Bookings are instantly synchronized with Google Calendar via official APIs to prevent conflicts."
+          title: "Missed off-hours bookings",
+          desc: "Inability for prospective clients to secure a session on evenings or weekends when inspiration strikes."
         },
         {
-          title: "Availability Management",
-          desc: "Maximum flexibility in defining work days, time ranges, planned breaks, and customized durations for each service."
+          title: "The subscription trap",
+          desc: "Third-party SaaS tools charging $40–$80/month in perpetual recurring fees with restrictive features and locked-in data."
         }
       ],
-      architectureTitle: "Technical Architecture",
-      frontendTitle: "Frontend",
-      frontendDesc: "Interactive and responsive user interface built with Next.js 14 (App Router) and Tailwind CSS to guarantee a premium, sleek and ultra-fast mobile-first design.",
-      backendTitle: "Serverless",
-      backendDesc: "Serverless management via Next.js Server Actions and integration with the Google Calendar API to synchronize every reservation in real time.",
-      databaseTitle: "Database",
-      databaseDesc: "Secure relational database and real-time user authentication managed natively via Supabase for secure appointment persistence.",
-      resultsTitle: "Why is it the right choice?",
-      resultsList: [
-        "Instant two-way synchronization with Google Calendar APIs.",
-        "Excellent loading speed thanks to Next.js 14 server-side rendering.",
-        "Secure authentication and real-time database provided by the Supabase infrastructure."
+      solutionTitle: "The Solution: A streamlined, self-service synced booking portal",
+      solutionP1: "We developed a lightweight, intuitive booking portal where clients choose their desired service and see only the time slots that are truly open in real time.",
+      solutionP2: "Connected directly with Google Calendar, the moment an appointment is confirmed, the slot is instantly reserved on the studio calendar and locked from further booking. The client receives an automated confirmation and reminder with zero manual overhead.",
+      featuresTitle: "How the flow works",
+      features: [
+        {
+          title: "Real-Time Slot Availability",
+          desc: "Clients pick a date and see exact available times calculated dynamically against the studio calendar."
+        },
+        {
+          title: "Bi-directional Calendar Sync",
+          desc: "Seamless Google Calendar integration: personal appointments or days off automatically block slots on the portal."
+        },
+        {
+          title: "Instant Confirmation & Reminders",
+          desc: "Zero wait time: clients receive instant confirmation and automated reminders, drastically reducing no-shows."
+        },
+        {
+          title: "Full Studio Dashboard",
+          desc: "Dedicated control panel to adjust working hours, session durations, buffer times, and holiday dates."
+        }
       ],
-      ctaTitle: "Need a similar system for your business?",
-      ctaDesc: "If you want to automate booking management without depending on expensive monthly fees or unstable plugins, let's talk.",
-      ctaBtn: "Discuss your project"
+      impactTitle: "The Impact: Measurable outcomes post-launch",
+      impactStats: [
+        {
+          value: "+5h",
+          label: "Saved Weekly",
+          desc: "Hours formerly spent in coordination chats, now reinvested into client care and core work."
+        },
+        {
+          value: "0",
+          label: "Scheduling Conflicts",
+          desc: "Double-bookings and human errors completely eliminated via real-time sync."
+        },
+        {
+          value: "+38%",
+          label: "Off-Hours Bookings",
+          desc: "Clients acquired during evenings and weekends without needing to answer the phone."
+        },
+        {
+          value: "$0",
+          label: "Monthly Software Fees",
+          desc: "Owned platform without ongoing monthly subscription fees to third-party tools."
+        }
+      ],
+      resultsTitle: "Key transformations for the practice",
+      resultsList: [
+        "Self-service appointment booking completed by clients in under 60 seconds on mobile devices.",
+        "Zero friction and zero back-and-forth messaging to schedule or reschedule appointments.",
+        "Calendar always synchronized and accessible on the professional's phone, tablet, and laptop.",
+        "Client data protected, GDPR-compliant, and free from intrusive third-party data tracking."
+      ],
+      techAdvantageTitle: "The Engineering Behind the Results",
+      techAdvantageDesc: "Unlike bloated CMS plugins or slow third-party platforms, this portal was built with a modern, ultra-lightweight architecture (Next.js serverless + Supabase). It loads in under a second, delivers 100% reliability, and protects client privacy.",
+      ctaTitle: "Ready to eliminate manual appointment management?",
+      ctaDesc: "Let's review your studio's workflow and create a tailor-made, owned booking solution — without recurring monthly fees.",
+      ctaBtn: "Discuss your practice"
     }
   }
 };

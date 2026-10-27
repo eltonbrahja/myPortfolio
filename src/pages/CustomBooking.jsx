@@ -4,16 +4,14 @@ import { motion } from 'framer-motion';
 import { 
   ArrowLeft, 
   Calendar, 
+  Clock, 
+  AlertCircle, 
+  CheckCircle2, 
+  Zap, 
+  TrendingUp, 
   ShieldCheck, 
-  Cpu, 
-  Code2, 
-  Database, 
-  Laptop, 
-  Server, 
-  Award, 
-  ChevronRight,
-  Sparkles,
-  CheckCircle2
+  Settings, 
+  Users
 } from 'lucide-react';
 import PageTransition from '../components/PageTransition';
 import { useLanguage } from '../context/LanguageContext';
@@ -31,10 +29,18 @@ const CustomBooking = () => {
     "/prenotazione/prenotazione4.png"
   ];
 
-  const tags = ["Next.js 14", "Supabase", "Tailwind CSS", "Google Calendar API", "TypeScript", "App Router"];
+  const tags = t('customBooking.tags') || [
+    "Zero Conflitti di Agenda",
+    "5+ Ore Risparmiate / Settimana",
+    "Prenotazioni Online H24",
+    "Sincronizzazione Google Calendar",
+    "Zero Canoni Mensili",
+    "100% Mobile Ready"
+  ];
 
-  // Helper safely checking array translations
+  const challengePoints = t('customBooking.challengePoints') || [];
   const features = t('customBooking.features') || [];
+  const impactStats = t('customBooking.impactStats') || [];
   const results = t('customBooking.resultsList') || [];
 
   return (
@@ -86,7 +92,7 @@ const CustomBooking = () => {
               <motion.img 
                 key={activePhoto}
                 src={photos[activePhoto]} 
-                alt={`Booking System Screenshot ${activePhoto + 1}`} 
+                alt={`Screenshot Portale Prenotazioni ${activePhoto + 1}`} 
                 className="gallery-main-image"
                 initial={{ opacity: 0, scale: 0.98 }}
                 animate={{ opacity: 1, scale: 1 }}
@@ -111,7 +117,7 @@ const CustomBooking = () => {
           </GlassCard>
         </section>
 
-        {/* Tech Stack Bar */}
+        {/* Highlights / Outcomes Bar */}
         <section className="booking-tags-section">
           <div className="booking-tags-title">{t('customBooking.techStackTitle')}</div>
           <div className="booking-tags-container">
@@ -123,13 +129,17 @@ const CustomBooking = () => {
           </div>
         </section>
 
-        {/* Project Overview */}
-        <section className="booking-overview-section">
+        {/* 1. THE CHALLENGE */}
+        <section className="booking-challenge-section">
           <div className="section-grid">
             <div className="overview-text-block">
-              <h2 className="section-block-title">{t('customBooking.overviewTitle')}</h2>
-              <p>{t('customBooking.overviewP1')}</p>
-              <p>{t('customBooking.overviewP2')}</p>
+              <div className="case-pillar-badge warning">
+                <AlertCircle size={14} />
+                <span>{t('customBooking.badgeProblem') || "1. Il Problema"}</span>
+              </div>
+              <h2 className="section-block-title">{t('customBooking.challengeTitle')}</h2>
+              <p>{t('customBooking.challengeP1')}</p>
+              <p>{t('customBooking.challengeP2')}</p>
             </div>
             
             <GlassCard className="overview-meta-card" delay={0.2}>
@@ -138,35 +148,62 @@ const CustomBooking = () => {
                   <Calendar size={20} />
                 </div>
                 <div>
-                  <div className="meta-label">Anno / Date</div>
-                  <div className="meta-value">2026</div>
+                  <div className="meta-label">{t('customBooking.metaDateLabel') || "Tipologia"}</div>
+                  <div className="meta-value">{t('customBooking.metaDateValue') || "Caso Studio Reale"}</div>
                 </div>
               </div>
               <div className="meta-item">
                 <div className="meta-icon-wrapper">
-                  <Cpu size={20} />
+                  <Users size={20} />
                 </div>
                 <div>
-                  <div className="meta-label">Categoria / Category</div>
-                  <div className="meta-value">Booking Engine</div>
+                  <div className="meta-label">{t('customBooking.metaCategoryLabel') || "Destinatari"}</div>
+                  <div className="meta-value">{t('customBooking.metaCategoryValue') || "Studi & Professionisti"}</div>
                 </div>
               </div>
             </GlassCard>
           </div>
+
+          {/* 4 Pain Points */}
+          <div className="challenge-cards-grid">
+            {Array.isArray(challengePoints) && challengePoints.map((item, idx) => (
+              <GlassCard key={idx} className="challenge-card" delay={0.1 * idx}>
+                <div className="challenge-icon-box">
+                  {idx === 0 && <Clock size={22} />}
+                  {idx === 1 && <AlertCircle size={22} />}
+                  {idx === 2 && <Calendar size={22} />}
+                  {idx === 3 && <Zap size={22} />}
+                </div>
+                <h3 className="challenge-card-title">{item.title}</h3>
+                <p className="challenge-card-desc">{item.desc}</p>
+              </GlassCard>
+            ))}
+          </div>
         </section>
 
-        {/* Key Features */}
-        <section className="booking-features-section">
-          <h2 className="section-block-title center">{t('customBooking.featuresTitle')}</h2>
-          
+        {/* 2. THE SOLUTION */}
+        <section className="booking-solution-section">
+          <div className="solution-intro-center">
+            <div className="case-pillar-badge success">
+              <CheckCircle2 size={14} />
+              <span>{t('customBooking.badgeSolution') || "2. La Soluzione"}</span>
+            </div>
+            <h2 className="section-block-title center">{t('customBooking.solutionTitle')}</h2>
+            <div className="solution-lead-text">
+              <p>{t('customBooking.solutionP1')}</p>
+              <p>{t('customBooking.solutionP2')}</p>
+            </div>
+          </div>
+
+          <h3 className="solution-features-heading">{t('customBooking.featuresTitle')}</h3>
           <div className="features-grid">
             {Array.isArray(features) && features.map((feat, idx) => (
               <GlassCard key={idx} className="feature-card" delay={0.1 * idx}>
                 <div className="feature-icon-box">
                   {idx === 0 && <Calendar size={24} />}
-                  {idx === 1 && <Laptop size={24} />}
-                  {idx === 2 && <Award size={24} />}
-                  {idx === 3 && <Code2 size={24} />}
+                  {idx === 1 && <Zap size={24} />}
+                  {idx === 2 && <CheckCircle2 size={24} />}
+                  {idx === 3 && <Settings size={24} />}
                 </div>
                 <h3 className="feature-card-title">{feat.title}</h3>
                 <p className="feature-card-desc">{feat.desc}</p>
@@ -175,62 +212,36 @@ const CustomBooking = () => {
           </div>
         </section>
 
-        {/* Technical Architecture */}
-        <section className="booking-architecture-section">
-          <h2 className="section-block-title center">{t('customBooking.architectureTitle')}</h2>
-          
-          <div className="architecture-flow-container">
-            {/* Frontend Block */}
-            <GlassCard className="arch-card frontend" delay={0.1}>
-              <div className="arch-icon-wrapper">
-                <Laptop size={32} />
-              </div>
-              <h3 className="arch-card-title">{t('customBooking.frontendTitle')}</h3>
-              <p className="arch-card-desc">{t('customBooking.frontendDesc')}</p>
-            </GlassCard>
-
-            {/* Connection Arrow */}
-            <div className="arch-connector-line">
-              <div className="connector-dot"></div>
-              <ChevronRight className="arrow-icon" size={24} />
+        {/* 3. THE IMPACT & RESULTS */}
+        <section className="booking-impact-section">
+          <div className="impact-intro-center">
+            <div className="case-pillar-badge accent">
+              <TrendingUp size={14} />
+              <span>{t('customBooking.badgeImpact') || "3. I Risultati"}</span>
             </div>
-
-            {/* Backend Block */}
-            <GlassCard className="arch-card backend" delay={0.2}>
-              <div className="arch-icon-wrapper">
-                <Server size={32} />
-              </div>
-              <h3 className="arch-card-title">{t('customBooking.backendTitle')}</h3>
-              <p className="arch-card-desc">{t('customBooking.backendDesc')}</p>
-            </GlassCard>
-
-            {/* Connection Arrow */}
-            <div className="arch-connector-line">
-              <div className="connector-dot"></div>
-              <ChevronRight className="arrow-icon" size={24} />
-            </div>
-
-            {/* Database Block */}
-            <GlassCard className="arch-card database" delay={0.3}>
-              <div className="arch-icon-wrapper">
-                <Database size={32} />
-              </div>
-              <h3 className="arch-card-title">{t('customBooking.databaseTitle')}</h3>
-              <p className="arch-card-desc">{t('customBooking.databaseDesc')}</p>
-            </GlassCard>
+            <h2 className="section-block-title center">{t('customBooking.impactTitle')}</h2>
           </div>
-        </section>
 
-        {/* Results */}
-        <section className="booking-results-section">
-          <div className="section-grid align-center">
+          {/* 4 Stat Cards */}
+          <div className="impact-stats-grid">
+            {Array.isArray(impactStats) && impactStats.map((stat, idx) => (
+              <GlassCard key={idx} className="impact-stat-card" delay={0.1 * idx}>
+                <div className="impact-stat-value text-gradient">{stat.value}</div>
+                <div className="impact-stat-label">{stat.label}</div>
+                <p className="impact-stat-desc">{stat.desc}</p>
+              </GlassCard>
+            ))}
+          </div>
+
+          {/* Results Details Grid */}
+          <div className="section-grid align-center results-detail-wrapper">
             <div className="results-image-showcase">
-              <img src="/prenotazione/prenotazione2.png" alt="System Detail" className="results-secondary-img" />
+              <img src="/prenotazione/prenotazione2.png" alt="Dettaglio Portale Prenotazioni" className="results-secondary-img" />
               <div className="results-glow"></div>
             </div>
             
             <div className="results-content-block">
-              <h2 className="section-block-title">{t('customBooking.resultsTitle')}</h2>
+              <h3 className="results-block-subtitle">{t('customBooking.resultsTitle')}</h3>
               <ul className="results-list">
                 {Array.isArray(results) && results.map((result, idx) => (
                   <motion.li 
@@ -248,6 +259,17 @@ const CustomBooking = () => {
               </ul>
             </div>
           </div>
+
+          {/* Engineering Advantage Box */}
+          <GlassCard className="tech-advantage-card" delay={0.3}>
+            <div className="tech-advantage-header">
+              <div className="tech-advantage-icon">
+                <ShieldCheck size={26} />
+              </div>
+              <h3 className="tech-advantage-title">{t('customBooking.techAdvantageTitle')}</h3>
+            </div>
+            <p className="tech-advantage-desc">{t('customBooking.techAdvantageDesc')}</p>
+          </GlassCard>
         </section>
 
         {/* Call To Action */}
@@ -256,8 +278,8 @@ const CustomBooking = () => {
             <div className="cta-glow"></div>
             <h2 className="booking-cta-title">{t('customBooking.ctaTitle')}</h2>
             <p className="booking-cta-desc">{t('customBooking.ctaDesc')}</p>
-            <div style={{ margin: '12px 0 22px 0', fontSize: '0.9rem' }}>
-              <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} style={{ color: 'var(--accent-color)', textDecoration: 'underline', fontWeight: 500 }}>
+            <div className="booking-cta-deepdive">
+              <Link to={localizePath('/blog/sito-web-psicologi-pazienti-giusti')} className="deepdive-link">
                 {t('portfolio.psychologyDeepDive')} →
               </Link>
             </div>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Github, Linkedin, Mail } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import LanguageSwitcher from './LanguageSwitcher';
 import './Footer.css';
 
 const Footer = () => {
@@ -55,8 +56,11 @@ const Footer = () => {
         
         <div className="footer-bottom">
           <p>&copy; {new Date().getFullYear()} Elton Brahja. {t('footer.rights')}</p>
-          <div className="footer-bottom-links">
-            <Link to={localizePath('/privacy')}>{t('footer.privacy')}</Link>
+          <div className="footer-bottom-actions">
+            <Link to={localizePath('/privacy')} className="footer-privacy-link">{t('footer.privacy')}</Link>
+            <div className="footer-lang-wrapper">
+              <LanguageSwitcher id="footer" />
+            </div>
           </div>
         </div>
       </div>

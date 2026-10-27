@@ -96,7 +96,7 @@ const USAFlag = () => (
   </svg>
 );
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher = ({ id = 'default' }) => {
   const { language } = useLanguage();
   const location = useLocation();
   const navigate = useNavigate();
@@ -134,7 +134,7 @@ const LanguageSwitcher = () => {
       >
         {language === 'it' && (
           <Motion.div
-            layoutId="activeLangIndicator"
+            layoutId={`activeLangIndicator-${id}`}
             className="lang-active-pill"
             transition={{ type: 'spring', stiffness: 450, damping: 32 }}
           />
@@ -174,7 +174,7 @@ const LanguageSwitcher = () => {
       >
         {language === 'en' && (
           <Motion.div
-            layoutId="activeLangIndicator"
+            layoutId={`activeLangIndicator-${id}`}
             className="lang-active-pill"
             transition={{ type: 'spring', stiffness: 450, damping: 32 }}
           />

@@ -62,14 +62,6 @@
   text-transform: uppercase;
 }
 
-.sparkle-icon {
-  animation: pulseSparkle 2s infinite ease-in-out;
-}
-
-@keyframes pulseSparkle {
-  0%, 100% { transform: scale(1) rotate(0deg); opacity: 0.8; }
-  50% { transform: scale(1.2) rotate(15deg); opacity: 1; }
-}
 
 .booking-hero-title {
   font-size: 3.5rem;
@@ -332,105 +324,228 @@
   color: var(--text-secondary);
 }
 
-/* Architecture Section */
-.booking-architecture-section {
-  width: 100%;
-}
-
-.architecture-flow-container {
-  display: flex;
-  justify-content: space-between;
+/* Case Study Pillar Badges */
+.case-pillar-badge {
+  display: inline-flex;
   align-items: center;
-  gap: 1.5rem;
-  position: relative;
-  width: 100%;
+  gap: 0.5rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 1rem;
+  width: fit-content;
 }
 
-.arch-card {
-  flex: 1;
-  padding: 2.5rem 2rem;
-  text-align: center;
+.case-pillar-badge.warning {
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px solid rgba(239, 68, 68, 0.22);
+  color: #dc2626;
+}
+
+.case-pillar-badge.success {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.22);
+  color: #059669;
+}
+
+.case-pillar-badge.accent {
+  background: rgba(41, 151, 255, 0.08);
+  border: 1px solid rgba(41, 151, 255, 0.22);
+  color: #0071e3;
+}
+
+/* Pillar 1: Challenge Grid */
+.challenge-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.challenge-card {
+  padding: 2rem 1.75rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 1.25rem;
-  position: relative;
-  min-height: 280px;
+  gap: 1rem;
+  border-left: 3px solid rgba(239, 68, 68, 0.4);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.arch-icon-wrapper {
+.challenge-card:hover {
+  transform: translateY(-4px);
+  border-left-color: #ef4444;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.challenge-icon-box {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: rgba(86, 124, 141, 0.06);
-  border: 1px solid rgba(86, 124, 141, 0.16);
-  color: var(--accent-color);
-  transition: all 0.3s ease;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(239, 68, 68, 0.08);
+  color: #dc2626;
 }
 
-.arch-card:hover .arch-icon-wrapper {
-  background: rgba(52, 73, 94, 0.1);
-  border-color: rgba(52, 73, 94, 0.1);
-  transform: scale(1.05);
-}
-
-.arch-card-title {
-  font-size: 1.25rem;
+.challenge-card-title {
+  font-size: 1.2rem;
   font-weight: 600;
+  color: var(--text-primary);
 }
 
-.arch-card-desc {
-  font-size: 0.9rem;
+.challenge-card-desc {
+  font-size: 0.95rem;
   line-height: 1.5;
   color: var(--text-secondary);
 }
 
-.arch-badge {
-  margin-top: auto;
-  font-size: 0.75rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  padding: 0.3rem 0.8rem;
-  border-radius: 50px;
-  background: rgba(86, 124, 141, 0.10);
+/* Pillar 2: Solution Section */
+.solution-intro-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto 3rem auto;
+}
+
+.solution-lead-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
   color: var(--text-secondary);
 }
 
-.arch-connector-line {
+.solution-features-heading {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin-bottom: 1.75rem;
+  color: var(--text-primary);
+}
+
+/* Pillar 3: Impact & Results Section */
+.impact-intro-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.impact-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.impact-stat-card {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.impact-stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(52, 73, 94, 0.1);
+}
+
+.impact-stat-value {
+  font-size: 3.25rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+}
+
+.impact-stat-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.impact-stat-desc {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.results-detail-wrapper {
+  margin-bottom: 3.5rem;
+}
+
+.results-block-subtitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+  color: var(--text-primary);
+}
+
+/* Engineering Advantage Box */
+.tech-advantage-card {
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border-left: 3px solid var(--accent-color);
+  background: rgba(86, 124, 141, 0.04);
+}
+
+.tech-advantage-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tech-advantage-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  flex: 0 0 60px;
-  height: 2px;
-  background: linear-gradient(90deg, rgba(52, 73, 94, 0.1), rgba(168, 85, 247, 0.3));
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: rgba(52, 73, 94, 0.08);
+  color: var(--accent-color);
+  flex-shrink: 0;
 }
 
-.connector-dot {
-  position: absolute;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--accent-color);
-  box-shadow: 0 0 10px var(--accent-color);
-  animation: moveDot 3s infinite linear;
+.tech-advantage-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
-@keyframes moveDot {
-  0% { left: 0%; opacity: 0; }
-  10% { opacity: 1; }
-  90% { opacity: 1; }
-  100% { left: 100%; opacity: 0; }
+.tech-advantage-desc {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
 }
 
-.arrow-icon {
-  position: absolute;
-  right: -8px;
-  color: rgba(168, 85, 247, 0.5);
+.booking-cta-deepdive {
+  margin: 12px 0 24px 0;
+}
+
+.deepdive-link {
+  color: var(--accent-color);
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: opacity 0.2s ease;
+}
+
+.deepdive-link:hover {
+  opacity: 0.8;
 }
 
 /* Results Section */
@@ -564,40 +679,18 @@
     gap: 3rem;
   }
   
-  .architecture-flow-container {
-    flex-direction: column;
-    gap: 2rem;
-  }
-  
-  .arch-connector-line {
-    flex: none;
-    width: 2px;
-    height: 40px;
-    background: linear-gradient(180deg, rgba(52, 73, 94, 0.1), rgba(168, 85, 247, 0.3));
-  }
-  
-  .arrow-icon {
-    transform: rotate(90deg);
-    bottom: -12px;
-    right: -11px;
-  }
-  
-  @keyframes moveDot {
-    0% { top: 0%; opacity: 0; }
-    10% { opacity: 1; }
-    90% { opacity: 1; }
-    100% { top: 100%; opacity: 0; }
-  }
-  
-  .connector-dot {
-    animation: moveDot 3s infinite linear;
-    width: 6px;
-    height: 6px;
-    left: -2px;
+  .impact-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .booking-hero-title {
     font-size: 2.75rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .impact-stats-grid {
+    grid-template-columns: 1fr;
   }
 }
 

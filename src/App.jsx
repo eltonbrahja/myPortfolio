@@ -7,7 +7,6 @@ import { HelmetProvider } from 'react-helmet-async';
 // Components
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import WhatsAppButton from './components/WhatsAppButton';
 import CookieBanner from './components/CookieBanner';
 
 import Home from './pages/Home';
@@ -123,7 +122,6 @@ const AppLayout = () => {
         <AnimatedRoutes />
       </main>
       <Footer />
-      {!isHome && <WhatsAppButton />}
       <CookieBanner />
     </div>
   );

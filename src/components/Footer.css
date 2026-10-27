@@ -125,11 +125,29 @@
   }
 }
 
-.footer-bottom-links a {
+.footer-bottom-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-privacy-link {
   color: var(--text-secondary);
   transition: color 0.3s ease;
 }
 
-.footer-bottom-links a:hover {
+.footer-privacy-link:hover {
   color: var(--text-primary);
+}
+
+.footer-lang-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-lang-wrapper .lang-switcher {
+  background: rgba(255, 255, 255, 0.65);
+  border-color: rgba(86, 124, 141, 0.2);
 }
